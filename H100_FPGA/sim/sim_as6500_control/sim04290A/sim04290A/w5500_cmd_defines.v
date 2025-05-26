@@ -1,0 +1,50 @@
+/*General Register command*/
+`define GATEWAY				8'h01
+`define NETMASK				8'h02
+`define SMAC					8'h03
+`define SIP						8'h04
+`define PHY_STATE				8'h10
+/*Socket Register command*/
+`define SOCK_MODE				8'h20
+`define SOCK_CMD				8'h21
+`define SOCK_INT				8'h22
+`define SOCK_STATE			8'h23
+`define SOCK_SPORT			8'h24
+`define SOCK_DMAC				8'h25
+`define SOCK_DIP				8'h26
+`define SOCK_DPORT			8'h27
+`define SOCK_RBUF_SIZE		8'h28
+`define SOCK_TBUF_SIZE		8'h29
+`define SOCK_TX_FSIZE		8'h2a
+`define SOCK_TX_RPOINT		8'h2b
+`define SOCK_TX_WPOINT		8'h2c
+`define SOCK_RX_SIZE			8'h2d
+`define SOCK_RX_RPOINT		8'h2e
+`define SOCK_RX_WPOINT		8'h2f
+`define SOCK_KEEPALIVE		8'h30
+`define SOCK_RTR		    8'h31
+`define SOCK_RCR		    8'h32
+/*Socket Buffer command*/
+`define SOCK_BUF				8'h40
+
+`define READ					1'b0
+`define WRITE					1'b1
+
+`define OPEN					8'h01
+`define LISTEN 				8'h02
+`define CONNECT 				8'h04
+`define DISCON 				8'h08
+`define CLOSE 					8'h10
+`define SEND 					8'h20
+`define SEND_MAC 				8'h21
+`define SEND_KEEP 			8'h22
+`define RECV	 				8'h40
+
+`define SOCK_CLOSED			8'h00
+`define SOCK_INIT				8'h13
+`define SOCK_ESTABLISHED	8'h17
+`define SOCK_CLOSE_WAIT		8'h1c
+`define SOCK_UDP				8'h22
+
+`define UDP_SOCK				3'd0
+`define TCP_SOCK				3'd1

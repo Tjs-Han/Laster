@@ -1,0 +1,132 @@
+#Lattice Semiconductor Corporation Ltd.
+#Lattice synthesis engine project file for System Builder/Planner
+
+-a "ecp5u"
+-d LFE5U-25F
+-t CABGA256
+-s 6
+-frequency 200
+-optimization_goal Balanced
+-bram_utilization 100
+-ramstyle auto
+-romstyle auto
+-use_carry_chain 1
+-carry_chain_length 0
+-force_gsr auto
+-resource_sharing 1
+-propagate_constants 1
+-remove_duplicate_regs 1
+-mux_style Auto
+-max_fanout 1000
+-fsm_encoding_style Auto
+-twr_paths 3
+-fix_gated_clocks 1
+-use_io_insertion 0
+-resolve_mixed_drivers 0
+-use_io_reg 1
+
+-lpf 1
+#add_file options
+-p "D:/Project/H100_FPGA/c25x_fpga_ip/SBP_c25x_pll"
+-p "D:/Project/H100_FPGA/source"
+-p "D:/Project/H100_FPGA/source/dist"
+-p "D:/Project/H100_FPGA/source/eth"
+-p "D:/Project/H100_FPGA/source/flash"
+-p "D:/Project/H100_FPGA/source/flash/spi flash"
+-p "D:/Project/H100_FPGA/source/insp"
+-p "D:/Project/H100_FPGA/source/insp/adda"
+-p "D:/Project/H100_FPGA/source/laser"
+-p "D:/Project/H100_FPGA/source/rotate"
+-p "D:/Project/H100_FPGA/source/sram"
+-p "D:/Project/H100_FPGA/source/dist/as6500"
+-p "D:/Project/H100_FPGA/source/dist/calculate"
+-p "D:/Project/H100_FPGA"
+-p "D:/Project/H100_FPGA/c25x_fpga_ip/c25x_pll"
+-p "D:/Project/H100_FPGA/c25x_fpga_ip/cache_opto_ram"
+-p "D:/Project/H100_FPGA/c25x_fpga_ip/distance_ram"
+-p "D:/Project/H100_FPGA/c25x_fpga_ip/eth_data_ram"
+-p "D:/Project/H100_FPGA/c25x_fpga_ip/eth_send_ram"
+-p "D:/Project/H100_FPGA/c25x_fpga_ip/multiplier"
+-p "D:/Project/H100_FPGA/c25x_fpga_ip/multiplier3"
+-p "D:/Project/H100_FPGA/c25x_fpga_ip/opto_ram"
+-p "D:/Project/H100_FPGA/c25x_fpga_ip/packet_data_ram"
+-p "D:/Project/H100_FPGA/c25x_fpga_ip/tcp_recv_fifo"
+-p "D:/Project/H100_FPGA/c25x_fpga_ip"
+-ver "D:/Project/H100_FPGA/source/c25x_fpga.v"
+-ver "D:/Project/H100_FPGA/source/dist/calib_packet.v"
+-ver "D:/Project/H100_FPGA/source/dist/dist_measure.v"
+-ver "D:/Project/H100_FPGA/source/dist/dist_packet.v"
+-ver "D:/Project/H100_FPGA/source/dist/measure_para.v"
+-ver "D:/Project/H100_FPGA/source/eth/datagram_cmd_defines.v"
+-ver "D:/Project/H100_FPGA/source/eth/datagram_parser.v"
+-ver "D:/Project/H100_FPGA/source/eth/division.v"
+-ver "D:/Project/H100_FPGA/source/eth/index_calculate.v"
+-ver "D:/Project/H100_FPGA/source/eth/parameter_ident_define.v"
+-ver "D:/Project/H100_FPGA/source/eth/parameter_init.v"
+-ver "D:/Project/H100_FPGA/source/eth/spi_w5500_cmd.v"
+-ver "D:/Project/H100_FPGA/source/eth/time_stamp.v"
+-ver "D:/Project/H100_FPGA/source/eth/w5500_cmd_defines.v"
+-ver "D:/Project/H100_FPGA/source/eth/w5500_control.v"
+-ver "D:/Project/H100_FPGA/source/eth/w5500_reg_defines.v"
+-ver "D:/Project/H100_FPGA/source/eth/spi_master_eth.v"
+-ver "D:/Project/H100_FPGA/source/flash/flash_control.v"
+-ver "D:/Project/H100_FPGA/source/flash/USRMCLK.v"
+-ver "D:/Project/H100_FPGA/source/flash/spi flash/spi_master.v"
+-ver "D:/Project/H100_FPGA/source/flash/spi flash/spi_flash_top.v"
+-ver "D:/Project/H100_FPGA/source/flash/spi flash/spi_flash_cmd.v"
+-ver "D:/Project/H100_FPGA/source/insp/adc_to_dac.v"
+-ver "D:/Project/H100_FPGA/source/insp/adc_to_temp.v"
+-ver "D:/Project/H100_FPGA/source/insp/pluse_average.v"
+-ver "D:/Project/H100_FPGA/source/insp/self_inspection.v"
+-ver "D:/Project/H100_FPGA/source/insp/adda/AD_SPI.v"
+-ver "D:/Project/H100_FPGA/source/insp/adda/adc_control.v"
+-ver "D:/Project/H100_FPGA/source/insp/adda/DA_SPI.v"
+-ver "D:/Project/H100_FPGA/source/laser/laser_control.v"
+-ver "D:/Project/H100_FPGA/source/rotate/encoder_generate.v"
+-ver "D:/Project/H100_FPGA/source/rotate/motor_control.v"
+-ver "D:/Project/H100_FPGA/source/rotate/opto_switch_filter.v"
+-ver "D:/Project/H100_FPGA/source/rotate/rotate_control.v"
+-ver "D:/Project/H100_FPGA/source/sram/sram_control.v"
+-ver "D:/Project/H100_FPGA/source/dist/as6500/as6500_control.v"
+-ver "D:/Project/H100_FPGA/source/dist/as6500/as6500_ctrl.v"
+-ver "D:/Project/H100_FPGA/source/dist/as6500/SPI_Master_2.v"
+-ver "D:/Project/H100_FPGA/source/eth/spi_w5500_top_3.v"
+-ver "D:/Project/H100_FPGA/source/eth/datagram_parser_udp.v"
+-ver "D:/Project/H100_FPGA/source/eth/ntp_calculate.v"
+-ver "D:/Project/H100_FPGA/source/eth/ntp_receive_parser.v"
+-ver "D:/Project/H100_FPGA/source/eth/ntp_send_make.v"
+-ver "D:/Project/H100_FPGA/source/eth/time_stamp_ntp.v"
+-ver "D:/Project/H100_FPGA/source/dist/calculate/data_pre.v"
+-ver "D:/Project/H100_FPGA/source/dist/calculate/dist_cal.v"
+-ver "D:/Project/H100_FPGA/source/dist/calculate/dist_calculate.v"
+-ver "D:/Project/H100_FPGA/source/dist/calculate/index_cal.v"
+-ver "D:/Project/H100_FPGA/source/insp/adc_to_dist.v"
+-ver "D:/Project/H100_FPGA/source/dist/dist_filter.v"
+-ver "D:/Project/H100_FPGA/source/dist/calculate/rssi_cal.v"
+-ver "D:/Project/H100_FPGA/source/dist/calculate/div_rill.v"
+-ver "D:/Project/H100_FPGA/data_process_3.v"
+-ver "D:/Project/H100_FPGA/c25x_fpga_ip/c25x_pll/c25x_pll.v"
+-ver "D:/Project/H100_FPGA/c25x_fpga_ip/cache_opto_ram/cache_opto_ram.v"
+-ver "D:/Project/H100_FPGA/c25x_fpga_ip/distance_ram/distance_ram.v"
+-ver "D:/Project/H100_FPGA/c25x_fpga_ip/eth_data_ram/eth_data_ram.v"
+-ver "D:/Project/H100_FPGA/c25x_fpga_ip/eth_send_ram/eth_send_ram.v"
+-ver "D:/Project/H100_FPGA/c25x_fpga_ip/multiplier/multiplier.v"
+-ver "D:/Project/H100_FPGA/c25x_fpga_ip/multiplier3/multiplier3.v"
+-ver "D:/Project/H100_FPGA/c25x_fpga_ip/opto_ram/opto_ram.v"
+-ver "D:/Project/H100_FPGA/c25x_fpga_ip/packet_data_ram/packet_data_ram.v"
+-ver "D:/Project/H100_FPGA/c25x_fpga_ip/tcp_recv_fifo/tcp_recv_fifo.v"
+-ver "D:/Project/H100_FPGA/c25x_fpga_ip/c25x_fpga_ip.v"
+-ver "D:/Project/H100_FPGA/opto_packet.v"
+-ver "D:/Project/H100_FPGA/source/rotate/motor_control_2.v"
+-ver "D:/Project/H100_FPGA/source/rotate/motor_drive.v"
+-ver "D:/Project/H100_FPGA/source/rotate/random_number_generator.v"
+-ver "D:/Project/H100_FPGA/c25x_fpga_ip/SBP_c25x_pll/SBP_c25x_pll.v"
+-hdl_param SBP_SYNTHESIS ""
+
+
+
+#top module name
+-top SBP_c25x_pll
+
+#set result format/file last
+-ngo "SBP_c25x_pll.ngo"

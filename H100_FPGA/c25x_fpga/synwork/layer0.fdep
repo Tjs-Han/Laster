@@ -1,0 +1,266 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\programs\\fpga\\C251\\C25X_21090810\\c25x_fpga\\synwork\\c25x_fpga_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|D:\\programs\\fpga\\C251\\C25X_21090810|-I|D:\\programs\\fpga\\C251\\C25X_21090810\\c25x_fpga\\|-I|E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib|-sysv|-devicelib|E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib\\lucent\\ecp5u.v|-devicelib|E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-DSBP_SYNTHESIS|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001"
+#CUR:"E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\bin64\\c_ver.exe":1603937922
+#CUR:"E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib\\lucent\\ecp5u.v":1603938054
+#CUR:"E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib\\lucent\\pmi_def.v":1603938054
+#CUR:"E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib\\vlog\\hypermods.v":1603938190
+#CUR:"E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib\\vlog\\umr_capim.v":1603938190
+#CUR:"E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_objects.v":1603938190
+#CUR:"E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1603938190
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\c25x_fpga.v":1630996072
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\dist\\calib_packet.v":1631069921
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\dist\\dist_calculate.v":1631069826
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\dist\\dist_filter.v":1630410289
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\dist\\dist_measure.v":1631069751
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\dist\\dist_packet.v":1629879898
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\dist\\measure_para.v":1631069200
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\dist\\tail_filter.v":1630379605
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\dist\\ms1004\\ms1004_control_fall.v":1631003955
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\dist\\ms1004\\ms1004_control_rise.v":1631003805
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\dist\\ms1004\\TDC_SPI_ms1004_2.v":1624606551
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\datagram_cmd_defines.v":1630996663
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\datagram_parser.v":1630905913
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\datagram_cmd_defines.v":1630996663
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\division.v":1630572966
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\index_calculate.v":1630485137
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\parameter_ident_define.v":1630379913
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\parameter_init.v":1631068828
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\datagram_cmd_defines.v":1630996663
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\parameter_ident_define.v":1630379913
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\spi_w5500_cmd.v":1630900242
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\w5500_reg_defines.v":1619579763
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\w5500_cmd_defines.v":1620609378
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\spi_w5500_top.v":1630636101
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\w5500_reg_defines.v":1619579763
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\w5500_cmd_defines.v":1620609378
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\time_stamp.v":1624444679
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\w5500_cmd_defines.v":1620609378
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\w5500_control.v":1630892756
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\w5500_reg_defines.v":1619579763
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\flash\\flash_control.v":1631068721
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\flash\\USRMCLK.v":1619408794
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\flash\\spi flash\\spi_master.v":1619327369
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\flash\\spi flash\\spi_flash_top.v":1621216973
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\flash\\spi flash\\spi_flash_cmd.v":1630559421
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\insp\\adc_to_dac.v":1630487641
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\insp\\adc_to_temp.v":1630487651
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\insp\\pluse_average.v":1622796385
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\insp\\self_inspection.v":1630487662
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\insp\\adda\\AD_SPI.v":1628574069
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\insp\\adda\\adc_control.v":1628578936
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\insp\\adda\\DA_SPI.v":1628574408
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\laser\\laser_control.v":1631004660
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\rotate\\encoder_generate.v":1631007064
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\rotate\\motor_control.v":1630994020
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\rotate\\opto_switch_filter.v":1622769153
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\rotate\\rotate_control.v":1631007064
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\sram\\sram_control.v":1630482424
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\c25x_fpga_ip\\c25x_pll\\c25x_pll.v":1630561183
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\c25x_fpga_ip\\eth_data_ram\\eth_data_ram.v":1630561253
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\c25x_fpga_ip\\eth_send_ram\\eth_send_ram.v":1630561310
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\c25x_fpga_ip\\multiplier\\multiplier.v":1630561365
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\c25x_fpga_ip\\multiplier2\\multiplier2.v":1630561427
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\c25x_fpga_ip\\multiplier3\\multiplier3.v":1630561472
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\c25x_fpga_ip\\packet_data_ram\\packet_data_ram.v":1630561536
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\c25x_fpga_ip\\tcp_recv_fifo\\tcp_recv_fifo.v":1630561609
+#CUR:"D:\\programs\\fpga\\C251\\C25X_21090810\\source\\eth\\spi_master_eth.v":1630905087
+#numinternalfiles:6
+#defaultlanguage:verilog
+0			"D:\programs\fpga\C251\C25X_21090810\source\c25x_fpga.v" verilog
+1			"D:\programs\fpga\C251\C25X_21090810\source\dist\calib_packet.v" verilog
+2			"D:\programs\fpga\C251\C25X_21090810\source\dist\dist_calculate.v" verilog
+3			"D:\programs\fpga\C251\C25X_21090810\source\dist\dist_filter.v" verilog
+4			"D:\programs\fpga\C251\C25X_21090810\source\dist\dist_measure.v" verilog
+5			"D:\programs\fpga\C251\C25X_21090810\source\dist\dist_packet.v" verilog
+6			"D:\programs\fpga\C251\C25X_21090810\source\dist\measure_para.v" verilog
+7			"D:\programs\fpga\C251\C25X_21090810\source\dist\tail_filter.v" verilog
+8			"D:\programs\fpga\C251\C25X_21090810\source\dist\ms1004\ms1004_control_fall.v" verilog
+9			"D:\programs\fpga\C251\C25X_21090810\source\dist\ms1004\ms1004_control_rise.v" verilog
+10			"D:\programs\fpga\C251\C25X_21090810\source\dist\ms1004\TDC_SPI_ms1004_2.v" verilog
+11			"D:\programs\fpga\C251\C25X_21090810\source\eth\datagram_cmd_defines.v" verilog
+12			"D:\programs\fpga\C251\C25X_21090810\source\eth\datagram_parser.v" verilog
+13			"D:\programs\fpga\C251\C25X_21090810\source\eth\division.v" verilog
+14			"D:\programs\fpga\C251\C25X_21090810\source\eth\index_calculate.v" verilog
+15			"D:\programs\fpga\C251\C25X_21090810\source\eth\parameter_ident_define.v" verilog
+16			"D:\programs\fpga\C251\C25X_21090810\source\eth\parameter_init.v" verilog
+17			"D:\programs\fpga\C251\C25X_21090810\source\eth\spi_w5500_cmd.v" verilog
+18		*	"D:\programs\fpga\C251\C25X_21090810\source\eth\w5500_reg_defines.v" verilog
+19		*	"D:\programs\fpga\C251\C25X_21090810\source\eth\w5500_cmd_defines.v" verilog
+20			"D:\programs\fpga\C251\C25X_21090810\source\eth\spi_w5500_top.v" verilog
+21			"D:\programs\fpga\C251\C25X_21090810\source\eth\time_stamp.v" verilog
+22			"D:\programs\fpga\C251\C25X_21090810\source\eth\w5500_control.v" verilog
+23			"D:\programs\fpga\C251\C25X_21090810\source\flash\flash_control.v" verilog
+24			"D:\programs\fpga\C251\C25X_21090810\source\flash\USRMCLK.v" verilog
+25			"D:\programs\fpga\C251\C25X_21090810\source\flash\spi flash\spi_master.v" verilog
+26			"D:\programs\fpga\C251\C25X_21090810\source\flash\spi flash\spi_flash_top.v" verilog
+27			"D:\programs\fpga\C251\C25X_21090810\source\flash\spi flash\spi_flash_cmd.v" verilog
+28			"D:\programs\fpga\C251\C25X_21090810\source\insp\adc_to_dac.v" verilog
+29			"D:\programs\fpga\C251\C25X_21090810\source\insp\adc_to_temp.v" verilog
+30			"D:\programs\fpga\C251\C25X_21090810\source\insp\pluse_average.v" verilog
+31			"D:\programs\fpga\C251\C25X_21090810\source\insp\self_inspection.v" verilog
+32			"D:\programs\fpga\C251\C25X_21090810\source\insp\adda\AD_SPI.v" verilog
+33			"D:\programs\fpga\C251\C25X_21090810\source\insp\adda\adc_control.v" verilog
+34			"D:\programs\fpga\C251\C25X_21090810\source\insp\adda\DA_SPI.v" verilog
+35			"D:\programs\fpga\C251\C25X_21090810\source\laser\laser_control.v" verilog
+36			"D:\programs\fpga\C251\C25X_21090810\source\rotate\encoder_generate.v" verilog
+37			"D:\programs\fpga\C251\C25X_21090810\source\rotate\motor_control.v" verilog
+38			"D:\programs\fpga\C251\C25X_21090810\source\rotate\opto_switch_filter.v" verilog
+39			"D:\programs\fpga\C251\C25X_21090810\source\rotate\rotate_control.v" verilog
+40			"D:\programs\fpga\C251\C25X_21090810\source\sram\sram_control.v" verilog
+41			"D:\programs\fpga\C251\C25X_21090810\c25x_fpga_ip\c25x_pll\c25x_pll.v" verilog
+42			"D:\programs\fpga\C251\C25X_21090810\c25x_fpga_ip\eth_data_ram\eth_data_ram.v" verilog
+43			"D:\programs\fpga\C251\C25X_21090810\c25x_fpga_ip\eth_send_ram\eth_send_ram.v" verilog
+44			"D:\programs\fpga\C251\C25X_21090810\c25x_fpga_ip\multiplier\multiplier.v" verilog
+45			"D:\programs\fpga\C251\C25X_21090810\c25x_fpga_ip\multiplier2\multiplier2.v" verilog
+46			"D:\programs\fpga\C251\C25X_21090810\c25x_fpga_ip\multiplier3\multiplier3.v" verilog
+47			"D:\programs\fpga\C251\C25X_21090810\c25x_fpga_ip\packet_data_ram\packet_data_ram.v" verilog
+48			"D:\programs\fpga\C251\C25X_21090810\c25x_fpga_ip\tcp_recv_fifo\tcp_recv_fifo.v" verilog
+49			"D:\programs\fpga\C251\C25X_21090810\source\eth\spi_master_eth.v" verilog
+#Dependency Lists(Uses List)
+0 41 39 31 35 4 40 23 22
+1 -1
+2 44
+3 -1
+4 6 9 8 2 3 7 5 1
+5 -1
+6 44
+7 44
+8 10
+9 10
+10 -1
+11 15
+12 11 42 47
+13 -1
+14 13
+15 11
+16 11 15 14 21
+17 18 19 49
+18 19
+19 18
+20 18 19 17 48 43
+21 -1
+22 20 18 19 12 11 16 15
+23 24 26
+24 -1
+25 -1
+26 27
+27 25
+28 29
+29 44 13
+30 -1
+31 33 34 28 30
+32 -1
+33 32
+34 -1
+35 -1
+36 45 46
+37 -1
+38 -1
+39 38 37 36
+40 -1
+41 -1
+42 -1
+43 -1
+44 -1
+45 -1
+46 -1
+47 -1
+48 -1
+49 -1
+#Dependency Lists(Users Of)
+0 -1
+1 4
+2 4
+3 4
+4 0
+5 4
+6 4
+7 4
+8 4
+9 4
+10 8 9
+11 12 15 16 22
+12 22
+13 14 29
+14 16
+15 11 16 22
+16 22
+17 20
+18 17 19 20 22
+19 17 18 20 22
+20 22
+21 16
+22 0
+23 0
+24 23
+25 27
+26 23
+27 26
+28 31
+29 28
+30 31
+31 0
+32 33
+33 31
+34 31
+35 0
+36 39
+37 39
+38 39
+39 0
+40 0
+41 0
+42 12
+43 20
+44 2 6 7 29
+45 36
+46 36
+47 12
+48 20
+49 17
+#Design Unit to File Association
+module work c25x_fpga 0
+module work c25x_pll 41
+module work rotate_control 39
+module work self_inspection 31
+module work laser_control 35
+module work dist_measure 4
+module work sram_control 40
+module work flash_control 23
+module work w5500_control 22
+module work calib_packet 1
+module work dist_calculate 2
+module work multiplier 44
+module work dist_filter 3
+module work measure_para 6
+module work ms1004_control_rise 9
+module work ms1004_control_fall 8
+module work tail_filter 7
+module work dist_packet 5
+module work TDC_SPI_ms1004_2 10
+module work datagram_parser 12
+module work eth_data_ram 42
+module work packet_data_ram 47
+module work division 13
+module work index_calculate 14
+module work parameter_init 16
+module work time_stamp 21
+module work spi_w5500_cmd 17
+module work spi_master_eth 49
+module work spi_w5500_top 20
+module work tcp_recv_fifo 48
+module work eth_send_ram 43
+module work spi_flash_top 26
+module work USRMCLK 24
+module work spi_master 25
+module work spi_flash_cmd 27
+module work adc_to_dac 28
+module work adc_to_temp 29
+module work pluse_average 30
+module work adc_control 33
+module work DA_SPI 34
+module work AD_SPI 32
+module work encoder_generate 36
+module work multiplier2 45
+module work multiplier3 46
+module work motor_control 37
+module work opto_switch_filter 38

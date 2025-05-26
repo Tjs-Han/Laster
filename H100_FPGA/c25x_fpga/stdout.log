@@ -1,0 +1,73 @@
+Running in Lattice mode
+
+Starting:    E:\tools\Iscc\diamond\3.12\synpbase\bin64\mbin\synplify.exe
+Install:     E:\tools\Iscc\diamond\3.12\synpbase
+Hostname:    LAPTOP-5IM9OFQR
+Date:        Wed Sep  8 13:56:03 2021
+Version:     Q-2020.03L-SP1
+
+Arguments:   -product synplify_pro -tcl D:/programs/fpga/C251/C25X_21090810/c25x_fpga/launch_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+No project opened.
+auto_infer_blackbox is not supported in current product.
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\c25x_fpga.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\dist\calib_packet.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\dist\dist_calculate.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\dist\dist_filter.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\dist\dist_measure.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\dist\dist_packet.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\dist\measure_para.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\dist\tail_filter.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\dist\ms1004\ms1004_control_fall.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\dist\ms1004\ms1004_control_rise.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\dist\ms1004\TDC_SPI_ms1004_2.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\eth\datagram_cmd_defines.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\eth\datagram_parser.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\eth\division.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\eth\index_calculate.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\eth\parameter_ident_define.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\eth\parameter_init.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\eth\spi_w5500_cmd.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\eth\spi_w5500_top.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\eth\time_stamp.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\eth\w5500_cmd_defines.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\eth\w5500_control.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\eth\w5500_reg_defines.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\flash\flash_control.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\flash\USRMCLK.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\flash\spi flash\spi_master.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\flash\spi flash\spi_flash_top.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\flash\spi flash\spi_flash_cmd.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\insp\adc_to_dac.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\insp\adc_to_temp.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\insp\pluse_average.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\insp\self_inspection.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\insp\adda\AD_SPI.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\insp\adda\adc_control.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\insp\adda\DA_SPI.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\laser\laser_control.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\rotate\encoder_generate.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\rotate\motor_control.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\rotate\opto_switch_filter.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\rotate\rotate_control.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\sram\sram_control.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\c25x_fpga_ip\c25x_pll\c25x_pll.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\c25x_fpga_ip\eth_data_ram\eth_data_ram.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\c25x_fpga_ip\eth_send_ram\eth_send_ram.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\c25x_fpga_ip\multiplier\multiplier.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\c25x_fpga_ip\multiplier2\multiplier2.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\c25x_fpga_ip\multiplier3\multiplier3.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\c25x_fpga_ip\packet_data_ram\packet_data_ram.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\c25x_fpga_ip\tcp_recv_fifo\tcp_recv_fifo.v
+Removed file: D:\programs\fpga\C251\C25X_21090810\source\eth\spi_master_eth.v
+Copied D:\programs\fpga\C251\C25X_21090810\c25x_fpga\c25x_fpga.srr to D:\programs\fpga\C251\C25X_21090810\c25x_fpga\backup\c25x_fpga.srr
+TCL script complete: "D:/programs/fpga/C251/C25X_21090810/c25x_fpga/launch_synplify.tcl"
+Project with name "D:\programs\fpga\C251\C25X_21090810\c25x_fpga\c25x_fpga_syn.prj" already loaded.
+Loaded XDM (Hierarchy) data base - elapsed time 0:0 Blocks=1
+@N Implementation 'D:\programs\fpga\C251\C25X_21090810\c25x_fpga\c25x_fpga_syn.prj|c25x_fpga' design hierarchy loaded from database
+exit status=0

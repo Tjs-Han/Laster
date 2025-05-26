@@ -1,0 +1,105 @@
+#-- Lattice Semiconductor Corporation Ltd.
+#-- Bali Reveal project file
+
+#device options
+[Device]
+part = LFE5U-25F-6BG256I
+family = ECP5U
+device = LFE5U-25F
+speed = 6
+package = CABGA256
+operation = Industrial
+
+#design options
+[Design]
+title = c25x_fpga
+path = D:/Project/H100_FPGA/c25x_fpga
+core_generate = D:/Project/H100_FPGA/c25x_fpga
+search_path = D:/Project/H100_FPGA
+top = c25x_fpga
+lpf = D:/Project/H100_FPGA/c25x_fpga.lpf
+synthesis = lse
+
+#strategy options
+VHDL2008 = false
+
+#HDLs options
+[HDLs]
+D:/Project/H100_FPGA/source/c25x_fpga.v = Verilog
+D:/Project/H100_FPGA/source/dist/calib_packet.v = Verilog
+D:/Project/H100_FPGA/source/dist/dist_measure.v = Verilog
+D:/Project/H100_FPGA/source/dist/dist_packet.v = Verilog
+D:/Project/H100_FPGA/source/dist/measure_para.v = Verilog
+D:/Project/H100_FPGA/source/eth/datagram_cmd_defines.v = Verilog
+D:/Project/H100_FPGA/source/eth/datagram_parser.v = Verilog
+D:/Project/H100_FPGA/source/eth/division.v = Verilog
+D:/Project/H100_FPGA/source/eth/index_calculate.v = Verilog
+D:/Project/H100_FPGA/source/eth/parameter_ident_define.v = Verilog
+D:/Project/H100_FPGA/source/eth/parameter_init.v = Verilog
+D:/Project/H100_FPGA/source/eth/spi_w5500_cmd.v = Verilog
+D:/Project/H100_FPGA/source/eth/time_stamp.v = Verilog
+D:/Project/H100_FPGA/source/eth/w5500_cmd_defines.v = Verilog
+D:/Project/H100_FPGA/source/eth/w5500_control.v = Verilog
+D:/Project/H100_FPGA/source/eth/w5500_reg_defines.v = Verilog
+D:/Project/H100_FPGA/source/eth/spi_master_eth.v = Verilog
+D:/Project/H100_FPGA/source/flash/flash_control.v = Verilog
+D:/Project/H100_FPGA/source/flash/USRMCLK.v = Verilog
+D:/Project/H100_FPGA/source/flash/spi flash/spi_master.v = Verilog
+D:/Project/H100_FPGA/source/flash/spi flash/spi_flash_top.v = Verilog
+D:/Project/H100_FPGA/source/insp/adc_to_dac.v = Verilog
+D:/Project/H100_FPGA/source/insp/adc_to_temp.v = Verilog
+D:/Project/H100_FPGA/source/insp/pluse_average.v = Verilog
+D:/Project/H100_FPGA/source/insp/self_inspection.v = Verilog
+D:/Project/H100_FPGA/source/insp/adda/AD_SPI.v = Verilog
+D:/Project/H100_FPGA/source/insp/adda/adc_control.v = Verilog
+D:/Project/H100_FPGA/source/insp/adda/DA_SPI.v = Verilog
+D:/Project/H100_FPGA/source/laser/laser_control.v = Verilog
+D:/Project/H100_FPGA/source/rotate/encoder_generate.v = Verilog
+D:/Project/H100_FPGA/source/flash/spi flash/spi_flash_cmd.v = Verilog
+D:/Project/H100_FPGA/source/rotate/motor_control.v = Verilog
+D:/Project/H100_FPGA/source/rotate/opto_switch_filter.v = Verilog
+D:/Project/H100_FPGA/source/rotate/rotate_control.v = Verilog
+D:/Project/H100_FPGA/source/sram/sram_control.v = Verilog
+D:/Project/H100_FPGA/source/dist/as6500/as6500_control.v = Verilog
+D:/Project/H100_FPGA/source/dist/as6500/as6500_ctrl.v = Verilog
+D:/Project/H100_FPGA/source/dist/as6500/SPI_Master_2.v = Verilog
+D:/Project/H100_FPGA/source/eth/spi_w5500_top_3.v = Verilog
+D:/Project/H100_FPGA/source/eth/datagram_parser_udp.v = Verilog
+D:/Project/H100_FPGA/source/eth/ntp_calculate.v = Verilog
+D:/Project/H100_FPGA/source/eth/ntp_receive_parser.v = Verilog
+D:/Project/H100_FPGA/source/eth/ntp_send_make.v = Verilog
+D:/Project/H100_FPGA/source/eth/time_stamp_ntp.v = Verilog
+D:/Project/H100_FPGA/source/dist/calculate/data_pre.v = Verilog
+D:/Project/H100_FPGA/source/dist/calculate/dist_cal.v = Verilog
+D:/Project/H100_FPGA/source/dist/calculate/dist_calculate.v = Verilog
+D:/Project/H100_FPGA/source/dist/calculate/index_cal.v = Verilog
+D:/Project/H100_FPGA/source/insp/adc_to_dist.v = Verilog
+D:/Project/H100_FPGA/source/dist/dist_filter.v = Verilog
+D:/Project/H100_FPGA/source/dist/calculate/rssi_cal.v = Verilog
+D:/Project/H100_FPGA/source/dist/calculate/div_rill.v = Verilog
+D:/Project/H100_FPGA/data_process_3.v = Verilog
+D:/Project/H100_FPGA/c25x_fpga_ip/c25x_pll/c25x_pll.v = Verilog
+D:/Project/H100_FPGA/c25x_fpga_ip/cache_opto_ram/cache_opto_ram.v = Verilog
+D:/Project/H100_FPGA/c25x_fpga_ip/distance_ram/distance_ram.v = Verilog
+D:/Project/H100_FPGA/c25x_fpga_ip/eth_data_ram/eth_data_ram.v = Verilog
+D:/Project/H100_FPGA/c25x_fpga_ip/eth_send_ram/eth_send_ram.v = Verilog
+D:/Project/H100_FPGA/c25x_fpga_ip/multiplier/multiplier.v = Verilog
+D:/Project/H100_FPGA/c25x_fpga_ip/multiplier3/multiplier3.v = Verilog
+D:/Project/H100_FPGA/c25x_fpga_ip/opto_ram/opto_ram.v = Verilog
+D:/Project/H100_FPGA/c25x_fpga_ip/packet_data_ram/packet_data_ram.v = Verilog
+D:/Project/H100_FPGA/c25x_fpga_ip/tcp_recv_fifo/tcp_recv_fifo.v = Verilog
+D:/Project/H100_FPGA/opto_packet.v = Verilog
+D:/Project/H100_FPGA/source/rotate/motor_control_2.v = Verilog
+D:/Project/H100_FPGA/source/rotate/motor_drive.v = Verilog
+D:/Project/H100_FPGA/source/rotate/random_number_generator.v = Verilog
+D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_spi_top.v = Verilog
+D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v = Verilog
+D:/Project/H100_FPGA/mpt2042_rom_128x8/mpt2042_rom_128x8.v = Verilog
+D:/Project/H100_FPGA/source/MPT2022_2042/rise_signal_process.v = Verilog
+[HDL_Defines]
+SBP_SYNTHESIS=
+[HDL_Param]
+[Generated]
+D:/Project/H100_FPGA/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_la0_trig_gen.v=Verilog
+D:/Project/H100_FPGA/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_la0_gen.v=Verilog
+D:/Project/H100_FPGA/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v=Verilog,work

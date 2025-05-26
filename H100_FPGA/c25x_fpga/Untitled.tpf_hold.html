@@ -1,0 +1,1015 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<STYLE type=text/css>
+<!--
+.blink {text-decoration:blink}
+.ms  {font-size: 9pt; font-family: monospace; font-weight: normal}
+.msb {font-size: 9pt; font-family: monospace; font-weight: bold  }
+-->
+</STYLE>
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR></HEAD>
+<BODY><B>
+</B>
+<BR><PRE><A name="Report Header"></A>
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2
+Tue Mar 21 14:01:55 2023
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design file:     c25x_fpga
+Device,speed:    LFE5U-25F,M
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+
+
+</A><A name="FREQUENCY NET 'i_clk_50m_c' 50.000000 MH"></A>================================================================================
+Preference: FREQUENCY NET "i_clk_50m_c" 50.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+</A><A name="FREQUENCY NET 'w_pll_50m_2' 50.000000 MH"></A>================================================================================
+Preference: FREQUENCY NET "w_pll_50m_2" 50.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+</A><A name="FREQUENCY PORT 'i_clk_50m' 60.000000 MH"></A>================================================================================
+Preference: FREQUENCY PORT "i_clk_50m" 60.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+</A><A name="FREQUENCY NET 'w_pll_50m' 60.000000 MH"></A>================================================================================
+Preference: FREQUENCY NET "w_pll_50m" 60.000000 MHz ;
+            10 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.170ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U5/U1/U1/SLICE_2795">U5/U1/U1/FF_26</A>  (from <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U5/U1/U1/SLICE_6595">U5/U1/U1/FF_58</A>  (to <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+
+   Delay:               0.287ns  (56.1% logic, 43.9% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.287ns physical path delay U5/U1/U1/SLICE_2795 to U5/U1/U1/SLICE_6595 meets
+      0.117ns M_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.117ns) by 0.170ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:REG_DEL, 0.161,R15C37A.CLK,R15C37A.Q1,U5/U1/U1/SLICE_2795:ROUTE, 0.126,R15C37A.Q1,R15C37C.M0,U5/U1/U1/multiplier_or2_5">Data path</A> U5/U1/U1/SLICE_2795 to U5/U1/U1/SLICE_6595:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.161    R15C37A.CLK to     R15C37A.Q1 <A href="#@comp:U5/U1/U1/SLICE_2795">U5/U1/U1/SLICE_2795</A> (from <A href="#@net:w_pll_50m">w_pll_50m</A>)
+ROUTE         1     0.126<A href="#@net:U5/U1/U1/multiplier_or2_5:R15C37A.Q1:R15C37C.M0:0.126">     R15C37A.Q1 to R15C37C.M0    </A> <A href="#@net:U5/U1/U1/multiplier_or2_5">U5/U1/U1/multiplier_or2_5</A> (to <A href="#@net:w_pll_50m">w_pll_50m</A>)
+                  --------
+                    0.287   (56.1% logic, 43.9% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R15C37A.CLK,w_pll_50m">Source Clock Path</A> U1/PLLInst_0 to U5/U1/U1/SLICE_2795:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R15C37A.CLK:0.633">  PLL_BL0.CLKOP to R15C37A.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R15C37C.CLK,w_pll_50m">Destination Clock Path</A> U1/PLLInst_0 to U5/U1/U1/SLICE_6595:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R15C37C.CLK:0.633">  PLL_BL0.CLKOP to R15C37C.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.170ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U5/U3/U4/U2/SLICE_6637">U5/U3/U4/U2/FF_25</A>  (from <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U5/U3/U4/U2/SLICE_6637">U5/U3/U4/U2/FF_57</A>  (to <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+
+   Delay:               0.287ns  (56.1% logic, 43.9% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.287ns physical path delay U5/U3/U4/U2/SLICE_6637 to U5/U3/U4/U2/SLICE_6637 meets
+      0.117ns M_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.117ns) by 0.170ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:REG_DEL, 0.161,R20C18A.CLK,R20C18A.Q1,U5/U3/U4/U2/SLICE_6637:ROUTE, 0.126,R20C18A.Q1,R20C18A.M0,U5/U3/U4/U2/multiplier_or2_6">Data path</A> U5/U3/U4/U2/SLICE_6637 to U5/U3/U4/U2/SLICE_6637:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.161    R20C18A.CLK to     R20C18A.Q1 <A href="#@comp:U5/U3/U4/U2/SLICE_6637">U5/U3/U4/U2/SLICE_6637</A> (from <A href="#@net:w_pll_50m">w_pll_50m</A>)
+ROUTE         1     0.126<A href="#@net:U5/U3/U4/U2/multiplier_or2_6:R20C18A.Q1:R20C18A.M0:0.126">     R20C18A.Q1 to R20C18A.M0    </A> <A href="#@net:U5/U3/U4/U2/multiplier_or2_6">U5/U3/U4/U2/multiplier_or2_6</A> (to <A href="#@net:w_pll_50m">w_pll_50m</A>)
+                  --------
+                    0.287   (56.1% logic, 43.9% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R20C18A.CLK,w_pll_50m">Source Clock Path</A> U1/PLLInst_0 to U5/U3/U4/U2/SLICE_6637:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R20C18A.CLK:0.633">  PLL_BL0.CLKOP to R20C18A.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R20C18A.CLK,w_pll_50m">Destination Clock Path</A> U1/PLLInst_0 to U5/U3/U4/U2/SLICE_6637:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R20C18A.CLK:0.633">  PLL_BL0.CLKOP to R20C18A.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.170ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U5/U3/U4/U1/SLICE_3155">U5/U3/U4/U1/FF_24</A>  (from <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U5/U3/U4/U1/SLICE_6600">U5/U3/U4/U1/FF_56</A>  (to <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+
+   Delay:               0.287ns  (56.1% logic, 43.9% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.287ns physical path delay U5/U3/U4/U1/SLICE_3155 to U5/U3/U4/U1/SLICE_6600 meets
+      0.117ns M_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.117ns) by 0.170ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:REG_DEL, 0.161,R14C15D.CLK,R14C15D.Q1,U5/U3/U4/U1/SLICE_3155:ROUTE, 0.126,R14C15D.Q1,R14C15A.M0,U5/U3/U4/U1/multiplier_or2_7">Data path</A> U5/U3/U4/U1/SLICE_3155 to U5/U3/U4/U1/SLICE_6600:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.161    R14C15D.CLK to     R14C15D.Q1 <A href="#@comp:U5/U3/U4/U1/SLICE_3155">U5/U3/U4/U1/SLICE_3155</A> (from <A href="#@net:w_pll_50m">w_pll_50m</A>)
+ROUTE         1     0.126<A href="#@net:U5/U3/U4/U1/multiplier_or2_7:R14C15D.Q1:R14C15A.M0:0.126">     R14C15D.Q1 to R14C15A.M0    </A> <A href="#@net:U5/U3/U4/U1/multiplier_or2_7">U5/U3/U4/U1/multiplier_or2_7</A> (to <A href="#@net:w_pll_50m">w_pll_50m</A>)
+                  --------
+                    0.287   (56.1% logic, 43.9% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R14C15D.CLK,w_pll_50m">Source Clock Path</A> U1/PLLInst_0 to U5/U3/U4/U1/SLICE_3155:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R14C15D.CLK:0.633">  PLL_BL0.CLKOP to R14C15D.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R14C15A.CLK,w_pll_50m">Destination Clock Path</A> U1/PLLInst_0 to U5/U3/U4/U1/SLICE_6600:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R14C15A.CLK:0.633">  PLL_BL0.CLKOP to R14C15A.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.170ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U5/U3/U4/U1/SLICE_3161">U5/U3/U4/U1/FF_13</A>  (from <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U5/U3/U4/U1/SLICE_6564">U5/U3/U4/U1/FF_45</A>  (to <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+
+   Delay:               0.287ns  (56.1% logic, 43.9% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.287ns physical path delay U5/U3/U4/U1/SLICE_3161 to U5/U3/U4/U1/SLICE_6564 meets
+      0.117ns M_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.117ns) by 0.170ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:REG_DEL, 0.161,R15C18C.CLK,R15C18C.Q1,U5/U3/U4/U1/SLICE_3161:ROUTE, 0.126,R15C18C.Q1,R15C18D.M0,U5/U3/U4/U1/multiplier_or2_18">Data path</A> U5/U3/U4/U1/SLICE_3161 to U5/U3/U4/U1/SLICE_6564:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.161    R15C18C.CLK to     R15C18C.Q1 <A href="#@comp:U5/U3/U4/U1/SLICE_3161">U5/U3/U4/U1/SLICE_3161</A> (from <A href="#@net:w_pll_50m">w_pll_50m</A>)
+ROUTE         1     0.126<A href="#@net:U5/U3/U4/U1/multiplier_or2_18:R15C18C.Q1:R15C18D.M0:0.126">     R15C18C.Q1 to R15C18D.M0    </A> <A href="#@net:U5/U3/U4/U1/multiplier_or2_18">U5/U3/U4/U1/multiplier_or2_18</A> (to <A href="#@net:w_pll_50m">w_pll_50m</A>)
+                  --------
+                    0.287   (56.1% logic, 43.9% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R15C18C.CLK,w_pll_50m">Source Clock Path</A> U1/PLLInst_0 to U5/U3/U4/U1/SLICE_3161:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R15C18C.CLK:0.633">  PLL_BL0.CLKOP to R15C18C.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R15C18D.CLK,w_pll_50m">Destination Clock Path</A> U1/PLLInst_0 to U5/U3/U4/U1/SLICE_6564:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R15C18D.CLK:0.633">  PLL_BL0.CLKOP to R15C18D.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.170ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U5/U3/U4/U2/SLICE_3168">U5/U3/U4/U2/FF_18</A>  (from <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U5/U3/U4/U2/SLICE_6626">U5/U3/U4/U2/FF_50</A>  (to <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+
+   Delay:               0.287ns  (56.1% logic, 43.9% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.287ns physical path delay U5/U3/U4/U2/SLICE_3168 to U5/U3/U4/U2/SLICE_6626 meets
+      0.117ns M_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.117ns) by 0.170ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:REG_DEL, 0.161,R14C20B.CLK,R14C20B.Q1,U5/U3/U4/U2/SLICE_3168:ROUTE, 0.126,R14C20B.Q1,R14C20D.M0,U5/U3/U4/U2/multiplier_or2_13">Data path</A> U5/U3/U4/U2/SLICE_3168 to U5/U3/U4/U2/SLICE_6626:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.161    R14C20B.CLK to     R14C20B.Q1 <A href="#@comp:U5/U3/U4/U2/SLICE_3168">U5/U3/U4/U2/SLICE_3168</A> (from <A href="#@net:w_pll_50m">w_pll_50m</A>)
+ROUTE         1     0.126<A href="#@net:U5/U3/U4/U2/multiplier_or2_13:R14C20B.Q1:R14C20D.M0:0.126">     R14C20B.Q1 to R14C20D.M0    </A> <A href="#@net:U5/U3/U4/U2/multiplier_or2_13">U5/U3/U4/U2/multiplier_or2_13</A> (to <A href="#@net:w_pll_50m">w_pll_50m</A>)
+                  --------
+                    0.287   (56.1% logic, 43.9% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R14C20B.CLK,w_pll_50m">Source Clock Path</A> U1/PLLInst_0 to U5/U3/U4/U2/SLICE_3168:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R14C20B.CLK:0.633">  PLL_BL0.CLKOP to R14C20B.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R14C20D.CLK,w_pll_50m">Destination Clock Path</A> U1/PLLInst_0 to U5/U3/U4/U2/SLICE_6626:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R14C20D.CLK:0.633">  PLL_BL0.CLKOP to R14C20D.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.170ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U8/u5/U1/SLICE_3801">U8/u5/U1/r_start_index1_i5</A>  (from <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:SLICE_6977">U8/u5/U1/r_start_index2_i5</A>  (to <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+
+   Delay:               0.287ns  (56.1% logic, 43.9% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.287ns physical path delay U8/u5/U1/SLICE_3801 to SLICE_6977 meets
+      0.117ns M_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.117ns) by 0.170ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:REG_DEL, 0.161,R39C22B.CLK,R39C22B.Q1,U8/u5/U1/SLICE_3801:ROUTE, 0.126,R39C22B.Q1,R39C22C.M1,U8/u5/U1/r_start_index1[5]">Data path</A> U8/u5/U1/SLICE_3801 to SLICE_6977:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.161    R39C22B.CLK to     R39C22B.Q1 <A href="#@comp:U8/u5/U1/SLICE_3801">U8/u5/U1/SLICE_3801</A> (from <A href="#@net:w_pll_50m">w_pll_50m</A>)
+ROUTE         1     0.126<A href="#@net:U8/u5/U1/r_start_index1[5]:R39C22B.Q1:R39C22C.M1:0.126">     R39C22B.Q1 to R39C22C.M1    </A> <A href="#@net:U8/u5/U1/r_start_index1[5]">U8/u5/U1/r_start_index1[5]</A> (to <A href="#@net:w_pll_50m">w_pll_50m</A>)
+                  --------
+                    0.287   (56.1% logic, 43.9% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R39C22B.CLK,w_pll_50m">Source Clock Path</A> U1/PLLInst_0 to U8/u5/U1/SLICE_3801:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R39C22B.CLK:0.633">  PLL_BL0.CLKOP to R39C22B.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R39C22C.CLK,w_pll_50m">Destination Clock Path</A> U1/PLLInst_0 to SLICE_6977:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R39C22C.CLK:0.633">  PLL_BL0.CLKOP to R39C22C.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.170ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U5/U1/U1/SLICE_2796">U5/U1/U1/FF_24</A>  (from <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U5/U1/U1/SLICE_6601">U5/U1/U1/FF_56</A>  (to <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+
+   Delay:               0.287ns  (56.1% logic, 43.9% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.287ns physical path delay U5/U1/U1/SLICE_2796 to U5/U1/U1/SLICE_6601 meets
+      0.117ns M_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.117ns) by 0.170ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:REG_DEL, 0.161,R18C27D.CLK,R18C27D.Q1,U5/U1/U1/SLICE_2796:ROUTE, 0.126,R18C27D.Q1,R18C27B.M0,U5/U1/U1/multiplier_or2_7">Data path</A> U5/U1/U1/SLICE_2796 to U5/U1/U1/SLICE_6601:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.161    R18C27D.CLK to     R18C27D.Q1 <A href="#@comp:U5/U1/U1/SLICE_2796">U5/U1/U1/SLICE_2796</A> (from <A href="#@net:w_pll_50m">w_pll_50m</A>)
+ROUTE         1     0.126<A href="#@net:U5/U1/U1/multiplier_or2_7:R18C27D.Q1:R18C27B.M0:0.126">     R18C27D.Q1 to R18C27B.M0    </A> <A href="#@net:U5/U1/U1/multiplier_or2_7">U5/U1/U1/multiplier_or2_7</A> (to <A href="#@net:w_pll_50m">w_pll_50m</A>)
+                  --------
+                    0.287   (56.1% logic, 43.9% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R18C27D.CLK,w_pll_50m">Source Clock Path</A> U1/PLLInst_0 to U5/U1/U1/SLICE_2796:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R18C27D.CLK:0.633">  PLL_BL0.CLKOP to R18C27D.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R18C27B.CLK,w_pll_50m">Destination Clock Path</A> U1/PLLInst_0 to U5/U1/U1/SLICE_6601:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R18C27B.CLK:0.633">  PLL_BL0.CLKOP to R18C27B.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.170ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U3/u3/U2/SLICE_2660">U3/u3/U2/FF_8</A>  (from <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U3/u3/U2/SLICE_6599">U3/u3/U2/FF_24</A>  (to <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+
+   Delay:               0.287ns  (56.1% logic, 43.9% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.287ns physical path delay U3/u3/U2/SLICE_2660 to U3/u3/U2/SLICE_6599 meets
+      0.117ns M_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.117ns) by 0.170ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:REG_DEL, 0.161,R14C32D.CLK,R14C32D.Q1,U3/u3/U2/SLICE_2660:ROUTE, 0.126,R14C32D.Q1,R14C32C.M0,U3/u3/U2/multiplier3_or2_7">Data path</A> U3/u3/U2/SLICE_2660 to U3/u3/U2/SLICE_6599:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.161    R14C32D.CLK to     R14C32D.Q1 <A href="#@comp:U3/u3/U2/SLICE_2660">U3/u3/U2/SLICE_2660</A> (from <A href="#@net:w_pll_50m">w_pll_50m</A>)
+ROUTE         1     0.126<A href="#@net:U3/u3/U2/multiplier3_or2_7:R14C32D.Q1:R14C32C.M0:0.126">     R14C32D.Q1 to R14C32C.M0    </A> <A href="#@net:U3/u3/U2/multiplier3_or2_7">U3/u3/U2/multiplier3_or2_7</A> (to <A href="#@net:w_pll_50m">w_pll_50m</A>)
+                  --------
+                    0.287   (56.1% logic, 43.9% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R14C32D.CLK,w_pll_50m">Source Clock Path</A> U1/PLLInst_0 to U3/u3/U2/SLICE_2660:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R14C32D.CLK:0.633">  PLL_BL0.CLKOP to R14C32D.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R14C32C.CLK,w_pll_50m">Destination Clock Path</A> U1/PLLInst_0 to U3/u3/U2/SLICE_6599:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R14C32C.CLK:0.633">  PLL_BL0.CLKOP to R14C32C.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.170ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U5/U3/U4/U2/SLICE_3169">U5/U3/U4/U2/FF_16</A>  (from <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U5/U3/U4/U2/SLICE_6630">U5/U3/U4/U2/FF_48</A>  (to <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+
+   Delay:               0.287ns  (56.1% logic, 43.9% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.287ns physical path delay U5/U3/U4/U2/SLICE_3169 to U5/U3/U4/U2/SLICE_6630 meets
+      0.117ns M_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.117ns) by 0.170ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:REG_DEL, 0.161,R14C19B.CLK,R14C19B.Q1,U5/U3/U4/U2/SLICE_3169:ROUTE, 0.126,R14C19B.Q1,R14C19C.M0,U5/U3/U4/U2/multiplier_or2_15">Data path</A> U5/U3/U4/U2/SLICE_3169 to U5/U3/U4/U2/SLICE_6630:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.161    R14C19B.CLK to     R14C19B.Q1 <A href="#@comp:U5/U3/U4/U2/SLICE_3169">U5/U3/U4/U2/SLICE_3169</A> (from <A href="#@net:w_pll_50m">w_pll_50m</A>)
+ROUTE         1     0.126<A href="#@net:U5/U3/U4/U2/multiplier_or2_15:R14C19B.Q1:R14C19C.M0:0.126">     R14C19B.Q1 to R14C19C.M0    </A> <A href="#@net:U5/U3/U4/U2/multiplier_or2_15">U5/U3/U4/U2/multiplier_or2_15</A> (to <A href="#@net:w_pll_50m">w_pll_50m</A>)
+                  --------
+                    0.287   (56.1% logic, 43.9% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R14C19B.CLK,w_pll_50m">Source Clock Path</A> U1/PLLInst_0 to U5/U3/U4/U2/SLICE_3169:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R14C19B.CLK:0.633">  PLL_BL0.CLKOP to R14C19B.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R14C19C.CLK,w_pll_50m">Destination Clock Path</A> U1/PLLInst_0 to U5/U3/U4/U2/SLICE_6630:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R14C19C.CLK:0.633">  PLL_BL0.CLKOP to R14C19C.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.170ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U5/U3/U4/U1/SLICE_3159">U5/U3/U4/U1/FF_16</A>  (from <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U5/U3/U4/U1/SLICE_6584">U5/U3/U4/U1/FF_48</A>  (to <A href="#@net:w_pll_50m">w_pll_50m</A> +)
+
+   Delay:               0.287ns  (56.1% logic, 43.9% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.287ns physical path delay U5/U3/U4/U1/SLICE_3159 to U5/U3/U4/U1/SLICE_6584 meets
+      0.117ns M_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.117ns) by 0.170ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:REG_DEL, 0.161,R12C17B.CLK,R12C17B.Q1,U5/U3/U4/U1/SLICE_3159:ROUTE, 0.126,R12C17B.Q1,R12C17D.M0,U5/U3/U4/U1/multiplier_or2_15">Data path</A> U5/U3/U4/U1/SLICE_3159 to U5/U3/U4/U1/SLICE_6584:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.161    R12C17B.CLK to     R12C17B.Q1 <A href="#@comp:U5/U3/U4/U1/SLICE_3159">U5/U3/U4/U1/SLICE_3159</A> (from <A href="#@net:w_pll_50m">w_pll_50m</A>)
+ROUTE         1     0.126<A href="#@net:U5/U3/U4/U1/multiplier_or2_15:R12C17B.Q1:R12C17D.M0:0.126">     R12C17B.Q1 to R12C17D.M0    </A> <A href="#@net:U5/U3/U4/U1/multiplier_or2_15">U5/U3/U4/U1/multiplier_or2_15</A> (to <A href="#@net:w_pll_50m">w_pll_50m</A>)
+                  --------
+                    0.287   (56.1% logic, 43.9% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R12C17B.CLK,w_pll_50m">Source Clock Path</A> U1/PLLInst_0 to U5/U3/U4/U1/SLICE_3159:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R12C17B.CLK:0.633">  PLL_BL0.CLKOP to R12C17B.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_50m' 60.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOP,R12C17D.CLK,w_pll_50m">Destination Clock Path</A> U1/PLLInst_0 to U5/U3/U4/U1/SLICE_6584:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       999     0.633<A href="#@net:w_pll_50m:PLL_BL0.CLKOP:R12C17D.CLK:0.633">  PLL_BL0.CLKOP to R12C17D.CLK   </A> <A href="#@net:w_pll_50m">w_pll_50m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+</A><A name="FREQUENCY NET 'w_pll_100m' 120.000000 MH"></A>================================================================================
+Preference: FREQUENCY NET "w_pll_100m" 120.000000 MHz ;
+            10 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.176ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U4/SLICE_2787">U4/r_rsti_cnt_18480__i2</A>  (from <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U4/SLICE_2787">U4/r_rsti_cnt_18480__i2</A>  (to <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+
+   Delay:               0.294ns  (80.6% logic, 19.4% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.294ns physical path delay U4/SLICE_2787 to U4/SLICE_2787 meets
+      0.118ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.118ns) by 0.176ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:REG_DEL, 0.162,R14C52A.CLK,R14C52A.Q0,U4/SLICE_2787:ROUTE, 0.057,R14C52A.Q0,R14C52A.D0,U4/r_rsti_cnt[2]:CTOF_DEL, 0.075,R14C52A.D0,R14C52A.F0,U4/SLICE_2787:ROUTE, 0.000,R14C52A.F0,R14C52A.DI0,U4/n35">Data path</A> U4/SLICE_2787 to U4/SLICE_2787:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.162    R14C52A.CLK to     R14C52A.Q0 <A href="#@comp:U4/SLICE_2787">U4/SLICE_2787</A> (from <A href="#@net:w_pll_100m">w_pll_100m</A>)
+ROUTE         5     0.057<A href="#@net:U4/r_rsti_cnt[2]:R14C52A.Q0:R14C52A.D0:0.057">     R14C52A.Q0 to R14C52A.D0    </A> <A href="#@net:U4/r_rsti_cnt[2]">U4/r_rsti_cnt[2]</A>
+CTOF_DEL    ---     0.075     R14C52A.D0 to     R14C52A.F0 <A href="#@comp:U4/SLICE_2787">U4/SLICE_2787</A>
+ROUTE         1     0.000<A href="#@net:U4/n35:R14C52A.F0:R14C52A.DI0:0.000">     R14C52A.F0 to R14C52A.DI0   </A> <A href="#@net:U4/n35">U4/n35</A> (to <A href="#@net:w_pll_100m">w_pll_100m</A>)
+                  --------
+                    0.294   (80.6% logic, 19.4% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R14C52A.CLK,w_pll_100m">Source Clock Path</A> U1/PLLInst_0 to U4/SLICE_2787:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R14C52A.CLK:0.633"> PLL_BL0.CLKOS2 to R14C52A.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R14C52A.CLK,w_pll_100m">Destination Clock Path</A> U1/PLLInst_0 to U4/SLICE_2787:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R14C52A.CLK:0.633"> PLL_BL0.CLKOS2 to R14C52A.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.176ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U4/SLICE_2780">U4/r_emit_cnt_18482__i0</A>  (from <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U4/SLICE_2780">U4/r_emit_cnt_18482__i0</A>  (to <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+
+   Delay:               0.294ns  (80.6% logic, 19.4% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.294ns physical path delay U4/SLICE_2780 to U4/SLICE_2780 meets
+      0.118ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.118ns) by 0.176ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:REG_DEL, 0.162,R15C55A.CLK,R15C55A.Q0,U4/SLICE_2780:ROUTE, 0.057,R15C55A.Q0,R15C55A.D0,U4/n4:CTOF_DEL, 0.075,R15C55A.D0,R15C55A.F0,U4/SLICE_2780:ROUTE, 0.000,R15C55A.F0,R15C55A.DI0,U4/n31">Data path</A> U4/SLICE_2780 to U4/SLICE_2780:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.162    R15C55A.CLK to     R15C55A.Q0 <A href="#@comp:U4/SLICE_2780">U4/SLICE_2780</A> (from <A href="#@net:w_pll_100m">w_pll_100m</A>)
+ROUTE         4     0.057<A href="#@net:U4/n4:R15C55A.Q0:R15C55A.D0:0.057">     R15C55A.Q0 to R15C55A.D0    </A> <A href="#@net:U4/n4">U4/n4</A>
+CTOF_DEL    ---     0.075     R15C55A.D0 to     R15C55A.F0 <A href="#@comp:U4/SLICE_2780">U4/SLICE_2780</A>
+ROUTE         1     0.000<A href="#@net:U4/n31:R15C55A.F0:R15C55A.DI0:0.000">     R15C55A.F0 to R15C55A.DI0   </A> <A href="#@net:U4/n31">U4/n31</A> (to <A href="#@net:w_pll_100m">w_pll_100m</A>)
+                  --------
+                    0.294   (80.6% logic, 19.4% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R15C55A.CLK,w_pll_100m">Source Clock Path</A> U1/PLLInst_0 to U4/SLICE_2780:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R15C55A.CLK:0.633"> PLL_BL0.CLKOS2 to R15C55A.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R15C55A.CLK,w_pll_100m">Destination Clock Path</A> U1/PLLInst_0 to U4/SLICE_2780:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R15C55A.CLK:0.633"> PLL_BL0.CLKOS2 to R15C55A.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.188ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U4/SLICE_2788">U4/r_rsti_cnt_18480__i4</A>  (from <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U4/SLICE_2788">U4/r_rsti_cnt_18480__i4</A>  (to <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+
+   Delay:               0.306ns  (77.5% logic, 22.5% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.306ns physical path delay U4/SLICE_2788 to U4/SLICE_2788 meets
+      0.118ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.118ns) by 0.188ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:REG_DEL, 0.162,R14C53C.CLK,R14C53C.Q0,U4/SLICE_2788:ROUTE, 0.069,R14C53C.Q0,R14C53C.C0,U4/r_rsti_cnt[4]:CTOF_DEL, 0.075,R14C53C.C0,R14C53C.F0,U4/SLICE_2788:ROUTE, 0.000,R14C53C.F0,R14C53C.DI0,U4/n33">Data path</A> U4/SLICE_2788 to U4/SLICE_2788:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.162    R14C53C.CLK to     R14C53C.Q0 <A href="#@comp:U4/SLICE_2788">U4/SLICE_2788</A> (from <A href="#@net:w_pll_100m">w_pll_100m</A>)
+ROUTE         3     0.069<A href="#@net:U4/r_rsti_cnt[4]:R14C53C.Q0:R14C53C.C0:0.069">     R14C53C.Q0 to R14C53C.C0    </A> <A href="#@net:U4/r_rsti_cnt[4]">U4/r_rsti_cnt[4]</A>
+CTOF_DEL    ---     0.075     R14C53C.C0 to     R14C53C.F0 <A href="#@comp:U4/SLICE_2788">U4/SLICE_2788</A>
+ROUTE         1     0.000<A href="#@net:U4/n33:R14C53C.F0:R14C53C.DI0:0.000">     R14C53C.F0 to R14C53C.DI0   </A> <A href="#@net:U4/n33">U4/n33</A> (to <A href="#@net:w_pll_100m">w_pll_100m</A>)
+                  --------
+                    0.306   (77.5% logic, 22.5% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R14C53C.CLK,w_pll_100m">Source Clock Path</A> U1/PLLInst_0 to U4/SLICE_2788:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R14C53C.CLK:0.633"> PLL_BL0.CLKOS2 to R14C53C.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R14C53C.CLK,w_pll_100m">Destination Clock Path</A> U1/PLLInst_0 to U4/SLICE_2788:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R14C53C.CLK:0.633"> PLL_BL0.CLKOS2 to R14C53C.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.189ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U4/SLICE_2783">U4/r_laser_state__i1</A>  (from <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U4/SLICE_2783">U4/r_laser_state__i1</A>  (to <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+
+   Delay:               0.307ns  (77.2% logic, 22.8% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.307ns physical path delay U4/SLICE_2783 to U4/SLICE_2783 meets
+      0.118ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.118ns) by 0.189ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:REG_DEL, 0.162,R15C50C.CLK,R15C50C.Q0,U4/SLICE_2783:ROUTE, 0.070,R15C50C.Q0,R15C50C.C0,U4/r_laser_state[1]:CTOF_DEL, 0.075,R15C50C.C0,R15C50C.F0,U4/SLICE_2783:ROUTE, 0.000,R15C50C.F0,R15C50C.DI0,U4/n202998">Data path</A> U4/SLICE_2783 to U4/SLICE_2783:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.162    R15C50C.CLK to     R15C50C.Q0 <A href="#@comp:U4/SLICE_2783">U4/SLICE_2783</A> (from <A href="#@net:w_pll_100m">w_pll_100m</A>)
+ROUTE         6     0.070<A href="#@net:U4/r_laser_state[1]:R15C50C.Q0:R15C50C.C0:0.070">     R15C50C.Q0 to R15C50C.C0    </A> <A href="#@net:U4/r_laser_state[1]">U4/r_laser_state[1]</A>
+CTOF_DEL    ---     0.075     R15C50C.C0 to     R15C50C.F0 <A href="#@comp:U4/SLICE_2783">U4/SLICE_2783</A>
+ROUTE         1     0.000<A href="#@net:U4/n202998:R15C50C.F0:R15C50C.DI0:0.000">     R15C50C.F0 to R15C50C.DI0   </A> <A href="#@net:U4/n202998">U4/n202998</A> (to <A href="#@net:w_pll_100m">w_pll_100m</A>)
+                  --------
+                    0.307   (77.2% logic, 22.8% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R15C50C.CLK,w_pll_100m">Source Clock Path</A> U1/PLLInst_0 to U4/SLICE_2783:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R15C50C.CLK:0.633"> PLL_BL0.CLKOS2 to R15C50C.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R15C50C.CLK,w_pll_100m">Destination Clock Path</A> U1/PLLInst_0 to U4/SLICE_2783:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R15C50C.CLK:0.633"> PLL_BL0.CLKOS2 to R15C50C.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.189ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U4/SLICE_2786">U4/r_rsti_cnt_18480__i0</A>  (from <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U4/SLICE_2786">U4/r_rsti_cnt_18480__i0</A>  (to <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+
+   Delay:               0.307ns  (77.2% logic, 22.8% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.307ns physical path delay U4/SLICE_2786 to U4/SLICE_2786 meets
+      0.118ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.118ns) by 0.189ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:REG_DEL, 0.162,R14C52C.CLK,R14C52C.Q0,U4/SLICE_2786:ROUTE, 0.070,R14C52C.Q0,R14C52C.C0,U4/r_rsti_cnt[0]:CTOF_DEL, 0.075,R14C52C.C0,R14C52C.F0,U4/SLICE_2786:ROUTE, 0.000,R14C52C.F0,R14C52C.DI0,U4/n37">Data path</A> U4/SLICE_2786 to U4/SLICE_2786:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.162    R14C52C.CLK to     R14C52C.Q0 <A href="#@comp:U4/SLICE_2786">U4/SLICE_2786</A> (from <A href="#@net:w_pll_100m">w_pll_100m</A>)
+ROUTE         6     0.070<A href="#@net:U4/r_rsti_cnt[0]:R14C52C.Q0:R14C52C.C0:0.070">     R14C52C.Q0 to R14C52C.C0    </A> <A href="#@net:U4/r_rsti_cnt[0]">U4/r_rsti_cnt[0]</A>
+CTOF_DEL    ---     0.075     R14C52C.C0 to     R14C52C.F0 <A href="#@comp:U4/SLICE_2786">U4/SLICE_2786</A>
+ROUTE         1     0.000<A href="#@net:U4/n37:R14C52C.F0:R14C52C.DI0:0.000">     R14C52C.F0 to R14C52C.DI0   </A> <A href="#@net:U4/n37">U4/n37</A> (to <A href="#@net:w_pll_100m">w_pll_100m</A>)
+                  --------
+                    0.307   (77.2% logic, 22.8% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R14C52C.CLK,w_pll_100m">Source Clock Path</A> U1/PLLInst_0 to U4/SLICE_2786:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R14C52C.CLK:0.633"> PLL_BL0.CLKOS2 to R14C52C.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R14C52C.CLK,w_pll_100m">Destination Clock Path</A> U1/PLLInst_0 to U4/SLICE_2786:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R14C52C.CLK:0.633"> PLL_BL0.CLKOS2 to R14C52C.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.246ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U4/SLICE_2781">U4/r_emit_cnt_18482__i1</A>  (from <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U4/SLICE_2781">U4/r_emit_cnt_18482__i2</A>  (to <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+
+   Delay:               0.364ns  (65.1% logic, 34.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.364ns physical path delay U4/SLICE_2781 to U4/SLICE_2781 meets
+      0.118ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.118ns) by 0.246ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:REG_DEL, 0.162,R15C55D.CLK,R15C55D.Q0,U4/SLICE_2781:ROUTE, 0.127,R15C55D.Q0,R15C55D.D1,U4/r_emit_cnt[1]:CTOF_DEL, 0.075,R15C55D.D1,R15C55D.F1,U4/SLICE_2781:ROUTE, 0.000,R15C55D.F1,R15C55D.DI1,U4/n29">Data path</A> U4/SLICE_2781 to U4/SLICE_2781:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.162    R15C55D.CLK to     R15C55D.Q0 <A href="#@comp:U4/SLICE_2781">U4/SLICE_2781</A> (from <A href="#@net:w_pll_100m">w_pll_100m</A>)
+ROUTE         5     0.127<A href="#@net:U4/r_emit_cnt[1]:R15C55D.Q0:R15C55D.D1:0.127">     R15C55D.Q0 to R15C55D.D1    </A> <A href="#@net:U4/r_emit_cnt[1]">U4/r_emit_cnt[1]</A>
+CTOF_DEL    ---     0.075     R15C55D.D1 to     R15C55D.F1 <A href="#@comp:U4/SLICE_2781">U4/SLICE_2781</A>
+ROUTE         1     0.000<A href="#@net:U4/n29:R15C55D.F1:R15C55D.DI1:0.000">     R15C55D.F1 to R15C55D.DI1   </A> <A href="#@net:U4/n29">U4/n29</A> (to <A href="#@net:w_pll_100m">w_pll_100m</A>)
+                  --------
+                    0.364   (65.1% logic, 34.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R15C55D.CLK,w_pll_100m">Source Clock Path</A> U1/PLLInst_0 to U4/SLICE_2781:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R15C55D.CLK:0.633"> PLL_BL0.CLKOS2 to R15C55D.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R15C55D.CLK,w_pll_100m">Destination Clock Path</A> U1/PLLInst_0 to U4/SLICE_2781:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R15C55D.CLK:0.633"> PLL_BL0.CLKOS2 to R15C55D.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.251ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U4/SLICE_2786">U4/r_rsti_cnt_18480__i1</A>  (from <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U4/SLICE_2786">U4/r_rsti_cnt_18480__i1</A>  (to <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+
+   Delay:               0.369ns  (64.0% logic, 36.0% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.369ns physical path delay U4/SLICE_2786 to U4/SLICE_2786 meets
+      0.118ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.118ns) by 0.251ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:REG_DEL, 0.161,R14C52C.CLK,R14C52C.Q1,U4/SLICE_2786:ROUTE, 0.133,R14C52C.Q1,R14C52C.D1,U4/r_rsti_cnt[1]:CTOF_DEL, 0.075,R14C52C.D1,R14C52C.F1,U4/SLICE_2786:ROUTE, 0.000,R14C52C.F1,R14C52C.DI1,U4/n36">Data path</A> U4/SLICE_2786 to U4/SLICE_2786:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.161    R14C52C.CLK to     R14C52C.Q1 <A href="#@comp:U4/SLICE_2786">U4/SLICE_2786</A> (from <A href="#@net:w_pll_100m">w_pll_100m</A>)
+ROUTE         6     0.133<A href="#@net:U4/r_rsti_cnt[1]:R14C52C.Q1:R14C52C.D1:0.133">     R14C52C.Q1 to R14C52C.D1    </A> <A href="#@net:U4/r_rsti_cnt[1]">U4/r_rsti_cnt[1]</A>
+CTOF_DEL    ---     0.075     R14C52C.D1 to     R14C52C.F1 <A href="#@comp:U4/SLICE_2786">U4/SLICE_2786</A>
+ROUTE         1     0.000<A href="#@net:U4/n36:R14C52C.F1:R14C52C.DI1:0.000">     R14C52C.F1 to R14C52C.DI1   </A> <A href="#@net:U4/n36">U4/n36</A> (to <A href="#@net:w_pll_100m">w_pll_100m</A>)
+                  --------
+                    0.369   (64.0% logic, 36.0% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R14C52C.CLK,w_pll_100m">Source Clock Path</A> U1/PLLInst_0 to U4/SLICE_2786:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R14C52C.CLK:0.633"> PLL_BL0.CLKOS2 to R14C52C.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R14C52C.CLK,w_pll_100m">Destination Clock Path</A> U1/PLLInst_0 to U4/SLICE_2786:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R14C52C.CLK:0.633"> PLL_BL0.CLKOS2 to R14C52C.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.252ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U4/SLICE_2782">U4/r_emit_cnt_18482__i3</A>  (from <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U4/SLICE_2782">U4/r_emit_cnt_18482__i3</A>  (to <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+
+   Delay:               0.370ns  (64.1% logic, 35.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.370ns physical path delay U4/SLICE_2782 to U4/SLICE_2782 meets
+      0.118ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.118ns) by 0.252ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:REG_DEL, 0.162,R15C55C.CLK,R15C55C.Q0,U4/SLICE_2782:ROUTE, 0.133,R15C55C.Q0,R15C55C.D0,U4/r_emit_cnt[3]:CTOF_DEL, 0.075,R15C55C.D0,R15C55C.F0,U4/SLICE_2782:ROUTE, 0.000,R15C55C.F0,R15C55C.DI0,U4/n28">Data path</A> U4/SLICE_2782 to U4/SLICE_2782:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.162    R15C55C.CLK to     R15C55C.Q0 <A href="#@comp:U4/SLICE_2782">U4/SLICE_2782</A> (from <A href="#@net:w_pll_100m">w_pll_100m</A>)
+ROUTE         3     0.133<A href="#@net:U4/r_emit_cnt[3]:R15C55C.Q0:R15C55C.D0:0.133">     R15C55C.Q0 to R15C55C.D0    </A> <A href="#@net:U4/r_emit_cnt[3]">U4/r_emit_cnt[3]</A>
+CTOF_DEL    ---     0.075     R15C55C.D0 to     R15C55C.F0 <A href="#@comp:U4/SLICE_2782">U4/SLICE_2782</A>
+ROUTE         1     0.000<A href="#@net:U4/n28:R15C55C.F0:R15C55C.DI0:0.000">     R15C55C.F0 to R15C55C.DI0   </A> <A href="#@net:U4/n28">U4/n28</A> (to <A href="#@net:w_pll_100m">w_pll_100m</A>)
+                  --------
+                    0.370   (64.1% logic, 35.9% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R15C55C.CLK,w_pll_100m">Source Clock Path</A> U1/PLLInst_0 to U4/SLICE_2782:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R15C55C.CLK:0.633"> PLL_BL0.CLKOS2 to R15C55C.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R15C55C.CLK,w_pll_100m">Destination Clock Path</A> U1/PLLInst_0 to U4/SLICE_2782:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R15C55C.CLK:0.633"> PLL_BL0.CLKOS2 to R15C55C.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.260ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U4/SLICE_2787">U4/r_rsti_cnt_18480__i2</A>  (from <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U4/SLICE_2787">U4/r_rsti_cnt_18480__i3</A>  (to <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+
+   Delay:               0.378ns  (62.7% logic, 37.3% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.378ns physical path delay U4/SLICE_2787 to U4/SLICE_2787 meets
+      0.118ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.118ns) by 0.260ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:REG_DEL, 0.162,R14C52A.CLK,R14C52A.Q0,U4/SLICE_2787:ROUTE, 0.141,R14C52A.Q0,R14C52A.C1,U4/r_rsti_cnt[2]:CTOF_DEL, 0.075,R14C52A.C1,R14C52A.F1,U4/SLICE_2787:ROUTE, 0.000,R14C52A.F1,R14C52A.DI1,U4/n34">Data path</A> U4/SLICE_2787 to U4/SLICE_2787:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.162    R14C52A.CLK to     R14C52A.Q0 <A href="#@comp:U4/SLICE_2787">U4/SLICE_2787</A> (from <A href="#@net:w_pll_100m">w_pll_100m</A>)
+ROUTE         5     0.141<A href="#@net:U4/r_rsti_cnt[2]:R14C52A.Q0:R14C52A.C1:0.141">     R14C52A.Q0 to R14C52A.C1    </A> <A href="#@net:U4/r_rsti_cnt[2]">U4/r_rsti_cnt[2]</A>
+CTOF_DEL    ---     0.075     R14C52A.C1 to     R14C52A.F1 <A href="#@comp:U4/SLICE_2787">U4/SLICE_2787</A>
+ROUTE         1     0.000<A href="#@net:U4/n34:R14C52A.F1:R14C52A.DI1:0.000">     R14C52A.F1 to R14C52A.DI1   </A> <A href="#@net:U4/n34">U4/n34</A> (to <A href="#@net:w_pll_100m">w_pll_100m</A>)
+                  --------
+                    0.378   (62.7% logic, 37.3% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R14C52A.CLK,w_pll_100m">Source Clock Path</A> U1/PLLInst_0 to U4/SLICE_2787:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R14C52A.CLK:0.633"> PLL_BL0.CLKOS2 to R14C52A.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R14C52A.CLK,w_pll_100m">Destination Clock Path</A> U1/PLLInst_0 to U4/SLICE_2787:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R14C52A.CLK:0.633"> PLL_BL0.CLKOS2 to R14C52A.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+<font color=#000000> 
+
+Passed: The following path meets requirements by 0.271ns
+ </font>
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              <A href="#@comp:U4/SLICE_2781">U4/r_emit_cnt_18482__i2</A>  (from <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+   Destination:    FF         Data in        <A href="#@comp:U4/SLICE_2781">U4/r_emit_cnt_18482__i2</A>  (to <A href="#@net:w_pll_100m">w_pll_100m</A> +)
+
+   Delay:               0.389ns  (60.7% logic, 39.3% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.389ns physical path delay U4/SLICE_2781 to U4/SLICE_2781 meets
+      0.118ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling 0.118ns) by 0.271ns
+
+ Physical Path Details:
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:REG_DEL, 0.161,R15C55D.CLK,R15C55D.Q1,U4/SLICE_2781:ROUTE, 0.153,R15C55D.Q1,R15C55D.A1,U4/r_emit_cnt[2]:CTOF_DEL, 0.075,R15C55D.A1,R15C55D.F1,U4/SLICE_2781:ROUTE, 0.000,R15C55D.F1,R15C55D.DI1,U4/n29">Data path</A> U4/SLICE_2781 to U4/SLICE_2781:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.161    R15C55D.CLK to     R15C55D.Q1 <A href="#@comp:U4/SLICE_2781">U4/SLICE_2781</A> (from <A href="#@net:w_pll_100m">w_pll_100m</A>)
+ROUTE         4     0.153<A href="#@net:U4/r_emit_cnt[2]:R15C55D.Q1:R15C55D.A1:0.153">     R15C55D.Q1 to R15C55D.A1    </A> <A href="#@net:U4/r_emit_cnt[2]">U4/r_emit_cnt[2]</A>
+CTOF_DEL    ---     0.075     R15C55D.A1 to     R15C55D.F1 <A href="#@comp:U4/SLICE_2781">U4/SLICE_2781</A>
+ROUTE         1     0.000<A href="#@net:U4/n29:R15C55D.F1:R15C55D.DI1:0.000">     R15C55D.F1 to R15C55D.DI1   </A> <A href="#@net:U4/n29">U4/n29</A> (to <A href="#@net:w_pll_100m">w_pll_100m</A>)
+                  --------
+                    0.389   (60.7% logic, 39.3% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R15C55D.CLK,w_pll_100m">Source Clock Path</A> U1/PLLInst_0 to U4/SLICE_2781:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R15C55D.CLK:0.633"> PLL_BL0.CLKOS2 to R15C55D.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+      <A href="#@path:FREQUENCY NET 'w_pll_100m' 120.000000 MHz ;:ROUTE, 0.633,PLL_BL0.CLKOS2,R15C55D.CLK,w_pll_100m">Destination Clock Path</A> U1/PLLInst_0 to U4/SLICE_2781:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        15     0.633<A href="#@net:w_pll_100m:PLL_BL0.CLKOS2:R15C55D.CLK:0.633"> PLL_BL0.CLKOS2 to R15C55D.CLK   </A> <A href="#@net:w_pll_100m">w_pll_100m</A>
+                  --------
+                    0.633   (0.0% logic, 100.0% route), 0 logic levels.
+
+<A name="Report Summary"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "i_clk_50m_c" 50.000000   |             |             |
+MHz ;                                   |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "w_pll_50m_2" 50.000000   |             |             |
+MHz ;                                   |            -|            -|   0  
+                                        |             |             |
+FREQUENCY PORT "i_clk_50m" 60.000000    |             |             |
+MHz ;                                   |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "w_pll_50m" 60.000000 MHz |             |             |
+;                                       |     0.000 ns|     0.170 ns|   1  
+                                        |             |             |
+FREQUENCY NET "w_pll_100m" 120.000000   |             |             |
+MHz ;                                   |     0.000 ns|     0.176 ns|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="Clock Domains Analysis"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 5 clocks:
+
+Clock Domain: <A href="#@net:w_pll_50m">w_pll_50m</A>   Source: U1/PLLInst_0.CLKOP   Loads: 4624
+   Covered under: FREQUENCY NET "w_pll_50m" 60.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: <A href="#@net:jtaghub16_jtck">jtaghub16_jtck</A>   Source: sa5phub/genblk8.jtagg_u.JTCK
+
+Clock Domain: <A href="#@net:w_pll_100m">w_pll_100m</A>   Source: U1/PLLInst_0.CLKOS2   Loads: 15
+   Covered under: FREQUENCY NET "w_pll_100m" 120.000000 MHz ;
+
+   Data transfers from:
+   Clock Domain: <A href="#@net:w_pll_50m">w_pll_50m</A>   Source: U1/PLLInst_0.CLKOP
+      Covered under: FREQUENCY NET "w_pll_100m" 120.000000 MHz ;   Transfers: 8
+
+   Clock Domain: <A href="#@net:jtaghub16_jtck">jtaghub16_jtck</A>   Source: sa5phub/genblk8.jtagg_u.JTCK
+
+Clock Domain: <A href="#@net:jtaghub16_jtck">jtaghub16_jtck</A>   Source: sa5phub/genblk8.jtagg_u.JTCK   Loads: 414
+   No transfer within this clock domain is found
+
+Clock Domain: <A href="#@net:i_clk_50m_c">i_clk_50m_c</A>   Source: i_clk_50m.PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: <A href="#@net:U1/CLKFB_t">U1/CLKFB_t</A>   Source: U1/PLLInst_0.CLKINTFB   Loads: 1
+   No transfer within this clock domain is found
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 4223022 paths, 6 nets, and 79014 connections (98.23% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 10 (setup), 0 (hold)
+Score: 16146 (setup), 0 (hold)
+Cumulative negative slack: 8073 (8073+0)

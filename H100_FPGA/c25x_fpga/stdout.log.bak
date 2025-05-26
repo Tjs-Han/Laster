@@ -1,0 +1,74 @@
+Running in Lattice mode
+
+Starting:    E:\tools\Iscc\diamond\3.12\synpbase\bin64\mbin\synplify.exe
+Install:     E:\tools\Iscc\diamond\3.12\synpbase
+Hostname:    LAPTOP-5IM9OFQR
+Date:        Wed Sep  8 13:54:38 2021
+Version:     Q-2020.03L-SP1
+
+Arguments:   -product synplify_pro -tcl D:/programs/fpga/C251/C25X_21090810/c25x_fpga/launch_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+No project opened.
+TCL script complete: "D:/programs/fpga/C251/C25X_21090810/c25x_fpga/launch_synplify.tcl"
+log file: "D:\programs\fpga\C251\C25X_21090810\c25x_fpga\c25x_fpga.srr"
+Running: c25x_fpga in foreground
+
+Running c25x_fpga_syn|c25x_fpga
+
+Running Flow: compile (Compile) on c25x_fpga_syn|c25x_fpga
+# Wed Sep  8 13:55:15 2021
+
+Running Flow: compile_flow (Compile Process) on c25x_fpga_syn|c25x_fpga
+# Wed Sep  8 13:55:15 2021
+
+Running: compiler (Compile Input) on c25x_fpga_syn|c25x_fpga
+# Wed Sep  8 13:55:15 2021
+Copied D:\programs\fpga\C251\C25X_21090810\c25x_fpga\synwork\c25x_fpga_comp.srs to D:\programs\fpga\C251\C25X_21090810\c25x_fpga\c25x_fpga.srs
+
+compiler completed
+# Wed Sep  8 13:55:19 2021
+
+Return Code: 0
+Run Time:00h:00m:04s
+
+Running: multi_srs_gen (Multi-srs Generator) on c25x_fpga_syn|c25x_fpga
+# Wed Sep  8 13:55:19 2021
+
+multi_srs_gen completed
+# Wed Sep  8 13:55:20 2021
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied D:\programs\fpga\C251\C25X_21090810\c25x_fpga\synwork\c25x_fpga_mult.srs to D:\programs\fpga\C251\C25X_21090810\c25x_fpga\c25x_fpga.srs
+Complete: Compile Process on c25x_fpga_syn|c25x_fpga
+
+Running: premap (Premap) on c25x_fpga_syn|c25x_fpga
+# Wed Sep  8 13:55:20 2021
+
+premap completed
+# Wed Sep  8 13:55:22 2021
+
+Return Code: 0
+Run Time:00h:00m:02s
+Complete: Compile on c25x_fpga_syn|c25x_fpga
+
+Running Flow: map (Map) on c25x_fpga_syn|c25x_fpga
+# Wed Sep  8 13:55:22 2021
+
+Running: fpga_mapper (Map & Optimize) on c25x_fpga_syn|c25x_fpga
+# Wed Sep  8 13:55:22 2021
+Copied D:\programs\fpga\C251\C25X_21090810\c25x_fpga\synwork\c25x_fpga_m.srm to D:\programs\fpga\C251\C25X_21090810\c25x_fpga\c25x_fpga.srm
+
+fpga_mapper completed
+# Wed Sep  8 13:55:25 2021
+
+Return Code: 0
+Run Time:00h:00m:03s
+Complete: Map on c25x_fpga_syn|c25x_fpga
+Complete: Logic Synthesis on c25x_fpga_syn|c25x_fpga
+0exit status=0

@@ -1,0 +1,52 @@
+[Device]
+Family=ecp5u
+PartType=LFE5U-25F
+PartName=LFE5U-25F-6BG256I
+SpeedGrade=6
+Package=CABGA256
+OperatingCondition=IND
+Status=S
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=RAM_DP
+CoreRevision=6.5
+ModuleName=distance_ram
+SourceFormat=verilog
+ParameterFileVersion=1.0
+Date=09/27/2021
+Time=11:57:40
+
+[Parameters]
+Verilog=1
+VHDL=0
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+RAddress=256
+RData=64
+WAddress=256
+WData=64
+enByte=0
+ByteSize=9
+OutputEn=0
+ClockEn=0
+Optimization=Speed
+Reset=Sync
+Reset1=Sync
+Init=0
+MemFile=
+MemFormat=bin
+EnECC=0
+Pipeline=0
+init_data=0
+
+[FilesGenerated]
+=mem
+
+[Command]
+cmd_line= -w -n distance_ram -lang verilog -synth lse -bus_exp 7 -bb -arch sa5p00 -type ramdps -device LFE5U-25F -raddr_width 8 -rwidth 64 -waddr_width 8 -wwidth 64 -rnum_words 256 -wnum_words 256 -cascade -1 -mem_init0

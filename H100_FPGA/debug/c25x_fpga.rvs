@@ -1,0 +1,88 @@
+<Project ModBy="Inserter" Name="D:/Project/H100_FPGA/debug/c25x_fpga.rvl" Date="2025-05-13">
+    <Core Name="c25x_fpga_LA0">
+        <Setting>
+            <Capture SamplesPerTrig="16" NumTrigsCap="1"/>
+            <Event EventCnt="0" CntEnableRun="0"/>
+            <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Name="U7/i_flash_miso"/>
+                <Sig Name="U8/u1/o_w5500_rst"/>
+                <Sig Name="U7/r_flash_clk_n"/>
+                <Bus Name="U5/U1/r_angle_reso" Radix="0">
+                    <Sig Name="U5/U1/r_angle_reso:0"/>
+                    <Sig Name="U5/U1/r_angle_reso:1"/>
+                    <Sig Name="U5/U1/r_angle_reso:2"/>
+                    <Sig Name="U5/U1/r_angle_reso:3"/>
+                    <Sig Name="U5/U1/r_angle_reso:4"/>
+                    <Sig Name="U5/U1/r_angle_reso:5"/>
+                    <Sig Name="U5/U1/r_angle_reso:6"/>
+                    <Sig Name="U5/U1/r_angle_reso:7"/>
+                </Bus>
+                <Bus Name="U5/U1/r_angle_zero" Radix="0">
+                    <Sig Name="U5/U1/r_angle_zero:0"/>
+                    <Sig Name="U5/U1/r_angle_zero:1"/>
+                    <Sig Name="U5/U1/r_angle_zero:2"/>
+                    <Sig Name="U5/U1/r_angle_zero:3"/>
+                    <Sig Name="U5/U1/r_angle_zero:4"/>
+                    <Sig Name="U5/U1/r_angle_zero:5"/>
+                    <Sig Name="U5/U1/r_angle_zero:6"/>
+                    <Sig Name="U5/U1/r_angle_zero:7"/>
+                    <Sig Name="U5/U1/r_angle_zero:8"/>
+                    <Sig Name="U5/U1/r_angle_zero:9"/>
+                    <Sig Name="U5/U1/r_angle_zero:10"/>
+                    <Sig Name="U5/U1/r_angle_zero:11"/>
+                    <Sig Name="U5/U1/r_angle_zero:12"/>
+                    <Sig Name="U5/U1/r_angle_zero:13"/>
+                    <Sig Name="U5/U1/r_angle_zero:14"/>
+                    <Sig Name="U5/U1/r_angle_zero:15"/>
+                </Bus>
+                <Sig Name="U6/o_sram_oe_n"/>
+                <Sig Name="U6/o_sram_we_n"/>
+                <Bus Name="U6/io_sram_data" Radix="0">
+                    <Sig Name="U6/io_sram_data:0"/>
+                    <Sig Name="U6/io_sram_data:1"/>
+                    <Sig Name="U6/io_sram_data:2"/>
+                    <Sig Name="U6/io_sram_data:3"/>
+                    <Sig Name="U6/io_sram_data:4"/>
+                    <Sig Name="U6/io_sram_data:5"/>
+                    <Sig Name="U6/io_sram_data:6"/>
+                    <Sig Name="U6/io_sram_data:7"/>
+                    <Sig Name="U6/io_sram_data:8"/>
+                    <Sig Name="U6/io_sram_data:9"/>
+                    <Sig Name="U6/io_sram_data:10"/>
+                    <Sig Name="U6/io_sram_data:11"/>
+                    <Sig Name="U6/io_sram_data:12"/>
+                    <Sig Name="U6/io_sram_data:13"/>
+                    <Sig Name="U6/io_sram_data:14"/>
+                    <Sig Name="U6/io_sram_data:15"/>
+                </Bus>
+                <Bus Name="U6/o_sram_addr" Radix="0">
+                    <Sig Name="U6/o_sram_addr:0"/>
+                    <Sig Name="U6/o_sram_addr:1"/>
+                    <Sig Name="U6/o_sram_addr:2"/>
+                    <Sig Name="U6/o_sram_addr:3"/>
+                    <Sig Name="U6/o_sram_addr:4"/>
+                    <Sig Name="U6/o_sram_addr:5"/>
+                    <Sig Name="U6/o_sram_addr:6"/>
+                    <Sig Name="U6/o_sram_addr:7"/>
+                    <Sig Name="U6/o_sram_addr:8"/>
+                    <Sig Name="U6/o_sram_addr:9"/>
+                    <Sig Name="U6/o_sram_addr:10"/>
+                    <Sig Name="U6/o_sram_addr:11"/>
+                    <Sig Name="U6/o_sram_addr:12"/>
+                    <Sig Name="U6/o_sram_addr:13"/>
+                    <Sig Name="U6/o_sram_addr:14"/>
+                    <Sig Name="U6/o_sram_addr:15"/>
+                    <Sig Name="U6/o_sram_addr:16"/>
+                    <Sig Name="U6/o_sram_addr:17"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU Operator="6" Name="TU1" ID="1" Value="1" Radix="0"/>
+                <TE Enable="1" Expression="TU1" Name="TE1" ID="1"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

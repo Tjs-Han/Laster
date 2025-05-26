@@ -1,0 +1,14 @@
+#Start recording tcl command: 4/29/2025 16:02:21
+#Project Location: D:/Project/H100_FPGA; Project name: c25x_fpga
+prj_project open "D:/Project/H100_FPGA/c25x_fpga.ldf"
+prj_src add "D:/Project/H100_FPGA/sim/sim_as6500_control/sim_04290A/sim_04290A.spf"
+sbp_design open -dsgn "D:/Project/H100_FPGA/c25x_fpga_ip/c25x_fpga_ip.sbx"
+sbp_builder export_add -comp {c25x_fpga_ip/SBP_c25x_pll}
+prj_src add "D:/Project/H100_FPGA/sim/sim_as6500_control/sim04290A/sim04290A/sim04290A.spf"
+prj_src add "D:/Project/H100_FPGA/sim/sim_as6500_control/sim04290A/sim04290A/sim04290A.spf"
+prj_src add "D:/Project/H100_FPGA/sim/sim_as6500_control/sim04290A/sim04290A/sim04290A.spf"
+prj_src add "D:/Project/H100_FPGA/sim/sim_as6500_control/sim04290A/sim04290A/sim04290A.spf"
+prj_src add "D:/Project/H100_FPGA/sim/sim_as6500_control/sim04290A/sim04290A/sim04290A.spf"
+prj_src add "D:/Project/H100_FPGA/sim/sim_as6500_control/sim04290A/sim04290A/sim04290A.spf"
+prj_src add "D:/Project/H100_FPGA/sim/sim_as6500_control/sim04290A/sim04290A.spf"
+#Stop recording: 4/30/2025 18:10:43

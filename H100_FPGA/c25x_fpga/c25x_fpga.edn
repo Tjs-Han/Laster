@@ -1,0 +1,68 @@
+(edif USRMCLK
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2021 9 8 13 55 24)
+      (author "Synopsys, Inc.")
+      (program "Synplify Pro" (version "Q-2020.03L-SP1, mapper map202003lat, Build 172R"))
+     )
+   )
+  (library LUCENT
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell GSR (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port GSR (direction INPUT))
+         )
+       )
+    )
+    (cell VHI (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Z (direction OUTPUT))
+         )
+       )
+    )
+    (cell VLO (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Z (direction OUTPUT))
+         )
+       )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell USRMCLK (cellType GENERIC)
+       (view verilog (viewType NETLIST)
+         (interface
+           (port USRMCLKI (direction INPUT))
+           (port USRMCLKTS (direction INPUT))
+         )
+         (contents
+          (instance GND_0 (viewRef PRIM (cellRef VLO (libraryRef LUCENT)))          )
+          (instance VCC_0 (viewRef PRIM (cellRef VHI (libraryRef LUCENT)))          )
+          (instance GSR_INST (viewRef PRIM (cellRef GSR (libraryRef LUCENT)))
+          )
+          (net VCC (joined
+           (portRef Z (instanceRef VCC_0))
+           (portRef GSR (instanceRef GSR_INST))
+          ))
+          (net USRMCLKI (joined
+           (portRef USRMCLKI)
+          ))
+          (net USRMCLKTS (joined
+           (portRef USRMCLKTS)
+          ))
+         )
+        (property orig_inst_of (string "USRMCLK"))
+       )
+    )
+  )
+  (design USRMCLK (cellRef USRMCLK (libraryRef work))
+	(property PART (string "lfe5u_25f-6") ))
+)

@@ -1,0 +1,733 @@
+# Reading D:/modeltech64_10.4/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do {D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/sim0512B.mdo}
+# Loading project sim0512B
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:03 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/opto_ram.v 
+# -- Compiling module opto_ram
+# 
+# Top level modules:
+# 	opto_ram
+# End time: 14:26:03 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:03 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/time_stamp.v 
+# -- Compiling module time_stamp
+# 
+# Top level modules:
+# 	time_stamp
+# End time: 14:26:03 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:03 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/division.v 
+# -- Compiling module division
+# 
+# Top level modules:
+# 	division
+# End time: 14:26:03 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:03 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/index_calculate.v 
+# -- Compiling module index_calculate
+# 
+# Top level modules:
+# 	index_calculate
+# End time: 14:26:03 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:03 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/parameter_init.v 
+# -- Compiling module parameter_init
+# 
+# Top level modules:
+# 	parameter_init
+# End time: 14:26:03 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:04 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/time_stamp_ntp.v 
+# -- Compiling module time_stamp_ntp
+# 
+# Top level modules:
+# 	time_stamp_ntp
+# End time: 14:26:04 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:04 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/ntp_calculate.v 
+# -- Compiling module ntp_calculate
+# 
+# Top level modules:
+# 	ntp_calculate
+# End time: 14:26:04 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:04 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/ntp_send_make.v 
+# -- Compiling module ntp_send_make
+# 
+# Top level modules:
+# 	ntp_send_make
+# End time: 14:26:04 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:04 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/ntp_receive_parser.v 
+# -- Compiling module ntp_receive_parser
+# 
+# Top level modules:
+# 	ntp_receive_parser
+# End time: 14:26:04 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:04 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/datagram_parser_udp.v 
+# -- Compiling module datagram_parser_udp
+# 
+# Top level modules:
+# 	datagram_parser_udp
+# End time: 14:26:04 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:04 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/packet_data_ram.v 
+# -- Compiling module packet_data_ram
+# 
+# Top level modules:
+# 	packet_data_ram
+# End time: 14:26:04 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:05 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/eth_data_ram.v 
+# -- Compiling module eth_data_ram
+# 
+# Top level modules:
+# 	eth_data_ram
+# End time: 14:26:05 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:05 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/datagram_parser.v 
+# -- Compiling module datagram_parser
+# 
+# Top level modules:
+# 	datagram_parser
+# End time: 14:26:05 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:05 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/eth_send_ram.v 
+# -- Compiling module eth_send_ram
+# 
+# Top level modules:
+# 	eth_send_ram
+# End time: 14:26:05 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:05 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/tcp_recv_fifo.v 
+# -- Compiling module tcp_recv_fifo
+# 
+# Top level modules:
+# 	tcp_recv_fifo
+# End time: 14:26:05 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:05 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/spi_master_eth.v 
+# -- Compiling module spi_master_eth
+# 
+# Top level modules:
+# 	spi_master_eth
+# End time: 14:26:05 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:05 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/spi_w5500_cmd.v 
+# -- Compiling module spi_w5500_cmd
+# 
+# Top level modules:
+# 	spi_w5500_cmd
+# End time: 14:26:06 on May 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:06 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/spi_w5500_top_3.v 
+# -- Compiling module spi_w5500_top_3
+# 
+# Top level modules:
+# 	spi_w5500_top_3
+# End time: 14:26:06 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:06 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/w5500_control.v 
+# -- Compiling module w5500_control
+# 
+# Top level modules:
+# 	w5500_control
+# End time: 14:26:06 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:06 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/spi_master.v 
+# -- Compiling module spi_master
+# 
+# Top level modules:
+# 	spi_master
+# End time: 14:26:06 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:06 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/spi_flash_cmd.v 
+# -- Compiling module spi_flash_cmd
+# 
+# Top level modules:
+# 	spi_flash_cmd
+# End time: 14:26:06 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:06 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/spi_flash_top.v 
+# -- Compiling module spi_flash_top
+# 
+# Top level modules:
+# 	spi_flash_top
+# End time: 14:26:06 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:06 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/flash_control.v 
+# -- Compiling module flash_control
+# 
+# Top level modules:
+# 	flash_control
+# End time: 14:26:07 on May 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:07 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/sram_control.v 
+# -- Compiling module sram_control
+# 
+# Top level modules:
+# 	sram_control
+# End time: 14:26:07 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:07 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/calib_packet.v 
+# -- Compiling module calib_packet
+# 
+# Top level modules:
+# 	calib_packet
+# End time: 14:26:07 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:07 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/dist_packet.v 
+# -- Compiling module dist_packet
+# 
+# Top level modules:
+# 	dist_packet
+# End time: 14:26:07 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:07 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/distance_ram.v 
+# -- Compiling module distance_ram
+# 
+# Top level modules:
+# 	distance_ram
+# End time: 14:26:07 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:07 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/data_process_3.v 
+# -- Compiling module data_process_3
+# 
+# Top level modules:
+# 	data_process_3
+# End time: 14:26:07 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:08 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/div_rill.v 
+# -- Compiling module div_rill
+# ** Warning: D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/div_rill.v(61): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/div_rill.v(62): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	div_rill
+# End time: 14:26:08 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:08 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/multiplier.v 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 14:26:08 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:08 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/rssi_cal.v 
+# -- Compiling module rssi_cal
+# 
+# Top level modules:
+# 	rssi_cal
+# End time: 14:26:08 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:08 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/dist_cal.v 
+# -- Compiling module dist_cal
+# 
+# Top level modules:
+# 	dist_cal
+# End time: 14:26:08 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:08 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/index_cal.v 
+# -- Compiling module index_cal
+# 
+# Top level modules:
+# 	index_cal
+# End time: 14:26:08 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:08 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/data_pre.v 
+# -- Compiling module data_pre
+# 
+# Top level modules:
+# 	data_pre
+# End time: 14:26:08 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:09 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/dist_calculate.v 
+# -- Compiling module dist_calculate
+# 
+# Top level modules:
+# 	dist_calculate
+# End time: 14:26:09 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:09 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/SPI_Master_2.v 
+# -- Compiling module SPI_Master_2
+# 
+# Top level modules:
+# 	SPI_Master_2
+# End time: 14:26:09 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:09 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/as6500_ctrl.v 
+# -- Compiling module as6500_ctrl
+# 
+# Top level modules:
+# 	as6500_ctrl
+# End time: 14:26:09 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:09 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/as6500_control.v 
+# -- Compiling module as6500_control
+# 
+# Top level modules:
+# 	as6500_control
+# End time: 14:26:09 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:09 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/measure_para.v 
+# -- Compiling module measure_para
+# 
+# Top level modules:
+# 	measure_para
+# End time: 14:26:09 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:09 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/dist_measure.v 
+# -- Compiling module dist_measure
+# 
+# Top level modules:
+# 	dist_measure
+# End time: 14:26:09 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:10 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/laser_control.v 
+# -- Compiling module laser_control
+# 
+# Top level modules:
+# 	laser_control
+# End time: 14:26:10 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:10 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/pluse_average.v 
+# -- Compiling module pluse_average
+# 
+# Top level modules:
+# 	pluse_average
+# End time: 14:26:10 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:10 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/adc_to_dist.v 
+# -- Compiling module adc_to_dist
+# 
+# Top level modules:
+# 	adc_to_dist
+# End time: 14:26:10 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:10 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/multiplier3.v 
+# -- Compiling module multiplier3
+# 
+# Top level modules:
+# 	multiplier3
+# End time: 14:26:10 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:10 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/adc_to_temp.v 
+# -- Compiling module adc_to_temp
+# 
+# Top level modules:
+# 	adc_to_temp
+# End time: 14:26:10 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:10 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/adc_to_dac.v 
+# -- Compiling module adc_to_dac
+# 
+# Top level modules:
+# 	adc_to_dac
+# End time: 14:26:10 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:11 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/DA_SPI.v 
+# -- Compiling module DA_SPI
+# 
+# Top level modules:
+# 	DA_SPI
+# End time: 14:26:11 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:11 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/AD_SPI.v 
+# -- Compiling module AD_SPI
+# 
+# Top level modules:
+# 	AD_SPI
+# End time: 14:26:11 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:11 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/adc_control.v 
+# -- Compiling module adc_control
+# 
+# Top level modules:
+# 	adc_control
+# End time: 14:26:11 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:11 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/self_inspection.v 
+# -- Compiling module self_inspection
+# 
+# Top level modules:
+# 	self_inspection
+# End time: 14:26:11 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:11 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/random_number_generator.v 
+# -- Compiling module random_number_generator
+# 
+# Top level modules:
+# 	random_number_generator
+# End time: 14:26:11 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 14:26:11 on May 12,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B" -work work D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/encoder_generate.v 
+# -- Compiling module encoder_generate
+# ** Error: D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/encoder_generate.v(209): (vlog-2730) Undefined variable: 'w_angle_sync'.
+# 
+# End time: 14:26:11 on May 12,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: D:/modeltech64_10.4/win64/vlog failed.
+# Error in macro D:\Project\H100_FPGA\sim\sim_as6500_control\sim0512B\sim0512B.mdo line 147
+# D:/modeltech64_10.4/win64/vlog failed.
+#     while executing
+# "vlog  +incdir+D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B  -work work  "D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/encoder_generate..."
+#     invoked from within
+# "if {![file exists "D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/sim0512B.mpf"]} { 
+# 	project new "D:/Project/H100_FPGA/sim/sim_as6500_control/s..."
+# Compile of opto_ram.v was successful.
+# Compile of time_stamp.v was successful.
+# Compile of division.v was successful.
+# Compile of index_calculate.v was successful.
+# Compile of parameter_init.v was successful.
+# Compile of time_stamp_ntp.v was successful.
+# Compile of ntp_calculate.v was successful.
+# Compile of ntp_send_make.v was successful.
+# Compile of ntp_receive_parser.v was successful.
+# Compile of datagram_parser_udp.v was successful.
+# Compile of packet_data_ram.v was successful.
+# Compile of eth_data_ram.v was successful.
+# Compile of datagram_parser.v was successful.
+# Compile of eth_send_ram.v was successful.
+# Compile of tcp_recv_fifo.v was successful.
+# Compile of spi_master_eth.v was successful.
+# Compile of spi_w5500_cmd.v was successful.
+# Compile of spi_w5500_top_3.v was successful.
+# Compile of w5500_control.v was successful.
+# Compile of spi_master.v was successful.
+# Compile of spi_flash_cmd.v was successful.
+# Compile of spi_flash_top.v was successful.
+# Compile of flash_control.v was successful.
+# Compile of sram_control.v was successful.
+# Compile of calib_packet.v was successful.
+# Compile of dist_packet.v was successful.
+# Compile of distance_ram.v was successful.
+# Compile of data_process_3.v was successful.
+# Compile of div_rill.v was successful with warnings.
+# Compile of multiplier.v was successful.
+# Compile of rssi_cal.v was successful.
+# Compile of dist_cal.v was successful.
+# Compile of index_cal.v was successful.
+# Compile of data_pre.v was successful.
+# Compile of dist_calculate.v was successful.
+# Compile of SPI_Master_2.v was successful.
+# Compile of as6500_ctrl.v was successful.
+# Compile of as6500_control.v was successful.
+# Compile of measure_para.v was successful.
+# Compile of dist_measure.v was successful.
+# Compile of laser_control.v was successful.
+# Compile of pluse_average.v was successful.
+# Compile of adc_to_dist.v was successful.
+# Compile of multiplier3.v was successful.
+# Compile of adc_to_temp.v was successful.
+# Compile of adc_to_dac.v was successful.
+# Compile of DA_SPI.v was successful.
+# Compile of AD_SPI.v was successful.
+# Compile of adc_control.v was successful.
+# Compile of self_inspection.v was successful.
+# Compile of random_number_generator.v was successful.
+# Compile of encoder_generate.v failed with 1 errors.
+# Compile of motor_control_2.v was successful.
+# Compile of motor_control.v was successful.
+# Compile of opto_switch_filter.v was successful.
+# Compile of rotate_control.v was successful.
+# Compile of c25x_pll.v was successful.
+# Compile of c25x_fpga.v was successful.
+# Compile of dist_filter.v was successful.
+# Compile of cache_opto_ram.v was successful.
+# Compile of c25x_fpga_ip.v was successful.
+# Compile of opto_packet.v was successful.
+# Compile of motor_drive.v was successful.
+# Compile of TB_as6500_control.v was successful.
+# Compile of datagram_cmd_defines.v was successful.
+# Compile of parameter_ident_define.v was successful.
+# Compile of w5500_cmd_defines.v was successful.
+# Compile of w5500_reg_defines.v was successful.
+# Compile of USRMCLK.v was successful.
+# 69 compiles, 1 failed with 1 error.
+vsim -novopt work.TB_as6500_control
+# vsim -gui -do "do {D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/sim0512B.mdo}" 
+# Start time: 14:27:52 on May 12,2025
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/work.TB_as6500_control
+# Loading work.TB_as6500_control
+# Refreshing D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/work.as6500_control
+# Loading work.as6500_control
+# Refreshing D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/work.as6500_ctrl
+# Loading work.as6500_ctrl
+# Refreshing D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/work.SPI_Master_2
+# Loading work.SPI_Master_2
+# ** Warning: (vsim-3017) D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/TB_as6500_control.v(56): [TFMPC] - Too few port connections. Expected 14, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_as6500_control/U2 File: D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/as6500_control.v
+# ** Warning: (vsim-3722) D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/TB_as6500_control.v(56): [TFMPC] - Missing connection for port 'o_tdc_spi_mosi'.
+# ** Warning: (vsim-3722) D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/TB_as6500_control.v(56): [TFMPC] - Missing connection for port 'o_tdc_spi_ssn'.
+# ** Warning: (vsim-3722) D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/TB_as6500_control.v(56): [TFMPC] - Missing connection for port 'o_tdc_spi_clk'.
+# ** Warning: (vsim-3722) D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/TB_as6500_control.v(56): [TFMPC] - Missing connection for port 'o_rise_data'.
+# ** Warning: (vsim-3722) D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/TB_as6500_control.v(56): [TFMPC] - Missing connection for port 'o_fall_data'.
+# ** Warning: (vsim-3722) D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/TB_as6500_control.v(56): [TFMPC] - Missing connection for port 'o_tdc_err_sig'.
+# ** Warning: (vsim-3722) D:/Project/H100_FPGA/sim/sim_as6500_control/sim0512B/TB_as6500_control.v(56): [TFMPC] - Missing connection for port 'o_tdc_new_sig'.
+add wave -position insertpoint  \
+sim:/TB_as6500_control/U2/as6500_config_done \
+sim:/TB_as6500_control/U2/as6500_measure_data \
+sim:/TB_as6500_control/U2/as6500_measure_data_valid \
+sim:/TB_as6500_control/U2/i_angle_sync \
+sim:/TB_as6500_control/U2/i_clk_100m \
+sim:/TB_as6500_control/U2/i_clk_50m \
+sim:/TB_as6500_control/U2/i_motor_state \
+sim:/TB_as6500_control/U2/i_rst_n \
+sim:/TB_as6500_control/U2/i_tdc_init \
+sim:/TB_as6500_control/U2/i_tdc_spi_miso \
+sim:/TB_as6500_control/U2/o_fall_data \
+sim:/TB_as6500_control/U2/o_rise_data \
+sim:/TB_as6500_control/U2/o_tdc_err_sig \
+sim:/TB_as6500_control/U2/o_tdc_new_sig \
+sim:/TB_as6500_control/U2/o_tdc_spi_clk \
+sim:/TB_as6500_control/U2/o_tdc_spi_mosi \
+sim:/TB_as6500_control/U2/o_tdc_spi_ssn \
+sim:/TB_as6500_control/U2/spi_rx_byte \
+sim:/TB_as6500_control/U2/spi_rx_byte_valid \
+sim:/TB_as6500_control/U2/spi_tx_byte \
+sim:/TB_as6500_control/U2/spi_tx_byte_valid \
+sim:/TB_as6500_control/U2/spi_tx_ready
+add wave -position insertpoint  \
+sim:/TB_as6500_control/U2/U1/CONFIG_VALUE_REG \
+sim:/TB_as6500_control/U2/U1/NUM_CLEAR_REGISTER_PER_CHANNEL \
+sim:/TB_as6500_control/U2/U1/NUM_CONFIG_REGISTER \
+sim:/TB_as6500_control/U2/U1/NUM_RESULT_REGISTER_PER_CHANNEL \
+sim:/TB_as6500_control/U2/U1/NUM_WAIT_INTN_PERIOD \
+sim:/TB_as6500_control/U2/U1/OP_CODE_CLEAR_CH1_RESULT \
+sim:/TB_as6500_control/U2/U1/OP_CODE_CLEAR_CH2_RESULT \
+sim:/TB_as6500_control/U2/U1/OP_CODE_CLEAR_CH3_RESULT \
+sim:/TB_as6500_control/U2/U1/OP_CODE_CLEAR_CH4_RESULT \
+sim:/TB_as6500_control/U2/U1/OP_CODE_INIT \
+sim:/TB_as6500_control/U2/U1/OP_CODE_NOP \
+sim:/TB_as6500_control/U2/U1/OP_CODE_POWER_ON_RESET \
+sim:/TB_as6500_control/U2/U1/OP_CODE_READ_CH1_RESULT \
+sim:/TB_as6500_control/U2/U1/OP_CODE_READ_CH2_RESULT \
+sim:/TB_as6500_control/U2/U1/OP_CODE_READ_CH3_RESULT \
+sim:/TB_as6500_control/U2/U1/OP_CODE_READ_CH4_RESULT \
+sim:/TB_as6500_control/U2/U1/OP_CODE_READ_CONFIG \
+sim:/TB_as6500_control/U2/U1/OP_CODE_WRITE_CONFIG \
+sim:/TB_as6500_control/U2/U1/REFCLK_DIVISION \
+sim:/TB_as6500_control/U2/U1/ST_CAL_RESULT \
+sim:/TB_as6500_control/U2/U1/ST_CLEAR_DONE \
+sim:/TB_as6500_control/U2/U1/ST_CLEAR_FALL_BEGIN \
+sim:/TB_as6500_control/U2/U1/ST_CLEAR_FALL_BEGIN_POST \
+sim:/TB_as6500_control/U2/U1/ST_CLEAR_FALL_BEGIN_PRE \
+sim:/TB_as6500_control/U2/U1/ST_CLEAR_FALL_BEHIND \
+sim:/TB_as6500_control/U2/U1/ST_CLEAR_FALL_BEHIND_POST \
+sim:/TB_as6500_control/U2/U1/ST_CLEAR_FALL_BEHIND_PRE \
+sim:/TB_as6500_control/U2/U1/ST_CLEAR_RISE_BEHIND \
+sim:/TB_as6500_control/U2/U1/ST_CLEAR_RISE_BEHIND_POST \
+sim:/TB_as6500_control/U2/U1/ST_CLEAR_RISE_BEHIND_PRE \
+sim:/TB_as6500_control/U2/U1/ST_CLEAR_START_BEHIND \
+sim:/TB_as6500_control/U2/U1/ST_CLEAR_START_BEHIND_POST \
+sim:/TB_as6500_control/U2/U1/ST_CLEAR_START_BEHIND_PRE \
+sim:/TB_as6500_control/U2/U1/ST_CONFIG \
+sim:/TB_as6500_control/U2/U1/ST_CONFIG_POST \
+sim:/TB_as6500_control/U2/U1/ST_CONFIG_PRE \
+sim:/TB_as6500_control/U2/U1/ST_IDLE \
+sim:/TB_as6500_control/U2/U1/ST_INIT \
+sim:/TB_as6500_control/U2/U1/ST_INIT_POST \
+sim:/TB_as6500_control/U2/U1/ST_INIT_PRE \
+sim:/TB_as6500_control/U2/U1/ST_MEASURE_DONE \
+sim:/TB_as6500_control/U2/U1/ST_POWER_ON_RESET \
+sim:/TB_as6500_control/U2/U1/ST_POWER_ON_RESET_POST \
+sim:/TB_as6500_control/U2/U1/ST_POWER_ON_RESET_PRE \
+sim:/TB_as6500_control/U2/U1/ST_READ_CONFIG \
+sim:/TB_as6500_control/U2/U1/ST_READ_CONFIG_POST \
+sim:/TB_as6500_control/U2/U1/ST_READ_CONFIG_PRE \
+sim:/TB_as6500_control/U2/U1/ST_READ_FALL_RESULT \
+sim:/TB_as6500_control/U2/U1/ST_READ_FALL_RESULT_POST \
+sim:/TB_as6500_control/U2/U1/ST_READ_FALL_RESULT_PRE \
+sim:/TB_as6500_control/U2/U1/ST_READ_RISE_RESULT \
+sim:/TB_as6500_control/U2/U1/ST_READ_RISE_RESULT_POST \
+sim:/TB_as6500_control/U2/U1/ST_READ_RISE_RESULT_PRE \
+sim:/TB_as6500_control/U2/U1/ST_READ_START_RESULT \
+sim:/TB_as6500_control/U2/U1/ST_READ_START_RESULT_POST \
+sim:/TB_as6500_control/U2/U1/ST_READ_START_RESULT_PRE \
+sim:/TB_as6500_control/U2/U1/ST_WAIT_CAL_RESULT \
+sim:/TB_as6500_control/U2/U1/ST_WAIT_INTN \
+sim:/TB_as6500_control/U2/U1/ST_WAIT_SIGN \
+sim:/TB_as6500_control/U2/U1/as6500_config_done \
+sim:/TB_as6500_control/U2/U1/as6500_init_done \
+sim:/TB_as6500_control/U2/U1/as6500_interrupt \
+sim:/TB_as6500_control/U2/U1/cnt1 \
+sim:/TB_as6500_control/U2/U1/cnt_byte \
+sim:/TB_as6500_control/U2/U1/cnt_clear \
+sim:/TB_as6500_control/U2/U1/cnt_delay_h \
+sim:/TB_as6500_control/U2/U1/cnt_delay_l \
+sim:/TB_as6500_control/U2/U1/cnt_wait \
+sim:/TB_as6500_control/U2/U1/current_state \
+sim:/TB_as6500_control/U2/U1/en_as6500_measure \
+sim:/TB_as6500_control/U2/U1/fall \
+sim:/TB_as6500_control/U2/U1/fall_1 \
+sim:/TB_as6500_control/U2/U1/fall_2 \
+sim:/TB_as6500_control/U2/U1/fall_result \
+sim:/TB_as6500_control/U2/U1/measure_data \
+sim:/TB_as6500_control/U2/U1/measure_data_valide \
+sim:/TB_as6500_control/U2/U1/middle_result \
+sim:/TB_as6500_control/U2/U1/next_state \
+sim:/TB_as6500_control/U2/U1/read_config_value \
+sim:/TB_as6500_control/U2/U1/rise \
+sim:/TB_as6500_control/U2/U1/rise_1 \
+sim:/TB_as6500_control/U2/U1/rise_2 \
+sim:/TB_as6500_control/U2/U1/rise_result \
+sim:/TB_as6500_control/U2/U1/sign_as6500_measure \
+sim:/TB_as6500_control/U2/U1/spi_cs_n \
+sim:/TB_as6500_control/U2/U1/spi_rx_byte \
+sim:/TB_as6500_control/U2/U1/spi_rx_byte_valid \
+sim:/TB_as6500_control/U2/U1/spi_tx_byte \
+sim:/TB_as6500_control/U2/U1/spi_tx_byte_valid \
+sim:/TB_as6500_control/U2/U1/spi_tx_ready \
+sim:/TB_as6500_control/U2/U1/spi_tx_ready_reg \
+sim:/TB_as6500_control/U2/U1/start_result \
+sim:/TB_as6500_control/U2/U1/sys_clk \
+sim:/TB_as6500_control/U2/U1/sys_rst_n \
+sim:/TB_as6500_control/U2/U1/verify_success
+add wave -position insertpoint  \
+sim:/TB_as6500_control/U2/SPI_Master_inst/i_Clk \
+sim:/TB_as6500_control/U2/SPI_Master_inst/i_Clk_Phase \
+sim:/TB_as6500_control/U2/SPI_Master_inst/i_Rst_L \
+sim:/TB_as6500_control/U2/SPI_Master_inst/i_SPI_MISO \
+sim:/TB_as6500_control/U2/SPI_Master_inst/i_TX_Byte \
+sim:/TB_as6500_control/U2/SPI_Master_inst/i_TX_DV \
+sim:/TB_as6500_control/U2/SPI_Master_inst/o_RX_Byte \
+sim:/TB_as6500_control/U2/SPI_Master_inst/o_RX_DV \
+sim:/TB_as6500_control/U2/SPI_Master_inst/o_SPI_Clk \
+sim:/TB_as6500_control/U2/SPI_Master_inst/o_SPI_MOSI \
+sim:/TB_as6500_control/U2/SPI_Master_inst/o_TX_Ready \
+sim:/TB_as6500_control/U2/SPI_Master_inst/r_RX_Byte \
+sim:/TB_as6500_control/U2/SPI_Master_inst/r_RX_DV \
+sim:/TB_as6500_control/U2/SPI_Master_inst/r_SPI_MOSI \
+sim:/TB_as6500_control/U2/SPI_Master_inst/r_TX_Ready \
+sim:/TB_as6500_control/U2/SPI_Master_inst/r_clk_counter \
+sim:/TB_as6500_control/U2/SPI_Master_inst/r_spi_clk_en \
+sim:/TB_as6500_control/U2/SPI_Master_inst/r_spi_tx_reg \
+sim:/TB_as6500_control/U2/SPI_Master_inst/r_tx_sig_reg \
+sim:/TB_as6500_control/U2/SPI_Master_inst/rr_clk_counter \
+sim:/TB_as6500_control/U2/SPI_Master_inst/tjs_value \
+sim:/TB_as6500_control/U2/SPI_Master_inst/w_tx_sig_rise
+run 100ms
+# End time: 15:07:44 on May 12,2025, Elapsed time: 0:39:52
+# Errors: 0, Warnings: 9

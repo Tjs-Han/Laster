@@ -1,0 +1,1320 @@
+----------------------------------------------------------------------
+Report for cell c25x_fpga.TECH
+Register bits:  7859 of 24879 (31.589%)
+I/O cells:      74
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               AND2         3          100.0
+                                 BB        16          100.0
+                              CCU2C      2623          100.0
+                             DP16KD        11          100.0
+                            EHXPLLL         1          100.0
+                            FD1P3AX       228          100.0
+                            FD1P3BX       275          100.0
+                            FD1P3DX      5471          100.0
+                            FD1P3IX       187          100.0
+                            FD1P3JX         3          100.0
+                            FD1S3AX         2          100.0
+                            FD1S3BX       134          100.0
+                            FD1S3DX      1424          100.0
+                            FD1S3IX       127          100.0
+                            FD1S3JX         8          100.0
+                                GSR         1          100.0
+                                 IB         7          100.0
+                                INV         6          100.0
+                            L6MUX21        74          100.0
+                               LUT4     14217          100.0
+                         MULT18X18D         7          100.0
+                           MULT9X9D         4          100.0
+                                 OB        51          100.0
+                           PDPW16KD         4          100.0
+                              PFUMX      1002          100.0
+                           ROM16X1A         2          100.0
+                          ROM256X1A         1          100.0
+                            USRMCLK         1          100.0
+                        VERIFIC_GND        51          100.0
+                               XOR2         1          100.0
+pmi_distributed_dpramEbnoner105328f0007d         1          100.0
+pmi_distributed_dpramEbnoner164168f01b22         1          100.0
+pmi_ram_dpEbnonesadr1638163811890790         1          100.0
+pmi_ram_dpEbnonesadr83101024831010241218b37a         1          100.0
+SUB MODULES
+                      AD_SPI_uniq_1         1
+                      DA_SPI_uniq_1         1
+                 adc_control_uniq_1         1
+                  adc_to_dac_uniq_1         1
+                 adc_to_dist_uniq_1         1
+                 adc_to_temp_uniq_1         1
+                      c25x_fpga_la0         1
+                 c25x_fpga_la0_trig         1
+                    c25x_pll_uniq_1         1
+                calib_packet_uniq_1         1
+                    data_pre_uniq_1         1
+              data_process_3_uniq_1         1
+         datagram_parser_udp_uniq_1         1
+             datagram_parser_uniq_1         1
+                    dist_cal_uniq_1         1
+              dist_calculate_uniq_1         1
+                dist_measure_uniq_1         1
+                 dist_packet_uniq_1         1
+                distance_ram_uniq_1         1
+                distance_ram_uniq_2         1
+                    div_rill_uniq_1         1
+                    division_uniq_1         1
+                    division_uniq_2         1
+                    division_uniq_3         1
+            encoder_generate_uniq_1         1
+                eth_data_ram_uniq_1         1
+                eth_send_ram_uniq_1         1
+                eth_send_ram_uniq_2         1
+                eth_send_ram_uniq_3         1
+               flash_control_uniq_1         1
+                   index_cal_uniq_1         1
+             index_calculate_uniq_1         1
+               laser_control_uniq_1         1
+                measure_para_uniq_1         1
+             motor_control_2_uniq_1         1
+               motor_control_uniq_1         1
+             mpt2042_control_uniq_1         1
+           mpt2042_rom_128x8_uniq_1         1
+             mpt2042_spi_top_uniq_1         1
+                 multiplier3_uniq_1         1
+                 multiplier3_uniq_2         1
+                 multiplier3_uniq_3         1
+                 multiplier3_uniq_4         1
+                  multiplier_uniq_1         1
+                  multiplier_uniq_2         1
+                  multiplier_uniq_4         1
+                  multiplier_uniq_5         1
+                  multiplier_uniq_6         1
+                  multiplier_uniq_7         1
+                  multiplier_uniq_8         1
+               ntp_calculate_uniq_1         1
+          ntp_receive_parser_uniq_1         1
+               ntp_send_make_uniq_1         1
+                    opto_ram_uniq_1         1
+          opto_switch_filter_uniq_1         1
+             packet_data_ram_uniq_1         1
+             packet_data_ram_uniq_2         1
+             packet_data_ram_uniq_3         1
+             packet_data_ram_uniq_4         1
+              parameter_init_uniq_1         1
+               pluse_average_uniq_1         1
+     random_number_generator_uniq_1         1
+                     reveal_coretop         1
+         rise_signal_process_uniq_1         1
+              rotate_control_uniq_1         1
+                    rssi_cal_uniq_1         1
+      rvl_decode(NUM_TU=3,NUM_TE=1)         1
+rvl_jtag_int(NUM_TRACE_SIGNALS=83,NUM_TRIGGER_SIGNALS=3)         1
+ rvl_tcnt(NUM_TE=1,NUM_TCNT_BITS=6)         1
+rvl_te(NUM_TU=3,NUM_TE_ROW=8,NUM_TE_COL=16,TE_EBR=1,NUM_TE_EVENT_CNT_BITS=4,LSCC_FAMILY="ECP5U")         1
+rvl_tm(NUM_TRACE_SIGNALS=83,NUM_TRACE_SAMPLES=1024,NUM_TRIGGER_SIGNALS=3,MULTIPLE_CAPTURE=1,NUM_TRIG_MAX=32,REVEAL_SIG=627907712,LSCC_FAMILY="ECP5U")         1
+              rvl_tu(NUM_TU_BITS=1)         1
+           rvl_tu(NUM_TU_BITS=1)_U0         1
+           rvl_tu(NUM_TU_BITS=1)_U1         1
+             self_inspection_uniq_1         1
+               spi_flash_cmd_uniq_1         1
+               spi_flash_top_uniq_1         1
+              spi_master_eth_uniq_1         1
+                  spi_master_uniq_1         1
+               spi_w5500_cmd_uniq_1         1
+             spi_w5500_top_3_uniq_1         1
+                sram_control_uniq_1         1
+               tcp_recv_fifo_uniq_1         1
+              time_stamp_ntp_uniq_1         1
+                  time_stamp_uniq_1         1
+               w5500_control_uniq_1         1
+                              TOTAL     26032
+----------------------------------------------------------------------
+Report for cell sram_control_uniq_1.v1
+Instance Path : U6
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4       611            4.3
+                              PFUMX        20            2.0
+                              TOTAL       631
+----------------------------------------------------------------------
+Report for cell w5500_control_uniq_1.v1
+Instance Path : U8
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               AND2         3          100.0
+                              CCU2C       242            9.2
+                             DP16KD        10           90.9
+                            FD1P3AX        12            5.3
+                            FD1P3BX       211           76.7
+                            FD1P3DX      2287           41.8
+                            FD1S3BX        55           41.0
+                            FD1S3DX       370           26.0
+                                INV         4           66.7
+                            L6MUX21        62           83.8
+                               LUT4      6275           44.1
+                              PFUMX       679           67.8
+                           ROM16X1A         2          100.0
+                          ROM256X1A         1          100.0
+                        VERIFIC_GND        18           35.3
+                               XOR2         1          100.0
+SUB MODULES
+         datagram_parser_udp_uniq_1         1
+             datagram_parser_uniq_1         1
+                    division_uniq_3         1
+                eth_data_ram_uniq_1         1
+                eth_send_ram_uniq_1         1
+                eth_send_ram_uniq_2         1
+                eth_send_ram_uniq_3         1
+             index_calculate_uniq_1         1
+               ntp_calculate_uniq_1         1
+          ntp_receive_parser_uniq_1         1
+               ntp_send_make_uniq_1         1
+                    opto_ram_uniq_1         1
+             packet_data_ram_uniq_1         1
+             packet_data_ram_uniq_2         1
+             packet_data_ram_uniq_3         1
+             packet_data_ram_uniq_4         1
+              parameter_init_uniq_1         1
+              spi_master_eth_uniq_1         1
+               spi_w5500_cmd_uniq_1         1
+             spi_w5500_top_3_uniq_1         1
+               tcp_recv_fifo_uniq_1         1
+              time_stamp_ntp_uniq_1         1
+                  time_stamp_uniq_1         1
+                              TOTAL     10255
+----------------------------------------------------------------------
+Report for cell parameter_init_uniq_1.v1
+Instance Path : U8.u5
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        69            2.6
+                             DP16KD         1            9.1
+                            FD1P3BX       201           73.1
+                            FD1P3DX      1190           21.8
+                            FD1S3BX        52           38.8
+                            FD1S3DX       278           19.5
+                            L6MUX21        42           56.8
+                               LUT4      2682           18.9
+                              PFUMX       287           28.6
+                        VERIFIC_GND         3            5.9
+SUB MODULES
+                    division_uniq_3         1
+             index_calculate_uniq_1         1
+                    opto_ram_uniq_1         1
+                  time_stamp_uniq_1         1
+                              TOTAL      4809
+----------------------------------------------------------------------
+Report for cell opto_ram_uniq_1.v1
+Instance Path : U8.u5.opto_ram_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             DP16KD         1            9.1
+                        VERIFIC_GND         1            2.0
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell time_stamp_uniq_1.v1
+Instance Path : U8.u5.U2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C         5            0.2
+                            FD1P3DX        64            1.2
+                            FD1S3DX         8            0.6
+                               LUT4        70            0.5
+                        VERIFIC_GND         1            2.0
+                              TOTAL       148
+----------------------------------------------------------------------
+Report for cell index_calculate_uniq_1.v1
+Instance Path : U8.u5.U1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3BX        25            9.1
+                            FD1P3DX       188            3.4
+                            FD1S3BX        51           38.1
+                            FD1S3DX       130            9.1
+                               LUT4       213            1.5
+                              PFUMX         5            0.5
+SUB MODULES
+                    division_uniq_3         1
+                              TOTAL       613
+----------------------------------------------------------------------
+Report for cell division_uniq_3.v1
+Instance Path : U8.u5.U1.U1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        68            1.2
+                            FD1S3DX        17            1.2
+                               LUT4       110            0.8
+                              PFUMX         1            0.1
+                              TOTAL       196
+----------------------------------------------------------------------
+Report for cell time_stamp_ntp_uniq_1.v1
+Instance Path : U8.u4
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        22            0.8
+                            FD1P3DX        64            1.2
+                            FD1S3DX        43            3.0
+                               LUT4        77            0.5
+                        VERIFIC_GND         1            2.0
+                              TOTAL       207
+----------------------------------------------------------------------
+Report for cell datagram_parser_udp_uniq_1.v1
+Instance Path : U8.u3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        19            0.7
+                            FD1P3DX       342            6.3
+                            FD1S3BX         1            0.7
+                            FD1S3DX        14            1.0
+                            L6MUX21         7            9.5
+                               LUT4       348            2.4
+                              PFUMX        56            5.6
+                        VERIFIC_GND         2            3.9
+SUB MODULES
+               ntp_calculate_uniq_1         1
+          ntp_receive_parser_uniq_1         1
+               ntp_send_make_uniq_1         1
+                              TOTAL       792
+----------------------------------------------------------------------
+Report for cell ntp_calculate_uniq_1.v1
+Instance Path : U8.u3.u3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        32            0.6
+                            FD1S3DX         4            0.3
+                               LUT4        39            0.3
+                              TOTAL        75
+----------------------------------------------------------------------
+Report for cell ntp_send_make_uniq_1.v1
+Instance Path : U8.u3.u2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        12            0.5
+                            FD1P3DX        94            1.7
+                            FD1S3DX         5            0.4
+                            L6MUX21         7            9.5
+                               LUT4       179            1.3
+                              PFUMX        52            5.2
+                        VERIFIC_GND         1            2.0
+                              TOTAL       350
+----------------------------------------------------------------------
+Report for cell ntp_receive_parser_uniq_1.v1
+Instance Path : U8.u3.u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C         7            0.3
+                            FD1P3DX       216            3.9
+                            FD1S3BX         1            0.7
+                            FD1S3DX         5            0.4
+                               LUT4       130            0.9
+                              PFUMX         4            0.4
+                        VERIFIC_GND         1            2.0
+                              TOTAL       364
+----------------------------------------------------------------------
+Report for cell datagram_parser_uniq_1.v1
+Instance Path : U8.u2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        76            2.9
+                             DP16KD         5           45.5
+                            FD1P3AX         8            3.5
+                            FD1P3BX         9            3.3
+                            FD1P3DX       312            5.7
+                            FD1S3DX        16            1.1
+                               LUT4      1608           11.3
+                              PFUMX       160           16.0
+                          ROM256X1A         1          100.0
+                        VERIFIC_GND         6           11.8
+SUB MODULES
+                eth_data_ram_uniq_1         1
+             packet_data_ram_uniq_1         1
+             packet_data_ram_uniq_2         1
+             packet_data_ram_uniq_3         1
+             packet_data_ram_uniq_4         1
+                              TOTAL      2206
+----------------------------------------------------------------------
+Report for cell packet_data_ram_uniq_4.v1
+Instance Path : U8.u2.U5
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             DP16KD         1            9.1
+                        VERIFIC_GND         1            2.0
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell packet_data_ram_uniq_3.v1
+Instance Path : U8.u2.U4
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             DP16KD         1            9.1
+                        VERIFIC_GND         1            2.0
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell packet_data_ram_uniq_2.v1
+Instance Path : U8.u2.U3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             DP16KD         1            9.1
+                        VERIFIC_GND         1            2.0
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell packet_data_ram_uniq_1.v1
+Instance Path : U8.u2.U2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             DP16KD         1            9.1
+                        VERIFIC_GND         1            2.0
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell eth_data_ram_uniq_1.v1
+Instance Path : U8.u2.U1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             DP16KD         1            9.1
+                        VERIFIC_GND         1            2.0
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell spi_w5500_top_3_uniq_1.v1
+Instance Path : U8.u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               AND2         3          100.0
+                              CCU2C        56            2.1
+                             DP16KD         4           36.4
+                            FD1P3AX         4            1.8
+                            FD1P3BX         1            0.4
+                            FD1P3DX       379            6.9
+                            FD1S3BX         2            1.5
+                            FD1S3DX        19            1.3
+                                INV         4           66.7
+                            L6MUX21        13           17.6
+                               LUT4      1524           10.7
+                              PFUMX       176           17.6
+                           ROM16X1A         2          100.0
+                        VERIFIC_GND         6           11.8
+                               XOR2         1          100.0
+SUB MODULES
+                eth_send_ram_uniq_1         1
+                eth_send_ram_uniq_2         1
+                eth_send_ram_uniq_3         1
+              spi_master_eth_uniq_1         1
+               spi_w5500_cmd_uniq_1         1
+               tcp_recv_fifo_uniq_1         1
+                              TOTAL      2200
+----------------------------------------------------------------------
+Report for cell tcp_recv_fifo_uniq_1.v1
+Instance Path : U8.u1.u4
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               AND2         3          100.0
+                              CCU2C        37            1.4
+                             DP16KD         1            9.1
+                            FD1P3DX        36            0.7
+                            FD1S3BX         1            0.7
+                            FD1S3DX         1            0.1
+                                INV         4           66.7
+                           ROM16X1A         2          100.0
+                        VERIFIC_GND         1            2.0
+                               XOR2         1          100.0
+                              TOTAL        87
+----------------------------------------------------------------------
+Report for cell eth_send_ram_uniq_1.v1
+Instance Path : U8.u1.u2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             DP16KD         1            9.1
+                        VERIFIC_GND         1            2.0
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell spi_w5500_cmd_uniq_1.v1
+Instance Path : U8.u1.u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C         6            0.2
+                            FD1P3DX       111            2.0
+                            FD1S3BX         1            0.7
+                            FD1S3DX        11            0.8
+                               LUT4       279            2.0
+                              PFUMX        26            2.6
+                        VERIFIC_GND         1            2.0
+SUB MODULES
+              spi_master_eth_uniq_1         1
+                              TOTAL       436
+----------------------------------------------------------------------
+Report for cell spi_master_eth_uniq_1.v1
+Instance Path : U8.u1.u1.u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        38            0.7
+                            FD1S3DX         4            0.3
+                               LUT4        63            0.4
+                              TOTAL       105
+----------------------------------------------------------------------
+Report for cell eth_send_ram_uniq_3.v1
+Instance Path : U8.u1.U5
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             DP16KD         1            9.1
+                        VERIFIC_GND         1            2.0
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell eth_send_ram_uniq_2.v1
+Instance Path : U8.u1.U3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             DP16KD         1            9.1
+                        VERIFIC_GND         1            2.0
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell flash_control_uniq_1.v1
+Instance Path : U7
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        17            0.6
+                            FD1P3BX         2            0.7
+                            FD1P3DX       160            2.9
+                            FD1S3BX         7            5.2
+                            FD1S3DX       119            8.4
+                               LUT4       916            6.4
+                              PFUMX        31            3.1
+                            USRMCLK         1          100.0
+                        VERIFIC_GND         1            2.0
+SUB MODULES
+               spi_flash_cmd_uniq_1         1
+               spi_flash_top_uniq_1         1
+                  spi_master_uniq_1         1
+                              TOTAL      1257
+----------------------------------------------------------------------
+Report for cell spi_flash_top_uniq_1.v1
+Instance Path : U7.U2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        70            1.3
+                            FD1S3BX         1            0.7
+                            FD1S3DX        10            0.7
+                               LUT4       250            1.8
+                              PFUMX        18            1.8
+SUB MODULES
+               spi_flash_cmd_uniq_1         1
+                  spi_master_uniq_1         1
+                              TOTAL       351
+----------------------------------------------------------------------
+Report for cell spi_flash_cmd_uniq_1.v1
+Instance Path : U7.U2.u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        63            1.2
+                            FD1S3BX         1            0.7
+                            FD1S3DX         8            0.6
+                               LUT4       178            1.3
+                              PFUMX        13            1.3
+SUB MODULES
+                  spi_master_uniq_1         1
+                              TOTAL       264
+----------------------------------------------------------------------
+Report for cell spi_master_uniq_1.v1
+Instance Path : U7.U2.u1.u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        39            0.7
+                            FD1S3DX         3            0.2
+                               LUT4        61            0.4
+                              PFUMX         1            0.1
+                              TOTAL       104
+----------------------------------------------------------------------
+Report for cell reveal_coretop.v1
+Instance Path : c25x_fpga_reveal_coretop_instance
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        37            1.4
+                            FD1P3AX        18            7.9
+                            FD1P3BX        35           12.7
+                            FD1P3DX       567           10.4
+                            FD1S3DX       131            9.2
+                                INV         1           16.7
+                            L6MUX21         9           12.2
+                               LUT4      1037            7.3
+                              PFUMX        65            6.5
+                        VERIFIC_GND         4            7.8
+pmi_distributed_dpramEbnoner105328f0007d         1          100.0
+pmi_distributed_dpramEbnoner164168f01b22         1          100.0
+pmi_ram_dpEbnonesadr1638163811890790         1          100.0
+pmi_ram_dpEbnonesadr83101024831010241218b37a         1          100.0
+SUB MODULES
+                      c25x_fpga_la0         1
+                 c25x_fpga_la0_trig         1
+      rvl_decode(NUM_TU=3,NUM_TE=1)         1
+rvl_jtag_int(NUM_TRACE_SIGNALS=83,NUM_TRIGGER_SIGNALS=3)         1
+ rvl_tcnt(NUM_TE=1,NUM_TCNT_BITS=6)         1
+rvl_te(NUM_TU=3,NUM_TE_ROW=8,NUM_TE_COL=16,TE_EBR=1,NUM_TE_EVENT_CNT_BITS=4,LSCC_FAMILY="ECP5U")         1
+rvl_tm(NUM_TRACE_SIGNALS=83,NUM_TRACE_SAMPLES=1024,NUM_TRIGGER_SIGNALS=3,MULTIPLE_CAPTURE=1,NUM_TRIG_MAX=32,REVEAL_SIG=627907712,LSCC_FAMILY="ECP5U")         1
+              rvl_tu(NUM_TU_BITS=1)         1
+           rvl_tu(NUM_TU_BITS=1)_U0         1
+           rvl_tu(NUM_TU_BITS=1)_U1         1
+                              TOTAL      1918
+----------------------------------------------------------------------
+Report for cell c25x_fpga_la0.v1
+Instance Path : c25x_fpga_reveal_coretop_instance.c25x_fpga_la0_inst_0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        37            1.4
+                            FD1P3AX        18            7.9
+                            FD1P3BX        35           12.7
+                            FD1P3DX       567           10.4
+                            FD1S3DX       131            9.2
+                            L6MUX21         9           12.2
+                               LUT4      1029            7.2
+                              PFUMX        65            6.5
+                        VERIFIC_GND         4            7.8
+pmi_distributed_dpramEbnoner105328f0007d         1          100.0
+pmi_distributed_dpramEbnoner164168f01b22         1          100.0
+pmi_ram_dpEbnonesadr1638163811890790         1          100.0
+pmi_ram_dpEbnonesadr83101024831010241218b37a         1          100.0
+SUB MODULES
+                 c25x_fpga_la0_trig         1
+      rvl_decode(NUM_TU=3,NUM_TE=1)         1
+rvl_jtag_int(NUM_TRACE_SIGNALS=83,NUM_TRIGGER_SIGNALS=3)         1
+ rvl_tcnt(NUM_TE=1,NUM_TCNT_BITS=6)         1
+rvl_te(NUM_TU=3,NUM_TE_ROW=8,NUM_TE_COL=16,TE_EBR=1,NUM_TE_EVENT_CNT_BITS=4,LSCC_FAMILY="ECP5U")         1
+rvl_tm(NUM_TRACE_SIGNALS=83,NUM_TRACE_SAMPLES=1024,NUM_TRIGGER_SIGNALS=3,MULTIPLE_CAPTURE=1,NUM_TRIG_MAX=32,REVEAL_SIG=627907712,LSCC_FAMILY="ECP5U")         1
+              rvl_tu(NUM_TU_BITS=1)         1
+           rvl_tu(NUM_TU_BITS=1)_U0         1
+           rvl_tu(NUM_TU_BITS=1)_U1         1
+                              TOTAL      1908
+----------------------------------------------------------------------
+Report for cell c25x_fpga_la0_trig.v1
+Instance Path : c25x_fpga_reveal_coretop_instance.c25x_fpga_la0_inst_0.trig_u
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        13            0.5
+                            FD1P3AX        16            7.0
+                            FD1P3BX         3            1.1
+                            FD1P3DX       187            3.4
+                            FD1S3DX        23            1.6
+                            L6MUX21         9           12.2
+                               LUT4       375            2.6
+                              PFUMX        32            3.2
+                        VERIFIC_GND         2            3.9
+pmi_ram_dpEbnonesadr1638163811890790         1          100.0
+SUB MODULES
+      rvl_decode(NUM_TU=3,NUM_TE=1)         1
+ rvl_tcnt(NUM_TE=1,NUM_TCNT_BITS=6)         1
+rvl_te(NUM_TU=3,NUM_TE_ROW=8,NUM_TE_COL=16,TE_EBR=1,NUM_TE_EVENT_CNT_BITS=4,LSCC_FAMILY="ECP5U")         1
+              rvl_tu(NUM_TU_BITS=1)         1
+           rvl_tu(NUM_TU_BITS=1)_U0         1
+           rvl_tu(NUM_TU_BITS=1)_U1         1
+                              TOTAL       667
+----------------------------------------------------------------------
+Report for cell rvl_tu(NUM_TU_BITS=1).v1
+Instance Path : c25x_fpga_reveal_coretop_instance.c25x_fpga_la0_inst_0.trig_u.tu_2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX         5            0.1
+                            FD1S3DX         3            0.2
+                               LUT4         8            0.1
+                              PFUMX         1            0.1
+                              TOTAL        17
+----------------------------------------------------------------------
+Report for cell rvl_tu(NUM_TU_BITS=1)_U0.v1
+Instance Path : c25x_fpga_reveal_coretop_instance.c25x_fpga_la0_inst_0.trig_u.tu_1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX         5            0.1
+                            FD1S3DX         3            0.2
+                               LUT4         7            0.0
+                              PFUMX         1            0.1
+                              TOTAL        16
+----------------------------------------------------------------------
+Report for cell rvl_tu(NUM_TU_BITS=1)_U1.v1
+Instance Path : c25x_fpga_reveal_coretop_instance.c25x_fpga_la0_inst_0.trig_u.tu_0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX         5            0.1
+                            FD1S3DX         3            0.2
+                               LUT4         7            0.0
+                              PFUMX         1            0.1
+                              TOTAL        16
+----------------------------------------------------------------------
+Report for cell rvl_te(NUM_TU=3,NUM_TE_ROW=8,NUM_TE_COL=16,TE_EBR=1,NUM_TE_EVENT_CNT_BITS=4,LSCC_FAMILY="ECP5U").v1
+Instance Path : c25x_fpga_reveal_coretop_instance.c25x_fpga_la0_inst_0.trig_u.te_0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C         9            0.3
+                            FD1P3AX        16            7.0
+                            FD1P3BX         2            0.7
+                            FD1P3DX       163            3.0
+                            FD1S3DX         6            0.4
+                            L6MUX21         9           12.2
+                               LUT4       302            2.1
+                              PFUMX        24            2.4
+                        VERIFIC_GND         1            2.0
+pmi_ram_dpEbnonesadr1638163811890790         1          100.0
+                              TOTAL       533
+----------------------------------------------------------------------
+Report for cell rvl_tcnt(NUM_TE=1,NUM_TCNT_BITS=6).v1
+Instance Path : c25x_fpga_reveal_coretop_instance.c25x_fpga_la0_inst_0.trig_u.tcnt_0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C         4            0.2
+                            FD1P3BX         1            0.4
+                            FD1P3DX         9            0.2
+                            FD1S3DX         8            0.6
+                               LUT4        25            0.2
+                        VERIFIC_GND         1            2.0
+                              TOTAL        48
+----------------------------------------------------------------------
+Report for cell rvl_decode(NUM_TU=3,NUM_TE=1).v1
+Instance Path : c25x_fpga_reveal_coretop_instance.c25x_fpga_la0_inst_0.trig_u.decode_u
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         8            0.1
+                              TOTAL         8
+----------------------------------------------------------------------
+Report for cell rvl_tm(NUM_TRACE_SIGNALS=83,NUM_TRACE_SAMPLES=1024,NUM_TRIGGER_SIGNALS=3,MULTIPLE_CAPTURE=1,NUM_TRIG_MAX=32,REVEAL_SIG=627907712,LSCC_FAMILY="ECP5U").v1
+Instance Path : c25x_fpga_reveal_coretop_instance.c25x_fpga_la0_inst_0.tm_u
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        20            0.8
+                            FD1P3DX       207            3.8
+                            FD1S3DX        98            6.9
+                               LUT4       276            1.9
+                              PFUMX        19            1.9
+                        VERIFIC_GND         1            2.0
+pmi_distributed_dpramEbnoner105328f0007d         1          100.0
+pmi_distributed_dpramEbnoner164168f01b22         1          100.0
+pmi_ram_dpEbnonesadr83101024831010241218b37a         1          100.0
+                              TOTAL       624
+----------------------------------------------------------------------
+Report for cell rvl_jtag_int(NUM_TRACE_SIGNALS=83,NUM_TRIGGER_SIGNALS=3).v1
+Instance Path : c25x_fpga_reveal_coretop_instance.c25x_fpga_la0_inst_0.jtag_int_u
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C         4            0.2
+                            FD1P3AX         2            0.9
+                            FD1P3BX        32           11.6
+                            FD1P3DX       173            3.2
+                            FD1S3DX        10            0.7
+                               LUT4       378            2.7
+                              PFUMX        14            1.4
+                        VERIFIC_GND         1            2.0
+                              TOTAL       614
+----------------------------------------------------------------------
+Report for cell rotate_control_uniq_1.v1
+Instance Path : U2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        39            1.5
+                            FD1P3AX         6            2.6
+                            FD1P3BX        18            6.5
+                            FD1P3DX       200            3.7
+                            FD1S3BX        45           33.6
+                            FD1S3DX       196           13.8
+                            FD1S3IX        18           14.2
+                               LUT4       965            6.8
+                           MULT9X9D         1           25.0
+                              PFUMX        20            2.0
+                        VERIFIC_GND         3            5.9
+SUB MODULES
+            encoder_generate_uniq_1         1
+             motor_control_2_uniq_1         1
+               motor_control_uniq_1         1
+                 multiplier3_uniq_1         1
+          opto_switch_filter_uniq_1         1
+     random_number_generator_uniq_1         1
+                              TOTAL      1517
+----------------------------------------------------------------------
+Report for cell encoder_generate_uniq_1.v1
+Instance Path : U2.U4
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX         6            2.6
+                            FD1P3BX         7            2.5
+                            FD1P3DX       105            1.9
+                            FD1S3BX         6            4.5
+                            FD1S3DX        30            2.1
+                               LUT4       208            1.5
+                           MULT9X9D         1           25.0
+                              PFUMX         8            0.8
+                        VERIFIC_GND         1            2.0
+SUB MODULES
+                 multiplier3_uniq_1         1
+     random_number_generator_uniq_1         1
+                              TOTAL       374
+----------------------------------------------------------------------
+Report for cell random_number_generator_uniq_1.v1
+Instance Path : U2.U4.U2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX         6            2.6
+                               LUT4         6            0.0
+                              TOTAL        12
+----------------------------------------------------------------------
+Report for cell multiplier3_uniq_1.v1
+Instance Path : U2.U4.U1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        32            0.6
+                           MULT9X9D         1           25.0
+                        VERIFIC_GND         1            2.0
+                              TOTAL        34
+----------------------------------------------------------------------
+Report for cell motor_control_2_uniq_1.v1
+Instance Path : U2.U3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        21            0.8
+                            FD1P3BX        11            4.0
+                            FD1P3DX        60            1.1
+                            FD1S3BX        27           20.1
+                            FD1S3DX        95            6.7
+                               LUT4       561            3.9
+                              PFUMX        12            1.2
+                        VERIFIC_GND         1            2.0
+                              TOTAL       788
+----------------------------------------------------------------------
+Report for cell motor_control_uniq_1.v1
+Instance Path : U2.U2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        18            0.7
+                            FD1P3DX        18            0.3
+                            FD1S3BX        10            7.5
+                            FD1S3DX        71            5.0
+                               LUT4       156            1.1
+                        VERIFIC_GND         1            2.0
+                              TOTAL       274
+----------------------------------------------------------------------
+Report for cell opto_switch_filter_uniq_1.v1
+Instance Path : U2.U1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        17            0.3
+                            FD1S3BX         2            1.5
+                               LUT4        28            0.2
+                              TOTAL        47
+----------------------------------------------------------------------
+Report for cell laser_control_uniq_1.v1
+Instance Path : U4
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C         5            0.2
+                            FD1S3BX         1            0.7
+                            FD1S3DX        24            1.7
+                               LUT4        67            0.5
+                              PFUMX         4            0.4
+                        VERIFIC_GND         1            2.0
+                              TOTAL       102
+----------------------------------------------------------------------
+Report for cell dist_measure_uniq_1.v1
+Instance Path : U5
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        78            3.0
+                             DP16KD         1            9.1
+                            FD1P3AX       176           77.2
+                            FD1P3BX         1            0.4
+                            FD1P3DX      1252           22.9
+                            FD1P3IX       187          100.0
+                            FD1P3JX         3          100.0
+                            FD1S3AX         1           50.0
+                            FD1S3BX         8            6.0
+                            FD1S3DX       348           24.4
+                            FD1S3IX       109           85.8
+                            FD1S3JX         8          100.0
+                            L6MUX21         1            1.4
+                               LUT4      2944           20.7
+                         MULT18X18D         5           71.4
+                           PDPW16KD         4          100.0
+                              PFUMX        87            8.7
+                        VERIFIC_GND        13           25.5
+SUB MODULES
+                calib_packet_uniq_1         1
+                    data_pre_uniq_1         1
+              data_process_3_uniq_1         1
+                    dist_cal_uniq_1         1
+              dist_calculate_uniq_1         1
+                 dist_packet_uniq_1         1
+                distance_ram_uniq_1         1
+                distance_ram_uniq_2         1
+                    div_rill_uniq_1         1
+                    division_uniq_2         1
+                   index_cal_uniq_1         1
+                measure_para_uniq_1         1
+             mpt2042_control_uniq_1         1
+           mpt2042_rom_128x8_uniq_1         1
+             mpt2042_spi_top_uniq_1         1
+                  multiplier_uniq_4         1
+                  multiplier_uniq_5         1
+                  multiplier_uniq_6         1
+                  multiplier_uniq_7         1
+                  multiplier_uniq_8         1
+         rise_signal_process_uniq_1         1
+                    rssi_cal_uniq_1         1
+                              TOTAL      5248
+----------------------------------------------------------------------
+Report for cell mpt2042_control_uniq_1.v1
+Instance Path : U5.u2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C         7            0.3
+                             DP16KD         1            9.1
+                            FD1P3AX         1            0.4
+                            FD1P3IX        93           49.7
+                            FD1P3JX         3          100.0
+                            FD1S3IX        72           56.7
+                            FD1S3JX         7           87.5
+                               LUT4       187            1.3
+                              PFUMX         5            0.5
+                        VERIFIC_GND         2            3.9
+SUB MODULES
+           mpt2042_rom_128x8_uniq_1         1
+             mpt2042_spi_top_uniq_1         1
+                              TOTAL       380
+----------------------------------------------------------------------
+Report for cell mpt2042_spi_top_uniq_1.v1
+Instance Path : U5.u2.u_mpt2042_spi_top
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX         1            0.4
+                            FD1P3IX        18            9.6
+                            FD1S3IX        20           15.7
+                            FD1S3JX         2           25.0
+                               LUT4        46            0.3
+                              TOTAL        87
+----------------------------------------------------------------------
+Report for cell mpt2042_rom_128x8_uniq_1.v1
+Instance Path : U5.u2.u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             DP16KD         1            9.1
+                        VERIFIC_GND         1            2.0
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell rise_signal_process_uniq_1.v1
+Instance Path : U5.U8
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        40            0.7
+                            FD1S3AX         1           50.0
+                            FD1S3DX        33            2.3
+                            FD1S3IX         1            0.8
+                               LUT4       120            0.8
+                              TOTAL       195
+----------------------------------------------------------------------
+Report for cell calib_packet_uniq_1.v1
+Instance Path : U5.U7
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        10            0.4
+                            FD1P3DX        95            1.7
+                            FD1S3DX        30            2.1
+                               LUT4       169            1.2
+                              PFUMX         4            0.4
+                        VERIFIC_GND         1            2.0
+                              TOTAL       309
+----------------------------------------------------------------------
+Report for cell dist_packet_uniq_1.v1
+Instance Path : U5.U6
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        40            1.5
+                            FD1P3DX       247            4.5
+                            FD1S3DX        71            5.0
+                               LUT4       253            1.8
+                              PFUMX         6            0.6
+                        VERIFIC_GND         1            2.0
+                              TOTAL       618
+----------------------------------------------------------------------
+Report for cell data_process_3_uniq_1.v1
+Instance Path : U5.U4
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        12            0.5
+                            FD1P3BX         1            0.4
+                            FD1P3DX       185            3.4
+                            FD1S3BX         6            4.5
+                            FD1S3DX       156           11.0
+                               LUT4       779            5.5
+                           PDPW16KD         4          100.0
+                              PFUMX        20            2.0
+                        VERIFIC_GND         3            5.9
+SUB MODULES
+                distance_ram_uniq_1         1
+                distance_ram_uniq_2         1
+                    division_uniq_2         1
+                              TOTAL      1169
+----------------------------------------------------------------------
+Report for cell division_uniq_2.v1
+Instance Path : U5.U4.U3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        53            1.0
+                            FD1S3DX         9            0.6
+                               LUT4        80            0.6
+                              TOTAL       142
+----------------------------------------------------------------------
+Report for cell distance_ram_uniq_2.v1
+Instance Path : U5.U4.U2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           PDPW16KD         2           50.0
+                        VERIFIC_GND         1            2.0
+                              TOTAL         3
+----------------------------------------------------------------------
+Report for cell distance_ram_uniq_1.v1
+Instance Path : U5.U4.U1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           PDPW16KD         2           50.0
+                        VERIFIC_GND         1            2.0
+                              TOTAL         3
+----------------------------------------------------------------------
+Report for cell dist_calculate_uniq_1.v1
+Instance Path : U5.U3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C         9            0.3
+                            FD1P3AX       175           76.8
+                            FD1P3DX       653           11.9
+                            FD1P3IX        94           50.3
+                            FD1S3DX        55            3.9
+                            FD1S3IX        36           28.3
+                            FD1S3JX         1           12.5
+                            L6MUX21         1            1.4
+                               LUT4      1435           10.1
+                         MULT18X18D         4           57.1
+                              PFUMX        52            5.2
+                        VERIFIC_GND         5            9.8
+SUB MODULES
+                    data_pre_uniq_1         1
+                    dist_cal_uniq_1         1
+                    div_rill_uniq_1         1
+                   index_cal_uniq_1         1
+                  multiplier_uniq_5         1
+                  multiplier_uniq_6         1
+                  multiplier_uniq_7         1
+                  multiplier_uniq_8         1
+                    rssi_cal_uniq_1         1
+                              TOTAL      2529
+----------------------------------------------------------------------
+Report for cell rssi_cal_uniq_1.v1
+Instance Path : U5.U3.U4
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX       133           58.3
+                            FD1P3DX       259            4.7
+                            FD1P3IX        32           17.1
+                            FD1S3DX         4            0.3
+                            FD1S3IX        36           28.3
+                            FD1S3JX         1           12.5
+                               LUT4       491            3.5
+                         MULT18X18D         2           28.6
+                              PFUMX        16            1.6
+                        VERIFIC_GND         2            3.9
+SUB MODULES
+                    div_rill_uniq_1         1
+                  multiplier_uniq_7         1
+                  multiplier_uniq_8         1
+                              TOTAL       979
+----------------------------------------------------------------------
+Report for cell div_rill_uniq_1.v1
+Instance Path : U5.U3.U4.U3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX        49           21.5
+                            FD1P3IX        32           17.1
+                            FD1S3IX        36           28.3
+                            FD1S3JX         1           12.5
+                               LUT4       157            1.1
+                              TOTAL       275
+----------------------------------------------------------------------
+Report for cell multiplier_uniq_8.v1
+Instance Path : U5.U3.U4.U2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        32            0.6
+                         MULT18X18D         1           14.3
+                        VERIFIC_GND         1            2.0
+                              TOTAL        34
+----------------------------------------------------------------------
+Report for cell multiplier_uniq_7.v1
+Instance Path : U5.U3.U4.U1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        32            0.6
+                         MULT18X18D         1           14.3
+                        VERIFIC_GND         1            2.0
+                              TOTAL        34
+----------------------------------------------------------------------
+Report for cell dist_cal_uniq_1.v1
+Instance Path : U5.U3.U3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C         9            0.3
+                            FD1P3AX        42           18.4
+                            FD1P3DX       266            4.9
+                            FD1P3IX        62           33.2
+                            FD1S3DX        39            2.7
+                            L6MUX21         1            1.4
+                               LUT4       724            5.1
+                         MULT18X18D         2           28.6
+                              PFUMX        31            3.1
+                        VERIFIC_GND         3            5.9
+SUB MODULES
+                  multiplier_uniq_5         1
+                  multiplier_uniq_6         1
+                              TOTAL      1181
+----------------------------------------------------------------------
+Report for cell multiplier_uniq_6.v1
+Instance Path : U5.U3.U3.U2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        52            1.0
+                         MULT18X18D         1           14.3
+                        VERIFIC_GND         1            2.0
+                              TOTAL        54
+----------------------------------------------------------------------
+Report for cell multiplier_uniq_5.v1
+Instance Path : U5.U3.U3.U1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        54            1.0
+                         MULT18X18D         1           14.3
+                        VERIFIC_GND         1            2.0
+                              TOTAL        56
+----------------------------------------------------------------------
+Report for cell index_cal_uniq_1.v1
+Instance Path : U5.U3.U2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        95            1.7
+                            FD1S3DX         8            0.6
+                               LUT4       168            1.2
+                              PFUMX         5            0.5
+                              TOTAL       276
+----------------------------------------------------------------------
+Report for cell data_pre_uniq_1.v1
+Instance Path : U5.U3.U1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        33            0.6
+                            FD1S3DX         4            0.3
+                               LUT4        38            0.3
+                              TOTAL        75
+----------------------------------------------------------------------
+Report for cell measure_para_uniq_1.v1
+Instance Path : U5.U1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        32            0.6
+                            FD1S3BX         2            1.5
+                            FD1S3DX         3            0.2
+                               LUT4         1            0.0
+                         MULT18X18D         1           14.3
+                        VERIFIC_GND         1            2.0
+SUB MODULES
+                  multiplier_uniq_4         1
+                              TOTAL        41
+----------------------------------------------------------------------
+Report for cell multiplier_uniq_4.v1
+Instance Path : U5.U1.U2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        32            0.6
+                         MULT18X18D         1           14.3
+                        VERIFIC_GND         1            2.0
+                              TOTAL        34
+----------------------------------------------------------------------
+Report for cell c25x_pll_uniq_1.v1
+Instance Path : U1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            EHXPLLL         1          100.0
+                                INV         1           16.7
+                        VERIFIC_GND         1            2.0
+                              TOTAL         3
+----------------------------------------------------------------------
+Report for cell self_inspection_uniq_1.v1
+Instance Path : U3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C        49            1.9
+                            FD1P3BX         8            2.9
+                            FD1P3DX       702           12.8
+                            FD1S3BX        18           13.4
+                            FD1S3DX       201           14.1
+                            L6MUX21         2            2.7
+                               LUT4      1086            7.6
+                         MULT18X18D         2           28.6
+                           MULT9X9D         3           75.0
+                              PFUMX        50            5.0
+                        VERIFIC_GND         9           17.6
+SUB MODULES
+                      AD_SPI_uniq_1         1
+                      DA_SPI_uniq_1         1
+                 adc_control_uniq_1         1
+                  adc_to_dac_uniq_1         1
+                 adc_to_dist_uniq_1         1
+                 adc_to_temp_uniq_1         1
+                    division_uniq_1         1
+                 multiplier3_uniq_2         1
+                 multiplier3_uniq_3         1
+                 multiplier3_uniq_4         1
+                  multiplier_uniq_1         1
+                  multiplier_uniq_2         1
+               pluse_average_uniq_1         1
+                              TOTAL      2143
+----------------------------------------------------------------------
+Report for cell pluse_average_uniq_1.v1
+Instance Path : U3.u5
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX       161            2.9
+                            FD1S3DX         1            0.1
+                              TOTAL       162
+----------------------------------------------------------------------
+Report for cell adc_to_dist_uniq_1.v1
+Instance Path : U3.u4
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C         5            0.2
+                            FD1P3BX         7            2.5
+                            FD1P3DX       123            2.2
+                            FD1S3DX        15            1.1
+                               LUT4        81            0.6
+                         MULT18X18D         1           14.3
+                              PFUMX         1            0.1
+                        VERIFIC_GND         2            3.9
+SUB MODULES
+                  multiplier_uniq_2         1
+                              TOTAL       236
+----------------------------------------------------------------------
+Report for cell multiplier_uniq_2.v1
+Instance Path : U3.u4.U1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        32            0.6
+                         MULT18X18D         1           14.3
+                        VERIFIC_GND         1            2.0
+                              TOTAL        34
+----------------------------------------------------------------------
+Report for cell adc_to_dac_uniq_1.v1
+Instance Path : U3.u3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C         5            0.2
+                            FD1P3DX       361            6.6
+                            FD1S3BX        11            8.2
+                            FD1S3DX        70            4.9
+                            L6MUX21         2            2.7
+                               LUT4       777            5.5
+                         MULT18X18D         1           14.3
+                           MULT9X9D         3           75.0
+                              PFUMX        42            4.2
+                        VERIFIC_GND         5            9.8
+SUB MODULES
+                 adc_to_temp_uniq_1         1
+                    division_uniq_1         1
+                 multiplier3_uniq_2         1
+                 multiplier3_uniq_3         1
+                 multiplier3_uniq_4         1
+                  multiplier_uniq_1         1
+                              TOTAL      1283
+----------------------------------------------------------------------
+Report for cell multiplier3_uniq_4.v1
+Instance Path : U3.u3.U4
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        32            0.6
+                           MULT9X9D         1           25.0
+                        VERIFIC_GND         1            2.0
+                              TOTAL        34
+----------------------------------------------------------------------
+Report for cell multiplier3_uniq_3.v1
+Instance Path : U3.u3.U3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        32            0.6
+                           MULT9X9D         1           25.0
+                        VERIFIC_GND         1            2.0
+                              TOTAL        34
+----------------------------------------------------------------------
+Report for cell multiplier3_uniq_2.v1
+Instance Path : U3.u3.U2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        32            0.6
+                           MULT9X9D         1           25.0
+                        VERIFIC_GND         1            2.0
+                              TOTAL        34
+----------------------------------------------------------------------
+Report for cell adc_to_temp_uniq_1.v1
+Instance Path : U3.u3.U1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX       239            4.4
+                            FD1S3DX        36            2.5
+                            L6MUX21         1            1.4
+                               LUT4       482            3.4
+                         MULT18X18D         1           14.3
+                              PFUMX        26            2.6
+                        VERIFIC_GND         1            2.0
+SUB MODULES
+                    division_uniq_1         1
+                  multiplier_uniq_1         1
+                              TOTAL       788
+----------------------------------------------------------------------
+Report for cell division_uniq_1.v1
+Instance Path : U3.u3.U1.U2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        49            0.9
+                            FD1S3DX        17            1.2
+                               LUT4       108            0.8
+                              PFUMX         1            0.1
+                              TOTAL       175
+----------------------------------------------------------------------
+Report for cell multiplier_uniq_1.v1
+Instance Path : U3.u3.U1.U1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        64            1.2
+                         MULT18X18D         1           14.3
+                        VERIFIC_GND         1            2.0
+                              TOTAL        66
+----------------------------------------------------------------------
+Report for cell DA_SPI_uniq_1.v1
+Instance Path : U3.u2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX         6            0.1
+                            FD1S3BX         1            0.7
+                            FD1S3DX        12            0.8
+                               LUT4        37            0.3
+                              PFUMX         4            0.4
+                              TOTAL        60
+----------------------------------------------------------------------
+Report for cell adc_control_uniq_1.v1
+Instance Path : U3.u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2C         9            0.3
+                            FD1P3BX         1            0.4
+                            FD1P3DX        37            0.7
+                            FD1S3BX         5            3.7
+                            FD1S3DX        39            2.7
+                               LUT4       104            0.7
+                              PFUMX         1            0.1
+                        VERIFIC_GND         1            2.0
+SUB MODULES
+                      AD_SPI_uniq_1         1
+                              TOTAL       198
+----------------------------------------------------------------------
+Report for cell AD_SPI_uniq_1.v1
+Instance Path : U3.u1.u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3BX         1            0.4
+                            FD1P3DX        16            0.3
+                            FD1S3BX         5            3.7
+                            FD1S3DX        16            1.1
+                               LUT4        58            0.4
+                              PFUMX         1            0.1
+                              TOTAL        97

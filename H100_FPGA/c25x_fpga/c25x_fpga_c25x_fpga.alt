@@ -1,0 +1,82 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu May 22 18:57:47 2025 *
+NOTE DESIGN NAME: c25x_fpga *
+NOTE DEVICE NAME: LFE5U-25F-6CABGA256 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS io_sram_data[8] : J12 : inout *
+NOTE PINS io_sram_data[9] : K12 : inout *
+NOTE PINS io_sram_data[10] : J13 : inout *
+NOTE PINS io_sram_data[11] : L12 : inout *
+NOTE PINS io_sram_data[12] : M13 : inout *
+NOTE PINS io_sram_data[13] : N13 : inout *
+NOTE PINS io_sram_data[14] : P13 : inout *
+NOTE PINS i_adc_sda : C5 : in *
+NOTE PINS i_spi_miso : A2 : in *
+NOTE PINS i_flash_miso : T7 : in *
+NOTE PINS i_tdc_spi_miso : A11 : in *
+NOTE PINS i_tdc_init : A9 : in *
+NOTE PINS i_opto_switch : T6 : in *
+NOTE PINS i_clk_50m : E7 : in *
+NOTE PINS SPI_RSTN_OUT : E10 : out *
+NOTE PINS ASIC_RESETN_OUT : D10 : out *
+NOTE PINS o_hv_en : C16 : out *
+NOTE PINS o_led_state : D13 : out *
+NOTE PINS o_dac_sda : E14 : out *
+NOTE PINS o_dac_cs : G12 : out *
+NOTE PINS o_dac_scl : E13 : out *
+NOTE PINS o_adc_cs2 : D5 : out *
+NOTE PINS o_adc_cs1 : C7 : out *
+NOTE PINS o_adc_sclk : D4 : out *
+NOTE PINS o_w5500_rst : B4 : out *
+NOTE PINS o_spi_mosi : B3 : out *
+NOTE PINS o_spi_dclk : A7 : out *
+NOTE PINS o_spi_cs : A4 : out *
+NOTE PINS o_flash_mosi : T8 : out *
+NOTE PINS o_flash_cs : N8 : out *
+NOTE PINS o_flash_hold : G5 : out *
+NOTE PINS o_flash_wp : C11 : out *
+NOTE PINS o_sram_addr[0] : E15 : out *
+NOTE PINS o_sram_addr[1] : E16 : out *
+NOTE PINS o_sram_addr[2] : D16 : out *
+NOTE PINS o_sram_addr[3] : H14 : out *
+NOTE PINS o_sram_addr[4] : F16 : out *
+NOTE PINS o_sram_addr[5] : J15 : out *
+NOTE PINS o_sram_addr[6] : K15 : out *
+NOTE PINS o_sram_addr[7] : L14 : out *
+NOTE PINS o_sram_addr[8] : N14 : out *
+NOTE PINS o_sram_addr[9] : P14 : out *
+NOTE PINS o_sram_addr[10] : R14 : out *
+NOTE PINS o_sram_addr[11] : T14 : out *
+NOTE PINS o_sram_addr[12] : P15 : out *
+NOTE PINS o_sram_addr[13] : T15 : out *
+NOTE PINS o_sram_addr[14] : M14 : out *
+NOTE PINS o_sram_addr[15] : M16 : out *
+NOTE PINS o_sram_addr[16] : M15 : out *
+NOTE PINS o_sram_addr[17] : J16 : out *
+NOTE PINS o_sram_we_n : N16 : out *
+NOTE PINS o_sram_oe_n : F15 : out *
+NOTE PINS o_sram_lb_n : F14 : out *
+NOTE PINS o_sram_ub_n : H13 : out *
+NOTE PINS o_sram_cs_n : J14 : out *
+NOTE PINS o_tdc_spi_clk : A10 : out *
+NOTE PINS o_tdc_spi_ssn : B9 : out *
+NOTE PINS o_tdc_spi_mosi : B11 : out *
+NOTE PINS o_rstidx_tdc : D3 : out *
+NOTE PINS o_disable_tdc : C4 : out *
+NOTE PINS o_thre_pulse : C2 : out *
+NOTE PINS o_thre_high : C3 : out *
+NOTE PINS o_laser_str : D14 : out *
+NOTE PINS o_motor_pwm : R4 : out *
+NOTE PINS o_program_n : R7 : out *
+NOTE PINS io_sram_data[0] : G15 : inout *
+NOTE PINS io_sram_data[1] : H15 : inout *
+NOTE PINS io_sram_data[2] : L15 : inout *
+NOTE PINS io_sram_data[3] : K16 : inout *
+NOTE PINS io_sram_data[4] : L16 : inout *
+NOTE PINS io_sram_data[5] : P16 : inout *
+NOTE PINS io_sram_data[6] : R15 : inout *
+NOTE PINS io_sram_data[7] : T13 : inout *
+NOTE PINS io_sram_data[15] : R13 : inout *
+NOTE CONFIGURATION MODE: JTAG *
+NOTE COMPRESSION: off *

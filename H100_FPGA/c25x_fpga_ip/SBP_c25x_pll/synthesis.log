@@ -1,0 +1,296 @@
+synthesis:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Tue Apr 29 17:07:30 2025
+
+
+Command Line:  synthesis -f D:/Project/H100_FPGA/c25x_fpga_ip/SBP_c25x_pll/SBP_c25x_pll_lse.synproj 
+
+Synthesis options:
+The -a option is ecp5u.
+The -s option is 6.
+The -t option is CABGA256.
+The -d option is LFE5U-25F.
+Using package CABGA256.
+Using performance grade 6.
+                                                          
+
+##########################################################
+
+### Lattice Family : ECP5U
+
+### Device  : LFE5U-25F
+
+### Package : CABGA256
+
+### Speed   : 6
+
+##########################################################
+
+                                                          
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Balanced
+Top-level module name = SBP_c25x_pll.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Use IO Insertion = FALSE
+Use IO Reg = FALSE (implied)
+WARNING - synthesis: Cannot pack registers into I/Os because use_io_insertion is FALSE.
+WARNING - synthesis: Ignoring user setting of use_io_reg. Value is set to FALSE.
+Use IO Reg = FALSE
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/Project/H100_FPGA/c25x_fpga_ip/SBP_c25x_pll (searchpath added)
+-p D:/Project/H100_FPGA/source (searchpath added)
+-p D:/Project/H100_FPGA/source/dist (searchpath added)
+-p D:/Project/H100_FPGA/source/eth (searchpath added)
+-p D:/Project/H100_FPGA/source/flash (searchpath added)
+-p D:/Project/H100_FPGA/source/flash/spi flash (searchpath added)
+-p D:/Project/H100_FPGA/source/insp (searchpath added)
+-p D:/Project/H100_FPGA/source/insp/adda (searchpath added)
+-p D:/Project/H100_FPGA/source/laser (searchpath added)
+-p D:/Project/H100_FPGA/source/rotate (searchpath added)
+-p D:/Project/H100_FPGA/source/sram (searchpath added)
+-p D:/Project/H100_FPGA/source/dist/as6500 (searchpath added)
+-p D:/Project/H100_FPGA/source/dist/calculate (searchpath added)
+-p D:/Project/H100_FPGA (searchpath added)
+-p D:/Project/H100_FPGA/c25x_fpga_ip/c25x_pll (searchpath added)
+-p D:/Project/H100_FPGA/c25x_fpga_ip/cache_opto_ram (searchpath added)
+-p D:/Project/H100_FPGA/c25x_fpga_ip/distance_ram (searchpath added)
+-p D:/Project/H100_FPGA/c25x_fpga_ip/eth_data_ram (searchpath added)
+-p D:/Project/H100_FPGA/c25x_fpga_ip/eth_send_ram (searchpath added)
+-p D:/Project/H100_FPGA/c25x_fpga_ip/multiplier (searchpath added)
+-p D:/Project/H100_FPGA/c25x_fpga_ip/multiplier3 (searchpath added)
+-p D:/Project/H100_FPGA/c25x_fpga_ip/opto_ram (searchpath added)
+-p D:/Project/H100_FPGA/c25x_fpga_ip/packet_data_ram (searchpath added)
+-p D:/Project/H100_FPGA/c25x_fpga_ip/tcp_recv_fifo (searchpath added)
+-p D:/Project/H100_FPGA/c25x_fpga_ip (searchpath added)
+Verilog design file = D:/Project/H100_FPGA/source/c25x_fpga.v
+Verilog design file = D:/Project/H100_FPGA/source/dist/calib_packet.v
+Verilog design file = D:/Project/H100_FPGA/source/dist/dist_measure.v
+Verilog design file = D:/Project/H100_FPGA/source/dist/dist_packet.v
+Verilog design file = D:/Project/H100_FPGA/source/dist/measure_para.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/datagram_cmd_defines.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/datagram_parser.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/division.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/index_calculate.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/parameter_ident_define.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/parameter_init.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/spi_w5500_cmd.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/time_stamp.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/w5500_cmd_defines.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/w5500_control.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/w5500_reg_defines.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/spi_master_eth.v
+Verilog design file = D:/Project/H100_FPGA/source/flash/flash_control.v
+Verilog design file = D:/Project/H100_FPGA/source/flash/USRMCLK.v
+Verilog design file = D:/Project/H100_FPGA/source/flash/spi flash/spi_master.v
+Verilog design file = D:/Project/H100_FPGA/source/flash/spi flash/spi_flash_top.v
+Verilog design file = D:/Project/H100_FPGA/source/flash/spi flash/spi_flash_cmd.v
+Verilog design file = D:/Project/H100_FPGA/source/insp/adc_to_dac.v
+Verilog design file = D:/Project/H100_FPGA/source/insp/adc_to_temp.v
+Verilog design file = D:/Project/H100_FPGA/source/insp/pluse_average.v
+Verilog design file = D:/Project/H100_FPGA/source/insp/self_inspection.v
+Verilog design file = D:/Project/H100_FPGA/source/insp/adda/AD_SPI.v
+Verilog design file = D:/Project/H100_FPGA/source/insp/adda/adc_control.v
+Verilog design file = D:/Project/H100_FPGA/source/insp/adda/DA_SPI.v
+Verilog design file = D:/Project/H100_FPGA/source/laser/laser_control.v
+Verilog design file = D:/Project/H100_FPGA/source/rotate/encoder_generate.v
+Verilog design file = D:/Project/H100_FPGA/source/rotate/motor_control.v
+Verilog design file = D:/Project/H100_FPGA/source/rotate/opto_switch_filter.v
+Verilog design file = D:/Project/H100_FPGA/source/rotate/rotate_control.v
+Verilog design file = D:/Project/H100_FPGA/source/sram/sram_control.v
+Verilog design file = D:/Project/H100_FPGA/source/dist/as6500/as6500_control.v
+Verilog design file = D:/Project/H100_FPGA/source/dist/as6500/as6500_ctrl.v
+Verilog design file = D:/Project/H100_FPGA/source/dist/as6500/SPI_Master_2.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/spi_w5500_top_3.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/datagram_parser_udp.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/ntp_calculate.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/ntp_receive_parser.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/ntp_send_make.v
+Verilog design file = D:/Project/H100_FPGA/source/eth/time_stamp_ntp.v
+Verilog design file = D:/Project/H100_FPGA/source/dist/calculate/data_pre.v
+Verilog design file = D:/Project/H100_FPGA/source/dist/calculate/dist_cal.v
+Verilog design file = D:/Project/H100_FPGA/source/dist/calculate/dist_calculate.v
+Verilog design file = D:/Project/H100_FPGA/source/dist/calculate/index_cal.v
+Verilog design file = D:/Project/H100_FPGA/source/insp/adc_to_dist.v
+Verilog design file = D:/Project/H100_FPGA/source/dist/dist_filter.v
+Verilog design file = D:/Project/H100_FPGA/source/dist/calculate/rssi_cal.v
+Verilog design file = D:/Project/H100_FPGA/source/dist/calculate/div_rill.v
+Verilog design file = D:/Project/H100_FPGA/data_process_3.v
+Verilog design file = D:/Project/H100_FPGA/c25x_fpga_ip/c25x_pll/c25x_pll.v
+Verilog design file = D:/Project/H100_FPGA/c25x_fpga_ip/cache_opto_ram/cache_opto_ram.v
+Verilog design file = D:/Project/H100_FPGA/c25x_fpga_ip/distance_ram/distance_ram.v
+Verilog design file = D:/Project/H100_FPGA/c25x_fpga_ip/eth_data_ram/eth_data_ram.v
+Verilog design file = D:/Project/H100_FPGA/c25x_fpga_ip/eth_send_ram/eth_send_ram.v
+Verilog design file = D:/Project/H100_FPGA/c25x_fpga_ip/multiplier/multiplier.v
+Verilog design file = D:/Project/H100_FPGA/c25x_fpga_ip/multiplier3/multiplier3.v
+Verilog design file = D:/Project/H100_FPGA/c25x_fpga_ip/opto_ram/opto_ram.v
+Verilog design file = D:/Project/H100_FPGA/c25x_fpga_ip/packet_data_ram/packet_data_ram.v
+Verilog design file = D:/Project/H100_FPGA/c25x_fpga_ip/tcp_recv_fifo/tcp_recv_fifo.v
+Verilog design file = D:/Project/H100_FPGA/c25x_fpga_ip/c25x_fpga_ip.v
+Verilog design file = D:/Project/H100_FPGA/opto_packet.v
+Verilog design file = D:/Project/H100_FPGA/source/rotate/motor_control_2.v
+Verilog design file = D:/Project/H100_FPGA/source/rotate/motor_drive.v
+Verilog design file = D:/Project/H100_FPGA/source/rotate/random_number_generator.v
+Verilog design file = D:/Project/H100_FPGA/c25x_fpga_ip/SBP_c25x_pll/SBP_c25x_pll.v
+NGO file = SBP_c25x_pll.ngo
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+-hdl_param: name = SBP_SYNTHESIS, value = ""
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file D:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file d:/project/h100_fpga/source/c25x_fpga.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/dist/calib_packet.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/dist/dist_measure.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/dist/dist_packet.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/dist/measure_para.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/eth/datagram_cmd_defines.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/eth/datagram_parser.v. VERI-1482
+INFO - synthesis: d:/project/h100_fpga/source/eth/datagram_parser.v(3): analyzing included file d:/project/h100_fpga/source/eth/datagram_cmd_defines.v. VERI-1328
+Analyzing Verilog file d:/project/h100_fpga/source/eth/division.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/eth/index_calculate.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/eth/parameter_ident_define.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/eth/parameter_init.v. VERI-1482
+INFO - synthesis: d:/project/h100_fpga/source/eth/parameter_init.v(3): analyzing included file d:/project/h100_fpga/source/eth/datagram_cmd_defines.v. VERI-1328
+INFO - synthesis: d:/project/h100_fpga/source/eth/parameter_init.v(4): analyzing included file d:/project/h100_fpga/source/eth/parameter_ident_define.v. VERI-1328
+Analyzing Verilog file d:/project/h100_fpga/source/eth/spi_w5500_cmd.v. VERI-1482
+INFO - synthesis: d:/project/h100_fpga/source/eth/spi_w5500_cmd.v(3): analyzing included file d:/project/h100_fpga/source/eth/w5500_reg_defines.v. VERI-1328
+INFO - synthesis: d:/project/h100_fpga/source/eth/spi_w5500_cmd.v(4): analyzing included file d:/project/h100_fpga/source/eth/w5500_cmd_defines.v. VERI-1328
+Analyzing Verilog file d:/project/h100_fpga/source/eth/time_stamp.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/eth/w5500_cmd_defines.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/eth/w5500_control.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/eth/w5500_reg_defines.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/eth/spi_master_eth.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/flash/flash_control.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/flash/usrmclk.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/flash/spi flash/spi_master.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/flash/spi flash/spi_flash_top.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/flash/spi flash/spi_flash_cmd.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/insp/adc_to_dac.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/insp/adc_to_temp.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/insp/pluse_average.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/insp/self_inspection.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/insp/adda/ad_spi.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/insp/adda/adc_control.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/insp/adda/da_spi.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/laser/laser_control.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/rotate/encoder_generate.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/rotate/motor_control.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/rotate/opto_switch_filter.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/rotate/rotate_control.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/sram/sram_control.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/dist/as6500/as6500_control.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/dist/as6500/as6500_ctrl.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/dist/as6500/spi_master_2.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/eth/spi_w5500_top_3.v. VERI-1482
+INFO - synthesis: d:/project/h100_fpga/source/eth/spi_w5500_top_3.v(3): analyzing included file d:/project/h100_fpga/source/eth/w5500_reg_defines.v. VERI-1328
+INFO - synthesis: d:/project/h100_fpga/source/eth/spi_w5500_top_3.v(4): analyzing included file d:/project/h100_fpga/source/eth/w5500_cmd_defines.v. VERI-1328
+Analyzing Verilog file d:/project/h100_fpga/source/eth/datagram_parser_udp.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/eth/ntp_calculate.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/eth/ntp_receive_parser.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/eth/ntp_send_make.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/eth/time_stamp_ntp.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/dist/calculate/data_pre.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/dist/calculate/dist_cal.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/dist/calculate/dist_calculate.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/dist/calculate/index_cal.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/insp/adc_to_dist.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/dist/dist_filter.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/dist/calculate/rssi_cal.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/dist/calculate/div_rill.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/data_process_3.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/c25x_fpga_ip/c25x_pll/c25x_pll.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/c25x_fpga_ip/cache_opto_ram/cache_opto_ram.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/c25x_fpga_ip/distance_ram/distance_ram.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/c25x_fpga_ip/eth_data_ram/eth_data_ram.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/c25x_fpga_ip/eth_send_ram/eth_send_ram.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/c25x_fpga_ip/multiplier/multiplier.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/c25x_fpga_ip/multiplier3/multiplier3.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/c25x_fpga_ip/opto_ram/opto_ram.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/c25x_fpga_ip/packet_data_ram/packet_data_ram.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/c25x_fpga_ip/tcp_recv_fifo/tcp_recv_fifo.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/c25x_fpga_ip/c25x_fpga_ip.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/opto_packet.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/rotate/motor_control_2.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/rotate/motor_drive.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/source/rotate/random_number_generator.v. VERI-1482
+Analyzing Verilog file d:/project/h100_fpga/c25x_fpga_ip/sbp_c25x_pll/sbp_c25x_pll.v. VERI-1482
+Analyzing Verilog file D:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v. VERI-1482
+Top module name (Verilog): SBP_c25x_pll
+INFO - synthesis: d:/project/h100_fpga/c25x_fpga_ip/sbp_c25x_pll/sbp_c25x_pll.v(1): compiling module SBP_c25x_pll. VERI-1018
+INFO - synthesis: d:/project/h100_fpga/c25x_fpga_ip/c25x_pll/c25x_pll.v(8): compiling module c25x_pll. VERI-1018
+INFO - synthesis: D:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v(757): compiling module VHI. VERI-1018
+INFO - synthesis: D:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v(761): compiling module VLO. VERI-1018
+INFO - synthesis: D:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v(1696): compiling module EHXPLLL_renamed_due_excessive_length_1. VERI-1018
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/sa5p00/data/sa5plib.ngl'...
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'sa5p25.nph' in environment: D:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.33.
+Top-level module name = SBP_c25x_pll.
+
+
+
+######## GSR will not be inferred in an NGO flow, unless force_gsr=yes.
+Applying 200.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+Results of NGD DRC are available in SBP_c25x_pll_drc.log.
+WARNING - synthesis: DRC checking was skipped because the -ngo option was used.
+Writing NGD file SBP_c25x_pll.ngo.
+
+################### Begin Area Report (SBP_c25x_pll)######################
+Number of register bits => 0 of 24879 (0 % )
+EHXPLLL => 1
+GSR => 1
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 0
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : c25x_pll_inst/CLKFB_t, loads : 1
+  Net : c25x_pll_inst/CLKOP, loads : -1
+  Net : c25x_pll_inst/CLKOS, loads : -1
+  Net : c25x_pll_inst/CLKOS2, loads : -1
+################### End Clock Report ##################
+
+Peak Memory Usage: 93.359  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.594  secs
+--------------------------------------------------------------

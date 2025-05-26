@@ -1,0 +1,5 @@
+#Start recording tcl command: 4/14/2023 20:08:14
+#Project Location: C:/Users/guoxiang/Desktop/FPGA/H100/custom/xiangong/H100_FPGA_23033018/H100_FPGA_23033018; Project name: c25x_fpga
+prj_project open "C:/Users/guoxiang/Desktop/FPGA/H100/custom/xiangong/H100_FPGA_23033018/H100_FPGA_23033018/c25x_fpga.ldf"
+prj_run Export -impl c25x_fpga -task Bitgen
+#Stop recording: 4/17/2023 09:23:03

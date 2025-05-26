@@ -1,0 +1,119 @@
+<Project ModBy="Inserter" SigType="0" Name="D:/Project/H100_FPGA/debug0513.rvl" Date="2025-05-22">
+    <IP Version="1_6_042617"/>
+    <Design DesignEntry="Schematic/Verilog HDL" Synthesis="lse" DeviceFamily="ECP5U" DesignName="c25x_fpga"/>
+    <Core InsertDataset="0" Insert="1" Reveal_sig="627907712" Name="c25x_fpga_LA0" ID="0">
+        <Setting>
+            <Clock SampleClk="U2/i_clk_50m" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
+            <TraceBuffer Implementation="0" BitTimeStamp="0" hasTimeStamp="0" IncTrigSig="0" BufferDepth="1024"/>
+            <Capture Mode="1" MinSamplesPerTrig="32"/>
+            <Event CntEnable="1" MaxEventCnt="64"/>
+            <TrigOut Polarity="0" MinPulseWidth="0" TrigOutNetType="1" EnableTrigOut="0" TrigOutNet="reveal_debug_c25x_fpga_LA0_net"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Type="SIG" Name="U5/U8/erro_flag"/>
+                <Bus Name="U5/U8/i_tdc_result">
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:0"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:1"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:2"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:3"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:4"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:5"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:6"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:7"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:8"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:9"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:10"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:11"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:12"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:13"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:14"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:15"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:16"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:17"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result:18"/>
+                </Bus>
+                <Bus Name="U5/U8/i_tdc_result_channel_id">
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result_channel_id:0"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result_channel_id:1"/>
+                    <Sig Type="SIG" Name="U5/U8/i_tdc_result_channel_id:2"/>
+                </Bus>
+                <Sig Type="SIG" Name="U5/U8/i_tdc_result_edge_id"/>
+                <Sig Type="SIG" Name="U5/U8/i_tdc_result_valid_flag"/>
+                <Sig Type="SIG" Name="U5/U8/o_data_valid"/>
+                <Sig Type="SIG" Name="U5/U8/r_laser_str"/>
+                <Sig Type="SIG" Name="U5/U8/r_laser_str_flag"/>
+                <Bus Name="U5/U8/r_rise_data">
+                    <Sig Type="SIG" Name="U5/U8/r_rise_data:0"/>
+                    <Sig Type="SIG" Name="U5/U8/r_rise_data:1"/>
+                    <Sig Type="SIG" Name="U5/U8/r_rise_data:2"/>
+                    <Sig Type="SIG" Name="U5/U8/r_rise_data:3"/>
+                    <Sig Type="SIG" Name="U5/U8/r_rise_data:4"/>
+                    <Sig Type="SIG" Name="U5/U8/r_rise_data:5"/>
+                    <Sig Type="SIG" Name="U5/U8/r_rise_data:6"/>
+                    <Sig Type="SIG" Name="U5/U8/r_rise_data:7"/>
+                    <Sig Type="SIG" Name="U5/U8/r_rise_data:8"/>
+                    <Sig Type="SIG" Name="U5/U8/r_rise_data:9"/>
+                    <Sig Type="SIG" Name="U5/U8/r_rise_data:10"/>
+                    <Sig Type="SIG" Name="U5/U8/r_rise_data:11"/>
+                    <Sig Type="SIG" Name="U5/U8/r_rise_data:12"/>
+                    <Sig Type="SIG" Name="U5/U8/r_rise_data:13"/>
+                    <Sig Type="SIG" Name="U5/U8/r_rise_data:14"/>
+                    <Sig Type="SIG" Name="U5/U8/r_rise_data:15"/>
+                </Bus>
+                <Bus Name="U5/U8/r_fall_data">
+                    <Sig Type="SIG" Name="U5/U8/r_fall_data:0"/>
+                    <Sig Type="SIG" Name="U5/U8/r_fall_data:1"/>
+                    <Sig Type="SIG" Name="U5/U8/r_fall_data:2"/>
+                    <Sig Type="SIG" Name="U5/U8/r_fall_data:3"/>
+                    <Sig Type="SIG" Name="U5/U8/r_fall_data:4"/>
+                    <Sig Type="SIG" Name="U5/U8/r_fall_data:5"/>
+                    <Sig Type="SIG" Name="U5/U8/r_fall_data:6"/>
+                    <Sig Type="SIG" Name="U5/U8/r_fall_data:7"/>
+                    <Sig Type="SIG" Name="U5/U8/r_fall_data:8"/>
+                    <Sig Type="SIG" Name="U5/U8/r_fall_data:9"/>
+                    <Sig Type="SIG" Name="U5/U8/r_fall_data:10"/>
+                    <Sig Type="SIG" Name="U5/U8/r_fall_data:11"/>
+                    <Sig Type="SIG" Name="U5/U8/r_fall_data:12"/>
+                    <Sig Type="SIG" Name="U5/U8/r_fall_data:13"/>
+                    <Sig Type="SIG" Name="U5/U8/r_fall_data:14"/>
+                    <Sig Type="SIG" Name="U5/U8/r_fall_data:15"/>
+                </Bus>
+                <Sig Type="SIG" Name="U5/U8/i_laser_str"/>
+                <Sig Type="SIG" Name="U5/u2/SPI_MISO_IN"/>
+                <Sig Type="SIG" Name="U5/u2/SPI_interrupt_n"/>
+                <Bus Name="U5/u2/spi_tx_data">
+                    <Sig Type="SIG" Name="U5/u2/spi_tx_data:0"/>
+                    <Sig Type="SIG" Name="U5/u2/spi_tx_data:1"/>
+                    <Sig Type="SIG" Name="U5/u2/spi_tx_data:2"/>
+                    <Sig Type="SIG" Name="U5/u2/spi_tx_data:3"/>
+                    <Sig Type="SIG" Name="U5/u2/spi_tx_data:4"/>
+                    <Sig Type="SIG" Name="U5/u2/spi_tx_data:5"/>
+                    <Sig Type="SIG" Name="U5/u2/spi_tx_data:6"/>
+                    <Sig Type="SIG" Name="U5/u2/spi_tx_data:7"/>
+                </Bus>
+                <Sig Type="SIG" Name="U5/u2/ASIC_RESETN_OUT"/>
+                <Sig Type="SIG" Name="U5/u2/SPI_SCK_OUT"/>
+                <Sig Type="SIG" Name="U5/u2/i_angle_sync"/>
+                <Bus Name="U5/u2/current_state">
+                    <Sig Type="SIG" Name="U5/u2/current_state:0"/>
+                    <Sig Type="SIG" Name="U5/u2/current_state:1"/>
+                    <Sig Type="SIG" Name="U5/u2/current_state:2"/>
+                    <Sig Type="SIG" Name="U5/u2/current_state:3"/>
+                    <Sig Type="SIG" Name="U5/u2/current_state:4"/>
+                    <Sig Type="SIG" Name="U5/u2/current_state:5"/>
+                    <Sig Type="SIG" Name="U5/u2/current_state:6"/>
+                    <Sig Type="SIG" Name="U5/u2/current_state:7"/>
+                </Bus>
+                <Sig Type="SIG" Name="U5/u2/clera_spi_clk"/>
+            </Trace>
+            <Trigger>
+                <TU Serialbits="0" Type="0" ID="1" Sig="U5/U8/erro_flag,"/>
+                <TU Serialbits="0" Type="0" ID="2" Sig="U5/U8/i_laser_str,"/>
+                <TU Serialbits="0" Type="0" ID="3" Sig="U5/U8/i_tdc_result_valid_flag,"/>
+                <TE MaxSequence="16" MaxEvnCnt="16" ID="1" Resource="1"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

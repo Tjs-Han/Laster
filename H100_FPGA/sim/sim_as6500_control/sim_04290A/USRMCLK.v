@@ -1,0 +1,3 @@
+module USRMCLK (USRMCLKI, USRMCLKTS);
+input USRMCLKI, USRMCLKTS;
+endmodule

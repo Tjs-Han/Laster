@@ -1,0 +1,384 @@
+
+Lattice Place and Route Report for Design "c25x_fpga_c25x_fpga_map.ncd"
+Thu May 22 18:54:59 2025
+
+PAR: Place And Route Diamond (64-bit) 3.12.0.240.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset D:/Project/H100_FPGA/promote.xml -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF:parASE=1 c25x_fpga_c25x_fpga_map.ncd c25x_fpga_c25x_fpga.dir/5_1.ncd c25x_fpga_c25x_fpga.prf
+Preference file: c25x_fpga_c25x_fpga.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file c25x_fpga_c25x_fpga_map.ncd.
+Design name: c25x_fpga
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-25F
+Package:     CABGA256
+Performance: 6
+Loading device for application par from file 'sa5p25.nph' in environment: D:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.33.
+Performance Hardware Data Status:   Final          Version 55.1.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)      74/197          37% used
+                     74/197          37% bonded
+
+   SLICE          11141/12144        91% used
+
+   JTAG               1/1           100% used
+   EBR               21/56           37% used
+   PLL                1/2            50% used
+   MULT9              4/56            7% used
+   MULT18             7/28           25% used
+   CCLK               1/1           100% used
+
+
+58 potential circuit loops found in timing analysis.
+Number of Signals: 28053
+Number of Connections: 80891
+
+Pin Constraint Summary:
+   72 out of 74 pins locked (97% locked).
+
+
+INFO: CLKI 'i_clk_50m' at E7 driving 'U1/PLLInst_0' must use PCLK.
+The following 16 signals are selected to use the primary clock routing resources:
+    jtaghub16_jtck (driver: sa5phub/genblk8.jtagg_u, clk/ce/sr load #: 234/0/0)
+    w_pll_50m (driver: U1/PLLInst_0, clk/ce/sr load #: 4474/0/0)
+    w_pll_100m (driver: U1/PLLInst_0, clk/ce/sr load #: 15/0/0)
+    n237581 (driver: SLICE_10249, clk/ce/sr load #: 0/0/2317)
+    r_rst_n (driver: SLICE_5890, clk/ce/sr load #: 0/0/1332)
+    c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/reset_rvl_n (driver: c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/SLICE_9215, clk/ce/sr load #: 0/0/262)
+    jtaghub16_jrstn (driver: sa5phub/genblk8.jtagg_u, clk/ce/sr load #: 0/0/213)
+    w_pll_50m_enable_4710 (driver: SLICE_6918, clk/ce/sr load #: 0/66/0)
+    w_pll_50m_enable_4584 (driver: U8/u3/u3/SLICE_3843, clk/ce/sr load #: 0/49/0)
+    U5/U3/U4/w_pll_50m_enable_1531 (driver: U5/U3/U4/SLICE_3266, clk/ce/sr load #: 0/35/0)
+    w_pll_50m_enable_4647 (driver: U8/u3/u3/SLICE_4191, clk/ce/sr load #: 0/33/0)
+    U8/u5/U1/U1/w_pll_50m_enable_3778 (driver: U8/u5/U1/U1/i182077/SLICE_7251, clk/ce/sr load #: 0/32/0)
+    U8/u3/u1/w_pll_50m_enable_4810 (driver: U8/u3/u1/SLICE_4190, clk/ce/sr load #: 0/32/0)
+    U8/u1/u1/r_byte_size_16__N_10946 (driver: U8/u1/u1/SLICE_4889, clk/ce/sr load #: 0/32/0)
+    U8/u1/o_recv_data_udp_7__N_9509 (driver: U8/u1/SLICE_8988, clk/ce/sr load #: 0/0/22)
+    i_clk_50m_c (driver: i_clk_50m, clk/ce/sr load #: 1/0/0)
+
+
+No signal is selected as Global Set/Reset.
+.
+Starting Placer Phase 0.
+..........
+Finished Placer Phase 0.  REAL time: 15 secs 
+
+
+Starting Placer Phase 1.
+.................................
+Placer score = 7968715.
+Finished Placer Phase 1.  REAL time: 54 secs 
+
+Starting Placer Phase 2.
+..
+Placer score =  7674598
+Finished Placer Phase 2.  REAL time: 1 mins 5 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 12 (0%)
+  GR_PCLK    : 1 out of 12 (8%)
+  PLL        : 1 out of 2 (50%)
+  DCS        : 0 out of 2 (0%)
+  DCC        : 0 out of 60 (0%)
+  CLKDIV     : 0 out of 4 (0%)
+
+Quadrant TL Clocks:
+  PRIMARY "w_pll_50m" from CLKOP on comp "U1/PLLInst_0" on PLL site "PLL_BL0", CLK/CE/SR load = 1083
+  PRIMARY "n237581" from Q0 on comp "SLICE_10249" on site "R20C51C", CLK/CE/SR load = 726
+  PRIMARY "r_rst_n" from Q0 on comp "SLICE_5890" on site "R40C35D", CLK/CE/SR load = 78
+  PRIMARY "w_pll_50m_enable_4584" from F1 on comp "U8/u3/u3/SLICE_3843" on site "R8C46A", CLK/CE/SR load = 1
+  PRIMARY "U5/U3/U4/w_pll_50m_enable_1531" from Q0 on comp "U5/U3/U4/SLICE_3266" on site "R30C22D", CLK/CE/SR load = 35
+  PRIMARY "U8/u3/u1/w_pll_50m_enable_4810" from F1 on comp "U8/u3/u1/SLICE_4190" on site "R4C26C", CLK/CE/SR load = 32
+  PRIMARY "U8/u1/u1/r_byte_size_16__N_10946" from F1 on comp "U8/u1/u1/SLICE_4889" on site "R12C34C", CLK/CE/SR load = 1
+
+  PRIMARY  : 7 out of 16 (43%)
+
+Quadrant TR Clocks:
+  PRIMARY "w_pll_50m" from CLKOP on comp "U1/PLLInst_0" on PLL site "PLL_BL0", CLK/CE/SR load = 1265
+  PRIMARY "n237581" from Q0 on comp "SLICE_10249" on site "R20C51C", CLK/CE/SR load = 616
+  PRIMARY "r_rst_n" from Q0 on comp "SLICE_5890" on site "R40C35D", CLK/CE/SR load = 495
+  PRIMARY "w_pll_50m_enable_4710" from F1 on comp "SLICE_6918" on site "R8C49C", CLK/CE/SR load = 66
+  PRIMARY "w_pll_50m_enable_4584" from F1 on comp "U8/u3/u3/SLICE_3843" on site "R8C46A", CLK/CE/SR load = 48
+  PRIMARY "w_pll_50m_enable_4647" from F1 on comp "U8/u3/u3/SLICE_4191" on site "R8C49D", CLK/CE/SR load = 33
+  PRIMARY "U8/u1/u1/r_byte_size_16__N_10946" from F1 on comp "U8/u1/u1/SLICE_4889" on site "R12C34C", CLK/CE/SR load = 31
+  PRIMARY "U8/u1/o_recv_data_udp_7__N_9509" from F1 on comp "U8/u1/SLICE_8988" on site "R11C41D", CLK/CE/SR load = 10
+
+  PRIMARY  : 8 out of 16 (50%)
+
+Quadrant BL Clocks:
+  PRIMARY "jtaghub16_jtck" from JTCK on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 202
+  PRIMARY "w_pll_50m" from CLKOP on comp "U1/PLLInst_0" on PLL site "PLL_BL0", CLK/CE/SR load = 990
+  PRIMARY "w_pll_100m" from CLKOS2 on comp "U1/PLLInst_0" on PLL site "PLL_BL0", CLK/CE/SR load = 15
+  PRIMARY "n237581" from Q0 on comp "SLICE_10249" on site "R20C51C", CLK/CE/SR load = 563
+  PRIMARY "r_rst_n" from Q0 on comp "SLICE_5890" on site "R40C35D", CLK/CE/SR load = 166
+  PRIMARY "c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/reset_rvl_n" from F0 on comp "c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/SLICE_9215" on site "R47C31A", CLK/CE/SR load = 173
+  PRIMARY "jtaghub16_jrstn" from JRSTN on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 181
+  PRIMARY "i_clk_50m_c" from comp "i_clk_50m" on PIO site "E7 (PT24A)", CLK/CE/SR load = 1
+
+  PRIMARY  : 8 out of 16 (50%)
+
+Quadrant BR Clocks:
+  PRIMARY "jtaghub16_jtck" from JTCK on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 32
+  PRIMARY "w_pll_50m" from CLKOP on comp "U1/PLLInst_0" on PLL site "PLL_BL0", CLK/CE/SR load = 1136
+  PRIMARY "n237581" from Q0 on comp "SLICE_10249" on site "R20C51C", CLK/CE/SR load = 412
+  PRIMARY "r_rst_n" from Q0 on comp "SLICE_5890" on site "R40C35D", CLK/CE/SR load = 593
+  PRIMARY "c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/reset_rvl_n" from F0 on comp "c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/SLICE_9215" on site "R47C31A", CLK/CE/SR load = 89
+  PRIMARY "jtaghub16_jrstn" from JRSTN on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 32
+  PRIMARY "U8/u5/U1/U1/w_pll_50m_enable_3778" from OFX0 on comp "U8/u5/U1/U1/i182077/SLICE_7251" on site "R40C69A", CLK/CE/SR load = 32
+  PRIMARY "U8/u1/o_recv_data_udp_7__N_9509" from F1 on comp "U8/u1/SLICE_8988" on site "R11C41D", CLK/CE/SR load = 12
+
+  PRIMARY  : 8 out of 16 (50%)
+
+Edge Clocks:
+
+  No edge clock selected.
+
+
+--------------- End of Clock Report ---------------
+
+
++
+I/O Usage Summary (final):
+   74 out of 197 (37.6%) PIO sites used.
+   74 out of 197 (37.6%) bonded PIO sites used.
+   Number of PIO comps: 74; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+------------+------------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref1 | Bank Vref2 |
++----------+----------------+------------+------------+------------+
+| 0        | 11 / 24 ( 45%) | 3.3V       | -          | -          |
+| 1        | 10 / 32 ( 31%) | 3.3V       | -          | -          |
+| 2        | 21 / 32 ( 65%) | 3.3V       | -          | -          |
+| 3        | 22 / 32 ( 68%) | 3.3V       | -          | -          |
+| 6        | 1 / 32 (  3%)  | 3.3V       | -          | -          |
+| 7        | 4 / 32 ( 12%)  | 3.3V       | -          | -          |
+| 8        | 5 / 13 ( 38%)  | 3.3V       | -          | -          |
++----------+----------------+------------+------------+------------+
+
+---------------------------------- DSP Report ----------------------------------
+
+DSP Slice #:           1  2  3  4  5  6  7  8  9 10 11 12 13 14
+# of MULT9                            1              1  2      
+# of MULT18            1  1     1  2           1              1
+# of ALU24                                                     
+# of ALU54                                                     
+# of PRADD9                                                    
+# of PRADD18                                                   
+
+DSP Slice  1         Component_Type       Physical_Type           Instance_Name         
+  MULT18_R13C5         MULT18X18D             MULT18          U5/U3/U3/U2/dsp_mult_0    
+
+DSP Slice  2         Component_Type       Physical_Type           Instance_Name         
+  MULT18_R13C9         MULT18X18D             MULT18          U5/U3/U3/U1/dsp_mult_0    
+
+DSP Slice  4         Component_Type       Physical_Type           Instance_Name         
+ MULT18_R13C17         MULT18X18D             MULT18           U5/U1/U2/dsp_mult_0      
+
+DSP Slice  5         Component_Type       Physical_Type           Instance_Name         
+ MULT18_R13C22         MULT18X18D             MULT18          U5/U3/U4/U2/dsp_mult_0    
+ MULT18_R13C23         MULT18X18D             MULT18          U5/U3/U4/U1/dsp_mult_0    
+
+DSP Slice  6         Component_Type       Physical_Type           Instance_Name         
+ MULT18_R13C26          MULT9X9D              MULT9            U2/U4/U1/dsp_mult_0      
+
+DSP Slice  9         Component_Type       Physical_Type           Instance_Name         
+ MULT18_R13C43         MULT18X18D             MULT18           U3/u4/U1/dsp_mult_0      
+
+DSP Slice 11         Component_Type       Physical_Type           Instance_Name         
+  MULT9_R13C51          MULT9X9D              MULT9            U3/u3/U3/dsp_mult_0      
+
+DSP Slice 12         Component_Type       Physical_Type           Instance_Name         
+ MULT18_R13C55          MULT9X9D              MULT9            U3/u3/U2/dsp_mult_0      
+  MULT9_R13C56          MULT9X9D              MULT9            U3/u3/U4/dsp_mult_0      
+
+DSP Slice 14         Component_Type       Physical_Type           Instance_Name         
+ MULT18_R13C65         MULT18X18D             MULT18          U3/u3/U1/U1/dsp_mult_0    
+
+------------------------------ End of DSP Report -------------------------------
+Total placer CPU time: 1 mins 4 secs 
+
+Dumping design to file c25x_fpga_c25x_fpga.dir/5_1.ncd.
+
+58 potential circuit loops found in timing analysis.
+0 connections routed; 80891 unrouted.
+Starting router resource preassignment
+DSP info: Total 2 dsp pins have been swapped.
+
+Completed router resource preassignment. Real time: 1 mins 16 secs 
+
+Start NBR router at 18:56:16 05/22/25
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+58 potential circuit loops found in timing analysis.
+Start NBR special constraint process at 18:56:18 05/22/25
+
+Start NBR section for initial routing at 18:56:19 05/22/25
+Level 1, iteration 1
+40(0.00%) conflicts; 63301(78.25%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.326ns/0.000ns; real time: 1 mins 21 secs 
+Level 2, iteration 1
+2(0.00%) conflicts; 63334(78.30%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.314ns/0.000ns; real time: 1 mins 22 secs 
+Level 3, iteration 1
+35(0.00%) conflicts; 61281(75.76%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.314ns/0.000ns; real time: 1 mins 24 secs 
+Level 4, iteration 1
+3798(0.33%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.314ns/0.000ns; real time: 1 mins 33 secs 
+
+Info: Initial congestion level at 75% usage is 2
+Info: Initial congestion area  at 75% usage is 202 (6.01%)
+
+Start NBR section for normal routing at 18:56:32 05/22/25
+Level 1, iteration 1
+11(0.00%) conflicts; 6415(7.93%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.314ns/0.000ns; real time: 1 mins 34 secs 
+Level 2, iteration 1
+5(0.00%) conflicts; 6422(7.94%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.314ns/0.000ns; real time: 1 mins 35 secs 
+Level 3, iteration 1
+4(0.00%) conflicts; 6418(7.93%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.314ns/0.000ns; real time: 1 mins 35 secs 
+Level 4, iteration 1
+2241(0.19%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 39 secs 
+Level 4, iteration 2
+1363(0.12%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 42 secs 
+Level 4, iteration 3
+787(0.07%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 44 secs 
+Level 4, iteration 4
+537(0.05%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 45 secs 
+Level 4, iteration 5
+333(0.03%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 46 secs 
+Level 4, iteration 6
+235(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 47 secs 
+Level 4, iteration 7
+153(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 48 secs 
+Level 4, iteration 8
+105(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 49 secs 
+Level 4, iteration 9
+74(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 49 secs 
+Level 4, iteration 10
+48(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 50 secs 
+Level 4, iteration 11
+35(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 50 secs 
+Level 4, iteration 12
+26(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 51 secs 
+Level 4, iteration 13
+20(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 51 secs 
+Level 4, iteration 14
+16(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 51 secs 
+Level 4, iteration 15
+11(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 52 secs 
+Level 4, iteration 16
+11(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 52 secs 
+Level 4, iteration 17
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 53 secs 
+Level 4, iteration 18
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 53 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 18:56:52 05/22/25
+58 potential circuit loops found in timing analysis.
+58 potential circuit loops found in timing analysis.
+
+Start NBR section for re-routing at 18:56:56 05/22/25
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 57 secs 
+
+Start NBR section for post-routing at 18:56:56 05/22/25
+58 potential circuit loops found in timing analysis.
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 1.280ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+58 potential circuit loops found in timing analysis.
+58 potential circuit loops found in timing analysis.
+58 potential circuit loops found in timing analysis.
+Total CPU time 2 mins 5 secs 
+Total REAL time: 2 mins 9 secs 
+Completely routed.
+End of route.  80891 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file c25x_fpga_c25x_fpga.dir/5_1.ncd.
+
+
+All signals are completely routed.
+
+
+PAR_SUMMARY::Run status = Completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 1.280
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.170
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 2 mins 8 secs 
+Total REAL time to completion: 2 mins 12 secs 
+
+par done!
+
+Note: user must run 'Trace' for timing closure signoff.
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.

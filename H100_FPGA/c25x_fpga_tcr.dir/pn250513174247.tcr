@@ -1,0 +1,36 @@
+#Start recording tcl command: 5/13/2025 16:40:58
+#Project Location: D:/Project/H100_FPGA; Project name: c25x_fpga
+prj_project open "D:/Project/H100_FPGA/c25x_fpga.ldf"
+rva_project new -rva "debug" -cable USB -rvl "D:/Project/H100_FPGA/debug0513.rvl" -dev "1. LFE5U-25F:0x41111043" -port 0 -xcf ""
+prj_src add "D:/Project/H100_FPGA/debug.rva"
+rva_project run
+rva_project run
+rva_te set -name TE1 -expression "TU2"
+rva_tu set -name TU2 -operator "!="
+rva_project run
+rva_tu set -name TU2 -operator "=="
+rva_project run
+rvl_project open D:/Project/H100_FPGA/debug/c25x_fpga.rvl
+prj_src remove "D:/Project/H100_FPGA/sim/sim_as6500_control/sim04290A/sim04290A.spf" "D:/Project/H100_FPGA/sim/sim_as6500_control/sim04290A/sim04290A/sim04290A.spf" "D:/Project/H100_FPGA/sim/sim_as6500_control/sim_04290A/sim_04290A.spf" "D:/Project/H100_FPGA/sim04290A/sim04290A.spf"
+prj_src remove "D:/Project/H100_FPGA/debug/untitled.rva"
+prj_src add "D:/Project/H100_FPGA/debug0513.rvl"
+rvl_project close
+rvl_project open D:/Project/H100_FPGA/debug0513.rvl
+rva_project save "D:/Project/H100_FPGA/debug.rva"
+rva_project close
+prj_run Synthesis -impl c25x_fpga
+prj_run Synthesis -impl c25x_fpga
+rvl_project open D:/Project/H100_FPGA/debug/c25x_fpga.rvl
+rvl_project close -force
+prj_src enable "D:/Project/H100_FPGA/debug0513.rvl"
+rvl_project open D:/Project/H100_FPGA/debug/c25x_fpga.rvl
+rvl_core delete c25x_fpga_LA1
+prj_run Synthesis -impl c25x_fpga
+rvl_project save -overwrite D:/Project/H100_FPGA/debug/c25x_fpga.rvl
+rvl_project close -force
+prj_run Synthesis -impl c25x_fpga -task Lattice_Synthesis
+prj_run Synthesis -impl c25x_fpga -task Lattice_Synthesis
+prj_run Export -impl c25x_fpga -task Bitgen -forceAll
+prj_src remove "D:/Project/H100_FPGA/debug/c25x_fpga.rvl"
+prj_run Synthesis -impl c25x_fpga -forceOne
+#Stop recording: 5/13/2025 17:42:47
