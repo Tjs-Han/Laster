@@ -1,0 +1,306 @@
+# Reading D:/modeltech64_10.4/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do {D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/ram0425_0A.mdo}
+# Loading project ram0425_0A
+# Error 31: Unable to unlink file "D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work/_lib.qdb".
+# Error 31: Unable to unlink file "D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work/_lib1_0.qdb".
+# Error 31: Unable to unlink file "D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work/_lib1_0.qtl".
+# Error 31: Unable to unlink file "D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work/_lib1_3.qdb".
+# Error 31: Unable to unlink file "D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work/_lib1_3.qpg".
+# Error 31: Unable to unlink file "D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work/_lib1_3.qtl".
+# Error 133: Unable to remove directory "D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work".
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:10:30 on Apr 25,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A" -work work D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/ram_w32_depth64.v 
+# -- Compiling module ram_w32_depth64
+# 
+# Top level modules:
+# 	ram_w32_depth64
+# End time: 15:10:30 on Apr 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:10:30 on Apr 25,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A" -work work D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/statistics_cycle.v 
+# -- Compiling module statistics_cycle
+# 
+# Top level modules:
+# 	statistics_cycle
+# End time: 15:10:30 on Apr 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 15:10:31 on Apr 25,2025
+# vlog -reportprogress 300 "+incdir+D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A" -work work D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:10:31 on Apr 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -gui -do "do {D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/ram0425_0A.mdo}" 
+# Start time: 15:10:31 on Apr 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# init_dbinfo() DATABASE ERROR: (sqlite3_exec): file is encrypted or is not a database
+# meta_select_int_int(): DATABASE ERROR (prepare): SELECT value1,value2 FROM meta WHERE key=?;: file is encrypted or is not a database
+# meta_select_int(): DATABASE ERROR (prepare): file is encrypted or is not a database
+# meta_select_int(): DATABASE ERROR (prepare): file is encrypted or is not a database
+# meta_select_int(): DATABASE ERROR (prepare): file is encrypted or is not a database
+# meta_select_int(): DATABASE ERROR (prepare): file is encrypted or is not a database
+# ** Fatal: (vopt-176) Library version check (read) for D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work/_lib.qdb failed: database version (-1.-1) is not compatible with current version (1.1).
+# 
+# ** Fatal: (vopt-2138) Cannot load design unit work.tb.
+# 
+# ** Error: (vopt-13130) Failed to find design unit work.tb.
+# 
+# Optimization failed
+# init_dbinfo() DATABASE ERROR: (sqlite3_exec): file is encrypted or is not a database
+# init_dbinfo() DATABASE ERROR: (sqlite3_exec): file is encrypted or is not a database
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO D:\Project\C20F_haikang\sim\sim_statistics_cycle\ram0425_0A\ram0425_0A.mdo PAUSED at line 16
+# Compile of ram_w32_depth64.v was successful.
+# Compile of statistics_cycle.v was successful.
+# Compile of tb.v was successful.
+# Compile of AND5.v was successful.
+# Compile of BB.v was successful.
+# Compile of BBPD.v was successful.
+# Compile of BBPU.v was successful.
+# Compile of BCINRD.v was successful.
+# Compile of BCLVDSOB.v was successful.
+# Compile of BUFBA.v was successful.
+# Compile of CCU2C.v was successful.
+# Compile of CLKDIVF.v was successful.
+# Compile of DCCA.v was successful.
+# Compile of DCSC.v was successful.
+# Compile of DDRDLLA.v was successful.
+# Compile of DELAYF.v was successful.
+# Compile of DELAYG.v was successful.
+# Compile of DLLDELD.v was successful.
+# Compile of DP16KD.v was successful.
+# Compile of DPR16X4C.v was successful.
+# Compile of DQSBUFM.v was successful.
+# Compile of DTR.v was successful.
+# Compile of ECLKBRIDGECS.v was successful.
+# Compile of ECLKSYNCB.v was successful.
+# Compile of EHXPLLL.v was successful with warnings.
+# Compile of EXTREFB.v was successful.
+# Compile of FD1P3AX.v was successful.
+# Compile of FD1P3AY.v was successful.
+# Compile of FD1P3BX.v was successful.
+# Compile of FD1P3DX.v was successful.
+# Compile of FD1P3IX.v was successful.
+# Compile of FD1P3JX.v was successful.
+# Compile of FD1S3AX.v was successful.
+# Compile of FD1S3AY.v was successful.
+# Compile of FD1S3BX.v was successful.
+# Compile of FD1S3DX.v was successful.
+# Compile of FD1S3IX.v was successful.
+# Compile of FD1S3JX.v was successful.
+# Compile of FL1P3AY.v was successful.
+# Compile of FL1P3AY_FUNC.v was successful.
+# Compile of FL1P3AZ.v was successful.
+# Compile of FL1P3AZ_FUNC.v was successful.
+# Compile of FL1P3BX.v was successful.
+# Compile of FL1P3BX_FUNC.v was successful.
+# Compile of FL1P3DX.v was successful.
+# Compile of FL1P3DX_FUNC.v was successful.
+# Compile of FL1P3IY.v was successful.
+# Compile of FL1P3IY_FUNC.v was successful.
+# Compile of FL1P3JY.v was successful.
+# Compile of FL1P3JY_FUNC.v was successful.
+# Compile of FL1S3AX.v was successful.
+# Compile of FL1S3AY.v was successful.
+# Compile of GSR.v was successful.
+# Compile of IB.v was successful.
+# Compile of IBPD.v was successful.
+# Compile of IBPU.v was successful.
+# Compile of IDDR71B.v was successful.
+# Compile of IDDRX1F.v was successful.
+# Compile of IDDRX2DQA.v was successful.
+# Compile of IDDRX2F.v was successful.
+# Compile of IFS1P3BX.v was successful.
+# Compile of IFS1P3DX.v was successful.
+# Compile of IFS1P3IX.v was successful.
+# Compile of IFS1P3JX.v was successful.
+# Compile of IFS1S1B.v was successful.
+# Compile of IFS1S1D.v was successful.
+# Compile of IFS1S1I.v was successful.
+# Compile of IFS1S1J.v was successful.
+# Compile of ILVDS.v was successful.
+# Compile of IMIPI.v was successful.
+# Compile of INRDB.v was successful.
+# Compile of INV.v was successful.
+# Compile of L6MUX21.v was successful.
+# Compile of lut_mux2.v was successful.
+# Compile of lut_mux4.v was successful.
+# Compile of LUT4.v was successful.
+# Compile of LUT5.v was successful.
+# Compile of LUT6.v was successful.
+# Compile of LUT7.v was successful.
+# Compile of LUT8.v was successful.
+# Compile of LVDSOB.v was successful.
+# Compile of MULT9X9C.v was successful.
+# Compile of MULT9X9D.v was successful.
+# Compile of MULT18X18C.v was successful.
+# Compile of MULT18X18D.v was successful.
+# Compile of MUX21.v was successful.
+# Compile of MUX41.v was successful.
+# Compile of MUX81.v was successful.
+# Compile of MUX161.v was successful.
+# Compile of MUX321.v was successful.
+# Compile of ND2.v was successful.
+# Compile of ND3.v was successful.
+# Compile of ND4.v was successful.
+# Compile of ND5.v was successful.
+# Compile of NR2.v was successful.
+# Compile of NR3.v was successful.
+# Compile of NR4.v was successful.
+# Compile of NR5.v was successful.
+# Compile of OB.v was successful.
+# Compile of OBCO.v was successful.
+# Compile of OBZ.v was successful.
+# Compile of OBZPD.v was successful.
+# Compile of OBZPU.v was successful.
+# Compile of ODDR71B.v was successful.
+# Compile of ODDRX1F.v was successful.
+# Compile of ODDRX2DQA.v was successful.
+# Compile of ODDRX2DQSB.v was successful.
+# Compile of ODDRX2F.v was successful.
+# Compile of OFS1P3BX.v was successful.
+# Compile of OFS1P3DX.v was successful.
+# Compile of OFS1P3IX.v was successful.
+# Compile of OFS1P3JX.v was successful.
+# Compile of OLVDS.v was successful.
+# Compile of OR2.v was successful.
+# Compile of OR3.v was successful.
+# Compile of OR4.v was successful.
+# Compile of OR5.v was successful.
+# Compile of OSCG.v was successful.
+# Compile of OSHX2A.v was successful.
+# Compile of PCSCLKDIV.v was successful.
+# Compile of PDPW16KD.v was successful.
+# Compile of PFMUX.v was successful.
+# Compile of PFUMX.v was successful.
+# Compile of PLLREFCS.v was successful.
+# Compile of PRADD9A.v was successful.
+# Compile of PRADD18A.v was successful.
+# Compile of PUR.v was successful.
+# Compile of ROM16X1A.v was successful.
+# Compile of ROM32X1A.v was successful.
+# Compile of ROM64X1A.v was successful.
+# Compile of ROM128X1A.v was successful.
+# Compile of ROM256X1A.v was successful.
+# Compile of SCCU2C.v was successful.
+# Compile of SDPRAME.v was successful.
+# Compile of SEDGA.v was successful.
+# Compile of SGSR.v was successful.
+# Compile of SLOGICB.v was successful.
+# Compile of SPR16X4C.v was successful.
+# Compile of SRAMWB.v was successful.
+# Compile of START.v was successful.
+# Compile of TSHX2DQA.v was successful.
+# Compile of TSHX2DQSA.v was successful.
+# Compile of UDFDL1_UDP_X.v was successful.
+# Compile of UDFDL3_UDP_X.v was successful.
+# Compile of UDFDL4E_UDP_X.v was successful.
+# Compile of UDFDL4SC_UDP_X.v was successful.
+# Compile of UDFDL5_UDP_X.v was successful.
+# Compile of UDFDL5E_UDP_X.v was successful.
+# Compile of UDFDL5SC_UDP_X.v was successful.
+# Compile of UDFDL6E_UDP_X.v was successful.
+# Compile of UDFDL6SP_UDP_X.v was successful.
+# Compile of UDFDL7_UDP_X.v was successful.
+# Compile of UDFDL7E_UDP_X.v was successful.
+# Compile of UDFDL7SP_UDP_X.v was successful.
+# Compile of USRMCLK.v was successful.
+# Compile of VHI.v was successful.
+# Compile of VLO.v was successful.
+# Compile of XNOR2.v was successful.
+# Compile of XNOR3.v was successful.
+# Compile of XNOR4.v was successful.
+# Compile of XNOR5.v was successful.
+# Compile of XOR2.v was successful.
+# Compile of XOR3.v was successful.
+# Compile of XOR4.v was successful.
+# Compile of XOR5.v was successful.
+# Compile of XOR11.v was successful.
+# Compile of XOR21.v was successful.
+# Compile of ALU24A.v was successful.
+# Compile of ALU24B.v was successful.
+# Compile of ALU54A.v was successful.
+# Compile of ALU54B.v was successful.
+# Compile of AND2.v was successful.
+# Compile of AND3.v was successful.
+# Compile of AND4.v was successful.
+# 174 compiles, 0 failed with no errors.
+vsim -novopt work.tb
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work.tb
+# Loading work.tb
+# Refreshing D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work.statistics_cycle
+# Loading work.statistics_cycle
+# Refreshing D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work.ram_w32_depth64
+# Loading work.ram_w32_depth64
+# Refreshing D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work.VHI
+# Loading work.VHI
+# Refreshing D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work.VLO
+# Loading work.VLO
+# Refreshing D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work.PDPW16KD
+# Loading work.PDPW16KD
+# Refreshing D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work.DP16KD
+# Loading work.DP16KD
+# Refreshing D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work.GSR
+# Loading work.GSR
+# Refreshing D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/work.PUR
+# Loading work.PUR
+add wa# End time: 15:38:31 on Apr 25,2025, Elapsed time: 0:53:25
+# Errors: 0, Warnings: 1
+cycle/i_rst_n \
+sim:/tb/statistics_cycle/i_opto_switch \
+sim:/tb/statistics_cycle/i_zero_sign \
+sim:/tb/statistics_cycle/i_motor_state \
+sim:/tb/statistics_cycle/i_ram_raddr \
+sim:/tb/statistics_cycle/i_ram_ren \
+sim:/tb/statistics_cycle/o_ram_rdata \
+sim:/tb/statistics_cycle/r_opto_opto_cnt \
+sim:/tb/statistics_cycle/r_opto_num \
+sim:/tb/statistics_cycle/w_opto_rise \
+sim:/tb/statistics_cycle/w_zero_rise \
+sim:/tb/statistics_cycle/r_opto_switch1 \
+sim:/tb/statistics_cycle/r_opto_switch2 \
+sim:/tb/statistics_cycle/r_zero_sign \
+sim:/tb/statistics_cycle/r_zero_sign1 \
+sim:/tb/statistics_cycle/r_ram_waddr \
+sim:/tb/statistics_cycle/r_we \
+sim:/tb/statistics_cycle/r_ram_wdata
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Ìï¾üÊ¤  Hostname: FUIRUI_TJS  ProcessID: 27616
+# 
+#           Attempt# End time: 15:38:36 on Apr 25,2025, Elapsed time: 0:42:22
+# Errors: 0, Warnings: 4
+ open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftd8hcbh
+# 
+run -all
+# Break key hit
+# Break in Module DP16KD at D:/Project/sim_lib_verilog/ecp5u/DP16KD.v line 1272
+# End time: 15:38:22 on Apr 25,2025, Elapsed time: 0:27:51
+# Errors: 0, Warnings: 3

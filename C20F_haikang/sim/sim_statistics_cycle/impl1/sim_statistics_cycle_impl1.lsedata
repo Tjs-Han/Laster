@@ -1,0 +1,345 @@
+<top name = "ram_w32_depth64"  library = "work"  arch = ""  entry = "Verilog">
+
+<clocks>
+    <clockitem name = "RdClock"  type = "port" />
+    <clockitem name = "WrClock"  type = "port" />
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 2
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "ram_w32_depth64">
+
+    <!--
+        Top Level Pins: 82
+    -->
+
+    <pins>
+        <pitem  name = "WrAddress[5]"  direction = "in"  />
+        <pitem  name = "WrAddress[4]"  direction = "in"  />
+        <pitem  name = "WrAddress[3]"  direction = "in"  />
+        <pitem  name = "WrAddress[2]"  direction = "in"  />
+        <pitem  name = "WrAddress[1]"  direction = "in"  />
+        <pitem  name = "WrAddress[0]"  direction = "in"  />
+        <pitem  name = "RdAddress[5]"  direction = "in"  />
+        <pitem  name = "RdAddress[4]"  direction = "in"  />
+        <pitem  name = "RdAddress[3]"  direction = "in"  />
+        <pitem  name = "RdAddress[2]"  direction = "in"  />
+        <pitem  name = "RdAddress[1]"  direction = "in"  />
+        <pitem  name = "RdAddress[0]"  direction = "in"  />
+        <pitem  name = "Data[31]"  direction = "in"  />
+        <pitem  name = "Data[30]"  direction = "in"  />
+        <pitem  name = "Data[29]"  direction = "in"  />
+        <pitem  name = "Data[28]"  direction = "in"  />
+        <pitem  name = "Data[27]"  direction = "in"  />
+        <pitem  name = "Data[26]"  direction = "in"  />
+        <pitem  name = "Data[25]"  direction = "in"  />
+        <pitem  name = "Data[24]"  direction = "in"  />
+        <pitem  name = "Data[23]"  direction = "in"  />
+        <pitem  name = "Data[22]"  direction = "in"  />
+        <pitem  name = "Data[21]"  direction = "in"  />
+        <pitem  name = "Data[20]"  direction = "in"  />
+        <pitem  name = "Data[19]"  direction = "in"  />
+        <pitem  name = "Data[18]"  direction = "in"  />
+        <pitem  name = "Data[17]"  direction = "in"  />
+        <pitem  name = "Data[16]"  direction = "in"  />
+        <pitem  name = "Data[15]"  direction = "in"  />
+        <pitem  name = "Data[14]"  direction = "in"  />
+        <pitem  name = "Data[13]"  direction = "in"  />
+        <pitem  name = "Data[12]"  direction = "in"  />
+        <pitem  name = "Data[11]"  direction = "in"  />
+        <pitem  name = "Data[10]"  direction = "in"  />
+        <pitem  name = "Data[9]"  direction = "in"  />
+        <pitem  name = "Data[8]"  direction = "in"  />
+        <pitem  name = "Data[7]"  direction = "in"  />
+        <pitem  name = "Data[6]"  direction = "in"  />
+        <pitem  name = "Data[5]"  direction = "in"  />
+        <pitem  name = "Data[4]"  direction = "in"  />
+        <pitem  name = "Data[3]"  direction = "in"  />
+        <pitem  name = "Data[2]"  direction = "in"  />
+        <pitem  name = "Data[1]"  direction = "in"  />
+        <pitem  name = "Data[0]"  direction = "in"  />
+        <pitem  name = "WE"  direction = "in"  />
+        <pitem  name = "RdClock"  direction = "in"  />
+        <pitem  name = "RdClockEn"  direction = "in"  />
+        <pitem  name = "Reset"  direction = "in"  />
+        <pitem  name = "WrClock"  direction = "in"  />
+        <pitem  name = "WrClockEn"  direction = "in"  />
+        <pitem  name = "Q[31]"  direction = "out"  />
+        <pitem  name = "Q[30]"  direction = "out"  />
+        <pitem  name = "Q[29]"  direction = "out"  />
+        <pitem  name = "Q[28]"  direction = "out"  />
+        <pitem  name = "Q[27]"  direction = "out"  />
+        <pitem  name = "Q[26]"  direction = "out"  />
+        <pitem  name = "Q[25]"  direction = "out"  />
+        <pitem  name = "Q[24]"  direction = "out"  />
+        <pitem  name = "Q[23]"  direction = "out"  />
+        <pitem  name = "Q[22]"  direction = "out"  />
+        <pitem  name = "Q[21]"  direction = "out"  />
+        <pitem  name = "Q[20]"  direction = "out"  />
+        <pitem  name = "Q[19]"  direction = "out"  />
+        <pitem  name = "Q[18]"  direction = "out"  />
+        <pitem  name = "Q[17]"  direction = "out"  />
+        <pitem  name = "Q[16]"  direction = "out"  />
+        <pitem  name = "Q[15]"  direction = "out"  />
+        <pitem  name = "Q[14]"  direction = "out"  />
+        <pitem  name = "Q[13]"  direction = "out"  />
+        <pitem  name = "Q[12]"  direction = "out"  />
+        <pitem  name = "Q[11]"  direction = "out"  />
+        <pitem  name = "Q[10]"  direction = "out"  />
+        <pitem  name = "Q[9]"  direction = "out"  />
+        <pitem  name = "Q[8]"  direction = "out"  />
+        <pitem  name = "Q[7]"  direction = "out"  />
+        <pitem  name = "Q[6]"  direction = "out"  />
+        <pitem  name = "Q[5]"  direction = "out"  />
+        <pitem  name = "Q[4]"  direction = "out"  />
+        <pitem  name = "Q[3]"  direction = "out"  />
+        <pitem  name = "Q[2]"  direction = "out"  />
+        <pitem  name = "Q[1]"  direction = "out"  />
+        <pitem  name = "Q[0]"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 3
+    -->
+
+    <instance  name = "scuba_vhi_inst"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "scuba_vhi"  />
+        </nets>
+    </instance>
+
+    <instance  name = "scuba_vlo_inst"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "scuba_vlo"  />
+        </nets>
+    </instance>
+
+    <instance  name = "ram_w32_depth64_0_0_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "DI35"  direction = "in"  />
+        <pitem  name = "DI34"  direction = "in"  />
+        <pitem  name = "DI33"  direction = "in"  />
+        <pitem  name = "DI32"  direction = "in"  />
+        <pitem  name = "DI31"  direction = "in"  />
+        <pitem  name = "DI30"  direction = "in"  />
+        <pitem  name = "DI29"  direction = "in"  />
+        <pitem  name = "DI28"  direction = "in"  />
+        <pitem  name = "DI27"  direction = "in"  />
+        <pitem  name = "DI26"  direction = "in"  />
+        <pitem  name = "DI25"  direction = "in"  />
+        <pitem  name = "DI24"  direction = "in"  />
+        <pitem  name = "DI23"  direction = "in"  />
+        <pitem  name = "DI22"  direction = "in"  />
+        <pitem  name = "DI21"  direction = "in"  />
+        <pitem  name = "DI20"  direction = "in"  />
+        <pitem  name = "DI19"  direction = "in"  />
+        <pitem  name = "DI18"  direction = "in"  />
+        <pitem  name = "DI17"  direction = "in"  />
+        <pitem  name = "DI16"  direction = "in"  />
+        <pitem  name = "DI15"  direction = "in"  />
+        <pitem  name = "DI14"  direction = "in"  />
+        <pitem  name = "DI13"  direction = "in"  />
+        <pitem  name = "DI12"  direction = "in"  />
+        <pitem  name = "DI11"  direction = "in"  />
+        <pitem  name = "DI10"  direction = "in"  />
+        <pitem  name = "DI9"  direction = "in"  />
+        <pitem  name = "DI8"  direction = "in"  />
+        <pitem  name = "DI7"  direction = "in"  />
+        <pitem  name = "DI6"  direction = "in"  />
+        <pitem  name = "DI5"  direction = "in"  />
+        <pitem  name = "DI4"  direction = "in"  />
+        <pitem  name = "DI3"  direction = "in"  />
+        <pitem  name = "DI2"  direction = "in"  />
+        <pitem  name = "DI1"  direction = "in"  />
+        <pitem  name = "DI0"  direction = "in"  />
+        <pitem  name = "ADW8"  direction = "in"  />
+        <pitem  name = "ADW7"  direction = "in"  />
+        <pitem  name = "ADW6"  direction = "in"  />
+        <pitem  name = "ADW5"  direction = "in"  />
+        <pitem  name = "ADW4"  direction = "in"  />
+        <pitem  name = "ADW3"  direction = "in"  />
+        <pitem  name = "ADW2"  direction = "in"  />
+        <pitem  name = "ADW1"  direction = "in"  />
+        <pitem  name = "ADW0"  direction = "in"  />
+        <pitem  name = "BE3"  direction = "in"  />
+        <pitem  name = "BE2"  direction = "in"  />
+        <pitem  name = "BE1"  direction = "in"  />
+        <pitem  name = "BE0"  direction = "in"  />
+        <pitem  name = "CEW"  direction = "in"  />
+        <pitem  name = "CLKW"  direction = "in"  />
+        <pitem  name = "CSW2"  direction = "in"  />
+        <pitem  name = "CSW1"  direction = "in"  />
+        <pitem  name = "CSW0"  direction = "in"  />
+        <pitem  name = "ADR13"  direction = "in"  />
+        <pitem  name = "ADR12"  direction = "in"  />
+        <pitem  name = "ADR11"  direction = "in"  />
+        <pitem  name = "ADR10"  direction = "in"  />
+        <pitem  name = "ADR9"  direction = "in"  />
+        <pitem  name = "ADR8"  direction = "in"  />
+        <pitem  name = "ADR7"  direction = "in"  />
+        <pitem  name = "ADR6"  direction = "in"  />
+        <pitem  name = "ADR5"  direction = "in"  />
+        <pitem  name = "ADR4"  direction = "in"  />
+        <pitem  name = "ADR3"  direction = "in"  />
+        <pitem  name = "ADR2"  direction = "in"  />
+        <pitem  name = "ADR1"  direction = "in"  />
+        <pitem  name = "ADR0"  direction = "in"  />
+        <pitem  name = "CER"  direction = "in"  />
+        <pitem  name = "OCER"  direction = "in"  />
+        <pitem  name = "CLKR"  direction = "in"  />
+        <pitem  name = "CSR2"  direction = "in"  />
+        <pitem  name = "CSR1"  direction = "in"  />
+        <pitem  name = "CSR0"  direction = "in"  />
+        <pitem  name = "RST"  direction = "in"  />
+        <pitem  name = "DO35"  direction = "out"  />
+        <pitem  name = "DO34"  direction = "out"  />
+        <pitem  name = "DO33"  direction = "out"  />
+        <pitem  name = "DO32"  direction = "out"  />
+        <pitem  name = "DO31"  direction = "out"  />
+        <pitem  name = "DO30"  direction = "out"  />
+        <pitem  name = "DO29"  direction = "out"  />
+        <pitem  name = "DO28"  direction = "out"  />
+        <pitem  name = "DO27"  direction = "out"  />
+        <pitem  name = "DO26"  direction = "out"  />
+        <pitem  name = "DO25"  direction = "out"  />
+        <pitem  name = "DO24"  direction = "out"  />
+        <pitem  name = "DO23"  direction = "out"  />
+        <pitem  name = "DO22"  direction = "out"  />
+        <pitem  name = "DO21"  direction = "out"  />
+        <pitem  name = "DO20"  direction = "out"  />
+        <pitem  name = "DO19"  direction = "out"  />
+        <pitem  name = "DO18"  direction = "out"  />
+        <pitem  name = "DO13"  direction = "out"  />
+        <pitem  name = "DO12"  direction = "out"  />
+        <pitem  name = "DO11"  direction = "out"  />
+        <pitem  name = "DO10"  direction = "out"  />
+        <pitem  name = "DO9"  direction = "out"  />
+        <pitem  name = "DO8"  direction = "out"  />
+        <pitem  name = "DO7"  direction = "out"  />
+        <pitem  name = "DO6"  direction = "out"  />
+        <pitem  name = "DO5"  direction = "out"  />
+        <pitem  name = "DO4"  direction = "out"  />
+        <pitem  name = "DO3"  direction = "out"  />
+        <pitem  name = "DO2"  direction = "out"  />
+        <pitem  name = "DO1"  direction = "out"  />
+        <pitem  name = "DO0"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "scuba_vlo"  />
+        <nitem  name = "Data[31]"  />
+        <nitem  name = "Data[30]"  />
+        <nitem  name = "Data[29]"  />
+        <nitem  name = "Data[28]"  />
+        <nitem  name = "Data[27]"  />
+        <nitem  name = "Data[26]"  />
+        <nitem  name = "Data[25]"  />
+        <nitem  name = "Data[24]"  />
+        <nitem  name = "Data[23]"  />
+        <nitem  name = "Data[22]"  />
+        <nitem  name = "Data[21]"  />
+        <nitem  name = "Data[20]"  />
+        <nitem  name = "Data[19]"  />
+        <nitem  name = "Data[18]"  />
+        <nitem  name = "Data[17]"  />
+        <nitem  name = "Data[16]"  />
+        <nitem  name = "Data[15]"  />
+        <nitem  name = "Data[14]"  />
+        <nitem  name = "Data[13]"  />
+        <nitem  name = "Data[12]"  />
+        <nitem  name = "Data[11]"  />
+        <nitem  name = "Data[10]"  />
+        <nitem  name = "Data[9]"  />
+        <nitem  name = "Data[8]"  />
+        <nitem  name = "Data[7]"  />
+        <nitem  name = "Data[6]"  />
+        <nitem  name = "Data[5]"  />
+        <nitem  name = "Data[4]"  />
+        <nitem  name = "Data[3]"  />
+        <nitem  name = "Data[2]"  />
+        <nitem  name = "Data[1]"  />
+        <nitem  name = "Data[0]"  />
+        <nitem  name = "WrAddress[5]"  />
+        <nitem  name = "WrAddress[4]"  />
+        <nitem  name = "WrAddress[3]"  />
+        <nitem  name = "WrAddress[2]"  />
+        <nitem  name = "WrAddress[1]"  />
+        <nitem  name = "WrAddress[0]"  />
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "WrClockEn"  />
+        <nitem  name = "WrClock"  />
+        <nitem  name = "WE"  />
+        <nitem  name = "RdAddress[5]"  />
+        <nitem  name = "RdAddress[4]"  />
+        <nitem  name = "RdAddress[3]"  />
+        <nitem  name = "RdAddress[2]"  />
+        <nitem  name = "RdAddress[1]"  />
+        <nitem  name = "RdAddress[0]"  />
+        <nitem  name = "RdClockEn"  />
+        <nitem  name = "RdClock"  />
+        <nitem  name = "Reset"  />
+        <nitem  name = "Q[17]"  />
+        <nitem  name = "Q[16]"  />
+        <nitem  name = "Q[15]"  />
+        <nitem  name = "Q[14]"  />
+        <nitem  name = "Q[13]"  />
+        <nitem  name = "Q[12]"  />
+        <nitem  name = "Q[11]"  />
+        <nitem  name = "Q[10]"  />
+        <nitem  name = "Q[9]"  />
+        <nitem  name = "Q[8]"  />
+        <nitem  name = "Q[7]"  />
+        <nitem  name = "Q[6]"  />
+        <nitem  name = "Q[5]"  />
+        <nitem  name = "Q[4]"  />
+        <nitem  name = "Q[3]"  />
+        <nitem  name = "Q[2]"  />
+        <nitem  name = "Q[1]"  />
+        <nitem  name = "Q[0]"  />
+        <nitem  name = "Q[31]"  />
+        <nitem  name = "Q[30]"  />
+        <nitem  name = "Q[29]"  />
+        <nitem  name = "Q[28]"  />
+        <nitem  name = "Q[27]"  />
+        <nitem  name = "Q[26]"  />
+        <nitem  name = "Q[25]"  />
+        <nitem  name = "Q[24]"  />
+        <nitem  name = "Q[23]"  />
+        <nitem  name = "Q[22]"  />
+        <nitem  name = "Q[21]"  />
+        <nitem  name = "Q[20]"  />
+        <nitem  name = "Q[19]"  />
+        <nitem  name = "Q[18]"  />
+        </nets>
+    </instance>
+
+    <!--
+        Views in design "ram_w32_depth64": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>

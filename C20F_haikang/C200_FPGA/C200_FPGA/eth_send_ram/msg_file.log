@@ -1,0 +1,32 @@
+SCUBA, Version Diamond (64-bit) 3.12.0.240.2
+Tue Jun 15 14:32:00 2021
+  
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+  
+BEGIN SCUBA Module Synthesis
+  
+    Issued command   : E:\tools\Iscc\diamond\3.12\ispfpga\bin\nt64\scuba.exe -w -n eth_send_ram -lang verilog -synth lse -bus_exp 7 -bb -arch sa5p00 -type ramdps -device LFE5U-25F -raddr_width 11 -rwidth 8 -waddr_width 11 -wwidth 8 -rnum_words 2048 -wnum_words 2048 -cascade -1 -mem_init0 
+    Circuit name     : eth_send_ram
+    Module type      : RAM_DP
+    Module Version   : 6.5
+    Ports            : 
+    Inputs       : WrAddress[10:0], RdAddress[10:0], Data[7:0], WE, RdClock, RdClockEn, Reset, WrClock, WrClockEn
+    Outputs      : Q[7:0]
+    I/O buffer       : not inserted
+    Memory file      : INIT_ALL_0s
+    EDIF output      : eth_send_ram.edn
+    Verilog output   : eth_send_ram.v
+    Verilog template : eth_send_ram_tmpl.v
+    Verilog testbench: tb_eth_send_ram_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : eth_send_ram.srp
+    Estimated Resource Usage:
+            EBR : 1
+  
+END   SCUBA Module Synthesis
+

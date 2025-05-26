@@ -1,0 +1,1431 @@
+# Wed Jun  2 15:11:15 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: E:\tools\Iscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-5IM9OFQR
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version map202003lat, Build 172R, Built Nov  2 2020 09:31:45, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 186MB)
+
+@N: MO111 :|Tristate driver w_time_stamp_t[0] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[0] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[1] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[1] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[2] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[2] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[3] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[3] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[4] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[4] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[5] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[5] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[6] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[6] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[7] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[7] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[8] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[8] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[9] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[9] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@W: FA239 :"d:\programs\fpga\c200_fpga\adc_to_temp_2.v":161:46:161:69|ROM un35_r_divisor[11:0] (in view: work.adc_to_temp_2(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"d:\programs\fpga\c200_fpga\adc_to_temp_2.v":161:46:161:69|ROM un35_r_divisor[11:0] (in view: work.adc_to_temp_2(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"d:\programs\fpga\c200_fpga\adc_to_temp_2.v":161:46:161:69|Found ROM un35_r_divisor[11:0] (in view: work.adc_to_temp_2(verilog)) with 22 words by 12 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 196MB peak: 196MB)
+
+@N: MO231 :"d:\programs\fpga\c200_fpga\opto_switch_filter.v":28:1:28:6|Found counter in view:work.opto_switch_filter(verilog) instance r_opto_cnt[15:0] 
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[8] because it is equivalent to instance U2.U2.r_cnt_state_high[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[7] because it is equivalent to instance U2.U2.r_cnt_state_high[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[4] because it is equivalent to instance U2.U2.r_cnt_state_high[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[19] because it is equivalent to instance U2.U2.r_cnt_high[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[16] because it is equivalent to instance U2.U2.r_cnt_high[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[13] because it is equivalent to instance U2.U2.r_cnt_high[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[3] because it is equivalent to instance U2.U2.r_cnt_high[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_higher[20] because it is equivalent to instance U2.U2.r_cnt_higher[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_higher[14] because it is equivalent to instance U2.U2.r_cnt_higher[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_higher[13] because it is equivalent to instance U2.U2.r_cnt_higher[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_higher[9] because it is equivalent to instance U2.U2.r_cnt_higher[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_higher[6] because it is equivalent to instance U2.U2.r_cnt_higher[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_low[19] because it is equivalent to instance U2.U2.r_cnt_low[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_low[16] because it is equivalent to instance U2.U2.r_cnt_low[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_low[9] because it is equivalent to instance U2.U2.r_cnt_low[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_low[6] because it is equivalent to instance U2.U2.r_cnt_low[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_lower[19] because it is equivalent to instance U2.U2.r_cnt_lower[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_lower[16] because it is equivalent to instance U2.U2.r_cnt_lower[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_lower[8] because it is equivalent to instance U2.U2.r_cnt_lower[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_lower[4] because it is equivalent to instance U2.U2.r_cnt_lower[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_max[20] because it is equivalent to instance U2.U2.r_cnt_max[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_max[17] because it is equivalent to instance U2.U2.r_cnt_max[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_max[7] because it is equivalent to instance U2.U2.r_cnt_max[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_low[18] because it is equivalent to instance U2.U2.r_cnt_state_low[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_low[15] because it is equivalent to instance U2.U2.r_cnt_state_low[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_low[9] because it is equivalent to instance U2.U2.r_cnt_state_low[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_low[8] because it is equivalent to instance U2.U2.r_cnt_state_low[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_low[5] because it is equivalent to instance U2.U2.r_cnt_state_low[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[19] because it is equivalent to instance U2.U2.r_cnt_state_high[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[17] because it is equivalent to instance U2.U2.r_cnt_state_high[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[15] because it is equivalent to instance U2.U2.r_cnt_state_high[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[13] because it is equivalent to instance U2.U2.r_cnt_state_high[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[9] because it is equivalent to instance U2.U2.r_cnt_state_high[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[6] because it is equivalent to instance U2.U2.r_cnt_state_high[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[5] because it is equivalent to instance U2.U2.r_cnt_state_high[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[20] because it is equivalent to instance U2.U2.r_cnt_high[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[15] because it is equivalent to instance U2.U2.r_cnt_high[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[9] because it is equivalent to instance U2.U2.r_cnt_high[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[5] because it is equivalent to instance U2.U2.r_cnt_high[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[4] because it is equivalent to instance U2.U2.r_cnt_high[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_higher[19] because it is equivalent to instance U2.U2.r_cnt_higher[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_higher[17] because it is equivalent to instance U2.U2.r_cnt_higher[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_higher[16] because it is equivalent to instance U2.U2.r_cnt_higher[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_higher[8] because it is equivalent to instance U2.U2.r_cnt_higher[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_low[20] because it is equivalent to instance U2.U2.r_cnt_low[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_low[13] because it is equivalent to instance U2.U2.r_cnt_low[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_low[11] because it is equivalent to instance U2.U2.r_cnt_low[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_low[5] because it is equivalent to instance U2.U2.r_cnt_low[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_low[3] because it is equivalent to instance U2.U2.r_cnt_low[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_low[1] because it is equivalent to instance U2.U2.r_cnt_low[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_lower[20] because it is equivalent to instance U2.U2.r_cnt_lower[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_lower[13] because it is equivalent to instance U2.U2.r_cnt_lower[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_lower[6] because it is equivalent to instance U2.U2.r_cnt_lower[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_max[19] because it is equivalent to instance U2.U2.r_cnt_max[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_max[18] because it is equivalent to instance U2.U2.r_cnt_max[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_low[20] because it is equivalent to instance U2.U2.r_cnt_state_low[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_low[17] because it is equivalent to instance U2.U2.r_cnt_state_low[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_low[6] because it is equivalent to instance U2.U2.r_cnt_state_low[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":162:1:162:6|Removing sequential instance U2.U2.r_pwm_cnt[15] because it is equivalent to instance U2.U2.r_pwm_cnt[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":162:1:162:6|Removing sequential instance U2.U2.r_pwm_cnt[14] because it is equivalent to instance U2.U2.r_pwm_cnt[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":162:1:162:6|Removing sequential instance U2.U2.r_pwm_cnt[13] because it is equivalent to instance U2.U2.r_pwm_cnt[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":162:1:162:6|Removing sequential instance U2.U2.r_pwm_cnt[12] because it is equivalent to instance U2.U2.r_pwm_cnt[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[18] because it is equivalent to instance U2.U2.r_cnt_high[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[17] because it is equivalent to instance U2.U2.r_cnt_high[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[7] because it is equivalent to instance U2.U2.r_cnt_high[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_higher[7] because it is equivalent to instance U2.U2.r_cnt_higher[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_low[18] because it is equivalent to instance U2.U2.r_cnt_low[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_lower[18] because it is equivalent to instance U2.U2.r_cnt_lower[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_lower[17] because it is equivalent to instance U2.U2.r_cnt_lower[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_lower[9] because it is equivalent to instance U2.U2.r_cnt_lower[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_lower[5] because it is equivalent to instance U2.U2.r_cnt_lower[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_max[14] because it is equivalent to instance U2.U2.r_cnt_max[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_max[9] because it is equivalent to instance U2.U2.r_cnt_max[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_max[8] because it is equivalent to instance U2.U2.r_cnt_max[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_low[19] because it is equivalent to instance U2.U2.r_cnt_state_low[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_low[16] because it is equivalent to instance U2.U2.r_cnt_state_low[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_low[12] because it is equivalent to instance U2.U2.r_cnt_state_low[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_low[7] because it is equivalent to instance U2.U2.r_cnt_state_low[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[29] because it is equivalent to instance U2.U2.r_cnt_state_high[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[28] because it is equivalent to instance U2.U2.r_cnt_state_high[27]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[27] because it is equivalent to instance U2.U2.r_cnt_state_high[26]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[26] because it is equivalent to instance U2.U2.r_cnt_state_high[25]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[25] because it is equivalent to instance U2.U2.r_cnt_state_high[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[24] because it is equivalent to instance U2.U2.r_cnt_state_high[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[23] because it is equivalent to instance U2.U2.r_cnt_state_high[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[22] because it is equivalent to instance U2.U2.r_cnt_state_high[21]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[21] because it is equivalent to instance U2.U2.r_cnt_state_high[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[18] because it is equivalent to instance U2.U2.r_cnt_state_high[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[16] because it is equivalent to instance U2.U2.r_cnt_state_high[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[14] because it is equivalent to instance U2.U2.r_cnt_state_high[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[3] because it is equivalent to instance U2.U2.r_cnt_state_high[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[2] because it is equivalent to instance U2.U2.r_cnt_state_high[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[1] because it is equivalent to instance U2.U2.r_cnt_state_high[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_state_high[11] because it is equivalent to instance U2.U2.r_cnt_state_high[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[29] because it is equivalent to instance U2.U2.r_cnt_high[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[28] because it is equivalent to instance U2.U2.r_cnt_high[27]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[27] because it is equivalent to instance U2.U2.r_cnt_high[26]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[26] because it is equivalent to instance U2.U2.r_cnt_high[25]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[25] because it is equivalent to instance U2.U2.r_cnt_high[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing instance U2.U2.r_cnt_high[24] because it is equivalent to instance U2.U2.r_cnt_high[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Only the first 100 messages of id 'BN132' are reported. To see all messages use 'report_messages -log D:\programs\fpga\C200_FPGA\impl1\synlog\impl1_fpga_mapper.srr -id BN132' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN132} -count unlimited' in the Tcl shell.
+@W: MO129 :"d:\programs\fpga\c200_fpga\motor_control.v":162:1:162:6|Sequential instance U2.U2.r_pwm_cnt[11] is reduced to a combinational gate by constant propagation.
+@N: MO231 :"d:\programs\fpga\c200_fpga\motor_control.v":206:1:206:6|Found counter in view:work.motor_control(verilog) instance r_motor_err_cnt[7:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\motor_control.v":124:1:124:6|Found counter in view:work.motor_control(verilog) instance r_delay_40s[29:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\motor_control.v":188:1:188:6|Found counter in view:work.motor_control(verilog) instance r_state_cnt[3:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\motor_control.v":108:1:108:6|Found counter in view:work.motor_control(verilog) instance r_opto_cnt1[29:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\motor_control.v":96:1:96:6|Found counter in view:work.motor_control(verilog) instance r_opto_cnt0[7:0] 
+@N: FX493 |Applying initial value "0" on instance r_state_cnt[0].
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "0" on instance r_state_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_state_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_state_cnt[3].
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_state_high[20] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_state_high[0] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_high[11] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_high[0] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_higher[12] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_higher[0] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_low[14] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_low[0] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_lower[11] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_lower[0] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_max[10] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_max[0] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_state_low[13] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_state_low[0] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":169:1:169:6|Found counter in view:work.encoder_generate_3(verilog) instance r_inrv_cnt[15:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":107:1:107:6|Found counter in view:work.encoder_generate_3(verilog) instance r_cyc_cnt[23:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":169:1:169:6|Found counter in view:work.encoder_generate_3(verilog) instance r_pss_cnt[5:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":83:1:83:6|Found counter in view:work.encoder_generate_3(verilog) instance r_low_time_current_cnt[23:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":169:1:169:6|Found counter in view:work.encoder_generate_3(verilog) instance r_angle_cnt[7:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\self_inspection.v":88:1:88:6|Found counter in view:work.self_inspection(verilog) instance r_sample_cnt[7:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\tla2024_top.v":47:1:47:6|Found counter in view:work.tla2024_top(verilog) instance r_adc_time[4:0] 
+@N: FX493 |Applying initial value "0" on instance r_adc_channel[0].
+@N: FX493 |Applying initial value "0" on instance r_adc_channel[1].
+@N: MO231 :"d:\programs\fpga\c200_fpga\i2c_master.v":101:1:101:6|Found counter in view:work.i2c_master(verilog) instance r_bit_cnt[5:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\i2c_master.v":88:1:88:6|Found counter in view:work.i2c_master(verilog) instance r_clk_cnt[9:0] 
+@N: BN362 :"d:\programs\fpga\c200_fpga\i2c_master.v":150:1:150:6|Removing sequential instance o_data_out[3] (in view: work.i2c_master(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\i2c_master.v":150:1:150:6|Removing sequential instance o_data_out[2] (in view: work.i2c_master(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\i2c_master.v":150:1:150:6|Removing sequential instance o_data_out[1] (in view: work.i2c_master(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\i2c_master.v":150:1:150:6|Removing sequential instance o_data_out[0] (in view: work.i2c_master(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\programs\fpga\c200_fpga\adc_to_dac_2.v":138:1:138:6|Found counter in view:work.adc_to_dac_2(verilog) instance r_dac_cnt[15:0] 
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[0].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[1].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[2].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[3].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[4].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[5].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[6].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[7].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[8].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[9].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[10].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[11].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[12].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[13].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[14].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[15].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[0].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[1].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[2].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[3].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[4].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[5].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[6].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[7].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[8].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[9].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[10].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[11].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[12].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[13].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[14].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[15].
+@N: MO231 :"d:\programs\fpga\c200_fpga\adc_to_temp_2.v":70:1:70:6|Found counter in view:work.adc_to_temp_2(verilog) instance r_temp_num[4:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\adc_to_temp_2.v":70:1:70:6|Found counter in view:work.adc_to_temp_2(verilog) instance r_dealy_cnt[3:0] 
+@N: FX493 |Applying initial value "0" on instance r_dealy_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_dealy_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_dealy_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_dealy_cnt[3].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[0].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[1].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[2].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[3].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[4].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[5].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[6].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[7].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[8].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[9].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[10].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[11].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[12].
+@N: FX493 |Applying initial value "0" on instance r_divisor[0].
+@N: FX493 |Applying initial value "0" on instance r_divisor[1].
+@N: FX493 |Applying initial value "0" on instance r_divisor[2].
+@N: FX493 |Applying initial value "0" on instance r_divisor[3].
+@N: FX493 |Applying initial value "0" on instance r_divisor[4].
+@N: FX493 |Applying initial value "0" on instance r_divisor[5].
+@N: FX493 |Applying initial value "0" on instance r_divisor[6].
+@N: FX493 |Applying initial value "0" on instance r_divisor[7].
+@N: FX493 |Applying initial value "0" on instance r_divisor[8].
+@N: FX493 |Applying initial value "0" on instance r_divisor[9].
+@N: FX493 |Applying initial value "0" on instance r_divisor[10].
+@N: FX493 |Applying initial value "0" on instance r_divisor[11].
+@N: FX493 |Applying initial value "0" on instance r_divisor[12].
+@N: MO231 :"d:\programs\fpga\c200_fpga\division.v":26:1:26:6|Found counter in view:work.division(verilog) instance r_cal_cnt[15:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\mcp4726a0_top.v":50:1:50:6|Found counter in view:work.mcp4726a0_top(verilog) instance r_bit_cnt[7:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\mcp4726a0_top.v":61:1:61:6|Found counter in view:work.mcp4726a0_top(verilog) instance r_clk_cnt[9:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\laser_control.v":86:1:86:6|Found counter in view:work.laser_control(verilog) instance r_window_cnt[15:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\laser_control.v":70:1:70:6|Found counter in view:work.laser_control(verilog) instance r_emit_cnt[7:0] 
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_RDdata[0] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_RDdata[17] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_RDdata[18] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance SPI_OPcode[3] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[0] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[1] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[2] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[3] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[4] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[5] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[6] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[7] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[8] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[9] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[11] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[12] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[14] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[15] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[17] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[20] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[21] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[23] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[26] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[28] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@W: MO129 :"d:\programs\fpga\c200_fpga\data_packet.v":48:1:48:6|Sequential instance U5.U3.r_angle_end[5] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\programs\fpga\c200_fpga\data_packet.v":48:1:48:6|Sequential instance U5.U3.r_angle_end[11] is reduced to a combinational gate by constant propagation.
+@N: MO231 :"d:\programs\fpga\c200_fpga\data_packet.v":179:1:179:6|Found counter in view:work.data_packet(verilog) instance r_telegram_no[7:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\data_packet.v":172:1:172:6|Found counter in view:work.data_packet(verilog) instance r_scan_counter[15:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\data_packet.v":156:1:156:6|Found counter in view:work.data_packet(verilog) instance r_packet_num[8:0] 
+@N: FX493 |Applying initial value "0" on instance r_shift_num[0].
+@N: FX493 |Applying initial value "0" on instance r_shift_num[1].
+@N: FX493 |Applying initial value "0" on instance r_shift_num[2].
+@N: MF179 :"d:\programs\fpga\c200_fpga\data_packet.v":86:62:86:91|Found 16 by 16 bit equality operator ('==') un1_i_code_angle_1 (in view: work.data_packet(verilog))
+@N: MO231 :"d:\programs\fpga\c200_fpga\flash_control.v":246:1:246:6|Found counter in view:work.flash_control(verilog) instance r_delay_cnt[31:0] 
+@N: BN362 :"d:\programs\fpga\c200_fpga\flash_control.v":217:1:217:6|Removing sequential instance r_page_num[9] (in view: work.flash_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\flash_control.v":217:1:217:6|Removing sequential instance r_page_num[0] (in view: work.flash_control(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\programs\fpga\c200_fpga\spi flash\spi_flash_cmd.v":140:1:140:6|Found counter in view:work.spi_flash_cmd(verilog) instance r_byte_cnt[8:0] 
+@N: BN362 :"d:\programs\fpga\c200_fpga\spi flash\spi_flash_cmd.v":58:1:58:6|Removing sequential instance r_byte_size[2] (in view: work.spi_flash_cmd(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\programs\fpga\c200_fpga\spi flash\spi_master.v":57:1:57:6|Found counter in view:work.spi_master_0(verilog) instance r_bit_cnt[3:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\spi flash\spi_master.v":35:1:35:6|Found counter in view:work.spi_master_0(verilog) instance r_clk_cnt[15:0] 
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[3].
+@N: MO231 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":107:1:107:6|Found counter in view:work.spi_w5500_top(verilog) instance r_rst_cnt[17:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":118:1:118:6|Found counter in view:work.spi_w5500_top(verilog) instance r_byte_cnt[15:0] 
+@N: FX493 |Applying initial value "0" on instance r_data_in[0].
+@N: FX493 |Applying initial value "0" on instance r_data_in[1].
+@N: FX493 |Applying initial value "0" on instance r_data_in[2].
+@N: FX493 |Applying initial value "0" on instance r_data_in[3].
+@N: FX493 |Applying initial value "0" on instance r_data_in[4].
+@N: FX493 |Applying initial value "0" on instance r_data_in[5].
+@N: FX493 |Applying initial value "0" on instance r_data_in[6].
+@N: FX493 |Applying initial value "0" on instance r_data_in[7].
+@N: MF179 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":526:15:526:42|Found 16 by 16 bit equality operator ('==') un1_r_recv_num2 (in view: work.spi_w5500_top(verilog))
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[0] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[1] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[2] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[3] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[4] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[5] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[6] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[7] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[8] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[9] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_sock_num[1] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_cmd.v":208:1:208:6|Found counter in view:work.spi_w5500_cmd(verilog) instance r_byte_cnt[15:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\spi flash\spi_master.v":57:1:57:6|Found counter in view:work.spi_master_1(verilog) instance r_bit_cnt[3:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\spi flash\spi_master.v":35:1:35:6|Found counter in view:work.spi_master_1(verilog) instance r_clk_cnt[15:0] 
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[3].
+@N: MO231 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Found counter in view:work.datagram_parser(verilog) instance r_byte_cnt[15:0] 
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') un1_r_byte_size_28 (in view: work.datagram_parser(verilog))
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') un1_r_byte_cnt_23 (in view: work.datagram_parser(verilog))
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') un1_r_byte_size_29 (in view: work.datagram_parser(verilog))
+@N: MF179 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":731:15:731:47|Found 16 by 16 bit equality operator ('==') un1_r_byte_size_24 (in view: work.datagram_parser(verilog))
+@N: MF179 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":735:15:735:47|Found 16 by 16 bit equality operator ('==') un1_r_byte_size_25 (in view: work.datagram_parser(verilog))
+@N: MF179 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":787:8:787:38|Found 8 by 8 bit equality operator ('==') un1_i_data_in_3 (in view: work.datagram_parser(verilog))
+@N: MF179 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":791:8:791:37|Found 8 by 8 bit equality operator ('==') un1_i_data_in_4 (in view: work.datagram_parser(verilog))
+@N: MF179 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":1106:31:1106:56|Found 8 by 8 bit equality operator ('==') un1_i_data_in_5 (in view: work.datagram_parser(verilog))
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[16] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[17] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[18] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[19] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[20] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[21] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[22] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[23] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[24] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[25] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[26] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[27] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[28] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[29] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[30] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[31] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\programs\fpga\c200_fpga\parameter_init.v":272:1:272:6|Found counter in view:work.parameter_init(verilog) instance r_write_cnt[9:0] 
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[0].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[1].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[2].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[3].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[4].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[5].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[6].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[7].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[8].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[9].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[10].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[11].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[12].
+
+Only the first 100 messages of id 'FX493' are reported. To see all messages use 'report_messages -log D:\programs\fpga\C200_FPGA\impl1\synlog\impl1_fpga_mapper.srr -id FX493' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {FX493} -count unlimited' in the Tcl shell.
+@N: MF179 :"d:\programs\fpga\c200_fpga\parameter_init.v":529:43:529:73|Found 32 by 32 bit equality operator ('==') un1_i_get_para1_1 (in view: work.parameter_init(verilog))
+
+Starting factoring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 241MB peak: 241MB)
+
+@N: BN362 :"d:\programs\fpga\c200_fpga\adc_to_dac_2.v":67:1:67:6|Removing sequential instance r_dac_state[3] (in view: work.adc_to_dac_2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_cmd.v":56:1:56:6|Removing sequential instance u1.r_cmd[6] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":883:1:883:6|Removing sequential instance r_set_para8[0] (in view: work.parameter_init(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 279MB peak: 279MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 287MB peak: 331MB)
+
+@N: FA113 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":264:3:264:6|Pipelining module un1_i_angle_offset_3[12:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":757:1:757:6|Pushed in register r_angle_offset[15:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":1056:1:1056:6|Pushed in register r_config_mode[7:3].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":775:1:775:6|Pushed in register r_temp_point1[15:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":577:1:577:6|Pushed in register r_ip_addr[31:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\data_packet.v":48:1:48:6|Pushed in register r_angle_end[15:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":136:1:136:6|Pushed in register r_fs_cnt[7:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\dist_calculate.v":65:1:65:6|Pushed in register r_angle_begin[15:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\self_inspection.v":111:1:111:6|Pushed in register r_adc_temp_value[11:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\adc_to_dac_2.v":67:1:67:6|Pushed in register r_dac_state[12:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":732:1:732:6|Pushed in register r_pwm_value_0[15:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Pushed in register o_adc0[11:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":829:1:829:6|Pushed in register r_distance_max[15:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\motor_control.v":134:1:134:6|Pushed in register r_pwm_value[15:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":566:1:566:6|Pushed in register r_device_name[31:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":610:1:610:6|Pushed in register r_mac_addr[47:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":784:1:784:6|Pushed in register r_temp_point2[15:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":650:1:650:6|Pushed in register r_start_angle[31:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Pushed in register o_get_para0[31:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":588:1:588:6|Pushed in register r_gate_way[31:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Pushed in register o_get_para2[31:0].
+@N: BN362 :|Removing sequential instance U5.U2.r_pulse_remain_dummy[16] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance U5.U2.r_rise_remain_dummy[16] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[0] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[7] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[6] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[5] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[4] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[3] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[2] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[1] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[8] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:22s; Memory used current: 292MB peak: 331MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:30s; Memory used current: 315MB peak: 331MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:31s; Memory used current: 317MB peak: 331MB)
+
+@N: MO106 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_cmd.v":63:3:63:6|Found ROM U8.u1.u1.r_byte_size_cnst[9:0] (in view: work.C200_FPGA(verilog)) with 17 words by 10 bits.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":88:1:88:6|Removing sequential instance U8.u2.r_byte_size[12] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":260:1:260:6|Removing sequential instance U2.U3.r_angle_zero[12] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:36s; CPU Time elapsed 0h:00m:35s; Memory used current: 317MB peak: 331MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:39s; Memory used current: 361MB peak: 385MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:39s		    -3.11ns		6630 /      3489
+   2		0h:00m:40s		    -3.01ns		6591 /      3489
+   3		0h:00m:40s		    -3.23ns		6596 /      3489
+   4		0h:00m:40s		    -3.09ns		6597 /      3489
+   5		0h:00m:40s		    -2.83ns		6597 /      3489
+   6		0h:00m:40s		    -3.09ns		6599 /      3489
+   7		0h:00m:40s		    -3.01ns		6599 /      3489
+@N: FX271 :"d:\programs\fpga\c200_fpga\dist_calculate.v":102:2:102:3|Replicating instance U5.U2.un1_r_rise_remain_0_sqmuxa_3_0_0_a2 (in view: work.C200_FPGA(verilog)) with 36 loads 1 time to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[1] (in view: work.C200_FPGA(verilog)) with 95 loads 3 times to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[2] (in view: work.C200_FPGA(verilog)) with 78 loads 3 times to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[3] (in view: work.C200_FPGA(verilog)) with 54 loads 3 times to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[4] (in view: work.C200_FPGA(verilog)) with 31 loads 2 times to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[5] (in view: work.C200_FPGA(verilog)) with 16 loads 2 times to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[6] (in view: work.C200_FPGA(verilog)) with 16 loads 2 times to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[7] (in view: work.C200_FPGA(verilog)) with 10 loads 1 time to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[0] (in view: work.C200_FPGA(verilog)) with 107 loads 3 times to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[13] (in view: work.C200_FPGA(verilog)) with 16 loads 1 time to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":88:1:88:6|Replicating instance U8.u2.r_byte_size[0] (in view: work.C200_FPGA(verilog)) with 19 loads 1 time to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":88:1:88:6|Replicating instance U8.u2.r_byte_size[2] (in view: work.C200_FPGA(verilog)) with 19 loads 1 time to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":88:1:88:6|Replicating instance U8.u2.r_byte_size[3] (in view: work.C200_FPGA(verilog)) with 15 loads 1 time to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":88:1:88:6|Replicating instance U8.u2.r_byte_size[4] (in view: work.C200_FPGA(verilog)) with 15 loads 1 time to improve timing.
+Timing driven replication report
+Added 24 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+   8		0h:00m:44s		    -2.83ns		6619 /      3514
+
+
+   9		0h:00m:44s		    -2.83ns		6617 /      3514
+Net buffering Report for view:work.C200_FPGA(verilog):
+Added 0 Buffers
+Added 13 Registers via replication
+Added 8 LUTs via replication
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:46s; CPU Time elapsed 0h:00m:45s; Memory used current: 361MB peak: 385MB)
+
+@N: BN362 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":272:1:272:6|Removing sequential instance U2.U3.r_code_angle[12] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":272:1:272:6|Removing sequential instance U2.U3.r_code_angle[13] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":272:1:272:6|Removing sequential instance U2.U3.r_code_angle[14] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":272:1:272:6|Removing sequential instance U2.U3.r_code_angle[15] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance U8.u1.r_sock_num[0] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\data_packet.v":188:1:188:6|Removing sequential instance U5.U3.r_first_angle[15] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\data_packet.v":188:1:188:6|Removing sequential instance U5.U3.r_first_angle[14] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\data_packet.v":188:1:188:6|Removing sequential instance U5.U3.r_first_angle[13] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\data_packet.v":188:1:188:6|Removing sequential instance U5.U3.r_first_angle[12] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+Replicating U8.u3.r_set_cmd_code_1[4], loads=126, segments=14
+Replicating U8.u3.r_set_cmd_code_1[2], loads=116, segments=15
+Replicating U8.u3.r_sram_csen_eth, loads=532, segments=34
+replication done = 3
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:52s; CPU Time elapsed 0h:00m:51s; Memory used current: 363MB peak: 385MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:53s; CPU Time elapsed 0h:00m:52s; Memory used current: 291MB peak: 385MB)
+
+Writing Analyst data base D:\programs\fpga\C200_FPGA\impl1\synwork\impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:56s; CPU Time elapsed 0h:00m:54s; Memory used current: 354MB peak: 385MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: D:\programs\fpga\C200_FPGA\impl1\impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:57s; CPU Time elapsed 0h:00m:56s; Memory used current: 362MB peak: 385MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:58s; CPU Time elapsed 0h:00m:56s; Memory used current: 342MB peak: 385MB)
+
+@W: MT246 :"d:\programs\fpga\c200_fpga\c200_fpga\c200_pll\c200_pll.v":56:12:56:20|Blackbox EHXPLLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock C200_PLL|CLKOP_inferred_clock with period 7.63ns. Please declare a user-defined clock on net U1.w_pll_25m.
+@W: MT420 |Found inferred clock C200_PLL|CLKOS_inferred_clock with period 3.13ns. Please declare a user-defined clock on net U1.w_pll_200m.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Jun  2 15:12:14 2021
+#
+
+
+Top view:               C200_FPGA
+Requested Frequency:    131.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.998
+
+                                  Requested      Estimated      Requested     Estimated                Clock        Clock                
+Starting Clock                    Frequency      Frequency      Period        Period        Slack      Type         Group                
+-----------------------------------------------------------------------------------------------------------------------------------------
+C200_PLL|CLKOP_inferred_clock     131.0 MHz      86.0 MHz       7.631         11.628        -1.998     inferred     Autoconstr_clkgroup_0
+C200_PLL|CLKOS_inferred_clock     319.9 MHz      272.0 MHz      3.126         3.677         -0.551     inferred     Autoconstr_clkgroup_1
+System                            2761.7 MHz     2347.4 MHz     0.362         0.426         -0.064     system       system_clkgroup      
+=========================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                        |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise  
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                       Ending                         |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+System                         System                         |  0.362       -0.064  |  No paths    -      |  No paths    -      |  No paths    -     
+System                         C200_PLL|CLKOP_inferred_clock  |  7.631       6.581   |  No paths    -      |  7.631       4.948  |  No paths    -     
+C200_PLL|CLKOP_inferred_clock  System                         |  7.631       4.104   |  No paths    -      |  No paths    -      |  7.631       6.298 
+C200_PLL|CLKOP_inferred_clock  C200_PLL|CLKOP_inferred_clock  |  7.631       -1.347  |  7.631       4.084  |  3.816       1.131  |  3.816       -1.998
+C200_PLL|CLKOP_inferred_clock  C200_PLL|CLKOS_inferred_clock  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -     
+C200_PLL|CLKOS_inferred_clock  C200_PLL|CLKOS_inferred_clock  |  3.126       -0.551  |  No paths    -      |  No paths    -      |  No paths    -     
+======================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: C200_PLL|CLKOP_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                                                      Arrival           
+Instance                   Reference                         Type       Pin      Net                     Time        Slack 
+                           Clock                                                                                           
+---------------------------------------------------------------------------------------------------------------------------
+U8.u2.u3.pdp_ram_0_0_0     C200_PLL|CLKOP_inferred_clock     DP16KD     DOB2     w_packet_rddata2[2]     2.585       -1.998
+U8.u2.u2.pdp_ram_0_0_0     C200_PLL|CLKOP_inferred_clock     DP16KD     DOB2     w_packet_rddata1[2]     2.585       -1.998
+U8.u2.u2.pdp_ram_0_0_0     C200_PLL|CLKOP_inferred_clock     DP16KD     DOB3     w_packet_rddata1[3]     2.585       -1.998
+U8.u2.u3.pdp_ram_0_0_0     C200_PLL|CLKOP_inferred_clock     DP16KD     DOB3     w_packet_rddata2[3]     2.585       -1.998
+U8.u2.u2.pdp_ram_0_0_0     C200_PLL|CLKOP_inferred_clock     DP16KD     DOB4     w_packet_rddata1[4]     2.585       -1.998
+U8.u2.u3.pdp_ram_0_0_0     C200_PLL|CLKOP_inferred_clock     DP16KD     DOB4     w_packet_rddata2[4]     2.585       -1.998
+U8.u2.u2.pdp_ram_0_0_0     C200_PLL|CLKOP_inferred_clock     DP16KD     DOB5     w_packet_rddata1[5]     2.585       -1.998
+U8.u2.u3.pdp_ram_0_0_0     C200_PLL|CLKOP_inferred_clock     DP16KD     DOB5     w_packet_rddata2[5]     2.585       -1.998
+U8.u2.u3.pdp_ram_0_0_0     C200_PLL|CLKOP_inferred_clock     DP16KD     DOB7     w_packet_rddata2[7]     2.585       -1.998
+U8.u2.u2.pdp_ram_0_0_0     C200_PLL|CLKOP_inferred_clock     DP16KD     DOB7     w_packet_rddata1[7]     2.585       -1.998
+===========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                                       Required           
+Instance                 Reference                         Type        Pin     Net                      Time         Slack 
+                         Clock                                                                                             
+---------------------------------------------------------------------------------------------------------------------------
+U8.u2.o_data_out[2]      C200_PLL|CLKOP_inferred_clock     FD1P3DX     D       o_data_out_222[2]        3.762        -1.998
+U8.u2.o_data_out[3]      C200_PLL|CLKOP_inferred_clock     FD1P3DX     D       o_data_out_222[3]        3.762        -1.998
+U8.u2.o_data_out[4]      C200_PLL|CLKOP_inferred_clock     FD1P3DX     D       o_data_out_222[4]        3.762        -1.998
+U8.u2.o_data_out[5]      C200_PLL|CLKOP_inferred_clock     FD1P3DX     D       o_data_out_222[5]        3.762        -1.998
+U8.u2.o_data_out[7]      C200_PLL|CLKOP_inferred_clock     FD1P3DX     D       o_data_out_222[7]        3.762        -1.998
+U8.u2.r_check_sum[7]     C200_PLL|CLKOP_inferred_clock     FD1P3DX     D       r_check_sum_4[7]         3.762        -1.654
+U8.u2.r_cmd_valid        C200_PLL|CLKOP_inferred_clock     FD1P3BX     SP      un1_r_cmd_valid125_i     3.622        -1.617
+U8.u2.r_check_sum[5]     C200_PLL|CLKOP_inferred_clock     FD1P3DX     D       r_check_sum_4[5]         3.762        -1.593
+U8.u2.r_check_sum[6]     C200_PLL|CLKOP_inferred_clock     FD1P3DX     D       r_check_sum_4[6]         3.762        -1.593
+U8.u2.r_check_sum[3]     C200_PLL|CLKOP_inferred_clock     FD1P3DX     D       r_check_sum_4[3]         3.762        -1.532
+===========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      3.816
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.762
+
+    - Propagation time:                      5.760
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.998
+
+    Number of logic level(s):                6
+    Starting point:                          U8.u2.u3.pdp_ram_0_0_0 / DOB2
+    Ending point:                            U8.u2.o_data_out[2] / D
+    The start point is clocked by            C200_PLL|CLKOP_inferred_clock [falling] (rise=0.000 fall=3.816 period=7.631) on pin CLKB
+    The end   point is clocked by            C200_PLL|CLKOP_inferred_clock [rising] (rise=0.000 fall=3.816 period=7.631) on pin CK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+U8.u2.u3.pdp_ram_0_0_0            DP16KD       DOB2     Out     2.585     2.585 r     -         
+w_packet_rddata2[2]               Net          -        -       -         -           1         
+U8.u2.w_packet_rddata_1[2]        ORCALUT4     B        In      0.000     2.585 r     -         
+U8.u2.w_packet_rddata_1[2]        ORCALUT4     Z        Out     0.606     3.191 r     -         
+w_packet_rddata_1[2]              Net          -        -       -         -           1         
+U8.u2.o_data_out_222_9[2]         ORCALUT4     B        In      0.000     3.191 r     -         
+U8.u2.o_data_out_222_9[2]         ORCALUT4     Z        Out     0.606     3.797 r     -         
+N_328                             Net          -        -       -         -           1         
+U8.u2.o_data_out_222_27_bm[2]     ORCALUT4     B        In      0.000     3.797 r     -         
+U8.u2.o_data_out_222_27_bm[2]     ORCALUT4     Z        Out     0.606     4.403 r     -         
+o_data_out_222_27_bm[2]           Net          -        -       -         -           1         
+U8.u2.o_data_out_222_27[2]        PFUMX        ALUT     In      0.000     4.403 r     -         
+U8.u2.o_data_out_222_27[2]        PFUMX        Z        Out     0.403     4.806 r     -         
+N_485                             Net          -        -       -         -           1         
+U8.u2.o_data_out_222_36[2]        L6MUX21      D1       In      0.000     4.806 r     -         
+U8.u2.o_data_out_222_36[2]        L6MUX21      Z        Out     0.564     5.370 r     -         
+N_571                             Net          -        -       -         -           1         
+U8.u2.o_data_out_RNO[2]           ORCALUT4     A        In      0.000     5.370 r     -         
+U8.u2.o_data_out_RNO[2]           ORCALUT4     Z        Out     0.390     5.760 r     -         
+o_data_out_222[2]                 Net          -        -       -         -           1         
+U8.u2.o_data_out[2]               FD1P3DX      D        In      0.000     5.760 r     -         
+================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      3.816
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.762
+
+    - Propagation time:                      5.760
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.998
+
+    Number of logic level(s):                6
+    Starting point:                          U8.u2.u2.pdp_ram_0_0_0 / DOB2
+    Ending point:                            U8.u2.o_data_out[2] / D
+    The start point is clocked by            C200_PLL|CLKOP_inferred_clock [falling] (rise=0.000 fall=3.816 period=7.631) on pin CLKB
+    The end   point is clocked by            C200_PLL|CLKOP_inferred_clock [rising] (rise=0.000 fall=3.816 period=7.631) on pin CK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+U8.u2.u2.pdp_ram_0_0_0            DP16KD       DOB2     Out     2.585     2.585 r     -         
+w_packet_rddata1[2]               Net          -        -       -         -           1         
+U8.u2.w_packet_rddata_1[2]        ORCALUT4     A        In      0.000     2.585 r     -         
+U8.u2.w_packet_rddata_1[2]        ORCALUT4     Z        Out     0.606     3.191 r     -         
+w_packet_rddata_1[2]              Net          -        -       -         -           1         
+U8.u2.o_data_out_222_9[2]         ORCALUT4     B        In      0.000     3.191 r     -         
+U8.u2.o_data_out_222_9[2]         ORCALUT4     Z        Out     0.606     3.797 r     -         
+N_328                             Net          -        -       -         -           1         
+U8.u2.o_data_out_222_27_bm[2]     ORCALUT4     B        In      0.000     3.797 r     -         
+U8.u2.o_data_out_222_27_bm[2]     ORCALUT4     Z        Out     0.606     4.403 r     -         
+o_data_out_222_27_bm[2]           Net          -        -       -         -           1         
+U8.u2.o_data_out_222_27[2]        PFUMX        ALUT     In      0.000     4.403 r     -         
+U8.u2.o_data_out_222_27[2]        PFUMX        Z        Out     0.403     4.806 r     -         
+N_485                             Net          -        -       -         -           1         
+U8.u2.o_data_out_222_36[2]        L6MUX21      D1       In      0.000     4.806 r     -         
+U8.u2.o_data_out_222_36[2]        L6MUX21      Z        Out     0.564     5.370 r     -         
+N_571                             Net          -        -       -         -           1         
+U8.u2.o_data_out_RNO[2]           ORCALUT4     A        In      0.000     5.370 r     -         
+U8.u2.o_data_out_RNO[2]           ORCALUT4     Z        Out     0.390     5.760 r     -         
+o_data_out_222[2]                 Net          -        -       -         -           1         
+U8.u2.o_data_out[2]               FD1P3DX      D        In      0.000     5.760 r     -         
+================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      3.816
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.762
+
+    - Propagation time:                      5.760
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.998
+
+    Number of logic level(s):                6
+    Starting point:                          U8.u2.u2.pdp_ram_0_0_0 / DOB3
+    Ending point:                            U8.u2.o_data_out[3] / D
+    The start point is clocked by            C200_PLL|CLKOP_inferred_clock [falling] (rise=0.000 fall=3.816 period=7.631) on pin CLKB
+    The end   point is clocked by            C200_PLL|CLKOP_inferred_clock [rising] (rise=0.000 fall=3.816 period=7.631) on pin CK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+U8.u2.u2.pdp_ram_0_0_0            DP16KD       DOB3     Out     2.585     2.585 r     -         
+w_packet_rddata1[3]               Net          -        -       -         -           1         
+U8.u2.w_packet_rddata_1[3]        ORCALUT4     A        In      0.000     2.585 r     -         
+U8.u2.w_packet_rddata_1[3]        ORCALUT4     Z        Out     0.606     3.191 r     -         
+w_packet_rddata_1[3]              Net          -        -       -         -           1         
+U8.u2.o_data_out_222_9[3]         ORCALUT4     B        In      0.000     3.191 r     -         
+U8.u2.o_data_out_222_9[3]         ORCALUT4     Z        Out     0.606     3.797 r     -         
+N_329                             Net          -        -       -         -           1         
+U8.u2.o_data_out_222_27_bm[3]     ORCALUT4     B        In      0.000     3.797 r     -         
+U8.u2.o_data_out_222_27_bm[3]     ORCALUT4     Z        Out     0.606     4.403 r     -         
+o_data_out_222_27_bm[3]           Net          -        -       -         -           1         
+U8.u2.o_data_out_222_27[3]        PFUMX        ALUT     In      0.000     4.403 r     -         
+U8.u2.o_data_out_222_27[3]        PFUMX        Z        Out     0.403     4.806 r     -         
+N_486                             Net          -        -       -         -           1         
+U8.u2.o_data_out_222_36[3]        L6MUX21      D1       In      0.000     4.806 r     -         
+U8.u2.o_data_out_222_36[3]        L6MUX21      Z        Out     0.564     5.370 r     -         
+N_572                             Net          -        -       -         -           1         
+U8.u2.o_data_out_RNO[3]           ORCALUT4     A        In      0.000     5.370 r     -         
+U8.u2.o_data_out_RNO[3]           ORCALUT4     Z        Out     0.390     5.760 r     -         
+o_data_out_222[3]                 Net          -        -       -         -           1         
+U8.u2.o_data_out[3]               FD1P3DX      D        In      0.000     5.760 r     -         
+================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      3.816
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.762
+
+    - Propagation time:                      5.760
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.998
+
+    Number of logic level(s):                6
+    Starting point:                          U8.u2.u3.pdp_ram_0_0_0 / DOB3
+    Ending point:                            U8.u2.o_data_out[3] / D
+    The start point is clocked by            C200_PLL|CLKOP_inferred_clock [falling] (rise=0.000 fall=3.816 period=7.631) on pin CLKB
+    The end   point is clocked by            C200_PLL|CLKOP_inferred_clock [rising] (rise=0.000 fall=3.816 period=7.631) on pin CK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+U8.u2.u3.pdp_ram_0_0_0            DP16KD       DOB3     Out     2.585     2.585 r     -         
+w_packet_rddata2[3]               Net          -        -       -         -           1         
+U8.u2.w_packet_rddata_1[3]        ORCALUT4     B        In      0.000     2.585 r     -         
+U8.u2.w_packet_rddata_1[3]        ORCALUT4     Z        Out     0.606     3.191 r     -         
+w_packet_rddata_1[3]              Net          -        -       -         -           1         
+U8.u2.o_data_out_222_9[3]         ORCALUT4     B        In      0.000     3.191 r     -         
+U8.u2.o_data_out_222_9[3]         ORCALUT4     Z        Out     0.606     3.797 r     -         
+N_329                             Net          -        -       -         -           1         
+U8.u2.o_data_out_222_27_bm[3]     ORCALUT4     B        In      0.000     3.797 r     -         
+U8.u2.o_data_out_222_27_bm[3]     ORCALUT4     Z        Out     0.606     4.403 r     -         
+o_data_out_222_27_bm[3]           Net          -        -       -         -           1         
+U8.u2.o_data_out_222_27[3]        PFUMX        ALUT     In      0.000     4.403 r     -         
+U8.u2.o_data_out_222_27[3]        PFUMX        Z        Out     0.403     4.806 r     -         
+N_486                             Net          -        -       -         -           1         
+U8.u2.o_data_out_222_36[3]        L6MUX21      D1       In      0.000     4.806 r     -         
+U8.u2.o_data_out_222_36[3]        L6MUX21      Z        Out     0.564     5.370 r     -         
+N_572                             Net          -        -       -         -           1         
+U8.u2.o_data_out_RNO[3]           ORCALUT4     A        In      0.000     5.370 r     -         
+U8.u2.o_data_out_RNO[3]           ORCALUT4     Z        Out     0.390     5.760 r     -         
+o_data_out_222[3]                 Net          -        -       -         -           1         
+U8.u2.o_data_out[3]               FD1P3DX      D        In      0.000     5.760 r     -         
+================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      3.816
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.762
+
+    - Propagation time:                      5.760
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.998
+
+    Number of logic level(s):                6
+    Starting point:                          U8.u2.u2.pdp_ram_0_0_0 / DOB4
+    Ending point:                            U8.u2.o_data_out[4] / D
+    The start point is clocked by            C200_PLL|CLKOP_inferred_clock [falling] (rise=0.000 fall=3.816 period=7.631) on pin CLKB
+    The end   point is clocked by            C200_PLL|CLKOP_inferred_clock [rising] (rise=0.000 fall=3.816 period=7.631) on pin CK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+U8.u2.u2.pdp_ram_0_0_0            DP16KD       DOB4     Out     2.585     2.585 r     -         
+w_packet_rddata1[4]               Net          -        -       -         -           1         
+U8.u2.w_packet_rddata_1[4]        ORCALUT4     A        In      0.000     2.585 r     -         
+U8.u2.w_packet_rddata_1[4]        ORCALUT4     Z        Out     0.606     3.191 r     -         
+w_packet_rddata_1[4]              Net          -        -       -         -           1         
+U8.u2.o_data_out_222_9[4]         ORCALUT4     B        In      0.000     3.191 r     -         
+U8.u2.o_data_out_222_9[4]         ORCALUT4     Z        Out     0.606     3.797 r     -         
+N_330                             Net          -        -       -         -           1         
+U8.u2.o_data_out_222_27_bm[4]     ORCALUT4     A        In      0.000     3.797 r     -         
+U8.u2.o_data_out_222_27_bm[4]     ORCALUT4     Z        Out     0.606     4.403 r     -         
+o_data_out_222_27_bm[4]           Net          -        -       -         -           1         
+U8.u2.o_data_out_222_27[4]        PFUMX        ALUT     In      0.000     4.403 r     -         
+U8.u2.o_data_out_222_27[4]        PFUMX        Z        Out     0.403     4.806 r     -         
+N_487                             Net          -        -       -         -           1         
+U8.u2.o_data_out_222_36[4]        L6MUX21      D1       In      0.000     4.806 r     -         
+U8.u2.o_data_out_222_36[4]        L6MUX21      Z        Out     0.564     5.370 r     -         
+N_573                             Net          -        -       -         -           1         
+U8.u2.o_data_out_RNO[4]           ORCALUT4     A        In      0.000     5.370 r     -         
+U8.u2.o_data_out_RNO[4]           ORCALUT4     Z        Out     0.390     5.760 r     -         
+o_data_out_222[4]                 Net          -        -       -         -           1         
+U8.u2.o_data_out[4]               FD1P3DX      D        In      0.000     5.760 r     -         
+================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: C200_PLL|CLKOS_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                                                    Arrival           
+Instance                 Reference                         Type        Pin     Net                   Time        Slack 
+                         Clock                                                                                         
+-----------------------------------------------------------------------------------------------------------------------
+U4.r_window_cnt[0]       C200_PLL|CLKOS_inferred_clock     FD1S3DX     Q       r_window_cnt[0]       1.015       -0.551
+U4.r_window_cnt[1]       C200_PLL|CLKOS_inferred_clock     FD1S3DX     Q       r_window_cnt[1]       1.015       -0.490
+U4.r_window_cnt[2]       C200_PLL|CLKOS_inferred_clock     FD1S3DX     Q       r_window_cnt[2]       1.015       -0.490
+U4.r_window_cnt[3]       C200_PLL|CLKOS_inferred_clock     FD1S3DX     Q       r_window_cnt[3]       1.015       -0.429
+U4.r_window_cnt[4]       C200_PLL|CLKOS_inferred_clock     FD1S3DX     Q       r_window_cnt[4]       1.015       -0.429
+U4.r_stop2_window[0]     C200_PLL|CLKOS_inferred_clock     FD1S3DX     Q       r_stop2_window[0]     0.853       -0.390
+U4.r_window_cnt[5]       C200_PLL|CLKOS_inferred_clock     FD1S3DX     Q       r_window_cnt[5]       1.009       -0.362
+U4.r_window_cnt[6]       C200_PLL|CLKOS_inferred_clock     FD1S3DX     Q       r_window_cnt[6]       1.009       -0.362
+U4.r_stop2_window[1]     C200_PLL|CLKOS_inferred_clock     FD1S3DX     Q       r_stop2_window[1]     0.853       -0.329
+U4.r_stop2_window[2]     C200_PLL|CLKOS_inferred_clock     FD1S3DX     Q       r_stop2_window[2]     0.853       -0.329
+=======================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                        Starting                                                                                Required           
+Instance                Reference                         Type         Pin     Net                              Time         Slack 
+                        Clock                                                                                                      
+-----------------------------------------------------------------------------------------------------------------------------------
+U4.r_tdc_start          C200_PLL|CLKOS_inferred_clock     FD1P3DX      SP      un1_r_laser_state_0_sqmuxa       2.932        -0.551
+U4.r_tdc_start          C200_PLL|CLKOS_inferred_clock     FD1P3DX      D       r_tdc_start6_i                   3.071        -0.412
+U4_r_tdc_stop1io        C200_PLL|CLKOS_inferred_clock     OFS1P3DX     SP      un1_r_laser_state_0_sqmuxa_1     2.932        -0.342
+U4_r_tdc_stop1io        C200_PLL|CLKOS_inferred_clock     OFS1P3DX     D       U4.r_tdc_stop15_i                3.071        -0.202
+U4.r_window_cnt[15]     C200_PLL|CLKOS_inferred_clock     FD1S3DX      D       r_window_cnt_s[15]               3.071        -0.051
+U4.r_window_cnt[13]     C200_PLL|CLKOS_inferred_clock     FD1S3DX      D       r_window_cnt_s[13]               3.071        0.010 
+U4.r_window_cnt[14]     C200_PLL|CLKOS_inferred_clock     FD1S3DX      D       r_window_cnt_s[14]               3.071        0.010 
+U4.r_window_cnt[11]     C200_PLL|CLKOS_inferred_clock     FD1S3DX      D       r_window_cnt_s[11]               3.071        0.071 
+U4.r_window_cnt[12]     C200_PLL|CLKOS_inferred_clock     FD1S3DX      D       r_window_cnt_s[12]               3.071        0.071 
+U4.r_window_cnt[9]      C200_PLL|CLKOS_inferred_clock     FD1S3DX      D       r_window_cnt_s[9]                3.071        0.132 
+===================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      3.126
+    - Setup time:                            0.194
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.932
+
+    - Propagation time:                      3.483
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.551
+
+    Number of logic level(s):                10
+    Starting point:                          U4.r_window_cnt[0] / Q
+    Ending point:                            U4.r_tdc_start / SP
+    The start point is clocked by            C200_PLL|CLKOS_inferred_clock [rising] (rise=0.000 fall=1.563 period=3.126) on pin CK
+    The end   point is clocked by            C200_PLL|CLKOS_inferred_clock [rising] (rise=0.000 fall=1.563 period=3.126) on pin CK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+U4.r_window_cnt[0]                 FD1S3DX      Q        Out     1.015     1.015 r     -         
+r_window_cnt[0]                    Net          -        -       -         -           6         
+U4.un1_r_window_cnt_2_cry_0_0      CCU2C        B1       In      0.000     1.015 r     -         
+U4.un1_r_window_cnt_2_cry_0_0      CCU2C        COUT     Out     0.900     1.915 r     -         
+un1_r_window_cnt_2_cry_0           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_1_0      CCU2C        CIN      In      0.000     1.915 r     -         
+U4.un1_r_window_cnt_2_cry_1_0      CCU2C        COUT     Out     0.061     1.976 r     -         
+un1_r_window_cnt_2_cry_2           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_3_0      CCU2C        CIN      In      0.000     1.976 r     -         
+U4.un1_r_window_cnt_2_cry_3_0      CCU2C        COUT     Out     0.061     2.037 r     -         
+un1_r_window_cnt_2_cry_4           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_5_0      CCU2C        CIN      In      0.000     2.037 r     -         
+U4.un1_r_window_cnt_2_cry_5_0      CCU2C        COUT     Out     0.061     2.098 r     -         
+un1_r_window_cnt_2_cry_6           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_7_0      CCU2C        CIN      In      0.000     2.098 r     -         
+U4.un1_r_window_cnt_2_cry_7_0      CCU2C        COUT     Out     0.061     2.159 r     -         
+un1_r_window_cnt_2_cry_8           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_9_0      CCU2C        CIN      In      0.000     2.159 r     -         
+U4.un1_r_window_cnt_2_cry_9_0      CCU2C        COUT     Out     0.061     2.220 r     -         
+un1_r_window_cnt_2_cry_10          Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_11_0     CCU2C        CIN      In      0.000     2.220 r     -         
+U4.un1_r_window_cnt_2_cry_11_0     CCU2C        COUT     Out     0.061     2.281 r     -         
+un1_r_window_cnt_2_cry_12          Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_13_0     CCU2C        CIN      In      0.000     2.281 r     -         
+U4.un1_r_window_cnt_2_cry_13_0     CCU2C        COUT     Out     0.061     2.342 r     -         
+un1_r_window_cnt_2_cry_14          Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_15_0     CCU2C        CIN      In      0.000     2.342 r     -         
+U4.un1_r_window_cnt_2_cry_15_0     CCU2C        S1       Out     0.751     3.094 r     -         
+un1_r_window_cnt_2_cry_15_i        Net          -        -       -         -           2         
+U4.un1_r_laser_state_0_sqmuxa      ORCALUT4     C        In      0.000     3.094 r     -         
+U4.un1_r_laser_state_0_sqmuxa      ORCALUT4     Z        Out     0.390     3.483 r     -         
+un1_r_laser_state_0_sqmuxa         Net          -        -       -         -           1         
+U4.r_tdc_start                     FD1P3DX      SP       In      0.000     3.483 r     -         
+=================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      3.126
+    - Setup time:                            0.194
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.932
+
+    - Propagation time:                      3.422
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.490
+
+    Number of logic level(s):                9
+    Starting point:                          U4.r_window_cnt[1] / Q
+    Ending point:                            U4.r_tdc_start / SP
+    The start point is clocked by            C200_PLL|CLKOS_inferred_clock [rising] (rise=0.000 fall=1.563 period=3.126) on pin CK
+    The end   point is clocked by            C200_PLL|CLKOS_inferred_clock [rising] (rise=0.000 fall=1.563 period=3.126) on pin CK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+U4.r_window_cnt[1]                 FD1S3DX      Q        Out     1.015     1.015 r     -         
+r_window_cnt[1]                    Net          -        -       -         -           6         
+U4.un1_r_window_cnt_2_cry_1_0      CCU2C        B0       In      0.000     1.015 r     -         
+U4.un1_r_window_cnt_2_cry_1_0      CCU2C        COUT     Out     0.900     1.915 r     -         
+un1_r_window_cnt_2_cry_2           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_3_0      CCU2C        CIN      In      0.000     1.915 r     -         
+U4.un1_r_window_cnt_2_cry_3_0      CCU2C        COUT     Out     0.061     1.976 r     -         
+un1_r_window_cnt_2_cry_4           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_5_0      CCU2C        CIN      In      0.000     1.976 r     -         
+U4.un1_r_window_cnt_2_cry_5_0      CCU2C        COUT     Out     0.061     2.037 r     -         
+un1_r_window_cnt_2_cry_6           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_7_0      CCU2C        CIN      In      0.000     2.037 r     -         
+U4.un1_r_window_cnt_2_cry_7_0      CCU2C        COUT     Out     0.061     2.098 r     -         
+un1_r_window_cnt_2_cry_8           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_9_0      CCU2C        CIN      In      0.000     2.098 r     -         
+U4.un1_r_window_cnt_2_cry_9_0      CCU2C        COUT     Out     0.061     2.159 r     -         
+un1_r_window_cnt_2_cry_10          Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_11_0     CCU2C        CIN      In      0.000     2.159 r     -         
+U4.un1_r_window_cnt_2_cry_11_0     CCU2C        COUT     Out     0.061     2.220 r     -         
+un1_r_window_cnt_2_cry_12          Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_13_0     CCU2C        CIN      In      0.000     2.220 r     -         
+U4.un1_r_window_cnt_2_cry_13_0     CCU2C        COUT     Out     0.061     2.281 r     -         
+un1_r_window_cnt_2_cry_14          Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_15_0     CCU2C        CIN      In      0.000     2.281 r     -         
+U4.un1_r_window_cnt_2_cry_15_0     CCU2C        S1       Out     0.751     3.033 r     -         
+un1_r_window_cnt_2_cry_15_i        Net          -        -       -         -           2         
+U4.un1_r_laser_state_0_sqmuxa      ORCALUT4     C        In      0.000     3.033 r     -         
+U4.un1_r_laser_state_0_sqmuxa      ORCALUT4     Z        Out     0.390     3.422 r     -         
+un1_r_laser_state_0_sqmuxa         Net          -        -       -         -           1         
+U4.r_tdc_start                     FD1P3DX      SP       In      0.000     3.422 r     -         
+=================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      3.126
+    - Setup time:                            0.194
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.932
+
+    - Propagation time:                      3.422
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.490
+
+    Number of logic level(s):                9
+    Starting point:                          U4.r_window_cnt[2] / Q
+    Ending point:                            U4.r_tdc_start / SP
+    The start point is clocked by            C200_PLL|CLKOS_inferred_clock [rising] (rise=0.000 fall=1.563 period=3.126) on pin CK
+    The end   point is clocked by            C200_PLL|CLKOS_inferred_clock [rising] (rise=0.000 fall=1.563 period=3.126) on pin CK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+U4.r_window_cnt[2]                 FD1S3DX      Q        Out     1.015     1.015 r     -         
+r_window_cnt[2]                    Net          -        -       -         -           6         
+U4.un1_r_window_cnt_2_cry_1_0      CCU2C        B1       In      0.000     1.015 r     -         
+U4.un1_r_window_cnt_2_cry_1_0      CCU2C        COUT     Out     0.900     1.915 r     -         
+un1_r_window_cnt_2_cry_2           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_3_0      CCU2C        CIN      In      0.000     1.915 r     -         
+U4.un1_r_window_cnt_2_cry_3_0      CCU2C        COUT     Out     0.061     1.976 r     -         
+un1_r_window_cnt_2_cry_4           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_5_0      CCU2C        CIN      In      0.000     1.976 r     -         
+U4.un1_r_window_cnt_2_cry_5_0      CCU2C        COUT     Out     0.061     2.037 r     -         
+un1_r_window_cnt_2_cry_6           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_7_0      CCU2C        CIN      In      0.000     2.037 r     -         
+U4.un1_r_window_cnt_2_cry_7_0      CCU2C        COUT     Out     0.061     2.098 r     -         
+un1_r_window_cnt_2_cry_8           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_9_0      CCU2C        CIN      In      0.000     2.098 r     -         
+U4.un1_r_window_cnt_2_cry_9_0      CCU2C        COUT     Out     0.061     2.159 r     -         
+un1_r_window_cnt_2_cry_10          Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_11_0     CCU2C        CIN      In      0.000     2.159 r     -         
+U4.un1_r_window_cnt_2_cry_11_0     CCU2C        COUT     Out     0.061     2.220 r     -         
+un1_r_window_cnt_2_cry_12          Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_13_0     CCU2C        CIN      In      0.000     2.220 r     -         
+U4.un1_r_window_cnt_2_cry_13_0     CCU2C        COUT     Out     0.061     2.281 r     -         
+un1_r_window_cnt_2_cry_14          Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_15_0     CCU2C        CIN      In      0.000     2.281 r     -         
+U4.un1_r_window_cnt_2_cry_15_0     CCU2C        S1       Out     0.751     3.033 r     -         
+un1_r_window_cnt_2_cry_15_i        Net          -        -       -         -           2         
+U4.un1_r_laser_state_0_sqmuxa      ORCALUT4     C        In      0.000     3.033 r     -         
+U4.un1_r_laser_state_0_sqmuxa      ORCALUT4     Z        Out     0.390     3.422 r     -         
+un1_r_laser_state_0_sqmuxa         Net          -        -       -         -           1         
+U4.r_tdc_start                     FD1P3DX      SP       In      0.000     3.422 r     -         
+=================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      3.126
+    - Setup time:                            0.194
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.932
+
+    - Propagation time:                      3.361
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.429
+
+    Number of logic level(s):                8
+    Starting point:                          U4.r_window_cnt[3] / Q
+    Ending point:                            U4.r_tdc_start / SP
+    The start point is clocked by            C200_PLL|CLKOS_inferred_clock [rising] (rise=0.000 fall=1.563 period=3.126) on pin CK
+    The end   point is clocked by            C200_PLL|CLKOS_inferred_clock [rising] (rise=0.000 fall=1.563 period=3.126) on pin CK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+U4.r_window_cnt[3]                 FD1S3DX      Q        Out     1.015     1.015 r     -         
+r_window_cnt[3]                    Net          -        -       -         -           6         
+U4.un1_r_window_cnt_2_cry_3_0      CCU2C        B0       In      0.000     1.015 r     -         
+U4.un1_r_window_cnt_2_cry_3_0      CCU2C        COUT     Out     0.900     1.915 r     -         
+un1_r_window_cnt_2_cry_4           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_5_0      CCU2C        CIN      In      0.000     1.915 r     -         
+U4.un1_r_window_cnt_2_cry_5_0      CCU2C        COUT     Out     0.061     1.976 r     -         
+un1_r_window_cnt_2_cry_6           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_7_0      CCU2C        CIN      In      0.000     1.976 r     -         
+U4.un1_r_window_cnt_2_cry_7_0      CCU2C        COUT     Out     0.061     2.037 r     -         
+un1_r_window_cnt_2_cry_8           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_9_0      CCU2C        CIN      In      0.000     2.037 r     -         
+U4.un1_r_window_cnt_2_cry_9_0      CCU2C        COUT     Out     0.061     2.098 r     -         
+un1_r_window_cnt_2_cry_10          Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_11_0     CCU2C        CIN      In      0.000     2.098 r     -         
+U4.un1_r_window_cnt_2_cry_11_0     CCU2C        COUT     Out     0.061     2.159 r     -         
+un1_r_window_cnt_2_cry_12          Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_13_0     CCU2C        CIN      In      0.000     2.159 r     -         
+U4.un1_r_window_cnt_2_cry_13_0     CCU2C        COUT     Out     0.061     2.220 r     -         
+un1_r_window_cnt_2_cry_14          Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_15_0     CCU2C        CIN      In      0.000     2.220 r     -         
+U4.un1_r_window_cnt_2_cry_15_0     CCU2C        S1       Out     0.751     2.971 r     -         
+un1_r_window_cnt_2_cry_15_i        Net          -        -       -         -           2         
+U4.un1_r_laser_state_0_sqmuxa      ORCALUT4     C        In      0.000     2.971 r     -         
+U4.un1_r_laser_state_0_sqmuxa      ORCALUT4     Z        Out     0.390     3.361 r     -         
+un1_r_laser_state_0_sqmuxa         Net          -        -       -         -           1         
+U4.r_tdc_start                     FD1P3DX      SP       In      0.000     3.361 r     -         
+=================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      3.126
+    - Setup time:                            0.194
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.932
+
+    - Propagation time:                      3.361
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.429
+
+    Number of logic level(s):                8
+    Starting point:                          U4.r_window_cnt[4] / Q
+    Ending point:                            U4.r_tdc_start / SP
+    The start point is clocked by            C200_PLL|CLKOS_inferred_clock [rising] (rise=0.000 fall=1.563 period=3.126) on pin CK
+    The end   point is clocked by            C200_PLL|CLKOS_inferred_clock [rising] (rise=0.000 fall=1.563 period=3.126) on pin CK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+U4.r_window_cnt[4]                 FD1S3DX      Q        Out     1.015     1.015 r     -         
+r_window_cnt[4]                    Net          -        -       -         -           6         
+U4.un1_r_window_cnt_2_cry_3_0      CCU2C        B1       In      0.000     1.015 r     -         
+U4.un1_r_window_cnt_2_cry_3_0      CCU2C        COUT     Out     0.900     1.915 r     -         
+un1_r_window_cnt_2_cry_4           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_5_0      CCU2C        CIN      In      0.000     1.915 r     -         
+U4.un1_r_window_cnt_2_cry_5_0      CCU2C        COUT     Out     0.061     1.976 r     -         
+un1_r_window_cnt_2_cry_6           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_7_0      CCU2C        CIN      In      0.000     1.976 r     -         
+U4.un1_r_window_cnt_2_cry_7_0      CCU2C        COUT     Out     0.061     2.037 r     -         
+un1_r_window_cnt_2_cry_8           Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_9_0      CCU2C        CIN      In      0.000     2.037 r     -         
+U4.un1_r_window_cnt_2_cry_9_0      CCU2C        COUT     Out     0.061     2.098 r     -         
+un1_r_window_cnt_2_cry_10          Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_11_0     CCU2C        CIN      In      0.000     2.098 r     -         
+U4.un1_r_window_cnt_2_cry_11_0     CCU2C        COUT     Out     0.061     2.159 r     -         
+un1_r_window_cnt_2_cry_12          Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_13_0     CCU2C        CIN      In      0.000     2.159 r     -         
+U4.un1_r_window_cnt_2_cry_13_0     CCU2C        COUT     Out     0.061     2.220 r     -         
+un1_r_window_cnt_2_cry_14          Net          -        -       -         -           1         
+U4.un1_r_window_cnt_2_cry_15_0     CCU2C        CIN      In      0.000     2.220 r     -         
+U4.un1_r_window_cnt_2_cry_15_0     CCU2C        S1       Out     0.751     2.971 r     -         
+un1_r_window_cnt_2_cry_15_i        Net          -        -       -         -           2         
+U4.un1_r_laser_state_0_sqmuxa      ORCALUT4     C        In      0.000     2.971 r     -         
+U4.un1_r_laser_state_0_sqmuxa      ORCALUT4     Z        Out     0.390     3.361 r     -         
+un1_r_laser_state_0_sqmuxa         Net          -        -       -         -           1         
+U4.r_tdc_start                     FD1P3DX      SP       In      0.000     3.361 r     -         
+=================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                  Arrival           
+Instance             Reference     Type     Pin     Net        Time        Slack 
+                     Clock                                                       
+---------------------------------------------------------------------------------
+U8.u1.u3.AND2_t2     System        AND2     Z       rden_i     0.000       -0.064
+U8.u2.u3.AND2_t2     System        AND2     Z       rden_i     0.000       -0.064
+U8.u1.u2.AND2_t2     System        AND2     Z       rden_i     0.000       -0.064
+U8.u2.u2.AND2_t2     System        AND2     Z       rden_i     0.000       -0.064
+U8.u2.u1.AND2_t2     System        AND2     Z       rden_i     0.000       -0.064
+U8.u1.u2.AND2_t3     System        AND2     Z       wren_i     0.000       0.362 
+U8.u2.u1.AND2_t3     System        AND2     Z       wren_i     0.000       0.362 
+U8.u1.u3.AND2_t3     System        AND2     Z       wren_i     0.000       0.362 
+U8.u2.u3.AND2_t3     System        AND2     Z       wren_i     0.000       0.362 
+U8.u2.u2.AND2_t3     System        AND2     Z       wren_i     0.000       0.362 
+=================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                     Starting                                      Required           
+Instance             Reference     Type     Pin     Net            Time         Slack 
+                     Clock                                                            
+--------------------------------------------------------------------------------------
+U8.u1.u3.AND2_t1     System        AND2     B       rden_i_inv     0.362        -0.064
+U8.u2.u3.AND2_t1     System        AND2     B       rden_i_inv     0.362        -0.064
+U8.u1.u2.AND2_t1     System        AND2     B       rden_i_inv     0.362        -0.064
+U8.u2.u2.AND2_t1     System        AND2     B       rden_i_inv     0.362        -0.064
+U8.u2.u1.AND2_t1     System        AND2     B       rden_i_inv     0.362        -0.064
+U8.u1.u2.AND2_t1     System        AND2     A       wren_i         0.362        0.362 
+U8.u2.u1.AND2_t1     System        AND2     A       wren_i         0.362        0.362 
+U8.u1.u3.AND2_t1     System        AND2     A       wren_i         0.362        0.362 
+U8.u2.u3.AND2_t1     System        AND2     A       wren_i         0.362        0.362 
+U8.u2.u2.AND2_t1     System        AND2     A       wren_i         0.362        0.362 
+======================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      0.362
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         0.362
+
+    - Propagation time:                      0.426
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.064
+
+    Number of logic level(s):                1
+    Starting point:                          U8.u1.u3.AND2_t2 / Z
+    Ending point:                            U8.u1.u3.AND2_t1 / B
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+U8.u1.u3.AND2_t2     AND2     Z        Out     0.000     0.000 r     -         
+rden_i               Net      -        -       -         -           18        
+U8.u1.u3.INV_1       INV      A        In      0.000     0.000 r     -         
+U8.u1.u3.INV_1       INV      Z        Out     0.426     0.426 f     -         
+rden_i_inv           Net      -        -       -         -           1         
+U8.u1.u3.AND2_t1     AND2     B        In      0.000     0.426 f     -         
+===============================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      0.362
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         0.362
+
+    - Propagation time:                      0.426
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.064
+
+    Number of logic level(s):                1
+    Starting point:                          U8.u2.u3.AND2_t2 / Z
+    Ending point:                            U8.u2.u3.AND2_t1 / B
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+U8.u2.u3.AND2_t2     AND2     Z        Out     0.000     0.000 r     -         
+rden_i               Net      -        -       -         -           18        
+U8.u2.u3.INV_1       INV      A        In      0.000     0.000 r     -         
+U8.u2.u3.INV_1       INV      Z        Out     0.426     0.426 f     -         
+rden_i_inv           Net      -        -       -         -           1         
+U8.u2.u3.AND2_t1     AND2     B        In      0.000     0.426 f     -         
+===============================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      0.362
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         0.362
+
+    - Propagation time:                      0.426
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.064
+
+    Number of logic level(s):                1
+    Starting point:                          U8.u1.u2.AND2_t2 / Z
+    Ending point:                            U8.u1.u2.AND2_t1 / B
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+U8.u1.u2.AND2_t2     AND2     Z        Out     0.000     0.000 r     -         
+rden_i               Net      -        -       -         -           18        
+U8.u1.u2.INV_1       INV      A        In      0.000     0.000 r     -         
+U8.u1.u2.INV_1       INV      Z        Out     0.426     0.426 f     -         
+rden_i_inv           Net      -        -       -         -           1         
+U8.u1.u2.AND2_t1     AND2     B        In      0.000     0.426 f     -         
+===============================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      0.362
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         0.362
+
+    - Propagation time:                      0.426
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.064
+
+    Number of logic level(s):                1
+    Starting point:                          U8.u2.u2.AND2_t2 / Z
+    Ending point:                            U8.u2.u2.AND2_t1 / B
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+U8.u2.u2.AND2_t2     AND2     Z        Out     0.000     0.000 r     -         
+rden_i               Net      -        -       -         -           18        
+U8.u2.u2.INV_1       INV      A        In      0.000     0.000 r     -         
+U8.u2.u2.INV_1       INV      Z        Out     0.426     0.426 f     -         
+rden_i_inv           Net      -        -       -         -           1         
+U8.u2.u2.AND2_t1     AND2     B        In      0.000     0.426 f     -         
+===============================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      0.362
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         0.362
+
+    - Propagation time:                      0.426
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.064
+
+    Number of logic level(s):                1
+    Starting point:                          U8.u2.u1.AND2_t2 / Z
+    Ending point:                            U8.u2.u1.AND2_t1 / B
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+U8.u2.u1.AND2_t2     AND2     Z        Out     0.000     0.000 r     -         
+rden_i               Net      -        -       -         -           18        
+U8.u2.u1.INV_1       INV      A        In      0.000     0.000 r     -         
+U8.u2.u1.INV_1       INV      Z        Out     0.426     0.426 f     -         
+rden_i_inv           Net      -        -       -         -           1         
+U8.u2.u1.AND2_t1     AND2     B        In      0.000     0.426 f     -         
+===============================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:58s; CPU Time elapsed 0h:00m:56s; Memory used current: 343MB peak: 385MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:58s; CPU Time elapsed 0h:00m:56s; Memory used current: 343MB peak: 385MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfe5u_25f-6
+
+Register bits: 3960 of 24288 (16%)
+PIC Latch:       0
+I/O cells:       72
+Block Rams : 5 of 56 (8%)
+
+DSP primitives:       11 of 42 (26%)
+
+Details:
+ALU54B:         2
+AND2:           15
+BB:             18
+CCU2C:          1409
+DP16KD:         5
+EHXPLLL:        1
+FD1P3AX:        1246
+FD1P3AY:        6
+FD1P3BX:        10
+FD1P3DX:        1934
+FD1P3IX:        10
+FD1S3AX:        92
+FD1S3AY:        2
+FD1S3BX:        89
+FD1S3DX:        464
+FD1S3IX:        86
+FD1S3JX:        1
+GSR:            1
+IB:             6
+IFS1P3BX:       2
+IFS1P3DX:       2
+INV:            36
+L6MUX21:        124
+MULT18X18D:     9
+OB:             48
+OFS1P3BX:       5
+OFS1P3DX:       11
+ORCALUT4:       6580
+PFUMX:          349
+PUR:            1
+ROM16X1A:       10
+VHI:            35
+VLO:            13
+XOR2:           5
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:58s; CPU Time elapsed 0h:00m:57s; Memory used current: 144MB peak: 385MB)
+
+Process took 0h:00m:58s realtime, 0h:00m:57s cputime
+# Wed Jun  2 15:12:14 2021
+
+###########################################################]

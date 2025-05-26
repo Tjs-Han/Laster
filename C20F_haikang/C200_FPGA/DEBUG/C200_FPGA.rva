@@ -1,0 +1,152 @@
+<!DOCTYPE ispTLA>
+<ispTLA>
+ <CreationDate>??? 7?? 2 17:02:19 2024</CreationDate>
+ <XCFFileName/>
+ <CableSetting>
+  <IsTRSTConnected val="false"/>
+  <TRSTSetting val="0"/>
+  <IsBSCANConnected val="false"/>
+  <BSCANSetting val="0"/>
+  <CableType val="USB"/>
+  <PortAddress val="0"/>
+  <PortSetting val="0"/>
+  <TCKDelay val="1"/>
+ </CableSetting>
+ <DeviceCount>1</DeviceCount>
+ <Device>
+  <DeviceIndex>0</DeviceIndex>
+  <DeviceName>1. LFE5U-25F</DeviceName>
+  <DeviceID>0x41111043</DeviceID>
+  <HasIspTRACY>true</HasIspTRACY>
+  <HasJTAG2WB>false</HasJTAG2WB>
+  <SERDES/>
+  <IRBypassLen>8</IRBypassLen>
+  <RVLFileName>C200_FPGA.rvl</RVLFileName>
+  <RVSFileName>C200_FPGA.rvs</RVSFileName>
+  <LACoreCount>1</LACoreCount>
+  <WinUI CoreIndex="0">
+   <TraceSigTreeData>
+    <TraceSignal IsHidden="false" Name="TU1" NodeType="0" PortIndex="90"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_start_index" NodeType="1" PortIndex="0">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_start_index:0" NodeType="2" PortIndex="0"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_start_index:1" NodeType="2" PortIndex="1"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_start_index:2" NodeType="2" PortIndex="2"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_start_index:3" NodeType="2" PortIndex="3"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_start_index:4" NodeType="2" PortIndex="4"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_start_index:5" NodeType="2" PortIndex="5"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_start_index:6" NodeType="2" PortIndex="6"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_start_index:7" NodeType="2" PortIndex="7"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_start_index:8" NodeType="2" PortIndex="8"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_start_index:9" NodeType="2" PortIndex="9"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_start_index:10" NodeType="2" PortIndex="10"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_start_index:11" NodeType="2" PortIndex="11"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_start_index:12" NodeType="2" PortIndex="12"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_start_index:13" NodeType="2" PortIndex="13"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_start_index:14" NodeType="2" PortIndex="14"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_start_index:15" NodeType="2" PortIndex="15"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_stop_index" NodeType="1" PortIndex="16">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_stop_index:0" NodeType="2" PortIndex="16"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_stop_index:1" NodeType="2" PortIndex="17"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_stop_index:2" NodeType="2" PortIndex="18"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_stop_index:3" NodeType="2" PortIndex="19"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_stop_index:4" NodeType="2" PortIndex="20"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_stop_index:5" NodeType="2" PortIndex="21"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_stop_index:6" NodeType="2" PortIndex="22"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_stop_index:7" NodeType="2" PortIndex="23"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_stop_index:8" NodeType="2" PortIndex="24"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_stop_index:9" NodeType="2" PortIndex="25"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_stop_index:10" NodeType="2" PortIndex="26"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_stop_index:11" NodeType="2" PortIndex="27"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_stop_index:12" NodeType="2" PortIndex="28"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_stop_index:13" NodeType="2" PortIndex="29"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_stop_index:14" NodeType="2" PortIndex="30"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/i_stop_index:15" NodeType="2" PortIndex="31"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_make" NodeType="0" PortIndex="32"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_pingpang" NodeType="0" PortIndex="33"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_points" NodeType="1" PortIndex="34">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_points:0" NodeType="2" PortIndex="34"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_points:1" NodeType="2" PortIndex="35"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_points:2" NodeType="2" PortIndex="36"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_points:3" NodeType="2" PortIndex="37"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_points:4" NodeType="2" PortIndex="38"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_points:5" NodeType="2" PortIndex="39"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_points:6" NodeType="2" PortIndex="40"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_points:7" NodeType="2" PortIndex="41"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_points:8" NodeType="2" PortIndex="42"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_points:9" NodeType="2" PortIndex="43"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_points:10" NodeType="2" PortIndex="44"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_points:11" NodeType="2" PortIndex="45"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_points:12" NodeType="2" PortIndex="46"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_points:13" NodeType="2" PortIndex="47"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_points:14" NodeType="2" PortIndex="48"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_packet_points:15" NodeType="2" PortIndex="49"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_scan_counter" NodeType="1" PortIndex="50">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_scan_counter:0" NodeType="2" PortIndex="50"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_scan_counter:1" NodeType="2" PortIndex="51"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_scan_counter:2" NodeType="2" PortIndex="52"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_scan_counter:3" NodeType="2" PortIndex="53"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_scan_counter:4" NodeType="2" PortIndex="54"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_scan_counter:5" NodeType="2" PortIndex="55"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_scan_counter:6" NodeType="2" PortIndex="56"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_scan_counter:7" NodeType="2" PortIndex="57"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_scan_counter:8" NodeType="2" PortIndex="58"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_scan_counter:9" NodeType="2" PortIndex="59"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_scan_counter:10" NodeType="2" PortIndex="60"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_scan_counter:11" NodeType="2" PortIndex="61"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_scan_counter:12" NodeType="2" PortIndex="62"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_scan_counter:13" NodeType="2" PortIndex="63"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_scan_counter:14" NodeType="2" PortIndex="64"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_scan_counter:15" NodeType="2" PortIndex="65"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_telegram_no" NodeType="1" PortIndex="66">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_telegram_no:0" NodeType="2" PortIndex="66"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_telegram_no:1" NodeType="2" PortIndex="67"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_telegram_no:2" NodeType="2" PortIndex="68"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_telegram_no:3" NodeType="2" PortIndex="69"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_telegram_no:4" NodeType="2" PortIndex="70"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_telegram_no:5" NodeType="2" PortIndex="71"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_telegram_no:6" NodeType="2" PortIndex="72"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_telegram_no:7" NodeType="2" PortIndex="73"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_first_angle" NodeType="1" PortIndex="74">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_first_angle:0" NodeType="2" PortIndex="74"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_first_angle:1" NodeType="2" PortIndex="75"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_first_angle:2" NodeType="2" PortIndex="76"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_first_angle:3" NodeType="2" PortIndex="77"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_first_angle:4" NodeType="2" PortIndex="78"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_first_angle:5" NodeType="2" PortIndex="79"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_first_angle:6" NodeType="2" PortIndex="80"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_first_angle:7" NodeType="2" PortIndex="81"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_first_angle:8" NodeType="2" PortIndex="82"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_first_angle:9" NodeType="2" PortIndex="83"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_first_angle:10" NodeType="2" PortIndex="84"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_first_angle:11" NodeType="2" PortIndex="85"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_first_angle:12" NodeType="2" PortIndex="86"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_first_angle:13" NodeType="2" PortIndex="87"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_first_angle:14" NodeType="2" PortIndex="88"/>
+    <TraceSignal IsHidden="false" Name="U5/U5/o_first_angle:15" NodeType="2" PortIndex="89"/>
+   </TraceSigTreeData>
+   <TriggerUI UserSelect="0" PreSelectType="1" PreSelect="1" UserSelectPos="0"/>
+   <CoreRun Run="true"/>
+   <CoreWndUIData>
+    <ClockFrequency Unit="ns" Frequency="-1.0"/>
+   </CoreWndUIData>
+  </WinUI>
+ </Device>
+</ispTLA>

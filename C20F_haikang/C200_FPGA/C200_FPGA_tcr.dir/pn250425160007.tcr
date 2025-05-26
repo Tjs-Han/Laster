@@ -1,0 +1,12 @@
+#Start recording tcl command: 4/25/2025 15:40:09
+#Project Location: D:/Project/C20F_haikang/C200_FPGA; Project name: C200_FPGA
+prj_project open "D:/Project/C20F_haikang/C200_FPGA/C200_FPGA.ldf"
+prj_src add "D:/Project/C20F_haikang/C200_FPGA/rtl_tjs/statistics_cycle.v" "D:/Project/C20F_haikang/C200_FPGA/rtl_tjs/rotating_module_1.v"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "D:/Project/C20F_haikang/C200_FPGA/ram_w32_depth64"
+source "D:/Project/C20F_haikang/C200_FPGA/ram_w32_depth64/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+prj_src add "D:/Project/C20F_haikang/C200_FPGA/ram_w32_depth64/ram_w32_depth64.sbx"
+sbp_design open -dsgn "D:/Project/C20F_haikang/C200_FPGA/ram_w32_depth64/ram_w32_depth64.sbx"
+prj_run Synthesis -impl impl1
+#Stop recording: 4/25/2025 16:00:07

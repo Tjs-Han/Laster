@@ -1,0 +1,8 @@
+#Start recording tcl command: 12/20/2024 10:26:48
+#Project Location: D:/programs/fpga/C200/C200/C200_FPGA; Project name: C200_FPGA
+prj_project open "D:/programs/fpga/C200/C200/C200_FPGA/C200_FPGA.ldf"
+sbp_design open -dsgn "D:/programs/fpga/C200/C200/C200_FPGA/C200_FPGA/C200_FPGA.sbx"
+prj_src add "D:/programs/fpga/C200/C200/C200_FPGA/tb_tdc_process.v"
+prj_src add "D:/programs/fpga/C200/C200/C200_FPGA/sim/tb_tdc_process/tb_tdc_process.spf"
+prj_src add "D:/programs/fpga/C200/C200/C200_FPGA/sim/tb_tdc_process/tb_tdc_process.spf"
+#Stop recording: 12/20/2024 16:00:55

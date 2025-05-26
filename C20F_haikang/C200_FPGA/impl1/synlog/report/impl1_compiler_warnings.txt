@@ -1,0 +1,258 @@
+@W: CL168 :"D:\programs\fpga\C200_FPGA\C200_FPGA\C200_PLL\C200_PLL.v":20:8:20:21|Removing instance scuba_vhi_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL208 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":27:1:27:6|All reachable assignments to bit 0 of r_angle_cal_value[15:0] assign 1, register removed by optimization.
+@W: CL208 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":27:1:27:6|All reachable assignments to bit 1 of r_angle_cal_value[15:0] assign 1, register removed by optimization.
+@W: CL208 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":27:1:27:6|All reachable assignments to bit 2 of r_angle_cal_value[15:0] assign 1, register removed by optimization.
+@W: CL208 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":27:1:27:6|All reachable assignments to bit 3 of r_angle_cal_value[15:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":27:1:27:6|All reachable assignments to bit 4 of r_angle_cal_value[15:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":27:1:27:6|All reachable assignments to bit 5 of r_angle_cal_value[15:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":27:1:27:6|All reachable assignments to bit 6 of r_angle_cal_value[15:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":27:1:27:6|All reachable assignments to bit 7 of r_angle_cal_value[15:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":27:1:27:6|All reachable assignments to bit 8 of r_angle_cal_value[15:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":27:1:27:6|All reachable assignments to bit 9 of r_angle_cal_value[15:0] assign 1, register removed by optimization.
+@W: CL208 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":27:1:27:6|All reachable assignments to bit 10 of r_angle_cal_value[15:0] assign 1, register removed by optimization.
+@W: CL208 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":27:1:27:6|All reachable assignments to bit 11 of r_angle_cal_value[15:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":27:1:27:6|All reachable assignments to bit 12 of r_angle_cal_value[15:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":27:1:27:6|All reachable assignments to bit 13 of r_angle_cal_value[15:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":27:1:27:6|All reachable assignments to bit 14 of r_angle_cal_value[15:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":27:1:27:6|All reachable assignments to bit 15 of r_angle_cal_value[15:0] assign 0, register removed by optimization.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":33:1:33:6|Optimizing register bit r_angle_cal_cnt[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":33:1:33:6|Optimizing register bit r_angle_cal_cnt[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":33:1:33:6|Optimizing register bit r_angle_cal_cnt[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":33:1:33:6|Optimizing register bit r_angle_cal_cnt[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":33:1:33:6|Optimizing register bit r_angle_cal_cnt[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":93:1:93:6|Optimizing register bit r_low_time_prior_cnt[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":107:1:107:6|Optimizing register bit r_js_cal[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":107:1:107:6|Optimizing register bit r_js_cal[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":107:1:107:6|Optimizing register bit r_js_cal[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":107:1:107:6|Optimizing register bit r_js_cal[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":107:1:107:6|Optimizing register bit r_js_cal[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":107:1:107:6|Optimizing register bit r_js_cal[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":107:1:107:6|Optimizing register bit r_js_cal[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":107:1:107:6|Optimizing register bit r_js_cal[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":107:1:107:6|Optimizing register bit r_js_cal[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":107:1:107:6|Optimizing register bit r_js_cal[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":107:1:107:6|Optimizing register bit r_js_cal[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":107:1:107:6|Optimizing register bit r_js_cal[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":107:1:107:6|Optimizing register bit r_js_cal[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":107:1:107:6|Optimizing register bit r_js_cal[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":107:1:107:6|Optimizing register bit r_js_cal[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":107:1:107:6|Optimizing register bit r_js_cal[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":33:1:33:6|Pruning register bits 15 to 11 of r_angle_cal_cnt[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":107:1:107:6|Pruning register bits 31 to 16 of r_js_cal[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":93:1:93:6|Pruning register bit 0 of r_low_time_prior_cnt[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"D:\programs\fpga\C200_FPGA\i2c_master.v":43:1:43:6|Pruning unused register r_reg_ptr[7:0]. Make sure that there are no unused intermediate registers.
+@W: CG360 :"D:\programs\fpga\C200_FPGA\tla2024_top.v":18:11:18:17|Removing wire o_valid, as there is no assignment to it.
+@W: CL318 :"D:\programs\fpga\C200_FPGA\tla2024_top.v":18:11:18:17|*Output o_valid has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\tla2024_top.v":47:1:47:6|Optimizing register bit r_cmd[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\tla2024_top.v":47:1:47:6|Optimizing register bit r_data_in[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\tla2024_top.v":47:1:47:6|Optimizing register bit r_data_in[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\tla2024_top.v":47:1:47:6|Optimizing register bit r_data_in[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\tla2024_top.v":47:1:47:6|Optimizing register bit r_data_in[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\tla2024_top.v":47:1:47:6|Optimizing register bit r_data_in[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\tla2024_top.v":47:1:47:6|Optimizing register bit r_data_in[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\tla2024_top.v":47:1:47:6|Optimizing register bit r_data_in[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\tla2024_top.v":47:1:47:6|Optimizing register bit r_data_in[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\programs\fpga\C200_FPGA\tla2024_top.v":47:1:47:6|Pruning register bit 3 of r_cmd[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\tla2024_top.v":47:1:47:6|Pruning register bits 11 to 10 of r_data_in[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\tla2024_top.v":47:1:47:6|Pruning register bits 5 to 0 of r_data_in[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Optimizing register bit r_mult1_dataB[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Optimizing register bit r_mult1_dataB[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Optimizing register bit r_mult1_dataB[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Optimizing register bit r_mult1_dataB[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Optimizing register bit r_mult1_dataB[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Optimizing register bit r_mult1_dataB[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Optimizing register bit r_mult1_dataB[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Optimizing register bit r_mult1_dataB[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Optimizing register bit r_mult1_dataB[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Optimizing register bit r_mult1_dataB[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Optimizing register bit r_mult1_dataB[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Optimizing register bit r_mult1_dataB[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Optimizing register bit r_mult1_dataB[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Optimizing register bit r_mult1_dataB[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Pruning register bits 15 to 11 of r_mult1_dataB[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Pruning register bit 9 of r_mult1_dataB[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Pruning register bits 7 to 0 of r_mult1_dataB[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"D:\programs\fpga\C200_FPGA\adc_to_dac_2.v":251:1:251:6|Pruning unused bits 12 to 0 of r_temp_mid1[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_dac_2.v":265:1:265:6|Optimizing register bit r_temp_mid2[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_dac_2.v":265:1:265:6|Optimizing register bit r_temp_mid2[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_dac_2.v":265:1:265:6|Optimizing register bit r_temp_mid2[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_dac_2.v":265:1:265:6|Optimizing register bit r_temp_mid2[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_dac_2.v":265:1:265:6|Optimizing register bit r_temp_mid2[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_dac_2.v":265:1:265:6|Optimizing register bit r_temp_mid2[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_dac_2.v":265:1:265:6|Optimizing register bit r_temp_mid2[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_dac_2.v":265:1:265:6|Optimizing register bit r_temp_mid2[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_dac_2.v":265:1:265:6|Optimizing register bit r_temp_mid2[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_dac_2.v":265:1:265:6|Optimizing register bit r_temp_mid2[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_dac_2.v":265:1:265:6|Optimizing register bit r_temp_mid2[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_dac_2.v":265:1:265:6|Optimizing register bit r_temp_mid2[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\adc_to_dac_2.v":265:1:265:6|Optimizing register bit r_temp_mid2[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\adc_to_dac_2.v":265:1:265:6|Pruning register bits 31 to 19 of r_temp_mid2[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CS263 :"D:\programs\fpga\C200_FPGA\self_inspection.v":216:20:216:32|Port-width mismatch for port i_temp_point1. The port definition is 12 bits, but the actual port connection bit width is 16. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\programs\fpga\C200_FPGA\self_inspection.v":217:20:217:32|Port-width mismatch for port i_temp_point2. The port definition is 12 bits, but the actual port connection bit width is 16. Adjust either the definition or the instantiation of this port.
+@W: CG360 :"D:\programs\fpga\C200_FPGA\self_inspection.v":170:12:170:22|Removing wire w_dac_value, as there is no assignment to it.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\self_inspection.v":127:1:127:6|Optimizing register bit r_status_code[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\self_inspection.v":127:1:127:6|Optimizing register bit r_status_code[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\self_inspection.v":127:1:127:6|Optimizing register bit r_status_code[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\self_inspection.v":127:1:127:6|Optimizing register bit r_status_code[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\self_inspection.v":127:1:127:6|Optimizing register bit r_status_code[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\self_inspection.v":127:1:127:6|Pruning register bits 7 to 3 of r_status_code[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\programs\fpga\C200_FPGA\gp22\gp22_control.v":118:1:118:6|Pruning register bit 3 of r_tdc_cmd[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\programs\fpga\C200_FPGA\gp22\gp22_control.v":118:1:118:6|Pruning register bit 28 of r_tdc_wr_data[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\programs\fpga\C200_FPGA\gp22\gp22_control.v":118:1:118:6|Pruning register bit 26 of r_tdc_wr_data[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\programs\fpga\C200_FPGA\gp22\gp22_control.v":118:1:118:6|Pruning register bit 23 of r_tdc_wr_data[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\gp22\gp22_control.v":118:1:118:6|Pruning register bits 21 to 20 of r_tdc_wr_data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\programs\fpga\C200_FPGA\gp22\gp22_control.v":118:1:118:6|Pruning register bit 17 of r_tdc_wr_data[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\gp22\gp22_control.v":118:1:118:6|Pruning register bits 15 to 14 of r_tdc_wr_data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\gp22\gp22_control.v":118:1:118:6|Pruning register bits 12 to 11 of r_tdc_wr_data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\gp22\gp22_control.v":118:1:118:6|Pruning register bits 9 to 0 of r_tdc_wr_data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\programs\fpga\C200_FPGA\gp22\gp22_control.v":118:1:118:6|Pruning register bit 5 of r_tdc_num[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"D:\programs\fpga\C200_FPGA\dist_calculate.v":101:1:101:6|Pruning unused register r_pulse_value[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\programs\fpga\C200_FPGA\dist_calculate.v":101:1:101:6|Removing unused bit 16 of r_coe_sram_addr[17:0]. Either assign all bits or reduce the width of the signal.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\dist_calculate.v":101:1:101:6|Pruning register bits 15 to 8 of r_pulse_step[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\dist_calculate.v":101:1:101:6|Pruning register bits 6 to 0 of r_pulse_step[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\dist_calculate.v":101:1:101:6|Pruning register bits 15 to 7 of r_rise_step[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\dist_calculate.v":101:1:101:6|Pruning register bits 5 to 0 of r_rise_step[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CG360 :"D:\programs\fpga\C200_FPGA\data_packet.v":26:15:26:26|Removing wire o_time_stamp, as there is no assignment to it.
+@W: CL318 :"D:\programs\fpga\C200_FPGA\data_packet.v":26:15:26:26|*Output o_time_stamp has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\data_packet.v":195:1:195:6|Optimizing register bit r_packet_points[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\data_packet.v":195:1:195:6|Optimizing register bit r_packet_points[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\data_packet.v":195:1:195:6|Optimizing register bit r_packet_points[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\data_packet.v":195:1:195:6|Optimizing register bit r_packet_points[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\data_packet.v":195:1:195:6|Optimizing register bit r_packet_points[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\data_packet.v":195:1:195:6|Optimizing register bit r_packet_points[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\data_packet.v":195:1:195:6|Optimizing register bit r_packet_points[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\data_packet.v":195:1:195:6|Pruning register bits 15 to 9 of r_packet_points[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CG360 :"D:\programs\fpga\C200_FPGA\flash_control.v":28:12:28:21|Removing wire w_ram_data, as there is no assignment to it.
+@W: CG360 :"D:\programs\fpga\C200_FPGA\flash_control.v":30:8:30:18|Removing wire w_flash_clk, as there is no assignment to it.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\flash_control.v":166:1:166:6|Optimizing register bit r_flash_cmd[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\flash_control.v":166:1:166:6|Optimizing register bit r_flash_cmd[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\programs\fpga\C200_FPGA\flash_control.v":166:1:166:6|Pruning register bit 5 of r_flash_cmd[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\programs\fpga\C200_FPGA\flash_control.v":166:1:166:6|Pruning register bit 2 of r_flash_cmd[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\spi_w5500_cmd.v":56:1:56:6|Optimizing register bit r_cmd[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\spi_w5500_cmd.v":56:1:56:6|Optimizing register bit r_cmd[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\eth\spi_w5500_cmd.v":56:1:56:6|Pruning register bits 1 to 0 of r_cmd[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CG781 :"D:\programs\fpga\C200_FPGA\eth\tcp_recv_fifo.v":343:12:343:12|Input CIN on instance bdcnt_bctr_cia is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\eth\tcp_recv_fifo.v":399:12:399:12|Input CIN on instance e_cmp_ci_a is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\eth\tcp_recv_fifo.v":463:12:463:12|Input CIN on instance g_cmp_ci_a is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\eth\tcp_recv_fifo.v":527:12:527:12|Input CIN on instance w_ctr_cia is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\eth\tcp_recv_fifo.v":583:12:583:12|Input CIN on instance r_ctr_cia is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\eth\tcp_send_fifo.v":343:12:343:12|Input CIN on instance bdcnt_bctr_cia is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\eth\tcp_send_fifo.v":399:12:399:12|Input CIN on instance e_cmp_ci_a is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\eth\tcp_send_fifo.v":463:12:463:12|Input CIN on instance g_cmp_ci_a is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\eth\tcp_send_fifo.v":527:12:527:12|Input CIN on instance w_ctr_cia is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\eth\tcp_send_fifo.v":583:12:583:12|Input CIN on instance r_ctr_cia is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CS263 :"D:\programs\fpga\C200_FPGA\eth\spi_w5500_top.v":759:12:759:29|Port-width mismatch for port WCNT. The port definition is 12 bits, but the actual port connection bit width is 11. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\programs\fpga\C200_FPGA\eth\spi_w5500_top.v":771:12:771:29|Port-width mismatch for port WCNT. The port definition is 12 bits, but the actual port connection bit width is 11. Adjust either the definition or the instantiation of this port.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\spi_w5500_top.v":158:1:158:6|Optimizing register bit r_cmd[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\programs\fpga\C200_FPGA\eth\spi_w5500_top.v":158:1:158:6|Pruning register bit 7 of r_cmd[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CG781 :"D:\programs\fpga\C200_FPGA\C200_FPGA\eth_data_fifo\eth_data_fifo.v":343:12:343:12|Input CIN on instance bdcnt_bctr_cia is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\C200_FPGA\eth_data_fifo\eth_data_fifo.v":399:12:399:12|Input CIN on instance e_cmp_ci_a is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\C200_FPGA\eth_data_fifo\eth_data_fifo.v":463:12:463:12|Input CIN on instance g_cmp_ci_a is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\C200_FPGA\eth_data_fifo\eth_data_fifo.v":527:12:527:12|Input CIN on instance w_ctr_cia is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\C200_FPGA\eth_data_fifo\eth_data_fifo.v":583:12:583:12|Input CIN on instance r_ctr_cia is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\C200_FPGA\packet_data_fifo\packet_data_fifo.v":343:12:343:12|Input CIN on instance bdcnt_bctr_cia is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\C200_FPGA\packet_data_fifo\packet_data_fifo.v":399:12:399:12|Input CIN on instance e_cmp_ci_a is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\C200_FPGA\packet_data_fifo\packet_data_fifo.v":463:12:463:12|Input CIN on instance g_cmp_ci_a is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\C200_FPGA\packet_data_fifo\packet_data_fifo.v":527:12:527:12|Input CIN on instance w_ctr_cia is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\C200_FPGA\packet_data_fifo\packet_data_fifo.v":583:12:583:12|Input CIN on instance r_ctr_cia is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":1152:11:1152:11|Input Reset on instance u1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":1164:11:1164:11|Input Reset on instance u2 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":1176:11:1176:11|Input Reset on instance u3 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG360 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":49:16:49:25|Removing wire o_send_num, as there is no assignment to it.
+@W: CL318 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":49:16:49:25|*Output o_send_num has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL113 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Feedback mux created for signal o_get_para8[31:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Feedback mux created for signal o_get_para7[31:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Sharing sequential element o_get_para7. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL250 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|All reachable assignments to o_get_para8[31:0] assign 0, register removed by optimization
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para3[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para3[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para3[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para3[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para3[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para3[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para3[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para3[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para3[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para3[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para3[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para3[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para3[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para3[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para3[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para3[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para4[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para4[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para4[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para4[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para4[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para4[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para4[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para4[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Optimizing register bit o_get_para4[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Pruning register bits 31 to 16 of o_get_para3[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":879:1:879:6|Pruning register bits 31 to 16 of o_get_para4[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\parameter_init.v":883:1:883:6|Pruning register bits 31 to 16 of r_set_para3[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\parameter_init.v":883:1:883:6|Pruning register bits 31 to 16 of r_set_para5[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\programs\fpga\C200_FPGA\parameter_init.v":1056:1:1056:6|Pruning register bit 2 of r_config_mode[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\parameter_init.v":883:1:883:6|Pruning register bits 31 to 16 of r_set_para6[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\parameter_init.v":883:1:883:6|Pruning register bits 31 to 17 of r_set_para7[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\parameter_init.v":883:1:883:6|Pruning register bits 15 to 1 of r_set_para7[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CG360 :"D:\programs\fpga\C200_FPGA\w5500_control.v":59:10:59:21|Removing wire o_pulse_mode, as there is no assignment to it.
+@W: CL318 :"D:\programs\fpga\C200_FPGA\w5500_control.v":59:10:59:21|*Output o_pulse_mode has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CS263 :"D:\programs\fpga\C200_FPGA\C200_FPGA.v":134:19:134:31|Port-width mismatch for port i_temp_point1. The port definition is 16 bits, but the actual port connection bit width is 12. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\programs\fpga\C200_FPGA\C200_FPGA.v":135:19:135:31|Port-width mismatch for port i_temp_point2. The port definition is 16 bits, but the actual port connection bit width is 12. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\programs\fpga\C200_FPGA\C200_FPGA.v":371:20:371:32|Port-width mismatch for port o_temp_point1. The port definition is 16 bits, but the actual port connection bit width is 12. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\programs\fpga\C200_FPGA\C200_FPGA.v":372:20:372:32|Port-width mismatch for port o_temp_point2. The port definition is 16 bits, but the actual port connection bit width is 12. Adjust either the definition or the instantiation of this port.
+@W: CL249 :"D:\programs\fpga\C200_FPGA\parameter_init.v":189:1:189:6|Initial value is not supported on state machine r_para_state
+@W: CL246 :"D:\programs\fpga\C200_FPGA\parameter_init.v":24:14:24:24|Input port bits 31 to 16 of i_get_para3[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\programs\fpga\C200_FPGA\parameter_init.v":25:14:25:24|Input port bits 31 to 16 of i_get_para4[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\programs\fpga\C200_FPGA\parameter_init.v":26:14:26:24|Input port bits 31 to 16 of i_get_para5[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL249 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":1110:1:1110:6|Initial value is not supported on state machine r_state
+@W: CL246 :"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v":22:15:22:25|Input port bits 31 to 16 of i_set_para3[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\eth\spi_w5500_top.v":107:1:107:6|Pruning register bits 31 to 18 of r_rst_cnt[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL249 :"D:\programs\fpga\C200_FPGA\eth\spi_w5500_top.v":158:1:158:6|Initial value is not supported on state machine r_state
+@W: CL249 :"D:\programs\fpga\C200_FPGA\eth\spi_w5500_cmd.v":245:1:245:6|Initial value is not supported on state machine r_state
+@W: CL249 :"D:\programs\fpga\C200_FPGA\flash_control.v":76:1:76:6|Initial value is not supported on state machine r_flash_state
+@W: CL260 :"D:\programs\fpga\C200_FPGA\flash_control.v":166:1:166:6|Pruning register bit 4 of r_flash_cmd[4:3]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\programs\fpga\C200_FPGA\flash_control.v":166:1:166:6|Pruning register bit 7 of r_flash_cmd[7:6]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL249 :"D:\programs\fpga\C200_FPGA\spi flash\spi_flash_top.v":94:1:94:6|Initial value is not supported on state machine r_state
+@W: CL249 :"D:\programs\fpga\C200_FPGA\spi flash\spi_flash_top.v":50:1:50:6|Initial value is not supported on state machine r_cmd
+@W: CL249 :"D:\programs\fpga\C200_FPGA\spi flash\spi_flash_cmd.v":177:1:177:6|Initial value is not supported on state machine r_state
+@W: CL249 :"D:\programs\fpga\C200_FPGA\spi flash\spi_master.v":107:1:107:6|Initial value is not supported on state machine r_state
+@W: CL249 :"D:\programs\fpga\C200_FPGA\data_packet.v":81:1:81:6|Initial value is not supported on state machine r_packet_state
+@W: CL246 :"D:\programs\fpga\C200_FPGA\data_packet.v":10:14:10:24|Input port bits 7 to 0 of i_rssi_data[15:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\dist_calculate.v":101:1:101:6|Pruning register bits 15 to 10 of r_rise_index[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\dist_calculate.v":101:1:101:6|Pruning register bits 15 to 8 of r_pulse_index[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\dist_calculate.v":101:1:101:6|Pruning register bits 15 to 5 of r_delay_cnt[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL249 :"D:\programs\fpga\C200_FPGA\dist_calculate.v":101:1:101:6|Initial value is not supported on state machine r_cal_state
+@W: CL279 :"D:\programs\fpga\C200_FPGA\gp22\gp22_control.v":118:1:118:6|Pruning register bits 31 to 17 of r_msr_cnt[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL249 :"D:\programs\fpga\C200_FPGA\gp22\gp22_control.v":118:1:118:6|Initial value is not supported on state machine r_msr_state
+@W: CL260 :"D:\programs\fpga\C200_FPGA\gp22\gp22_control.v":118:1:118:6|Pruning register bit 4 of r_tdc_num[4:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\gp22\gp22_control.v":118:1:118:6|Pruning register bits 2 to 1 of r_tdc_num[4:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\programs\fpga\C200_FPGA\gp22\gp22_spi.v":64:0:64:5|Pruning register bit 2 of SPI_cnt[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\programs\fpga\C200_FPGA\gp22\gp22_spi.v":64:0:64:5|Pruning register bit 0 of TDCspi_state[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL249 :"D:\programs\fpga\C200_FPGA\self_inspection.v":64:1:64:6|Initial value is not supported on state machine r_check_state
+@W: CL246 :"D:\programs\fpga\C200_FPGA\self_inspection.v":12:14:12:26|Input port bits 15 to 12 of i_temp_point1[15:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\programs\fpga\C200_FPGA\self_inspection.v":13:14:13:26|Input port bits 15 to 12 of i_temp_point2[15:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL249 :"D:\programs\fpga\C200_FPGA\adc_to_dac_2.v":67:1:67:6|Initial value is not supported on state machine r_dac_state
+@W: CL279 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Pruning register bits 7 to 4 of r_dealy_cnt[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL249 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Initial value is not supported on state machine r_temp_state
+@W: CL279 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Pruning register bits 15 to 13 of r_divisor[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v":70:1:70:6|Pruning register bits 15 to 13 of r_mult1_dataA[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL249 :"D:\programs\fpga\C200_FPGA\division.v":26:1:26:6|Initial value is not supported on state machine r_cal_state
+@W: CL279 :"D:\programs\fpga\C200_FPGA\mcp4726a0_top.v":61:1:61:6|Pruning register bits 15 to 10 of r_clk_cnt[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL249 :"D:\programs\fpga\C200_FPGA\mcp4726a0_top.v":196:1:196:6|Initial value is not supported on state machine r_state
+@W: CL249 :"D:\programs\fpga\C200_FPGA\tla2024_top.v":47:1:47:6|Initial value is not supported on state machine r_state
+@W: CL260 :"D:\programs\fpga\C200_FPGA\tla2024_top.v":47:1:47:6|Pruning register bit 15 of r_data_in[15:12]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\tla2024_top.v":47:1:47:6|Pruning register bits 9 to 7 of r_data_in[9:6]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\i2c_master.v":88:1:88:6|Pruning register bits 15 to 10 of r_clk_cnt[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL249 :"D:\programs\fpga\C200_FPGA\i2c_master.v":266:1:266:6|Initial value is not supported on state machine r_state
+@W: CL260 :"D:\programs\fpga\C200_FPGA\i2c_master.v":43:1:43:6|Pruning register bit 5 of r_bit_size[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\programs\fpga\C200_FPGA\i2c_master.v":43:1:43:6|Pruning register bit 3 of r_bit_size[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL247 :"D:\programs\fpga\C200_FPGA\rotating_module.v":7:13:7:25|Input port bit 7 of i_config_mode[7:0] is unused
+@W: CL279 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":169:1:169:6|Pruning register bits 7 to 6 of r_pss_cnt[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":169:1:169:6|Pruning register bits 7 to 3 of r_delay_cnt[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL249 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":169:1:169:6|Initial value is not supported on state machine fs_state
+@W: CL279 :"D:\programs\fpga\C200_FPGA\encoder_generate_3.v":260:1:260:6|Pruning register bits 15 to 13 of r_angle_zero[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\programs\fpga\C200_FPGA\motor_control.v":124:1:124:6|Pruning register bits 31 to 30 of r_delay_40s[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+

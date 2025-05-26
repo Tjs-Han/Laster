@@ -1,0 +1,5 @@
+#Start recording tcl command: 12/20/2024 09:23:37
+#Project Location: D:/programs/fpga/C200/C200/C200_FPGA; Project name: C200_FPGA
+prj_project open "D:/programs/fpga/C200/C200/C200_FPGA/C200_FPGA.ldf"
+prj_run Export -impl impl1 -task Bitgen
+#Stop recording: 12/20/2024 10:24:18

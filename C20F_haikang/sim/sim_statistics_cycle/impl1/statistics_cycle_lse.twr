@@ -1,0 +1,155 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Fri Apr 25 14:08:57 2025
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     statistics_cycle
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk0 [get_nets i_clk_50m_c]
+            816 items scored, 2 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 0.614ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AY    CK             r_opto_switch1_52  (from i_clk_50m_c +)
+   Destination:    FD1S3IX    D              r_ram_waddr__i0  (to i_clk_50m_c +)
+
+   Delay:                   5.789ns  (14.9% logic, 85.1% route), 4 logic levels.
+
+ Constraint Details:
+
+      5.789ns data_path r_opto_switch1_52 to r_ram_waddr__i0 violates
+      5.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 5.175ns) by 0.614ns
+
+ Path Details: r_opto_switch1_52 to r_ram_waddr__i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              r_opto_switch1_52 (from i_clk_50m_c)
+Route         3   e 1.339                                  r_opto_switch1
+LUT4        ---     0.166              B to Z              w_opto_rise_I_0_64_2_lut_rep_1
+Route         2   e 1.158                                  i_clk_50m_c_enable_1
+LUT4        ---     0.166              D to Z              i1_4_lut_4_lut
+Route         7   e 1.409                                  r_we_N_130
+LUT4        ---     0.166              B to Z              i148_2_lut
+Route         1   e 1.020                                  n17
+                  --------
+                    5.789  (14.9% logic, 85.1% route), 4 logic levels.
+
+
+Error:  The following path violates requirements by 0.533ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AY    CK             r_opto_switch2_53  (from i_clk_50m_c +)
+   Destination:    FD1S3IX    D              r_ram_waddr__i0  (to i_clk_50m_c +)
+
+   Delay:                   5.708ns  (15.1% logic, 84.9% route), 4 logic levels.
+
+ Constraint Details:
+
+      5.708ns data_path r_opto_switch2_53 to r_ram_waddr__i0 violates
+      5.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 5.175ns) by 0.533ns
+
+ Path Details: r_opto_switch2_53 to r_ram_waddr__i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              r_opto_switch2_53 (from i_clk_50m_c)
+Route         2   e 1.258                                  r_opto_switch2
+LUT4        ---     0.166              A to Z              w_opto_rise_I_0_64_2_lut_rep_1
+Route         2   e 1.158                                  i_clk_50m_c_enable_1
+LUT4        ---     0.166              D to Z              i1_4_lut_4_lut
+Route         7   e 1.409                                  r_we_N_130
+LUT4        ---     0.166              B to Z              i148_2_lut
+Route         1   e 1.020                                  n17
+                  --------
+                    5.708  (15.1% logic, 84.9% route), 4 logic levels.
+
+
+Passed:  The following path meets requirements by 0.476ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AY    CK             r_opto_switch1_52  (from i_clk_50m_c +)
+   Destination:    FD1P3IX    SP             r_ram_waddr__i1  (to i_clk_50m_c +)
+
+   Delay:                   4.603ns  (15.1% logic, 84.9% route), 3 logic levels.
+
+ Constraint Details:
+
+      4.603ns data_path r_opto_switch1_52 to r_ram_waddr__i1 meets
+      5.000ns delay constraint less
+     -0.079ns LCE_S requirement (totaling 5.079ns) by 0.476ns
+
+ Path Details: r_opto_switch1_52 to r_ram_waddr__i1
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              r_opto_switch1_52 (from i_clk_50m_c)
+Route         3   e 1.339                                  r_opto_switch1
+LUT4        ---     0.166              B to Z              w_opto_rise_I_0_64_2_lut_rep_1
+Route         2   e 1.158                                  i_clk_50m_c_enable_1
+LUT4        ---     0.166              D to Z              i1_4_lut_4_lut
+Route         7   e 1.409                                  r_we_N_130
+                  --------
+                    4.603  (15.1% logic, 84.9% route), 3 logic levels.
+
+Warning: 5.614 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets i_clk_50m_c]             |     5.000 ns|     5.614 ns|     4 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+--------------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+--------------------------------------------------------------------------------
+i_clk_50m_c_enable_1                    |       2|       2|     99.00%
+                                        |        |        |
+n17                                     |       1|       2|     99.00%
+                                        |        |        |
+r_we_N_130                              |       7|       2|     99.00%
+                                        |        |        |
+r_opto_switch1                          |       3|       1|     50.00%
+                                        |        |        |
+r_opto_switch2                          |       2|       1|     50.00%
+                                        |        |        |
+--------------------------------------------------------------------------------
+
+
+Timing summary:
+---------------
+
+Timing errors: 2  Score: 1147
+
+Constraints cover  873 paths, 138 nets, and 353 connections (88.3% coverage)
+
+
+Peak memory: 100573184 bytes, TRCE: 761856 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 

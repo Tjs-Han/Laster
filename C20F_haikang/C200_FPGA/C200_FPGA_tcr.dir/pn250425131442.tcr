@@ -1,0 +1,6 @@
+#Start recording tcl command: 4/25/2025 09:27:16
+#Project Location: D:/Project/C20F_haikang/C200_FPGA; Project name: C200_FPGA
+prj_project open "D:/Project/C20F_haikang/C200_FPGA/C200_FPGA.ldf"
+prj_run Map -impl impl1 -task MapTrace -forceAll
+prj_project close
+#Stop recording: 4/25/2025 13:14:42

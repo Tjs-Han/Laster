@@ -1,0 +1,248 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\programs\\fpga\\C200_FPGA\\impl1\\synwork\\impl1_comp.srs|-top|C200_FPGA|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|D:\\programs\\fpga\\C200_FPGA|-I|D:\\programs\\fpga\\C200_FPGA\\impl1\\|-I|E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib|-sysv|-devicelib|E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib\\lucent\\ecp5u.v|-devicelib|E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-DSBP_SYNTHESIS|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001"
+#CUR:"E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\bin64\\c_ver.exe":1603937922
+#CUR:"E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib\\lucent\\ecp5u.v":1603938054
+#CUR:"E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib\\lucent\\pmi_def.v":1603938054
+#CUR:"E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib\\vlog\\hypermods.v":1603938190
+#CUR:"E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib\\vlog\\umr_capim.v":1603938190
+#CUR:"E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_objects.v":1603938190
+#CUR:"E:\\tools\\Iscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1603938190
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\C200_FPGA.v":1622617834
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\C200_FPGA\\C200_PLL\\C200_PLL.v":1622604390
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\C200_FPGA\\eth_data_fifo\\eth_data_fifo.v":1621412886
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\C200_FPGA\\multiplier\\multiplier.v":1622179065
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\C200_FPGA\\packet_data_fifo\\packet_data_fifo.v":1621317058
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\rotating_module.v":1622529834
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\opto_switch_filter.v":1622604474
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\motor_control.v":1622604742
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\encoder_generate.v":1622604802
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\laser_control.v":1622204841
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\dist_measure.v":1622512037
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\tdc_control.v":1622475011
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\dist_calculate.v":1622605158
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\sram_control.v":1622448394
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\spi flash\\spi_master.v":1619327369
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\spi flash\\spi_flash_top.v":1621216973
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\spi flash\\spi_flash_cmd.v":1619507497
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\flash_control.v":1622605209
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\eth\\datagram_parser.v":1622617595
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\eth\\datagram_cmd_defines.v":1621412233
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\eth\\spi_w5500_cmd.v":1619673414
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\eth\\w5500_reg_defines.v":1619579763
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\eth\\w5500_cmd_defines.v":1620609378
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\eth\\spi_w5500_top.v":1622381733
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\eth\\w5500_reg_defines.v":1619579763
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\eth\\w5500_cmd_defines.v":1620609378
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\eth\\datagram_cmd_defines.v":1621412233
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\eth\\w5500_cmd_defines.v":1620609378
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\eth\\w5500_reg_defines.v":1619579763
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\eth\\tcp_recv_fifo.v":1621217414
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\eth\\tcp_send_fifo.v":1621218203
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\w5500_control.v":1622537007
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\parameter_init.v":1622617414
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\datagram_cmd_defines.v":1621412233
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\parameter_ident_define.v":1622464112
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\data_packet.v":1622440258
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\mcp4726a0_top.v":1622023608
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\tla2024_cmd_defines.v":1621416133
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\tla2024_top.v":1622080960
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\tla2024_cmd_defines.v":1621416133
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\i2c_master.v":1621922579
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\tla2024_cmd_defines.v":1621416133
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\self_inspection.v":1622450787
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\parameter_ident_define.v":1622464112
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\test.v":1621765998
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\adc_to_dac.v":1622115865
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\adc_to_temp.v":1622114583
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\encoder_generate_2.v":1622604827
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\adc_to_dac_2.v":1622617813
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\adc_to_temp_2.v":1622200658
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\division.v":1622200613
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\TDC_SPI_ms1004.v":1622254648
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\gp22\\gp22_control.v":1622604954
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\gp22\\gp22_spi.v":1622254829
+#CUR:"D:\\programs\\fpga\\C200_FPGA\\encoder_generate_3.v":1622604846
+0			"D:\programs\fpga\C200_FPGA\C200_FPGA.v" verilog
+1			"D:\programs\fpga\C200_FPGA\C200_FPGA\C200_PLL\C200_PLL.v" verilog
+2			"D:\programs\fpga\C200_FPGA\C200_FPGA\eth_data_fifo\eth_data_fifo.v" verilog
+3			"D:\programs\fpga\C200_FPGA\C200_FPGA\multiplier\multiplier.v" verilog
+4			"D:\programs\fpga\C200_FPGA\C200_FPGA\packet_data_fifo\packet_data_fifo.v" verilog
+5			"D:\programs\fpga\C200_FPGA\rotating_module.v" verilog
+6			"D:\programs\fpga\C200_FPGA\opto_switch_filter.v" verilog
+7			"D:\programs\fpga\C200_FPGA\motor_control.v" verilog
+8			"D:\programs\fpga\C200_FPGA\encoder_generate.v" verilog
+9			"D:\programs\fpga\C200_FPGA\laser_control.v" verilog
+10			"D:\programs\fpga\C200_FPGA\dist_measure.v" verilog
+11			"D:\programs\fpga\C200_FPGA\tdc_control.v" verilog
+12			"D:\programs\fpga\C200_FPGA\dist_calculate.v" verilog
+13			"D:\programs\fpga\C200_FPGA\sram_control.v" verilog
+14			"D:\programs\fpga\C200_FPGA\spi flash\spi_master.v" verilog
+15			"D:\programs\fpga\C200_FPGA\spi flash\spi_flash_top.v" verilog
+16			"D:\programs\fpga\C200_FPGA\spi flash\spi_flash_cmd.v" verilog
+17			"D:\programs\fpga\C200_FPGA\flash_control.v" verilog
+18			"D:\programs\fpga\C200_FPGA\eth\datagram_parser.v" verilog
+19		*	"D:\programs\fpga\C200_FPGA\eth\datagram_cmd_defines.v" verilog
+20			"D:\programs\fpga\C200_FPGA\eth\spi_w5500_cmd.v" verilog
+21		*	"D:\programs\fpga\C200_FPGA\eth\w5500_reg_defines.v" verilog
+22		*	"D:\programs\fpga\C200_FPGA\eth\w5500_cmd_defines.v" verilog
+23			"D:\programs\fpga\C200_FPGA\eth\spi_w5500_top.v" verilog
+24			"D:\programs\fpga\C200_FPGA\eth\tcp_recv_fifo.v" verilog
+25			"D:\programs\fpga\C200_FPGA\eth\tcp_send_fifo.v" verilog
+26			"D:\programs\fpga\C200_FPGA\w5500_control.v" verilog
+27			"D:\programs\fpga\C200_FPGA\parameter_init.v" verilog
+28		*	"D:\programs\fpga\C200_FPGA\datagram_cmd_defines.v" verilog
+29		*	"D:\programs\fpga\C200_FPGA\parameter_ident_define.v" verilog
+30			"D:\programs\fpga\C200_FPGA\data_packet.v" verilog
+31			"D:\programs\fpga\C200_FPGA\mcp4726a0_top.v" verilog
+32			"D:\programs\fpga\C200_FPGA\tla2024_cmd_defines.v" verilog
+33			"D:\programs\fpga\C200_FPGA\tla2024_top.v" verilog
+34			"D:\programs\fpga\C200_FPGA\i2c_master.v" verilog
+35			"D:\programs\fpga\C200_FPGA\self_inspection.v" verilog
+36			"D:\programs\fpga\C200_FPGA\test.v" verilog
+37			"D:\programs\fpga\C200_FPGA\adc_to_dac.v" verilog
+38			"D:\programs\fpga\C200_FPGA\adc_to_temp.v" verilog
+39			"D:\programs\fpga\C200_FPGA\encoder_generate_2.v" verilog
+40			"D:\programs\fpga\C200_FPGA\adc_to_dac_2.v" verilog
+41			"D:\programs\fpga\C200_FPGA\adc_to_temp_2.v" verilog
+42			"D:\programs\fpga\C200_FPGA\division.v" verilog
+43			"D:\programs\fpga\C200_FPGA\TDC_SPI_ms1004.v" verilog
+44			"D:\programs\fpga\C200_FPGA\gp22\gp22_control.v" verilog
+45			"D:\programs\fpga\C200_FPGA\gp22\gp22_spi.v" verilog
+46			"D:\programs\fpga\C200_FPGA\encoder_generate_3.v" verilog
+#Dependency Lists(Uses List)
+0 26 17 13 10 9 35 5 1
+1 -1
+2 -1
+3 -1
+4 -1
+5 46 7 6
+6 -1
+7 -1
+8 -1
+9 -1
+10 30 12 44
+11 43
+12 -1
+13 -1
+14 -1
+15 16
+16 14
+17 15
+18 4 2 19
+19 -1
+20 14 22 21
+21 22
+22 21
+23 25 24 20 22 21
+24 -1
+25 -1
+26 29 28 27 19 18 22 21 23
+27 29 28
+28 29
+29 28
+30 -1
+31 -1
+32 -1
+33 34 32
+34 32
+35 40 31 32 33
+36 -1
+37 38
+38 -1
+39 -1
+40 3 41
+41 42 3
+42 -1
+43 -1
+44 45
+45 -1
+46 -1
+#Dependency Lists(Users Of)
+0 -1
+1 0
+2 18
+3 41 40
+4 18
+5 0
+6 5
+7 5
+8 -1
+9 0
+10 0
+11 -1
+12 10
+13 0
+14 20 16
+15 17
+16 15
+17 0
+18 26
+19 26 18
+20 23
+21 26 23 22 20
+22 26 23 21 20
+23 26
+24 23
+25 23
+26 0
+27 26
+28 29 27 26
+29 28 27 26
+30 10
+31 35
+32 35 34 33
+33 35
+34 33
+35 0
+36 -1
+37 -1
+38 37
+39 -1
+40 35
+41 40
+42 41
+43 11
+44 10
+45 44
+46 5
+#Design Unit to File Association
+module work gp22_spi 45
+module work division 42
+module work adc_to_temp_2 41
+module work encoder_generate_2 39
+module work adc_to_temp 38
+module work adc_to_dac 37
+module work test 36
+module work adc_to_dac_2 40
+module work i2c_master 34
+module work tla2024_top 33
+module work mcp4726a0_top 31
+module work parameter_init 27
+module work tcp_send_fifo 25
+module work tcp_recv_fifo 24
+module work spi_w5500_top 23
+module work spi_w5500_cmd 20
+module work datagram_parser 18
+module work spi_flash_cmd 16
+module work spi_flash_top 15
+module work spi_master 14
+module work TDC_SPI_ms1004 43
+module work tdc_control 11
+module work data_packet 30
+module work dist_calculate 12
+module work gp22_control 44
+module work encoder_generate 8
+module work encoder_generate_3 46
+module work motor_control 7
+module work opto_switch_filter 6
+module work packet_data_fifo 4
+module work multiplier 3
+module work eth_data_fifo 2
+module work w5500_control 26
+module work flash_control 17
+module work sram_control 13
+module work dist_measure 10
+module work laser_control 9
+module work self_inspection 35
+module work rotating_module 5
+module work C200_PLL 1
+module work C200_FPGA 0

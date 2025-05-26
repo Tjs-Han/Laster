@@ -1,0 +1,159 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn241219201729"></A><B><U><big>pn241219201729</big></U></B>
+#Start recording tcl command: 12/19/2024 19:07:30
+#Project Location: D:/programs/fpga/C200/C200/C200_FPGA; Project name: C200_FPGA
+prj_project open "D:/programs/fpga/C200/C200/C200_FPGA/C200_FPGA.ldf"
+#Stop recording: 12/19/2024 20:17:29
+
+
+
+<A name="pn241220102418"></A><B><U><big>pn241220102418</big></U></B>
+#Start recording tcl command: 12/20/2024 09:23:37
+#Project Location: D:/programs/fpga/C200/C200/C200_FPGA; Project name: C200_FPGA
+prj_project open "D:/programs/fpga/C200/C200/C200_FPGA/C200_FPGA.ldf"
+prj_run Export -impl impl1 -task Bitgen
+#Stop recording: 12/20/2024 10:24:18
+
+
+
+<A name="pn241220160055"></A><B><U><big>pn241220160055</big></U></B>
+#Start recording tcl command: 12/20/2024 10:26:48
+#Project Location: D:/programs/fpga/C200/C200/C200_FPGA; Project name: C200_FPGA
+prj_project open "D:/programs/fpga/C200/C200/C200_FPGA/C200_FPGA.ldf"
+sbp_design open -dsgn "D:/programs/fpga/C200/C200/C200_FPGA/C200_FPGA/C200_FPGA.sbx"
+prj_src add "D:/programs/fpga/C200/C200/C200_FPGA/tb_tdc_process.v"
+prj_src add "D:/programs/fpga/C200/C200/C200_FPGA/sim/tb_tdc_process/tb_tdc_process.spf"
+prj_src add "D:/programs/fpga/C200/C200/C200_FPGA/sim/tb_tdc_process/tb_tdc_process.spf"
+#Stop recording: 12/20/2024 16:00:55
+
+
+
+<A name="pn241220213525"></A><B><U><big>pn241220213525</big></U></B>
+#Start recording tcl command: 12/20/2024 16:03:44
+#Project Location: D:/programs/fpga/C200/C200/C200_FPGA; Project name: C200_FPGA
+prj_project open "D:/programs/fpga/C200/C200/C200_FPGA/C200_FPGA.ldf"
+#Stop recording: 12/20/2024 21:35:25
+
+
+
+<A name="pn250424162913"></A><B><U><big>pn250424162913</big></U></B>
+#Start recording tcl command: 4/24/2025 14:52:11
+#Project Location: D:/Project/C20F_haikang/C200_FPGA; Project name: C200_FPGA
+prj_project open "D:/Project/C20F_haikang/C200_FPGA/C200_FPGA.ldf"
+prj_project close
+#Stop recording: 4/24/2025 16:29:13
+
+
+
+<A name="pn250425131442"></A><B><U><big>pn250425131442</big></U></B>
+#Start recording tcl command: 4/25/2025 09:27:16
+#Project Location: D:/Project/C20F_haikang/C200_FPGA; Project name: C200_FPGA
+prj_project open "D:/Project/C20F_haikang/C200_FPGA/C200_FPGA.ldf"
+prj_run Map -impl impl1 -task MapTrace -forceAll
+prj_project close
+#Stop recording: 4/25/2025 13:14:42
+
+
+
+<A name="pn250425153701"></A><B><U><big>pn250425153701</big></U></B>
+#Start recording tcl command: 4/25/2025 13:31:54
+#Project Location: D:/Project/C20F_haikang/C200_FPGA; Project name: C200_FPGA
+prj_project open "D:/Project/C20F_haikang/C200_FPGA/C200_FPGA.ldf"
+sbp_design open -dsgn "D:/Project/C20F_haikang/C200_FPGA/tdc_data/tdc_data.sbx"
+sbp_design open -dsgn "D:/Project/C20F_haikang/C200_FPGA/C200_FPGA/C200_FPGA.sbx"
+#Stop recording: 4/25/2025 15:37:01
+
+
+
+<A name="pn250425160007"></A><B><U><big>pn250425160007</big></U></B>
+#Start recording tcl command: 4/25/2025 15:40:09
+#Project Location: D:/Project/C20F_haikang/C200_FPGA; Project name: C200_FPGA
+prj_project open "D:/Project/C20F_haikang/C200_FPGA/C200_FPGA.ldf"
+prj_src add "D:/Project/C20F_haikang/C200_FPGA/rtl_tjs/statistics_cycle.v" "D:/Project/C20F_haikang/C200_FPGA/rtl_tjs/rotating_module_1.v"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "D:/Project/C20F_haikang/C200_FPGA/ram_w32_depth64"
+source "D:/Project/C20F_haikang/C200_FPGA/ram_w32_depth64/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+prj_src add "D:/Project/C20F_haikang/C200_FPGA/ram_w32_depth64/ram_w32_depth64.sbx"
+sbp_design open -dsgn "D:/Project/C20F_haikang/C200_FPGA/ram_w32_depth64/ram_w32_depth64.sbx"
+prj_run Synthesis -impl impl1
+#Stop recording: 4/25/2025 16:00:07
+
+
+
+<A name="pn250513163201"></A><B><U><big>pn250513163201</big></U></B>
+#Start recording tcl command: 5/13/2025 16:12:03
+#Project Location: D:/Project/C20F_haikang/C200_FPGA; Project name: C200_FPGA
+prj_project open "D:/Project/C20F_haikang/C200_FPGA/C200_FPGA.ldf"
+#Stop recording: 5/13/2025 16:32:01
+
+
+
+<A name="pn250519111234"></A><B><U><big>pn250519111234</big></U></B>
+#Start recording tcl command: 5/19/2025 11:10:45
+#Project Location: D:/Project/C20F_haikang/C200_FPGA; Project name: C200_FPGA
+prj_project open "D:/Project/C20F_haikang/C200_FPGA/C200_FPGA.ldf"
+#Stop recording: 5/19/2025 11:12:34
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

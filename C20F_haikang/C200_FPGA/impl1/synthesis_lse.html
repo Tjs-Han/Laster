@@ -1,0 +1,891 @@
+<HTML>
+<HEAD><TITLE>Synthesis and Ngdbuild Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis and Ngdbuild  Report</big></U></B>
+synthesis:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Mon Apr 28 16:16:52 2025
+
+
+Command Line:  synthesis -f C200_FPGA_impl1_lattice.synproj -gui -msgset D:/Project/C20F_haikang/C200_FPGA/promote.xml 
+
+Synthesis options:
+The -a option is ECP5U.
+The -s option is 6.
+The -t option is CABGA256.
+The -d option is LFE5U-25F.
+Using package CABGA256.
+Using performance grade 6.
+                                                          
+
+##########################################################
+
+### Lattice Family : ECP5U
+
+### Device  : LFE5U-25F
+
+### Package : CABGA256
+
+### Speed   : 6
+
+##########################################################
+
+                                                          
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Timing
+Top-level module name = C200_FPGA.
+Target frequency = 100.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/lscc/diamond/3.12/ispfpga/sa5p00/data (searchpath added)
+-p D:/Project/C20F_haikang/C200_FPGA/impl1 (searchpath added)
+-p D:/Project/C20F_haikang/C200_FPGA (searchpath added)
+-p D:/Project/C20F_haikang/C200_FPGA/impl1/reveal_workspace/C200_FPGA (searchpath added)
+Key file = D:/lscc/diamond/3.12/module/reveal/document/reveal_test.dat
+File D:/lscc/diamond/3.12/module/reveal/src/ertl/ertl.v is encrypted
+
+File D:/lscc/diamond/3.12/module/reveal/src/rvl_j2w_module/rvl_j2w_module.v is encrypted
+
+File D:/lscc/diamond/3.12/module/reveal/src/ertl/JTAG_SOFT.v is encrypted
+
+Verilog design file = D:/lscc/diamond/3.12/cae_library/synthesis/verilog/pmi_def.v
+Verilog design file = D:/lscc/diamond/3.12/module/reveal/src/ertl/ertl.v
+Verilog design file = D:/lscc/diamond/3.12/module/reveal/src/rvl_j2w_module/rvl_j2w_module.v
+Verilog design file = D:/lscc/diamond/3.12/module/reveal/src/rvl_j2w_module/wb2sci.v
+Verilog design file = D:/lscc/diamond/3.12/module/reveal/src/ertl/JTAG_SOFT.v
+Verilog design file = D:/Project/C20F_haikang/C200_FPGA/impl1/reveal_workspace/tmpreveal/c200_fpga_la0_trig_gen.v
+Verilog design file = D:/Project/C20F_haikang/C200_FPGA/impl1/reveal_workspace/tmpreveal/c200_fpga_la0_gen.v
+Verilog design file = D:/Project/C20F_haikang/C200_FPGA/impl1/reveal_workspace/tmpreveal/C200_FPGA_rvl.v
+NGD file = C200_FPGA_impl1.ngd
+-sdc option: SDC file input is D:/Project/C20F_haikang/C200_FPGA/C200_FPGA.ldc.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file D:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file d:/lscc/diamond/3.12/cae_library/synthesis/verilog/pmi_def.v. VERI-1482
+Analyzing Verilog file d:/lscc/diamond/3.12/module/reveal/src/rvl_j2w_module/wb2sci.v. VERI-1482
+Analyzing Verilog file d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_la0_trig_gen.v. VERI-1482
+Analyzing Verilog file d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_la0_gen.v. VERI-1482
+Analyzing Verilog file d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v. VERI-1482
+Analyzing Verilog file .__ydixd0.v. VERI-1482
+Top module name (Verilog): C200_FPGA
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/sa5p00/data/sa5plib.ngl'...
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'sa5p25.nph' in environment: D:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.33.
+Top-level module name = C200_FPGA.
+WARNING - synthesis: Initial value found on net gnd will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net gnd will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pwr will be ignored due to unrecognized driver type
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(32274): net i_motor_state does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33205): net multiplier2_alu_signedcin_1_0 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33206): net multiplier2_alu_in_cin_1_0_53 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33207): net multiplier2_alu_in_cin_1_0_52 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33208): net multiplier2_alu_in_cin_1_0_51 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33209): net multiplier2_alu_in_cin_1_0_50 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33210): net multiplier2_alu_in_cin_1_0_49 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33211): net multiplier2_alu_in_cin_1_0_48 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33212): net multiplier2_alu_in_cin_1_0_47 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33213): net multiplier2_alu_in_cin_1_0_46 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33214): net multiplier2_alu_in_cin_1_0_45 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33215): net multiplier2_alu_in_cin_1_0_44 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33216): net multiplier2_alu_in_cin_1_0_43 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33217): net multiplier2_alu_in_cin_1_0_42 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33218): net multiplier2_alu_in_cin_1_0_41 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33219): net multiplier2_alu_in_cin_1_0_40 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33220): net multiplier2_alu_in_cin_1_0_39 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33221): net multiplier2_alu_in_cin_1_0_38 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33222): net multiplier2_alu_in_cin_1_0_37 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33223): net multiplier2_alu_in_cin_1_0_36 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33224): net multiplier2_alu_in_cin_1_0_35 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33225): net multiplier2_alu_in_cin_1_0_34 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33226): net multiplier2_alu_in_cin_1_0_33 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33227): net multiplier2_alu_in_cin_1_0_32 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33228): net multiplier2_alu_in_cin_1_0_31 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33229): net multiplier2_alu_in_cin_1_0_30 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33230): net multiplier2_alu_in_cin_1_0_29 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33231): net multiplier2_alu_in_cin_1_0_28 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33232): net multiplier2_alu_in_cin_1_0_27 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33233): net multiplier2_alu_in_cin_1_0_26 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33234): net multiplier2_alu_in_cin_1_0_25 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33235): net multiplier2_alu_in_cin_1_0_24 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33236): net multiplier2_alu_in_cin_1_0_23 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33237): net multiplier2_alu_in_cin_1_0_22 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33238): net multiplier2_alu_in_cin_1_0_21 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33239): net multiplier2_alu_in_cin_1_0_20 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33240): net multiplier2_alu_in_cin_1_0_19 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33241): net multiplier2_alu_in_cin_1_0_18 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33242): net multiplier2_alu_in_cin_1_0_17 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33243): net multiplier2_alu_in_cin_1_0_16 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33244): net multiplier2_alu_in_cin_1_0_15 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33245): net multiplier2_alu_in_cin_1_0_14 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33246): net multiplier2_alu_in_cin_1_0_13 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33247): net multiplier2_alu_in_cin_1_0_12 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33248): net multiplier2_alu_in_cin_1_0_11 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33249): net multiplier2_alu_in_cin_1_0_10 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33250): net multiplier2_alu_in_cin_1_0_9 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33251): net multiplier2_alu_in_cin_1_0_8 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33252): net multiplier2_alu_in_cin_1_0_7 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33253): net multiplier2_alu_in_cin_1_0_6 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33254): net multiplier2_alu_in_cin_1_0_5 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33255): net multiplier2_alu_in_cin_1_0_4 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33256): net multiplier2_alu_in_cin_1_0_3 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33257): net multiplier2_alu_in_cin_1_0_2 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33258): net multiplier2_alu_in_cin_1_0_1 does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33259): net multiplier2_alu_in_cin_1_0_0 does not have a driver. VDB-1002
+WARNING - synthesis: I/O Port i_rst_n 's net has no driver and is unused.
+WARNING - synthesis: I/O Port o_flash_clk 's net has no driver and is unused.
+######## Missing driver on net o_flash_clk. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_signedcin_1_0. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_53. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_52. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_51. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_50. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_49. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_48. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_47. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_46. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_45. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_44. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_43. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_42. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_41. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_40. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_39. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_38. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_37. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_36. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_35. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_34. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_33. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_32. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_31. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_30. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_29. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_28. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_27. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_26. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_25. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_24. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_23. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_22. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_21. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_20. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_19. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_18. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_17. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_16. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_15. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_14. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_13. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_12. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_11. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_10. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_9. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_8. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_7. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_6. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_5. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_4. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_3. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_2. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_1. Patching with GND.
+######## Missing driver on net \U2/U3/U1/multiplier2_alu_in_cin_1_0_0. Patching with GND.
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(32748): Register \U2/U3/r_angle_cal_value_i0 is stuck at One. VDB-5014
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(32748): Register \U2/U3/r_angle_cal_value_i3 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(47887): Register \U5/U3/r_rise_max_i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: Bit 5 of Register \U8/u3/r_config_mode is stuck at Zero
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(38221): Register \U3/u3/U1/tempADValue[0]_i1 is stuck at One. VDB-5014
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(38221): Register \U3/u3/U1/tempADValue[0]_i2 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(50269): Register \U7/r_byte_size_i1 is stuck at Zero. VDB-5013
+INFO - synthesis: Extracted state machine for register '\U3/u2/state' with one-hot encoding
+original encoding -> new encoding (one-hot encoding)
+
+ 00 -> 0001
+
+ 01 -> 0010
+
+ 10 -> 0100
+
+ 11 -> 1000
+
+INFO - synthesis: Extracted state machine for register '\U3/u1/u1/clk_cnt' with one-hot encoding
+original encoding -> new encoding (one-hot encoding)
+
+ 00000 -> 00000000000000000000000000000001
+
+ 00001 -> 00000000000000000000000000000010
+
+ 00010 -> 00000000000000000000000000000100
+
+ 00011 -> 00000000000000000000000000001000
+
+ 00100 -> 00000000000000000000000000010000
+
+ 00101 -> 00000000000000000000000000100000
+
+ 00110 -> 00000000000000000000000001000000
+
+ 00111 -> 00000000000000000000000010000000
+
+ 01000 -> 00000000000000000000000100000000
+
+ 01001 -> 00000000000000000000001000000000
+
+ 01010 -> 00000000000000000000010000000000
+
+ 01011 -> 00000000000000000000100000000000
+
+ 01100 -> 00000000000000000001000000000000
+
+ 01101 -> 00000000000000000010000000000000
+
+ 01110 -> 00000000000000000100000000000000
+
+ 01111 -> 00000000000000001000000000000000
+
+ 10000 -> 00000000000000010000000000000000
+
+ 10001 -> 00000000000000100000000000000000
+
+ 10010 -> 00000000000001000000000000000000
+
+ 10011 -> 00000000000010000000000000000000
+
+ 10100 -> 00000000000100000000000000000000
+
+ 10101 -> 00000000001000000000000000000000
+
+ 10110 -> 00000000010000000000000000000000
+
+ 10111 -> 00000000100000000000000000000000
+
+ 11000 -> 00000001000000000000000000000000
+
+ 11001 -> 00000010000000000000000000000000
+
+ 11010 -> 00000100000000000000000000000000
+
+ 11011 -> 00001000000000000000000000000000
+
+ 11100 -> 00010000000000000000000000000000
+
+ 11101 -> 00100000000000000000000000000000
+
+ 11110 -> 01000000000000000000000000000000
+
+ 11111 -> 10000000000000000000000000000000
+
+INFO - synthesis: Extracted state machine for register '\U3/u1/u1/state' with one-hot encoding
+original encoding -> new encoding (one-hot encoding)
+
+ 000 -> 00001
+
+ 001 -> 00010
+
+ 010 -> 00100
+
+ 011 -> 01000
+
+ 100 -> 10000
+
+INFO - synthesis: Extracted state machine for register '\U5/U2/U3/div_rill_1/status' with one-hot encoding
+original encoding -> new encoding (one-hot encoding)
+
+ 000000 -> 00001
+
+ 000001 -> 00010
+
+ 000010 -> 00100
+
+ 000100 -> 01000
+
+ 001000 -> 10000
+
+INFO - synthesis: Extracted state machine for register '\U5/U2/U3/div_rill_2/status' with one-hot encoding
+original encoding -> new encoding (one-hot encoding)
+
+ 000000 -> 00001
+
+ 000001 -> 00010
+
+ 000010 -> 00100
+
+ 000100 -> 01000
+
+ 001000 -> 10000
+
+
+
+
+WARNING - synthesis: Bit 0 of Register \U5/U3/r_pulse_post is stuck at Zero
+WARNING - synthesis: Bit 6 of Register \U5/U2/U3/div_beichushu_1 is stuck at Zero
+WARNING - synthesis: Bit 7 of Register \U5/U2/U3/div_beichushu_1 is stuck at Zero
+WARNING - synthesis: Bit 8 of Register \U5/U2/U3/div_beichushu_1 is stuck at Zero
+WARNING - synthesis: Bit 9 of Register \U5/U2/U3/div_beichushu_1 is stuck at Zero
+WARNING - synthesis: Bit 10 of Register \U5/U2/U3/div_beichushu_1 is stuck at Zero
+WARNING - synthesis: Bit 11 of Register \U5/U2/U3/div_beichushu_1 is stuck at Zero
+WARNING - synthesis: Bit 12 of Register \U5/U2/U3/div_beichushu_1 is stuck at Zero
+WARNING - synthesis: Bit 13 of Register \U5/U2/U3/div_beichushu_1 is stuck at Zero
+WARNING - synthesis: Bit 14 of Register \U5/U2/U3/div_beichushu_1 is stuck at Zero
+WARNING - synthesis: Bit 15 of Register \U5/U2/U3/div_beichushu_1 is stuck at Zero
+WARNING - synthesis: Bit 6 of Register \U5/U2/U3/div_beichushu_2 is stuck at Zero
+WARNING - synthesis: Bit 7 of Register \U5/U2/U3/div_beichushu_2 is stuck at Zero
+WARNING - synthesis: Bit 8 of Register \U5/U2/U3/div_beichushu_2 is stuck at Zero
+WARNING - synthesis: Bit 9 of Register \U5/U2/U3/div_beichushu_2 is stuck at Zero
+WARNING - synthesis: Bit 10 of Register \U5/U2/U3/div_beichushu_2 is stuck at Zero
+WARNING - synthesis: Bit 11 of Register \U5/U2/U3/div_beichushu_2 is stuck at Zero
+WARNING - synthesis: Bit 12 of Register \U5/U2/U3/div_beichushu_2 is stuck at Zero
+WARNING - synthesis: Bit 13 of Register \U5/U2/U3/div_beichushu_2 is stuck at Zero
+WARNING - synthesis: Bit 14 of Register \U5/U2/U3/div_beichushu_2 is stuck at Zero
+WARNING - synthesis: Bit 15 of Register \U5/U2/U3/div_beichushu_2 is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \U3/r_status_code is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \U3/r_status_code is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \U3/r_status_code is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \U3/r_status_code is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \U3/last_status_code is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \U3/last_status_code is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \U3/last_status_code is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \U3/last_status_code is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \U4/r_laser_state is stuck at Zero
+WARNING - synthesis: Bit 4 of Register \U4/r_laser_state is stuck at Zero
+WARNING - synthesis: Bit 7 of Register \U4/r_laser_state is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \U3/u1/r_adc_state is stuck at Zero
+WARNING - synthesis: Bit 7 of Register \U3/u1/r_adc_state is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \U8/u3/r_status_code is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \U8/u3/r_status_code is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \U8/u3/r_status_code is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \U8/u3/r_status_code is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \U5/U2/U3/r_para_state is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \U5/U2/U3/r_para_state is stuck at Zero
+WARNING - synthesis: Bit 7 of Register \U5/U2/U3/r_para_state is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \U2/U3/fs_state is stuck at Zero
+WARNING - synthesis: Bit 7 of Register \U2/U3/fs_state is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \U7/r_flash_state is stuck at Zero
+WARNING - synthesis: Bit 19 of Register \U7/r_flash_state is stuck at Zero
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(32412): Register \U2/U2/r_cnt_high_i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: Bit 23 of Register \U2/U3/r_low_time_prior_cnt is stuck at Zero
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(32412): Register \U2/U2/r_cnt_max_i7 is stuck at One. VDB-5014
+WARNING - synthesis: Bit 20 of Register \U5/U5/r_need_delay is stuck at Zero
+WARNING - synthesis: Bit 21 of Register \U5/U5/r_need_delay is stuck at Zero
+WARNING - synthesis: Bit 22 of Register \U5/U5/r_need_delay is stuck at Zero
+WARNING - synthesis: Bit 23 of Register \U5/U5/r_need_delay is stuck at Zero
+WARNING - synthesis: Bit 24 of Register \U5/U5/r_need_delay is stuck at Zero
+WARNING - synthesis: Bit 25 of Register \U5/U5/r_need_delay is stuck at Zero
+WARNING - synthesis: Bit 26 of Register \U5/U5/r_need_delay is stuck at Zero
+WARNING - synthesis: Bit 27 of Register \U5/U5/r_need_delay is stuck at Zero
+WARNING - synthesis: Bit 28 of Register \U5/U5/r_need_delay is stuck at Zero
+WARNING - synthesis: Bit 29 of Register \U5/U5/r_need_delay is stuck at Zero
+WARNING - synthesis: Bit 30 of Register \U5/U5/r_need_delay is stuck at Zero
+WARNING - synthesis: Bit 31 of Register \U5/U5/r_need_delay is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \U5/U6/r_calib_points is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \U5/U6/r_calib_points is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \U5/U6/r_calib_points is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \U5/U6/r_calib_points is stuck at Zero
+WARNING - synthesis: Bit 4 of Register \U5/U6/r_calib_points is stuck at Zero
+WARNING - synthesis: Bit 5 of Register \U5/U6/r_calib_points is stuck at Zero
+WARNING - synthesis: Bit 6 of Register \U5/U6/r_calib_points is stuck at Zero
+WARNING - synthesis: Bit 9 of Register \U8/u3/r_sram_addr_base is stuck at Zero
+WARNING - synthesis: Bit 10 of Register \U8/u3/r_sram_addr_base is stuck at Zero
+WARNING - synthesis: Bit 11 of Register \U8/u3/r_sram_addr_base is stuck at Zero
+WARNING - synthesis: Bit 12 of Register \U8/u3/r_sram_addr_base is stuck at Zero
+WARNING - synthesis: Bit 13 of Register \U8/u3/r_sram_addr_base is stuck at Zero
+WARNING - synthesis: Bit 14 of Register \U8/u3/r_sram_addr_base is stuck at Zero
+WARNING - synthesis: Bit 15 of Register \U8/u3/r_sram_addr_base is stuck at Zero
+WARNING - synthesis: Bit 16 of Register \U8/u3/r_sram_addr_base is stuck at Zero
+WARNING - synthesis: Bit 17 of Register \U8/u3/r_sram_addr_base is stuck at Zero
+WARNING - synthesis: Bit 9 of Register \U8/u2/r_state is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \U5/U2/U4/r_process_state is stuck at Zero
+WARNING - synthesis: Bit 9 of Register \U5/U2/U4/r_process_state is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \U7/U2/u1/r_byte_size is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \U7/U2/u1/r_byte_size is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \U7/U2/u1/r_byte_size is stuck at Zero
+WARNING - synthesis: Bit 4 of Register \U7/U2/u1/r_byte_size is stuck at Zero
+WARNING - synthesis: Bit 10 of Register \U3/u3/U1/r_adc_value is stuck at Zero
+WARNING - synthesis: Bit 11 of Register \U3/u3/U1/r_adc_value is stuck at Zero
+WARNING - synthesis: Bit 6 of Register \U8/u1/u1/r_cmd is stuck at Zero
+WARNING - synthesis: Bit 7 of Register \U8/u1/u1/r_cmd is stuck at Zero
+WARNING - synthesis: Bit 4 of Register \U5/U1/r_tdc_cmd is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 5 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 8 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 10 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 11 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 14 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 16 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 17 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 19 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 20 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 22 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 23 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 24 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 25 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 26 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 27 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 28 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 29 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 30 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 31 of Register \U5/U1/r_tdc_wr_data is stuck at Zero
+WARNING - synthesis: Bit 11 of Register \U5/U3/r_pulse_value is stuck at Zero
+WARNING - synthesis: Bit 12 of Register \U5/U3/r_pulse_value is stuck at Zero
+WARNING - synthesis: Bit 13 of Register \U5/U3/r_pulse_value is stuck at Zero
+WARNING - synthesis: Bit 14 of Register \U5/U3/r_pulse_value is stuck at Zero
+WARNING - synthesis: Bit 15 of Register \U5/U3/r_pulse_value is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
+WARNING - synthesis: Bit 4 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
+WARNING - synthesis: Bit 5 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
+WARNING - synthesis: Bit 6 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
+WARNING - synthesis: Bit 7 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
+WARNING - synthesis: Bit 8 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
+WARNING - synthesis: Bit 9 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
+WARNING - synthesis: Bit 10 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
+WARNING - synthesis: Bit 11 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
+WARNING - synthesis: Bit 12 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
+WARNING - synthesis: Bit 13 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
+WARNING - synthesis: Bit 14 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
+WARNING - synthesis: Bit 15 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
+WARNING - synthesis: Bit 16 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
+WARNING - synthesis: Bit 17 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \U7/r_fisrt_addr is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \U7/r_fisrt_addr is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \U7/r_fisrt_addr is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \U7/r_fisrt_addr is stuck at Zero
+WARNING - synthesis: Bit 4 of Register \U7/r_fisrt_addr is stuck at Zero
+WARNING - synthesis: Bit 5 of Register \U7/r_fisrt_addr is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \U5/U3/r_dist_index is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \U5/U3/r_dist_index is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \U5/U3/r_dist_index is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \U5/U3/r_dist_index is stuck at Zero
+WARNING - synthesis: Bit 4 of Register \U5/U3/r_dist_index is stuck at Zero
+WARNING - synthesis: Bit 5 of Register \U5/U3/r_dist_index is stuck at Zero
+WARNING - synthesis: Bit 10 of Register \U5/U3/r_dist_value is stuck at Zero
+WARNING - synthesis: Bit 11 of Register \U5/U3/r_dist_value is stuck at Zero
+WARNING - synthesis: Bit 12 of Register \U5/U3/r_dist_value is stuck at Zero
+WARNING - synthesis: Bit 13 of Register \U5/U3/r_dist_value is stuck at Zero
+WARNING - synthesis: Bit 14 of Register \U5/U3/r_dist_value is stuck at Zero
+WARNING - synthesis: Bit 15 of Register \U5/U3/r_dist_value is stuck at Zero
+WARNING - synthesis: Bit 9 of Register \U5/U5/r_first_angle is stuck at Zero
+WARNING - synthesis: Bit 10 of Register \U5/U5/r_first_angle is stuck at Zero
+WARNING - synthesis: Bit 11 of Register \U5/U5/r_first_angle is stuck at Zero
+WARNING - synthesis: Bit 12 of Register \U5/U5/r_first_angle is stuck at Zero
+WARNING - synthesis: Bit 13 of Register \U5/U5/r_first_angle is stuck at Zero
+WARNING - synthesis: Bit 14 of Register \U5/U5/r_first_angle is stuck at Zero
+WARNING - synthesis: Bit 15 of Register \U5/U5/r_first_angle is stuck at Zero
+Removed duplicate sequential element \U5/U3/r_dist_value(10 bit), because it is equivalent to \U5/U3/r_dist_index
+
+
+
+######### Begin FIR Info ########
+
+
+Number of FIR filters recognized: 1
+
+
+
+######### End FIR Info ########
+
+
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(33049): Register \U2/U3/r_angle_zero_i7 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: Bit 0 of Register \U2/U3/r_angle_zero_e1 is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \U2/U3/r_angle_zero_e1 is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \U2/U3/r_angle_zero_e1 is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \U2/U3/r_angle_zero_e1 is stuck at Zero
+WARNING - synthesis: Bit 4 of Register \U2/U3/r_angle_zero_e1 is stuck at Zero
+WARNING - synthesis: Bit 5 of Register \U2/U3/r_angle_zero_e1 is stuck at Zero
+WARNING - synthesis: Bit 6 of Register \U2/U3/r_angle_zero_e1 is stuck at Zero
+WARNING - synthesis: Bit 7 of Register \U2/U3/r_angle_zero_e1 is stuck at Zero
+######## Missing driver on net n25508. Patching with GND.
+WARNING - synthesis: I/O Port i_rst_n 's net has no driver and is unused.
+WARNING - synthesis: Bit 0 of Register \U2/U3/r_angle_reso is stuck at Zero
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(32888): Register \U2/U3/r_fs_cnt_i6 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(32909): Register \U2/U3/r_fs_factor_i4 is stuck at One. VDB-5014
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(52445): Register \U8/u1/r_sock_num_i0 is stuck at One. VDB-5014
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(52445): Register \U8/u1/r_sock_num_i1 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(52788): Register \U8/u1/u1/r_cmd__i6 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(49903): Register \U7/r_flash_rdaddr_i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(49962): Register \U7/r_page_rdnum_i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(45784): Register \U5/U1/U1/TDC_Tdata__i28 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(50502): Register \U7/U2/r_cmd__i5 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(50380): Register \U7/r_fisrt_rise__i5 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(48489): Register \U5/U3/r_rise_index__i16 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(49217): Register \U5/U5/r_packet_points_i15 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(36859): Register \U3/r_check_state__i9 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(58769): Register \U8/u3/U1/r_index_state__i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(49985): Register \U7/r_page_num_i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(49903): Register \U7/r_flash_rdaddr_i19 is stuck at One. VDB-5014
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(46164): Register \U5/U2/r_data_state__i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(47519): Register \U5/U2/U3/div_rill_1/temp_b_i0_i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(47622): Register \U5/U2/U3/div_rill_2/temp_b_i0_i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(44784): Register \U5/U1/r_msr_state__i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(32758): Register _add_1_28938_e2_i0_i15 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(50666): Register \U7/U2/u1/r_byte_size__i4 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/c20f_haikang/c200_fpga/impl1/reveal_workspace/tmpreveal/c200_fpga_rvl.v(38359): Register \U3/u3/U1/r_temp_state__i9 is stuck at Zero. VDB-5013
+Duplicate register/latch removal. \U2/U3/r_fs_cnt_i2 is a one-to-one match with \U2/U3/r_angle_reso_i3.
+######## GSR will not be inferred because the gsr attribute is present in either the top or sub module or because an instantiated GSR is present.
+WARNING - synthesis: Initial value found on instance \U7/r_byte_size_i9 will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U2/r_cnt_state_low_i0 will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U2/r_pwm_value_i1 will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U2/r_pwm_value_i2 will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U2/r_pwm_value_i3 will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U2/r_pwm_value_i4 will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U2/r_cnt_state_high_i4 will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U2/r_cnt_state_high_i6 will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U2/r_cnt_state_high_i16 will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value__i8_63015_63016_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_tdc_switch_i0 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_pwm_value_0_i3 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_pwm_value_0_i6 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_pwm_value_0_i8 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_pwm_value_0_i9 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_temp_dist_i1 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_temp_dist_i3 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_temp_dist_i5 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_temp_dist_i6 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_temp_dist_i7 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_temp_dist_i8 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_temp_dist_i9 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_temp_dist_i10 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_temp_dist_i14 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_temp_dist_i15 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_temp_dist_i16 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_temp_dist_i20 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_temp_dist_i21 will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/r_temp_dist_i24 will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value__i1_63011_63012_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U8/u3/startup_flag_1476 will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value__i2_63039_63040_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value__i3_63035_63036_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value__i4_63031_63032_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value__i5_63027_63028_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value__i6_63023_63024_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value__i7_63019_63020_set will be ignored.
+WARNING - synthesis: mRegister \U2/U2/r_cnt_state_high_i4 is stuck at Zero
+WARNING - synthesis: mRegister \U2/U2/r_cnt_state_high_i16 is stuck at One
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i14 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i15 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i16 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i17 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i18 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i19 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i20 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i21 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i22 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i23 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i24 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i25 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i26 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i27 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i28 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i29 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i30 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i31 is stuck at Zero
+WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i32 is stuck at Zero
+Duplicate register/latch removal. \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/rd_dout_tm_i0_i15 is a one-to-one match with \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/rd_dout_tm_i0_i10.
+Duplicate register/latch removal. \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/rd_dout_tm_i0_i14 is a one-to-one match with \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/rd_dout_tm_i0_i12.
+Duplicate register/latch removal. \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/rd_dout_tm_i0_i8 is a one-to-one match with \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/rd_dout_tm_i0_i5.
+Duplicate register/latch removal. \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/rd_dout_tm_i0_i6 is a one-to-one match with \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/rd_dout_tm_i0_i14.
+Duplicate register/latch removal. \U5/U1/r_tdc_wr_data__i6 is a one-to-one match with \U5/U1/r_tdc_wr_data__i5.
+Duplicate register/latch removal. \U5/U1/r_tdc_wr_data__i4 is a one-to-one match with \U5/U1/r_tdc_wr_data__i2.
+Duplicate register/latch removal. \U5/U1/r_tdc_wr_data__i3 is a one-to-one match with \U5/U1/r_tdc_wr_data__i6.
+Duplicate register/latch removal. \U5/U2/U4/r_offset_length_i0_i15 is a one-to-one match with \U5/U2/U4/r_offset_length_i0_i14.
+Duplicate register/latch removal. \U5/U2/U4/r_offset_length_i0_i13 is a one-to-one match with \U5/U2/U4/r_offset_length_i0_i15.
+Duplicate register/latch removal. \U5/U2/U4/r_offset_length_i0_i12 is a one-to-one match with \U5/U2/U4/r_offset_length_i0_i13.
+Duplicate register/latch removal. \U5/U2/U4/r_offset_length_i0_i11 is a one-to-one match with \U5/U2/U4/r_offset_length_i0_i12.
+Duplicate register/latch removal. \U3/u3/U1/r_divisor_i0_i15 is a one-to-one match with \U3/u3/U1/r_divisor_i0_i14.
+Duplicate register/latch removal. \U3/u3/U1/r_divisor_i0_i13 is a one-to-one match with \U3/u3/U1/r_divisor_i0_i15.
+Duplicate register/latch removal. \U3/u3/U1/r_divisor_i0_i12 is a one-to-one match with \U3/u3/U1/r_divisor_i0_i13.
+Duplicate register/latch removal. \U3/u3/U1/r_mult1_dataA_i0_i15 is a one-to-one match with \U3/u3/U1/r_mult1_dataA_i0_i14.
+Duplicate register/latch removal. \U3/u3/U1/r_mult1_dataA_i0_i13 is a one-to-one match with \U3/u3/U1/r_mult1_dataA_i0_i15.
+Duplicate register/latch removal. \U3/u3/U1/r_mult1_dataA_i0_i12 is a one-to-one match with \U3/u3/U1/r_mult1_dataA_i0_i13.
+Duplicate register/latch removal. \U7/r_coe_true_addr__i30 is a one-to-one match with \U7/r_coe_true_addr__i29.
+Duplicate register/latch removal. \U7/r_coe_true_addr__i31 is a one-to-one match with \U7/r_coe_true_addr__i28.
+Duplicate register/latch removal. \U7/r_coe_true_addr__i18 is a one-to-one match with \U7/r_coe_true_addr__i27.
+Duplicate register/latch removal. \U7/r_coe_true_addr__i19 is a one-to-one match with \U7/r_coe_true_addr__i26.
+Duplicate register/latch removal. \U7/r_coe_true_addr__i20 is a one-to-one match with \U7/r_coe_true_addr__i25.
+Duplicate register/latch removal. \U7/r_coe_true_addr__i21 is a one-to-one match with \U7/r_coe_true_addr__i24.
+Duplicate register/latch removal. \U7/r_coe_true_addr__i22 is a one-to-one match with \U7/r_coe_true_addr__i23.
+Duplicate register/latch removal. \U5/U2/r_code_angle_i15 is a one-to-one match with \U5/U2/r_code_angle_i11.
+Duplicate register/latch removal. \U5/U2/r_code_angle_i14 is a one-to-one match with \U5/U2/r_code_angle_i12.
+Duplicate register/latch removal. \U5/U2/r_code_angle_i13 is a one-to-one match with \U5/U2/r_code_angle_i14.
+Duplicate register/latch removal. \U5/U2/U3/div_en_2_85 is a one-to-one match with \U5/U2/U3/div_en_1_84.
+Duplicate register/latch removal. _add_1_29031_e2_i0_i15 is a one-to-one match with _add_1_29031_e2_i0_i11.
+Duplicate register/latch removal. _add_1_29031_e2_i0_i14 is a one-to-one match with _add_1_29031_e2_i0_i12.
+Duplicate register/latch removal. _add_1_29031_e2_i0_i13 is a one-to-one match with _add_1_29031_e2_i0_i14.
+Duplicate register/latch removal. \U5/U1/U1/TDC_Tdata__i22 is a one-to-one match with \U5/U1/U1/TDC_Tdata__i16.
+Duplicate register/latch removal. \U5/U1/U1/TDC_Tdata__i19 is a one-to-one match with \U5/U1/U1/TDC_Tdata__i22.
+Duplicate register/latch removal. \U5/U1/U1/TDC_Tdata__i18 is a one-to-one match with \U5/U1/U1/TDC_Tdata__i13.
+Duplicate register/latch removal. \U7/U2/r_cmd__i3 is a one-to-one match with \U7/U2/r_cmd__i4.
+Duplicate register/latch removal. \U7/U2/r_cmd__i6 is a one-to-one match with \U7/U2/r_cmd__i7.
+Duplicate register/latch removal. \U7/r_coe_true_addr__i30 is a one-to-one match with \U7/r_coe_true_addr__i22.
+Duplicate register/latch removal. \U7/r_coe_true_addr__i31 is a one-to-one match with \U7/r_coe_true_addr__i21.
+Duplicate register/latch removal. \U7/r_coe_true_addr__i18 is a one-to-one match with \U7/r_coe_true_addr__i20.
+Duplicate register/latch removal. \U7/r_coe_true_addr__i19 is a one-to-one match with \U7/r_coe_true_addr__i18.
+Duplicate register/latch removal. \U5/U2/r_code_angle_i15 is a one-to-one match with \U5/U2/r_code_angle_i13.
+Duplicate register/latch removal. _add_1_29031_e2_i0_i15 is a one-to-one match with _add_1_29031_e2_i0_i13.
+Duplicate register/latch removal. \U3/u3/U1/U2/r_divisor_i0_i15 is a one-to-one match with \U3/u3/U1/U2/r_divisor_i0_i12.
+Duplicate register/latch removal. \U3/u3/U1/U2/r_divisor_i0_i14 is a one-to-one match with \U3/u3/U1/U2/r_divisor_i0_i13.
+Duplicate register/latch removal. \U7/r_coe_true_addr__i30 is a one-to-one match with \U7/r_coe_true_addr__i19.
+Duplicate register/latch removal. \U7/r_coe_true_addr__i31 is a one-to-one match with \U7/r_coe_true_addr__i30.
+Duplicate register/latch removal. \U3/u3/U1/U2/r_divisor_i0_i15 is a one-to-one match with \U3/u3/U1/U2/r_divisor_i0_i14.
+Duplicate register/latch removal. _add_1_28938_e2_i0_i14 is a one-to-one match with _add_1_28938_e2_i0_i11.
+Duplicate register/latch removal. _add_1_28938_e2_i0_i12 is a one-to-one match with _add_1_28938_e2_i0_i14.
+WARNING - synthesis: mRegister _add_1_28938_e2_i0_i12 is stuck at Zero
+WARNING - synthesis: mRegister \U8/u3/r_delay_cnt_22625__i3 is stuck at Zero
+WARNING - synthesis: mRegister \U8/u3/r_delay_cnt_22625__i2 is stuck at Zero
+WARNING - synthesis: mRegister _add_1_28938_e2_i0_i13 is stuck at Zero
+WARNING - synthesis: Mapping latch i63010 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63014 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63018 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63022 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63026 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63030 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63034 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63038 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63042 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63046 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63050 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63054 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63058 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63062 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63066 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63070 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63074 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63078 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63082 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63086 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63090 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63094 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63098 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i63006 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+Writing LPF file C200_FPGA_impl1.lpf.
+C200_FPGA_prim.v file will not be written because encrypted design file is being used
+
+Results of NGD DRC are available in C200_FPGA_drc.log.
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/sa5p00/data/sa5plib.ngl'...
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/data/neoprims.ngl'...
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/data/neomacro.ngl'...
+Loading NGO design 'lngotmp/pmi_distributed_dpramebnoner2128cbfd2d.ngo'...
+Loading NGO design 'lngotmp/pmi_distributed_dpramebnoner5248cc18e7.ngo'...
+Loading NGO design 'lngotmp/pmi_ram_dpebnonesadr915329153211ad013a.ngo'...
+Logic has been added to the IP to support JTAG capability.
+Loading NGO design 'D:/lscc/diamond/3.12/ispfpga/sa5p00/data/sa5phub.ngl'...
+WARNING - synthesis: logical net 'i_rst_n' has no load.
+WARNING - synthesis: input pad net 'i_rst_n' has no legal load.
+WARNING - synthesis: logical net 'C200_FPGA_reveal_coretop_instance/jupdate[0]' has no load.
+WARNING - synthesis: logical net 'sa5phub/tdoa' has no load.
+WARNING - synthesis: logical net 'sa5phub/cdn' has no load.
+WARNING - synthesis: logical net 'sa5phub/ip_enable[15]' has no load.
+WARNING - synthesis: logical net 'sa5phub/genblk8.un1_jtagg_u_1' has no load.
+WARNING - synthesis: logical net 'sa5phub/genblk8.un1_jtagg_u' has no load.
+WARNING - synthesis: DRC complete with 8 warnings.
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file C200_FPGA_impl1.ngd.
+
+################### Begin Area Report (C200_FPGA)######################
+Number of register bits => 7820 of 24879 (31 % )
+ALU54B => 1
+BB => 16
+CCU2C => 2708
+DP16KD => 12
+EHXPLLL => 1
+FD1P3AX => 355
+FD1P3AY => 3
+FD1P3BX => 297
+FD1P3DX => 5202
+FD1P3IX => 140
+FD1S3AX => 17
+FD1S3BX => 150
+FD1S3DX => 1582
+FD1S3IX => 72
+FD1S3JX => 2
+GSR => 1
+IB => 7
+INV => 2
+L6MUX21 => 19
+LUT4 => 15505
+MULT18X18D => 7
+MULT9X9D => 4
+OB => 50
+PDPW16KD => 1
+PFUMX => 1017
+USRMCLK => 1
+pmi_distributed_dpramEbnoner2128cbfd2d => 1
+pmi_distributed_dpramEbnoner5248cc18e7 => 1
+pmi_ram_dpEbnonesadr915329153211ad013a => 1
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+jtagconn16 => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 6
+  Net : U1/w_pll_25m, loads : 7275
+  Net : U1/w_pll_50m, loads : 225
+  Net : U1/w_pll_100m, loads : 35
+  Net : U1/clk_N_12801, loads : 6
+  Net : i_clk_50m_c, loads : 1
+  Net : C200_FPGA_reveal_coretop_instance/jtck[0], loads : 1
+Clock Enable Nets
+Number of Clock Enables: 553
+Top 10 highest fanout Clock Enables:
+  Net : U3/u3/w_pll_25m_enable_2951, loads : 130
+  Net : U5/U6/w_pll_25m_enable_3957, loads : 64
+  Net : U5/U3/w_pll_25m_enable_4197, loads : 64
+  Net : U2/U3/w_pll_25m_enable_4724, loads : 55
+  Net : U2/U3/w_pll_25m_enable_65, loads : 53
+  Net : U5/U4/w_pll_25m_enable_4773, loads : 50
+  Net : U8/u3/U1/w_pll_25m_enable_1092, loads : 50
+  Net : U5/U3/w_pll_25m_enable_1630, loads : 50
+  Net : U5/U4/w_pll_25m_enable_4774, loads : 50
+  Net : U8/u3/w_pll_25m_enable_2240, loads : 50
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : U5/U2/U3/div_rill_2/n250776, loads : 4079
+  Net : U8/u3/U1/rst_n_N_12527, loads : 1802
+  Net : U2/u4/n249855, loads : 532
+  Net : U8/u3/w_sram_addr_eth[0], loads : 377
+  Net : C200_FPGA_reveal_coretop_instance/jtck_N_18742, loads : 326
+  Net : C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/trig_u/te_0/jrstn_N_18740, loads : 320
+  Net : U8/u1/r_state[0], loads : 259
+  Net : U2/U3/w_pll_25m_enable_4638, loads : 258
+  Net : U8/u3/w_sram_addr_eth[1], loads : 243
+  Net : U8/u2/r_byte_cnt[1], loads : 242
+################### End Clock Report ##################
+
+<A name="lse_trs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 10.000000 -name    |             |             |
+clk504 [get_nets clk_N_12801]           |            -|            -|     0  
+                                        |             |             |
+create_clock -period 10.000000 -name    |             |             |
+clk502 [get_nets                        |             |             |
+\C200_FPGA_reveal_coretop_instance/jtck[|             |             |
+0]]                                     |  100.000 MHz|   86.468 MHz|    10 *
+                                        |             |             |
+create_clock -period 10.000000          |             |             |
+-waveform { 0.000000 5.000000 } -name   |             |             |
+w_pll_100M [ get_nets { w_pll_100m } ]  |  100.000 MHz|  141.303 MHz|     5  
+                                        |             |             |
+create_clock -period 20.000000          |             |             |
+-waveform { 0.000000 10.000000 } -name  |             |             |
+w_pll_50M [ get_nets { w_pll_50m } ]    |   50.000 MHz|   50.203 MHz|    15  
+                                        |             |             |
+create_clock -period 40.000000          |             |             |
+-waveform { 0.000000 20.000000 } -name  |             |             |
+w_pll_25M [ get_nets { w_pll_25m_N } ]  |   25.000 MHz|   37.562 MHz|    27  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+
+Peak Memory Usage: 476.594  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 115.484  secs
+--------------------------------------------------------------
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

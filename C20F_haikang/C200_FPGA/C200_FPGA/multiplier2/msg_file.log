@@ -1,0 +1,31 @@
+SCUBA, Version Diamond (64-bit) 3.12.0.240.2
+Mon Jul 12 11:26:56 2021
+  
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+  
+BEGIN SCUBA Module Synthesis
+  
+    Issued command   : E:\tools\Iscc\diamond\3.12\ispfpga\bin\nt64\scuba.exe -w -n multiplier2 -lang verilog -synth lse -bus_exp 7 -bb -arch sa5p00 -type dspmult -simple_portname -widtha 24 -widthb 16 -widthp 40 -PL_stages 3 -input_reg -output_reg -clk0 -ce0 -rst0 
+    Circuit name     : multiplier2
+    Module type      : dspmult_a
+    Module Version   : 4.9
+    Ports            : 
+    Inputs       : Clock, ClkEn, Aclr, DataA[23:0], DataB[15:0]
+    Outputs      : Result[39:0]
+    I/O buffer       : not inserted
+    EDIF output      : multiplier2.edn
+    Verilog output   : multiplier2.v
+    Verilog template : multiplier2_tmpl.v
+    Verilog testbench: tb_multiplier2_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : multiplier2.srp
+    Estimated Resource Usage:
+      DSP_SLICE : 1
+  
+END   SCUBA Module Synthesis
+

@@ -1,0 +1,365 @@
+Running in Lattice mode
+
+Starting:    E:\tools\Iscc\diamond\3.12\synpbase\bin64\mbin\synplify.exe
+Install:     E:\tools\Iscc\diamond\3.12\synpbase
+Hostname:    LAPTOP-5IM9OFQR
+Date:        Wed Jun  2 14:55:51 2021
+Version:     Q-2020.03L-SP1
+
+Arguments:   -product synplify_pro -tcl D:/programs/fpga/C200_FPGA/impl1/launch_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+No project opened.
+auto_infer_blackbox is not supported in current product.
+Removed file: D:\programs\fpga\C200_FPGA\C200_FPGA.v
+Removed file: D:\programs\fpga\C200_FPGA\C200_FPGA\C200_PLL\C200_PLL.v
+Removed file: D:\programs\fpga\C200_FPGA\C200_FPGA\eth_data_fifo\eth_data_fifo.v
+Removed file: D:\programs\fpga\C200_FPGA\C200_FPGA\multiplier\multiplier.v
+Removed file: D:\programs\fpga\C200_FPGA\C200_FPGA\packet_data_fifo\packet_data_fifo.v
+Removed file: D:\programs\fpga\C200_FPGA\rotating_module.v
+Removed file: D:\programs\fpga\C200_FPGA\opto_switch_filter.v
+Removed file: D:\programs\fpga\C200_FPGA\motor_control.v
+Removed file: D:\programs\fpga\C200_FPGA\encoder_generate.v
+Removed file: D:\programs\fpga\C200_FPGA\laser_control.v
+Removed file: D:\programs\fpga\C200_FPGA\dist_measure.v
+Removed file: D:\programs\fpga\C200_FPGA\tdc_control.v
+Removed file: D:\programs\fpga\C200_FPGA\dist_calculate.v
+Removed file: D:\programs\fpga\C200_FPGA\sram_control.v
+Removed file: D:\programs\fpga\C200_FPGA\spi flash\spi_master.v
+Removed file: D:\programs\fpga\C200_FPGA\spi flash\spi_flash_top.v
+Removed file: D:\programs\fpga\C200_FPGA\spi flash\spi_flash_cmd.v
+Removed file: D:\programs\fpga\C200_FPGA\flash_control.v
+Removed file: D:\programs\fpga\C200_FPGA\eth\datagram_parser.v
+Removed file: D:\programs\fpga\C200_FPGA\eth\spi_w5500_cmd.v
+Removed file: D:\programs\fpga\C200_FPGA\eth\spi_w5500_top.v
+Removed file: D:\programs\fpga\C200_FPGA\eth\datagram_cmd_defines.v
+Removed file: D:\programs\fpga\C200_FPGA\eth\w5500_cmd_defines.v
+Removed file: D:\programs\fpga\C200_FPGA\eth\w5500_reg_defines.v
+Removed file: D:\programs\fpga\C200_FPGA\eth\tcp_recv_fifo.v
+Removed file: D:\programs\fpga\C200_FPGA\eth\tcp_send_fifo.v
+Removed file: D:\programs\fpga\C200_FPGA\w5500_control.v
+Removed file: D:\programs\fpga\C200_FPGA\parameter_init.v
+Removed file: D:\programs\fpga\C200_FPGA\data_packet.v
+Removed file: D:\programs\fpga\C200_FPGA\mcp4726a0_top.v
+Removed file: D:\programs\fpga\C200_FPGA\tla2024_cmd_defines.v
+Removed file: D:\programs\fpga\C200_FPGA\tla2024_top.v
+Removed file: D:\programs\fpga\C200_FPGA\i2c_master.v
+Removed file: D:\programs\fpga\C200_FPGA\self_inspection.v
+Removed file: D:\programs\fpga\C200_FPGA\parameter_ident_define.v
+Removed file: D:\programs\fpga\C200_FPGA\test.v
+Removed file: D:\programs\fpga\C200_FPGA\adc_to_dac.v
+Removed file: D:\programs\fpga\C200_FPGA\adc_to_temp.v
+Removed file: D:\programs\fpga\C200_FPGA\encoder_generate_2.v
+Removed file: D:\programs\fpga\C200_FPGA\adc_to_dac_2.v
+Removed file: D:\programs\fpga\C200_FPGA\adc_to_temp_2.v
+Removed file: D:\programs\fpga\C200_FPGA\division.v
+Removed file: D:\programs\fpga\C200_FPGA\TDC_SPI_ms1004.v
+Removed file: D:\programs\fpga\C200_FPGA\gp22\gp22_control.v
+Removed file: D:\programs\fpga\C200_FPGA\gp22\gp22_spi.v
+Removed file: D:\programs\fpga\C200_FPGA\encoder_generate_3.v
+TCL script complete: "D:/programs/fpga/C200_FPGA/impl1/launch_synplify.tcl"
+Project with name "D:\programs\fpga\C200_FPGA\impl1\impl1_syn.prj" already loaded.
+log file: "D:\programs\fpga\C200_FPGA\impl1\impl1.srr"
+Running: impl1 in foreground
+
+Running impl1_syn|impl1
+
+Running Flow: compile (Compile) on impl1_syn|impl1
+# Wed Jun  2 14:56:25 2021
+
+Running Flow: compile_flow (Compile Process) on impl1_syn|impl1
+# Wed Jun  2 14:56:25 2021
+
+Running: compiler (Compile Input) on impl1_syn|impl1
+# Wed Jun  2 14:56:25 2021
+compiler exited with errors
+Job failed on: impl1_syn|impl1
+
+Job: "compiler" terminated with error status: 2
+See log file: "D:\programs\fpga\C200_FPGA\impl1\synlog\impl1_compiler.srr"
+# Wed Jun  2 14:56:25 2021
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on impl1_syn|impl1
+Complete: Compile on impl1_syn|impl1
+Complete: Logic Synthesis on impl1_syn|impl1
+2@W: UI147 |File already exists in project: "D:\programs\fpga\C200_FPGA\eth\datagram_cmd_defines.v"
+log file: "D:\programs\fpga\C200_FPGA\impl1\impl1.srr"
+Running: impl1 in foreground
+
+Running impl1_syn|impl1
+
+Running Flow: compile (Compile) on impl1_syn|impl1
+# Wed Jun  2 14:57:35 2021
+
+Running Flow: compile_flow (Compile Process) on impl1_syn|impl1
+# Wed Jun  2 14:57:35 2021
+
+Running: compiler (Compile Input) on impl1_syn|impl1
+# Wed Jun  2 14:57:35 2021
+compiler exited with errors
+Job failed on: impl1_syn|impl1
+
+Job: "compiler" terminated with error status: 2
+See log file: "D:\programs\fpga\C200_FPGA\impl1\synlog\impl1_compiler.srr"
+# Wed Jun  2 14:57:35 2021
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on impl1_syn|impl1
+Complete: Compile on impl1_syn|impl1
+Complete: Logic Synthesis on impl1_syn|impl1
+2@W: UI147 |File already exists in project: "D:\programs\fpga\C200_FPGA\eth\datagram_cmd_defines.v"
+log file: "D:\programs\fpga\C200_FPGA\impl1\impl1.srr"
+Running: impl1 in foreground
+
+Running impl1_syn|impl1
+
+Running Flow: compile (Compile) on impl1_syn|impl1
+# Wed Jun  2 14:57:52 2021
+
+Running Flow: compile_flow (Compile Process) on impl1_syn|impl1
+# Wed Jun  2 14:57:52 2021
+
+Running: compiler (Compile Input) on impl1_syn|impl1
+# Wed Jun  2 14:57:52 2021
+compiler exited with errors
+Job failed on: impl1_syn|impl1
+
+Job: "compiler" terminated with error status: 2
+See log file: "D:\programs\fpga\C200_FPGA\impl1\synlog\impl1_compiler.srr"
+# Wed Jun  2 14:57:52 2021
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on impl1_syn|impl1
+Complete: Compile on impl1_syn|impl1
+Complete: Logic Synthesis on impl1_syn|impl1
+2Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Object has no source file cross probe information
+Object has no source file cross probe information
+Object has no source file cross probe information
+Object has no source file cross probe information
+Object has no source file cross probe information
+Object has no source file cross probe information
+Object has no source file cross probe information
+Object has no source file cross probe information
+Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+log file: "D:\programs\fpga\C200_FPGA\impl1\impl1.srr"
+Running: impl1 in foreground
+
+Running impl1_syn|impl1
+
+Running Flow: compile (Compile) on impl1_syn|impl1
+# Wed Jun  2 15:00:32 2021
+
+Running Flow: compile_flow (Compile Process) on impl1_syn|impl1
+# Wed Jun  2 15:00:32 2021
+
+Running: compiler (Compile Input) on impl1_syn|impl1
+# Wed Jun  2 15:00:32 2021
+compiler exited with errors
+Job failed on: impl1_syn|impl1
+
+Job: "compiler" terminated with error status: 2
+See log file: "D:\programs\fpga\C200_FPGA\impl1\synlog\impl1_compiler.srr"
+# Wed Jun  2 15:00:32 2021
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on impl1_syn|impl1
+Complete: Compile on impl1_syn|impl1
+Complete: Logic Synthesis on impl1_syn|impl1
+2Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Object has no source file cross probe information
+log file: "D:\programs\fpga\C200_FPGA\impl1\impl1.srr"
+Running: impl1 in foreground
+
+Running impl1_syn|impl1
+
+Running Flow: compile (Compile) on impl1_syn|impl1
+# Wed Jun  2 15:03:54 2021
+
+Running Flow: compile_flow (Compile Process) on impl1_syn|impl1
+# Wed Jun  2 15:03:54 2021
+
+Running: compiler (Compile Input) on impl1_syn|impl1
+# Wed Jun  2 15:03:54 2021
+compiler exited with errors
+Job failed on: impl1_syn|impl1
+
+Job: "compiler" terminated with error status: 2
+See log file: "D:\programs\fpga\C200_FPGA\impl1\synlog\impl1_compiler.srr"
+# Wed Jun  2 15:03:54 2021
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on impl1_syn|impl1
+Complete: Compile on impl1_syn|impl1
+Complete: Logic Synthesis on impl1_syn|impl1
+2Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+log file: "D:\programs\fpga\C200_FPGA\impl1\impl1.srr"
+Running: impl1 in foreground
+
+Running impl1_syn|impl1
+
+Running Flow: compile (Compile) on impl1_syn|impl1
+# Wed Jun  2 15:05:20 2021
+
+Running Flow: compile_flow (Compile Process) on impl1_syn|impl1
+# Wed Jun  2 15:05:20 2021
+
+Running: compiler (Compile Input) on impl1_syn|impl1
+# Wed Jun  2 15:05:20 2021
+compiler exited with errors
+Job failed on: impl1_syn|impl1
+
+Job: "compiler" terminated with error status: 2
+See log file: "D:\programs\fpga\C200_FPGA\impl1\synlog\impl1_compiler.srr"
+# Wed Jun  2 15:05:29 2021
+
+Return Code: 2
+Run Time:00h:00m:09s
+Complete: Compile Process on impl1_syn|impl1
+Complete: Compile on impl1_syn|impl1
+Complete: Logic Synthesis on impl1_syn|impl1
+2Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Opening object source file d:\programs\fpga\c200_fpga\eth\datagram_parser.v
+Opening object source file d:\programs\fpga\c200_fpga\eth\datagram_parser.v
+log file: "D:\programs\fpga\C200_FPGA\impl1\impl1.srr"
+Running: impl1 in foreground
+
+Running impl1_syn|impl1
+
+Running Flow: compile (Compile) on impl1_syn|impl1
+# Wed Jun  2 15:06:43 2021
+
+Running Flow: compile_flow (Compile Process) on impl1_syn|impl1
+# Wed Jun  2 15:06:43 2021
+
+Running: compiler (Compile Input) on impl1_syn|impl1
+# Wed Jun  2 15:06:43 2021
+Copied D:\programs\fpga\C200_FPGA\impl1\synwork\impl1_comp.srs to D:\programs\fpga\C200_FPGA\impl1\impl1.srs
+
+compiler completed
+# Wed Jun  2 15:06:53 2021
+
+Return Code: 0
+Run Time:00h:00m:10s
+
+Running: multi_srs_gen (Multi-srs Generator) on impl1_syn|impl1
+# Wed Jun  2 15:06:53 2021
+
+multi_srs_gen completed
+# Wed Jun  2 15:06:53 2021
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied D:\programs\fpga\C200_FPGA\impl1\synwork\impl1_mult.srs to D:\programs\fpga\C200_FPGA\impl1\impl1.srs
+Complete: Compile Process on impl1_syn|impl1
+
+Running: premap (Premap) on impl1_syn|impl1
+# Wed Jun  2 15:06:53 2021
+
+premap completed with warnings
+# Wed Jun  2 15:06:59 2021
+
+Return Code: 1
+Run Time:00h:00m:06s
+Complete: Compile on impl1_syn|impl1
+
+Running Flow: map (Map) on impl1_syn|impl1
+# Wed Jun  2 15:06:59 2021
+
+Running: fpga_mapper (Map & Optimize) on impl1_syn|impl1
+# Wed Jun  2 15:06:59 2021
+Copied D:\programs\fpga\C200_FPGA\impl1\synwork\impl1_m.srm to D:\programs\fpga\C200_FPGA\impl1\impl1.srm
+
+fpga_mapper completed with warnings
+# Wed Jun  2 15:07:59 2021
+
+Return Code: 1
+Run Time:00h:01m:00s
+Complete: Map on impl1_syn|impl1
+Complete: Logic Synthesis on impl1_syn|impl1
+0Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Opening object source file d:\programs\fpga\c200_fpga\adc_to_dac_2.v
+Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Opening object source file d:\programs\fpga\c200_fpga\impl1\impl1.srr
+Opening object source file d:\programs\fpga\c200_fpga\adc_to_dac_2.v
+log file: "D:\programs\fpga\C200_FPGA\impl1\impl1.srr"
+Running: impl1 in foreground
+
+Running impl1_syn|impl1
+
+Running Flow: compile (Compile) on impl1_syn|impl1
+# Wed Jun  2 15:11:00 2021
+
+Running Flow: compile_flow (Compile Process) on impl1_syn|impl1
+# Wed Jun  2 15:11:00 2021
+
+Running: compiler (Compile Input) on impl1_syn|impl1
+# Wed Jun  2 15:11:00 2021
+Copied D:\programs\fpga\C200_FPGA\impl1\synwork\impl1_comp.srs to D:\programs\fpga\C200_FPGA\impl1\impl1.srs
+
+compiler completed
+# Wed Jun  2 15:11:11 2021
+
+Return Code: 0
+Run Time:00h:00m:11s
+
+Running: multi_srs_gen (Multi-srs Generator) on impl1_syn|impl1
+# Wed Jun  2 15:11:11 2021
+
+multi_srs_gen completed
+# Wed Jun  2 15:11:11 2021
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied D:\programs\fpga\C200_FPGA\impl1\synwork\impl1_mult.srs to D:\programs\fpga\C200_FPGA\impl1\impl1.srs
+Complete: Compile Process on impl1_syn|impl1
+
+Running: premap (Premap) on impl1_syn|impl1
+# Wed Jun  2 15:11:11 2021
+
+premap completed with warnings
+# Wed Jun  2 15:11:15 2021
+
+Return Code: 1
+Run Time:00h:00m:04s
+Complete: Compile on impl1_syn|impl1
+
+Running Flow: map (Map) on impl1_syn|impl1
+# Wed Jun  2 15:11:15 2021
+
+Running: fpga_mapper (Map & Optimize) on impl1_syn|impl1
+# Wed Jun  2 15:11:15 2021
+Copied D:\programs\fpga\C200_FPGA\impl1\synwork\impl1_m.srm to D:\programs\fpga\C200_FPGA\impl1\impl1.srm
+
+fpga_mapper completed with warnings
+# Wed Jun  2 15:12:14 2021
+
+Return Code: 1
+Run Time:00h:00m:59s
+Complete: Map on impl1_syn|impl1
+Complete: Logic Synthesis on impl1_syn|impl1
+0Loaded XDM (Hierarchy) data base - elapsed time 0:0 Blocks=47
+@N Implementation 'D:\programs\fpga\C200_FPGA\impl1\impl1_syn.prj|impl1' design hierarchy loaded from database
+exit status=0

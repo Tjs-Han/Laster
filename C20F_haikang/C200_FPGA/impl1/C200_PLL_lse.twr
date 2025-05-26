@@ -1,0 +1,317 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Sun May 23 18:37:22 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     C200_PLL
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk1 [get_nets \C200_PLL_reveal_coretop_instance/jtck[0]]
+            945 items scored, 945 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 8.106ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i17  (from \C200_PLL_reveal_coretop_instance/jtck[0] +)
+   Destination:    FD1P3BX    D              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_i0_i0  (to \C200_PLL_reveal_coretop_instance/jtck[0] +)
+
+   Delay:                  13.281ns  (15.0% logic, 85.0% route), 11 logic levels.
+
+ Constraint Details:
+
+     13.281ns data_path \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i17 to \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_i0_i0 violates
+      5.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 5.175ns) by 8.106ns
+
+ Path Details: \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i17 to \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_i0_i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i17 (from \C200_PLL_reveal_coretop_instance/jtck[0])
+Route        58   e 1.932                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/addr[0]
+LUT4        ---     0.166              A to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i1_2_lut_2_lut
+Route         4   e 1.297                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/clk[0]_N_keep_enable_53
+LUT4        ---     0.166              B to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i7204_4_lut
+Route        14   e 1.547                                  n19
+LUT4        ---     0.166              D to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i7206_4_lut_4_lut
+Route         1   e 0.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/n7458
+MOFX0       ---     0.179             C0 to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i68
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n58
+LUT4        ---     0.166              B to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i38_4_lut
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n44
+LUT4        ---     0.166              C to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i26_3_lut
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n23
+LUT4        ---     0.166              A to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i7012_3_lut
+Route         1   e 0.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n7403
+MUXL5       ---     0.116           ALUT to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i7013
+Route         3   e 1.239                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/jtdo_N_209
+LUT4        ---     0.166              A to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i3660_2_lut
+Route         2   e 1.158                                  \C200_PLL_reveal_coretop_instance/er2_tdo[0]
+LUT4        ---     0.166              D to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i1_4_lut_adj_129
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_15__N_119[0]
+                  --------
+                   13.281  (15.0% logic, 85.0% route), 11 logic levels.
+
+
+Error:  The following path violates requirements by 8.088ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i18  (from \C200_PLL_reveal_coretop_instance/jtck[0] +)
+   Destination:    FD1P3BX    D              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_i0_i0  (to \C200_PLL_reveal_coretop_instance/jtck[0] +)
+
+   Delay:                  13.263ns  (15.0% logic, 85.0% route), 11 logic levels.
+
+ Constraint Details:
+
+     13.263ns data_path \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i18 to \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_i0_i0 violates
+      5.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 5.175ns) by 8.088ns
+
+ Path Details: \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i18 to \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_i0_i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i18 (from \C200_PLL_reveal_coretop_instance/jtck[0])
+Route        53   e 1.914                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/addr[1]
+LUT4        ---     0.166              B to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i1_2_lut_2_lut
+Route         4   e 1.297                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/clk[0]_N_keep_enable_53
+LUT4        ---     0.166              B to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i7204_4_lut
+Route        14   e 1.547                                  n19
+LUT4        ---     0.166              D to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i7206_4_lut_4_lut
+Route         1   e 0.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/n7458
+MOFX0       ---     0.179             C0 to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i68
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n58
+LUT4        ---     0.166              B to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i38_4_lut
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n44
+LUT4        ---     0.166              C to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i26_3_lut
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n23
+LUT4        ---     0.166              A to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i7012_3_lut
+Route         1   e 0.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n7403
+MUXL5       ---     0.116           ALUT to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i7013
+Route         3   e 1.239                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/jtdo_N_209
+LUT4        ---     0.166              A to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i3660_2_lut
+Route         2   e 1.158                                  \C200_PLL_reveal_coretop_instance/er2_tdo[0]
+LUT4        ---     0.166              D to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i1_4_lut_adj_129
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_15__N_119[0]
+                  --------
+                   13.263  (15.0% logic, 85.0% route), 11 logic levels.
+
+
+Error:  The following path violates requirements by 8.043ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i17  (from \C200_PLL_reveal_coretop_instance/jtck[0] +)
+   Destination:    FD1P3BX    D              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_i0_i0  (to \C200_PLL_reveal_coretop_instance/jtck[0] +)
+
+   Delay:                  13.218ns  (14.6% logic, 85.4% route), 11 logic levels.
+
+ Constraint Details:
+
+     13.218ns data_path \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i17 to \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_i0_i0 violates
+      5.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 5.175ns) by 8.043ns
+
+ Path Details: \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i17 to \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_i0_i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i17 (from \C200_PLL_reveal_coretop_instance/jtck[0])
+Route        58   e 1.932                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/addr[0]
+LUT4        ---     0.166              A to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i1_2_lut_2_lut
+Route         4   e 1.297                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/clk[0]_N_keep_enable_53
+LUT4        ---     0.166              B to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i7204_4_lut
+Route        14   e 1.547                                  n19
+LUT4        ---     0.166              C to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i41_3_lut
+Route         1   e 0.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n47
+MUXL5       ---     0.116           ALUT to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i68
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n58
+LUT4        ---     0.166              B to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i38_4_lut
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n44
+LUT4        ---     0.166              C to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i26_3_lut
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n23
+LUT4        ---     0.166              A to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i7012_3_lut
+Route         1   e 0.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n7403
+MUXL5       ---     0.116           ALUT to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i7013
+Route         3   e 1.239                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/jtdo_N_209
+LUT4        ---     0.166              A to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i3660_2_lut
+Route         2   e 1.158                                  \C200_PLL_reveal_coretop_instance/er2_tdo[0]
+LUT4        ---     0.166              D to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i1_4_lut_adj_129
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_15__N_119[0]
+                  --------
+                   13.218  (14.6% logic, 85.4% route), 11 logic levels.
+
+Warning: 13.106 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk0 [get_nets CLKOP_N]
+            2354 items scored, 2354 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 4.331ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/armed_354  (from CLKOP_N +)
+   Destination:    FD1P3DX    D              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/pre_trig_cntr_i0_i0  (to CLKOP_N +)
+
+   Delay:                   9.506ns  (12.6% logic, 87.4% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.506ns data_path \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/armed_354 to \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/pre_trig_cntr_i0_i0 violates
+      5.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 5.175ns) by 4.331ns
+
+ Path Details: \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/armed_354 to \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/pre_trig_cntr_i0_i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/armed_354 (from CLKOP_N)
+Route        44   e 1.876                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/armed
+LUT4        ---     0.166              A to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i1_2_lut_rep_219
+Route         5   e 1.341                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n8111
+LUT4        ---     0.166              D to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i1_4_lut_adj_150
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n6831
+LUT4        ---     0.166              A to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i1_4_lut_adj_149
+Route         5   e 1.341                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n4789
+LUT4        ---     0.166              C to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i289_2_lut_rep_184_3_lut
+Route        32   e 1.713                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n8076
+LUT4        ---     0.166              C to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/mux_254_i1_4_lut
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/pre_trig_cntr_15__N_1043[0]
+                  --------
+                    9.506  (12.6% logic, 87.4% route), 6 logic levels.
+
+
+Error:  The following path violates requirements by 4.331ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/armed_354  (from CLKOP_N +)
+   Destination:    FD1P3DX    D              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/post_trig_cntr_i0_i0  (to CLKOP_N +)
+
+   Delay:                   9.506ns  (12.6% logic, 87.4% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.506ns data_path \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/armed_354 to \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/post_trig_cntr_i0_i0 violates
+      5.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 5.175ns) by 4.331ns
+
+ Path Details: \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/armed_354 to \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/post_trig_cntr_i0_i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/armed_354 (from CLKOP_N)
+Route        44   e 1.876                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/armed
+LUT4        ---     0.166              A to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i1_2_lut_rep_219
+Route         5   e 1.341                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n8111
+LUT4        ---     0.166              D to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i1_4_lut_adj_150
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n6831
+LUT4        ---     0.166              A to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i1_4_lut_adj_149
+Route         5   e 1.341                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n4789
+LUT4        ---     0.166              C to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i289_2_lut_rep_184_3_lut
+Route        32   e 1.713                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n8076
+LUT4        ---     0.166              C to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/mux_255_i1_4_lut
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/post_trig_cntr_15__N_1059[0]
+                  --------
+                    9.506  (12.6% logic, 87.4% route), 6 logic levels.
+
+
+Error:  The following path violates requirements by 4.331ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/armed_354  (from CLKOP_N +)
+   Destination:    FD1P3DX    D              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/pre_trig_cntr_i0_i1  (to CLKOP_N +)
+
+   Delay:                   9.506ns  (12.6% logic, 87.4% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.506ns data_path \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/armed_354 to \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/pre_trig_cntr_i0_i1 violates
+      5.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 5.175ns) by 4.331ns
+
+ Path Details: \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/armed_354 to \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/pre_trig_cntr_i0_i1
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/armed_354 (from CLKOP_N)
+Route        44   e 1.876                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/armed
+LUT4        ---     0.166              A to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i1_2_lut_rep_219
+Route         5   e 1.341                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n8111
+LUT4        ---     0.166              D to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i1_4_lut_adj_150
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n6831
+LUT4        ---     0.166              A to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i1_4_lut_adj_149
+Route         5   e 1.341                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n4789
+LUT4        ---     0.166              C to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i289_2_lut_rep_184_3_lut
+Route        32   e 1.713                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n8076
+LUT4        ---     0.166              C to Z              \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/mux_254_i2_4_lut
+Route         1   e 1.020                                  \C200_PLL_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/pre_trig_cntr_15__N_1043[1]
+                  --------
+                    9.506  (12.6% logic, 87.4% route), 6 logic levels.
+
+Warning: 9.331 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk1 [get_nets                          |             |             |
+\C200_PLL_reveal_coretop_instance/jtck[0|             |             |
+]]                                      |     5.000 ns|    13.106 ns|    11 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets CLKOP_N]                 |     5.000 ns|     9.331 ns|     6 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+2 constraints not met.
+
+--------------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+--------------------------------------------------------------------------------
+\C200_PLL_reveal_coretop_instance/c200_f|        |        |
+pga_la0_inst_0/tm_u/n4789               |       5|     936|     28.37%
+                                        |        |        |
+\C200_PLL_reveal_coretop_instance/c200_f|        |        |
+pga_la0_inst_0/tm_u/n8076               |      32|     576|     17.46%
+                                        |        |        |
+\C200_PLL_reveal_coretop_instance/c200_f|        |        |
+pga_la0_inst_0/tm_u/n6405               |      32|     544|     16.49%
+                                        |        |        |
+\C200_PLL_reveal_coretop_instance/c200_f|        |        |
+pga_la0_inst_0/tm_u/n7394               |       1|     364|     11.03%
+                                        |        |        |
+--------------------------------------------------------------------------------
+
+
+Timing summary:
+---------------
+
+Timing errors: 3299  Score: 7398838
+
+Constraints cover  6793 paths, 985 nets, and 2413 connections (68.6% coverage)
+
+
+Peak memory: 95518720 bytes, TRCE: 2736128 bytes, DLYMAN: 131072 bytes
+CPU_TIME_REPORT: 0 secs 

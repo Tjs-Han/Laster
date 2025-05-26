@@ -1,0 +1,411 @@
+PAD Specification File
+***************************
+
+PART TYPE:        LFE5U-25F
+Performance Grade:      6
+PACKAGE:          CABGA256
+Package Status:                     Final          Version 1.33
+
+Mon Apr 28 16:20:44 2025
+
+Pinout by Port Name:
++------------------+----------+---------------+-------+-----------+-------------------------------------------------------+
+| Port Name        | Pin/Bank | Buffer Type   | Site  | BC Enable | Properties                                            |
++------------------+----------+---------------+-------+-----------+-------------------------------------------------------+
+| U7/w_flash_clk_N | CCLK/8   |               | CCLK  |           |                                                       |
+| i_adc_sda        | C16/2    | LVCMOS33_IN   | PR5A  |           | PULL:DOWN CLAMP:ON HYSTERESIS:ON                      |
+| i_clk_50m        | E7/0     | LVCMOS33_IN   | PT24A |           | PULL:DOWN CLAMP:ON HYSTERESIS:ON                      |
+| i_flash_miso     | T7/8     | LVCMOS33_IN   | PB11A |           | PULL:DOWN CLAMP:ON HYSTERESIS:ON                      |
+| i_opto_switch    | C2/7     | LVCMOS33_IN   | PL5B  |           | PULL:DOWN CLAMP:ON HYSTERESIS:ON                      |
+| i_spi_miso       | A4/0     | LVCMOS33_IN   | PT6B  |           | PULL:DOWN CLAMP:ON HYSTERESIS:ON                      |
+| i_tdc_init       | A10/1    | LVCMOS33_IN   | PT42B |           | PULL:DOWN CLAMP:ON HYSTERESIS:ON                      |
+| i_tdc_spi_miso   | A14/1    | LVCMOS33_IN   | PT65B |           | PULL:DOWN CLAMP:ON HYSTERESIS:ON                      |
+| io_sram_data[0]  | G15/2    | LVCMOS33_BIDI | PR14B |           | DRIVE:8mA PULL:DOWN CLAMP:ON HYSTERESIS:ON SLEW:SLOW  |
+| io_sram_data[10] | J13/2    | LVCMOS33_BIDI | PR17C |           | DRIVE:8mA PULL:DOWN CLAMP:ON HYSTERESIS:ON SLEW:SLOW  |
+| io_sram_data[11] | L12/3    | LVCMOS33_BIDI | PR29D |           | DRIVE:8mA PULL:DOWN CLAMP:ON HYSTERESIS:ON SLEW:SLOW  |
+| io_sram_data[12] | M13/3    | LVCMOS33_BIDI | PR35C |           | DRIVE:8mA PULL:DOWN CLAMP:ON HYSTERESIS:ON SLEW:SLOW  |
+| io_sram_data[13] | N13/3    | LVCMOS33_BIDI | PR38A |           | DRIVE:8mA PULL:DOWN CLAMP:ON HYSTERESIS:ON SLEW:SLOW  |
+| io_sram_data[14] | P13/3    | LVCMOS33_BIDI | PR41A |           | DRIVE:8mA PULL:DOWN CLAMP:ON HYSTERESIS:ON SLEW:SLOW  |
+| io_sram_data[15] | R13/3    | LVCMOS33_BIDI | PR41C |           | DRIVE:8mA PULL:DOWN CLAMP:ON HYSTERESIS:ON SLEW:SLOW  |
+| io_sram_data[1]  | H15/2    | LVCMOS33_BIDI | PR20B |           | DRIVE:8mA PULL:DOWN CLAMP:ON HYSTERESIS:ON SLEW:SLOW  |
+| io_sram_data[2]  | L15/3    | LVCMOS33_BIDI | PR26B |           | DRIVE:8mA PULL:DOWN CLAMP:ON HYSTERESIS:ON SLEW:SLOW  |
+| io_sram_data[3]  | K16/2    | LVCMOS33_BIDI | PR23C |           | DRIVE:8mA PULL:DOWN CLAMP:ON HYSTERESIS:ON SLEW:SLOW  |
+| io_sram_data[4]  | L16/3    | LVCMOS33_BIDI | PR26A |           | DRIVE:8mA PULL:DOWN CLAMP:ON HYSTERESIS:ON SLEW:SLOW  |
+| io_sram_data[5]  | P16/3    | LVCMOS33_BIDI | PR35A |           | DRIVE:8mA PULL:DOWN CLAMP:ON HYSTERESIS:ON SLEW:SLOW  |
+| io_sram_data[6]  | R15/3    | LVCMOS33_BIDI | PR38C |           | DRIVE:8mA PULL:DOWN CLAMP:ON HYSTERESIS:ON SLEW:SLOW  |
+| io_sram_data[7]  | T13/3    | LVCMOS33_BIDI | PR44B |           | DRIVE:8mA PULL:DOWN CLAMP:ON HYSTERESIS:ON SLEW:SLOW  |
+| io_sram_data[8]  | J12/2    | LVCMOS33_BIDI | PR17D |           | DRIVE:8mA PULL:DOWN CLAMP:ON HYSTERESIS:ON SLEW:SLOW  |
+| io_sram_data[9]  | K12/3    | LVCMOS33_BIDI | PR29B |           | DRIVE:8mA PULL:DOWN CLAMP:ON HYSTERESIS:ON SLEW:SLOW  |
+| o_adc_cs1        | B16/2    | LVCMOS33_OUT  | PR2A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_adc_cs2        | C12/1    | LVCMOS33_OUT  | PT56B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_adc_sclk       | C15/2    | LVCMOS33_OUT  | PR5B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_dac_cs         | E14/2    | LVCMOS33_OUT  | PR5C  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_dac_scl        | D13/1    | LVCMOS33_OUT  | PT62A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_dac_sda        | E13/1    | LVCMOS33_OUT  | PT62B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_flash_clk      | N5/6     | LVCMOS33_OUT  | PL44D |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_flash_cs       | N8/8     | LVCMOS33_OUT  | PB15A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_flash_hold     | J1/7     | LVCMOS33_OUT  | PL23A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_flash_mosi     | T8/8     | LVCMOS33_OUT  | PB11B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_flash_wp       | F4/7     | LVCMOS33_OUT  | PL8C  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_hv_en          | C14/2    | LVCMOS33_OUT  | PR2C  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_laser_str      | D14/2    | LVCMOS33_OUT  | PR2D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_led_state      | C13/1    | LVCMOS33_OUT  | PT60B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_motor_pwm      | B5/0     | LVCMOS33_OUT  | PT15B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_program_n      | R7/8     | LVCMOS33_OUT  | PB6A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_spi_cs         | A2/0     | LVCMOS33_OUT  | PT4A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_spi_dclk       | A3/0     | LVCMOS33_OUT  | PT6A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_spi_mosi       | A5/0     | LVCMOS33_OUT  | PT18A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[0]   | E15/2    | LVCMOS33_OUT  | PR8B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[10]  | R14/3    | LVCMOS33_OUT  | PR41B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[11]  | T14/3    | LVCMOS33_OUT  | PR41D |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[12]  | P15/3    | LVCMOS33_OUT  | PR32B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[13]  | T15/3    | LVCMOS33_OUT  | PR38D |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[14]  | M14/3    | LVCMOS33_OUT  | PR32D |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[15]  | M16/3    | LVCMOS33_OUT  | PR26C |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[16]  | M15/3    | LVCMOS33_OUT  | PR26D |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[17]  | J16/2    | LVCMOS33_OUT  | PR23A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[1]   | E16/2    | LVCMOS33_OUT  | PR11D |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[2]   | D16/2    | LVCMOS33_OUT  | PR8A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[3]   | H14/2    | LVCMOS33_OUT  | PR14D |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[4]   | F16/2    | LVCMOS33_OUT  | PR14A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[5]   | J15/2    | LVCMOS33_OUT  | PR23B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[6]   | K15/2    | LVCMOS33_OUT  | PR23D |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[7]   | L14/3    | LVCMOS33_OUT  | PR32C |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[8]   | N14/3    | LVCMOS33_OUT  | PR35D |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_addr[9]   | P14/3    | LVCMOS33_OUT  | PR38B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_cs_n      | J14/2    | LVCMOS33_OUT  | PR20C |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_lb_n      | F14/2    | LVCMOS33_OUT  | PR5D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_oe_n      | F15/2    | LVCMOS33_OUT  | PR11C |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_ub_n      | H13/2    | LVCMOS33_OUT  | PR17B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_sram_we_n      | N16/3    | LVCMOS33_OUT  | PR32A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_tdc_reset      | A15/1    | LVCMOS33_OUT  | PT67B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_tdc_spi_clk    | A12/1    | LVCMOS33_OUT  | PT53B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_tdc_spi_mosi   | A13/1    | LVCMOS33_OUT  | PT65A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_tdc_spi_ssn    | A11/1    | LVCMOS33_OUT  | PT53A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_tdc_start      | B12/1    | LVCMOS33_OUT  | PT56A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_tdc_stop1      | B14/1    | LVCMOS33_OUT  | PT67A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_tdc_stop2      | B13/1    | LVCMOS33_OUT  | PT60A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_w5500_rst      | A7/0     | LVCMOS33_OUT  | PT29A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
++------------------+----------+---------------+-------+-----------+-------------------------------------------------------+
+
+Vccio by Bank:
++------+-------+
+| Bank | Vccio |
++------+-------+
+| 0    | 3.3V  |
+| 1    | 3.3V  |
+| 2    | 3.3V  |
+| 3    | 3.3V  |
+| 6    | 3.3V  |
+| 7    | 3.3V  |
+| 8    | 3.3V  |
++------+-------+
+
+Vref by Bank:
++------+-----+-----------------+---------+
+| Vref | Pin | Bank # / Vref # | Load(s) |
++------+-----+-----------------+---------+
++------+-----+-----------------+---------+
+
+Pinout by Pin Number:
++----------+-----------------------+------------+---------------+-------+--------------------------+-----------+
+| Pin/Bank | Pin Info              | Preference | Buffer Type   | Site  | Dual Function            | BC Enable |
++----------+-----------------------+------------+---------------+-------+--------------------------+-----------+
+| A2/0     | o_spi_cs              | LOCATED    | LVCMOS33_OUT  | PT4A  |                          |           |
+| A3/0     | o_spi_dclk            | LOCATED    | LVCMOS33_OUT  | PT6A  |                          |           |
+| A4/0     | i_spi_miso            | LOCATED    | LVCMOS33_IN   | PT6B  |                          |           |
+| A5/0     | o_spi_mosi            | LOCATED    | LVCMOS33_OUT  | PT18A |                          |           |
+| A6/0     |     unused, PULL:DOWN |            |               | PT18B |                          |           |
+| A7/0     | o_w5500_rst           | LOCATED    | LVCMOS33_OUT  | PT29A | PCLKT0_0                 |           |
+| A8/0     |     unused, PULL:DOWN |            |               | PT29B |                          |           |
+| A9/1     |     unused, PULL:DOWN |            |               | PT42A |                          |           |
+| A10/1    | i_tdc_init            | LOCATED    | LVCMOS33_IN   | PT42B |                          |           |
+| A11/1    | o_tdc_spi_ssn         | LOCATED    | LVCMOS33_OUT  | PT53A |                          |           |
+| A12/1    | o_tdc_spi_clk         | LOCATED    | LVCMOS33_OUT  | PT53B |                          |           |
+| A13/1    | o_tdc_spi_mosi        | LOCATED    | LVCMOS33_OUT  | PT65A |                          |           |
+| A14/1    | i_tdc_spi_miso        | LOCATED    | LVCMOS33_IN   | PT65B |                          |           |
+| A15/1    | o_tdc_reset           | LOCATED    | LVCMOS33_OUT  | PT67B |                          |           |
+| B1/7     |     unused, PULL:DOWN |            |               | PL2A  | LDQ8                     |           |
+| B2/7     |     unused, PULL:DOWN |            |               | PL2B  | LDQ8                     |           |
+| B3/0     |     unused, PULL:DOWN |            |               | PT4B  |                          |           |
+| B4/0     |     unused, PULL:DOWN |            |               | PT11B |                          |           |
+| B5/0     | o_motor_pwm           | LOCATED    | LVCMOS33_OUT  | PT15B |                          |           |
+| B6/0     |     unused, PULL:DOWN |            |               | PT22B |                          |           |
+| B7/0     |     unused, PULL:DOWN |            |               | PT27B |                          |           |
+| B8/1     |     unused, PULL:DOWN |            |               | PT35B |                          |           |
+| B9/1     |     unused, PULL:DOWN |            |               | PT38A | GR_PCLK1_0               |           |
+| B10/1    |     unused, PULL:DOWN |            |               | PT44A |                          |           |
+| B11/1    |     unused, PULL:DOWN |            |               | PT49A |                          |           |
+| B12/1    | o_tdc_start           | LOCATED    | LVCMOS33_OUT  | PT56A |                          |           |
+| B13/1    | o_tdc_stop2           | LOCATED    | LVCMOS33_OUT  | PT60A |                          |           |
+| B14/1    | o_tdc_stop1           | LOCATED    | LVCMOS33_OUT  | PT67A |                          |           |
+| B15/2    |     unused, PULL:DOWN |            |               | PR2B  | S0_IN/RDQ8               |           |
+| B16/2    | o_adc_cs1             | LOCATED    | LVCMOS33_OUT  | PR2A  | RDQ8                     |           |
+| C1/7     |     unused, PULL:DOWN |            |               | PL5A  | LDQ8                     |           |
+| C2/7     | i_opto_switch         | LOCATED    | LVCMOS33_IN   | PL5B  | LDQ8                     |           |
+| C3/7     |     unused, PULL:DOWN |            |               | PL2C  | LDQ8                     |           |
+| C4/0     |     unused, PULL:DOWN |            |               | PT11A |                          |           |
+| C5/0     |     unused, PULL:DOWN |            |               | PT15A |                          |           |
+| C6/0     |     unused, PULL:DOWN |            |               | PT22A |                          |           |
+| C7/0     |     unused, PULL:DOWN |            |               | PT27A | PCLKT0_1                 |           |
+| C8/1     |     unused, PULL:DOWN |            |               | PT35A | PCLKT1_0                 |           |
+| C9/1     |     unused, PULL:DOWN |            |               | PT38B | GR_PCLK1_1               |           |
+| C10/1    |     unused, PULL:DOWN |            |               | PT44B |                          |           |
+| C11/1    |     unused, PULL:DOWN |            |               | PT49B |                          |           |
+| C12/1    | o_adc_cs2             | LOCATED    | LVCMOS33_OUT  | PT56B |                          |           |
+| C13/1    | o_led_state           | LOCATED    | LVCMOS33_OUT  | PT60B |                          |           |
+| C14/2    | o_hv_en               | LOCATED    | LVCMOS33_OUT  | PR2C  | RDQ8                     |           |
+| C15/2    | o_adc_sclk            | LOCATED    | LVCMOS33_OUT  | PR5B  | RDQ8                     |           |
+| C16/2    | i_adc_sda             | LOCATED    | LVCMOS33_IN   | PR5A  | RDQ8                     |           |
+| CCLK/8   | U7/w_flash_clk_N      |            |               | CCLK  | MCLK/SCK                 |           |
+| D1/7     |     unused, PULL:DOWN |            |               | PL8A  | LDQS8                    |           |
+| D3/7     |     unused, PULL:DOWN |            |               | PL2D  | LDQ8                     |           |
+| D4/0     |     unused, PULL:DOWN |            |               | PT9B  |                          |           |
+| D5/0     |     unused, PULL:DOWN |            |               | PT13B |                          |           |
+| D6/0     |     unused, PULL:DOWN |            |               | PT20B |                          |           |
+| D7/0     |     unused, PULL:DOWN |            |               | PT24B | GR_PCLK0_0               |           |
+| D8/1     |     unused, PULL:DOWN |            |               | PT33B |                          |           |
+| D9/1     |     unused, PULL:DOWN |            |               | PT40A |                          |           |
+| D10/1    |     unused, PULL:DOWN |            |               | PT47A |                          |           |
+| D11/1    |     unused, PULL:DOWN |            |               | PT51A |                          |           |
+| D12/1    |     unused, PULL:DOWN |            |               | PT58A |                          |           |
+| D13/1    | o_dac_scl             | LOCATED    | LVCMOS33_OUT  | PT62A |                          |           |
+| D14/2    | o_laser_str           | LOCATED    | LVCMOS33_OUT  | PR2D  | RDQ8                     |           |
+| D16/2    | o_sram_addr[2]        | LOCATED    | LVCMOS33_OUT  | PR8A  | RDQS8                    |           |
+| E1/7     |     unused, PULL:DOWN |            |               | PL11D | LDQ8                     |           |
+| E2/7     |     unused, PULL:DOWN |            |               | PL8B  | LDQSN8                   |           |
+| E3/7     |     unused, PULL:DOWN |            |               | PL5C  | LDQ8                     |           |
+| E4/0     |     unused, PULL:DOWN |            |               | PT9A  |                          |           |
+| E5/0     |     unused, PULL:DOWN |            |               | PT13A |                          |           |
+| E6/0     |     unused, PULL:DOWN |            |               | PT20A |                          |           |
+| E7/0     | i_clk_50m             | LOCATED    | LVCMOS33_IN   | PT24A | GR_PCLK0_1               |           |
+| E8/1     |     unused, PULL:DOWN |            |               | PT33A | PCLKT1_1                 |           |
+| E9/1     |     unused, PULL:DOWN |            |               | PT40B |                          |           |
+| E10/1    |     unused, PULL:DOWN |            |               | PT47B |                          |           |
+| E11/1    |     unused, PULL:DOWN |            |               | PT51B |                          |           |
+| E12/1    |     unused, PULL:DOWN |            |               | PT58B |                          |           |
+| E13/1    | o_dac_sda             | LOCATED    | LVCMOS33_OUT  | PT62B |                          |           |
+| E14/2    | o_dac_cs              | LOCATED    | LVCMOS33_OUT  | PR5C  | RDQ8                     |           |
+| E15/2    | o_sram_addr[0]        | LOCATED    | LVCMOS33_OUT  | PR8B  | RDQSN8                   |           |
+| E16/2    | o_sram_addr[1]        | LOCATED    | LVCMOS33_OUT  | PR11D | RDQ8                     |           |
+| F1/7     |     unused, PULL:DOWN |            |               | PL14A | LDQ20                    |           |
+| F2/7     |     unused, PULL:DOWN |            |               | PL11C | LDQ8                     |           |
+| F3/7     |     unused, PULL:DOWN |            |               | PL5D  | LDQ8                     |           |
+| F4/7     | o_flash_wp            |            | LVCMOS33_OUT  | PL8C  | LDQ8                     |           |
+| F5/7     |     unused, PULL:DOWN |            |               | PL8D  | LDQ8                     |           |
+| F12/2    |     unused, PULL:DOWN |            |               | PR8D  | RDQ8                     |           |
+| F13/2    |     unused, PULL:DOWN |            |               | PR8C  | RDQ8                     |           |
+| F14/2    | o_sram_lb_n           | LOCATED    | LVCMOS33_OUT  | PR5D  | RDQ8                     |           |
+| F15/2    | o_sram_oe_n           | LOCATED    | LVCMOS33_OUT  | PR11C | RDQ8                     |           |
+| F16/2    | o_sram_addr[4]        | LOCATED    | LVCMOS33_OUT  | PR14A | RDQ20                    |           |
+| G1/7     |     unused, PULL:DOWN |            |               | PL20A | GR_PCLK7_1/LDQS20        |           |
+| G2/7     |     unused, PULL:DOWN |            |               | PL14B | LDQ20                    |           |
+| G3/7     |     unused, PULL:DOWN |            |               | PL14C | VREF1_7/LDQ20            |           |
+| G4/7     |     unused, PULL:DOWN |            |               | PL11B | LDQ8                     |           |
+| G5/7     |     unused, PULL:DOWN |            |               | PL11A | LDQ8                     |           |
+| G12/2    |     unused, PULL:DOWN |            |               | PR11A | RDQ8                     |           |
+| G13/2    |     unused, PULL:DOWN |            |               | PR11B | RDQ8                     |           |
+| G14/2    |     unused, PULL:DOWN |            |               | PR14C | VREF1_2/RDQ20            |           |
+| G15/2    | io_sram_data[0]       | LOCATED    | LVCMOS33_BIDI | PR14B | RDQ20                    |           |
+| G16/2    |     unused, PULL:DOWN |            |               | PR20A | GR_PCLK2_1/RDQS20        |           |
+| H2/7     |     unused, PULL:DOWN |            |               | PL20B | LDQSN20                  |           |
+| H3/7     |     unused, PULL:DOWN |            |               | PL14D | LDQ20                    |           |
+| H4/7     |     unused, PULL:DOWN |            |               | PL17B | LDQ20                    |           |
+| H5/7     |     unused, PULL:DOWN |            |               | PL17A | LDQ20                    |           |
+| H12/2    |     unused, PULL:DOWN |            |               | PR17A | RDQ20                    |           |
+| H13/2    | o_sram_ub_n           | LOCATED    | LVCMOS33_OUT  | PR17B | RDQ20                    |           |
+| H14/2    | o_sram_addr[3]        | LOCATED    | LVCMOS33_OUT  | PR14D | RDQ20                    |           |
+| H15/2    | io_sram_data[1]       | LOCATED    | LVCMOS33_BIDI | PR20B | RDQSN20                  |           |
+| J1/7     | o_flash_hold          |            | LVCMOS33_OUT  | PL23A | PCLKT7_1/LDQ20           |           |
+| J2/7     |     unused, PULL:DOWN |            |               | PL23B | PCLKC7_1/LDQ20           |           |
+| J3/7     |     unused, PULL:DOWN |            |               | PL20C | GR_PCLK7_0/LDQ20         |           |
+| J4/7     |     unused, PULL:DOWN |            |               | PL17C | LDQ20                    |           |
+| J5/7     |     unused, PULL:DOWN |            |               | PL17D | LDQ20                    |           |
+| J12/2    | io_sram_data[8]       | LOCATED    | LVCMOS33_BIDI | PR17D | RDQ20                    |           |
+| J13/2    | io_sram_data[10]      | LOCATED    | LVCMOS33_BIDI | PR17C | RDQ20                    |           |
+| J14/2    | o_sram_cs_n           | LOCATED    | LVCMOS33_OUT  | PR20C | GR_PCLK2_0/RDQ20         |           |
+| J15/2    | o_sram_addr[5]        | LOCATED    | LVCMOS33_OUT  | PR23B | PCLKC2_1/RDQ20           |           |
+| J16/2    | o_sram_addr[17]       | LOCATED    | LVCMOS33_OUT  | PR23A | PCLKT2_1/RDQ20           |           |
+| K1/7     |     unused, PULL:DOWN |            |               | PL23C | PCLKT7_0/LDQ20           |           |
+| K2/7     |     unused, PULL:DOWN |            |               | PL23D | PCLKC7_0/LDQ20           |           |
+| K3/7     |     unused, PULL:DOWN |            |               | PL20D | LDQ20                    |           |
+| K4/6     |     unused, PULL:DOWN |            |               | PL29A | GR_PCLK6_0/LDQ32         |           |
+| K5/6     |     unused, PULL:DOWN |            |               | PL29B | LDQ32                    |           |
+| K12/3    | io_sram_data[9]       | LOCATED    | LVCMOS33_BIDI | PR29B | RDQ32                    |           |
+| K13/3    |     unused, PULL:DOWN |            |               | PR29A | GR_PCLK3_0/RDQ32         |           |
+| K14/2    |     unused, PULL:DOWN |            |               | PR20D | RDQ20                    |           |
+| K15/2    | o_sram_addr[6]        | LOCATED    | LVCMOS33_OUT  | PR23D | PCLKC2_0/RDQ20           |           |
+| K16/2    | io_sram_data[3]       | LOCATED    | LVCMOS33_BIDI | PR23C | PCLKT2_0/RDQ20           |           |
+| L1/6     |     unused, PULL:DOWN |            |               | PL26A | PCLKT6_1/LDQ32           |           |
+| L2/6     |     unused, PULL:DOWN |            |               | PL26B | PCLKC6_1/LDQ32           |           |
+| L3/6     |     unused, PULL:DOWN |            |               | PL32C | LDQ32                    |           |
+| L4/6     |     unused, PULL:DOWN |            |               | PL29C | GR_PCLK6_1/LDQ32         |           |
+| L5/6     |     unused, PULL:DOWN |            |               | PL29D | LDQ32                    |           |
+| L12/3    | io_sram_data[11]      | LOCATED    | LVCMOS33_BIDI | PR29D | RDQ32                    |           |
+| L13/3    |     unused, PULL:DOWN |            |               | PR29C | GR_PCLK3_1/RDQ32         |           |
+| L14/3    | o_sram_addr[7]        | LOCATED    | LVCMOS33_OUT  | PR32C | RDQ32                    |           |
+| L15/3    | io_sram_data[2]       | LOCATED    | LVCMOS33_BIDI | PR26B | PCLKC3_1/RDQ32           |           |
+| L16/3    | io_sram_data[4]       | LOCATED    | LVCMOS33_BIDI | PR26A | PCLKT3_1/RDQ32           |           |
+| M1/6     |     unused, PULL:DOWN |            |               | PL26C | PCLKT6_0/LDQ32           |           |
+| M2/6     |     unused, PULL:DOWN |            |               | PL26D | PCLKC6_0/LDQ32           |           |
+| M3/6     |     unused, PULL:DOWN |            |               | PL32D | LDQ32                    |           |
+| M4/6     |     unused, PULL:DOWN |            |               | PL35C | LDQ32                    |           |
+| M5/6     |     unused, PULL:DOWN |            |               | PL44C | LDQ44                    |           |
+| M6/6     |     unused, PULL:DOWN |            |               | PL47A | LDQ44                    |           |
+| M7/8     |     unused, PULL:DOWN |            |               | PB9B  | D2/IO2                   |           |
+| M8/8     |     unused, PULL:DOWN |            |               | PB15B | DOUT/CSON                |           |
+| M9/8     |     unused, PULL:DOWN |            |               | PB18A | WRITEN                   |           |
+| M11/3    |     unused, PULL:DOWN |            |               | PR47A | RDQ44                    |           |
+| M12/3    |     unused, PULL:DOWN |            |               | PR44C | RDQ44                    |           |
+| M13/3    | io_sram_data[12]      | LOCATED    | LVCMOS33_BIDI | PR35C | RDQ32                    |           |
+| M14/3    | o_sram_addr[14]       | LOCATED    | LVCMOS33_OUT  | PR32D | RDQ32                    |           |
+| M15/3    | o_sram_addr[16]       | LOCATED    | LVCMOS33_OUT  | PR26D | PCLKC3_0/RDQ32           |           |
+| M16/3    | o_sram_addr[15]       | LOCATED    | LVCMOS33_OUT  | PR26C | PCLKT3_0/RDQ32           |           |
+| N1/6     |     unused, PULL:DOWN |            |               | PL32A | LDQS32                   |           |
+| N3/6     |     unused, PULL:DOWN |            |               | PL35D | LDQ32                    |           |
+| N4/6     |     unused, PULL:DOWN |            |               | PL38A | LDQ44                    |           |
+| N5/6     | o_flash_clk           |            | LVCMOS33_OUT  | PL44D | LDQ44                    |           |
+| N6/6     |     unused, PULL:DOWN |            |               | PL47B | LDQ44                    |           |
+| N7/8     |     unused, PULL:DOWN |            |               | PB9A  | D3/IO3                   |           |
+| N8/8     | o_flash_cs            | LOCATED    | LVCMOS33_OUT  | PB15A | HOLDN/DI/BUSY/CSSPIN/CEN |           |
+| N11/3    |     unused, PULL:DOWN |            |               | PR47B | RDQ44                    |           |
+| N12/3    |     unused, PULL:DOWN |            |               | PR44D | RDQ44                    |           |
+| N13/3    | io_sram_data[13]      | LOCATED    | LVCMOS33_BIDI | PR38A | RDQ44                    |           |
+| N14/3    | o_sram_addr[8]        | LOCATED    | LVCMOS33_OUT  | PR35D | RDQ32                    |           |
+| N16/3    | o_sram_we_n           | LOCATED    | LVCMOS33_OUT  | PR32A | RDQS32                   |           |
+| P1/6     |     unused, PULL:DOWN |            |               | PL35A | LDQ32                    |           |
+| P2/6     |     unused, PULL:DOWN |            |               | PL32B | LDQSN32                  |           |
+| P3/6     |     unused, PULL:DOWN |            |               | PL38B | LDQ44                    |           |
+| P4/6     |     unused, PULL:DOWN |            |               | PL41A | LDQ44                    |           |
+| P5/6     |     unused, PULL:DOWN |            |               | PL47D | LLC_GPLL0C_IN/LDQ44      |           |
+| P6/6     |     unused, PULL:DOWN |            |               | PL47C | LLC_GPLL0T_IN/LDQ44      |           |
+| P7/8     |     unused, PULL:DOWN |            |               | PB6B  | D4/MOSI2/IO4             |           |
+| P8/8     |     unused, PULL:DOWN |            |               | PB13B | CS1N                     |           |
+| P11/3    |     unused, PULL:DOWN |            |               | PR47C | LRC_GPLL0T_IN/RDQ44      |           |
+| P12/3    |     unused, PULL:DOWN |            |               | PR47D | LRC_GPLL0C_IN/RDQ44      |           |
+| P13/3    | io_sram_data[14]      | LOCATED    | LVCMOS33_BIDI | PR41A | RDQ44                    |           |
+| P14/3    | o_sram_addr[9]        | LOCATED    | LVCMOS33_OUT  | PR38B | RDQ44                    |           |
+| P15/3    | o_sram_addr[12]       | LOCATED    | LVCMOS33_OUT  | PR32B | RDQSN32                  |           |
+| P16/3    | io_sram_data[5]       | LOCATED    | LVCMOS33_BIDI | PR35A | RDQ32                    |           |
+| PT31A/0  |     unused, PULL:DOWN |            |               |       |                          |           |
+| PT31B/0  |     unused, PULL:DOWN |            |               |       |                          |           |
+| R1/6     |     unused, PULL:DOWN |            |               | PL35B | VREF1_6/LDQ32            |           |
+| R2/6     |     unused, PULL:DOWN |            |               | PL38C | LDQ44                    |           |
+| R3/6     |     unused, PULL:DOWN |            |               | PL41B | LDQ44                    |           |
+| R4/6     |     unused, PULL:DOWN |            |               | PL41C | LDQ44                    |           |
+| R5/6     |     unused, PULL:DOWN |            |               | PL44A | LDQS44                   |           |
+| R6/8     |     unused, PULL:DOWN |            |               | PB4B  | D6/IO6                   |           |
+| R7/8     | o_program_n           | LOCATED    | LVCMOS33_OUT  | PB6A  | D5/MISO2/IO5             |           |
+| R8/8     |     unused, PULL:DOWN |            |               | PB13A | SN/CSN                   |           |
+| R12/3    |     unused, PULL:DOWN |            |               | PR44A | RDQS44                   |           |
+| R13/3    | io_sram_data[15]      | LOCATED    | LVCMOS33_BIDI | PR41C | RDQ44                    |           |
+| R14/3    | o_sram_addr[10]       | LOCATED    | LVCMOS33_OUT  | PR41B | RDQ44                    |           |
+| R15/3    | io_sram_data[6]       | LOCATED    | LVCMOS33_BIDI | PR38C | RDQ44                    |           |
+| R16/3    |     unused, PULL:DOWN |            |               | PR35B | VREF1_3/RDQ32            |           |
+| T2/6     |     unused, PULL:DOWN |            |               | PL38D | LDQ44                    |           |
+| T3/6     |     unused, PULL:DOWN |            |               | PL41D | LDQ44                    |           |
+| T4/6     |     unused, PULL:DOWN |            |               | PL44B | LDQSN44                  |           |
+| T6/8     |     unused, PULL:DOWN |            |               | PB4A  | D7/IO7                   |           |
+| T7/8     | i_flash_miso          | LOCATED    | LVCMOS33_IN   | PB11A | D1/MISO/IO1              |           |
+| T8/8     | o_flash_mosi          | LOCATED    | LVCMOS33_OUT  | PB11B | D0/MOSI/IO0              |           |
+| T13/3    | io_sram_data[7]       | LOCATED    | LVCMOS33_BIDI | PR44B | RDQSN44                  |           |
+| T14/3    | o_sram_addr[11]       | LOCATED    | LVCMOS33_OUT  | PR41D | RDQ44                    |           |
+| T15/3    | o_sram_addr[13]       | LOCATED    | LVCMOS33_OUT  | PR38D | RDQ44                    |           |
+| TCK/40   |                       |            |               | TCK   |                          |           |
+| TDI/40   |                       |            |               | TDI   |                          |           |
+| TDO/40   |                       |            |               | TDO   |                          |           |
+| TMS/40   |                       |            |               | TMS   |                          |           |
++----------+-----------------------+------------+---------------+-------+--------------------------+-----------+
+
+
+List of All Pins' Locate Preferences Based on Final Placement After PAR 
+to Help Users Lock Down ALL the Pins Easily (by Simply Copy & Paste): 
+
+LOCATE  COMP  "i_adc_sda"  SITE  "C16";
+LOCATE  COMP  "i_clk_50m"  SITE  "E7";
+LOCATE  COMP  "i_flash_miso"  SITE  "T7";
+LOCATE  COMP  "i_opto_switch"  SITE  "C2";
+LOCATE  COMP  "i_spi_miso"  SITE  "A4";
+LOCATE  COMP  "i_tdc_init"  SITE  "A10";
+LOCATE  COMP  "i_tdc_spi_miso"  SITE  "A14";
+LOCATE  COMP  "io_sram_data[0]"  SITE  "G15";
+LOCATE  COMP  "io_sram_data[10]"  SITE  "J13";
+LOCATE  COMP  "io_sram_data[11]"  SITE  "L12";
+LOCATE  COMP  "io_sram_data[12]"  SITE  "M13";
+LOCATE  COMP  "io_sram_data[13]"  SITE  "N13";
+LOCATE  COMP  "io_sram_data[14]"  SITE  "P13";
+LOCATE  COMP  "io_sram_data[15]"  SITE  "R13";
+LOCATE  COMP  "io_sram_data[1]"  SITE  "H15";
+LOCATE  COMP  "io_sram_data[2]"  SITE  "L15";
+LOCATE  COMP  "io_sram_data[3]"  SITE  "K16";
+LOCATE  COMP  "io_sram_data[4]"  SITE  "L16";
+LOCATE  COMP  "io_sram_data[5]"  SITE  "P16";
+LOCATE  COMP  "io_sram_data[6]"  SITE  "R15";
+LOCATE  COMP  "io_sram_data[7]"  SITE  "T13";
+LOCATE  COMP  "io_sram_data[8]"  SITE  "J12";
+LOCATE  COMP  "io_sram_data[9]"  SITE  "K12";
+LOCATE  COMP  "o_adc_cs1"  SITE  "B16";
+LOCATE  COMP  "o_adc_cs2"  SITE  "C12";
+LOCATE  COMP  "o_adc_sclk"  SITE  "C15";
+LOCATE  COMP  "o_dac_cs"  SITE  "E14";
+LOCATE  COMP  "o_dac_scl"  SITE  "D13";
+LOCATE  COMP  "o_dac_sda"  SITE  "E13";
+LOCATE  COMP  "o_flash_clk"  SITE  "N5";
+LOCATE  COMP  "o_flash_cs"  SITE  "N8";
+LOCATE  COMP  "o_flash_hold"  SITE  "J1";
+LOCATE  COMP  "o_flash_mosi"  SITE  "T8";
+LOCATE  COMP  "o_flash_wp"  SITE  "F4";
+LOCATE  COMP  "o_hv_en"  SITE  "C14";
+LOCATE  COMP  "o_laser_str"  SITE  "D14";
+LOCATE  COMP  "o_led_state"  SITE  "C13";
+LOCATE  COMP  "o_motor_pwm"  SITE  "B5";
+LOCATE  COMP  "o_program_n"  SITE  "R7";
+LOCATE  COMP  "o_spi_cs"  SITE  "A2";
+LOCATE  COMP  "o_spi_dclk"  SITE  "A3";
+LOCATE  COMP  "o_spi_mosi"  SITE  "A5";
+LOCATE  COMP  "o_sram_addr[0]"  SITE  "E15";
+LOCATE  COMP  "o_sram_addr[10]"  SITE  "R14";
+LOCATE  COMP  "o_sram_addr[11]"  SITE  "T14";
+LOCATE  COMP  "o_sram_addr[12]"  SITE  "P15";
+LOCATE  COMP  "o_sram_addr[13]"  SITE  "T15";
+LOCATE  COMP  "o_sram_addr[14]"  SITE  "M14";
+LOCATE  COMP  "o_sram_addr[15]"  SITE  "M16";
+LOCATE  COMP  "o_sram_addr[16]"  SITE  "M15";
+LOCATE  COMP  "o_sram_addr[17]"  SITE  "J16";
+LOCATE  COMP  "o_sram_addr[1]"  SITE  "E16";
+LOCATE  COMP  "o_sram_addr[2]"  SITE  "D16";
+LOCATE  COMP  "o_sram_addr[3]"  SITE  "H14";
+LOCATE  COMP  "o_sram_addr[4]"  SITE  "F16";
+LOCATE  COMP  "o_sram_addr[5]"  SITE  "J15";
+LOCATE  COMP  "o_sram_addr[6]"  SITE  "K15";
+LOCATE  COMP  "o_sram_addr[7]"  SITE  "L14";
+LOCATE  COMP  "o_sram_addr[8]"  SITE  "N14";
+LOCATE  COMP  "o_sram_addr[9]"  SITE  "P14";
+LOCATE  COMP  "o_sram_cs_n"  SITE  "J14";
+LOCATE  COMP  "o_sram_lb_n"  SITE  "F14";
+LOCATE  COMP  "o_sram_oe_n"  SITE  "F15";
+LOCATE  COMP  "o_sram_ub_n"  SITE  "H13";
+LOCATE  COMP  "o_sram_we_n"  SITE  "N16";
+LOCATE  COMP  "o_tdc_reset"  SITE  "A15";
+LOCATE  COMP  "o_tdc_spi_clk"  SITE  "A12";
+LOCATE  COMP  "o_tdc_spi_mosi"  SITE  "A13";
+LOCATE  COMP  "o_tdc_spi_ssn"  SITE  "A11";
+LOCATE  COMP  "o_tdc_start"  SITE  "B12";
+LOCATE  COMP  "o_tdc_stop1"  SITE  "B14";
+LOCATE  COMP  "o_tdc_stop2"  SITE  "B13";
+LOCATE  COMP  "o_w5500_rst"  SITE  "A7";
+
+#PLL
+LOCATE  COMP  "U1/PLLInst_0"  SITE  "PLL_BL0" ;
+
+
+
+
+PAR: Place And Route Diamond (64-bit) 3.12.0.240.2.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Mon Apr 28 16:20:44 2025
+

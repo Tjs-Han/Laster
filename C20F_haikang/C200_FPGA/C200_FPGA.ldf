@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="C200_FPGA" device="LFE5U-25F-6BG256I" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="ram_w32_depth64" top="C200_FPGA"/>
+        <Source name="C200_FPGA.v" type="Verilog" type_short="Verilog">
+            <Options top_module="C200_FPGA"/>
+        </Source>
+        <Source name="C200_FPGA/C200_FPGA.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="rotating_module.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="opto_switch_filter.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="motor_control.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="laser_control.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="dist_measure.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="tdc_control.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="dist_calculate.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="sram_control.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="spi flash/spi_flash_top.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="spi flash/spi_flash_cmd.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="eth/datagram_parser.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="eth/spi_w5500_cmd.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="spi flash/spi_master.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="eth/spi_w5500_top.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="eth/datagram_cmd_defines.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="eth/w5500_cmd_defines.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="eth/w5500_reg_defines.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="eth/tcp_recv_fifo.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="eth/tcp_send_fifo.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="w5500_control.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="parameter_init.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="data_packet.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="i2c_master.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="self_inspection.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="parameter_ident_define.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="test.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="division.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="TDC_SPI_ms1004.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="gp22/gp22_control.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="gp22/gp22_spi.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="encoder_generate_3.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="pluse_average.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="index_calculate.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="USRMCLK.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="time_stamp.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="ms1004_spi.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="TDC_SPI_ms1004_2.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="flash_control_2.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="dist_calculate_2.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="encoder_generate.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="dist_calculate_3.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="adc_to_temp.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="dist_calculate_4.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="dist/calib_packet.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="dist/dist_filter.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="dist/dist_packet.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="dist/tail_filter.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="adc_to_dac.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="adda/AD_SPI.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="adda/adc_control.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="adda/DA_SPI.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="division_2.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="dist_temp_comp.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="tdc_data/tdc_data.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="tdc_process.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="tdc_para.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="cal_process.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="div_rill.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="tb_tdc_process.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="rtl_tjs/statistics_cycle.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="rtl_tjs/rotating_module_1.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="ram_w32_depth64/ram_w32_depth64.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="C200_FPGA.ldc" type="LSE Design Constraints File" type_short="LDC">
+            <Options/>
+        </Source>
+        <Source name="C200_FPGA.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="DEBUG/C200_FPGA.rva" type="Reveal Analyzer Project File" type_short="RVA">
+            <Options/>
+        </Source>
+        <Source name="DEBUG/C200_FPGA.rvl" type="Reveal" type_short="Reveal">
+            <Options/>
+        </Source>
+        <Source name="impl1/impl1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="sim/tb_tdc_process/tb_tdc_process.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="C200_FPGA1.sty"/>
+</BaliProject>

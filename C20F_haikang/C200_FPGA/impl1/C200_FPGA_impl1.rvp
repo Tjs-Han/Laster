@@ -1,0 +1,109 @@
+#-- Lattice Semiconductor Corporation Ltd.
+#-- Bali Reveal project file
+
+#device options
+[Device]
+part = LFE5U-25F-6BG256I
+family = ECP5U
+device = LFE5U-25F
+speed = 6
+package = CABGA256
+operation = Industrial
+
+#design options
+[Design]
+title = C200_FPGA
+path = D:/Project/C20F_haikang/C200_FPGA/impl1
+core_generate = D:/Project/C20F_haikang/C200_FPGA/impl1
+search_path = D:/Project/C20F_haikang/C200_FPGA
+top = C200_FPGA
+lpf = D:/Project/C20F_haikang/C200_FPGA/C200_FPGA.lpf
+synthesis = lse
+
+#strategy options
+VHDL2008 = false
+
+#HDLs options
+[HDLs]
+D:/Project/C20F_haikang/C200_FPGA/C200_FPGA.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/C200_FPGA/C200_PLL/C200_PLL.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/C200_FPGA/distance_ram/distance_ram.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/C200_FPGA/eth_data_fifo/eth_data_fifo.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/C200_FPGA/eth_data_ram/eth_data_ram.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/C200_FPGA/eth_send_ram/eth_send_ram.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/C200_FPGA/multiplier/multiplier.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/C200_FPGA/multiplier2/multiplier2.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/C200_FPGA/multiplier3/multiplier3.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/C200_FPGA/packet_data_fifo/packet_data_fifo.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/C200_FPGA/packet_data_ram/packet_data_ram.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/C200_FPGA/tcp_recv_ram/tcp_recv_ram.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/rotating_module.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/opto_switch_filter.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/motor_control.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/laser_control.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/dist_measure.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/tdc_control.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/dist_calculate.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/sram_control.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/spi flash/spi_flash_top.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/spi flash/spi_flash_cmd.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/eth/datagram_parser.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/eth/spi_w5500_cmd.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/spi flash/spi_master.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/eth/spi_w5500_top.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/eth/datagram_cmd_defines.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/eth/w5500_cmd_defines.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/eth/w5500_reg_defines.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/eth/tcp_recv_fifo.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/eth/tcp_send_fifo.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/w5500_control.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/parameter_init.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/data_packet.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/i2c_master.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/self_inspection.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/parameter_ident_define.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/test.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/division.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/TDC_SPI_ms1004.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/gp22/gp22_control.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/gp22/gp22_spi.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/encoder_generate_3.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/pluse_average.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/index_calculate.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/USRMCLK.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/time_stamp.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/ms1004_spi.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/TDC_SPI_ms1004_2.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/flash_control_2.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/dist_calculate_2.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/encoder_generate.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/dist_calculate_3.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/adc_to_temp.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/dist_calculate_4.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/dist/calib_packet.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/dist/dist_filter.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/dist/dist_packet.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/dist/tail_filter.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/adc_to_dac.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/adda/AD_SPI.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/adda/adc_control.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/adda/DA_SPI.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/division_2.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/dist_temp_comp.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/tdc_data/tdc_data_ram/tdc_data_ram.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/tdc_data/tdc_data.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/tdc_process.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/tdc_para.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/cal_process.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/div_rill.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/tb_tdc_process.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/rtl_tjs/statistics_cycle.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/rtl_tjs/rotating_module_1.v = Verilog
+D:/Project/C20F_haikang/C200_FPGA/ramw32_dp64/ramw32_dp64.v = Verilog
+[HDL_Defines]
+SBP_SYNTHESIS=
+[HDL_Param]
+[Generated]
+D:/Project/C20F_haikang/C200_FPGA/impl1/reveal_workspace/tmpreveal/c200_fpga_la0_trig_gen.v=Verilog
+D:/Project/C20F_haikang/C200_FPGA/impl1/reveal_workspace/tmpreveal/c200_fpga_la0_gen.v=Verilog
+D:/Project/C20F_haikang/C200_FPGA/impl1/reveal_workspace/tmpreveal/C200_FPGA_rvl.v=Verilog,work

@@ -1,0 +1,306 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :|Tristate driver w_time_stamp_t[0] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[0] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[1] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[1] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[2] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[2] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[3] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[3] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[4] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[4] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[5] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[5] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[6] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[6] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[7] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[7] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[8] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[8] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver w_time_stamp_t[9] (in view: work.C200_FPGA(verilog)) on net w_time_stamp[9] (in view: work.C200_FPGA(verilog)) has its enable tied to GND.
+@N: MT206 |Auto Constrain mode is enabled
+@N: MO106 :"d:\programs\fpga\c200_fpga\adc_to_temp_2.v":161:46:161:69|Found ROM un35_r_divisor[11:0] (in view: work.adc_to_temp_2(verilog)) with 22 words by 12 bits.
+@N: MO231 :"d:\programs\fpga\c200_fpga\opto_switch_filter.v":28:1:28:6|Found counter in view:work.opto_switch_filter(verilog) instance r_opto_cnt[15:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\motor_control.v":206:1:206:6|Found counter in view:work.motor_control(verilog) instance r_motor_err_cnt[7:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\motor_control.v":124:1:124:6|Found counter in view:work.motor_control(verilog) instance r_delay_40s[29:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\motor_control.v":188:1:188:6|Found counter in view:work.motor_control(verilog) instance r_state_cnt[3:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\motor_control.v":108:1:108:6|Found counter in view:work.motor_control(verilog) instance r_opto_cnt1[29:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\motor_control.v":96:1:96:6|Found counter in view:work.motor_control(verilog) instance r_opto_cnt0[7:0] 
+@N: FX493 |Applying initial value "0" on instance r_state_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_state_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_state_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_state_cnt[3].
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_state_high[20] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_state_high[0] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_high[11] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_high[0] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_higher[12] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_higher[0] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_low[14] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_low[0] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_lower[11] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_lower[0] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_max[10] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_max[0] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_state_low[13] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\motor_control.v":42:1:42:6|Removing sequential instance r_cnt_state_low[0] (in view: work.motor_control(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":169:1:169:6|Found counter in view:work.encoder_generate_3(verilog) instance r_inrv_cnt[15:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":107:1:107:6|Found counter in view:work.encoder_generate_3(verilog) instance r_cyc_cnt[23:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":169:1:169:6|Found counter in view:work.encoder_generate_3(verilog) instance r_pss_cnt[5:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":83:1:83:6|Found counter in view:work.encoder_generate_3(verilog) instance r_low_time_current_cnt[23:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":169:1:169:6|Found counter in view:work.encoder_generate_3(verilog) instance r_angle_cnt[7:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\self_inspection.v":88:1:88:6|Found counter in view:work.self_inspection(verilog) instance r_sample_cnt[7:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\tla2024_top.v":47:1:47:6|Found counter in view:work.tla2024_top(verilog) instance r_adc_time[4:0] 
+@N: FX493 |Applying initial value "0" on instance r_adc_channel[0].
+@N: FX493 |Applying initial value "0" on instance r_adc_channel[1].
+@N: MO231 :"d:\programs\fpga\c200_fpga\i2c_master.v":101:1:101:6|Found counter in view:work.i2c_master(verilog) instance r_bit_cnt[5:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\i2c_master.v":88:1:88:6|Found counter in view:work.i2c_master(verilog) instance r_clk_cnt[9:0] 
+@N: BN362 :"d:\programs\fpga\c200_fpga\i2c_master.v":150:1:150:6|Removing sequential instance o_data_out[3] (in view: work.i2c_master(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\i2c_master.v":150:1:150:6|Removing sequential instance o_data_out[2] (in view: work.i2c_master(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\i2c_master.v":150:1:150:6|Removing sequential instance o_data_out[1] (in view: work.i2c_master(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\i2c_master.v":150:1:150:6|Removing sequential instance o_data_out[0] (in view: work.i2c_master(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\programs\fpga\c200_fpga\adc_to_dac_2.v":138:1:138:6|Found counter in view:work.adc_to_dac_2(verilog) instance r_dac_cnt[15:0] 
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[0].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[1].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[2].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[3].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[4].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[5].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[6].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[7].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[8].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[9].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[10].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[11].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[12].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[13].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[14].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[15].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[0].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[1].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[2].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[3].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[4].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[5].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[6].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[7].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[8].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[9].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[10].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[11].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[12].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[13].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[14].
+@N: FX493 |Applying initial value "0" on instance r_mult2_dataB[15].
+@N: MO231 :"d:\programs\fpga\c200_fpga\adc_to_temp_2.v":70:1:70:6|Found counter in view:work.adc_to_temp_2(verilog) instance r_temp_num[4:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\adc_to_temp_2.v":70:1:70:6|Found counter in view:work.adc_to_temp_2(verilog) instance r_dealy_cnt[3:0] 
+@N: FX493 |Applying initial value "0" on instance r_dealy_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_dealy_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_dealy_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_dealy_cnt[3].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[0].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[1].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[2].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[3].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[4].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[5].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[6].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[7].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[8].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[9].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[10].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[11].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[12].
+@N: FX493 |Applying initial value "0" on instance r_divisor[0].
+@N: FX493 |Applying initial value "0" on instance r_divisor[1].
+@N: FX493 |Applying initial value "0" on instance r_divisor[2].
+@N: FX493 |Applying initial value "0" on instance r_divisor[3].
+@N: FX493 |Applying initial value "0" on instance r_divisor[4].
+@N: FX493 |Applying initial value "0" on instance r_divisor[5].
+@N: FX493 |Applying initial value "0" on instance r_divisor[6].
+@N: FX493 |Applying initial value "0" on instance r_divisor[7].
+@N: FX493 |Applying initial value "0" on instance r_divisor[8].
+@N: FX493 |Applying initial value "0" on instance r_divisor[9].
+@N: FX493 |Applying initial value "0" on instance r_divisor[10].
+@N: FX493 |Applying initial value "0" on instance r_divisor[11].
+@N: FX493 |Applying initial value "0" on instance r_divisor[12].
+@N: MO231 :"d:\programs\fpga\c200_fpga\division.v":26:1:26:6|Found counter in view:work.division(verilog) instance r_cal_cnt[15:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\mcp4726a0_top.v":50:1:50:6|Found counter in view:work.mcp4726a0_top(verilog) instance r_bit_cnt[7:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\mcp4726a0_top.v":61:1:61:6|Found counter in view:work.mcp4726a0_top(verilog) instance r_clk_cnt[9:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\laser_control.v":86:1:86:6|Found counter in view:work.laser_control(verilog) instance r_window_cnt[15:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\laser_control.v":70:1:70:6|Found counter in view:work.laser_control(verilog) instance r_emit_cnt[7:0] 
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_RDdata[0] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_RDdata[17] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_RDdata[18] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance SPI_OPcode[3] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[0] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[1] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[2] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[3] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[4] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[5] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[6] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[7] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[8] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[9] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[11] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[12] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[14] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[15] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[17] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[20] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[21] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[23] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[26] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_Tdata[28] (in view: work.gp22_spi(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\programs\fpga\c200_fpga\data_packet.v":179:1:179:6|Found counter in view:work.data_packet(verilog) instance r_telegram_no[7:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\data_packet.v":172:1:172:6|Found counter in view:work.data_packet(verilog) instance r_scan_counter[15:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\data_packet.v":156:1:156:6|Found counter in view:work.data_packet(verilog) instance r_packet_num[8:0] 
+@N: FX493 |Applying initial value "0" on instance r_shift_num[0].
+@N: FX493 |Applying initial value "0" on instance r_shift_num[1].
+@N: FX493 |Applying initial value "0" on instance r_shift_num[2].
+@N: MF179 :"d:\programs\fpga\c200_fpga\data_packet.v":86:62:86:91|Found 16 by 16 bit equality operator ('==') un1_i_code_angle_1 (in view: work.data_packet(verilog))
+@N: MO231 :"d:\programs\fpga\c200_fpga\flash_control.v":246:1:246:6|Found counter in view:work.flash_control(verilog) instance r_delay_cnt[31:0] 
+@N: BN362 :"d:\programs\fpga\c200_fpga\flash_control.v":217:1:217:6|Removing sequential instance r_page_num[9] (in view: work.flash_control(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\flash_control.v":217:1:217:6|Removing sequential instance r_page_num[0] (in view: work.flash_control(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\programs\fpga\c200_fpga\spi flash\spi_flash_cmd.v":140:1:140:6|Found counter in view:work.spi_flash_cmd(verilog) instance r_byte_cnt[8:0] 
+@N: BN362 :"d:\programs\fpga\c200_fpga\spi flash\spi_flash_cmd.v":58:1:58:6|Removing sequential instance r_byte_size[2] (in view: work.spi_flash_cmd(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\programs\fpga\c200_fpga\spi flash\spi_master.v":57:1:57:6|Found counter in view:work.spi_master_0(verilog) instance r_bit_cnt[3:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\spi flash\spi_master.v":35:1:35:6|Found counter in view:work.spi_master_0(verilog) instance r_clk_cnt[15:0] 
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[3].
+@N: MO231 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":107:1:107:6|Found counter in view:work.spi_w5500_top(verilog) instance r_rst_cnt[17:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":118:1:118:6|Found counter in view:work.spi_w5500_top(verilog) instance r_byte_cnt[15:0] 
+@N: FX493 |Applying initial value "0" on instance r_data_in[0].
+@N: FX493 |Applying initial value "0" on instance r_data_in[1].
+@N: FX493 |Applying initial value "0" on instance r_data_in[2].
+@N: FX493 |Applying initial value "0" on instance r_data_in[3].
+@N: FX493 |Applying initial value "0" on instance r_data_in[4].
+@N: FX493 |Applying initial value "0" on instance r_data_in[5].
+@N: FX493 |Applying initial value "0" on instance r_data_in[6].
+@N: FX493 |Applying initial value "0" on instance r_data_in[7].
+@N: MF179 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":526:15:526:42|Found 16 by 16 bit equality operator ('==') un1_r_recv_num2 (in view: work.spi_w5500_top(verilog))
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[0] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[1] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[2] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[3] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[4] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[5] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[6] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[7] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[8] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_send_fsize[9] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance r_sock_num[1] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_cmd.v":208:1:208:6|Found counter in view:work.spi_w5500_cmd(verilog) instance r_byte_cnt[15:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\spi flash\spi_master.v":57:1:57:6|Found counter in view:work.spi_master_1(verilog) instance r_bit_cnt[3:0] 
+@N: MO231 :"d:\programs\fpga\c200_fpga\spi flash\spi_master.v":35:1:35:6|Found counter in view:work.spi_master_1(verilog) instance r_clk_cnt[15:0] 
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[3].
+@N: MO231 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Found counter in view:work.datagram_parser(verilog) instance r_byte_cnt[15:0] 
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') un1_r_byte_size_28 (in view: work.datagram_parser(verilog))
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') un1_r_byte_cnt_23 (in view: work.datagram_parser(verilog))
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') un1_r_byte_size_29 (in view: work.datagram_parser(verilog))
+@N: MF179 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":731:15:731:47|Found 16 by 16 bit equality operator ('==') un1_r_byte_size_24 (in view: work.datagram_parser(verilog))
+@N: MF179 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":735:15:735:47|Found 16 by 16 bit equality operator ('==') un1_r_byte_size_25 (in view: work.datagram_parser(verilog))
+@N: MF179 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":787:8:787:38|Found 8 by 8 bit equality operator ('==') un1_i_data_in_3 (in view: work.datagram_parser(verilog))
+@N: MF179 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":791:8:791:37|Found 8 by 8 bit equality operator ('==') un1_i_data_in_4 (in view: work.datagram_parser(verilog))
+@N: MF179 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":1106:31:1106:56|Found 8 by 8 bit equality operator ('==') un1_i_data_in_5 (in view: work.datagram_parser(verilog))
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[16] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[17] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[18] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[19] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[20] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[21] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[22] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[23] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[24] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[25] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[26] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[27] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[28] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[29] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[30] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para5[31] (in view: work.datagram_parser(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\programs\fpga\c200_fpga\parameter_init.v":272:1:272:6|Found counter in view:work.parameter_init(verilog) instance r_write_cnt[9:0] 
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[0].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[1].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[2].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[3].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[4].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[5].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[6].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[7].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[8].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[9].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[10].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[11].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[12].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[13].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[14].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[15].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[16].
+@N: FX493 |Applying initial value "0" on instance r_sram_addr_base[17].
+@N: MF179 :"d:\programs\fpga\c200_fpga\parameter_init.v":529:43:529:73|Found 32 by 32 bit equality operator ('==') un1_i_get_para1_1 (in view: work.parameter_init(verilog))
+@N: BN362 :"d:\programs\fpga\c200_fpga\adc_to_dac_2.v":67:1:67:6|Removing sequential instance r_dac_state[3] (in view: work.adc_to_dac_2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_cmd.v":56:1:56:6|Removing sequential instance u1.r_cmd[6] (in view: work.spi_w5500_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":883:1:883:6|Removing sequential instance r_set_para8[0] (in view: work.parameter_init(verilog)) because it does not drive other instances.
+@N: FA113 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":264:3:264:6|Pipelining module un1_i_angle_offset_3[12:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":757:1:757:6|Pushed in register r_angle_offset[15:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":1056:1:1056:6|Pushed in register r_config_mode[7:3].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":775:1:775:6|Pushed in register r_temp_point1[15:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":577:1:577:6|Pushed in register r_ip_addr[31:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\data_packet.v":48:1:48:6|Pushed in register r_angle_end[15:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":136:1:136:6|Pushed in register r_fs_cnt[7:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\dist_calculate.v":65:1:65:6|Pushed in register r_angle_begin[15:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\self_inspection.v":111:1:111:6|Pushed in register r_adc_temp_value[11:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\adc_to_dac_2.v":67:1:67:6|Pushed in register r_dac_state[12:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":732:1:732:6|Pushed in register r_pwm_value_0[15:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Pushed in register o_adc0[11:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":829:1:829:6|Pushed in register r_distance_max[15:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\motor_control.v":134:1:134:6|Pushed in register r_pwm_value[15:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":566:1:566:6|Pushed in register r_device_name[31:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":610:1:610:6|Pushed in register r_mac_addr[47:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":784:1:784:6|Pushed in register r_temp_point2[15:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":650:1:650:6|Pushed in register r_start_angle[31:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Pushed in register o_get_para0[31:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\parameter_init.v":588:1:588:6|Pushed in register r_gate_way[31:0].
+@N: MF169 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Pushed in register o_get_para2[31:0].
+@N: BN362 :|Removing sequential instance U5.U2.r_pulse_remain_dummy[16] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance U5.U2.r_rise_remain_dummy[16] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[0] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[7] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[6] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[5] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[4] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[3] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[2] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[1] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":244:1:244:6|Removing sequential instance U8.u3.r_sram_addr_base[8] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: MO106 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_cmd.v":63:3:63:6|Found ROM U8.u1.u1.r_byte_size_cnst[9:0] (in view: work.C200_FPGA(verilog)) with 17 words by 10 bits.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":88:1:88:6|Removing sequential instance U8.u2.r_byte_size[12] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":260:1:260:6|Removing sequential instance U2.U3.r_angle_zero[12] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: FX271 :"d:\programs\fpga\c200_fpga\dist_calculate.v":102:2:102:3|Replicating instance U5.U2.un1_r_rise_remain_0_sqmuxa_3_0_0_a2 (in view: work.C200_FPGA(verilog)) with 36 loads 1 time to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[1] (in view: work.C200_FPGA(verilog)) with 95 loads 3 times to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[2] (in view: work.C200_FPGA(verilog)) with 78 loads 3 times to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[3] (in view: work.C200_FPGA(verilog)) with 54 loads 3 times to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[4] (in view: work.C200_FPGA(verilog)) with 31 loads 2 times to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[5] (in view: work.C200_FPGA(verilog)) with 16 loads 2 times to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[6] (in view: work.C200_FPGA(verilog)) with 16 loads 2 times to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[7] (in view: work.C200_FPGA(verilog)) with 10 loads 1 time to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[0] (in view: work.C200_FPGA(verilog)) with 107 loads 3 times to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":149:1:149:6|Replicating instance U8.u2.r_byte_cnt[13] (in view: work.C200_FPGA(verilog)) with 16 loads 1 time to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":88:1:88:6|Replicating instance U8.u2.r_byte_size[0] (in view: work.C200_FPGA(verilog)) with 19 loads 1 time to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":88:1:88:6|Replicating instance U8.u2.r_byte_size[2] (in view: work.C200_FPGA(verilog)) with 19 loads 1 time to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":88:1:88:6|Replicating instance U8.u2.r_byte_size[3] (in view: work.C200_FPGA(verilog)) with 15 loads 1 time to improve timing.
+@N: FX271 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":88:1:88:6|Replicating instance U8.u2.r_byte_size[4] (in view: work.C200_FPGA(verilog)) with 15 loads 1 time to improve timing.
+@N: BN362 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":272:1:272:6|Removing sequential instance U2.U3.r_code_angle[12] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":272:1:272:6|Removing sequential instance U2.U3.r_code_angle[13] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":272:1:272:6|Removing sequential instance U2.U3.r_code_angle[14] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":272:1:272:6|Removing sequential instance U2.U3.r_code_angle[15] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Removing sequential instance U8.u1.r_sock_num[0] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\data_packet.v":188:1:188:6|Removing sequential instance U5.U3.r_first_angle[15] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\data_packet.v":188:1:188:6|Removing sequential instance U5.U3.r_first_angle[14] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\data_packet.v":188:1:188:6|Removing sequential instance U5.U3.r_first_angle[13] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\data_packet.v":188:1:188:6|Removing sequential instance U5.U3.r_first_angle[12] (in view: work.C200_FPGA(verilog)) because it does not drive other instances.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX1056 |Writing EDF file: D:\programs\fpga\C200_FPGA\impl1\impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

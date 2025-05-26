@@ -1,0 +1,52 @@
+[Device]
+Family=ecp5u
+PartType=LFE5U-25F
+PartName=LFE5U-25F-6BG256I
+SpeedGrade=6
+Package=CABGA256
+OperatingCondition=IND
+Status=S
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=RAM_DP
+CoreRevision=6.5
+ModuleName=ram_w32_depth64
+SourceFormat=verilog
+ParameterFileVersion=1.0
+Date=04/25/2025
+Time=15:51:11
+
+[Parameters]
+Verilog=1
+VHDL=0
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+RAddress=64
+RData=32
+WAddress=64
+WData=32
+enByte=0
+ByteSize=9
+OutputEn=0
+ClockEn=0
+Optimization=Speed
+Reset=Sync
+Reset1=Sync
+Init=0
+MemFile=
+MemFormat=bin
+EnECC=0
+Pipeline=0
+init_data=0
+
+[FilesGenerated]
+=mem
+
+[Command]
+cmd_line= -w -n ram_w32_depth64 -lang verilog -synth lse -bus_exp 7 -bb -arch sa5p00 -type ramdps -device LFE5U-25F -raddr_width 6 -rwidth 32 -waddr_width 6 -wwidth 32 -rnum_words 64 -wnum_words 64 -cascade -1 -mem_init0

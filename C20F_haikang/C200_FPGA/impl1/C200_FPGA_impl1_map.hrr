@@ -1,0 +1,752 @@
+---------------------------------------------------
+Report for cell C200_FPGA
+   Instance path: C200_FPGA
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	   11887.00        100.0
+                                  LUT4	   15535.00        100.0
+                               DISTRAM	       9.00        100.0
+                                 IOBUF	         73        100.0
+                                PFUREG	       7875        100.0
+                                RIPPLE	       2716        100.0
+                                   EBR	         16        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                  w5500_control_uniq_1	          1        31.1
+                   sram_control_uniq_1	          1         0.4
+                               sa5phub	          1         0.3
+              rotating_module_1_uniq_1	          1         5.0
+                        reveal_coretop	          1         4.1
+                self_inspection_uniq_1	          1         7.8
+                  laser_control_uniq_1	          1         0.4
+                   dist_measure_uniq_1	          1        26.2
+                flash_control_2_uniq_1	          1         3.5
+                       C200_PLL_uniq_1	          1         0.0
+---------------------------------------------------
+Report for cell laser_control_uniq_1
+   Instance path: C200_FPGA/U4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      42.83         0.4
+                                  LUT4	      63.00         0.4
+                                PFUREG	         35         0.4
+                                RIPPLE	          5         0.2
+---------------------------------------------------
+Report for cell flash_control_2_uniq_1
+   Instance path: C200_FPGA/U7
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     413.37         3.5
+                                  LUT4	     748.50         4.8
+                                PFUREG	        334         4.2
+                                RIPPLE	         17         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                  spi_flash_top_uniq_1	          1         1.1
+---------------------------------------------------
+Report for cell spi_flash_top_uniq_1
+   Instance path: C200_FPGA/U7/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     128.58         1.1
+                                  LUT4	     242.00         1.6
+                                PFUREG	         81         1.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                  spi_flash_cmd_uniq_1	          1         0.8
+---------------------------------------------------
+Report for cell spi_flash_cmd_uniq_1
+   Instance path: C200_FPGA/U7/U2/u1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      94.92         0.8
+                                  LUT4	     173.33         1.1
+                                PFUREG	         72         0.9
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     spi_master_uniq_1	          1         0.3
+---------------------------------------------------
+Report for cell spi_master_uniq_1
+   Instance path: C200_FPGA/U7/U2/u1/u1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      32.50         0.3
+                                  LUT4	      57.00         0.4
+                                PFUREG	         42         0.5
+---------------------------------------------------
+Report for cell reveal_coretop
+   Instance path: C200_FPGA/C200_FPGA_reveal_coretop_instance
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     483.50         4.1
+                                  LUT4	     662.17         4.3
+                               DISTRAM	       7.00        77.8
+                                PFUREG	        545         6.9
+                                RIPPLE	         13         0.5
+                                   EBR	          3        18.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         c200_fpga_la0	          1         4.1
+---------------------------------------------------
+Report for cell c200_fpga_la0
+   Instance path: C200_FPGA/C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     483.50         4.1
+                                  LUT4	     662.17         4.3
+                               DISTRAM	       7.00        77.8
+                                PFUREG	        545         6.9
+                                RIPPLE	         13         0.5
+                                   EBR	          3        18.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+rvl_tm(NUM_TRACE_SIGNALS=90,NUM_TRACE_SAMPLES=32,NUM_TRIGGER_SIGNALS=1,MULTIPLE_CAPTURE=1,NUM_TRIG_MAX=4,REVEAL_SIG=590010210,INCLUDE_TRIG_DATA=1,LSCC_FAMILY="ECP5U")	          1         1.6
+rvl_jtag_int(NUM_TRACE_SIGNALS=90,NUM_TRIGGER_SIGNALS=1,INCLUDE_TRIG_DATA=1)	          1         1.8
+                    c200_fpga_la0_trig	          1         0.6
+---------------------------------------------------
+Report for cell c200_fpga_la0_trig
+   Instance path: C200_FPGA/C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/trig_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      70.33         0.6
+                                  LUT4	      90.33         0.6
+                               DISTRAM	       2.00        22.2
+                                PFUREG	         73         0.9
+                                RIPPLE	          9         0.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                 rvl_tu(NUM_TU_BITS=1)	          1         0.1
+    rvl_tcnt(NUM_TE=1,NUM_TCNT_BITS=3)	          1         0.1
+rvl_te(NUM_TU=1,NUM_TE_ROW=2,NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="ECP5U")	          1         0.4
+---------------------------------------------------
+Report for cell rvl_tu(NUM_TU_BITS=1)
+   Instance path: C200_FPGA/C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/trig_u/tu_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.00         0.1
+                                  LUT4	       8.00         0.1
+                                PFUREG	          8         0.1
+---------------------------------------------------
+Report for cell rvl_te(NUM_TU=1,NUM_TE_ROW=2,NUM_TE_COL=2,NUM_TE_EVENT_CNT_BITS=0,LSCC_FAMILY="ECP5U")
+   Instance path: C200_FPGA/C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/trig_u/te_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      51.67         0.4
+                                  LUT4	      62.33         0.4
+                               DISTRAM	       2.00        22.2
+                                PFUREG	         53         0.7
+                                RIPPLE	          9         0.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_distributed_dpramEbnoner2128cbfd2d	          1         0.0
+---------------------------------------------------
+Report for cell pmi_distributed_dpramEbnoner2128cbfd2d
+   Instance path: C200_FPGA/C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/trig_u/te_0/pmi_distributed_dpramECP5Ubinarynonereg212
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00         0.0
+                               DISTRAM	       2.00        22.2
+                                PFUREG	          2         0.0
+---------------------------------------------------
+Report for cell rvl_tcnt(NUM_TE=1,NUM_TCNT_BITS=3)
+   Instance path: C200_FPGA/C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/trig_u/tcnt_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.00         0.1
+                                  LUT4	      18.67         0.1
+                                PFUREG	         12         0.2
+---------------------------------------------------
+Report for cell rvl_tm(NUM_TRACE_SIGNALS=90,NUM_TRACE_SAMPLES=32,NUM_TRIGGER_SIGNALS=1,MULTIPLE_CAPTURE=1,NUM_TRIG_MAX=4,REVEAL_SIG=590010210,INCLUDE_TRIG_DATA=1,LSCC_FAMILY="ECP5U")
+   Instance path: C200_FPGA/C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     194.67         1.6
+                                  LUT4	     180.00         1.2
+                               DISTRAM	       5.00        55.6
+                                PFUREG	        261         3.3
+                                   EBR	          3        18.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_ram_dpEbnonesadr915329153211ad013a	          1         0.0
+pmi_distributed_dpramEbnoner5248cc18e7	          1         0.0
+---------------------------------------------------
+Report for cell pmi_distributed_dpramEbnoner5248cc18e7
+   Instance path: C200_FPGA/C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/pmi_distributed_dpramECP5Ubinarynonereg524
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.00         0.0
+                               DISTRAM	       5.00        55.6
+                                PFUREG	          5         0.1
+---------------------------------------------------
+Report for cell pmi_ram_dpEbnonesadr915329153211ad013a
+   Instance path: C200_FPGA/C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/pmi_ram_dpECP5Ubinarynonespeedasyncdisablereg9153291532
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          3        18.8
+---------------------------------------------------
+Report for cell rvl_jtag_int(NUM_TRACE_SIGNALS=90,NUM_TRIGGER_SIGNALS=1,INCLUDE_TRIG_DATA=1)
+   Instance path: C200_FPGA/C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     218.50         1.8
+                                  LUT4	     391.83         2.5
+                                PFUREG	        211         2.7
+                                RIPPLE	          4         0.1
+---------------------------------------------------
+Report for cell self_inspection_uniq_1
+   Instance path: C200_FPGA/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     925.45         7.8
+                                  LUT4	    1093.33         7.0
+                                PFUREG	       1111        14.1
+                                RIPPLE	         31         1.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                  pluse_average_uniq_1	          1         1.1
+                 dist_temp_comp_uniq_1	          1         0.2
+                    adc_control_uniq_1	          1         0.7
+                     adc_to_dac_uniq_1	          1         4.6
+                         DA_SPI_uniq_1	          1         0.2
+---------------------------------------------------
+Report for cell pluse_average_uniq_1
+   Instance path: C200_FPGA/U3/u4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     126.83         1.1
+                                PFUREG	        258         3.3
+---------------------------------------------------
+Report for cell adc_to_dac_uniq_1
+   Instance path: C200_FPGA/U3/u3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     541.37         4.6
+                                  LUT4	     748.33         4.8
+                                PFUREG	        568         7.2
+                                RIPPLE	          5         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    multiplier3_uniq_4	          1         0.1
+                    multiplier3_uniq_2	          1         0.1
+                    multiplier3_uniq_3	          1         0.1
+                    adc_to_temp_uniq_1	          1         2.5
+---------------------------------------------------
+Report for cell multiplier3_uniq_4
+   Instance path: C200_FPGA/U3/u3/U4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.00         0.1
+                                PFUREG	         32         0.4
+---------------------------------------------------
+Report for cell multiplier3_uniq_3
+   Instance path: C200_FPGA/U3/u3/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.20         0.1
+                                PFUREG	         32         0.4
+---------------------------------------------------
+Report for cell multiplier3_uniq_2
+   Instance path: C200_FPGA/U3/u3/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.00         0.1
+                                PFUREG	         32         0.4
+---------------------------------------------------
+Report for cell adc_to_temp_uniq_1
+   Instance path: C200_FPGA/U3/u3/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     291.67         2.5
+                                  LUT4	     484.33         3.1
+                                PFUREG	        275         3.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     multiplier_uniq_1	          1         0.3
+                       division_uniq_1	          1         0.6
+---------------------------------------------------
+Report for cell division_uniq_1
+   Instance path: C200_FPGA/U3/u3/U1/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      68.50         0.6
+                                  LUT4	     110.00         0.7
+                                PFUREG	         66         0.8
+---------------------------------------------------
+Report for cell multiplier_uniq_1
+   Instance path: C200_FPGA/U3/u3/U1/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      34.00         0.3
+                                PFUREG	         64         0.8
+---------------------------------------------------
+Report for cell DA_SPI_uniq_1
+   Instance path: C200_FPGA/U3/u2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      19.50         0.2
+                                  LUT4	      37.00         0.2
+                                PFUREG	         19         0.2
+---------------------------------------------------
+Report for cell adc_control_uniq_1
+   Instance path: C200_FPGA/U3/u1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      82.33         0.7
+                                  LUT4	     106.00         0.7
+                                PFUREG	         82         1.0
+                                RIPPLE	          9         0.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         AD_SPI_uniq_1	          1         0.3
+---------------------------------------------------
+Report for cell AD_SPI_uniq_1
+   Instance path: C200_FPGA/U3/u1/u1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      40.33         0.3
+                                  LUT4	      59.00         0.4
+                                PFUREG	         38         0.5
+---------------------------------------------------
+Report for cell dist_temp_comp_uniq_1
+   Instance path: C200_FPGA/U3/dist_temp_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      29.50         0.2
+                                  LUT4	      27.00         0.2
+                                PFUREG	         57         0.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     multiplier_uniq_2	          1         0.1
+---------------------------------------------------
+Report for cell multiplier_uniq_2
+   Instance path: C200_FPGA/U3/dist_temp_comp/multiplier
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.00         0.1
+                                PFUREG	         32         0.4
+---------------------------------------------------
+Report for cell dist_measure_uniq_1
+   Instance path: C200_FPGA/U5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    3110.83        26.2
+                                  LUT4	    5150.33        33.2
+                                PFUREG	       2535        32.2
+                                RIPPLE	        119         4.4
+                                   EBR	          4        25.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    tdc_process_uniq_1	          1         7.2
+                    dist_packet_uniq_1	          1         2.2
+                    dist_filter_uniq_1	          1         1.7
+               dist_calculate_4_uniq_1	          1         8.7
+                   gp22_control_uniq_1	          1         5.8
+                   calib_packet_uniq_1	          1         0.7
+---------------------------------------------------
+Report for cell calib_packet_uniq_1
+   Instance path: C200_FPGA/U5/U6
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      82.50         0.7
+                                  LUT4	     138.00         0.9
+                                PFUREG	        114         1.4
+                                RIPPLE	          5         0.2
+---------------------------------------------------
+Report for cell dist_packet_uniq_1
+   Instance path: C200_FPGA/U5/U5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     259.92         2.2
+                                  LUT4	     387.00         2.5
+                                PFUREG	        210         2.7
+                                RIPPLE	         44         1.6
+---------------------------------------------------
+Report for cell dist_filter_uniq_1
+   Instance path: C200_FPGA/U5/U4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     199.42         1.7
+                                  LUT4	     391.00         2.5
+                                PFUREG	        248         3.1
+---------------------------------------------------
+Report for cell dist_calculate_4_uniq_1
+   Instance path: C200_FPGA/U5/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1029.58         8.7
+                                  LUT4	    1713.67        11.0
+                                PFUREG	        905        11.5
+                                RIPPLE	         23         0.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     multiplier_uniq_6	          1         0.2
+                     multiplier_uniq_5	          1         0.3
+                     division_2_uniq_1	          1         0.5
+---------------------------------------------------
+Report for cell division_2_uniq_1
+   Instance path: C200_FPGA/U5/U3/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      61.92         0.5
+                                  LUT4	     122.00         0.8
+                                PFUREG	         69         0.9
+---------------------------------------------------
+Report for cell multiplier_uniq_6
+   Instance path: C200_FPGA/U5/U3/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      24.33         0.2
+                                PFUREG	         52         0.7
+---------------------------------------------------
+Report for cell multiplier_uniq_5
+   Instance path: C200_FPGA/U5/U3/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      33.00         0.3
+                                PFUREG	         54         0.7
+---------------------------------------------------
+Report for cell tdc_process_uniq_1
+   Instance path: C200_FPGA/U5/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     854.75         7.2
+                                  LUT4	    1264.00         8.1
+                                PFUREG	        833        10.6
+                                RIPPLE	         30         1.1
+                                   EBR	          4        25.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                   tdc_data_ram_uniq_2	          1         0.0
+                       tdc_para_uniq_1	          1         2.5
+                   tdc_data_ram_uniq_1	          1         0.0
+                    cal_process_uniq_1	          1         0.9
+---------------------------------------------------
+Report for cell cal_process_uniq_1
+   Instance path: C200_FPGA/U5/U2/U4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     107.58         0.9
+                                  LUT4	     173.00         1.1
+                                PFUREG	        121         1.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     multiplier_uniq_4	          1         0.1
+---------------------------------------------------
+Report for cell multiplier_uniq_4
+   Instance path: C200_FPGA/U5/U2/U4/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.00         0.1
+                                PFUREG	         32         0.4
+---------------------------------------------------
+Report for cell tdc_para_uniq_1
+   Instance path: C200_FPGA/U5/U2/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     295.25         2.5
+                                  LUT4	     383.00         2.5
+                                PFUREG	        324         4.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       div_rill_uniq_2	          1         1.2
+                       div_rill_uniq_1	          1         0.8
+---------------------------------------------------
+Report for cell div_rill_uniq_2
+   Instance path: C200_FPGA/U5/U2/U3/div_rill_2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     139.08         1.2
+                                  LUT4	     170.00         1.1
+                                PFUREG	        108         1.4
+---------------------------------------------------
+Report for cell div_rill_uniq_1
+   Instance path: C200_FPGA/U5/U2/U3/div_rill_1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      96.83         0.8
+                                  LUT4	     148.00         1.0
+                                PFUREG	        108         1.4
+---------------------------------------------------
+Report for cell tdc_data_ram_uniq_2
+   Instance path: C200_FPGA/U5/U2/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          2        12.5
+---------------------------------------------------
+Report for cell tdc_data_ram_uniq_1
+   Instance path: C200_FPGA/U5/U2/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          2        12.5
+---------------------------------------------------
+Report for cell gp22_control_uniq_1
+   Instance path: C200_FPGA/U5/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     684.67         5.8
+                                  LUT4	    1256.67         8.1
+                                PFUREG	        225         2.9
+                                RIPPLE	         17         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       gp22_spi_uniq_1	          1         2.3
+---------------------------------------------------
+Report for cell gp22_spi_uniq_1
+   Instance path: C200_FPGA/U5/U1/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     277.83         2.3
+                                  LUT4	     488.00         3.1
+                                PFUREG	         74         0.9
+---------------------------------------------------
+Report for cell sram_control_uniq_1
+   Instance path: C200_FPGA/U6
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      53.08         0.4
+                                  LUT4	     165.00         1.1
+---------------------------------------------------
+Report for cell rotating_module_1_uniq_1
+   Instance path: C200_FPGA/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     595.83         5.0
+                                  LUT4	     941.00         6.1
+                                PFUREG	        570         7.2
+                                RIPPLE	         70         2.6
+                                   EBR	          1         6.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+               statistics_cycle_uniq_1	          1         0.9
+             opto_switch_filter_uniq_1	          1         0.1
+                  motor_control_uniq_1	          1         2.3
+               encoder_generate_uniq_1	          1         1.7
+---------------------------------------------------
+Report for cell statistics_cycle_uniq_1
+   Instance path: C200_FPGA/U2/u4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     111.50         0.9
+                                  LUT4	     151.00         1.0
+                                PFUREG	        116         1.5
+                                RIPPLE	         34         1.3
+                                   EBR	          1         6.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    ramw32_dp64_uniq_1	          1         0.0
+---------------------------------------------------
+Report for cell ramw32_dp64_uniq_1
+   Instance path: C200_FPGA/U2/u4/ramw32_dp64
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         6.3
+---------------------------------------------------
+Report for cell encoder_generate_uniq_1
+   Instance path: C200_FPGA/U2/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     196.50         1.7
+                                  LUT4	     281.67         1.8
+                                PFUREG	        242         3.1
+                                RIPPLE	         15         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    multiplier3_uniq_1	          1         0.1
+                    multiplier2_uniq_1	          1         0.0
+---------------------------------------------------
+Report for cell multiplier3_uniq_1
+   Instance path: C200_FPGA/U2/U3/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.00         0.1
+                                PFUREG	         32         0.4
+---------------------------------------------------
+Report for cell multiplier2_uniq_1
+   Instance path: C200_FPGA/U2/U3/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell motor_control_uniq_1
+   Instance path: C200_FPGA/U2/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     271.83         2.3
+                                  LUT4	     480.33         3.1
+                                PFUREG	        193         2.5
+                                RIPPLE	         21         0.8
+---------------------------------------------------
+Report for cell opto_switch_filter_uniq_1
+   Instance path: C200_FPGA/U2/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.00         0.1
+                                  LUT4	      28.00         0.2
+                                PFUREG	         19         0.2
+---------------------------------------------------
+Report for cell w5500_control_uniq_1
+   Instance path: C200_FPGA/U8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    3698.20        31.1
+                                  LUT4	    6232.83        40.1
+                                PFUREG	       2509        31.9
+                                RIPPLE	        155         5.7
+                                   EBR	          8        50.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                  spi_w5500_top_uniq_1	          1         5.0
+                 parameter_init_uniq_1	          1        16.7
+                datagram_parser_uniq_1	          1         9.3
+---------------------------------------------------
+Report for cell parameter_init_uniq_1
+   Instance path: C200_FPGA/U8/u3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1984.45        16.7
+                                  LUT4	    3185.83        20.5
+                                PFUREG	       1823        23.1
+                                RIPPLE	         69         2.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     time_stamp_uniq_1	          1         0.8
+                index_calculate_uniq_1	          1         2.1
+---------------------------------------------------
+Report for cell time_stamp_uniq_1
+   Instance path: C200_FPGA/U8/u3/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      95.25         0.8
+                                  LUT4	     167.67         1.1
+                                PFUREG	         89         1.1
+                                RIPPLE	          5         0.2
+---------------------------------------------------
+Report for cell index_calculate_uniq_1
+   Instance path: C200_FPGA/U8/u3/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     254.37         2.1
+                                  LUT4	     219.50         1.4
+                                PFUREG	        394         5.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       division_uniq_2	          1         0.7
+---------------------------------------------------
+Report for cell division_uniq_2
+   Instance path: C200_FPGA/U8/u3/U1/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      80.00         0.7
+                                  LUT4	     113.00         0.7
+                                PFUREG	         85         1.1
+---------------------------------------------------
+Report for cell datagram_parser_uniq_1
+   Instance path: C200_FPGA/U8/u2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1107.92         9.3
+                                  LUT4	    1952.67        12.6
+                                PFUREG	        353         4.5
+                                RIPPLE	         75         2.8
+                                   EBR	          5        31.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                packet_data_ram_uniq_2	          1         0.0
+                packet_data_ram_uniq_4	          1         0.0
+                packet_data_ram_uniq_3	          1         0.0
+                packet_data_ram_uniq_1	          1         0.0
+                   eth_data_ram_uniq_1	          1         0.0
+---------------------------------------------------
+Report for cell packet_data_ram_uniq_4
+   Instance path: C200_FPGA/U8/u2/U5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         6.3
+---------------------------------------------------
+Report for cell packet_data_ram_uniq_3
+   Instance path: C200_FPGA/U8/u2/U4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         6.3
+---------------------------------------------------
+Report for cell packet_data_ram_uniq_2
+   Instance path: C200_FPGA/U8/u2/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         6.3
+---------------------------------------------------
+Report for cell packet_data_ram_uniq_1
+   Instance path: C200_FPGA/U8/u2/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         6.3
+---------------------------------------------------
+Report for cell eth_data_ram_uniq_1
+   Instance path: C200_FPGA/U8/u2/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         6.3
+---------------------------------------------------
+Report for cell spi_w5500_top_uniq_1
+   Instance path: C200_FPGA/U8/u1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     590.50         5.0
+                                  LUT4	    1050.33         6.8
+                                PFUREG	        333         4.2
+                                RIPPLE	         11         0.4
+                                   EBR	          3        18.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                  spi_w5500_cmd_uniq_1	          1         1.4
+                   tcp_recv_ram_uniq_1	          1         0.0
+                   eth_send_ram_uniq_1	          1         0.0
+---------------------------------------------------
+Report for cell tcp_recv_ram_uniq_1
+   Instance path: C200_FPGA/U8/u1/u2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.0
+                                  LUT4	       1.00         0.0
+                                   EBR	          2        12.5
+---------------------------------------------------
+Report for cell spi_w5500_cmd_uniq_1
+   Instance path: C200_FPGA/U8/u1/u1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     166.83         1.4
+                                  LUT4	     271.67         1.7
+                                PFUREG	        123         1.6
+                                RIPPLE	          6         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     spi_master_uniq_2	          1         0.4
+---------------------------------------------------
+Report for cell spi_master_uniq_2
+   Instance path: C200_FPGA/U8/u1/u1/u1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      45.17         0.4
+                                  LUT4	      70.00         0.5
+                                PFUREG	         42         0.5
+---------------------------------------------------
+Report for cell eth_send_ram_uniq_1
+   Instance path: C200_FPGA/U8/u1/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         6.3
+---------------------------------------------------
+Report for cell C200_PLL_uniq_1
+   Instance path: C200_FPGA/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.33         0.0
+                                  LUT4	       1.00         0.0
+---------------------------------------------------
+Report for cell sa5phub
+   Instance path: C200_FPGA/sa5phub
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      37.90         0.3
+                                  LUT4	      21.50         0.1
+                                PFUREG	         48         0.6
+                                RIPPLE	          8         0.3

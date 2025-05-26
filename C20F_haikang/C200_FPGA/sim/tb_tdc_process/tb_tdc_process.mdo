@@ -1,0 +1,33 @@
+if {![file exists "D:/programs/fpga/C200/C200/C200_FPGA/sim/tb_tdc_process/tb_tdc_process.mpf"]} { 
+	project new "D:/programs/fpga/C200/C200/C200_FPGA/sim/tb_tdc_process" tb_tdc_process
+	project addfile "D:/programs/fpga/C200/C200/C200_FPGA/tdc_data/tdc_data_ram/tdc_data_ram.v"
+	project addfile "D:/programs/fpga/C200/C200/C200_FPGA/tdc_data/tdc_data.v"
+	project addfile "D:/programs/fpga/C200/C200/C200_FPGA/dist/dist_packet.v"
+	project addfile "D:/programs/fpga/C200/C200/C200_FPGA/dist/dist_filter.v"
+	project addfile "D:/programs/fpga/C200/C200/C200_FPGA/C200_FPGA/multiplier/multiplier.v"
+	project addfile "D:/programs/fpga/C200/C200/C200_FPGA/cal_process.v"
+	project addfile "D:/programs/fpga/C200/C200/C200_FPGA/div_rill.v"
+	project addfile "D:/programs/fpga/C200/C200/C200_FPGA/tdc_para.v"
+	project addfile "D:/programs/fpga/C200/C200/C200_FPGA/tdc_process.v"
+	project addfile "D:/programs/fpga/C200/C200/C200_FPGA/tb_tdc_process.v"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vlog  +incdir+D:/programs/fpga/C200/C200/C200_FPGA/tdc_data/tdc_data_ram  -work work  "D:/programs/fpga/C200/C200/C200_FPGA/tdc_data/tdc_data_ram/tdc_data_ram.v"
+	vlog  +incdir+D:/programs/fpga/C200/C200/C200_FPGA/tdc_data  -work work  "D:/programs/fpga/C200/C200/C200_FPGA/tdc_data/tdc_data.v"
+	vlog  +incdir+D:/programs/fpga/C200/C200/C200_FPGA/dist  -work work  "D:/programs/fpga/C200/C200/C200_FPGA/dist/dist_packet.v"
+	vlog  +incdir+D:/programs/fpga/C200/C200/C200_FPGA/dist  -work work  "D:/programs/fpga/C200/C200/C200_FPGA/dist/dist_filter.v"
+	vlog  +incdir+D:/programs/fpga/C200/C200/C200_FPGA/C200_FPGA/multiplier  -work work  "D:/programs/fpga/C200/C200/C200_FPGA/C200_FPGA/multiplier/multiplier.v"
+	vlog  +incdir+D:/programs/fpga/C200/C200/C200_FPGA  -work work  "D:/programs/fpga/C200/C200/C200_FPGA/cal_process.v"
+	vlog  +incdir+D:/programs/fpga/C200/C200/C200_FPGA  -work work  "D:/programs/fpga/C200/C200/C200_FPGA/div_rill.v"
+	vlog  +incdir+D:/programs/fpga/C200/C200/C200_FPGA  -work work  "D:/programs/fpga/C200/C200/C200_FPGA/tdc_para.v"
+	vlog  +incdir+D:/programs/fpga/C200/C200/C200_FPGA  -work work  "D:/programs/fpga/C200/C200/C200_FPGA/tdc_process.v"
+	vlog  +incdir+D:/programs/fpga/C200/C200/C200_FPGA  -work work  "D:/programs/fpga/C200/C200/C200_FPGA/tb_tdc_process.v"
+} else {
+	project open "D:/programs/fpga/C200/C200/C200_FPGA/sim/tb_tdc_process/tb_tdc_process"
+	project compileoutofdate
+}
+vsim -L work -L pmi_work -L ovi_ecp5u  tb_tdc_process
+view wave
+add wave /*
+run 1000ns

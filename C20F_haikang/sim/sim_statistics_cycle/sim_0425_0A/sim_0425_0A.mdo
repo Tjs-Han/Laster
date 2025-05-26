@@ -1,0 +1,19 @@
+if {![file exists "D:/Project/C20F_haikang/sim/sim_statistics_cycle/sim_0425_0A/sim_0425_0A.mpf"]} { 
+	project new "D:/Project/C20F_haikang/sim/sim_statistics_cycle/sim_0425_0A" sim_0425_0A
+	project addfile "D:/Project/C20F_haikang/sim/sim_statistics_cycle/sim_0425_0A/ram_w32_depth64.v"
+	project addfile "D:/Project/C20F_haikang/sim/sim_statistics_cycle/sim_0425_0A/statistics_cycle.v"
+	project addfile "D:/Project/C20F_haikang/sim/sim_statistics_cycle/sim_0425_0A/tb.v"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vlog  +incdir+D:/Project/C20F_haikang/sim/sim_statistics_cycle/sim_0425_0A  -work work  "D:/Project/C20F_haikang/sim/sim_statistics_cycle/sim_0425_0A/ram_w32_depth64.v"
+	vlog  +incdir+D:/Project/C20F_haikang/sim/sim_statistics_cycle/sim_0425_0A  -work work  "D:/Project/C20F_haikang/sim/sim_statistics_cycle/sim_0425_0A/statistics_cycle.v"
+	vlog  +incdir+D:/Project/C20F_haikang/sim/sim_statistics_cycle/sim_0425_0A  -work work  "D:/Project/C20F_haikang/sim/sim_statistics_cycle/sim_0425_0A/tb.v"
+} else {
+	project open "D:/Project/C20F_haikang/sim/sim_statistics_cycle/sim_0425_0A/sim_0425_0A"
+	project compileoutofdate
+}
+vsim -L work -L pmi_work -L ovi_ecp5u  tb
+view wave
+add wave /*
+run 1000ns

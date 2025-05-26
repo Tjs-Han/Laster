@@ -1,0 +1,852 @@
+<HTML>
+<HEAD><TITLE>Lattice Synthesis Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Lattice Synthesis Timing Report</big></U></B>
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Mon Apr 28 16:18:42 2025
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Design:     C200_FPGA
+Constraint file: C200_FPGA_temp_lse.sdc 
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 10.000000 -name clk504 [get_nets clk_N_12801]
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Constraint: create_clock -period 10.000000 -name clk502 [get_nets \C200_FPGA_reveal_coretop_instance/jtck[0]]
+            407 items scored, 70 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 1.565ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i17  (from \C200_FPGA_reveal_coretop_instance/jtck[0] +)
+   Destination:    FD1P3BX    D              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_i0_i0  (to \C200_FPGA_reveal_coretop_instance/jtck[0] +)
+
+   Delay:                  11.740ns  (15.0% logic, 85.0% route), 10 logic levels.
+
+ Constraint Details:
+
+     11.740ns data_path \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i17 to \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_i0_i0 violates
+     10.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 10.175ns) by 1.565ns
+
+ Path Details: \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i17 to \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_i0_i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i17 (from \C200_FPGA_reveal_coretop_instance/jtck[0])
+Route        46   e 1.890                                  addr[0]
+LUT4        ---     0.166              D to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i1_3_lut_4_lut_adj_4074
+Route         1   e 1.020                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n228353
+LUT4        ---     0.166              B to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i1_4_lut_adj_4082
+Route        16   e 1.574                                  n220104
+LUT4        ---     0.166              C to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i175558_3_lut
+Route         1   e 1.020                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n220105
+LUT4        ---     0.166              D to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i175559_4_lut_4_lut
+Route         1   e 0.020                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/jtdo_first_bit_N_19134
+MUXL5       ---     0.116           ALUT to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/jtdo_first_bit_I_357
+Route         1   e 1.020                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/jtdo_first_bit_N_19133
+LUT4        ---     0.166              D to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i185861_3_lut_4_lut
+Route         1   e 0.020                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n230570
+MUXL5       ---     0.116           ALUT to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i185862
+Route         3   e 1.239                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/jtdo_N_19094
+LUT4        ---     0.166              A to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i105237_2_lut
+Route         2   e 1.158                                  \C200_FPGA_reveal_coretop_instance/er2_tdo[0]
+LUT4        ---     0.166              D to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i105252_4_lut
+Route         1   e 1.020                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_15__N_18996[0]
+                  --------
+                   11.740  (15.0% logic, 85.0% route), 10 logic levels.
+
+
+Error:  The following path violates requirements by 1.536ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/addr_15_305  (from \C200_FPGA_reveal_coretop_instance/jtck[0] +)
+   Destination:    FD1S3DX    D              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/tm_rd_addr_cntr_22645__i4  (to \C200_FPGA_reveal_coretop_instance/jtck[0] +)
+
+   Delay:                  11.711ns  (13.0% logic, 87.0% route), 8 logic levels.
+
+ Constraint Details:
+
+     11.711ns data_path \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/addr_15_305 to \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/tm_rd_addr_cntr_22645__i4 violates
+     10.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 10.175ns) by 1.536ns
+
+ Path Details: \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/addr_15_305 to \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/tm_rd_addr_cntr_22645__i4
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/addr_15_305 (from \C200_FPGA_reveal_coretop_instance/jtck[0])
+Route        34   e 1.825                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/addr_15
+LUT4        ---     0.166              B to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i1_3_lut
+Route         3   e 1.239                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n222608
+LUT4        ---     0.166              A to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i185565_4_lut
+Route         1   e 1.020                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n230251
+LUT4        ---     0.166              D to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i1_2_lut_4_lut_adj_4036
+Route         3   e 1.239                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/wen_jtck
+LUT4        ---     0.166              D to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i2_4_lut_adj_4063
+Route        10   e 1.480                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n49715
+LUT4        ---     0.166              C to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/tm_rd_addr_cntr_22645_mux_5_i1_3_lut_rep_4669
+Route         5   e 1.341                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n250261
+LUT4        ---     0.166              C to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i1_4_lut_adj_4062
+Route         1   e 1.020                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n222485
+LUT4        ---     0.166              B to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i152793_3_lut
+Route         1   e 1.020                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n26
+                  --------
+                   11.711  (13.0% logic, 87.0% route), 8 logic levels.
+
+
+Error:  The following path violates requirements by 1.488ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3DX    CK             \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i19  (from \C200_FPGA_reveal_coretop_instance/jtck[0] +)
+   Destination:    FD1P3BX    D              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_i0_i0  (to \C200_FPGA_reveal_coretop_instance/jtck[0] +)
+
+   Delay:                  11.663ns  (15.1% logic, 84.9% route), 10 logic levels.
+
+ Constraint Details:
+
+     11.663ns data_path \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i19 to \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_i0_i0 violates
+     10.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 10.175ns) by 1.488ns
+
+ Path Details: \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i19 to \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_i0_i0
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/shift_reg__i19 (from \C200_FPGA_reveal_coretop_instance/jtck[0])
+Route        32   e 1.813                                  addr[2]
+LUT4        ---     0.166              C to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i1_3_lut_4_lut_adj_4074
+Route         1   e 1.020                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/n228353
+LUT4        ---     0.166              B to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/tm_u/i1_4_lut_adj_4082
+Route        16   e 1.574                                  n220104
+LUT4        ---     0.166              C to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i175558_3_lut
+Route         1   e 1.020                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n220105
+LUT4        ---     0.166              D to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i175559_4_lut_4_lut
+Route         1   e 0.020                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/jtdo_first_bit_N_19134
+MUXL5       ---     0.116           ALUT to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/jtdo_first_bit_I_357
+Route         1   e 1.020                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/jtdo_first_bit_N_19133
+LUT4        ---     0.166              D to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i185861_3_lut_4_lut
+Route         1   e 0.020                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/n230570
+MUXL5       ---     0.116           ALUT to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i185862
+Route         3   e 1.239                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/jtdo_N_19094
+LUT4        ---     0.166              A to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i105237_2_lut
+Route         2   e 1.158                                  \C200_FPGA_reveal_coretop_instance/er2_tdo[0]
+LUT4        ---     0.166              D to Z              \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/i105252_4_lut
+Route         1   e 1.020                                  \C200_FPGA_reveal_coretop_instance/c200_fpga_la0_inst_0/jtag_int_u/tm_crc_15__N_18996[0]
+                  --------
+                   11.663  (15.1% logic, 84.9% route), 10 logic levels.
+
+Warning: 11.565 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 10.000000 -waveform { 0.000000 5.000000 } -name w_pll_100M [ get_nets { w_pll_100m } ]
+            261 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 2.923ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \U4/r_laser_state__i1  (from w_pll_100m +)
+   Destination:    FD1S3DX    D              \U4/r_tdc_stop1_77  (to w_pll_100m +)
+
+   Delay:                   7.252ns  (14.2% logic, 85.8% route), 5 logic levels.
+
+ Constraint Details:
+
+      7.252ns data_path \U4/r_laser_state__i1 to \U4/r_tdc_stop1_77 meets
+     10.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 10.175ns) by 2.923ns
+
+ Path Details: \U4/r_laser_state__i1 to \U4/r_tdc_stop1_77
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \U4/r_laser_state__i1 (from w_pll_100m)
+Route         7   e 1.509                                  \U4/r_laser_state[1]
+LUT4        ---     0.166              C to Z              \U4/i8_rep_167_1_lut_3_lut
+Route        12   e 1.516                                  \U4/n235677
+LUT4        ---     0.166              B to Z              \U4/i1_3_lut_rep_4636
+Route         2   e 1.158                                  \U4/n250228
+LUT4        ---     0.166              A to Z              \U4/r_laser_state_7__N_3584_I_0_90_3_lut
+Route         1   e 1.020                                  \U4/o_tdc_stop1_N_3630
+LUT4        ---     0.166              A to Z              \U4/i62861_3_lut
+Route         1   e 1.020                                  \U4/n104622
+                  --------
+                    7.252  (14.2% logic, 85.8% route), 5 logic levels.
+
+
+Passed:  The following path meets requirements by 2.923ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \U4/r_laser_state__i1  (from w_pll_100m +)
+   Destination:    FD1S3DX    D              \U4/r_tdc_stop2_78  (to w_pll_100m +)
+
+   Delay:                   7.252ns  (14.2% logic, 85.8% route), 5 logic levels.
+
+ Constraint Details:
+
+      7.252ns data_path \U4/r_laser_state__i1 to \U4/r_tdc_stop2_78 meets
+     10.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 10.175ns) by 2.923ns
+
+ Path Details: \U4/r_laser_state__i1 to \U4/r_tdc_stop2_78
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \U4/r_laser_state__i1 (from w_pll_100m)
+Route         7   e 1.509                                  \U4/r_laser_state[1]
+LUT4        ---     0.166              C to Z              \U4/i8_rep_167_1_lut_3_lut
+Route        12   e 1.516                                  \U4/n235677
+LUT4        ---     0.166              B to Z              \U4/i1_3_lut_rep_4636
+Route         2   e 1.158                                  \U4/n250228
+LUT4        ---     0.166              A to Z              \U4/r_laser_state_7__N_3584_I_0_3_lut
+Route         1   e 1.020                                  \U4/o_tdc_stop2_N_3634
+LUT4        ---     0.166              A to Z              \U4/i62858_3_lut
+Route         1   e 1.020                                  \U4/n104619
+                  --------
+                    7.252  (14.2% logic, 85.8% route), 5 logic levels.
+
+
+Passed:  The following path meets requirements by 2.923ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \U4/r_laser_state__i5  (from w_pll_100m +)
+   Destination:    FD1S3DX    D              \U4/r_tdc_stop1_77  (to w_pll_100m +)
+
+   Delay:                   7.252ns  (14.2% logic, 85.8% route), 5 logic levels.
+
+ Constraint Details:
+
+      7.252ns data_path \U4/r_laser_state__i5 to \U4/r_tdc_stop1_77 meets
+     10.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 10.175ns) by 2.923ns
+
+ Path Details: \U4/r_laser_state__i5 to \U4/r_tdc_stop1_77
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \U4/r_laser_state__i5 (from w_pll_100m)
+Route         7   e 1.509                                  \U4/r_laser_state[6]
+LUT4        ---     0.166              B to Z              \U4/i8_rep_167_1_lut_3_lut
+Route        12   e 1.516                                  \U4/n235677
+LUT4        ---     0.166              B to Z              \U4/i1_3_lut_rep_4636
+Route         2   e 1.158                                  \U4/n250228
+LUT4        ---     0.166              A to Z              \U4/r_laser_state_7__N_3584_I_0_90_3_lut
+Route         1   e 1.020                                  \U4/o_tdc_stop1_N_3630
+LUT4        ---     0.166              A to Z              \U4/i62861_3_lut
+Route         1   e 1.020                                  \U4/n104622
+                  --------
+                    7.252  (14.2% logic, 85.8% route), 5 logic levels.
+
+Report: 7.077 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 20.000000 -waveform { 0.000000 10.000000 } -name w_pll_50M [ get_nets { w_pll_50m } ]
+            593 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 0.081ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \U5/U1/r_msr_state__i7  (from w_pll_50m +)
+   Destination:    FD1S3DX    D              \U5/U1/r_msr_state__i8  (to w_pll_50m +)
+
+   Delay:                  20.094ns  (13.1% logic, 86.9% route), 15 logic levels.
+
+ Constraint Details:
+
+     20.094ns data_path \U5/U1/r_msr_state__i7 to \U5/U1/r_msr_state__i8 meets
+     20.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 20.175ns) by 0.081ns
+
+ Path Details: \U5/U1/r_msr_state__i7 to \U5/U1/r_msr_state__i8
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \U5/U1/r_msr_state__i7 (from w_pll_50m)
+Route        29   e 1.793                                  r_msr_state[7]
+LUT4        ---     0.166              A to Z              \U5/U1/i108755_2_lut_rep_4892
+Route         6   e 1.378                                  \U5/U1/n250484
+LUT4        ---     0.166              D to Z              \U5/U1/i185354_2_lut_4_lut
+Route         2   e 1.158                                  \U5/U1/n230038
+LUT4        ---     0.166              D to Z              \U5/U1/i1_3_lut_4_lut_adj_2552
+Route         3   e 1.239                                  \U5/U1/n228335
+LUT4        ---     0.166              D to Z              \U5/U1/i1_2_lut_4_lut_adj_2511
+Route         1   e 1.020                                  \U5/U1/n228339
+LUT4        ---     0.166              C to Z              \U5/U1/i37502_rep_84_4_lut
+Route        11   e 1.499                                  \U5/U1/n49431
+LUT4        ---     0.166              D to Z              \U5/U1/i43319_3_lut_4_lut
+Route         4   e 1.297                                  \U5/U1/n84030
+LUT4        ---     0.166              D to Z              \U5/U1/i45239_rep_86_3_lut_4_lut
+Route         6   e 1.378                                  \U5/U1/n230265
+LUT4        ---     0.166              D to Z              \U5/U1/i45756_rep_94_3_lut_4_lut
+Route         2   e 1.158                                  \U5/U1/n230272
+LUT4        ---     0.166              A to Z              \U5/U1/i46022_rep_92_3_lut
+Route         1   e 1.020                                  \U5/U1/n230270
+LUT4        ---     0.166              B to Z              \U5/U1/i46023_rep_85_3_lut
+Route         8   e 1.435                                  \U5/U1/n230263
+LUT4        ---     0.166              D to Z              \U5/U1/i41476_4_lut
+Route         1   e 1.020                                  \U5/U1/n74522
+LUT4        ---     0.166              D to Z              \U5/U1/i189462_3_lut_4_lut
+Route         1   e 0.020                                  \U5/U1/n81952
+MUXL5       ---     0.116           ALUT to Z              \U5/U1/i41474
+Route         1   e 1.020                                  \U5/U1/n81953
+LUT4        ---     0.166              A to Z              \U5/U1/i106370_2_lut
+Route         1   e 1.020                                  \U5/U1/n56
+                  --------
+                   20.094  (13.1% logic, 86.9% route), 15 logic levels.
+
+
+Passed:  The following path meets requirements by 0.081ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \U5/U1/r_msr_state__i7  (from w_pll_50m +)
+   Destination:    FD1S3DX    D              \U5/U1/r_msr_state__i6  (to w_pll_50m +)
+
+   Delay:                  20.094ns  (13.1% logic, 86.9% route), 15 logic levels.
+
+ Constraint Details:
+
+     20.094ns data_path \U5/U1/r_msr_state__i7 to \U5/U1/r_msr_state__i6 meets
+     20.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 20.175ns) by 0.081ns
+
+ Path Details: \U5/U1/r_msr_state__i7 to \U5/U1/r_msr_state__i6
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \U5/U1/r_msr_state__i7 (from w_pll_50m)
+Route        29   e 1.793                                  r_msr_state[7]
+LUT4        ---     0.166              A to Z              \U5/U1/i108755_2_lut_rep_4892
+Route         6   e 1.378                                  \U5/U1/n250484
+LUT4        ---     0.166              D to Z              \U5/U1/i185354_2_lut_4_lut
+Route         2   e 1.158                                  \U5/U1/n230038
+LUT4        ---     0.166              D to Z              \U5/U1/i1_3_lut_4_lut_adj_2552
+Route         3   e 1.239                                  \U5/U1/n228335
+LUT4        ---     0.166              D to Z              \U5/U1/i1_2_lut_4_lut_adj_2511
+Route         1   e 1.020                                  \U5/U1/n228339
+LUT4        ---     0.166              C to Z              \U5/U1/i37502_rep_84_4_lut
+Route        11   e 1.499                                  \U5/U1/n49431
+LUT4        ---     0.166              D to Z              \U5/U1/i43319_3_lut_4_lut
+Route         4   e 1.297                                  \U5/U1/n84030
+LUT4        ---     0.166              D to Z              \U5/U1/i45239_rep_86_3_lut_4_lut
+Route         6   e 1.378                                  \U5/U1/n230265
+LUT4        ---     0.166              D to Z              \U5/U1/i45756_rep_94_3_lut_4_lut
+Route         2   e 1.158                                  \U5/U1/n230272
+LUT4        ---     0.166              A to Z              \U5/U1/i46022_rep_92_3_lut
+Route         1   e 1.020                                  \U5/U1/n230270
+LUT4        ---     0.166              B to Z              \U5/U1/i46023_rep_85_3_lut
+Route         8   e 1.435                                  \U5/U1/n230263
+LUT4        ---     0.166              D to Z              \U5/U1/i41468_4_lut
+Route         1   e 1.020                                  \U5/U1/n74526
+LUT4        ---     0.166              D to Z              \U5/U1/i189458_3_lut_4_lut
+Route         1   e 0.020                                  \U5/U1/n81944
+MUXL5       ---     0.116           ALUT to Z              \U5/U1/i41466
+Route         1   e 1.020                                  \U5/U1/n81945
+LUT4        ---     0.166              A to Z              \U5/U1/i106372_2_lut
+Route         1   e 1.020                                  \U5/U1/n58
+                  --------
+                   20.094  (13.1% logic, 86.9% route), 15 logic levels.
+
+
+Passed:  The following path meets requirements by 0.081ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \U5/U1/r_msr_state__i7  (from w_pll_50m +)
+   Destination:    FD1S3DX    D              \U5/U1/r_msr_state__i5  (to w_pll_50m +)
+
+   Delay:                  20.094ns  (13.1% logic, 86.9% route), 15 logic levels.
+
+ Constraint Details:
+
+     20.094ns data_path \U5/U1/r_msr_state__i7 to \U5/U1/r_msr_state__i5 meets
+     20.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 20.175ns) by 0.081ns
+
+ Path Details: \U5/U1/r_msr_state__i7 to \U5/U1/r_msr_state__i5
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \U5/U1/r_msr_state__i7 (from w_pll_50m)
+Route        29   e 1.793                                  r_msr_state[7]
+LUT4        ---     0.166              A to Z              \U5/U1/i108755_2_lut_rep_4892
+Route         6   e 1.378                                  \U5/U1/n250484
+LUT4        ---     0.166              D to Z              \U5/U1/i185354_2_lut_4_lut
+Route         2   e 1.158                                  \U5/U1/n230038
+LUT4        ---     0.166              D to Z              \U5/U1/i1_3_lut_4_lut_adj_2552
+Route         3   e 1.239                                  \U5/U1/n228335
+LUT4        ---     0.166              D to Z              \U5/U1/i1_2_lut_4_lut_adj_2511
+Route         1   e 1.020                                  \U5/U1/n228339
+LUT4        ---     0.166              C to Z              \U5/U1/i37502_rep_84_4_lut
+Route        11   e 1.499                                  \U5/U1/n49431
+LUT4        ---     0.166              D to Z              \U5/U1/i43319_3_lut_4_lut
+Route         4   e 1.297                                  \U5/U1/n84030
+LUT4        ---     0.166              D to Z              \U5/U1/i45239_rep_86_3_lut_4_lut
+Route         6   e 1.378                                  \U5/U1/n230265
+LUT4        ---     0.166              D to Z              \U5/U1/i45756_rep_94_3_lut_4_lut
+Route         2   e 1.158                                  \U5/U1/n230272
+LUT4        ---     0.166              A to Z              \U5/U1/i46022_rep_92_3_lut
+Route         1   e 1.020                                  \U5/U1/n230270
+LUT4        ---     0.166              B to Z              \U5/U1/i46023_rep_85_3_lut
+Route         8   e 1.435                                  \U5/U1/n230263
+LUT4        ---     0.166              D to Z              \U5/U1/i41464_4_lut
+Route         1   e 1.020                                  \U5/U1/n74528
+LUT4        ---     0.166              D to Z              \U5/U1/i189455_3_lut_4_lut
+Route         1   e 0.020                                  \U5/U1/n81940
+MUXL5       ---     0.116           ALUT to Z              \U5/U1/i41462
+Route         1   e 1.020                                  \U5/U1/n81941
+LUT4        ---     0.166              A to Z              \U5/U1/i106373_2_lut
+Route         1   e 1.020                                  \U5/U1/n59
+                  --------
+                   20.094  (13.1% logic, 86.9% route), 15 logic levels.
+
+Report: 19.919 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 40.000000 -waveform { 0.000000 20.000000 } -name w_pll_25M [ get_nets { w_pll_25m_N } ]
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 13.377ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \U2/U2/r_opto_cnt1_22592__i3  (from w_pll_25m_N +)
+   Destination:    FD1P3DX    D              \U2/U2/r_pwm_value_i14  (to w_pll_25m_N +)
+
+   Delay:                  26.798ns  (16.1% logic, 83.9% route), 27 logic levels.
+
+ Constraint Details:
+
+     26.798ns data_path \U2/U2/r_opto_cnt1_22592__i3 to \U2/U2/r_pwm_value_i14 meets
+     40.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 40.175ns) by 13.377ns
+
+ Path Details: \U2/U2/r_opto_cnt1_22592__i3 to \U2/U2/r_pwm_value_i14
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \U2/U2/r_opto_cnt1_22592__i3 (from w_pll_25m_N)
+Route         6   e 1.478                                  \U2/U2/r_opto_cnt1[3]
+LUT4        ---     0.166              B to Z              \U2/U2/i112922_4_lut
+Route         4   e 1.297                                  \U2/U2/n154343
+LUT4        ---     0.166              B to Z              \U2/U2/i1_2_lut_adj_2231
+Route         1   e 1.020                                  \U2/U2/n219195
+LUT4        ---     0.166              D to Z              \U2/U2/LessThan_156_i14_4_lut_4_lut
+Route         1   e 1.020                                  \U2/U2/n14_adj_23091
+LUT4        ---     0.166              C to Z              \U2/U2/i1_4_lut_4_lut_adj_2243
+Route         1   e 1.020                                  \U2/U2/n4_adj_23087
+LUT4        ---     0.166              C to Z              \U2/U2/i2_2_lut_3_lut
+Route         1   e 1.020                                  \U2/U2/n225332
+LUT4        ---     0.166              D to Z              \U2/U2/LessThan_156_i28_4_lut_4_lut
+Route         1   e 1.020                                  \U2/U2/n28_adj_23073
+LUT4        ---     0.166              D to Z              \U2/U2/i1_4_lut_4_lut_adj_2240
+Route         1   e 1.020                                  \U2/U2/n218480
+LUT4        ---     0.166              C to Z              \U2/U2/LessThan_156_i36_3_lut_3_lut
+Route         1   e 1.020                                  \U2/U2/n36_adj_23086
+LUT4        ---     0.166              D to Z              \U2/U2/i31008_4_lut_4_lut
+Route         1   e 1.020                                  \U2/U2/n40
+LUT4        ---     0.166              D to Z              \U2/U2/i1_4_lut_4_lut
+Route         4   e 1.297                                  \U2/U2/n4
+LUT4        ---     0.166              B to Z              \U2/U2/i2_2_lut_rep_5243
+Route         2   e 1.158                                  n250835
+LUT4        ---     0.166              D to Z              \U2/U2/i1_2_lut_4_lut_adj_2275
+Route         1   e 1.020                                  \U2/U2/n229
+LUT4        ---     0.166              D to Z              \U2/U2/i1_4_lut_adj_2224
+Route         1   e 1.020                                  \U2/U2/n200
+LUT4        ---     0.166              B to Z              \U2/U2/i2_4_lut_adj_2223
+Route         1   e 1.020                                  \U2/U2/n7_adj_22997
+LUT4        ---     0.166              A to Z              \U2/U2/i4_4_lut
+Route         3   e 1.239                                  n96582
+LUT4        ---     0.166              C to Z              \U2/U2/i1_2_lut_4_lut_adj_2283
+Route        17   e 1.586                                  n73288
+MOFX0       ---     0.179             C0 to Z              i152540
+Route         1   e 1.020                                  n194046
+A1_TO_FCO   ---     0.329           A[2] to COUT           add_152321_3
+Route         1   e 0.020                                  n196829
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_5
+Route         1   e 0.020                                  n196830
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_7
+Route         1   e 0.020                                  n196831
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_9
+Route         1   e 0.020                                  n196832
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_11
+Route         1   e 0.020                                  n196833
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_13
+Route         1   e 0.020                                  n196834
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_15
+Route         1   e 0.020                                  n196835
+FCI_TO_F    ---     0.322            CIN to S[2]           add_152321_17
+Route         1   e 1.020                                  n41_adj_28337
+LUT4        ---     0.166              A to Z              \U2/U2/i112211_2_lut
+Route         1   e 1.020                                  \U2/U2/o_pwm_value_15__N_80[14]
+                  --------
+                   26.798  (16.1% logic, 83.9% route), 27 logic levels.
+
+
+Passed:  The following path meets requirements by 13.377ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \U2/U2/r_opto_cnt1_22592__i3  (from w_pll_25m_N +)
+   Destination:    FD1P3DX    D              \U2/U2/r_pwm_value_i15  (to w_pll_25m_N +)
+
+   Delay:                  26.798ns  (16.1% logic, 83.9% route), 27 logic levels.
+
+ Constraint Details:
+
+     26.798ns data_path \U2/U2/r_opto_cnt1_22592__i3 to \U2/U2/r_pwm_value_i15 meets
+     40.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 40.175ns) by 13.377ns
+
+ Path Details: \U2/U2/r_opto_cnt1_22592__i3 to \U2/U2/r_pwm_value_i15
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \U2/U2/r_opto_cnt1_22592__i3 (from w_pll_25m_N)
+Route         6   e 1.478                                  \U2/U2/r_opto_cnt1[3]
+LUT4        ---     0.166              B to Z              \U2/U2/i112922_4_lut
+Route         4   e 1.297                                  \U2/U2/n154343
+LUT4        ---     0.166              B to Z              \U2/U2/i1_2_lut_adj_2231
+Route         1   e 1.020                                  \U2/U2/n219195
+LUT4        ---     0.166              D to Z              \U2/U2/LessThan_156_i14_4_lut_4_lut
+Route         1   e 1.020                                  \U2/U2/n14_adj_23091
+LUT4        ---     0.166              C to Z              \U2/U2/i1_4_lut_4_lut_adj_2243
+Route         1   e 1.020                                  \U2/U2/n4_adj_23087
+LUT4        ---     0.166              C to Z              \U2/U2/i2_2_lut_3_lut
+Route         1   e 1.020                                  \U2/U2/n225332
+LUT4        ---     0.166              D to Z              \U2/U2/LessThan_156_i28_4_lut_4_lut
+Route         1   e 1.020                                  \U2/U2/n28_adj_23073
+LUT4        ---     0.166              D to Z              \U2/U2/i1_4_lut_4_lut_adj_2240
+Route         1   e 1.020                                  \U2/U2/n218480
+LUT4        ---     0.166              C to Z              \U2/U2/LessThan_156_i36_3_lut_3_lut
+Route         1   e 1.020                                  \U2/U2/n36_adj_23086
+LUT4        ---     0.166              D to Z              \U2/U2/i31008_4_lut_4_lut
+Route         1   e 1.020                                  \U2/U2/n40
+LUT4        ---     0.166              D to Z              \U2/U2/i1_4_lut_4_lut
+Route         4   e 1.297                                  \U2/U2/n4
+LUT4        ---     0.166              B to Z              \U2/U2/i2_2_lut_rep_5243
+Route         2   e 1.158                                  n250835
+LUT4        ---     0.166              D to Z              \U2/U2/i1_2_lut_4_lut_adj_2275
+Route         1   e 1.020                                  \U2/U2/n229
+LUT4        ---     0.166              D to Z              \U2/U2/i1_4_lut_adj_2224
+Route         1   e 1.020                                  \U2/U2/n200
+LUT4        ---     0.166              B to Z              \U2/U2/i2_4_lut_adj_2223
+Route         1   e 1.020                                  \U2/U2/n7_adj_22997
+LUT4        ---     0.166              A to Z              \U2/U2/i4_4_lut
+Route         3   e 1.239                                  n96582
+LUT4        ---     0.166              C to Z              \U2/U2/i1_2_lut_4_lut_adj_2283
+Route        17   e 1.586                                  n73288
+MOFX0       ---     0.179             C0 to Z              i152540
+Route         1   e 1.020                                  n194046
+A1_TO_FCO   ---     0.329           A[2] to COUT           add_152321_3
+Route         1   e 0.020                                  n196829
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_5
+Route         1   e 0.020                                  n196830
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_7
+Route         1   e 0.020                                  n196831
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_9
+Route         1   e 0.020                                  n196832
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_11
+Route         1   e 0.020                                  n196833
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_13
+Route         1   e 0.020                                  n196834
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_15
+Route         1   e 0.020                                  n196835
+FCI_TO_F    ---     0.322            CIN to S[2]           add_152321_17
+Route         1   e 1.020                                  n38_adj_28168
+LUT4        ---     0.166              A to Z              \U2/U2/i112210_2_lut
+Route         1   e 1.020                                  \U2/U2/o_pwm_value_15__N_80[15]
+                  --------
+                   26.798  (16.1% logic, 83.9% route), 27 logic levels.
+
+
+Passed:  The following path meets requirements by 13.390ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \U2/U2/r_opto_cnt1_22592__i3  (from w_pll_25m_N +)
+   Destination:    FD1P3DX    D              \U2/U2/r_pwm_value_i14  (to w_pll_25m_N +)
+
+   Delay:                  26.785ns  (16.1% logic, 83.9% route), 27 logic levels.
+
+ Constraint Details:
+
+     26.785ns data_path \U2/U2/r_opto_cnt1_22592__i3 to \U2/U2/r_pwm_value_i14 meets
+     40.000ns delay constraint less
+     -0.175ns L_S requirement (totaling 40.175ns) by 13.390ns
+
+ Path Details: \U2/U2/r_opto_cnt1_22592__i3 to \U2/U2/r_pwm_value_i14
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.365             CK to Q              \U2/U2/r_opto_cnt1_22592__i3 (from w_pll_25m_N)
+Route         6   e 1.478                                  \U2/U2/r_opto_cnt1[3]
+LUT4        ---     0.166              B to Z              \U2/U2/i112922_4_lut
+Route         4   e 1.297                                  \U2/U2/n154343
+LUT4        ---     0.166              B to Z              \U2/U2/i1_2_lut_adj_2231
+Route         1   e 1.020                                  \U2/U2/n219195
+LUT4        ---     0.166              D to Z              \U2/U2/LessThan_156_i14_4_lut_4_lut
+Route         1   e 1.020                                  \U2/U2/n14_adj_23091
+LUT4        ---     0.166              C to Z              \U2/U2/i1_4_lut_4_lut_adj_2243
+Route         1   e 1.020                                  \U2/U2/n4_adj_23087
+LUT4        ---     0.166              C to Z              \U2/U2/i2_2_lut_3_lut
+Route         1   e 1.020                                  \U2/U2/n225332
+LUT4        ---     0.166              D to Z              \U2/U2/LessThan_156_i28_4_lut_4_lut
+Route         1   e 1.020                                  \U2/U2/n28_adj_23073
+LUT4        ---     0.166              D to Z              \U2/U2/i1_4_lut_4_lut_adj_2240
+Route         1   e 1.020                                  \U2/U2/n218480
+LUT4        ---     0.166              C to Z              \U2/U2/LessThan_156_i36_3_lut_3_lut
+Route         1   e 1.020                                  \U2/U2/n36_adj_23086
+LUT4        ---     0.166              D to Z              \U2/U2/i31008_4_lut_4_lut
+Route         1   e 1.020                                  \U2/U2/n40
+LUT4        ---     0.166              D to Z              \U2/U2/i1_4_lut_4_lut
+Route         4   e 1.297                                  \U2/U2/n4
+LUT4        ---     0.166              B to Z              \U2/U2/i2_2_lut_rep_5243
+Route         2   e 1.158                                  n250835
+LUT4        ---     0.166              D to Z              \U2/U2/i1_2_lut_4_lut_adj_2275
+Route         1   e 1.020                                  \U2/U2/n229
+LUT4        ---     0.166              D to Z              \U2/U2/i1_4_lut_adj_2224
+Route         1   e 1.020                                  \U2/U2/n200
+LUT4        ---     0.166              B to Z              \U2/U2/i2_4_lut_adj_2223
+Route         1   e 1.020                                  \U2/U2/n7_adj_22997
+LUT4        ---     0.166              A to Z              \U2/U2/i4_4_lut
+Route         3   e 1.239                                  n96582
+LUT4        ---     0.166              C to Z              \U2/U2/i1_2_lut_4_lut_adj_2283
+Route        17   e 1.586                                  n73288
+LUT4        ---     0.166              C to Z              i152542_4_lut
+Route         1   e 1.020                                  n194048
+A1_TO_FCO   ---     0.329           A[2] to COUT           add_152321_3
+Route         1   e 0.020                                  n196829
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_5
+Route         1   e 0.020                                  n196830
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_7
+Route         1   e 0.020                                  n196831
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_9
+Route         1   e 0.020                                  n196832
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_11
+Route         1   e 0.020                                  n196833
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_13
+Route         1   e 0.020                                  n196834
+FCI_TO_FCO  ---     0.051            CIN to COUT           add_152321_15
+Route         1   e 0.020                                  n196835
+FCI_TO_F    ---     0.322            CIN to S[2]           add_152321_17
+Route         1   e 1.020                                  n41_adj_28337
+LUT4        ---     0.166              A to Z              \U2/U2/i112211_2_lut
+Route         1   e 1.020                                  \U2/U2/o_pwm_value_15__N_80[14]
+                  --------
+                   26.785  (16.1% logic, 83.9% route), 27 logic levels.
+
+Report: 26.623 ns is the maximum delay for this constraint.
+
+
+<A name="mtw1_rs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 10.000000 -name    |             |             |
+clk504 [get_nets clk_N_12801]           |            -|            -|     0  
+                                        |             |             |
+create_clock -period 10.000000 -name    |             |             |
+clk502 [get_nets                        |             |             |
+\C200_FPGA_reveal_coretop_instance/jtck[|             |             |
+0]]                                     |    10.000 ns|    11.565 ns|    10 *
+                                        |             |             |
+create_clock -period 10.000000          |             |             |
+-waveform { 0.000000 5.000000 } -name   |             |             |
+w_pll_100M [ get_nets { w_pll_100m } ]  |    10.000 ns|     7.077 ns|     5  
+                                        |             |             |
+create_clock -period 20.000000          |             |             |
+-waveform { 0.000000 10.000000 } -name  |             |             |
+w_pll_50M [ get_nets { w_pll_50m } ]    |    20.000 ns|    19.919 ns|    15  
+                                        |             |             |
+create_clock -period 40.000000          |             |             |
+-waveform { 0.000000 20.000000 } -name  |             |             |
+w_pll_25M [ get_nets { w_pll_25m_N } ]  |    40.000 ns|    26.623 ns|    27  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+--------------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+--------------------------------------------------------------------------------
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/tm_u/n49715             |      10|      51|     72.86%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/n216                    |       3|      35|     50.00%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/tm_u/n228365            |       1|      35|     50.00%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/tm_u/n26                |       1|      30|     42.86%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/tm_u/n222485            |       1|      30|     42.86%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/tm_u/n250261            |       5|      28|     40.00%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/n12                     |       2|      20|     28.57%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/jtag_int_u/jtdo_N_19094 |       3|      19|     27.14%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/jtag_int_u/jtdo_first_bi|        |        |
+t_N_19133                               |       1|      19|     27.14%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/jtag_int_u/n230570      |       1|      19|     27.14%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/addr_15                 |      34|      17|     24.29%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/jtag_int_u/jtdo_first_bi|        |        |
+t_N_19134                               |       1|      16|     22.86%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/jtag_int_u/n220105      |       1|      16|     22.86%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/jtag_int_u/n222608      |       3|      16|     22.86%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/jtag_int_u/n230251      |       1|      16|     22.86%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/wen_jtck                |       3|      16|     22.86%
+                                        |        |        |
+n220104                                 |      16|      16|     22.86%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/tm_u/n228569            |       1|      15|     21.43%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/tm_u/n251167            |       1|      14|     20.00%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/tm_u/n228353            |       1|      12|     17.14%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/jtag_int_u/tm_crc_15__N_|        |        |
+18996[0]                                |       1|      11|     15.71%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/tm_u/n250262            |       2|      11|     15.71%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/er2_t|        |        |
+do[0]                                   |       2|      11|     15.71%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/tm_u/n228367            |       1|      10|     14.29%
+                                        |        |        |
+\C200_FPGA_reveal_coretop_instance/c200_|        |        |
+fpga_la0_inst_0/jtag_int_u/parity_calc_N|        |        |
+_19165                                  |       1|       8|     11.43%
+                                        |        |        |
+--------------------------------------------------------------------------------
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary:</big></U></B>
+---------------
+
+Timing errors: 70  Score: 43510
+
+Constraints cover  17588338 paths, 30647 nets, and 84872 connections (89.7% coverage)
+
+
+Peak memory: 499036160 bytes, TRCE: 24416256 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 1 secs 
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

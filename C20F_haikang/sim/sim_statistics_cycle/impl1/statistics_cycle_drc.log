@@ -1,0 +1,18 @@
+Results of NGD DRC are available in statistics_cycle_drc.log.
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/sa5p00/data/sa5plib.ngl'...
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'i_motor_state' has no load.
+WARNING - synthesis: input pad net 'i_motor_state' has no legal load.
+WARNING - synthesis: DRC complete with 2 warnings.
+
+Design Results:
+    156 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file sim_statistics_cycle_impl1.ngd.

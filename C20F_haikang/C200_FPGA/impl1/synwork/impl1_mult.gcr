@@ -1,0 +1,14 @@
+i U1.CLKOP_i
+m 0 0
+u 2079 4108
+p {t:U1.PLLInst_0.CLKOP}{t:U1.CLKOP_inferred_clock.I[0]}{t:U1.CLKOP_inferred_clock.OUT[0]}{p:U1.CLKOP}{t:U1.CLKOP}{t:U7.i_clk_50m}{p:U7.i_clk_50m}{t:U7.r_flash_state[3].C}
+e ckid0_0 {t:U7.r_flash_state[3].C} dff
+c ckid0_0 {t:U1.PLLInst_0.CLKOP} EHXPLLL Unsupported/too complex instance on clock path
+i U1.CLKOS_i
+m 0 0
+u 14 50
+p {t:U1.PLLInst_0.CLKOS}{t:U1.CLKOS_inferred_clock.I[0]}{t:U1.CLKOS_inferred_clock.OUT[0]}{p:U1.CLKOS}{t:U1.CLKOS}{t:U4.i_clk_50m}{p:U4.i_clk_50m}{t:U4.r_laser_state[4].C}
+e ckid0_1 {t:U4.r_laser_state[4].C} dffr
+c ckid0_1 {t:U1.PLLInst_0.CLKOS} EHXPLLL Unsupported/too complex instance on clock path
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

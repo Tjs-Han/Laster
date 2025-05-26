@@ -1,0 +1,33 @@
+#Start recording tcl command: 4/25/2025 13:21:38
+#Project Location: D:/Project/C20F_haikang/sim/sim_statistics_cycle; Project name: sim_statistics_cycle
+prj_project new -name "sim_statistics_cycle" -impl "impl1" -dev LFE5U-25F-6BG256I -synthesis "lse"
+prj_project save
+prj_src add "D:/Project/C20F_haikang/C200_FPGA/rtl_tjs/Statistics_cycle.v"
+prj_src remove "D:/Project/C20F_haikang/C200_FPGA/rtl_tjs/Statistics_cycle.v"
+prj_src add "D:/Project/C20F_haikang/C200_FPGA/rtl_tjs/statistics_cycle.v"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_src add "D:/Project/C20F_haikang/sim/sim_statistics_cycle/tb.v"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "D:/Project/C20F_haikang/sim/sim_statistics_cycle/impl1/ram_w32_depth64"
+source "D:/Project/C20F_haikang/sim/sim_statistics_cycle/impl1/ram_w32_depth64/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+prj_src add "D:/Project/C20F_haikang/sim/sim_statistics_cycle/impl1/ram_w32_depth64/ram_w32_depth64.sbx"
+sbp_design open -dsgn "D:/Project/C20F_haikang/sim/sim_statistics_cycle/impl1/ram_w32_depth64/ram_w32_depth64.sbx"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_src syn_sim -src "D:/Project/C20F_haikang/sim/sim_statistics_cycle/tb.v" SimulateOnly
+prj_run Synthesis -impl impl1
+prj_src add "D:/Project/C20F_haikang/sim/sim_statistics_cycle/sim0425_0a/sim0425_0a.spf"
+prj_src add "D:/Project/C20F_haikang/sim/sim_statistics_cycle/sim0425_A/sim0425_A.spf"
+prj_src add "D:/Project/C20F_haikang/sim/sim_statistics_cycle/sim_0425_0A/sim_0425_0A.spf"
+prj_src add "D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/ram0425_0A.spf"
+prj_src add "D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/ram0425_0A.spf"
+prj_src add "D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/ram0425_0A.spf"
+prj_src add "D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/ram0425_0A.spf"
+prj_src add "D:/Project/C20F_haikang/sim/sim_statistics_cycle/ram0425_0A/ram0425_0A.spf"
+prj_project save
+prj_project close
+#Stop recording: 4/25/2025 15:38:54

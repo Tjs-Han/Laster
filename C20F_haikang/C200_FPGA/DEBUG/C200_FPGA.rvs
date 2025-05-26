@@ -1,0 +1,119 @@
+<Project ModBy="Analyzer" Name="D:/programs/fpga/C200/C200/C200_FPGA/DEBUG/C200_FPGA.rvs" Date="2025-01-07">
+ <Core Name="C200_FPGA_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="16" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Bus Name="U5/U5/i_start_index" Radix="0">
+     <Sig Name="U5/U5/i_start_index:0"/>
+     <Sig Name="U5/U5/i_start_index:1"/>
+     <Sig Name="U5/U5/i_start_index:2"/>
+     <Sig Name="U5/U5/i_start_index:3"/>
+     <Sig Name="U5/U5/i_start_index:4"/>
+     <Sig Name="U5/U5/i_start_index:5"/>
+     <Sig Name="U5/U5/i_start_index:6"/>
+     <Sig Name="U5/U5/i_start_index:7"/>
+     <Sig Name="U5/U5/i_start_index:8"/>
+     <Sig Name="U5/U5/i_start_index:9"/>
+     <Sig Name="U5/U5/i_start_index:10"/>
+     <Sig Name="U5/U5/i_start_index:11"/>
+     <Sig Name="U5/U5/i_start_index:12"/>
+     <Sig Name="U5/U5/i_start_index:13"/>
+     <Sig Name="U5/U5/i_start_index:14"/>
+     <Sig Name="U5/U5/i_start_index:15"/>
+    </Bus>
+    <Bus Name="U5/U5/i_stop_index" Radix="0">
+     <Sig Name="U5/U5/i_stop_index:0"/>
+     <Sig Name="U5/U5/i_stop_index:1"/>
+     <Sig Name="U5/U5/i_stop_index:2"/>
+     <Sig Name="U5/U5/i_stop_index:3"/>
+     <Sig Name="U5/U5/i_stop_index:4"/>
+     <Sig Name="U5/U5/i_stop_index:5"/>
+     <Sig Name="U5/U5/i_stop_index:6"/>
+     <Sig Name="U5/U5/i_stop_index:7"/>
+     <Sig Name="U5/U5/i_stop_index:8"/>
+     <Sig Name="U5/U5/i_stop_index:9"/>
+     <Sig Name="U5/U5/i_stop_index:10"/>
+     <Sig Name="U5/U5/i_stop_index:11"/>
+     <Sig Name="U5/U5/i_stop_index:12"/>
+     <Sig Name="U5/U5/i_stop_index:13"/>
+     <Sig Name="U5/U5/i_stop_index:14"/>
+     <Sig Name="U5/U5/i_stop_index:15"/>
+    </Bus>
+    <Sig Name="U5/U5/o_packet_make"/>
+    <Sig Name="U5/U5/o_packet_pingpang"/>
+    <Bus Name="U5/U5/o_packet_points" Radix="0">
+     <Sig Name="U5/U5/o_packet_points:0"/>
+     <Sig Name="U5/U5/o_packet_points:1"/>
+     <Sig Name="U5/U5/o_packet_points:2"/>
+     <Sig Name="U5/U5/o_packet_points:3"/>
+     <Sig Name="U5/U5/o_packet_points:4"/>
+     <Sig Name="U5/U5/o_packet_points:5"/>
+     <Sig Name="U5/U5/o_packet_points:6"/>
+     <Sig Name="U5/U5/o_packet_points:7"/>
+     <Sig Name="U5/U5/o_packet_points:8"/>
+     <Sig Name="U5/U5/o_packet_points:9"/>
+     <Sig Name="U5/U5/o_packet_points:10"/>
+     <Sig Name="U5/U5/o_packet_points:11"/>
+     <Sig Name="U5/U5/o_packet_points:12"/>
+     <Sig Name="U5/U5/o_packet_points:13"/>
+     <Sig Name="U5/U5/o_packet_points:14"/>
+     <Sig Name="U5/U5/o_packet_points:15"/>
+    </Bus>
+    <Bus Name="U5/U5/o_scan_counter" Radix="0">
+     <Sig Name="U5/U5/o_scan_counter:0"/>
+     <Sig Name="U5/U5/o_scan_counter:1"/>
+     <Sig Name="U5/U5/o_scan_counter:2"/>
+     <Sig Name="U5/U5/o_scan_counter:3"/>
+     <Sig Name="U5/U5/o_scan_counter:4"/>
+     <Sig Name="U5/U5/o_scan_counter:5"/>
+     <Sig Name="U5/U5/o_scan_counter:6"/>
+     <Sig Name="U5/U5/o_scan_counter:7"/>
+     <Sig Name="U5/U5/o_scan_counter:8"/>
+     <Sig Name="U5/U5/o_scan_counter:9"/>
+     <Sig Name="U5/U5/o_scan_counter:10"/>
+     <Sig Name="U5/U5/o_scan_counter:11"/>
+     <Sig Name="U5/U5/o_scan_counter:12"/>
+     <Sig Name="U5/U5/o_scan_counter:13"/>
+     <Sig Name="U5/U5/o_scan_counter:14"/>
+     <Sig Name="U5/U5/o_scan_counter:15"/>
+    </Bus>
+    <Bus Name="U5/U5/o_telegram_no" Radix="0">
+     <Sig Name="U5/U5/o_telegram_no:0"/>
+     <Sig Name="U5/U5/o_telegram_no:1"/>
+     <Sig Name="U5/U5/o_telegram_no:2"/>
+     <Sig Name="U5/U5/o_telegram_no:3"/>
+     <Sig Name="U5/U5/o_telegram_no:4"/>
+     <Sig Name="U5/U5/o_telegram_no:5"/>
+     <Sig Name="U5/U5/o_telegram_no:6"/>
+     <Sig Name="U5/U5/o_telegram_no:7"/>
+    </Bus>
+    <Bus Name="U5/U5/o_first_angle" Radix="0">
+     <Sig Name="U5/U5/o_first_angle:0"/>
+     <Sig Name="U5/U5/o_first_angle:1"/>
+     <Sig Name="U5/U5/o_first_angle:2"/>
+     <Sig Name="U5/U5/o_first_angle:3"/>
+     <Sig Name="U5/U5/o_first_angle:4"/>
+     <Sig Name="U5/U5/o_first_angle:5"/>
+     <Sig Name="U5/U5/o_first_angle:6"/>
+     <Sig Name="U5/U5/o_first_angle:7"/>
+     <Sig Name="U5/U5/o_first_angle:8"/>
+     <Sig Name="U5/U5/o_first_angle:9"/>
+     <Sig Name="U5/U5/o_first_angle:10"/>
+     <Sig Name="U5/U5/o_first_angle:11"/>
+     <Sig Name="U5/U5/o_first_angle:12"/>
+     <Sig Name="U5/U5/o_first_angle:13"/>
+     <Sig Name="U5/U5/o_first_angle:14"/>
+     <Sig Name="U5/U5/o_first_angle:15"/>
+    </Bus>
+   </Trace>
+   <Trigger>
+    <TU Operator="6" Name="TU1" ID="1" Value="1" Radix="0"/>
+    <TE Enable="1" Expression="TU1" Name="TE1" ID="1"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+</Project>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="0" build_time="0">
+            <Task name="IBIS" build_result="0" update_result="2" update_time="1745828514"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="2" update_time="1745828514"/>
+            <Task name="TimingSimFileVHD" build_result="0" update_result="2" update_time="1745828514"/>
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1745828552"/>
+            <Task name="Promgen" build_result="0" update_result="2" update_time="1747123924"/>
+        </Milestone>
+        <Milestone name="Map" build_result="2" build_time="1745828348">
+            <Task name="Map" build_result="2" update_result="0" update_time="1745828348"/>
+            <Task name="MapTrace" build_result="2" update_result="0" update_time="1745828353"/>
+            <Task name="MapVerilogSimFile" build_result="0" update_result="2" update_time="1745828349"/>
+            <Task name="MapVHDLSimFile" build_result="0" update_result="2" update_time="1745828349"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="2" build_time="1745828514">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1745828514"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1745828520"/>
+            <Task name="IOTiming" build_result="2" update_result="0" update_time="1745828544"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="2" build_time="1745828330">
+            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1745828330"/>
+            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1745828214"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1745825384"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="1745825384"/>
+            <Task name="SSO" build_result="0" update_result="3" update_time="0"/>
+            <Task name="PIODRC" build_result="0" update_result="3" update_time="0"/>
+            <Task name="DEC" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Report name=".vdbs/C200_FPGA_impl1_map.vdb" last_build_time="1745828348" last_build_size="5118333"/>
+        <Report name="C200_FPGA_impl1.bgn" last_build_time="1745828552" last_build_size="4459"/>
+        <Report name="C200_FPGA_impl1.bit" last_build_time="1745828552" last_build_size="582676"/>
+        <Report name="C200_FPGA_impl1.ior" last_build_time="1745828544" last_build_size="8153"/>
+        <Report name="C200_FPGA_impl1.lsedata" last_build_time="1745828214" last_build_size="25558653"/>
+        <Report name="C200_FPGA_impl1.mcs" last_build_time="1635677465" last_build_size="1638933"/>
+        <Report name="C200_FPGA_impl1.ncd" last_build_time="1745828514" last_build_size="21165318"/>
+        <Report name="C200_FPGA_impl1.ngd" last_build_time="1745828329" last_build_size="17075259"/>
+        <Report name="C200_FPGA_impl1.tw1" last_build_time="1745828352" last_build_size="25806"/>
+        <Report name="C200_FPGA_impl1.twr" last_build_time="1745828519" last_build_size="185831"/>
+        <Report name="C200_FPGA_impl1_map.ncd" last_build_time="1745828346" last_build_size="14326764"/>
+        <Report name="C200_FPGA_impl1_mapvho.sdf" last_build_time="1644980207" last_build_size="12638543"/>
+        <Report name="C200_FPGA_impl1_mapvho.vho" last_build_time="1644980204" last_build_size="9381309"/>
+        <Report name="C200_FPGA_impl1_mapvo.sdf" last_build_time="1644980178" last_build_size="12773885"/>
+        <Report name="C200_FPGA_impl1_mapvo.vo" last_build_time="1644980175" last_build_size="6617669"/>
+        <Report name="C200_FPGA_impl1_vho.sdf" last_build_time="1635677443" last_build_size="17140527"/>
+        <Report name="C200_FPGA_impl1_vho.vho" last_build_time="1635677441" last_build_size="11685010"/>
+        <Report name="C200_FPGA_impl1_vo.sdf" last_build_time="1635677398" last_build_size="17384342"/>
+        <Report name="C200_FPGA_impl1_vo.vo" last_build_time="1635677395" last_build_size="8118244"/>
+        <Report name="IBIS/C200_FPGA_impl1.ibs" last_build_time="1635677357" last_build_size="364707"/>
+    </Strategy>
+</BuildStatus>

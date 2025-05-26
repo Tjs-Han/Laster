@@ -1,0 +1,121 @@
+#--  Synopsys, Inc.
+#--  Version Q-2020.03L-SP1
+#--  Project file D:\programs\fpga\C200_FPGA\impl1\impl1_syn.prj
+#--  Written on Thu Jun  3 11:41:35 2021
+
+
+#project files
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/C200_FPGA.v"
+add_file -verilog -vlog_std v2001 "../C200_FPGA/C200_PLL/C200_PLL.v"
+add_file -verilog -vlog_std v2001 "../C200_FPGA/eth_data_fifo/eth_data_fifo.v"
+add_file -verilog -vlog_std v2001 "../C200_FPGA/multiplier/multiplier.v"
+add_file -verilog -vlog_std v2001 "../C200_FPGA/packet_data_fifo/packet_data_fifo.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/rotating_module.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/opto_switch_filter.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/motor_control.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/encoder_generate.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/laser_control.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/dist_measure.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/tdc_control.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/dist_calculate.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/sram_control.v"
+add_file -verilog -vlog_std v2001 "../spi flash/spi_master.v"
+add_file -verilog -vlog_std v2001 "../spi flash/spi_flash_top.v"
+add_file -verilog -vlog_std v2001 "../spi flash/spi_flash_cmd.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/flash_control.v"
+add_file -verilog -vlog_std v2001 "../eth/datagram_parser.v"
+add_file -verilog -vlog_std v2001 "../eth/spi_w5500_cmd.v"
+add_file -verilog -vlog_std v2001 "../eth/spi_w5500_top.v"
+add_file -verilog -vlog_std v2001 "../eth/datagram_cmd_defines.v"
+add_file -verilog -vlog_std v2001 "../eth/w5500_cmd_defines.v"
+add_file -verilog -vlog_std v2001 "../eth/w5500_reg_defines.v"
+add_file -verilog -vlog_std v2001 "../eth/tcp_recv_fifo.v"
+add_file -verilog -vlog_std v2001 "../eth/tcp_send_fifo.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/w5500_control.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/parameter_init.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/data_packet.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/mcp4726a0_top.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/tla2024_cmd_defines.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/tla2024_top.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/i2c_master.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/self_inspection.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/parameter_ident_define.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/test.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/adc_to_dac.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/adc_to_temp.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/encoder_generate_2.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/adc_to_dac_2.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/adc_to_temp_2.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/division.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/TDC_SPI_ms1004.v"
+add_file -verilog -vlog_std v2001 "../gp22/gp22_control.v"
+add_file -verilog -vlog_std v2001 "../gp22/gp22_spi.v"
+add_file -verilog -vlog_std v2001 "D:/programs/fpga/C200_FPGA/encoder_generate_3.v"
+
+
+#implementation: "impl1"
+impl -add impl1 -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std sysv
+set_option -project_relative_includes 1
+set_option -hdl_define -set SBP_SYNTHESIS
+set_option -include_path {D:/programs/fpga/C200_FPGA}
+
+#device options
+set_option -technology ECP5U
+set_option -part LFE5U_25F
+set_option -package BG256C
+set_option -speed_grade -6
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module "C200_FPGA"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+set_option -hdl_strict_syntax 0
+
+# mapper_without_write_options
+set_option -frequency auto
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# Lattice XP
+set_option -maxfan 100
+set_option -disable_io_insertion 0
+set_option -retiming 0
+set_option -pipe 1
+set_option -forcegsr no
+set_option -fix_gated_and_generated_clocks 1
+set_option -rw_check_on_ram 1
+set_option -update_models_cp 0
+set_option -syn_edif_array_rename 1
+set_option -Write_declared_clocks_only 1
+set_option -seqshift_no_replicate 0
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./impl1.edi"
+impl -active "impl1"

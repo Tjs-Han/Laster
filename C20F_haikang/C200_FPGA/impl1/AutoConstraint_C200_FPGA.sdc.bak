@@ -1,0 +1,8 @@
+
+#Begin clock constraint
+define_clock -name {C200_PLL|CLKOP_inferred_clock} {n:C200_PLL|CLKOP_inferred_clock} -period 7.631 -clockgroup Autoconstr_clkgroup_0 -rise 0.000 -fall 3.816 -route 0.000 
+#End clock constraint
+
+#Begin clock constraint
+define_clock -name {C200_PLL|CLKOS_inferred_clock} {n:C200_PLL|CLKOS_inferred_clock} -period 3.126 -clockgroup Autoconstr_clkgroup_1 -rise 0.000 -fall 1.563 -route 0.000 
+#End clock constraint

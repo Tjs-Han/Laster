@@ -1,0 +1,659 @@
+# Wed Jun  2 15:11:12 2021
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: E:\tools\Iscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-5IM9OFQR
+
+Implementation : impl1
+Synopsys Lattice Technology Pre-mapping, Version map202003lat, Build 172R, Built Nov  2 2020 09:31:45, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\programs\fpga\C200_FPGA\impl1\impl1_scck.rpt 
+See clock summary report "D:\programs\fpga\C200_FPGA\impl1\impl1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 144MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 145MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 158MB peak: 158MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 158MB peak: 160MB)
+
+@N: FX493 |Applying initial value "0" on instance r_opto_switch.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "0" on instance r_motor_err_sig.
+@A: FX681 :"d:\programs\fpga\c200_fpga\motor_control.v":162:1:162:6|Initial value on register r_pwm_cnt[15:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@W: BN287 :"d:\programs\fpga\c200_fpga\motor_control.v":162:1:162:6|Register r_pwm_cnt[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@A: FX681 :"d:\programs\fpga\c200_fpga\motor_control.v":134:1:134:6|Initial value on register r_pwm_value[15:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@W: BN287 :"d:\programs\fpga\c200_fpga\motor_control.v":134:1:134:6|Register r_pwm_value[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@N: FX493 |Applying initial value "1" on instance r_opto_switch1.
+@N: FX493 |Applying initial value "1" on instance r_opto_switch2.
+@N: FX493 |Applying initial value "00000000" on instance r_fs_cnt[7:0].
+@N: FX493 |Applying initial value "0" on instance r_angle_sync.
+@A: FX681 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":149:1:149:6|Initial value on register r_fs_factor[15:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_fs_factor[15:0].
+@N: FX493 |Applying initial value "0" on instance r_opto_rise.
+@N: FX493 |Applying initial value "0" on instance r_angle_sync_out.
+@N: FX493 |Applying initial value "0" on instance r_angle_sync_cal.
+@N: FX493 |Applying initial value "00000000000000000000000" on instance r_low_time_prior_cnt[23:1].
+@N: FX493 |Applying initial value "0" on instance r_zero_sign.
+@N: FX493 |Applying initial value "0" on instance o_end.
+@N: FX493 |Applying initial value "0" on instance r_rw.
+@N: FX493 |Applying initial value "0" on instance r_en.
+@N: FX493 |Applying initial value "000" on instance r_bit_size[2:0].
+@N: FX493 |Applying initial value "0" on instance o_error.
+@N: FX493 |Applying initial value "0" on instance r_bit_size[4].
+@N: FX493 |Applying initial value "1" on instance o_scl.
+@N: FX493 |Applying initial value "1" on instance r_sda.
+@N: FX493 |Applying initial value "0" on instance r_data_in[6].
+@N: FX493 |Applying initial value "000" on instance r_data_in[14:12].
+@N: FX493 |Applying initial value "0" on instance r_start.
+@N: FX493 |Applying initial value "000" on instance r_cmd[2:0].
+@N: FX493 |Applying initial value "000000000000" on instance o_adc0[11:0].
+@N: FX493 |Applying initial value "000000000000" on instance o_adc1[11:0].
+@N: FX493 |Applying initial value "000000000000" on instance o_adc2[11:0].
+@N: FX493 |Applying initial value "000000000000" on instance o_adc3[11:0].
+@N: FX493 |Applying initial value "0" on instance r_en.
+@N: FX493 |Applying initial value "0" on instance o_error.
+@N: FX493 |Applying initial value "1" on instance o_scl.
+@N: FX493 |Applying initial value "1" on instance r_sda.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_divisor[15:0].
+@N: FX493 |Applying initial value "0" on instance r_cal_done.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_quotient[15:0].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[8].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[10].
+@N: FX493 |Applying initial value "0" on instance r_cal_sig.
+@N: FX493 |Applying initial value "0" on instance r_temp_done.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_dividend[31:0].
+@N: FX493 |Applying initial value "000000000000" on instance r_adc_value[11:0].
+@N: FX493 |Applying initial value "0" on instance r_mult_en.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_temp_value_coe[31:0].
+@N: FX493 |Applying initial value "0" on instance r_dac_start.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_temp_point2[15:0].
+@N: FX493 |Applying initial value "0" on instance r_mult_en.
+@N: FX493 |Applying initial value "0" on instance r_adc_start.
+@N: FX493 |Applying initial value "000000000000" on instance r_adc_value[11:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_mult1_dataA[15:0].
+@N: FX493 |Applying initial value "0000000000000000000" on instance r_temp_mid2[18:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_mult2_dataA[15:0].
+@N: FX493 |Applying initial value "00" on instance r_temp_flags[1:0].
+@N: FX493 |Applying initial value "0" on instance r_dac_start.
+@N: FX493 |Applying initial value "0" on instance r_hv_en.
+@N: FX493 |Applying initial value "000000000000" on instance r_adc_hv_value[11:0].
+@N: FX493 |Applying initial value "000000000000" on instance r_adc_temp_value[11:0].
+@N: FX493 |Applying initial value "0" on instance r_temp_valid.
+@N: FX493 |Applying initial value "0" on instance r_measure_en.
+@N: FX493 |Applying initial value "000" on instance r_status_code[2:0].
+@N: FX493 |Applying initial value "0" on instance TDC_CMDdone.
+@N: FX493 |Applying initial value "00000000" on instance SPI_OPcode[7:0].
+@N: FX493 |Applying initial value "0" on instance TDC_CMDack.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance TDC_Tdata[31:0].
+@N: FX493 |Applying initial value "1" on instance SPI_SSN.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance TDC_RDdata[31:0].
+@N: FX493 |Applying initial value "0" on instance SPI_SI.
+@N: FX493 |Applying initial value "00000" on instance TDCspi_state[5:1].
+@N: FX493 |Applying initial value "0" on instance SPI_SCK.
+@N: FX493 |Applying initial value "1" on instance r_gp22_init1.
+@N: FX493 |Applying initial value "1" on instance r_gp22_init2.
+@N: FX493 |Applying initial value "000" on instance r_hit1sin[2:0].
+@N: FX493 |Applying initial value "000" on instance r_hit2sin[2:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_angle_end[15:0].
+@N: FX493 |Applying initial value "0" on instance r_tdc_num[0].
+@N: FX493 |Applying initial value "0" on instance r_tdc_num[3].
+@N: FX493 |Applying initial value "0" on instance r_tdc_wr_data[10].
+@N: FX493 |Applying initial value "0" on instance r_tdc_wr_data[13].
+@N: FX493 |Applying initial value "0" on instance r_tdc_wr_data[16].
+@N: FX493 |Applying initial value "00" on instance r_tdc_wr_data[19:18].
+@N: FX493 |Applying initial value "0" on instance r_tdc_wr_data[22].
+@N: FX493 |Applying initial value "00" on instance r_tdc_wr_data[25:24].
+@N: FX493 |Applying initial value "0" on instance r_tdc_wr_data[27].
+@N: FX493 |Applying initial value "0" on instance r_cmd_tdc_byte.
+@N: FX493 |Applying initial value "0" on instance r_cmd_tdc_rd.
+@N: FX493 |Applying initial value "0000" on instance r_tdc_cmd[7:4].
+@N: FX493 |Applying initial value "0" on instance r_cmd_tdc_wr.
+@N: FX493 |Applying initial value "000" on instance r_tdc_wr_data[31:29].
+@N: FX493 |Applying initial value "000" on instance r_tdc_cmd[2:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_rise_data[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_pulse_rise[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_pulse_fall[15:0].
+@N: FX493 |Applying initial value "1" on instance r_tdc_err_sig.
+@N: FX493 |Applying initial value "1" on instance r_tdc_reset.
+@N: FX493 |Applying initial value "0" on instance r_tdc_new_sig.
+@W: BN287 :"d:\programs\fpga\c200_fpga\dist_calculate.v":77:1:77:6|Register r_distance_max[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\dist_calculate.v":77:1:77:6|Register r_distance_min[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@N: FX493 |Applying initial value "0000000000000000" on instance r_angle_end[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_angle_begin[15:0].
+@N: FX493 |Applying initial value "0" on instance r_dist_new_sig.
+@N: FX493 |Applying initial value "0" on instance r_data_valid.
+@N: FX493 |Applying initial value "0" on instance r_pingorpang.
+@N: FX493 |Applying initial value "0" on instance r_packet_make.
+
+Only the first 100 messages of id 'FX493' are reported. To see all messages use 'report_messages -log D:\programs\fpga\C200_FPGA\impl1\synlog\impl1_premap.srr -id FX493' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {FX493} -count unlimited' in the Tcl shell.
+@W: BN287 :"d:\programs\fpga\c200_fpga\data_packet.v":48:1:48:6|Register r_angle_end[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\data_packet.v":60:1:60:6|Register r_angle_begin[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\flash_control.v":217:1:217:6|Register r_page_num[10:0] with reset has an initial value of 1. Ignoring initial value.  
+@A: FX681 :"d:\programs\fpga\c200_fpga\flash_control.v":194:1:194:6|Initial value on register r_flash_addr[23:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@W: BN287 :"d:\programs\fpga\c200_fpga\flash_control.v":194:1:194:6|Register r_flash_addr[23:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\eth\spi_w5500_top.v":158:1:158:6|Register r_sock_num[2:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN288 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":1101:1:1101:6|Register o_get_cmd_code[7:0] with set has an initial value of 0. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":634:1:634:6|Register r_scan_freqence[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":732:1:732:6|Register r_pwm_value_0[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":714:1:714:6|Register r_apd_hv_base[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":775:1:775:6|Register r_temp_point1[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":784:1:784:6|Register r_temp_point2[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":802:1:802:6|Register r_temp_coe2[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":811:1:811:6|Register r_temp_coe3[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":820:1:820:6|Register r_distance_min[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":829:1:829:6|Register r_distance_max[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":641:1:641:6|Register r_angle_reso[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":705:1:705:6|Register r_tdc_window[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":555:1:555:6|Register r_password_user[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":566:1:566:6|Register r_device_name[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":577:1:577:6|Register r_ip_addr[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":588:1:588:6|Register r_gate_way[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":599:1:599:6|Register r_sub_mask[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":610:1:610:6|Register r_mac_addr[47:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":623:1:623:6|Register r_serial_number[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":650:1:650:6|Register r_start_angle[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":661:1:661:6|Register r_stop_angle[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\programs\fpga\c200_fpga\parameter_init.v":679:1:679:6|Register r_device_mode[7:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN132 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":149:1:149:6|Removing sequential instance U2.U3.r_fs_factor[11] because it is equivalent to instance U2.U3.r_fs_factor[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":136:1:136:6|Removing sequential instance U2.U3.r_fs_cnt[4] because it is equivalent to instance U2.U3.r_fs_cnt[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":136:1:136:6|Removing sequential instance U2.U3.r_fs_cnt[3] because it is equivalent to instance U2.U3.r_fs_cnt[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":149:1:149:6|Removing sequential instance U2.U3.r_fs_factor[6] because it is equivalent to instance U2.U3.r_fs_factor[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":136:1:136:6|Removing sequential instance U2.U3.r_fs_cnt[5] because it is equivalent to instance U2.U3.r_fs_cnt[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":149:1:149:6|Removing sequential instance U2.U3.r_fs_factor[15] because it is equivalent to instance U2.U3.r_fs_factor[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":149:1:149:6|Removing sequential instance U2.U3.r_fs_factor[14] because it is equivalent to instance U2.U3.r_fs_factor[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":149:1:149:6|Removing sequential instance U2.U3.r_fs_factor[13] because it is equivalent to instance U2.U3.r_fs_factor[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":136:1:136:6|Removing sequential instance U2.U3.r_fs_cnt[7] because it is equivalent to instance U2.U3.r_fs_cnt[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\i2c_master.v":43:1:43:6|Removing sequential instance U3.u1.u1.r_rw because it is equivalent to instance U3.u1.u1.r_bit_size[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\tla2024_top.v":47:1:47:6|Removing sequential instance U3.u1.r_data_in[6] because it is equivalent to instance U3.u1.r_data_in[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\adc_to_temp_2.v":70:1:70:6|Removing sequential instance U3.u3.U1.r_mult1_dataB[8] because it is equivalent to instance U3.u3.U1.r_mult1_dataB[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\laser_control.v":111:1:111:6|Removing sequential instance U4.r_tdc_stop2 because it is equivalent to instance U4.r_tdc_start. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\gp22\gp22_control.v":118:1:118:6|Removing sequential instance U5.U1.r_tdc_wr_data[18] because it is equivalent to instance U5.U1.r_tdc_wr_data[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\gp22\gp22_control.v":118:1:118:6|Removing sequential instance U5.U1.r_tdc_wr_data[13] because it is equivalent to instance U5.U1.r_tdc_wr_data[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\gp22\gp22_control.v":57:1:57:6|Removing sequential instance U5.U1.r_angle_end[15] because it is equivalent to instance U5.U1.r_angle_end[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\gp22\gp22_control.v":57:1:57:6|Removing sequential instance U5.U1.r_angle_end[14] because it is equivalent to instance U5.U1.r_angle_end[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\gp22\gp22_control.v":57:1:57:6|Removing sequential instance U5.U1.r_angle_end[13] because it is equivalent to instance U5.U1.r_angle_end[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\gp22\gp22_control.v":57:1:57:6|Removing sequential instance U5.U1.r_angle_end[12] because it is equivalent to instance U5.U1.r_angle_end[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\gp22\gp22_control.v":118:1:118:6|Removing sequential instance U5.U1.r_tdc_wr_data[22] because it is equivalent to instance U5.U1.r_tdc_wr_data[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\gp22\gp22_control.v":118:1:118:6|Removing sequential instance U5.U1.r_tdc_wr_data[19] because it is equivalent to instance U5.U1.r_tdc_wr_data[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\dist_calculate.v":101:1:101:6|Removing sequential instance U5.U2.r_rise_step[6] because it is equivalent to instance U5.U2.r_pulse_step[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\dist_calculate.v":65:1:65:6|Removing sequential instance U5.U2.r_angle_begin[15] because it is equivalent to instance U5.U2.r_angle_begin[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\dist_calculate.v":65:1:65:6|Removing sequential instance U5.U2.r_angle_begin[14] because it is equivalent to instance U5.U2.r_angle_begin[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\dist_calculate.v":65:1:65:6|Removing sequential instance U5.U2.r_angle_begin[13] because it is equivalent to instance U5.U2.r_angle_begin[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\dist_calculate.v":65:1:65:6|Removing sequential instance U5.U2.r_angle_begin[12] because it is equivalent to instance U5.U2.r_angle_begin[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\dist_calculate.v":65:1:65:6|Removing sequential instance U5.U2.r_angle_begin[11] because it is equivalent to instance U5.U2.r_angle_begin[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\dist_calculate.v":65:1:65:6|Removing sequential instance U5.U2.r_angle_begin[9] because it is equivalent to instance U5.U2.r_angle_begin[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\dist_calculate.v":65:1:65:6|Removing sequential instance U5.U2.r_angle_begin[8] because it is equivalent to instance U5.U2.r_angle_begin[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\dist_calculate.v":53:1:53:6|Removing sequential instance U5.U2.r_angle_end[15] because it is equivalent to instance U5.U2.r_angle_end[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\dist_calculate.v":53:1:53:6|Removing sequential instance U5.U2.r_angle_end[14] because it is equivalent to instance U5.U2.r_angle_end[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\dist_calculate.v":53:1:53:6|Removing sequential instance U5.U2.r_angle_end[13] because it is equivalent to instance U5.U2.r_angle_end[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\dist_calculate.v":53:1:53:6|Removing sequential instance U5.U2.r_angle_end[12] because it is equivalent to instance U5.U2.r_angle_end[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\flash_control.v":166:1:166:6|Removing sequential instance U7.r_flash_cmd[6] because it is equivalent to instance U7.r_flash_cmd[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\parameter_init.v":838:1:838:6|Removing sequential instance U8.u3.r_samples_per_scan[15] because it is equivalent to instance U8.u3.r_samples_per_scan[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\parameter_init.v":838:1:838:6|Removing sequential instance U8.u3.r_samples_per_scan[14] because it is equivalent to instance U8.u3.r_samples_per_scan[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\parameter_init.v":838:1:838:6|Removing sequential instance U8.u3.r_samples_per_scan[13] because it is equivalent to instance U8.u3.r_samples_per_scan[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\parameter_init.v":838:1:838:6|Removing sequential instance U8.u3.r_samples_per_scan[12] because it is equivalent to instance U8.u3.r_samples_per_scan[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\parameter_init.v":838:1:838:6|Removing sequential instance U8.u3.r_samples_per_scan[7] because it is equivalent to instance U8.u3.r_samples_per_scan[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\programs\fpga\c200_fpga\parameter_init.v":883:1:883:6|Removing sequential instance U8.u3.r_set_para7[16] because it is equivalent to instance U8.u3.r_set_para7[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: MO129 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":136:1:136:6|Sequential instance U2.U3.r_fs_cnt[6] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\programs\fpga\c200_fpga\encoder_generate_3.v":149:1:149:6|Sequential instance U2.U3.r_fs_factor[12] is reduced to a combinational gate by constant propagation.
+@N: MO111 :"d:\programs\fpga\c200_fpga\tla2024_top.v":18:11:18:17|Tristate driver o_valid (in view: work.tla2024_top(verilog)) on net o_valid (in view: work.tla2024_top(verilog)) has its enable tied to GND.
+@W: MO129 :"d:\programs\fpga\c200_fpga\gp22\gp22_control.v":57:1:57:6|Sequential instance U5.U1.r_angle_end[11] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\programs\fpga\c200_fpga\dist_calculate.v":65:1:65:6|Sequential instance U5.U2.r_angle_begin[10] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\programs\fpga\c200_fpga\dist_calculate.v":53:1:53:6|Sequential instance U5.U2.r_angle_end[11] is reduced to a combinational gate by constant propagation.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_1 (in view: work.data_packet(verilog)) on net o_time_stamp_1 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_2 (in view: work.data_packet(verilog)) on net o_time_stamp_2 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_3 (in view: work.data_packet(verilog)) on net o_time_stamp_3 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_4 (in view: work.data_packet(verilog)) on net o_time_stamp_4 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_5 (in view: work.data_packet(verilog)) on net o_time_stamp_5 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_6 (in view: work.data_packet(verilog)) on net o_time_stamp_6 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_7 (in view: work.data_packet(verilog)) on net o_time_stamp_7 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_8 (in view: work.data_packet(verilog)) on net o_time_stamp_8 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_9 (in view: work.data_packet(verilog)) on net o_time_stamp_9 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@W: MO129 :"d:\programs\fpga\c200_fpga\parameter_init.v":838:1:838:6|Sequential instance U8.u3.r_samples_per_scan[11] is reduced to a combinational gate by constant propagation.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_control.v":118:1:118:6|Removing sequential instance r_tdc_num[0] (in view: work.gp22_control(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_control.v":118:1:118:6|Removing sequential instance r_tdc_num[3] (in view: work.gp22_control(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[0] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[1] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[2] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[3] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[4] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[5] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[6] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[7] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[8] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[9] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[10] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[11] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[0] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[1] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[2] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[3] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[4] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[5] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[6] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[7] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[8] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[9] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[10] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[11] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":883:1:883:6|Removing sequential instance r_set_para7[0] (in view: work.parameter_init(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":1056:1:1056:6|Removing sequential instance r_config_mode[7] (in view: work.parameter_init(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[31] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[30] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[29] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[28] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[27] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[26] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[25] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[24] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[23] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[22] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[21] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[20] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[19] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[18] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[17] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[16] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[15] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[14] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[13] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[12] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[11] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[10] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[9] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[8] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[7] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[6] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[5] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[4] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[3] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[2] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[1] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[0] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_CMDack (in view: work.gp22_spi(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance r_adc3_value[15:0] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance r_adc2_value[15:0] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+Encoding state machine fs_state[6:0] (in view: work.encoder_generate_3(verilog))
+original code -> new code
+   00000000 -> 0000001
+   00000010 -> 0000010
+   00000100 -> 0000100
+   00001000 -> 0001000
+   00010000 -> 0010000
+   00100000 -> 0100000
+   01000000 -> 1000000
+Encoding state machine r_state[6:0] (in view: work.i2c_master(verilog))
+original code -> new code
+   0000 -> 0000001
+   0001 -> 0000010
+   0010 -> 0000100
+   0011 -> 0001000
+   0100 -> 0010000
+   0101 -> 0100000
+   0110 -> 1000000
+Encoding state machine r_state[8:0] (in view: work.tla2024_top(verilog))
+original code -> new code
+   0000 -> 000000001
+   0001 -> 000000010
+   0010 -> 000000100
+   0011 -> 000001000
+   0100 -> 000010000
+   0101 -> 000100000
+   0110 -> 001000000
+   0111 -> 010000000
+   1000 -> 100000000
+Encoding state machine r_cal_state[3:0] (in view: work.division(verilog))
+original code -> new code
+   0000 -> 00
+   0010 -> 01
+   0100 -> 10
+   1000 -> 11
+@N: MO225 :"d:\programs\fpga\c200_fpga\division.v":26:1:26:6|There are no possible illegal states for state machine r_cal_state[3:0] (in view: work.division(verilog)); safe FSM implementation is not required.
+Encoding state machine r_temp_state[9:0] (in view: work.adc_to_temp_2(verilog))
+original code -> new code
+   0000000000 -> 0000000001
+   0000000001 -> 0000000010
+   0000000010 -> 0000000100
+   0000000100 -> 0000001000
+   0000001000 -> 0000010000
+   0000010000 -> 0000100000
+   0000100000 -> 0001000000
+   0001000000 -> 0010000000
+   0010000000 -> 0100000000
+   0100000000 -> 1000000000
+Encoding state machine r_dac_state[12:0] (in view: work.adc_to_dac_2(verilog))
+original code -> new code
+   000000000000 -> 0000000000001
+   000000000001 -> 0000000000010
+   000000000010 -> 0000000000100
+   000000000100 -> 0000000001000
+   000000001000 -> 0000000010000
+   000000010000 -> 0000000100000
+   000000100000 -> 0000001000000
+   000001000000 -> 0000010000000
+   000010000000 -> 0000100000000
+   000100000000 -> 0001000000000
+   001000000000 -> 0010000000000
+   010000000000 -> 0100000000000
+   100000000000 -> 1000000000000
+Encoding state machine r_state[8:0] (in view: work.mcp4726a0_top(verilog))
+original code -> new code
+   0000 -> 000000001
+   0001 -> 000000010
+   0010 -> 000000100
+   0011 -> 000001000
+   0100 -> 000010000
+   0101 -> 000100000
+   0110 -> 001000000
+   0111 -> 010000000
+   1000 -> 100000000
+Encoding state machine r_check_state[3:0] (in view: work.self_inspection(verilog))
+original code -> new code
+   0000000000 -> 00
+   0000000010 -> 01
+   0000000100 -> 10
+   0000001000 -> 11
+@N: MO225 :"d:\programs\fpga\c200_fpga\self_inspection.v":64:1:64:6|There are no possible illegal states for state machine r_check_state[3:0] (in view: work.self_inspection(verilog)); safe FSM implementation is not required.
+Encoding state machine r_laser_state[4:0] (in view: work.laser_control(verilog))
+original code -> new code
+   00000000 -> 00001
+   00000010 -> 00010
+   00010000 -> 00100
+   00100000 -> 01000
+   01000000 -> 10000
+Encoding state machine r_msr_state[28:0] (in view: work.gp22_control(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 00000000000000000000000000001
+   00000000000000000000000000000010 -> 00000000000000000000000000010
+   00000000000000000000000000000100 -> 00000000000000000000000000100
+   00000000000000000000000000001000 -> 00000000000000000000000001000
+   00000000000000000000000000010000 -> 00000000000000000000000010000
+   00000000000000000000000000100000 -> 00000000000000000000000100000
+   00000000000000000000000001000000 -> 00000000000000000000001000000
+   00000000000000000000000010000000 -> 00000000000000000000010000000
+   00000000000000000000000100000000 -> 00000000000000000000100000000
+   00000000000000000000001000000000 -> 00000000000000000001000000000
+   00000000000000000000010000000000 -> 00000000000000000010000000000
+   00000000000000000000100000000000 -> 00000000000000000100000000000
+   00000000000000000001000000000000 -> 00000000000000001000000000000
+   00000000000000000010000000000000 -> 00000000000000010000000000000
+   00000000000000000100000000000000 -> 00000000000000100000000000000
+   00000000000000001000000000000000 -> 00000000000001000000000000000
+   00000000000000010000000000000000 -> 00000000000010000000000000000
+   00000000000000100000000000000000 -> 00000000000100000000000000000
+   00000000000001000000000000000000 -> 00000000001000000000000000000
+   00000000000010000000000000000000 -> 00000000010000000000000000000
+   00000000000100000000000000000000 -> 00000000100000000000000000000
+   00000000001000000000000000000000 -> 00000001000000000000000000000
+   00000000010000000000000000000000 -> 00000010000000000000000000000
+   00000000100000000000000000000000 -> 00000100000000000000000000000
+   00000001000000000000000000000000 -> 00001000000000000000000000000
+   00000010000000000000000000000000 -> 00010000000000000000000000000
+   00000100000000000000000000000000 -> 00100000000000000000000000000
+   00001000000000000000000000000000 -> 01000000000000000000000000000
+   00010000000000000000000000000000 -> 10000000000000000000000000000
+Encoding state machine r_cal_state[12:0] (in view: work.dist_calculate(verilog))
+original code -> new code
+   0000000000000000 -> 0000000000001
+   0000000000000010 -> 0000000000010
+   0000000000000100 -> 0000000000100
+   0000000000001000 -> 0000000001000
+   0000000000010000 -> 0000000010000
+   0000000000100000 -> 0000000100000
+   0000000001000000 -> 0000001000000
+   0000000010000000 -> 0000010000000
+   0000000100000000 -> 0000100000000
+   0000001000000000 -> 0001000000000
+   0000010000000000 -> 0010000000000
+   0000100000000000 -> 0100000000000
+   0001000000000000 -> 1000000000000
+Encoding state machine r_packet_state[7:0] (in view: work.data_packet(verilog))
+original code -> new code
+   00000000 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+Encoding state machine r_state[4:0] (in view: work.spi_master_0(verilog))
+original code -> new code
+   000 -> 000
+   001 -> 001
+   010 -> 010
+   011 -> 011
+   100 -> 100
+Encoding state machine r_state[8:0] (in view: work.spi_flash_cmd(verilog))
+original code -> new code
+   0000 -> 0000
+   0001 -> 0001
+   0010 -> 0010
+   0011 -> 0011
+   0100 -> 0100
+   0101 -> 0101
+   0110 -> 0110
+   0111 -> 0111
+   1000 -> 1000
+Encoding state machine r_cmd[7:0] (in view: work.spi_flash_top(verilog))
+original code -> new code
+   00000000 -> 000
+   00000001 -> 001
+   00000010 -> 010
+   00000011 -> 011
+   00000101 -> 100
+   00000110 -> 101
+   11000111 -> 110
+   11011000 -> 111
+@N: MO225 :"d:\programs\fpga\c200_fpga\spi flash\spi_flash_top.v":50:1:50:6|There are no possible illegal states for state machine r_cmd[7:0] (in view: work.spi_flash_top(verilog)); safe FSM implementation is not required.
+Encoding state machine r_state[3:0] (in view: work.spi_flash_top(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\programs\fpga\c200_fpga\spi flash\spi_flash_top.v":94:1:94:6|There are no possible illegal states for state machine r_state[3:0] (in view: work.spi_flash_top(verilog)); safe FSM implementation is not required.
+Encoding state machine r_flash_state[13:0] (in view: work.flash_control(verilog))
+original code -> new code
+   0000000000000000 -> 0000
+   0000000000000010 -> 0001
+   0000000000000100 -> 0010
+   0000000000001000 -> 0011
+   0000000000010000 -> 0100
+   0000000000100000 -> 0101
+   0000000001000000 -> 0110
+   0000000010000000 -> 0111
+   0000000100000000 -> 1000
+   0000001000000000 -> 1001
+   0000010000000000 -> 1010
+   0000100000000000 -> 1011
+   0001000000000000 -> 1100
+   0010000000000000 -> 1101
+Encoding state machine r_state[4:0] (in view: work.spi_master_1(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine r_state[8:0] (in view: work.spi_w5500_cmd(verilog))
+original code -> new code
+   0000 -> 000000001
+   0001 -> 000000010
+   0010 -> 000000100
+   0011 -> 000001000
+   0100 -> 000010000
+   0101 -> 000100000
+   0110 -> 001000000
+   0111 -> 010000000
+   1000 -> 100000000
+Encoding state machine r_state[30:0] (in view: work.spi_w5500_top(verilog))
+original code -> new code
+   000000 -> 0000000000000000000000000000001
+   000001 -> 0000000000000000000000000000010
+   000010 -> 0000000000000000000000000000100
+   000011 -> 0000000000000000000000000001000
+   000100 -> 0000000000000000000000000010000
+   000101 -> 0000000000000000000000000100000
+   000110 -> 0000000000000000000000001000000
+   000111 -> 0000000000000000000000010000000
+   001000 -> 0000000000000000000000100000000
+   001001 -> 0000000000000000000001000000000
+   001010 -> 0000000000000000000010000000000
+   001011 -> 0000000000000000000100000000000
+   001100 -> 0000000000000000001000000000000
+   001101 -> 0000000000000000010000000000000
+   001110 -> 0000000000000000100000000000000
+   001111 -> 0000000000000001000000000000000
+   010000 -> 0000000000000010000000000000000
+   010001 -> 0000000000000100000000000000000
+   010010 -> 0000000000001000000000000000000
+   010011 -> 0000000000010000000000000000000
+   010100 -> 0000000000100000000000000000000
+   010101 -> 0000000001000000000000000000000
+   010110 -> 0000000010000000000000000000000
+   010111 -> 0000000100000000000000000000000
+   011000 -> 0000001000000000000000000000000
+   011001 -> 0000010000000000000000000000000
+   011010 -> 0000100000000000000000000000000
+   011011 -> 0001000000000000000000000000000
+   011100 -> 0010000000000000000000000000000
+   011101 -> 0100000000000000000000000000000
+   011110 -> 1000000000000000000000000000000
+Encoding state machine r_state[8:0] (in view: work.datagram_parser(verilog))
+original code -> new code
+   0000 -> 000000001
+   0001 -> 000000010
+   0010 -> 000000100
+   0011 -> 000001000
+   0100 -> 000010000
+   0101 -> 000100000
+   0110 -> 001000000
+   0111 -> 010000000
+   1000 -> 100000000
+Encoding state machine r_para_state[9:0] (in view: work.parameter_init(verilog))
+original code -> new code
+   0000000000 -> 0000
+   0000000010 -> 0001
+   0000000100 -> 0010
+   0000001000 -> 0011
+   0000010000 -> 0100
+   0000100000 -> 0101
+   0001000000 -> 0110
+   0010000000 -> 0111
+   0100000000 -> 1000
+   1000000000 -> 1001
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 215MB peak: 215MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 216MB peak: 216MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 216MB peak: 217MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 216MB peak: 217MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=56 on top level netlist C200_FPGA 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 216MB peak: 217MB)
+
+
+
+Clock Summary
+******************
+
+          Start                             Requested      Requested     Clock        Clock                     Clock
+Level     Clock                             Frequency      Period        Type         Group                     Load 
+---------------------------------------------------------------------------------------------------------------------
+0 -       System                            4892.4 MHz     0.204         system       system_clkgroup           0    
+                                                                                                                     
+0 -       C200_PLL|CLKOP_inferred_clock     4.1 MHz        242.853       inferred     Autoconstr_clkgroup_0     4108 
+                                                                                                                     
+0 -       C200_PLL|CLKOS_inferred_clock     588.2 MHz      1.700         inferred     Autoconstr_clkgroup_1     50   
+=====================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                  Clock     Source                          Clock Pin                         Non-clock Pin     Non-clock Pin          
+Clock                             Load      Pin                             Seq Example                       Seq Example       Comb Example           
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+System                            0         -                               -                                 -                 -                      
+                                                                                                                                                       
+C200_PLL|CLKOP_inferred_clock     4108      U1.PLLInst_0.CLKOP(EHXPLLL)     U8.u3.r_scan_freqence[15:0].C     -                 U8.u2.un1_clk.I[0](inv)
+                                                                                                                                                       
+C200_PLL|CLKOS_inferred_clock     50        U1.PLLInst_0.CLKOS(EHXPLLL)     U4.r_stop1_window[7:0].C          -                 -                      
+=======================================================================================================================================================
+
+@W: MT529 :"d:\programs\fpga\c200_fpga\opto_switch_filter.v":38:1:38:6|Found inferred clock C200_PLL|CLKOP_inferred_clock which controls 4108 sequential elements including U2.U1.r_opto_switch. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\programs\fpga\c200_fpga\laser_control.v":47:1:47:6|Found inferred clock C200_PLL|CLKOS_inferred_clock which controls 50 sequential elements including U4.r_laser_state[4]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 4158 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=============================== Non-Gated/Non-Generated Clocks ===============================
+Clock Tree ID     Driving Element        Drive Element Type     Fanout     Sample Instance    
+----------------------------------------------------------------------------------------------
+@KP:ckid0_0       U1.PLLInst_0.CLKOP     EHXPLLL                4108       U7.r_flash_state[3]
+@KP:ckid0_1       U1.PLLInst_0.CLKOS     EHXPLLL                50         U4.r_laser_state[4]
+==============================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 212MB peak: 217MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 213MB peak: 217MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 217MB peak: 217MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 116MB peak: 217MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Wed Jun  2 15:11:15 2021
+
+###########################################################]

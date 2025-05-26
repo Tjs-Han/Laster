@@ -1,0 +1,570 @@
+module TDC_control
+(
+   input       i_clk_50m       ,
+	input       i_rst_n         ,
+	
+	input       i_Reset_OK_sig  ,
+	input       i_Measure_en    ,
+	input       i_CodeCLK_L2H   ,
+	input       i_RAM_in_OK     ,
+	
+	input [15:0]i_code_angle    ,
+	input [15:0]i_angle_begin   ,
+	input [15:0]i_angle_end     ,
+	
+	output      o_TDC_Result_new,
+	output      o_TDC_err_sig   ,
+	output[31:0]o_TDC_Result_val,
+	output[31:0]o_TDC_Result_va2,
+	output      o_tdc_cycle_sig ,
+	
+	output      o_pingorpong    ,
+	
+	input       i_TDC_Init      ,
+	input       i_TDC_SPI_Miso  ,
+	output      o_TDC_SPI_Mosi  ,
+	output      o_TDC_SPI_Ssn   ,
+	output      o_TDC_SPI_Clk
+	
+);
+
+reg [31:0]r_TDC_Result_val = 32'd0;
+reg [31:0]r_TDC_Result_va2 = 32'd0;
+reg       r_TDC_err_sig    = 1'b1;
+reg       r_TDC_Result_new = 1'b0;
+reg		 r_tdc_cycle_sig  = 1'b0;
+
+reg       r_pingorpong     = 1'b0;
+
+reg       r_CMD_TDCwr      = 1'b0;
+reg       r_CMD_TDCrd      = 1'b0;
+reg       r_CMD_TDC1byte   = 1'b0;
+reg [ 5:0]r_TDC_Num        = 6'd0;
+reg [ 7:0]r_TDC_CMD        = 8'd0;
+reg [31:0]r_TDC_WRdata     = 32'd0;
+reg [31:0]r_MSR_cnt        = 32'd0;
+
+reg [27:0]MSR_state        = 28'd0;
+reg       r_TDC_Init1      = 1'b0;
+reg       r_TDC_Init2      = 1'b0;
+reg       r_TDC_Init3      = 1'b0;
+reg  [2:0]r_hit1sin        = 3'd0;
+reg  [2:0]r_hit2sin        = 3'd0;
+
+wire[31:0]TDC_RDdata;
+wire      TDC_CMDdone;
+
+always@(posedge i_clk_50m)
+   begin
+	   r_TDC_Init1 <= i_TDC_Init;
+		r_TDC_Init2 <= r_TDC_Init1;
+		r_TDC_Init3 <= r_TDC_Init2;
+	end
+	
+parameter   CONFIG0   = 32'h0004_2400,
+            CONFIG1   = 32'h0149_0000,
+				CONFIG1_2 = 32'h0949_0000,
+				CONFIG2   = 32'hC000_0000,
+				CONFIG3   = 32'h2000_0000,
+				CONFIG4   = 32'h2000_0000,
+				CONFIG5   = 32'h0000_0000,
+				CONFIG6   = 32'h0000_0000;
+				
+parameter MSR_IDLE        = 28'b0000_0000_0000_0000_0000_0000_0000,
+          MSR_POR         = 28'b0000_0000_0000_0000_0000_0000_0010,
+			 MSR_DELAY       = 28'b0000_0000_0000_0000_0000_0000_0100,
+			 MSR_TESTW       = 28'b0000_0000_0000_0000_0000_0000_1000,
+			 MSR_TESTR       = 28'b0000_0000_0000_0000_0000_0001_0000,
+			 MSR_DELAY2      = 28'b0000_0000_0000_0000_0000_0010_0000,
+			 MSR_CONFIG0     = 28'b0000_0000_0000_0000_0000_0100_0000,
+			 MSR_CONFIG1     = 28'b0000_0000_0000_0000_0000_1000_0000,
+			 MSR_CONFIG2     = 28'b0000_0000_0000_0000_0001_0000_0000,
+			 MSR_CONFIG3     = 28'b0000_0000_0000_0000_0010_0000_0000,
+			 MSR_CONFIG4     = 28'b0000_0000_0000_0000_0100_0000_0000,
+			 MSR_CONFIG5     = 28'b0000_0000_0000_0000_1000_0000_0000,
+			 MSR_CONFIG6     = 28'b0000_0000_0000_0001_0000_0000_0000,
+			 MSR_DELAY3      = 28'b0000_0000_0000_0010_0000_0000_0000,
+			 MSR_CIDLE       = 28'b0000_0000_0000_0100_0000_0000_0000,
+			 MSR_INIT        = 28'b0000_0000_0000_1000_0000_0000_0000,
+			 MSR_WAITL2H     = 28'b0000_0000_0001_0000_0000_0000_0000,
+			 MSR_WAIT0       = 28'b0000_0000_0010_0000_0000_0000_0000,
+			 MSR_RSTAUS      = 28'b0000_0000_0100_0000_0000_0000_0000,
+			 MSR_READ        = 28'b0000_0000_1000_0000_0000_0000_0000,
+			 MSR_CONFIG1_TWO = 28'b0000_0001_0000_0000_0000_0000_0000,
+			 MSR_WAIT0_TWO   = 28'b0000_0010_0000_0000_0000_0000_0000,
+			 MSR_READ_TWO    = 28'b0000_0100_0000_0000_0000_0000_0000,
+			 MSR_CONFIG1_TRD = 28'b0000_1000_0000_0000_0000_0000_0000,
+			 MSR_END         = 28'b0001_0000_0000_0000_0000_0000_0000,
+			 MSR_CALB        = 28'b0010_0000_0000_0000_0000_0000_0000,
+			 MSR_TESTR2      = 28'b0100_0000_0000_0000_0000_0000_0000,
+			 MSR_OVER        = 28'b1000_0000_0000_0000_0000_0000_0000;
+	
+always@(posedge i_clk_50m or negedge i_rst_n)
+   if(i_rst_n == 0)
+	   MSR_state        <= MSR_IDLE;
+	else if(i_Reset_OK_sig == 0)
+		MSR_state        <= MSR_IDLE;
+	else begin
+		case(MSR_state)
+			MSR_IDLE   :begin
+								r_CMD_TDCwr      <= 1'b0;
+								r_CMD_TDCrd      <= 1'b0;
+								r_CMD_TDC1byte   <= 1'b0;
+								r_TDC_Num        <= 6'd0;
+								r_TDC_CMD        <= 8'd0;
+								r_TDC_WRdata     <= 32'd0;
+								r_MSR_cnt        <= 32'd0;
+								r_TDC_Result_val <= 32'd0;
+								r_TDC_Result_va2 <= 32'd0;
+								r_TDC_Result_new <= 1'b0;
+								r_TDC_err_sig    <= 1'b0;
+								r_tdc_cycle_sig  <= 1'b0;
+								//r_pingorpong     <= 1'b0;
+								if(i_Reset_OK_sig)
+									MSR_state        <= MSR_POR;
+								else
+									MSR_state        <= MSR_IDLE;
+							end
+			MSR_POR    :begin
+								r_CMD_TDC1byte   <= 1'b1;
+								r_CMD_TDCwr      <= 1'b0;
+								r_CMD_TDCrd      <= 1'b0;
+								r_TDC_CMD        <= 8'h50;
+								if(TDC_CMDdone)begin
+									r_CMD_TDC1byte   <= 1'b0;
+									r_CMD_TDCwr      <= 1'b0;
+									r_CMD_TDCrd      <= 1'b0;
+									MSR_state        <= MSR_DELAY;
+									end
+								else  
+									MSR_state        <= MSR_POR;
+							end
+			MSR_DELAY  :begin
+								if(r_MSR_cnt >= 32'd100_000) begin
+									r_MSR_cnt        <= 32'd0;
+									MSR_state        <= MSR_TESTW;
+									end
+								else begin
+									r_MSR_cnt        <= r_MSR_cnt + 1'b1;
+									MSR_state        <= MSR_DELAY;
+									end
+							end
+			MSR_TESTW  :begin
+								r_CMD_TDCwr      <= 1'b1;
+								r_CMD_TDCrd      <= 1'b0;
+								r_CMD_TDC1byte   <= 1'b0;
+								r_TDC_CMD        <= 8'h81; //-----------WR CR1 Test
+								r_TDC_Num        <= 6'd31;
+								r_TDC_WRdata     <= 32'hAB00_0000;
+								if(TDC_CMDdone) begin
+									r_CMD_TDCwr      <= 1'b0;
+									r_CMD_TDCrd      <= 1'b0;
+									r_CMD_TDC1byte   <= 1'b0;
+									r_TDC_CMD        <= 8'h00; //-----------WR CR1 Test
+									r_TDC_Num        <= 6'd0;
+									r_TDC_WRdata     <= 32'd0;
+									MSR_state        <= MSR_TESTR;
+									end
+								else 
+									MSR_state        <= MSR_TESTW;
+							end
+			MSR_TESTR  :begin
+								r_CMD_TDCrd      <= 1'b1;
+								r_CMD_TDCwr      <= 1'b0;
+								r_CMD_TDC1byte   <= 1'b0;
+								r_TDC_CMD        <= 8'hB5; //-----------RD CR1 Test
+								r_TDC_Num        <= 6'd7;
+								if(TDC_CMDdone)begin
+									r_CMD_TDCwr      <= 1'b0;
+									r_CMD_TDCrd      <= 1'b0;
+									r_CMD_TDC1byte   <= 1'b0;
+									r_TDC_CMD        <= 8'h00; //-----------RD CR1 Test
+									r_TDC_Num        <= 6'd0;
+									if(TDC_RDdata[31:24]==8'hAB)
+										MSR_state        <= MSR_DELAY2;
+									else begin
+										r_TDC_err_sig    <= 1'b1;
+										MSR_state        <= MSR_POR;
+										end
+									end
+								else 
+									MSR_state        <= MSR_TESTR;
+							end
+			MSR_DELAY2 :begin
+								if(r_MSR_cnt >= 32'd100) begin
+									r_MSR_cnt        <= 32'd0;
+									MSR_state        <= MSR_CONFIG0;
+									end
+								else begin
+									r_MSR_cnt        <= r_MSR_cnt + 1'b1;
+									MSR_state        <= MSR_DELAY2;
+									end
+							end
+			MSR_CONFIG0:begin
+								r_CMD_TDCwr      <= 1'b1;
+								r_CMD_TDCrd      <= 1'b0;
+								r_CMD_TDC1byte   <= 1'b0;
+								r_TDC_CMD        <= 8'h80; //-----------WR CONFIGRegister 0
+								r_TDC_Num        <= 6'd31;
+								r_TDC_WRdata     <= CONFIG0;
+								if(TDC_CMDdone)begin
+									r_CMD_TDCwr      <= 1'b0;
+									r_CMD_TDCrd      <= 1'b0;
+									r_CMD_TDC1byte   <= 1'b0;
+									MSR_state <= MSR_CONFIG1;
+									end
+								else
+									MSR_state <= MSR_CONFIG0;
+							end
+			MSR_CONFIG1:begin
+								r_CMD_TDCwr      <= 1'b1;
+								r_CMD_TDCrd      <= 1'b0;
+								r_CMD_TDC1byte   <= 1'b0;
+								r_TDC_CMD        <= 8'h81; //-----------WR CONFIGRegister 0
+								r_TDC_Num        <= 6'd31;
+								r_TDC_WRdata     <= CONFIG1;
+								if(TDC_CMDdone)begin
+									r_CMD_TDCwr      <= 1'b0;
+									r_CMD_TDCrd      <= 1'b0;
+									r_CMD_TDC1byte   <= 1'b0;
+									MSR_state <= MSR_CONFIG2;
+									end
+								else
+									MSR_state <= MSR_CONFIG1;
+							end
+			MSR_CONFIG2:begin
+								r_CMD_TDCwr      <= 1'b1;
+								r_CMD_TDCrd      <= 1'b0;
+								r_CMD_TDC1byte   <= 1'b0;
+								r_TDC_CMD        <= 8'h82; //-----------WR CONFIGRegister 0
+								r_TDC_Num        <= 6'd31;
+								r_TDC_WRdata     <= CONFIG2;
+								if(TDC_CMDdone)begin
+									r_CMD_TDCwr      <= 1'b0;
+									r_CMD_TDCrd      <= 1'b0;
+									r_CMD_TDC1byte   <= 1'b0;
+									MSR_state <= MSR_CONFIG3;
+									end
+								else
+									MSR_state <= MSR_CONFIG2;
+							end
+			MSR_CONFIG3:begin
+								r_CMD_TDCwr      <= 1'b1;
+								r_CMD_TDCrd      <= 1'b0;
+								r_CMD_TDC1byte   <= 1'b0;
+								r_TDC_CMD        <= 8'h83; //-----------WR CONFIGRegister 0
+								r_TDC_Num        <= 6'd31;
+								r_TDC_WRdata     <= CONFIG3;
+								if(TDC_CMDdone)begin
+									r_CMD_TDCwr      <= 1'b0;
+									r_CMD_TDCrd      <= 1'b0;
+									r_CMD_TDC1byte   <= 1'b0;
+									MSR_state <= MSR_CONFIG4;
+									end
+								else
+									MSR_state <= MSR_CONFIG3;
+							end
+			MSR_CONFIG4:begin
+								r_CMD_TDCwr      <= 1'b1;
+								r_CMD_TDCrd      <= 1'b0;
+								r_CMD_TDC1byte   <= 1'b0;
+								r_TDC_CMD        <= 8'h84; //-----------WR CONFIGRegister 0
+								r_TDC_Num        <= 6'd31;
+								r_TDC_WRdata     <= CONFIG4;
+								if(TDC_CMDdone)begin
+									r_CMD_TDCwr      <= 1'b0;
+									r_CMD_TDCrd      <= 1'b0;
+									r_CMD_TDC1byte   <= 1'b0;
+									MSR_state <= MSR_CONFIG5;
+									end
+								else
+									MSR_state <= MSR_CONFIG4;
+							end
+			MSR_CONFIG5:begin
+								r_CMD_TDCwr      <= 1'b1;
+								r_CMD_TDCrd      <= 1'b0;
+								r_CMD_TDC1byte   <= 1'b0;
+								r_TDC_CMD        <= 8'h85; //-----------WR CONFIGRegister 0
+								r_TDC_Num        <= 6'd31;
+								r_TDC_WRdata     <= CONFIG5;
+								if(TDC_CMDdone)begin
+									r_CMD_TDCwr      <= 1'b0;
+									r_CMD_TDCrd      <= 1'b0;
+									r_CMD_TDC1byte   <= 1'b0;
+									MSR_state <= MSR_CONFIG6;
+									end
+								else
+									MSR_state <= MSR_CONFIG5;
+							end
+			MSR_CONFIG6:begin
+								r_CMD_TDCwr      <= 1'b1;
+								r_CMD_TDCrd      <= 1'b0;
+								r_CMD_TDC1byte   <= 1'b0;
+								r_TDC_CMD        <= 8'h86; //-----------WR CONFIGRegister 0
+								r_TDC_Num        <= 6'd31;
+								r_TDC_WRdata     <= CONFIG6;
+								if(TDC_CMDdone)begin
+									r_CMD_TDCwr      <= 1'b0;
+									r_CMD_TDCrd      <= 1'b0;
+									r_CMD_TDC1byte   <= 1'b0;
+									MSR_state <= MSR_DELAY3;
+									end
+								else
+									MSR_state <= MSR_CONFIG6;
+							end
+			MSR_DELAY3 :begin
+								r_CMD_TDCwr      <= 1'b0;
+								r_CMD_TDCrd      <= 1'b0;
+								r_CMD_TDC1byte   <= 1'b0;
+								r_TDC_CMD        <= 8'h00; //-----------WR CONFIGRegister 0
+								r_TDC_Num        <= 6'd0;
+								r_TDC_WRdata     <= 32'd0;
+								if(r_MSR_cnt >= 32'd100) begin
+									r_MSR_cnt        <= 32'd0;
+									MSR_state        <= MSR_CIDLE;
+									end
+								else begin
+									r_MSR_cnt        <= r_MSR_cnt + 1'b1;
+									MSR_state        <= MSR_DELAY3;
+									end
+							end
+			MSR_CIDLE  :begin
+								if(i_Measure_en && i_code_angle == i_angle_begin)
+									MSR_state        <= MSR_INIT;
+								else
+									MSR_state        <= MSR_CIDLE;
+							end
+			MSR_INIT   :begin
+								r_CMD_TDC1byte   <= 1'b1;
+								r_CMD_TDCwr      <= 1'b0;
+								r_CMD_TDCrd      <= 1'b0;
+								r_TDC_CMD        <= 8'h70;
+								r_TDC_Result_new <= 1'b0;
+								r_TDC_Result_val <= 32'd0;
+								r_TDC_Result_va2 <= 32'd0;
+								if(TDC_CMDdone)begin
+									r_CMD_TDC1byte   <= 1'b0;
+									r_CMD_TDCwr      <= 1'b0;
+									r_CMD_TDCrd      <= 1'b0;
+									r_TDC_CMD        <= 8'h00;
+									MSR_state        <= MSR_WAITL2H;
+									end
+								else
+									MSR_state        <= MSR_INIT;
+							end
+			MSR_WAITL2H:begin
+								if(i_CodeCLK_L2H)begin
+									MSR_state        <= MSR_WAIT0;
+									end
+								else
+									MSR_state        <= MSR_WAITL2H;
+							end
+			MSR_WAIT0  :begin
+								if(r_TDC_Init3 == 1'b0)begin
+									r_MSR_cnt        <= 32'd0;
+									MSR_state        <= MSR_RSTAUS;
+									end
+								else if(r_MSR_cnt >= 32'd349)begin
+									r_MSR_cnt        <= 32'd0;	
+									r_TDC_Result_new <= 1'b1;
+									r_TDC_Result_val <= 32'h112233;//32'hFEFEFEFE;
+									r_TDC_Result_va2 <= 32'h445566;//32'hFEFEFEFE;
+									MSR_state        <= MSR_END;
+									end
+								else begin
+									r_MSR_cnt        <= r_MSR_cnt + 1'b1;
+									MSR_state        <= MSR_WAIT0;
+									end
+							end
+			MSR_RSTAUS :begin
+								r_CMD_TDCrd      <= 1'b1;
+								r_TDC_CMD        <= 8'hB4;
+								r_TDC_Num        <= 6'd7;
+								if(TDC_CMDdone) begin
+									r_CMD_TDCrd      <= 1'b0;
+									r_TDC_CMD        <= 8'h00;
+									r_TDC_Num        <= 6'd0;
+									r_hit2sin        <= TDC_RDdata[24:22];
+									r_hit1sin        <= TDC_RDdata[21:19];
+									MSR_state        <= MSR_READ;
+									end
+								else 
+									MSR_state        <= MSR_RSTAUS;
+							end
+			MSR_READ   :begin
+								r_CMD_TDCrd      <= 1'b1;
+								r_CMD_TDCwr      <= 1'b0;
+								r_CMD_TDC1byte   <= 1'b0;
+								r_TDC_CMD        <= 8'hB0;
+								r_TDC_Num        <= 6'd7;
+								if(TDC_CMDdone) begin
+									r_CMD_TDCrd      <= 1'b0;
+									r_CMD_TDCwr      <= 1'b0;
+									r_CMD_TDC1byte   <= 1'b0;
+									r_TDC_CMD        <= 8'h00;
+									r_TDC_Num        <= 6'd0;
+									if(r_hit1sin >= 3'd1)
+										r_TDC_Result_val <= TDC_RDdata;
+									else
+										r_TDC_Result_val <= 32'd0;
+									MSR_state        <= MSR_CONFIG1_TWO;
+									end
+								else
+									MSR_state        <= MSR_READ;
+							end
+			MSR_CONFIG1_TWO:begin
+								r_CMD_TDCwr      <= 1'b1;
+								r_CMD_TDCrd      <= 1'b0;
+								r_CMD_TDC1byte   <= 1'b0;
+								r_TDC_CMD        <= 8'h81; //-----------WR CONFIGRegister 0
+								r_TDC_Num        <= 6'd31;
+								r_TDC_WRdata     <= CONFIG1_2;
+								if(TDC_CMDdone)begin
+									r_CMD_TDCwr      <= 1'b0;
+									r_CMD_TDCrd      <= 1'b0;
+									r_CMD_TDC1byte   <= 1'b0;
+									MSR_state        <= MSR_WAIT0_TWO;
+									end
+								else
+									MSR_state        <= MSR_CONFIG1_TWO;
+							end
+			MSR_WAIT0_TWO  :begin
+								if(r_MSR_cnt >= 32'd99)begin
+									r_MSR_cnt        <= 32'd0;	
+									MSR_state        <= MSR_READ_TWO;
+									end
+								else begin
+									r_MSR_cnt        <= r_MSR_cnt + 1'b1;
+									MSR_state        <= MSR_WAIT0_TWO;
+									end
+							end
+			MSR_READ_TWO:begin
+								r_CMD_TDCrd      <= 1'b1;
+								r_CMD_TDCwr      <= 1'b0;
+								r_CMD_TDC1byte   <= 1'b0;
+								r_TDC_CMD        <= 8'hB1;
+								r_TDC_Num        <= 6'd7;
+								if(TDC_CMDdone) begin
+									r_CMD_TDCrd      <= 1'b0;
+									r_CMD_TDCwr      <= 1'b0;
+									r_CMD_TDC1byte   <= 1'b0;
+									r_TDC_CMD        <= 8'h00;
+									r_TDC_Num        <= 6'd0;
+									if(r_hit2sin >= 3'd1)
+										r_TDC_Result_va2 <= TDC_RDdata;
+									else
+										r_TDC_Result_va2 <= 32'd0;
+									MSR_state        <= MSR_CONFIG1_TRD;
+									end
+								else
+									MSR_state        <= MSR_READ_TWO;
+							end
+			MSR_CONFIG1_TRD:begin
+								r_CMD_TDCwr      <= 1'b1;
+								r_CMD_TDCrd      <= 1'b0;
+								r_CMD_TDC1byte   <= 1'b0;
+								r_TDC_CMD        <= 8'h81; //-----------WR CONFIGRegister 0
+								r_TDC_Num        <= 6'd31;
+								r_TDC_WRdata     <= CONFIG1;
+								if(TDC_CMDdone)begin
+									r_CMD_TDCwr      <= 1'b0;
+									r_CMD_TDCrd      <= 1'b0;
+									r_CMD_TDC1byte   <= 1'b0;
+									r_TDC_Result_new <= 1'b1;
+									MSR_state        <= MSR_END;
+									end
+								else
+									MSR_state        <= MSR_CONFIG1_TRD;
+							end
+			MSR_END    :begin
+								if(i_RAM_in_OK)begin
+									r_MSR_cnt        <= 32'd0;
+									r_TDC_Result_new <= 1'b0;
+									r_TDC_Result_val <= 32'd0;
+									r_TDC_Result_va2 <= 32'd0;
+									r_hit1sin        <= 3'd0;
+									r_hit2sin        <= 3'd0;
+									if(i_code_angle >= i_angle_end)
+										MSR_state        <= MSR_TESTR2;
+									else
+										MSR_state        <= MSR_INIT;
+									end
+								else begin
+									MSR_state        <= MSR_END;
+									end
+							end
+			MSR_TESTR2 :begin
+								r_CMD_TDCrd      <= 1'b1;
+								r_CMD_TDCwr      <= 1'b0;
+								r_CMD_TDC1byte   <= 1'b0;
+								r_TDC_CMD        <= 8'hB5; //-----------RD CR1 Test
+								r_TDC_Num        <= 6'd7;
+								if(TDC_CMDdone)begin
+									r_CMD_TDCwr      <= 1'b0;
+									r_CMD_TDCrd      <= 1'b0;
+									r_CMD_TDC1byte   <= 1'b0;
+									r_TDC_CMD        <= 8'h00; //-----------RD CR1 Test
+									r_TDC_Num        <= 6'd0;
+									if(TDC_RDdata[31:24] == 8'h01)
+										MSR_state        <= MSR_CALB;
+									else begin
+										r_TDC_err_sig    <= 1'b1;
+										MSR_state        <= MSR_POR;
+										end
+									end
+								else 
+									MSR_state        <= MSR_TESTR2;
+								end
+			MSR_CALB   :begin
+								r_CMD_TDC1byte   <= 1'b1;
+								r_CMD_TDCwr      <= 1'b0;
+								r_CMD_TDCrd      <= 1'b0;
+								r_TDC_CMD        <= 8'h04; //--------------Calbration
+								if(TDC_CMDdone)begin
+									r_CMD_TDC1byte   <= 1'b0;
+									r_CMD_TDCwr      <= 1'b0;
+									r_CMD_TDCrd      <= 1'b0;
+									r_TDC_CMD        <= 8'h00;
+									MSR_state        <= MSR_OVER;
+									end
+								else 
+									MSR_state        <= MSR_CALB;
+							end
+			MSR_OVER   :begin
+			               r_pingorpong     <= ~r_pingorpong;
+								r_tdc_cycle_sig  <= 1'b1;
+								MSR_state        <= MSR_IDLE;
+							end
+			default    :MSR_state        <= MSR_IDLE;
+			endcase
+		end
+		
+assign o_TDC_Result_val = r_TDC_Result_val;
+assign o_TDC_Result_va2 = r_TDC_Result_va2;
+assign o_TDC_err_sig    = r_TDC_err_sig;
+assign o_TDC_Result_new = r_TDC_Result_new;
+assign o_tdc_cycle_sig  = r_tdc_cycle_sig;
+
+assign o_pingorpong     = r_pingorpong;
+		
+TDC_SPI U1
+(
+	.clk           (i_clk_50m),
+	.SPI_SO        (i_TDC_SPI_Miso),
+	.CMD_TDCwr     (r_CMD_TDCwr),
+	.CMD_TDCrd     (r_CMD_TDCrd),
+	.CMD_TDC1byte  (r_CMD_TDC1byte),
+	.TDC_CMD       (r_TDC_CMD),
+	.TDC_Num       (r_TDC_Num),
+	.TDC_WRdata    (r_TDC_WRdata),
+	
+	.SPI_SCK       (o_TDC_SPI_Clk),
+	.SPI_SSN       (o_TDC_SPI_Ssn),
+	.SPI_SI        (o_TDC_SPI_Mosi),
+	.TDC_CMDack    (          ),
+	.TDC_RDdata    (TDC_RDdata),
+	.TDC_CMDdone   (TDC_CMDdone)
+
+);
+								   
+endmodule 

@@ -1,0 +1,255 @@
+synthesis:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Mon Jul 12 11:26:58 2021
+
+
+Command Line:  E:\tools\Iscc\diamond\3.12\ispfpga\bin\nt64\synthesis.exe -f multiplier2.synproj -sdc D:/programs/fpga/C200_FPGA_MS1004/C200_FPGA_MS1004_20210712/C200_FPGA/multiplier2/multiplier2.ldc -gui 
+
+Synthesis options:
+The -a option is ecp5u.
+The -s option is 6.
+The -t option is CABGA256.
+The -d option is LFE5U-25F.
+Using package CABGA256.
+Using performance grade 6.
+                                                          
+
+##########################################################
+
+### Lattice Family : ECP5U
+
+### Device  : LFE5U-25F
+
+### Package : CABGA256
+
+### Speed   : 6
+
+##########################################################
+
+                                                          
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Balanced
+Top-level module name = multiplier2.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Use IO Insertion = FALSE
+Use IO Reg = FALSE (implied)
+WARNING - synthesis: Cannot pack registers into I/Os because use_io_insertion is FALSE.
+WARNING - synthesis: Ignoring user setting of use_io_reg. Value is set to FALSE.
+Use IO Reg = FALSE
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/programs/fpga/C200_FPGA_MS1004/C200_FPGA_MS1004_20210712/C200_FPGA/multiplier2 (searchpath added)
+Verilog design file = E:/tools/Iscc/diamond/3.12/cae_library/synthesis/verilog/ecp5u.v
+Verilog design file = E:/tools/Iscc/diamond/3.12/cae_library/synthesis/verilog/pmi_def.v
+Verilog design file = D:/programs/fpga/C200_FPGA_MS1004/C200_FPGA_MS1004_20210712/C200_FPGA/multiplier2/multiplier2.v
+NGO file = D:/programs/fpga/C200_FPGA_MS1004/C200_FPGA_MS1004_20210712/C200_FPGA/multiplier2/multiplier2.ngo
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+-sdc option: SDC file input is D:/programs/fpga/C200_FPGA_MS1004/C200_FPGA_MS1004_20210712/C200_FPGA/multiplier2/multiplier2.ldc.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file E:/tools/Iscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file e:/tools/iscc/diamond/3.12/cae_library/synthesis/verilog/ecp5u.v. VERI-1482
+Analyzing Verilog file e:/tools/iscc/diamond/3.12/cae_library/synthesis/verilog/pmi_def.v. VERI-1482
+Analyzing Verilog file d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v. VERI-1482
+Analyzing Verilog file E:/tools/Iscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v. VERI-1482
+Top module name (Verilog): multiplier2
+INFO - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(8): compiling module multiplier2. VERI-1018
+INFO - synthesis: E:/tools/Iscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v(1354): compiling module ALU54B(REG_OUTPUT0_CLK="CLK0",REG_OUTPUT1_CLK="CLK0",RESETMODE="ASYNC"). VERI-1018
+INFO - synthesis: E:/tools/Iscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v(1184): compiling module MULT18X18D(REG_INPUTA_CLK="CLK0",REG_INPUTB_CLK="CLK0",REG_PIPELINE_CLK="CLK0",RESETMODE="ASYNC"). VERI-1018
+INFO - synthesis: E:/tools/Iscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v(757): compiling module VHI. VERI-1018
+INFO - synthesis: E:/tools/Iscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v(761): compiling module VLO. VERI-1018
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(71): net multiplier2_alu_signedcin_1_0 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(72): net multiplier2_alu_in_cin_1_0_53 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(73): net multiplier2_alu_in_cin_1_0_52 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(74): net multiplier2_alu_in_cin_1_0_51 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(75): net multiplier2_alu_in_cin_1_0_50 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(76): net multiplier2_alu_in_cin_1_0_49 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(77): net multiplier2_alu_in_cin_1_0_48 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(78): net multiplier2_alu_in_cin_1_0_47 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(79): net multiplier2_alu_in_cin_1_0_46 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(80): net multiplier2_alu_in_cin_1_0_45 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(81): net multiplier2_alu_in_cin_1_0_44 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(82): net multiplier2_alu_in_cin_1_0_43 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(83): net multiplier2_alu_in_cin_1_0_42 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(84): net multiplier2_alu_in_cin_1_0_41 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(85): net multiplier2_alu_in_cin_1_0_40 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(86): net multiplier2_alu_in_cin_1_0_39 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(87): net multiplier2_alu_in_cin_1_0_38 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(88): net multiplier2_alu_in_cin_1_0_37 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(89): net multiplier2_alu_in_cin_1_0_36 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(90): net multiplier2_alu_in_cin_1_0_35 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(91): net multiplier2_alu_in_cin_1_0_34 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(92): net multiplier2_alu_in_cin_1_0_33 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(93): net multiplier2_alu_in_cin_1_0_32 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(94): net multiplier2_alu_in_cin_1_0_31 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(95): net multiplier2_alu_in_cin_1_0_30 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(96): net multiplier2_alu_in_cin_1_0_29 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(97): net multiplier2_alu_in_cin_1_0_28 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(98): net multiplier2_alu_in_cin_1_0_27 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(99): net multiplier2_alu_in_cin_1_0_26 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(100): net multiplier2_alu_in_cin_1_0_25 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(101): net multiplier2_alu_in_cin_1_0_24 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(102): net multiplier2_alu_in_cin_1_0_23 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(103): net multiplier2_alu_in_cin_1_0_22 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(104): net multiplier2_alu_in_cin_1_0_21 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(105): net multiplier2_alu_in_cin_1_0_20 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(106): net multiplier2_alu_in_cin_1_0_19 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(107): net multiplier2_alu_in_cin_1_0_18 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(108): net multiplier2_alu_in_cin_1_0_17 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(109): net multiplier2_alu_in_cin_1_0_16 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(110): net multiplier2_alu_in_cin_1_0_15 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(111): net multiplier2_alu_in_cin_1_0_14 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(112): net multiplier2_alu_in_cin_1_0_13 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(113): net multiplier2_alu_in_cin_1_0_12 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(114): net multiplier2_alu_in_cin_1_0_11 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(115): net multiplier2_alu_in_cin_1_0_10 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(116): net multiplier2_alu_in_cin_1_0_9 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(117): net multiplier2_alu_in_cin_1_0_8 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(118): net multiplier2_alu_in_cin_1_0_7 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(119): net multiplier2_alu_in_cin_1_0_6 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(120): net multiplier2_alu_in_cin_1_0_5 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(121): net multiplier2_alu_in_cin_1_0_4 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(122): net multiplier2_alu_in_cin_1_0_3 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(123): net multiplier2_alu_in_cin_1_0_2 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(124): net multiplier2_alu_in_cin_1_0_1 does not have a driver. VDB-1002
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(125): net multiplier2_alu_in_cin_1_0_0 does not have a driver. VDB-1002
+Loading NGL library 'E:/tools/Iscc/diamond/3.12/ispfpga/sa5p00/data/sa5plib.ngl'...
+Loading NGL library 'E:/tools/Iscc/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'E:/tools/Iscc/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'E:/tools/Iscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'sa5p25.nph' in environment: E:/tools/Iscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.33.
+WARNING - synthesis: There are no design constraints in the file D:/programs/fpga/C200_FPGA_MS1004/C200_FPGA_MS1004_20210712/C200_FPGA/multiplier2/multiplier2.ldc
+Top-level module name = multiplier2.
+WARNING - synthesis: There are no design constraints in the file D:/programs/fpga/C200_FPGA_MS1004/C200_FPGA_MS1004_20210712/C200_FPGA/multiplier2/multiplier2.ldc
+This ldc file was generated by Clarity Designer!
+
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(488): Removing unused instance _6. VDB-5034
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(585): Removing unused instance _7. VDB-5034
+WARNING - synthesis: d:/programs/fpga/c200_fpga_ms1004/c200_fpga_ms1004_20210712/c200_fpga/multiplier2/multiplier2.v(686): Removing unused instance . VDB-5034
+######## Missing driver on net multiplier2_alu_signedcin_1_0. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_53. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_52. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_51. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_50. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_49. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_48. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_47. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_46. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_45. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_44. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_43. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_42. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_41. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_40. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_39. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_38. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_37. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_36. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_35. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_34. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_33. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_32. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_31. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_30. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_29. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_28. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_27. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_26. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_25. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_24. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_23. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_22. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_21. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_20. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_19. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_18. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_17. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_16. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_15. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_14. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_13. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_12. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_11. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_10. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_9. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_8. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_7. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_6. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_5. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_4. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_3. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_2. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_1. Patching with GND.
+######## Missing driver on net multiplier2_alu_in_cin_1_0_0. Patching with GND.
+
+
+
+######## GSR will not be inferred in an NGO flow, unless force_gsr=yes.
+WARNING - synthesis: There are no design constraints in the file multiplier2_for_lpf.sdc
+Writing LPF file D:/programs/fpga/C200_FPGA_MS1004/C200_FPGA_MS1004_20210712/C200_FPGA/multiplier2/multiplier2.lpf.
+Results of NGD DRC are available in multiplier2_drc.log.
+WARNING - synthesis: DRC checking was skipped because the -ngo option was used.
+Writing NGD file D:/programs/fpga/C200_FPGA_MS1004/C200_FPGA_MS1004_20210712/C200_FPGA/multiplier2/multiplier2.ngo.
+
+################### Begin Area Report (multiplier2)######################
+Number of register bits => 0 of 24879 (0 % )
+ALU54B => 1
+GSR => 1
+MULT18X18D => 2
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 0
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : multiplier2_mult_out_rob_0_17, loads : 1
+  Net : multiplier2_mult_out_roa_0_17, loads : 1
+  Net : multiplier2_mult_out_rob_0_16, loads : 1
+  Net : multiplier2_mult_out_roa_0_16, loads : 1
+  Net : multiplier2_mult_out_rob_0_15, loads : 1
+  Net : multiplier2_mult_out_roa_0_15, loads : 1
+  Net : multiplier2_mult_out_rob_0_14, loads : 1
+  Net : multiplier2_mult_out_roa_0_14, loads : 1
+  Net : multiplier2_mult_out_rob_0_13, loads : 1
+  Net : multiplier2_mult_out_roa_0_13, loads : 1
+################### End Clock Report ##################
+
+Peak Memory Usage: 72.152  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.516  secs
+--------------------------------------------------------------

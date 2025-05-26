@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="sim_statistics_cycle" device="LFE5U-25F-6BG256I" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="ram_w32_depth64"/>
+        <Source name="../../C200_FPGA/rtl_tjs/statistics_cycle.v" type="Verilog" type_short="Verilog">
+            <Options top_module="statistics_cycle"/>
+        </Source>
+        <Source name="tb.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="impl1/ram_w32_depth64/ram_w32_depth64.sbx" type="sbx" type_short="SBX">
+            <Options top_module="ram_w32_depth64"/>
+        </Source>
+        <Source name="ram0425_0A/ram0425_0A.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="sim0425_0a/sim0425_0a.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="sim0425_A/sim0425_A.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="sim_0425_0A/sim_0425_0A.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="sim_statistics_cycle.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="sim_statistics_cycle1.sty"/>
+</BaliProject>

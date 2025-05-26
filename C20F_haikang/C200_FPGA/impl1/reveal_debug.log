@@ -1,0 +1,123 @@
+Logfile for Reveal Analyzer
+Version: Diamond 3.12.0.240.2
+Platform: Windows8 64bit
+Filename: D:/programs/fpga/C200/C200/C200_FPGA/impl1/reveal_debug.log
+First created: 周二 1月 7 16:13:33 2025
+[16:13:41] runProject on device [1. LFE5U-25F] using D:/programs/fpga/C200/C200/C200_FPGA/DEBUG/C200_FPGA.rva [C200_FPGA.rvl]
+[16:13:41] Connecting cableserver to run Reveal debugger....
+[16:13:48] @Connect
+[16:13:48] @SetSharableApplications,2,Reveal,Mico
+[16:13:48] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
+[16:13:48] @LockCable
+[16:13:48] @GetServerStatus
+[16:13:48] @Read
+[16:13:48] @SetTargetDevice,0
+[16:13:48] Connecting core0....
+[16:13:48] @ShiftIR,8,0,ER1
+[16:13:48] @ShiftDR,21,0,data (select core0)
+[16:13:48] @ShiftIR,8,0,ER2
+[16:13:48] Configuring core0....
+[16:13:48] @JumpState,RUN_TEST_IDLE
+[16:13:48] @JumpState,RUN_TEST_IDLE
+[16:13:48] @JumpState,RUN_TEST_IDLE
+[16:13:48] @ShiftIR,8,0,NOP
+[16:13:48] @JumpState,RUN_TEST_IDLE
+[16:13:48] @ShiftIR,8,0,ER2
+[16:13:48] @Set Odd Parity readback
+[16:13:48] @Set Odd Parity
+[16:13:48] @Set LA Start/Stop readback
+[16:13:48] @Set LA Start/Stop 
+[16:13:48] #Reveal IP Version = 1_6_042617
+[16:13:48] @Get Pattern
+[16:13:48] #pattern readout = a5a5
+[16:13:48] pattern readout passed!
+[16:13:49] @Get Tracy Signature
+[16:13:49] @Get Tracy Signature
+[16:13:49] #signature from core0 = 590010210
+[16:13:49] signature from core0 passed!
+[16:13:49] @Set Opcode Value
+[16:13:49] @Set Mask Value
+[16:13:49] @Set Then Num
+[16:13:49] @Set NEXT THEN
+[16:13:49] @Set Cnt Cntg
+[16:13:49] @Set Event Count
+[16:13:49] @Set Event Count
+[16:13:49] @Get BurstWrite CRC
+[16:13:49] @Set Truth Tbl Addr Cnter Init
+[16:13:49] @Set Truth Table Prog
+[16:13:49] Configuring in burst mode....
+[16:13:49] @Get BurstWrite CRC
+[16:13:49] @Enable TE Trig
+[16:13:49] @Enable Trig Output OR All readback
+[16:13:49] @Enable Trig Output OR All
+[16:13:49] @Enable Multiple Trig
+[16:13:49] @Set Pre-Trig Sample
+[16:13:49] @Set Post-Trig Sample
+[16:13:49] finished configuration of core0
+[16:13:49] Starting all active cores....
+[16:13:49] @ShiftIR,8,0,ER1
+[16:13:49] @ShiftDR,21,0,data (select active cores)
+[16:13:49] @ShiftIR,8,0,ER2
+[16:13:49] @Set LA Start cores
+[16:13:49] @UnlockCable
+[16:13:49] Running all active cores....
+[16:13:49] @LockCable
+[16:13:49] Polling trigger memory of core0....
+[16:13:49] @ShiftIR,8,0,ER1
+[16:13:49] @ShiftDR,21,0,data (select core0)
+[16:13:49] @ShiftIR,8,0,ER2
+[16:13:49] @Get Force Trigger bit
+[16:13:49] #TM_CTL_0=3
+[16:13:49] @Get Trig Detected Cnt
+[16:13:49] #numDetectedTriggers = 0
+[16:13:49] @Get Mem Block Full Cnt
+[16:13:49] #memFullCnt = 0
+[16:13:49] detected 0 triggers of core0
+[16:13:49] captured 0 memory blocks of core0
+[16:13:49] @UnlockCable
+[16:13:50] Running all active cores....
+[16:13:50] @LockCable
+[16:13:50] Polling trigger memory of core0....
+[16:13:50] @ShiftIR,8,0,ER1
+[16:13:50] @ShiftDR,21,0,data (select core0)
+[16:13:50] @ShiftIR,8,0,ER2
+[16:13:50] @Get Force Trigger bit
+[16:13:50] #TM_CTL_0=5
+[16:13:50] @Get Trig Detected Cnt
+[16:13:50] #numDetectedTriggers = 2
+[16:13:50] @Get Mem Block Full Cnt
+[16:13:50] #memFullCnt = 2
+[16:13:50] Downloading trigger memory of core0....
+[16:13:50] @Is LA Armed
+[16:13:50] @Set LA Start/Stop readback
+[16:13:50] @Set LA Start/Stop 
+[16:13:50] @Set LA Start/Stop readback
+[16:13:50] @Set LA Start/Stop 
+[16:13:50] @Get Trig Detected Cnt
+[16:13:50] #numDetectedTriggers = 2
+[16:13:50] @Get Mem Block Full Cnt
+[16:13:50] #memFullCnt = 2
+[16:13:50] @Get Last Addr Written
+[16:13:50] #lastAddrWritten = 21
+[16:13:50] @Get Multiple Trig Enbl
+[16:13:50] #traceWidth=91, userSelectedTriggers=1, numTrigEnable=2
+[16:13:50] @Get BurstRead CRC
+[16:13:50] @Set Trace Mem Cnter Init
+[16:13:50] Uploading in burst mode....
+[16:13:50] @ShiftDR,1456,1,data (burst read)
+[16:13:50] @GetTDO,data,1456
+[16:13:50] @Get BurstRead CRC
+[16:13:50] @Get BurstRead CRC
+[16:13:50] @Get Pre-Trig Sample Num
+[16:13:50] @Get Post-Trig Sample Num
+[16:13:50] @Get Pre-Trig Samples Captured
+[16:13:50] @Get Trig Ptr
+[16:13:50] #trigPtr = 12
+[16:13:50] #dataSize=12, numRead=16, trace_out=16
+[16:13:50] #trig0={blockPosition:0,triggerPosition:8}
+[16:13:50] finished download trigger memory of core0
+[16:13:50] @UnlockCable
+[16:13:50] @ReleaseCablePort
+[16:13:50] @Disconnect
+[16:13:50] All messages logged in file D:/programs/fpga/C200/C200/C200_FPGA/impl1/reveal_debug.log
+Last closed: 周二 1月 7 16:48:59 2025

@@ -1,0 +1,293 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FX493 |Applying initial value "0" on instance r_opto_switch.
+@N: FX493 |Applying initial value "0" on instance r_motor_err_sig.
+@N: FX493 |Applying initial value "1" on instance r_opto_switch1.
+@N: FX493 |Applying initial value "1" on instance r_opto_switch2.
+@N: FX493 |Applying initial value "00000000" on instance r_fs_cnt[7:0].
+@N: FX493 |Applying initial value "0" on instance r_angle_sync.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_fs_factor[15:0].
+@N: FX493 |Applying initial value "0" on instance r_opto_rise.
+@N: FX493 |Applying initial value "0" on instance r_angle_sync_out.
+@N: FX493 |Applying initial value "0" on instance r_angle_sync_cal.
+@N: FX493 |Applying initial value "00000000000000000000000" on instance r_low_time_prior_cnt[23:1].
+@N: FX493 |Applying initial value "0" on instance r_zero_sign.
+@N: FX493 |Applying initial value "0" on instance o_end.
+@N: FX493 |Applying initial value "0" on instance r_rw.
+@N: FX493 |Applying initial value "0" on instance r_en.
+@N: FX493 |Applying initial value "000" on instance r_bit_size[2:0].
+@N: FX493 |Applying initial value "0" on instance o_error.
+@N: FX493 |Applying initial value "0" on instance r_bit_size[4].
+@N: FX493 |Applying initial value "1" on instance o_scl.
+@N: FX493 |Applying initial value "1" on instance r_sda.
+@N: FX493 |Applying initial value "0" on instance r_data_in[6].
+@N: FX493 |Applying initial value "000" on instance r_data_in[14:12].
+@N: FX493 |Applying initial value "0" on instance r_start.
+@N: FX493 |Applying initial value "000" on instance r_cmd[2:0].
+@N: FX493 |Applying initial value "000000000000" on instance o_adc0[11:0].
+@N: FX493 |Applying initial value "000000000000" on instance o_adc1[11:0].
+@N: FX493 |Applying initial value "000000000000" on instance o_adc2[11:0].
+@N: FX493 |Applying initial value "000000000000" on instance o_adc3[11:0].
+@N: FX493 |Applying initial value "0" on instance r_en.
+@N: FX493 |Applying initial value "0" on instance o_error.
+@N: FX493 |Applying initial value "1" on instance o_scl.
+@N: FX493 |Applying initial value "1" on instance r_sda.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_divisor[15:0].
+@N: FX493 |Applying initial value "0" on instance r_cal_done.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_quotient[15:0].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[8].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[10].
+@N: FX493 |Applying initial value "0" on instance r_cal_sig.
+@N: FX493 |Applying initial value "0" on instance r_temp_done.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_dividend[31:0].
+@N: FX493 |Applying initial value "000000000000" on instance r_adc_value[11:0].
+@N: FX493 |Applying initial value "0" on instance r_mult_en.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_temp_value_coe[31:0].
+@N: FX493 |Applying initial value "0" on instance r_dac_start.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_temp_point2[15:0].
+@N: FX493 |Applying initial value "0" on instance r_mult_en.
+@N: FX493 |Applying initial value "0" on instance r_adc_start.
+@N: FX493 |Applying initial value "000000000000" on instance r_adc_value[11:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_mult1_dataA[15:0].
+@N: FX493 |Applying initial value "0000000000000000000" on instance r_temp_mid2[18:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_mult2_dataA[15:0].
+@N: FX493 |Applying initial value "00" on instance r_temp_flags[1:0].
+@N: FX493 |Applying initial value "0" on instance r_dac_start.
+@N: FX493 |Applying initial value "0" on instance r_hv_en.
+@N: FX493 |Applying initial value "000000000000" on instance r_adc_hv_value[11:0].
+@N: FX493 |Applying initial value "000000000000" on instance r_adc_temp_value[11:0].
+@N: FX493 |Applying initial value "0" on instance r_temp_valid.
+@N: FX493 |Applying initial value "0" on instance r_measure_en.
+@N: FX493 |Applying initial value "000" on instance r_status_code[2:0].
+@N: FX493 |Applying initial value "0" on instance TDC_CMDdone.
+@N: FX493 |Applying initial value "00000000" on instance SPI_OPcode[7:0].
+@N: FX493 |Applying initial value "0" on instance TDC_CMDack.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance TDC_Tdata[31:0].
+@N: FX493 |Applying initial value "1" on instance SPI_SSN.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance TDC_RDdata[31:0].
+@N: FX493 |Applying initial value "0" on instance SPI_SI.
+@N: FX493 |Applying initial value "00000" on instance TDCspi_state[5:1].
+@N: FX493 |Applying initial value "0" on instance SPI_SCK.
+@N: FX493 |Applying initial value "1" on instance r_gp22_init1.
+@N: FX493 |Applying initial value "1" on instance r_gp22_init2.
+@N: FX493 |Applying initial value "000" on instance r_hit1sin[2:0].
+@N: FX493 |Applying initial value "000" on instance r_hit2sin[2:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_angle_end[15:0].
+@N: FX493 |Applying initial value "0" on instance r_tdc_num[0].
+@N: FX493 |Applying initial value "0" on instance r_tdc_num[3].
+@N: FX493 |Applying initial value "0" on instance r_tdc_wr_data[10].
+@N: FX493 |Applying initial value "0" on instance r_tdc_wr_data[13].
+@N: FX493 |Applying initial value "0" on instance r_tdc_wr_data[16].
+@N: FX493 |Applying initial value "00" on instance r_tdc_wr_data[19:18].
+@N: FX493 |Applying initial value "0" on instance r_tdc_wr_data[22].
+@N: FX493 |Applying initial value "00" on instance r_tdc_wr_data[25:24].
+@N: FX493 |Applying initial value "0" on instance r_tdc_wr_data[27].
+@N: FX493 |Applying initial value "0" on instance r_cmd_tdc_byte.
+@N: FX493 |Applying initial value "0" on instance r_cmd_tdc_rd.
+@N: FX493 |Applying initial value "0000" on instance r_tdc_cmd[7:4].
+@N: FX493 |Applying initial value "0" on instance r_cmd_tdc_wr.
+@N: FX493 |Applying initial value "000" on instance r_tdc_wr_data[31:29].
+@N: FX493 |Applying initial value "000" on instance r_tdc_cmd[2:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_rise_data[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_pulse_rise[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_pulse_fall[15:0].
+@N: FX493 |Applying initial value "1" on instance r_tdc_err_sig.
+@N: FX493 |Applying initial value "1" on instance r_tdc_reset.
+@N: FX493 |Applying initial value "0" on instance r_tdc_new_sig.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_angle_end[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_angle_begin[15:0].
+@N: FX493 |Applying initial value "0" on instance r_dist_new_sig.
+@N: FX493 |Applying initial value "0" on instance r_data_valid.
+@N: FX493 |Applying initial value "0" on instance r_pingorpang.
+@N: FX493 |Applying initial value "0" on instance r_packet_make.
+@N: FX493 |Applying initial value "0000000000000000000000000000000000000000000000000000000000000000" on instance r_packet_data[63:0].
+@N: FX493 |Applying initial value "00000000" on instance r_packet_wrdata[7:0].
+@N: FX493 |Applying initial value "000000000" on instance r_packet_points[8:0].
+@N: FX493 |Applying initial value "0" on instance o_wr_ack.
+@N: FX493 |Applying initial value "0" on instance o_spi_mosi.
+@N: FX493 |Applying initial value "0" on instance o_spi_dclk.
+@N: FX493 |Applying initial value "00000000" on instance r_data_in[7:0].
+@N: FX493 |Applying initial value "00000000" on instance o_data_out[7:0].
+@N: FX493 |Applying initial value "0" on instance o_cmd_ack.
+@N: FX493 |Applying initial value "1" on instance r_cs_ctrl.
+@N: FX493 |Applying initial value "0" on instance r_wr_req.
+@N: FX493 |Applying initial value "0" on instance o_data_req.
+@N: FX493 |Applying initial value "00000000" on instance r_data_in[7:0].
+@N: FX493 |Applying initial value "0" on instance r_cmd_valid.
+@N: FX493 |Applying initial value "0" on instance o_cmd_ack.
+@N: FX493 |Applying initial value "0" on instance r_sram_csen_flash.
+@N: FX493 |Applying initial value "0" on instance r_test.
+@N: FX493 |Applying initial value "0" on instance r_erase_flag.
+@N: FX493 |Applying initial value "00" on instance r_flash_cmd[1:0].
+@N: FX493 |Applying initial value "0" on instance r_flash_cmd[3].
+@N: FX493 |Applying initial value "0" on instance r_flash_cmd[6].
+@N: FX493 |Applying initial value "0" on instance r_sram_wr_flag.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_sram_data_flash[15:0].
+@N: FX493 |Applying initial value "00000000" on instance r_data_in[7:0].
+@N: FX493 |Applying initial value "1" on instance r_sram_wren_flash.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_sram_rddata[15:0].
+@N: FX493 |Applying initial value "1" on instance r_sram_rden_flash.
+@N: FX493 |Applying initial value "0" on instance r_cmd_valid.
+@N: FX493 |Applying initial value "0" on instance r_read_complete_sig.
+@N: FX493 |Applying initial value "0" on instance o_cmd_ack.
+@N: FX493 |Applying initial value "1" on instance r_cs_ctrl.
+@N: FX493 |Applying initial value "0" on instance r_wr_req.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_addr[15:0].
+@N: FX493 |Applying initial value "00000000" on instance r_data_in[7:0].
+@N: FX493 |Applying initial value "0" on instance o_data_req.
+@N: FX493 |Applying initial value "000000" on instance r_cmd[7:2].
+@N: FX493 |Applying initial value "0" on instance r_send_flag.
+@N: FX493 |Applying initial value "0" on instance o_connect_state.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_addr[15:0].
+@N: FX493 |Applying initial value "0" on instance o_w5500_rst.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_send_fsize[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_recv_num2[15:0].
+@N: FX493 |Applying initial value "0" on instance r_cmd_valid.
+@N: FX493 |Applying initial value "0" on instance r_rw.
+@N: FX493 |Applying initial value "0000000" on instance r_cmd[6:0].
+@N: FX493 |Applying initial value "0" on instance o_wr_req.
+@N: FX493 |Applying initial value "0" on instance r_rw.
+@N: FX493 |Applying initial value "0" on instance o_cmd_ack.
+@N: FX493 |Applying initial value "0" on instance o_cmd_end.
+@N: FX493 |Applying initial value "00000000" on instance r_opt_code[7:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance o_get_para3_1[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance o_get_para4_1[15:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance o_get_para5[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance o_get_para6[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance o_get_para1[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance o_get_para2[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance o_get_para0[31:0].
+@N: FX493 |Applying initial value "0" on instance r_eth_data_wren.
+@N: FX493 |Applying initial value "00000000" on instance r_eth_wrdata[7:0].
+@N: FX493 |Applying initial value "0" on instance r_packet_rden.
+@N: FX493 |Applying initial value "1" on instance r_cmd_valid.
+@N: FX493 |Applying initial value "0" on instance o_rd_req.
+@N: FX493 |Applying initial value "00000000" on instance o_data_out[7:0].
+@N: FX493 |Applying initial value "0" on instance r_parameter_sig.
+@N: FX493 |Applying initial value "0" on instance r_cmd_ack.
+@N: FX493 |Applying initial value "0" on instance r_packet_make.
+@N: FX493 |Applying initial value "0" on instance r_cmd_make2.
+@N: FX493 |Applying initial value "0" on instance r_rst_n.
+@N: FX493 |Applying initial value "0" on instance r_cmd_ack1.
+@N: FX493 |Applying initial value "00" on instance r_telegram_flag[1:0].
+@N: FX493 |Applying initial value "0" on instance r_init_flag.
+@N: FX493 |Applying initial value "00000000" on instance r_data_layout[7:0].
+@N: FX493 |Applying initial value "0" on instance r_alarm_set_flag.
+@N: FX493 |Applying initial value "0" on instance r_alarm_write_flag.
+@N: FX493 |Applying initial value "0" on instance r_para_write_flag.
+@N: FX493 |Applying initial value "0" on instance r_coe_set_flag.
+@N: FX493 |Applying initial value "0" on instance r_coe_write_flag.
+@N: FX493 |Applying initial value "0" on instance r_loop_telegram_flag.
+@N: FX493 |Applying initial value "1" on instance r_measure_switch.
+@N: FX493 |Applying initial value "00" on instance r_config_mode[1:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_apd_hv_coe[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_angle_offset[15:0].
+@N: FX493 |Applying initial value "0" on instance r_coe_new_mode.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_temp_coe1[15:0].
+@N: FX493 |Applying initial value "00000000" on instance r_sram_addr_para[7:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_pulse_stand[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_rise_start[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_pulse_start[15:0].
+@N: FX493 |Applying initial value "0" on instance r_set_para7[0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_set_para6[15:0].
+@N: FX493 |Applying initial value "0" on instance r_set_para7[16].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_set_para8[31:0].
+@N: FX493 |Applying initial value "00" on instance r_telegram_flag_pre[1:0].
+@N: FX493 |Applying initial value "0" on instance r_login_state_02.
+@N: FX493 |Applying initial value "0" on instance r_login_state_03.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_samples_per_scan[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_set_para5[15:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_set_para4[31:0].
+@N: FX493 |Applying initial value "1" on instance r_sram_rden_eth.
+@N: FX493 |Applying initial value "00000000" on instance r_set_cmd_code[7:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_set_para3[15:0].
+@N: FX493 |Applying initial value "0" on instance r_sram_csen_eth.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_set_para1[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_set_para2[31:0].
+@N: FX493 |Applying initial value "00000" on instance r_config_mode[7:3].
+@N: FX493 |Applying initial value "0" on instance r_eth_data_rq.
+@N: FX493 |Applying initial value "0" on instance r_cmd_make.
+@N: FX493 |Applying initial value "0" on instance r_check_pass_state.
+@N: FX493 |Applying initial value "1" on instance r_sram_wren_eth.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_set_para0[31:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_sram_data_eth[15:0].
+@N: MO111 :"d:\programs\fpga\c200_fpga\tla2024_top.v":18:11:18:17|Tristate driver o_valid (in view: work.tla2024_top(verilog)) on net o_valid (in view: work.tla2024_top(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_1 (in view: work.data_packet(verilog)) on net o_time_stamp_1 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_2 (in view: work.data_packet(verilog)) on net o_time_stamp_2 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_3 (in view: work.data_packet(verilog)) on net o_time_stamp_3 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_4 (in view: work.data_packet(verilog)) on net o_time_stamp_4 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_5 (in view: work.data_packet(verilog)) on net o_time_stamp_5 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_6 (in view: work.data_packet(verilog)) on net o_time_stamp_6 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_7 (in view: work.data_packet(verilog)) on net o_time_stamp_7 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_8 (in view: work.data_packet(verilog)) on net o_time_stamp_8 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\programs\fpga\c200_fpga\data_packet.v":26:15:26:26|Tristate driver o_time_stamp_9 (in view: work.data_packet(verilog)) on net o_time_stamp_9 (in view: work.data_packet(verilog)) has its enable tied to GND.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_control.v":118:1:118:6|Removing sequential instance r_tdc_num[0] (in view: work.gp22_control(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_control.v":118:1:118:6|Removing sequential instance r_tdc_num[3] (in view: work.gp22_control(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[0] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[1] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[2] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[3] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[4] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[5] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[6] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[7] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[8] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[9] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[10] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc2[11] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[0] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[1] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[2] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[3] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[4] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[5] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[6] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[7] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[8] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[9] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[10] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance o_adc3[11] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":883:1:883:6|Removing sequential instance r_set_para7[0] (in view: work.parameter_init(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\parameter_init.v":1056:1:1056:6|Removing sequential instance r_config_mode[7] (in view: work.parameter_init(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[31] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[30] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[29] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[28] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[27] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[26] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[25] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[24] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[23] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[22] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[21] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[20] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[19] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[18] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[17] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[16] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[15] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[14] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[13] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[12] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[11] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[10] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[9] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[8] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[7] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[6] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[5] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[4] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[3] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[2] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[1] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\eth\datagram_parser.v":879:1:879:6|Removing sequential instance o_get_para6[0] (in view: work.datagram_parser(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\gp22\gp22_spi.v":64:0:64:5|Removing sequential instance TDC_CMDack (in view: work.gp22_spi(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance r_adc3_value[15:0] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\programs\fpga\c200_fpga\tla2024_top.v":139:1:139:6|Removing sequential instance r_adc2_value[15:0] (in view: work.tla2024_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: MO225 :"d:\programs\fpga\c200_fpga\division.v":26:1:26:6|There are no possible illegal states for state machine r_cal_state[3:0] (in view: work.division(verilog)); safe FSM implementation is not required.
+@N: MO225 :"d:\programs\fpga\c200_fpga\self_inspection.v":64:1:64:6|There are no possible illegal states for state machine r_check_state[3:0] (in view: work.self_inspection(verilog)); safe FSM implementation is not required.
+@N: MO225 :"d:\programs\fpga\c200_fpga\spi flash\spi_flash_top.v":50:1:50:6|There are no possible illegal states for state machine r_cmd[7:0] (in view: work.spi_flash_top(verilog)); safe FSM implementation is not required.
+@N: MO225 :"d:\programs\fpga\c200_fpga\spi flash\spi_flash_top.v":94:1:94:6|There are no possible illegal states for state machine r_state[3:0] (in view: work.spi_flash_top(verilog)); safe FSM implementation is not required.
+@N: FX1184 |Applying syn_allowed_resources blockrams=56 on top level netlist C200_FPGA 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

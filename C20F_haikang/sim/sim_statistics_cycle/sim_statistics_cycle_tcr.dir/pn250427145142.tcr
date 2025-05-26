@@ -1,0 +1,6 @@
+#Start recording tcl command: 4/27/2025 13:26:37
+#Project Location: D:/Project/C20F_haikang/sim/sim_statistics_cycle; Project name: sim_statistics_cycle
+prj_project open "D:/Project/C20F_haikang/sim/sim_statistics_cycle/sim_statistics_cycle.ldf"
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+sbp_design open -dsgn "D:/Project/C20F_haikang/sim/sim_statistics_cycle/impl1/ram_w32_depth64/ram_w32_depth64.sbx"
+#Stop recording: 4/27/2025 14:51:42
