@@ -5,42 +5,41 @@
             <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Bitgen" build_result="2" update_result="0" update_time="1747911467"/>
-            <Task name="Promgen" build_result="0" update_result="2" update_time="1747911459"/>
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1747971895"/>
+            <Task name="Promgen" build_result="0" update_result="2" update_time="1747971895"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1747911295">
-            <Task name="Map" build_result="2" update_result="0" update_time="1747911295"/>
-            <Task name="MapTrace" build_result="2" update_result="0" update_time="1747911299"/>
+        <Milestone name="Map" build_result="2" build_time="1747971684">
+            <Task name="Map" build_result="2" update_result="0" update_time="1747971684"/>
+            <Task name="MapTrace" build_result="2" update_result="0" update_time="1747971688"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1747911431">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1747911431"/>
-            <Task name="PARTrace" build_result="2" update_result="0" update_time="1747911436"/>
-            <Task name="IOTiming" build_result="2" update_result="0" update_time="1747911459"/>
+        <Milestone name="PAR" build_result="2" build_time="1747971856">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1747971856"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1747971861"/>
+            <Task name="IOTiming" build_result="2" update_result="0" update_time="1747971887"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1747911278">
-            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1747911278"/>
-            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1747911467"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1747971666">
+            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1747971666"/>
+            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1747971895"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1747911182"/>
-            <Task name="BKM" build_result="0" update_result="2" update_time="1747911182"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1747971559"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="1747971559"/>
             <Task name="SSO" build_result="0" update_result="3" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="3" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Report name=".vdbs/c25x_fpga_c25x_fpga_map.vdb" last_build_time="1747911295" last_build_size="4905660"/>
-        <Report name="c25x_fpga_c25x_fpga.bgn" last_build_time="1747911467" last_build_size="4440"/>
-        <Report name="c25x_fpga_c25x_fpga.bit" last_build_time="1747911467" last_build_size="584998"/>
-        <Report name="c25x_fpga_c25x_fpga.ior" last_build_time="1747911458" last_build_size="8094"/>
-        <Report name="c25x_fpga_c25x_fpga.lsedata" last_build_time="1747911193" last_build_size="23067679"/>
+        <Report name=".vdbs/c25x_fpga_c25x_fpga_map.vdb" last_build_time="1747971684" last_build_size="4856788"/>
+        <Report name="c25x_fpga_c25x_fpga.bgn" last_build_time="1747971895" last_build_size="4440"/>
+        <Report name="c25x_fpga_c25x_fpga.bit" last_build_time="1747971895" last_build_size="584998"/>
+        <Report name="c25x_fpga_c25x_fpga.ior" last_build_time="1747971887" last_build_size="8094"/>
+        <Report name="c25x_fpga_c25x_fpga.lsedata" last_build_time="1747971567" last_build_size="23030323"/>
         <Report name="c25x_fpga_c25x_fpga.mcs" last_build_time="1747133051" last_build_size="1645462"/>
-        <Report name="c25x_fpga_c25x_fpga.ncd" last_build_time="1747911431" last_build_size="20323642"/>
-        <Report name="c25x_fpga_c25x_fpga.ngd" last_build_time="1747911278" last_build_size="16706198"/>
-        <Report name="c25x_fpga_c25x_fpga.tw1" last_build_time="1747911299" last_build_size="17136"/>
-        <Report name="c25x_fpga_c25x_fpga.twr" last_build_time="1747911436" last_build_size="104066"/>
-        <Report name="c25x_fpga_c25x_fpga_map.ncd" last_build_time="1747911293" last_build_size="13765486"/>
+        <Report name="c25x_fpga_c25x_fpga.ncd" last_build_time="1747971856" last_build_size="20186629"/>
+        <Report name="c25x_fpga_c25x_fpga.ngd" last_build_time="1747971665" last_build_size="16570642"/>
+        <Report name="c25x_fpga_c25x_fpga.tw1" last_build_time="1747971688" last_build_size="17145"/>
+        <Report name="c25x_fpga_c25x_fpga.twr" last_build_time="1747971861" last_build_size="113952"/>
+        <Report name="c25x_fpga_c25x_fpga_map.ncd" last_build_time="1747971682" last_build_size="13674080"/>
     </Strategy>
 </BuildStatus>
-                                                                                                                                                            

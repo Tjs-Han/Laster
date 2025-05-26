@@ -22,7 +22,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 <A name="Map_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2</big></U></B>
-Thu May 22 18:54:57 2025
+Fri May 23 11:41:26 2025
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -42,11 +42,11 @@ Report level:    verbose report, limited to 1 item per preference
 <A name="mtw1_set_ps"></A><B><U><big>Preference Summary</big></U></B>
 
 <LI><A href='#map_twr_pref_0_0' Target='right'>FREQUENCY NET "w_pll_50m" 50.000000 MHz (0 errors)</A></LI>            4096 items scored, 0 timing errors detected.
-Report:   57.511MHz is the maximum frequency for this preference.
+Report:   57.471MHz is the maximum frequency for this preference.
 
 <LI><A href='#map_twr_pref_0_1' Target='right'>FREQUENCY NET "i_clk_50m_c" 50.000000 MHz (0 errors)</A></LI>            0 items scored, 0 timing errors detected.
 
-<LI><A href='#map_twr_pref_0_2' Target='right'>FREQUENCY NET "w_pll_100m" 100.000000 MHz (0 errors)</A></LI>            304 items scored, 0 timing errors detected.
+<LI><A href='#map_twr_pref_0_2' Target='right'>FREQUENCY NET "w_pll_100m" 100.000000 MHz (0 errors)</A></LI>            328 items scored, 0 timing errors detected.
 Report:  252.845MHz is the maximum frequency for this preference.
 
 <LI><A href='#map_twr_pref_0_3' Target='right'>PERIOD PORT "i_clk_50m" 20.000000 ns HIGH 10.000000 ns (0 errors)</A></LI>            0 items scored, 0 timing errors detected.
@@ -65,40 +65,40 @@ BLOCK JTAG PATHS
 --------------------------------------------------------------------------------
 
 
-Passed: The following path meets requirements by 1.306ns (weighted slack = 2.612ns)
+Passed: The following path meets requirements by 1.300ns (weighted slack = 2.600ns)
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         DP16KD     Port           U8/u2/U1/eth_data_ram_0_0_0(ASIC)  (from w_pll_50m -)
-   Destination:    FF         Data in        U8/u5/r_sram_data_eth_i0_i13  (to w_pll_50m +)
+   Destination:    FF         Data in        U8/u5/r_sram_data_eth_i0_i14  (to w_pll_50m +)
 
    Delay:               8.958ns  (74.4% logic, 25.6% route), 5 logic levels.
 
  Constraint Details:
 
-      8.958ns physical path delay U8/u2/U1/eth_data_ram_0_0_0 to U8/u5/SLICE_6833 meets
+      8.958ns physical path delay U8/u2/U1/eth_data_ram_0_0_0 to U8/u5/SLICE_6812 meets
      10.000ns delay constraint less
-     -0.264ns DIN_SET requirement (totaling 10.264ns) by 1.306ns
+     -0.258ns DIN_SET requirement (totaling 10.258ns) by 1.300ns
 
  Physical Path Details:
 
-      Data path U8/u2/U1/eth_data_ram_0_0_0 to U8/u5/SLICE_6833:
+      Data path U8/u2/U1/eth_data_ram_0_0_0 to U8/u5/SLICE_6812:
 
    Name    Fanout   Delay (ns)          Site               Resource
-C2Q_DEL     ---     5.729 *am_0_0_0.CLKB to *am_0_0_0.DOB5 U8/u2/U1/eth_data_ram_0_0_0 (from w_pll_50m)
-ROUTE         2   e 0.573 *am_0_0_0.DOB5 to *LICE_10655.B1 U8/w_eth_data[5]
-CTOF_DEL    ---     0.234 *LICE_10655.B1 to *LICE_10655.F1 U8/u5/SLICE_10655
-ROUTE         1   e 0.573 *LICE_10655.F1 to *SLICE_8102.B1 U8/u5/n210301
-CTOF_DEL    ---     0.234 *SLICE_8102.B1 to *SLICE_8102.F1 U8/u5/SLICE_8102
-ROUTE         1   e 0.573 *SLICE_8102.F1 to *SLICE_8270.C0 U8/u5/n210303
-CTOF_DEL    ---     0.234 *SLICE_8270.C0 to *SLICE_8270.F0 U8/u5/SLICE_8270
-ROUTE         1   e 0.573 *SLICE_8270.F0 to *SLICE_6833.B1 U8/u5/n210304
-CTOF_DEL    ---     0.234 *SLICE_6833.B1 to *SLICE_6833.F1 U8/u5/SLICE_6833
-ROUTE         1   e 0.001 *SLICE_6833.F1 to *LICE_6833.DI1 U8/u5/n226239 (to w_pll_50m)
+C2Q_DEL     ---     5.729 *am_0_0_0.CLKB to *am_0_0_0.DOB6 U8/u2/U1/eth_data_ram_0_0_0 (from w_pll_50m)
+ROUTE         2   e 0.573 *am_0_0_0.DOB6 to *LICE_10623.B0 U8/w_eth_data[6]
+CTOF_DEL    ---     0.234 *LICE_10623.B0 to *LICE_10623.F0 U8/u5/SLICE_10623
+ROUTE         1   e 0.573 *LICE_10623.F0 to *SLICE_8133.B1 U8/u5/n205832
+CTOF_DEL    ---     0.234 *SLICE_8133.B1 to *SLICE_8133.F1 U8/u5/SLICE_8133
+ROUTE         1   e 0.573 *SLICE_8133.F1 to *SLICE_8033.C0 U8/u5/n205834
+CTOF_DEL    ---     0.234 *SLICE_8033.C0 to *SLICE_8033.F0 U8/u5/SLICE_8033
+ROUTE         1   e 0.573 *SLICE_8033.F0 to *SLICE_6812.B0 U8/u5/n205835
+CTOF_DEL    ---     0.234 *SLICE_6812.B0 to *SLICE_6812.F0 U8/u5/SLICE_6812
+ROUTE         1   e 0.001 *SLICE_6812.F0 to *LICE_6812.DI0 U8/u5/n221700 (to w_pll_50m)
                   --------
                     8.958   (74.4% logic, 25.6% route), 5 logic levels.
 
-Report:   57.511MHz is the maximum frequency for this preference.
+Report:   57.471MHz is the maximum frequency for this preference.
 
 
 ================================================================================
@@ -109,7 +109,7 @@ Report:   57.511MHz is the maximum frequency for this preference.
 
 ================================================================================
 <A name="map_twr_pref_0_2"></A>Preference: FREQUENCY NET "w_pll_100m" 100.000000 MHz ;
-            304 items scored, 0 timing errors detected.
+            328 items scored, 0 timing errors detected.
 --------------------------------------------------------------------------------
 
 
@@ -117,34 +117,34 @@ Passed: The following path meets requirements by 6.045ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              U8/u5/r_tdc_window_i12  (from w_pll_50m +)
+   Source:         FF         Q              U8/u5/r_tdc_window_i11  (from w_pll_50m +)
    Destination:    FF         Data in        U4/r_disable_tdc_66  (to w_pll_100m +)
 
    Delay:               4.213ns  (40.6% logic, 59.4% route), 6 logic levels.
 
  Constraint Details:
 
-      4.213ns physical path delay SLICE_6865 to U4/SLICE_4881 meets
+      4.213ns physical path delay SLICE_6843 to U4/SLICE_4864 meets
      10.000ns delay constraint less
      -0.258ns DIN_SET requirement (totaling 10.258ns) by 6.045ns
 
  Physical Path Details:
 
-      Data path SLICE_6865 to U4/SLICE_4881:
+      Data path SLICE_6843 to U4/SLICE_4864:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.522 SLICE_6865.CLK to  SLICE_6865.Q0 SLICE_6865 (from w_pll_50m)
-ROUTE         4   e 0.573  SLICE_6865.Q0 to *LICE_10047.A1 w_stop_window[12]
-CTOF_DEL    ---     0.234 *LICE_10047.A1 to *LICE_10047.F1 U4/SLICE_10047
-ROUTE         1   e 0.573 *LICE_10047.F1 to *SLICE_9426.D1 U4/n211983
-CTOF_DEL    ---     0.234 *SLICE_9426.D1 to *SLICE_9426.F1 U4/SLICE_9426
-ROUTE         1   e 0.573 *SLICE_9426.F1 to *SLICE_7707.M0 U4/n211992
-MTOF_DEL    ---     0.254 *SLICE_7707.M0 to *ICE_7707.OFX0 U4/i_stop_window_15__I_0_i14/SLICE_7707
-ROUTE         1   e 0.573 *ICE_7707.OFX0 to *SLICE_4881.B1 U4/n14
-CTOF_DEL    ---     0.234 *SLICE_4881.B1 to *SLICE_4881.F1 U4/SLICE_4881
-ROUTE         1   e 0.208 *SLICE_4881.F1 to *SLICE_4881.C0 U4/o_disable_tdc_N_3351
-CTOF_DEL    ---     0.234 *SLICE_4881.C0 to *SLICE_4881.F0 U4/SLICE_4881
-ROUTE         1   e 0.001 *SLICE_4881.F0 to *LICE_4881.DI0 U4/n49356 (to w_pll_100m)
+REG_DEL     ---     0.522 SLICE_6843.CLK to  SLICE_6843.Q0 SLICE_6843 (from w_pll_50m)
+ROUTE         3   e 0.573  SLICE_6843.Q0 to *LICE_10023.D1 w_stop_window[11]
+CTOF_DEL    ---     0.234 *LICE_10023.D1 to *LICE_10023.F1 U4/SLICE_10023
+ROUTE         1   e 0.573 *LICE_10023.F1 to *SLICE_9458.D1 U4/n207474
+CTOF_DEL    ---     0.234 *SLICE_9458.D1 to *SLICE_9458.F1 U4/SLICE_9458
+ROUTE         1   e 0.573 *SLICE_9458.F1 to *SLICE_7711.M0 U4/n207483
+MTOF_DEL    ---     0.254 *SLICE_7711.M0 to *ICE_7711.OFX0 U4/i_stop_window_15__I_0_i14/SLICE_7711
+ROUTE         1   e 0.573 *ICE_7711.OFX0 to *SLICE_4864.B1 U4/n14
+CTOF_DEL    ---     0.234 *SLICE_4864.B1 to *SLICE_4864.F1 U4/SLICE_4864
+ROUTE         1   e 0.208 *SLICE_4864.F1 to *SLICE_4864.C0 U4/o_disable_tdc_N_3351
+CTOF_DEL    ---     0.234 *SLICE_4864.C0 to *SLICE_4864.F0 U4/SLICE_4864
+ROUTE         1   e 0.001 *SLICE_4864.F0 to *LICE_4864.DI0 U4/n49035 (to w_pll_100m)
                   --------
                     4.213   (40.6% logic, 59.4% route), 6 logic levels.
 
@@ -175,7 +175,7 @@ Preference                              |   Constraint|       Actual|Levels
 ----------------------------------------------------------------------------
                                         |             |             |
 FREQUENCY NET "w_pll_50m" 50.000000 MHz |             |             |
-;                                       |   50.000 MHz|   57.511 MHz|   5  
+;                                       |   50.000 MHz|   57.471 MHz|   5  
                                         |             |             |
 FREQUENCY NET "i_clk_50m_c" 50.000000   |             |             |
 MHz ;                                   |            -|            -|   0  
@@ -197,7 +197,7 @@ All preferences were met.
 
 Found 5 clocks:
 
-Clock Domain: w_pll_50m   Source: U1/PLLInst_0.CLKOP   Loads: 4474
+Clock Domain: w_pll_50m   Source: U1/PLLInst_0.CLKOP   Loads: 4464
    Covered under: FREQUENCY NET "w_pll_50m" 50.000000 MHz ;
 
    Data transfers from:
@@ -215,7 +215,7 @@ Clock Domain: w_pll_100m   Source: U1/PLLInst_0.CLKOS2   Loads: 15
 
    Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK
 
-Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK   Loads: 234
+Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK   Loads: 225
    No transfer within this clock domain is found
 
 Clock Domain: i_clk_50m_c   Source: i_clk_50m.PAD   Loads: 1
@@ -231,11 +231,11 @@ Clock Domain: U1/CLKFB_t   Source: U1/PLLInst_0.CLKINTFB   Loads: 1
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 4530748 paths, 4 nets, and 75002 connections (92.72% coverage)
+Constraints cover 5170887 paths, 4 nets, and 74335 connections (92.67% coverage)
 
 --------------------------------------------------------------------------------
 <A name="Map_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2</big></U></B>
-Thu May 22 18:54:58 2025
+Fri May 23 11:41:27 2025
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -258,7 +258,7 @@ Report level:    verbose report, limited to 1 item per preference
 
 <LI><A href='#map_twr_pref_1_1' Target='right'>FREQUENCY NET "i_clk_50m_c" 50.000000 MHz (0 errors)</A></LI>            0 items scored, 0 timing errors detected.
 
-<LI><A href='#map_twr_pref_1_2' Target='right'>FREQUENCY NET "w_pll_100m" 100.000000 MHz (0 errors)</A></LI>            304 items scored, 0 timing errors detected.
+<LI><A href='#map_twr_pref_1_2' Target='right'>FREQUENCY NET "w_pll_100m" 100.000000 MHz (0 errors)</A></LI>            328 items scored, 0 timing errors detected.
 
 <LI><A href='#map_twr_pref_1_3' Target='right'>PERIOD PORT "i_clk_50m" 20.000000 ns HIGH 10.000000 ns (0 errors)</A></LI>            0 items scored, 0 timing errors detected.
 
@@ -280,24 +280,24 @@ Passed: The following path meets requirements by 0.102ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              U5/u2/f0_tdc_result_valid_402  (from w_pll_50m +)
-   Destination:    FF         Data in        U5/u2/f1_tdc_result_valid_403  (to w_pll_50m +)
+   Source:         FF         Q              U5/U3/U4/U2/FF_25  (from w_pll_50m +)
+   Destination:    FF         Data in        U5/U3/U4/U2/FF_57  (to w_pll_50m +)
 
    Delay:               0.219ns  (73.5% logic, 26.5% route), 1 logic levels.
 
  Constraint Details:
 
-      0.219ns physical path delay U5/u2/SLICE_3482 to U5/u2/SLICE_3482 meets
+      0.219ns physical path delay U5/U3/U4/U2/SLICE_6470 to U5/U3/U4/U2/SLICE_6470 meets
       0.117ns M_HLD and
       0.000ns delay constraint requirement (totaling 0.117ns) by 0.102ns
 
  Physical Path Details:
 
-      Data path U5/u2/SLICE_3482 to U5/u2/SLICE_3482:
+      Data path U5/U3/U4/U2/SLICE_6470 to U5/U3/U4/U2/SLICE_6470:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.161 *LICE_3482.CLK to *SLICE_3482.Q1 U5/u2/SLICE_3482 (from w_pll_50m)
-ROUTE         1   e 0.058 *SLICE_3482.Q1 to *SLICE_3482.M0 U5/u2/f0_tdc_result_valid (to w_pll_50m)
+REG_DEL     ---     0.161 *LICE_6470.CLK to *SLICE_6470.Q1 U5/U3/U4/U2/SLICE_6470 (from w_pll_50m)
+ROUTE         1   e 0.058 *SLICE_6470.Q1 to *SLICE_6470.M0 U5/U3/U4/U2/multiplier_or2_6 (to w_pll_50m)
                   --------
                     0.219   (73.5% logic, 26.5% route), 1 logic levels.
 
@@ -310,7 +310,7 @@ ROUTE         1   e 0.058 *SLICE_3482.Q1 to *SLICE_3482.M0 U5/u2/f0_tdc_result_v
 
 ================================================================================
 <A name="map_twr_pref_1_2"></A>Preference: FREQUENCY NET "w_pll_100m" 100.000000 MHz ;
-            304 items scored, 0 timing errors detected.
+            328 items scored, 0 timing errors detected.
 --------------------------------------------------------------------------------
 
 
@@ -318,26 +318,26 @@ Passed: The following path meets requirements by 0.177ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              U4/r_emit_cnt_20567__i2  (from w_pll_100m +)
-   Destination:    FF         Data in        U4/r_emit_cnt_20567__i2  (to w_pll_100m +)
+   Source:         FF         Q              U4/r_rsti_cnt_20400__i3  (from w_pll_100m +)
+   Destination:    FF         Data in        U4/r_rsti_cnt_20400__i3  (to w_pll_100m +)
 
    Delay:               0.295ns  (80.0% logic, 20.0% route), 2 logic levels.
 
  Constraint Details:
 
-      0.295ns physical path delay U4/SLICE_3062 to U4/SLICE_3062 meets
+      0.295ns physical path delay U4/SLICE_3069 to U4/SLICE_3069 meets
       0.118ns DIN_HLD and
       0.000ns delay constraint requirement (totaling 0.118ns) by 0.177ns
 
  Physical Path Details:
 
-      Data path U4/SLICE_3062 to U4/SLICE_3062:
+      Data path U4/SLICE_3069 to U4/SLICE_3069:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.161 *LICE_3062.CLK to *SLICE_3062.Q1 U4/SLICE_3062 (from w_pll_100m)
-ROUTE         4   e 0.058 *SLICE_3062.Q1 to *SLICE_3062.D1 U4/r_emit_cnt[2]
-CTOF_DEL    ---     0.075 *SLICE_3062.D1 to *SLICE_3062.F1 U4/SLICE_3062
-ROUTE         1   e 0.001 *SLICE_3062.F1 to *LICE_3062.DI1 U4/n29 (to w_pll_100m)
+REG_DEL     ---     0.161 *LICE_3069.CLK to *SLICE_3069.Q1 U4/SLICE_3069 (from w_pll_100m)
+ROUTE         4   e 0.058 *SLICE_3069.Q1 to *SLICE_3069.D1 U4/r_rsti_cnt[3]
+CTOF_DEL    ---     0.075 *SLICE_3069.D1 to *SLICE_3069.F1 U4/SLICE_3069
+ROUTE         1   e 0.001 *SLICE_3069.F1 to *LICE_3069.DI1 U4/n34 (to w_pll_100m)
                   --------
                     0.295   (80.0% logic, 20.0% route), 2 logic levels.
 
@@ -376,7 +376,7 @@ All preferences were met.
 
 Found 5 clocks:
 
-Clock Domain: w_pll_50m   Source: U1/PLLInst_0.CLKOP   Loads: 4474
+Clock Domain: w_pll_50m   Source: U1/PLLInst_0.CLKOP   Loads: 4464
    Covered under: FREQUENCY NET "w_pll_50m" 50.000000 MHz ;
 
    Data transfers from:
@@ -394,7 +394,7 @@ Clock Domain: w_pll_100m   Source: U1/PLLInst_0.CLKOS2   Loads: 15
 
    Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK
 
-Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK   Loads: 234
+Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK   Loads: 225
    No transfer within this clock domain is found
 
 Clock Domain: i_clk_50m_c   Source: i_clk_50m.PAD   Loads: 1
@@ -410,7 +410,7 @@ Clock Domain: U1/CLKFB_t   Source: U1/PLLInst_0.CLKINTFB   Loads: 1
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 4530748 paths, 4 nets, and 77487 connections (95.79% coverage)
+Constraints cover 5170887 paths, 4 nets, and 76834 connections (95.79% coverage)
 
 
 

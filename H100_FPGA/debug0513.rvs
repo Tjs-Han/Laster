@@ -1,4 +1,4 @@
-<Project ModBy="Inserter" Name="D:/Project/H100_FPGA/debug0513.rvl" Date="2025-05-22">
+<Project ModBy="Inserter" Name="D:/Project/H100_FPGA/debug0513.rvl" Date="2025-05-23">
     <Core Name="c25x_fpga_LA0">
         <Setting>
             <Capture SamplesPerTrig="256" NumTrigsCap="8"/>
@@ -91,17 +91,6 @@
                 <Sig Name="U5/u2/ASIC_RESETN_OUT"/>
                 <Sig Name="U5/u2/SPI_SCK_OUT"/>
                 <Sig Name="U5/u2/i_angle_sync"/>
-                <Bus Name="U5/u2/current_state" Radix="0">
-                    <Sig Name="U5/u2/current_state:0"/>
-                    <Sig Name="U5/u2/current_state:1"/>
-                    <Sig Name="U5/u2/current_state:2"/>
-                    <Sig Name="U5/u2/current_state:3"/>
-                    <Sig Name="U5/u2/current_state:4"/>
-                    <Sig Name="U5/u2/current_state:5"/>
-                    <Sig Name="U5/u2/current_state:6"/>
-                    <Sig Name="U5/u2/current_state:7"/>
-                </Bus>
-                <Sig Name="U5/u2/clera_spi_clk"/>
             </Trace>
             <Trigger>
                 <TU Operator="0" Name="TU7" ID="1" Value="0" Radix="2"/>

@@ -1,7 +1,7 @@
-<Project ModBy="Inserter" SigType="0" Name="D:/Project/H100_FPGA/debug0513.rvl" Date="2025-05-22">
+<Project ModBy="Inserter" SigType="0" Name="D:/Project/H100_FPGA/debug0513.rvl" Date="2025-05-23">
     <IP Version="1_6_042617"/>
     <Design DesignEntry="Schematic/Verilog HDL" Synthesis="lse" DeviceFamily="ECP5U" DesignName="c25x_fpga"/>
-    <Core InsertDataset="0" Insert="1" Reveal_sig="627907712" Name="c25x_fpga_LA0" ID="0">
+    <Core InsertDataset="0" Insert="1" Reveal_sig="628007760" Name="c25x_fpga_LA0" ID="0">
         <Setting>
             <Clock SampleClk="U2/i_clk_50m" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
             <TraceBuffer Implementation="0" BitTimeStamp="0" hasTimeStamp="0" IncTrigSig="0" BufferDepth="1024"/>
@@ -96,17 +96,6 @@
                 <Sig Type="SIG" Name="U5/u2/ASIC_RESETN_OUT"/>
                 <Sig Type="SIG" Name="U5/u2/SPI_SCK_OUT"/>
                 <Sig Type="SIG" Name="U5/u2/i_angle_sync"/>
-                <Bus Name="U5/u2/current_state">
-                    <Sig Type="SIG" Name="U5/u2/current_state:0"/>
-                    <Sig Type="SIG" Name="U5/u2/current_state:1"/>
-                    <Sig Type="SIG" Name="U5/u2/current_state:2"/>
-                    <Sig Type="SIG" Name="U5/u2/current_state:3"/>
-                    <Sig Type="SIG" Name="U5/u2/current_state:4"/>
-                    <Sig Type="SIG" Name="U5/u2/current_state:5"/>
-                    <Sig Type="SIG" Name="U5/u2/current_state:6"/>
-                    <Sig Type="SIG" Name="U5/u2/current_state:7"/>
-                </Bus>
-                <Sig Type="SIG" Name="U5/u2/clera_spi_clk"/>
             </Trace>
             <Trigger>
                 <TU Serialbits="0" Type="0" ID="1" Sig="U5/U8/erro_flag,"/>

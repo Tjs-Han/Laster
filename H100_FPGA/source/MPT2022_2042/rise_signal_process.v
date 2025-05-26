@@ -48,13 +48,16 @@ module rise_signal_process(
 	reg  		   	r_laser_str;
 	reg 			r_data_valid;
 	reg  [7:0]     r_laser_str_num;
+	
+	reg r_rise_start;
+	reg r_fall_start;
    	assign o_rise_data 		=   (r_laser_str_flag&i_laser_str&(r_laser_str==0)&(r_rise_cnt!=0)) ? r_rise_data:((r_laser_str_flag&i_laser_str&(r_laser_str==0)&(r_rise_cnt==0))? 16'h0:o_rise_data);
 	assign o_fall_data 		=   (r_laser_str_flag&i_laser_str&(r_laser_str==0)&(r_fall_cnt!=0)) ? r_fall_data:((r_laser_str_flag&i_laser_str&(r_laser_str==0)&(r_fall_cnt==0))? 16'h0:o_fall_data);
     assign o_data_valid 	=   r_laser_str_flag&i_laser_str&(r_laser_str==0);
 	reg erro_flag ;
  /****error ***/
 	always @(posedge i_clk) begin
-		if(r_laser_str_flag&i_laser_str&(r_laser_str==0)&((r_rise_data>2000)|(r_fall_data>2000))) begin
+		if(r_laser_str_flag&i_laser_str&(r_laser_str==0)&((r_rise_data>2000)|(r_fall_data>2000)|r_rise_cnt==0|r_fall_cnt==0)) begin
 			erro_flag <=1'b1;
 		end else begin
 			erro_flag <=1'b0;
@@ -99,7 +102,7 @@ module rise_signal_process(
         if(!i_rst_n) begin                              
             r_rise_cnt <= 0 ;                                 
         end else begin 
-            if(i_tdc_result_channel_id==0&i_tdc_result_valid_flag&i_tdc_result_edge_id) begin
+            if(i_tdc_result_channel_id==0&i_tdc_result_valid_flag&i_tdc_result_edge_id&(i_tdc_result<19'h4e20)) begin
                 r_rise_cnt <= (r_rise_cnt==4'hF)? r_rise_cnt:r_rise_cnt+1;
             end  else begin
                 if(i_laser_str) begin
@@ -115,7 +118,7 @@ module rise_signal_process(
         end else begin 
             if(i_tdc_result_channel_id==0&i_tdc_result_valid_flag&i_tdc_result_edge_id) begin
                  if((r_rise_data>i_tdc_result[15:0])&r_rise_cnt!=0|r_rise_cnt==0) begin
-					r_rise_data <= i_tdc_result[15:0]; 
+					r_rise_data <= r_rise_start ? r_rise_data:i_tdc_result[15:0]; 
 				 end else begin
 					r_rise_data <=r_rise_data; 
 				 end 
@@ -124,18 +127,22 @@ module rise_signal_process(
             end                                                                                                         
         end 
     end
- /*   always @(posedge i_clk or negedge i_rst_n) begin
+	    always @(posedge i_clk or negedge i_rst_n) begin
         if(!i_rst_n) begin                              
-            r_rise_data <= 16'h0 ;                                 
+            r_rise_start <= 1'b0 ;                                 
         end else begin 
-            if(i_tdc_result_channel_id==0&i_tdc_result_valid_flag&i_tdc_result_edge_id&r_rise_cnt==0) begin
-				r_rise_data <= i_tdc_result[15:0]; 
+            if(i_tdc_result_channel_id==0&i_tdc_result_valid_flag&i_tdc_result_edge_id) begin
+                 if((r_rise_data>i_tdc_result[15:0])&r_rise_cnt!=0) begin
+					r_rise_start <= 1'b1; 
+				 end else begin
+					r_rise_start <=r_rise_start; 
+				 end 
             end  else begin
-                r_rise_data <= r_rise_data;        
+                r_rise_start <= i_laser_str ? 1'b0:r_rise_start;;        
             end                                                                                                         
         end 
     end
-*/
+
 /****************************fall data**********************************/
     always @(posedge i_clk or negedge i_rst_n)  begin                                        
         if(!i_rst_n) begin                              
@@ -143,7 +150,7 @@ module rise_signal_process(
         end else begin                                   
             if(i_tdc_result_channel_id==0&i_tdc_result_valid_flag&i_tdc_result_edge_id==0) begin 			
                  if((r_fall_data>i_tdc_result[15:0])&r_fall_cnt!=0|r_fall_cnt==0) begin
-					r_fall_data <= i_tdc_result[15:0]; 
+					r_fall_data <= r_fall_start ? r_fall_data:i_tdc_result[15:0]; 
 				 end else begin
 					r_fall_data <=r_fall_data; 
 				 end
@@ -152,24 +159,26 @@ module rise_signal_process(
 			end
         end
     end
-
- /*   always @(posedge i_clk or negedge i_rst_n)  begin                                        
+    always @(posedge i_clk or negedge i_rst_n)  begin                                        
         if(!i_rst_n) begin                              
-                 r_fall_data <= 0;   
+                 r_fall_start <= 0;   
         end else begin                                   
-            if(i_tdc_result_channel_id==0&i_tdc_result_valid_flag&i_tdc_result_edge_id==0&r_fall_cnt==0) begin 			                
-				 r_fall_data <= i_tdc_result[15:0]; 
+            if(i_tdc_result_channel_id==0&i_tdc_result_valid_flag&i_tdc_result_edge_id==0) begin 			
+                 if((r_fall_data>i_tdc_result[15:0])&r_fall_cnt!=0) begin
+					r_fall_start<=1'b1; 
+				 end else begin
+					r_fall_start <=r_fall_start; 
+				 end
 			end else begin
-				 r_fall_data <= r_fall_data;
+				 r_fall_start <= i_laser_str ? 1'b0:r_fall_start;
 			end
         end
     end
-*/
     always @(posedge i_clk or negedge i_rst_n)  begin                                        
         if(!i_rst_n) begin                              
             r_fall_cnt <= 0 ;                                 
         end else begin 
-            if(i_tdc_result_channel_id==0&i_tdc_result_valid_flag&i_tdc_result_edge_id==0) begin
+            if(i_tdc_result_channel_id==0&i_tdc_result_valid_flag&i_tdc_result_edge_id==0&(i_tdc_result<19'h4e20))begin //
                 r_fall_cnt <= (r_fall_cnt==4'hF)? r_fall_cnt:r_fall_cnt+1;
             end  else begin
                 if(i_laser_str) begin

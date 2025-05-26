@@ -84,9 +84,9 @@ D:/Project/H100_FPGA/source/eth/spi_w5500_top_3.v(4): INFO: back to file 'D:/Pro
 -- Analyzing Verilog file 'D:/Project/H100_FPGA/source/rotate/random_number_generator.v' (VERI-1482)
 -- Analyzing Verilog file 'D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_spi_top.v' (VERI-1482)
 -- Analyzing Verilog file 'D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v' (VERI-1482)
-D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v(672): WARNING: identifier 'clera_spi_clk' is used before its declaration (VERI-1875)
 -- Analyzing Verilog file 'D:/Project/H100_FPGA/mpt2042_rom_128x8/mpt2042_rom_128x8.v' (VERI-1482)
 -- Analyzing Verilog file 'D:/Project/H100_FPGA/source/MPT2022_2042/rise_signal_process.v' (VERI-1482)
+D:/Project/H100_FPGA/source/MPT2022_2042/rise_signal_process.v(142): WARNING: empty statement in sequential block (VERI-1988)
 D:/Project/H100_FPGA/source/c25x_fpga.v(1): INFO: compiling module 'c25x_fpga' (VERI-1018)
 D:/Project/H100_FPGA/source/c25x_fpga.v(495): INFO: elaborating module 'c25x_fpga' (VERI-9000)
 D:/Project/H100_FPGA/c25x_fpga_ip/c25x_pll/c25x_pll.v(86): INFO: elaborating module 'c25x_pll_uniq_1' (VERI-9000)
@@ -107,8 +107,8 @@ D:/Project/H100_FPGA/source/insp/adc_to_dac.v(287): INFO: elaborating module 'ad
 D:/Project/H100_FPGA/source/insp/adc_to_dist.v(225): INFO: elaborating module 'adc_to_dist_uniq_1' (VERI-9000)
 D:/Project/H100_FPGA/source/insp/pluse_average.v(90): INFO: elaborating module 'pluse_average_uniq_1' (VERI-9000)
 D:/Project/H100_FPGA/source/dist/measure_para.v(98): INFO: elaborating module 'measure_para_uniq_1' (VERI-9000)
-D:/Project/H100_FPGA/source/MPT2022_2042/rise_signal_process.v(181): INFO: elaborating module 'rise_signal_process_uniq_1' (VERI-9000)
-D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v(843): INFO: elaborating module 'mpt2042_control_uniq_1' (VERI-9000)
+D:/Project/H100_FPGA/source/MPT2022_2042/rise_signal_process.v(190): INFO: elaborating module 'rise_signal_process_uniq_1' (VERI-9000)
+D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v(842): INFO: elaborating module 'mpt2042_control_uniq_1' (VERI-9000)
 D:/Project/H100_FPGA/source/dist/calculate/dist_calculate.v(120): INFO: elaborating module 'dist_calculate_uniq_1' (VERI-9000)
 D:/Project/H100_FPGA/data_process_3.v(465): INFO: elaborating module 'data_process_3_uniq_1' (VERI-9000)
 D:/Project/H100_FPGA/source/dist/dist_packet.v(306): INFO: elaborating module 'dist_packet_uniq_1' (VERI-9000)
@@ -167,7 +167,7 @@ D:/Project/H100_FPGA/source/dist/calculate/div_rill.v(113): INFO: elaborating mo
 D:/Project/H100_FPGA/source/flash/spi flash/spi_master.v(138): INFO: elaborating module 'spi_master_uniq_1' (VERI-9000)
 D:/Project/H100_FPGA/source/eth/spi_master_eth.v(147): INFO: elaborating module 'spi_master_eth_uniq_1' (VERI-9000)
 D:/Project/H100_FPGA/source/dist/dist_measure.v(179): WARNING: port 'SER_CLK_P' is not connected on this instance (VERI-2435)
-D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v(841): WARNING: port 'Reset' is not connected on this instance (VERI-2435)
+D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v(840): WARNING: port 'Reset' is not connected on this instance (VERI-2435)
 Copyright (c) 2001-2013 Lattice Semiconductor Corporation. All rights reserved.
 Check Reveal Inserter settings...
     <postMsg mid="2120344" type="Info"    dynamic="1" navigation="0" arg0="6"  />
@@ -267,9 +267,9 @@ all messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_error.log
 (VERI-1482) Analyzing Verilog file 'D:/Project/H100_FPGA/source/rotate/random_number_generator.v'
 (VERI-1482) Analyzing Verilog file 'D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_spi_top.v'
 (VERI-1482) Analyzing Verilog file 'D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v'
-    <postMsg mid="2049991" type="Warning" dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v(672,20-672,33) (VERI-1875) identifier &apos;clera_spi_clk&apos; is used before its declaration" arg1="D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v" arg2="672"  />
 (VERI-1482) Analyzing Verilog file 'D:/Project/H100_FPGA/mpt2042_rom_128x8/mpt2042_rom_128x8.v'
 (VERI-1482) Analyzing Verilog file 'D:/Project/H100_FPGA/source/MPT2022_2042/rise_signal_process.v'
+    <postMsg mid="2049991" type="Warning" dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/MPT2022_2042/rise_signal_process.v(140,23-142,16) (VERI-1988) empty statement in sequential block" arg1="D:/Project/H100_FPGA/source/MPT2022_2042/rise_signal_process.v" arg2="140"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/c25x_fpga.v(1,8-1,17) (VERI-1018) compiling module &apos;c25x_fpga&apos;" arg1="D:/Project/H100_FPGA/source/c25x_fpga.v" arg2="1"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/c25x_fpga.v(1,1-495,10) (VERI-9000) elaborating module &apos;c25x_fpga&apos;" arg1="D:/Project/H100_FPGA/source/c25x_fpga.v" arg2="1"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/c25x_fpga_ip/c25x_pll/c25x_pll.v(8,1-86,10) (VERI-9000) elaborating module &apos;c25x_pll_uniq_1&apos;" arg1="D:/Project/H100_FPGA/c25x_fpga_ip/c25x_pll/c25x_pll.v" arg2="8"  />
@@ -290,8 +290,8 @@ all messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_error.log
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/insp/adc_to_dist.v(1,1-225,10) (VERI-9000) elaborating module &apos;adc_to_dist_uniq_1&apos;" arg1="D:/Project/H100_FPGA/source/insp/adc_to_dist.v" arg2="1"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/insp/pluse_average.v(1,1-90,10) (VERI-9000) elaborating module &apos;pluse_average_uniq_1&apos;" arg1="D:/Project/H100_FPGA/source/insp/pluse_average.v" arg2="1"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/dist/measure_para.v(1,1-98,10) (VERI-9000) elaborating module &apos;measure_para_uniq_1&apos;" arg1="D:/Project/H100_FPGA/source/dist/measure_para.v" arg2="1"  />
-    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/MPT2022_2042/rise_signal_process.v(26,1-181,10) (VERI-9000) elaborating module &apos;rise_signal_process_uniq_1&apos;" arg1="D:/Project/H100_FPGA/source/MPT2022_2042/rise_signal_process.v" arg2="26"  />
-    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v(15,1-843,10) (VERI-9000) elaborating module &apos;mpt2042_control_uniq_1&apos;" arg1="D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v" arg2="15"  />
+    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/MPT2022_2042/rise_signal_process.v(26,1-190,10) (VERI-9000) elaborating module &apos;rise_signal_process_uniq_1&apos;" arg1="D:/Project/H100_FPGA/source/MPT2022_2042/rise_signal_process.v" arg2="26"  />
+    <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v(15,1-842,10) (VERI-9000) elaborating module &apos;mpt2042_control_uniq_1&apos;" arg1="D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v" arg2="15"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/dist/calculate/dist_calculate.v(1,1-120,10) (VERI-9000) elaborating module &apos;dist_calculate_uniq_1&apos;" arg1="D:/Project/H100_FPGA/source/dist/calculate/dist_calculate.v" arg2="1"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/data_process_3.v(1,1-465,10) (VERI-9000) elaborating module &apos;data_process_3_uniq_1&apos;" arg1="D:/Project/H100_FPGA/data_process_3.v" arg2="1"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/dist/dist_packet.v(1,1-306,10) (VERI-9000) elaborating module &apos;dist_packet_uniq_1&apos;" arg1="D:/Project/H100_FPGA/source/dist/dist_packet.v" arg2="1"  />
@@ -349,7 +349,7 @@ all messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_error.log
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/flash/spi flash/spi_master.v(3,1-138,10) (VERI-9000) elaborating module &apos;spi_master_uniq_1&apos;" arg1="D:/Project/H100_FPGA/source/flash/spi flash/spi_master.v" arg2="3"  />
     <postMsg mid="2049992" type="Info"    dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/eth/spi_master_eth.v(3,1-147,10) (VERI-9000) elaborating module &apos;spi_master_eth_uniq_1&apos;" arg1="D:/Project/H100_FPGA/source/eth/spi_master_eth.v" arg2="3"  />
     <postMsg mid="2049991" type="Warning" dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/dist/dist_measure.v(152,1-179,3) (VERI-2435) port &apos;SER_CLK_P&apos; is not connected on this instance" arg1="D:/Project/H100_FPGA/source/dist/dist_measure.v" arg2="152"  />
-    <postMsg mid="2049991" type="Warning" dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v(835,1-841,4) (VERI-2435) port &apos;Reset&apos; is not connected on this instance" arg1="D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v" arg2="835"  />
+    <postMsg mid="2049991" type="Warning" dynamic="1" navigation="2" arg0="D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v(834,1-840,4) (VERI-2435) port &apos;Reset&apos; is not connected on this instance" arg1="D:/Project/H100_FPGA/source/MPT2022_2042/mpt2042_control.v" arg2="834"  />
 (VERI-1491) Pretty printing all design elements in library 'work' to file 'D:/Project/H100_FPGA/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v'
 Lpf file 'D:/Project/H100_FPGA/c25x_fpga.lpf' is updated.
 
@@ -361,7 +361,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Thu May 22 18:53:10 2025
+Fri May 23 11:39:24 2025
 
 
 Command Line:  synthesis -f c25x_fpga_c25x_fpga_lattice.synproj -gui -msgset D:/Project/H100_FPGA/promote.xml 
@@ -452,8 +452,6 @@ Analyzing Verilog file d:/lscc/diamond/3.12/module/reveal/src/rvl_j2w_module/wb2
 Analyzing Verilog file d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_la0_trig_gen.v. VERI-1482
 Analyzing Verilog file d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_la0_gen.v. VERI-1482
 Analyzing Verilog file d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v. VERI-1482
-    <postMsg mid="35901875" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(22252): " arg1="clera_spi_clk" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="22252"  />
-    <postMsg mid="35901875" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(36630): " arg1="clera_spi_clk" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="36630"  />
 Analyzing Verilog file .__ydixd0.v. VERI-1482
 Top module name (Verilog): c25x_fpga
 Last elaborated design is c25x_fpga()
@@ -468,30 +466,30 @@ Package Status:                     Final          Version 1.33.
 Top-level module name = c25x_fpga.
     <postMsg mid="35001695" type="Warning" dynamic="2" navigation="0" arg0="NET" arg1="w_pll_50m_2"  />
     <postMsg mid="35001688" type="Warning" dynamic="1" navigation="0" arg0="create_clock -period 20.000000 -waveform { 0.000000 10.000000 } -name w_pll_50m_2 [ get_nets { w_pll_50m_2 } ]"  />
-    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(35197): " arg1="SER_CLK_P" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="35197"  />
-    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(36883): " arg1="Reset" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="36883"  />
-    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41829): " arg1="w_recv_num[15]" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="41829"  />
-    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45399): " arg1="CIN" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="45399"  />
-    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45518): " arg1="CIN" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="45518"  />
-    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45654): " arg1="CIN" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="45654"  />
-    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45790): " arg1="CIN" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="45790"  />
-    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45909): " arg1="CIN" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="45909"  />
-    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(37240): " arg1="\U5/u2/u1/Reset" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="37240"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(35174): " arg1="SER_CLK_P" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="35174"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(36874): " arg1="Reset" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="36874"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41811): " arg1="w_recv_num[15]" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="41811"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45381): " arg1="CIN" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="45381"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45500): " arg1="CIN" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="45500"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45636): " arg1="CIN" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="45636"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45772): " arg1="CIN" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="45772"  />
+    <postMsg mid="35931013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45891): " arg1="CIN" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="45891"  />
+    <postMsg mid="35931002" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(37222): " arg1="\U5/u2/u1/Reset" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="37222"  />
 ######## Missing driver on net \U8/w_recv_num[15]. Patching with GND.
 ######## Missing driver on net \U8/w_recv_num[14]. Patching with GND.
 ######## Missing driver on net \U8/w_recv_num[13]. Patching with GND.
 ######## Missing driver on net \U8/w_recv_num[12]. Patching with GND.
 ######## Missing driver on net \U5/u2/u1/Reset. Patching with GND.
-######## Missing driver on net n1381. Patching with GND.
-######## Missing driver on net n1380. Patching with GND.
-######## Missing driver on net n1379. Patching with GND.
-######## Missing driver on net n1378. Patching with GND.
-######## Missing driver on net n1377. Patching with GND.
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23288): " arg1="\U2/U2/r_pwm_value_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23288"  />
-    <postMsg mid="35935014" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(27114): " arg1="\U3/u3/U1/tempADValue[0]_i1" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="27114"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(27114): " arg1="\U3/u3/U1/tempADValue[0]_i2" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="27114"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41101): " arg1="\U7/r_byte_size_i1" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="41101"  />
-    <postMsg mid="35935014" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23288): " arg1="\U2/U2/r_pwm_value_i1" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23288"  />
+######## Missing driver on net n1354. Patching with GND.
+######## Missing driver on net n1353. Patching with GND.
+######## Missing driver on net n1352. Patching with GND.
+######## Missing driver on net n1351. Patching with GND.
+######## Missing driver on net n1350. Patching with GND.
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23283): " arg1="\U2/U2/r_pwm_value_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23283"  />
+    <postMsg mid="35935014" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(27109): " arg1="\U3/u3/U1/tempADValue[0]_i1" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="27109"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(27109): " arg1="\U3/u3/U1/tempADValue[0]_i2" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="27109"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41083): " arg1="\U7/r_byte_size_i1" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="41083"  />
+    <postMsg mid="35935014" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23283): " arg1="\U2/U2/r_pwm_value_i1" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23283"  />
 Removed duplicate sequential element \U5/U4/reso_mode(4 bit), because it is equivalent to \U2/U4/reso_mode
 
     <postMsg mid="35001774" type="Info"    dynamic="2" navigation="0" arg0="\U3/u2/state" arg1="one-hot"  />
@@ -630,6 +628,25 @@ original encoding -> new encoding (one-hot encoding)
  10 -> 0100
 
  11 -> 1000
+
+    <postMsg mid="35001774" type="Info"    dynamic="2" navigation="0" arg0="\U5/u2/current_state" arg1="one-hot"  />
+original encoding -> new encoding (one-hot encoding)
+
+ 00000001 -> 00000001
+
+ 00000010 -> 00000010
+
+ 00000100 -> 00000100
+
+ 00001000 -> 00001000
+
+ 00010000 -> 00010000
+
+ 00100000 -> 00100000
+
+ 01000000 -> 01000000
+
+ 10000000 -> 10000000
 
     <postMsg mid="35001774" type="Info"    dynamic="2" navigation="0" arg0="\U5/U3/U4/U3/status" arg1="one-hot"  />
 original encoding -> new encoding (one-hot encoding)
@@ -878,60 +895,60 @@ Number of FIR filters recognized: 2
 ######### End FIR Info ########
 
 
-    <postMsg mid="35935035" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(50642): " arg1="_add_1_26876_i7" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="50642"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="_add_1_26876_e3"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="1" arg1="_add_1_26876_e3"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="2" arg1="_add_1_26876_e3"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="3" arg1="_add_1_26876_e3"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="4" arg1="_add_1_26876_e3"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="5" arg1="_add_1_26876_e3"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="add_26869_e3"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="1" arg1="add_26869_e3"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="2" arg1="add_26869_e3"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="3" arg1="add_26869_e3"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="4" arg1="add_26869_e3"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="5" arg1="add_26869_e3"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="add_26869_e2"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="1" arg1="add_26869_e2"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="2" arg1="add_26869_e2"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="3" arg1="add_26869_e2"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="4" arg1="add_26869_e2"  />
-    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="5" arg1="add_26869_e2"  />
-    <postMsg mid="35935035" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(49314): " arg1="\U8/u3/u3/r_root_middle2_i7" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="49314"  />
-######## Missing driver on net n23107. Patching with GND.
+    <postMsg mid="35935035" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(50624): " arg1="_add_1_26715_i7" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="50624"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="_add_1_26715_e3"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="1" arg1="_add_1_26715_e3"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="2" arg1="_add_1_26715_e3"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="3" arg1="_add_1_26715_e3"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="4" arg1="_add_1_26715_e3"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="5" arg1="_add_1_26715_e3"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="add_26708_e3"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="1" arg1="add_26708_e3"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="2" arg1="add_26708_e3"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="3" arg1="add_26708_e3"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="4" arg1="add_26708_e3"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="5" arg1="add_26708_e3"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="add_26708_e2"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="1" arg1="add_26708_e2"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="2" arg1="add_26708_e2"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="3" arg1="add_26708_e2"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="4" arg1="add_26708_e2"  />
+    <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="5" arg1="add_26708_e2"  />
+    <postMsg mid="35935035" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(49296): " arg1="\U8/u3/u3/r_root_middle2_i7" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="49296"  />
+######## Missing driver on net n23169. Patching with GND.
     <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="\U8/u3/u3/r_ntp_state_"  />
     <postMsg mid="35001747" type="Warning" dynamic="2" navigation="0" arg0="0" arg1="\U8/u3/u2/r_state_"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(35371): " arg1="\U5/U1/r_angle_reso_i5" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="35371"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38727): " arg1="\U5/U4/r_angle_max_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="38727"  />
-    <postMsg mid="35935014" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38727): " arg1="\U5/U4/r_angle_max_i10" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="38727"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(51362): " arg1="\U8/u5/r_config_mode_i9" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="51362"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23851): " arg1="\U2/U4/reso_mode_i3" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23851"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(34353): " arg1="\U5/U4/U3/r_divisor_i0_i9" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="34353"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(40770): " arg1="\U7/r_flash_rdaddr_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="40770"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(40829): " arg1="\U7/r_page_rdnum_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="40829"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23229): " arg1="\U2/U2/r_cnt_state_high_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23229"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23471): " arg1="\U2/U3/r_cnt_lower_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23471"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(40852): " arg1="\U7/r_page_num_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="40852"  />
-    <postMsg mid="35935014" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(40770): " arg1="\U7/r_flash_rdaddr_i19" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="40770"  />
-    <postMsg mid="35935014" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23229): " arg1="\U2/U2/r_cnt_state_high_i5" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23229"  />
-    <postMsg mid="35935014" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23471): " arg1="\U2/U3/r_cnt_max_i18" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23471"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23880): " arg1="\U2/U4/r_angle_cal_value_i12" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23880"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(43466): " arg1="\U8/u1/r_sock_num_i1" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="43466"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(26076): " arg1="\U3/r_check_state__i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="26076"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(51282): " arg1="\U8/u5/r_set_para6_i0_i15" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="51282"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38469): " arg1="\U5/U3/U4/r_dist_value_i0_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="38469"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38600): " arg1="\U5/U3/U4/U3/temp_b_i0_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="38600"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(44100): " arg1="\U8/u1/u1/u1/r_data_in_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="44100"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38193): " arg1="\U5/U3/U3/r_dist_state__i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="38193"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(51564): " arg1="\U8/u5/U1/r_index_state__i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="51564"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23857): " arg1="\U2/U4/freq_mode_i3" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23857"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41230): " arg1="\U7/U2/r_cmd__i5" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="41230"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(37776): " arg1="\U5/U3/U2/r_rise_index_i0_i15" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="37776"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(26825): " arg1="\U3/u3/r_dac_state_i7" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="26825"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(27252): " arg1="\U3/u3/U1/r_temp_state__i9" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="27252"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41394): " arg1="\U7/U2/u1/r_byte_size__i4" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="41394"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(43821): " arg1="\U8/u1/u1/r_cmd__i5" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="43821"  />
-    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23890): " arg1="_add_1_26885_e2_i0_i15" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23890"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(35348): " arg1="\U5/U1/r_angle_reso_i5" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="35348"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38709): " arg1="\U5/U4/r_angle_max_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="38709"  />
+    <postMsg mid="35935014" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38709): " arg1="\U5/U4/r_angle_max_i10" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="38709"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(51344): " arg1="\U8/u5/r_config_mode_i9" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="51344"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23846): " arg1="\U2/U4/reso_mode_i3" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23846"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(34348): " arg1="\U5/U4/U3/r_divisor_i0_i9" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="34348"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(40752): " arg1="\U7/r_flash_rdaddr_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="40752"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(40811): " arg1="\U7/r_page_rdnum_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="40811"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23224): " arg1="\U2/U2/r_cnt_state_high_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23224"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23466): " arg1="\U2/U3/r_cnt_lower_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23466"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41212): " arg1="\U7/U2/r_cmd__i5" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="41212"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(40834): " arg1="\U7/r_page_num_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="40834"  />
+    <postMsg mid="35935014" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(40752): " arg1="\U7/r_flash_rdaddr_i19" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="40752"  />
+    <postMsg mid="35935014" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23224): " arg1="\U2/U2/r_cnt_state_high_i5" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23224"  />
+    <postMsg mid="35935014" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23466): " arg1="\U2/U3/r_cnt_max_i18" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23466"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23875): " arg1="\U2/U4/r_angle_cal_value_i12" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23875"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(43448): " arg1="\U8/u1/r_sock_num_i1" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="43448"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(26071): " arg1="\U3/r_check_state__i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="26071"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(51264): " arg1="\U8/u5/r_set_para6_i0_i15" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="51264"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38451): " arg1="\U5/U3/U4/r_dist_value_i0_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="38451"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38582): " arg1="\U5/U3/U4/U3/temp_b_i0_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="38582"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(44082): " arg1="\U8/u1/u1/u1/r_data_in_i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="44082"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38175): " arg1="\U5/U3/U3/r_dist_state__i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="38175"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(51546): " arg1="\U8/u5/U1/r_index_state__i0" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="51546"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23852): " arg1="\U2/U4/freq_mode_i3" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23852"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(37758): " arg1="\U5/U3/U2/r_rise_index_i0_i15" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="37758"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(26820): " arg1="\U3/u3/r_dac_state_i7" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="26820"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(27247): " arg1="\U3/u3/U1/r_temp_state__i9" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="27247"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41376): " arg1="\U7/U2/u1/r_byte_size__i4" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="41376"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(43803): " arg1="\U8/u1/u1/r_cmd__i5" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="43803"  />
+    <postMsg mid="35935013" type="Warning" dynamic="2" navigation="2" arg0="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23885): " arg1="_add_1_26724_e2_i0_i15" arg2="d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v" arg3="23885"  />
 Duplicate register/latch removal. \U2/U2/r_cnt_state_low_i0 is a one-to-one match with \U2/U2/r_cnt_state_high_i4.
 Duplicate register/latch removal. \U2/U2/r_cnt_state_high_i10 is a one-to-one match with \U2/U2/r_cnt_state_high_i14.
 Duplicate register/latch removal. \U2/U2/r_cnt_state_high_i12 is a one-to-one match with \U2/U2/r_cnt_state_low_i0.
@@ -1034,7 +1051,6 @@ Duplicate register/latch removal. \U2/U3/r_cnt_state_low_i21 is a one-to-one mat
     <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_cnt_state_low_i18"  />
     <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_cnt_state_low_i19"  />
     <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_state_i0"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i1_58087_58088_set"  />
     <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U8/u5/r_zero_offset_i6"  />
     <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U8/u5/r_distance_max_i3"  />
     <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U8/u5/r_distance_max_i4"  />
@@ -1053,31 +1069,32 @@ Duplicate register/latch removal. \U2/U3/r_cnt_state_low_i21 is a one-to-one mat
     <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U8/u5/r_angle_offset_i11"  />
     <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U8/u5/r_angle_offset_i10"  />
     <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U8/u5/r_angle_offset_i9"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i2_58083_58084_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i8_58059_58060_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i0_58047_58048_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i3_58079_58080_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i9_58055_58056_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i1_58147_58148_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i2_58143_58144_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i3_58139_58140_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i4_58135_58136_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i4_58075_58076_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i5_58131_58132_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i6_58127_58128_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i5_58071_58072_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i7_58123_58124_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i0_58051_58052_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i6_58067_58068_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i8_58119_58120_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i9_58115_58116_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i10_58111_58112_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i11_58107_58108_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i12_58103_58104_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i7_58063_58064_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i13_58099_58100_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i14_58095_58096_set"  />
-    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i15_58091_58092_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i4_57827_57828_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i0_57803_57804_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i5_57823_57824_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i6_57819_57820_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i9_57807_57808_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i0_57799_57800_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i7_57815_57816_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i1_57899_57900_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i2_57895_57896_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i3_57891_57892_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i4_57887_57888_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i5_57883_57884_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i6_57879_57880_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i7_57875_57876_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i8_57871_57872_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i9_57867_57868_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i10_57863_57864_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i11_57859_57860_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i12_57855_57856_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i13_57851_57852_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i14_57847_57848_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i8_57811_57812_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_pwm_value_0_i15_57843_57844_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i1_57839_57840_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i2_57835_57836_set"  />
+    <postMsg mid="35001779" type="Warning" dynamic="1" navigation="0" arg0="\U3/u3/r_dac_value_i0_i3_57831_57832_set"  />
     <postMsg mid="35001753" type="Warning" dynamic="1" navigation="0" arg0="\U2/U2/r_pwm_value_i4"  />
     <postMsg mid="35001752" type="Warning" dynamic="1" navigation="0" arg0="\U2/U2/r_pwm_value_i9"  />
     <postMsg mid="35001753" type="Warning" dynamic="1" navigation="0" arg0="\U2/U3/r_cnt_high_i8"  />
@@ -1099,18 +1116,18 @@ Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i7 is a one-to-one mat
 Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i8 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i13.
 Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i9 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i14.
 Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i10 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i15.
-Duplicate register/latch removal. \U7/U2/r_cmd__i3 is a one-to-one match with \U7/U2/r_cmd__i4.
-Duplicate register/latch removal. \U7/U2/r_cmd__i6 is a one-to-one match with \U7/U2/r_cmd__i7.
 Duplicate register/latch removal. \U7/r_page_rdnum_i10 is a one-to-one match with \U7/r_page_rdnum_i9.
+Duplicate register/latch removal. \U7/U2/r_cmd__i7 is a one-to-one match with \U7/U2/r_cmd__i6.
+Duplicate register/latch removal. \U7/U2/r_cmd__i4 is a one-to-one match with \U7/U2/r_cmd__i3.
 Duplicate register/latch removal. \U7/r_page_rdnum_i10 is a one-to-one match with \U7/r_flash_rdaddr_i18.
 Duplicate register/latch removal. \U3/u3/U1/U2/r_divisor_i0_i12 is a one-to-one match with \U3/u3/U1/U2/r_divisor_i0_i15.
 Duplicate register/latch removal. \U3/u3/U1/U2/r_divisor_i0_i13 is a one-to-one match with \U3/u3/U1/U2/r_divisor_i0_i14.
 Duplicate register/latch removal. \U3/u3/U1/U2/r_divisor_i0_i12 is a one-to-one match with \U3/u3/U1/U2/r_divisor_i0_i13.
-Duplicate register/latch removal. _add_1_26885_e2_i0_i12 is a one-to-one match with _add_1_26885_e2_i0_i14.
+Duplicate register/latch removal. _add_1_26724_e2_i0_i12 is a one-to-one match with _add_1_26724_e2_i0_i14.
+    <postMsg mid="35001752" type="Warning" dynamic="1" navigation="0" arg0="_add_1_26724_e2_i0_i12"  />
     <postMsg mid="35001752" type="Warning" dynamic="1" navigation="0" arg0="\U3/u1/u1/clk_cnt_FSM_i14"  />
-    <postMsg mid="35001752" type="Warning" dynamic="1" navigation="0" arg0="_add_1_26885_e2_i0_i12"  />
+    <postMsg mid="35001752" type="Warning" dynamic="1" navigation="0" arg0="_add_1_26724_e2_i0_i13"  />
     <postMsg mid="35001752" type="Warning" dynamic="1" navigation="0" arg0="\U3/u1/u1/clk_cnt_FSM_i15"  />
-    <postMsg mid="35001752" type="Warning" dynamic="1" navigation="0" arg0="_add_1_26885_e2_i0_i13"  />
     <postMsg mid="35001752" type="Warning" dynamic="1" navigation="0" arg0="\U3/u1/u1/clk_cnt_FSM_i16"  />
     <postMsg mid="35001752" type="Warning" dynamic="1" navigation="0" arg0="\U3/u1/u1/clk_cnt_FSM_i17"  />
     <postMsg mid="35001752" type="Warning" dynamic="1" navigation="0" arg0="\U3/u1/u1/clk_cnt_FSM_i18"  />
@@ -1128,8 +1145,8 @@ Duplicate register/latch removal. _add_1_26885_e2_i0_i12 is a one-to-one match w
     <postMsg mid="35001752" type="Warning" dynamic="1" navigation="0" arg0="\U3/u1/u1/clk_cnt_FSM_i30"  />
     <postMsg mid="35001752" type="Warning" dynamic="1" navigation="0" arg0="\U3/u1/u1/clk_cnt_FSM_i31"  />
     <postMsg mid="35001752" type="Warning" dynamic="1" navigation="0" arg0="\U3/u1/u1/clk_cnt_FSM_i32"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58050"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58054"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57802"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57806"  />
     <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="\U5/U8/o_rise_data_15__I_0_i1"  />
     <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="\U5/U8/o_fall_data_15__I_0_i1"  />
     <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="\U5/U8/o_rise_data_15__I_0_i2"  />
@@ -1162,30 +1179,30 @@ Duplicate register/latch removal. _add_1_26885_e2_i0_i12 is a one-to-one match w
     <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="\U5/U8/o_fall_data_15__I_0_i14"  />
     <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="\U5/U8/o_fall_data_15__I_0_i15"  />
     <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="\U5/U8/o_fall_data_15__I_0_i16"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58058"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58062"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58066"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58070"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58074"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58078"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58082"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58086"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58090"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58094"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58098"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58102"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58106"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58110"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58114"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58118"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58122"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58126"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58130"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58134"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58138"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58142"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58146"  />
-    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i58046"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57810"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57814"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57818"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57822"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57826"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57830"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57834"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57838"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57842"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57846"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57850"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57854"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57858"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57862"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57866"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57870"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57874"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57878"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57882"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57886"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57890"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57894"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57898"  />
+    <postMsg mid="35001783" type="Warning" dynamic="1" navigation="0" arg0="i57798"  />
 Writing LPF file c25x_fpga_c25x_fpga.lpf.
 c25x_fpga_prim.v file will not be written because encrypted design file is being used
 
@@ -1199,7 +1216,7 @@ Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/data/neomacro.ngl'...
 Loading NGO design 'lngotmp/pmi_ram_dpebnonesadr1638163811890790.ngo'...
 Loading NGO design 'lngotmp/pmi_distributed_dpramebnoner105328f0007d.ngo'...
 Loading NGO design 'lngotmp/pmi_distributed_dpramebnoner164168f01b22.ngo'...
-Loading NGO design 'lngotmp/pmi_ram_dpebnonesadr83101024831010241218b37a.ngo'...
+Loading NGO design 'lngotmp/pmi_ram_dpebnonesadr74101024741010241218b3af.ngo'...
     <postMsg mid="50001000" type="Warning" dynamic="3" navigation="0" arg0="CLKOS" arg1="FREQUENCY_PIN_CLKOS" arg2="PLLInst_0"  />
 Logic has been added to the IP to support JTAG capability.
 Loading NGO design 'D:/lscc/diamond/3.12/ispfpga/sa5p00/data/sa5phub.ngl'...
@@ -1216,38 +1233,38 @@ Running DRC...
     <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="6"  />
 
 Design Results:
-  26011 blocks expanded
+  25831 blocks expanded
 completed the first expansion
 All blocks are expanded and NGD expansion is successful.
 Writing NGD file c25x_fpga_c25x_fpga.ngd.
 
 ################### Begin Area Report (c25x_fpga)######################
-Number of register bits => 7859 of 24879 (31 % )
+Number of register bits => 7831 of 24879 (31 % )
 AND2 => 3
 BB => 16
-CCU2C => 2623
+CCU2C => 2622
 DP16KD => 11
 EHXPLLL => 1
 FD1P3AX => 228
 FD1P3BX => 275
-FD1P3DX => 5471
-FD1P3IX => 187
+FD1P3DX => 5455
+FD1P3IX => 182
 FD1P3JX => 3
 FD1S3AX => 2
 FD1S3BX => 134
-FD1S3DX => 1424
-FD1S3IX => 127
-FD1S3JX => 8
+FD1S3DX => 1414
+FD1S3IX => 131
+FD1S3JX => 7
 GSR => 1
 IB => 7
 INV => 6
-L6MUX21 => 74
-LUT4 => 14217
+L6MUX21 => 63
+LUT4 => 14105
 MULT18X18D => 7
 MULT9X9D => 4
 OB => 51
 PDPW16KD => 4
-PFUMX => 1002
+PFUMX => 974
 ROM16X1A => 2
 ROM256X1A => 1
 USRMCLK => 1
@@ -1255,7 +1272,7 @@ XOR2 => 1
 pmi_distributed_dpramEbnoner105328f0007d => 1
 pmi_distributed_dpramEbnoner164168f01b22 => 1
 pmi_ram_dpEbnonesadr1638163811890790 => 1
-pmi_ram_dpEbnonesadr83101024831010241218b37a => 1
+pmi_ram_dpEbnonesadr74101024741010241218b3af => 1
 ################### End Area Report ##################
 
 ################### Begin BlackBox Report ######################
@@ -1265,36 +1282,36 @@ jtagconn16 => 1
 ################### Begin Clock Report ######################
 Clock Nets
 Number of Clocks: 5
-  Net : U1/w_pll_50m, loads : 7544
+  Net : U1/w_pll_50m, loads : 7534
   Net : U1/w_pll_100m, loads : 25
-  Net : U1/clk_N_9595, loads : 4
+  Net : U1/clk_N_9599, loads : 4
   Net : i_clk_50m_c, loads : 1
   Net : c25x_fpga_reveal_coretop_instance/jtck[0], loads : 1
 Clock Enable Nets
 Number of Clock Enables: 565
 Top 10 highest fanout Clock Enables:
-  Net : U5/U3/U1/w_pll_50m_enable_3808, loads : 64
-  Net : U8/u3/u1/w_pll_50m_enable_4810, loads : 64
-  Net : U8/u3/u1/w_pll_50m_enable_3918, loads : 50
-  Net : U8/u5/w_pll_50m_enable_889, loads : 50
-  Net : U8/u5/U2/w_pll_50m_enable_3603, loads : 50
-  Net : U8/u5/U1/w_pll_50m_enable_3497, loads : 50
-  Net : c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17031_enable_174, loads : 50
-  Net : U8/u5/w_pll_50m_enable_2733, loads : 50
-  Net : c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17031_enable_159, loads : 50
-  Net : U5/U3/U3/w_pll_50m_enable_1829, loads : 50
+  Net : U8/u3/u1/o_ntp_server_get_63__N_12440, loads : 64
+  Net : U8/u3/u1/w_pll_50m_enable_4691, loads : 64
+  Net : U8/u3/u1/o_ntp_server_send_63__N_12444, loads : 64
+  Net : U5/U7/w_pll_50m_enable_2392, loads : 64
+  Net : U5/U3/U1/w_pll_50m_enable_3779, loads : 64
+  Net : U5/U3/U3/w_pll_50m_enable_3011, loads : 50
+  Net : c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17035_enable_165, loads : 50
+  Net : U8/u4/w_pll_50m_enable_1728, loads : 50
+  Net : U8/u5/w_pll_50m_enable_386, loads : 50
+  Net : U5/U6/w_pll_50m_enable_2512, loads : 50
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : U8/u1/n227471, loads : 3846
-  Net : U8/u3/u1/rst_n_N_9286, loads : 2376
-  Net : U8/n227520, loads : 531
-  Net : c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/tcnt_0/reset_rvl_n, loads : 405
-  Net : U8/u5/w_sram_addr_eth[0], loads : 374
-  Net : c25x_fpga_reveal_coretop_instance/jtck_N_17031, loads : 335
-  Net : c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/jrstn_N_17029, loads : 328
-  Net : U8/u1/r_state[0], loads : 277
-  Net : U8/u5/w_sram_addr_eth[1], loads : 261
-  Net : U8/u1/r_state[2], loads : 251
+  Net : U8/u1/n223102, loads : 3857
+  Net : U8/u3/u1/rst_n_N_9290, loads : 2376
+  Net : U8/n222503, loads : 437
+  Net : c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/tcnt_0/reset_rvl_n, loads : 396
+  Net : U8/u5/w_sram_addr_eth[0], loads : 392
+  Net : c25x_fpga_reveal_coretop_instance/jtck_N_17035, loads : 317
+  Net : c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/jrstn_N_17033, loads : 310
+  Net : U8/u1/r_state[0], loads : 270
+  Net : U8/u5/w_sram_addr_eth[1], loads : 269
+  Net : U8/u1/r_state[1], loads : 243
 ################### End Clock Report ##################
 
 Timing Report Summary
@@ -1304,12 +1321,12 @@ Constraint                              |   Constraint|       Actual|Levels
 --------------------------------------------------------------------------------
                                         |             |             |
 create_clock -period 10.000000 -name    |             |             |
-clk502 [get_nets clk_N_9595]            |            -|            -|     0  
+clk503 [get_nets clk_N_9599]            |            -|            -|     0  
                                         |             |             |
 create_clock -period 10.000000 -name    |             |             |
 clk501 [get_nets                        |             |             |
 \c25x_fpga_reveal_coretop_instance/jtck[|             |             |
-0]]                                     |  100.000 MHz|   79.745 MHz|     9 *
+0]]                                     |  100.000 MHz|   84.104 MHz|     9 *
                                         |             |             |
 create_clock -period 10.000000          |             |             |
 -waveform { 0.000000 5.000000 } -name   |             |             |
@@ -1317,7 +1334,7 @@ w_pll_100m [ get_nets { w_pll_100m } ]  |  100.000 MHz|  131.631 MHz|     6
                                         |             |             |
 create_clock -period 20.000000          |             |             |
 -waveform { 0.000000 10.000000 } -name  |             |             |
-w_pll_50m [ get_nets { w_pll_50m_N } ]  |   50.000 MHz|   38.078 MHz|    28 *
+w_pll_50m [ get_nets { w_pll_50m_N } ]  |   50.000 MHz|   38.956 MHz|    25 *
                                         |             |             |
 create_clock -period 20.000000          |             |             |
 -waveform { 0.000000 10.000000 } -name  |             |             |
@@ -1329,10 +1346,10 @@ i_clk_50m [ get_ports { i_clk_50m } ]   |            -|            -|     0
 2 constraints not met.
 
 
-Peak Memory Usage: 461.828  MB
+Peak Memory Usage: 458.309  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 84.344  secs
+Elapsed CPU time for LSE flow : 97.016  secs
 --------------------------------------------------------------
 
 map -a "ECP5U" -p LFE5U-25F -t CABGA256 -s 6 -oc Industrial   "c25x_fpga_c25x_fpga.ngd" -o "c25x_fpga_c25x_fpga_map.ncd" -pr "c25x_fpga_c25x_fpga.prf" -mp "c25x_fpga_c25x_fpga.mrp" -lpf "D:/Project/H100_FPGA/c25x_fpga/c25x_fpga_c25x_fpga.lpf" -lpf "D:/Project/H100_FPGA/c25x_fpga.lpf"             
@@ -1365,24 +1382,24 @@ Removing unused logic...
 
 Optimizing...
 
-8143 CCU2 constant inputs absorbed.
+8145 CCU2 constant inputs absorbed.
 
     <postMsg mid="51001027" type="Warning" dynamic="1" navigation="0" arg0="w_rst_n"  />
 
 
 
 Design Summary:
-   Number of registers:   7933 out of 24879 (32%)
-      PFU registers:         7933 out of 24288 (33%)
+   Number of registers:   7905 out of 24879 (32%)
+      PFU registers:         7905 out of 24288 (33%)
       PIO registers:            0 out of   591 (0%)
-   Number of SLICEs:     11141 out of 12144 (92%)
-      SLICEs as Logic/ROM:  11111 out of 12144 (91%)
+   Number of SLICEs:     11071 out of 12144 (91%)
+      SLICEs as Logic/ROM:  11041 out of 12144 (91%)
       SLICEs as RAM:           30 out of  9108 (0%)
-      SLICEs as Carry:       2631 out of 12144 (22%)
-   Number of LUT4s:        19581 out of 24288 (81%)
-      Number used as logic LUTs:        14259
+      SLICEs as Carry:       2630 out of 12144 (22%)
+   Number of LUT4s:        19465 out of 24288 (80%)
+      Number used as logic LUTs:        14145
       Number used as distributed RAM:    60
-      Number used as ripple logic:      5262
+      Number used as ripple logic:      5260
       Number used as shift registers:     0
    Number of PIO sites used: 74 out of 197 (38%)
    Number of block RAMs:  21 out of 56 (38%)
@@ -1418,350 +1435,362 @@ Design Summary:
    Number of Used DSP ALU Sites:  0 out of 28 (0 %)
    Number of Used DSP PRADD Sites:  0 out of 56 (0 %)
    Number of clocks:  4
-     Net w_pll_50m: 4474 loads, 4470 rising, 4 falling (Driver: U1/PLLInst_0 )
+     Net w_pll_50m: 4464 loads, 4460 rising, 4 falling (Driver: U1/PLLInst_0 )
      Net i_clk_50m_c: 1 loads, 1 rising, 0 falling (Driver: PIO i_clk_50m )
-     Net jtaghub16_jtck: 234 loads, 0 rising, 234 falling (Driver: sa5phub/genblk8.jtagg_u )
+     Net jtaghub16_jtck: 225 loads, 0 rising, 225 falling (Driver: sa5phub/genblk8.jtagg_u )
      Net w_pll_100m: 15 loads, 15 rising, 0 falling (Driver: U1/PLLInst_0 )
    Number of Clock Enables:  563
-     Net w_pll_50m_enable_4096: 8 loads, 8 LSLICEs
-     Net w_pll_50m_enable_1016: 8 loads, 8 LSLICEs
-     Net w_pll_50m_enable_3867: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_4760: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_813: 9 loads, 9 LSLICEs
-     Net U8/u5/w_pll_50m_enable_2019: 1 loads, 1 LSLICEs
-     Net U8/u5/r_opto_ram_wren_N_16371: 4 loads, 4 LSLICEs
-     Net U8/u5/w_pll_50m_enable_2733: 25 loads, 25 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1875: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_287: 1 loads, 1 LSLICEs
+     Net w_pll_50m_enable_990: 8 loads, 8 LSLICEs
+     Net w_pll_50m_enable_3088: 8 loads, 8 LSLICEs
+     Net w_pll_50m_enable_3946: 8 loads, 8 LSLICEs
+     Net w_pll_50m_enable_2230: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_2262: 9 loads, 9 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1652: 11 loads, 11 LSLICEs
+     Net U8/u5/w_pll_50m_enable_486: 9 loads, 9 LSLICEs
+     Net U8/u5/w_pll_50m_enable_2623: 25 loads, 25 LSLICEs
+     Net U8/u5/w_pll_50m_enable_877: 9 loads, 9 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1818: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_306: 1 loads, 1 LSLICEs
+     Net U8/u5/r_opto_ram_wren_N_16375: 4 loads, 4 LSLICEs
      Net U8/u5/r_opto_ram_wren: 2 loads, 0 LSLICEs
-     Net U8/u5/r_code_seque_reg_15__N_15153: 9 loads, 9 LSLICEs
-     Net U8/u5/o_sram_store_flag_0__N_14387: 2 loads, 2 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1734: 5 loads, 5 LSLICEs
-     Net U8/u5/w_pll_50m_enable_300: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_301: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1726: 12 loads, 12 LSLICEs
-     Net U8/u5/w_pll_50m_enable_303: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_726: 9 loads, 9 LSLICEs
-     Net U8/u5/w_pll_50m_enable_4297: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_458: 4 loads, 4 LSLICEs
-     Net U8/u5/w_pll_50m_enable_497: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_528: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_575: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_783: 9 loads, 9 LSLICEs
-     Net U8/u5/w_pll_50m_enable_798: 13 loads, 13 LSLICEs
-     Net w_pll_50m_enable_844: 9 loads, 9 LSLICEs
-     Net U8/u5/w_pll_50m_enable_345: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_605: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_635: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_650: 9 loads, 9 LSLICEs
-     Net U8/u5/w_pll_50m_enable_665: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_590: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1636: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1615: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1596: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1574: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1378: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_620: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1345: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_680: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_695: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1193: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1155: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1140: 16 loads, 16 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1106: 20 loads, 20 LSLICEs
-     Net U8/u5/w_pll_50m_enable_4819: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_889: 26 loads, 26 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1031: 20 loads, 20 LSLICEs
-     Net U8/u5/w_pll_50m_enable_988: 16 loads, 16 LSLICEs
-     Net U8/u5/w_pll_50m_enable_954: 16 loads, 16 LSLICEs
-     Net U8/u5/r_cmd_make: 10 loads, 10 LSLICEs
-     Net U8/u5/w_pll_50m_enable_427: 4 loads, 4 LSLICEs
-     Net U8/u5/w_pll_50m_enable_435: 4 loads, 4 LSLICEs
-     Net U8/u5/w_pll_50m_enable_451: 9 loads, 9 LSLICEs
-     Net U8/u5/w_pll_50m_enable_466: 4 loads, 4 LSLICEs
-     Net U8/u5/w_pll_50m_enable_482: 9 loads, 9 LSLICEs
-     Net U8/u5/w_pll_50m_enable_513: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_544: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_560: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_711: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_742: 9 loads, 9 LSLICEs
-     Net w_pll_50m_enable_4719: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_829: 9 loads, 9 LSLICEs
-     Net U8/u5/w_pll_50m_enable_860: 9 loads, 9 LSLICEs
-     Net U8/u5/w_pll_50m_enable_861: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_862: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_863: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_864: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_865: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_866: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_867: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_907: 7 loads, 7 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1178: 9 loads, 9 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1363: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1546: 8 loads, 8 LSLICEs
-     Net U8/u5/o_sram_store_flag_3__N_14364: 2 loads, 2 LSLICEs
-     Net U8/u5/w_pll_50m_enable_1864: 4 loads, 4 LSLICEs
-     Net U8/u5/w_pll_50m_enable_4774: 5 loads, 5 LSLICEs
-     Net U8/u5/w_pll_50m_enable_2065: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_2066: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_2801: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_3080: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_4271: 4 loads, 4 LSLICEs
-     Net w_pll_50m_enable_4718: 9 loads, 9 LSLICEs
-     Net U8/u5/w_pll_50m_enable_3071: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_3073: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_3860: 8 loads, 8 LSLICEs
-     Net U8/u5/w_pll_50m_enable_2403: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_2404: 1 loads, 1 LSLICEs
-     Net U8/u5/r_time_stamp_set_63__N_15939: 8 loads, 8 LSLICEs
-     Net o_program_n_N_16264: 1 loads, 1 LSLICEs
+     Net U8/u5/r_code_seque_reg_15__N_15157: 9 loads, 9 LSLICEs
+     Net U8/u5/o_sram_store_flag_0__N_14391: 2 loads, 2 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1661: 5 loads, 5 LSLICEs
+     Net U8/u5/w_pll_50m_enable_315: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_317: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_320: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_386: 26 loads, 26 LSLICEs
+     Net U8/u5/w_pll_50m_enable_761: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_4152: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_493: 4 loads, 4 LSLICEs
+     Net U8/u5/w_pll_50m_enable_532: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_563: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_610: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_816: 9 loads, 9 LSLICEs
+     Net U8/u5/w_pll_50m_enable_831: 13 loads, 13 LSLICEs
+     Net U8/u5/w_pll_50m_enable_846: 9 loads, 9 LSLICEs
+     Net U8/u5/w_pll_50m_enable_374: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_640: 9 loads, 9 LSLICEs
+     Net U8/u5/w_pll_50m_enable_670: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_685: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_700: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_433: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_625: 9 loads, 9 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1580: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1548: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1499: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1368: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1334: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_655: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1162: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_715: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_730: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1140: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1108: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1090: 17 loads, 17 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1058: 20 loads, 20 LSLICEs
+     Net U8/u5/r_cmd_make: 11 loads, 11 LSLICEs
+     Net U8/u5/w_pll_50m_enable_916: 16 loads, 16 LSLICEs
+     Net U8/u5/w_pll_50m_enable_980: 20 loads, 20 LSLICEs
+     Net U8/u5/w_pll_50m_enable_940: 17 loads, 17 LSLICEs
+     Net U8/u5/w_pll_50m_enable_462: 4 loads, 4 LSLICEs
+     Net U8/u5/w_pll_50m_enable_470: 4 loads, 4 LSLICEs
+     Net U8/u5/w_pll_50m_enable_501: 4 loads, 4 LSLICEs
+     Net U8/u5/w_pll_50m_enable_517: 9 loads, 9 LSLICEs
+     Net U8/u5/w_pll_50m_enable_548: 9 loads, 9 LSLICEs
+     Net U8/u5/w_pll_50m_enable_579: 9 loads, 9 LSLICEs
+     Net U8/u5/w_pll_50m_enable_595: 9 loads, 9 LSLICEs
+     Net U8/u5/w_pll_50m_enable_746: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_777: 8 loads, 8 LSLICEs
+     Net w_pll_50m_enable_4566: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_862: 9 loads, 9 LSLICEs
+     Net U8/u5/w_pll_50m_enable_893: 9 loads, 9 LSLICEs
+     Net U8/u5/w_pll_50m_enable_894: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_895: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_896: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_897: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_898: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_899: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_900: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1125: 9 loads, 9 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1319: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1353: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1954: 5 loads, 5 LSLICEs
+     Net U8/u5/w_pll_50m_enable_2947: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_4671: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_4672: 1 loads, 1 LSLICEs
+     Net w_pll_50m_enable_4555: 9 loads, 9 LSLICEs
+     Net U8/u5/w_pll_50m_enable_2821: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_1812: 4 loads, 4 LSLICEs
+     Net U8/u5/w_pll_50m_enable_2944: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_2945: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_3787: 8 loads, 8 LSLICEs
+     Net U8/u5/w_pll_50m_enable_4159: 4 loads, 4 LSLICEs
+     Net U8/u5/w_pll_50m_enable_2249: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_2280: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_2281: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_2282: 1 loads, 1 LSLICEs
+     Net U8/u5/r_time_stamp_set_63__N_15943: 8 loads, 8 LSLICEs
+     Net o_program_n_N_16268: 1 loads, 1 LSLICEs
+     Net U8/u5/o_sram_store_flag_3__N_14368: 2 loads, 2 LSLICEs
      Net w_rst_n: 16 loads, 16 LSLICEs
-     Net U8/u5/r_measure_switch_N_16326: 1 loads, 1 LSLICEs
-     Net U8/r_program_sig_N_16330: 1 loads, 1 LSLICEs
-     Net U8/u5/w_pll_50m_enable_3076: 1 loads, 1 LSLICEs
-     Net U8/u5/U2/w_pll_50m_enable_3603: 25 loads, 25 LSLICEs
-     Net U8/u5/U2/w_pll_50m_enable_3617: 7 loads, 7 LSLICEs
-     Net U8/u5/U1/w_pll_50m_enable_1218: 9 loads, 9 LSLICEs
-     Net U8/u5/U1/w_pll_50m_enable_3511: 7 loads, 7 LSLICEs
-     Net U8/u5/U1/w_pll_50m_enable_3480: 16 loads, 16 LSLICEs
-     Net U8/u5/U1/w_pll_50m_enable_3497: 27 loads, 27 LSLICEs
-     Net w_pll_50m_enable_1248: 8 loads, 8 LSLICEs
-     Net U8/u5/U1/w_pll_50m_enable_1233: 8 loads, 8 LSLICEs
-     Net U8/u5/U1/w_pll_50m_enable_2295: 1 loads, 1 LSLICEs
-     Net U8/u5/U1/U1/w_pll_50m_enable_3678: 2 loads, 2 LSLICEs
-     Net U8/u5/U1/U1/w_pll_50m_enable_3708: 15 loads, 15 LSLICEs
-     Net U8/u5/U1/U1/w_pll_50m_enable_3738: 8 loads, 8 LSLICEs
-     Net U8/u5/U1/U1/w_pll_50m_enable_3778: 32 loads, 32 LSLICEs
-     Net U8/u5/U1/U1/w_pll_50m_enable_2026: 1 loads, 1 LSLICEs
-     Net U8/u4/w_pll_50m_enable_1793: 26 loads, 26 LSLICEs
-     Net U8/r_state_3__N_12710[1]: 7 loads, 7 LSLICEs
-     Net U8/w_pll_50m_enable_3413: 25 loads, 25 LSLICEs
-     Net U8/u4/w_pll_50m_enable_1810: 7 loads, 7 LSLICEs
-     Net w_pll_50m_enable_4647: 33 loads, 33 LSLICEs
-     Net w_pll_50m_enable_4584: 49 loads, 49 LSLICEs
-     Net w_pll_50m_enable_4710: 66 loads, 66 LSLICEs
-     Net U8/u3/u2/o_data_out_7__N_12703: 4 loads, 4 LSLICEs
-     Net U8/u3/u2/w_pll_50m_enable_4336: 6 loads, 6 LSLICEs
+     Net U8/u5/r_measure_switch_N_16330: 1 loads, 1 LSLICEs
+     Net U8/r_program_sig_N_16334: 1 loads, 1 LSLICEs
+     Net U8/u5/w_pll_50m_enable_2946: 1 loads, 1 LSLICEs
+     Net U8/w_pll_50m_enable_1762: 16 loads, 16 LSLICEs
+     Net U8/u5/U2/w_pll_50m_enable_3577: 25 loads, 25 LSLICEs
+     Net U8/u5/U2/w_pll_50m_enable_3591: 7 loads, 7 LSLICEs
+     Net U8/u5/U1/w_pll_50m_enable_3470: 27 loads, 27 LSLICEs
+     Net U8/u5/U1/w_pll_50m_enable_3453: 16 loads, 16 LSLICEs
+     Net U8/u5/U1/w_pll_50m_enable_1219: 8 loads, 8 LSLICEs
+     Net w_pll_50m_enable_1204: 8 loads, 8 LSLICEs
+     Net U8/u5/U1/w_pll_50m_enable_1189: 9 loads, 9 LSLICEs
+     Net U8/u5/U1/w_pll_50m_enable_3484: 7 loads, 7 LSLICEs
+     Net U8/u5/U1/w_pll_50m_enable_1956: 1 loads, 1 LSLICEs
+     Net U8/u5/U1/w_pll_50m_enable_4196: 1 loads, 1 LSLICEs
+     Net U8/u5/U1/U1/w_pll_50m_enable_3678: 15 loads, 15 LSLICEs
+     Net U8/u5/U1/U1/w_pll_50m_enable_3708: 8 loads, 8 LSLICEs
+     Net U8/u5/U1/U1/w_pll_50m_enable_1663: 1 loads, 1 LSLICEs
+     Net U8/u5/U1/U1/w_pll_50m_enable_3648: 2 loads, 2 LSLICEs
+     Net U8/u5/U1/U1/w_pll_50m_enable_3749: 32 loads, 32 LSLICEs
+     Net U8/u4/w_pll_50m_enable_1728: 26 loads, 26 LSLICEs
+     Net U8/r_state_3__N_12714[1]: 7 loads, 7 LSLICEs
+     Net U8/u4/w_pll_50m_enable_1747: 7 loads, 7 LSLICEs
+     Net U8/w_pll_50m_enable_3379: 25 loads, 25 LSLICEs
+     Net w_pll_50m_enable_4421: 49 loads, 49 LSLICEs
+     Net w_pll_50m_enable_4547: 66 loads, 66 LSLICEs
+     Net w_pll_50m_enable_4484: 33 loads, 33 LSLICEs
+     Net U8/u3/u2/w_pll_50m_enable_3387: 8 loads, 8 LSLICEs
      Net U8/w_send_data_req_udp: 2 loads, 0 LSLICEs
-     Net U8/u3/u2/w_pll_50m_enable_4346: 6 loads, 6 LSLICEs
-     Net U8/u3/u1/w_pll_50m_enable_4810: 32 loads, 32 LSLICEs
-     Net U8/u3/u1/w_pll_50m_enable_3857: 25 loads, 25 LSLICEs
+     Net U8/u3/u2/w_pll_50m_enable_4294: 6 loads, 6 LSLICEs
+     Net U8/u3/u2/w_pll_50m_enable_4565: 6 loads, 6 LSLICEs
+     Net U8/u3/u1/w_pll_50m_enable_4691: 32 loads, 32 LSLICEs
+     Net U8/u3/u1/w_pll_50m_enable_4076: 12 loads, 12 LSLICEs
+     Net U8/u3/u1/o_ntp_server_get_63__N_12440: 32 loads, 32 LSLICEs
+     Net U8/u3/u1/o_ntp_server_send_63__N_12444: 32 loads, 32 LSLICEs
      Net U8/w_recv_ack_udp: 12 loads, 12 LSLICEs
-     Net U8/u3/u1/w_pll_50m_enable_3918: 25 loads, 25 LSLICEs
-     Net U8/u3/u1/w_pll_50m_enable_4357: 12 loads, 12 LSLICEs
-     Net U8/u3/u1/o_ntp_server_get_63__N_12436: 7 loads, 7 LSLICEs
-     Net U8/u3/u1/o_ntp_server_send_63__N_12440: 7 loads, 7 LSLICEs
-     Net w_calib_pingpang: 4 loads, 0 LSLICEs
-     Net U8/u2/w_calib_rddata2_7__N_11538: 2 loads, 0 LSLICEs
-     Net w_packet_pingpang: 4 loads, 0 LSLICEs
-     Net U8/u2/w_packet_rddata2_7__N_11524: 2 loads, 0 LSLICEs
-     Net U8/u2/o_send_num_15__N_11677: 6 loads, 6 LSLICEs
-     Net U8/u2/w_pll_50m_enable_2202: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_4821: 17 loads, 17 LSLICEs
+     Net U8/u2/o_send_num_15__N_11681: 6 loads, 6 LSLICEs
+     Net U8/u2/o_data_out_7__N_11699: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_2302: 17 loads, 17 LSLICEs
      Net U8/w_send_data_req: 2 loads, 0 LSLICEs
-     Net U8/u2/w_pll_50m_enable_2125: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_2118: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_2060: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_2007: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_1886: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_1850: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_2072: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_2065: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1998: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1939: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1791: 4 loads, 4 LSLICEs
      Net U8/u2/r_eth_data_wren: 2 loads, 0 LSLICEs
-     Net U8/u2/w_pll_50m_enable_1831: 16 loads, 16 LSLICEs
-     Net U8/u2/w_packet_rddata1_7__N_11521: 2 loads, 0 LSLICEs
-     Net U8/u2/w_calib_rddata1_7__N_11535: 2 loads, 0 LSLICEs
-     Net U8/u2/w_pll_50m_enable_4152: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_1919: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_1908: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_1913: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_1901: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_1927: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_4215: 5 loads, 5 LSLICEs
-     Net U8/u2/w_pll_50m_enable_1936: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_1943: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_1951: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_1956: 3 loads, 3 LSLICEs
-     Net U8/u2/w_pll_50m_enable_1959: 2 loads, 2 LSLICEs
-     Net U8/u2/w_pll_50m_enable_1967: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_1974: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_1982: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_1992: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_2000: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_2037: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_2042: 3 loads, 3 LSLICEs
-     Net U8/u2/w_pll_50m_enable_2045: 2 loads, 2 LSLICEs
-     Net U8/u2/w_pll_50m_enable_2053: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_2064: 1 loads, 1 LSLICEs
-     Net U8/u2/w_pll_50m_enable_2800: 1 loads, 1 LSLICEs
-     Net U8/u2/w_pll_50m_enable_2095: 4 loads, 4 LSLICEs
-     Net U8/u2/w_pll_50m_enable_2103: 4 loads, 4 LSLICEs
-     Net w_pll_50m_enable_2111: 5 loads, 5 LSLICEs
-     Net U8/u2/w_pll_50m_enable_4316: 6 loads, 6 LSLICEs
-     Net U8/u2/w_pll_50m_enable_3150: 1 loads, 1 LSLICEs
-     Net U8/u2/w_pll_50m_enable_4376: 5 loads, 5 LSLICEs
-     Net U8/u2/w_pll_50m_enable_4192: 5 loads, 5 LSLICEs
-     Net U8/u2/w_pll_50m_enable_4374: 9 loads, 9 LSLICEs
-     Net U8/u2/w_pll_50m_enable_3149: 1 loads, 1 LSLICEs
-     Net U8/u2/w_pll_50m_enable_4771: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_2386: 8 loads, 8 LSLICEs
-     Net U8/u1/w_pll_50m_enable_2378: 4 loads, 4 LSLICEs
-     Net U8/u1/w_pll_50m_enable_2291: 4 loads, 4 LSLICEs
-     Net U8/u1/w_pll_50m_enable_203: 1 loads, 1 LSLICEs
+     Net w_packet_pingpang: 4 loads, 0 LSLICEs
+     Net U8/u2/w_packet_rddata1_7__N_11525: 2 loads, 0 LSLICEs
+     Net w_calib_pingpang: 4 loads, 0 LSLICEs
+     Net U8/u2/w_calib_rddata1_7__N_11539: 2 loads, 0 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1609: 1 loads, 1 LSLICEs
+     Net U8/u2/w_calib_rddata2_7__N_11542: 2 loads, 0 LSLICEs
+     Net U8/u2/w_packet_rddata2_7__N_11528: 2 loads, 0 LSLICEs
+     Net U8/u2/w_pll_50m_enable_3972: 5 loads, 5 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1824: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1801: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1834: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1841: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1849: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1858: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1866: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1874: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1883: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1891: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1898: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1905: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1915: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1923: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1932: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1975: 4 loads, 4 LSLICEs
+     Net w_pll_50m_enable_1980: 3 loads, 3 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1983: 2 loads, 2 LSLICEs
+     Net U8/u2/w_pll_50m_enable_1991: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_2042: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_3116: 1 loads, 1 LSLICEs
+     Net U8/u2/w_pll_50m_enable_4051: 5 loads, 5 LSLICEs
+     Net U8/u2/w_pll_50m_enable_2050: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_2058: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_3958: 5 loads, 5 LSLICEs
+     Net U8/u2/w_pll_50m_enable_4141: 4 loads, 4 LSLICEs
+     Net U8/u2/w_pll_50m_enable_2248: 1 loads, 1 LSLICEs
+     Net U8/u2/w_pll_50m_enable_4174: 6 loads, 6 LSLICEs
+     Net U8/u2/w_pll_50m_enable_4234: 9 loads, 9 LSLICEs
+     Net U8/u2/w_pll_50m_enable_3114: 1 loads, 1 LSLICEs
+     Net U8/u2/w_pll_50m_enable_3115: 1 loads, 1 LSLICEs
+     Net U8/u2/w_pll_50m_enable_4608: 1 loads, 1 LSLICEs
+     Net U8/u2/w_pll_50m_enable_4610: 1 loads, 1 LSLICEs
+     Net U8/u2/w_pll_50m_enable_4621: 1 loads, 1 LSLICEs
+     Net U8/u1/w_pll_50m_enable_2291: 5 loads, 5 LSLICEs
+     Net U8/u1/w_pll_50m_enable_2275: 4 loads, 4 LSLICEs
+     Net U8/u1/w_pll_50m_enable_4628: 6 loads, 6 LSLICEs
+     Net U8/u1/w_pll_50m_enable_2198: 4 loads, 4 LSLICEs
+     Net U8/u1/w_pll_50m_enable_194: 1 loads, 1 LSLICEs
      Net U8/u1/r_isTCPorUDP: 4 loads, 0 LSLICEs
-     Net U8/u1/w_pll_50m_enable_2258: 4 loads, 4 LSLICEs
+     Net U8/u1/w_pll_50m_enable_2155: 4 loads, 4 LSLICEs
+     Net U8/u1/w_pll_50m_enable_196: 1 loads, 1 LSLICEs
+     Net U8/u1/w_pll_50m_enable_2140: 8 loads, 8 LSLICEs
+     Net U8/u1/w_pll_50m_enable_198: 1 loads, 1 LSLICEs
      Net U8/u1/w_pll_50m_enable_205: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_2232: 8 loads, 8 LSLICEs
-     Net U8/u1/w_pll_50m_enable_207: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_211: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_2371: 4 loads, 4 LSLICEs
-     Net U8/u1/w_pll_50m_enable_4727: 23 loads, 23 LSLICEs
-     Net U8/u1/w_pll_50m_enable_4107: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_4108: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_4109: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_4110: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_4122: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_4123: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_4125: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_2175: 3 loads, 3 LSLICEs
-     Net U8/u1/w_pll_50m_enable_2185: 8 loads, 8 LSLICEs
-     Net U8/u1/w_pll_50m_enable_2182: 2 loads, 2 LSLICEs
-     Net U8/u1/w_pll_50m_enable_4124: 6 loads, 6 LSLICEs
-     Net U8/u1/w_pll_50m_enable_2210: 4 loads, 4 LSLICEs
-     Net U8/u1/w_pll_50m_enable_2217: 4 loads, 4 LSLICEs
-     Net U8/u1/w_pll_50m_enable_2242: 4 loads, 4 LSLICEs
-     Net U8/u1/w_pll_50m_enable_2259: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_2260: 1 loads, 1 LSLICEs
+     Net U8/u1/w_pll_50m_enable_3959: 1 loads, 1 LSLICEs
+     Net U8/u1/w_pll_50m_enable_3961: 1 loads, 1 LSLICEs
+     Net U8/u1/w_pll_50m_enable_3962: 1 loads, 1 LSLICEs
+     Net U8/u1/w_pll_50m_enable_3987: 1 loads, 1 LSLICEs
+     Net U8/u1/w_pll_50m_enable_3988: 1 loads, 1 LSLICEs
+     Net U8/u1/w_pll_50m_enable_3984: 1 loads, 1 LSLICEs
+     Net U8/u1/w_pll_50m_enable_4655: 23 loads, 23 LSLICEs
+     Net U8/u1/w_pll_50m_enable_2156: 1 loads, 1 LSLICEs
+     Net U8/u1/w_pll_50m_enable_3960: 1 loads, 1 LSLICEs
+     Net U8/u1/w_pll_50m_enable_3118: 1 loads, 1 LSLICEs
+     Net U8/u1/w_pll_50m_enable_3119: 1 loads, 1 LSLICEs
+     Net U8/u1/w_pll_50m_enable_3120: 1 loads, 1 LSLICEs
+     Net U8/u1/w_pll_50m_enable_3121: 1 loads, 1 LSLICEs
+     Net U8/u1/w_pll_50m_enable_2093: 3 loads, 3 LSLICEs
+     Net U8/u1/w_pll_50m_enable_2103: 8 loads, 8 LSLICEs
+     Net U8/u1/w_pll_50m_enable_2100: 2 loads, 2 LSLICEs
+     Net U8/u1/w_pll_50m_enable_2117: 4 loads, 4 LSLICEs
+     Net U8/u1/w_pll_50m_enable_2124: 4 loads, 4 LSLICEs
+     Net U8/u1/w_pll_50m_enable_2148: 4 loads, 4 LSLICEs
+     Net U8/u1/w_pll_50m_enable_2157: 1 loads, 1 LSLICEs
+     Net U8/u1/w_pll_50m_enable_2175: 4 loads, 4 LSLICEs
+     Net U8/u1/w_pll_50m_enable_2183: 4 loads, 4 LSLICEs
+     Net U8/u1/w_pll_50m_enable_2191: 4 loads, 4 LSLICEs
+     Net U8/u1/w_pll_50m_enable_4008: 6 loads, 6 LSLICEs
+     Net U8/u1/w_pll_50m_enable_4163: 1 loads, 1 LSLICEs
+     Net U8/u1/w_pll_50m_enable_4164: 1 loads, 1 LSLICEs
      Net U8/u1/w_pll_50m_enable_2268: 4 loads, 4 LSLICEs
-     Net U8/u1/w_pll_50m_enable_2276: 4 loads, 4 LSLICEs
-     Net U8/u1/w_pll_50m_enable_2284: 4 loads, 4 LSLICEs
+     Net U8/u1/w_pll_50m_enable_3949: 4 loads, 4 LSLICEs
+     Net U8/u1/w_pll_50m_enable_3790: 6 loads, 6 LSLICEs
+     Net w_pll_50m_enable_3788: 8 loads, 8 LSLICEs
+     Net U8/u1/w_pll_50m_enable_3714: 4 loads, 4 LSLICEs
      Net result_start_pulse: 1 loads, 1 LSLICEs
-     Net w_pll_50m_enable_2029: 1 loads, 1 LSLICEs
-     Net w_pll_50m_enable_4292: 18 loads, 18 LSLICEs
-     Net w_pll_50m_enable_894: 6 loads, 6 LSLICEs
-     Net w_pll_50m_enable_878: 3 loads, 3 LSLICEs
-     Net w_pll_50m_enable_404: 6 loads, 6 LSLICEs
-     Net w_pll_50m_enable_2412: 2 loads, 2 LSLICEs
-     Net w_pll_50m_enable_2820: 4 loads, 4 LSLICEs
-     Net w_pll_50m_enable_2498: 1 loads, 1 LSLICEs
-     Net w_pll_50m_enable_2137: 4 loads, 4 LSLICEs
-     Net w_pll_50m_enable_2068: 1 loads, 1 LSLICEs
-     Net w_pll_50m_enable_4375: 2 loads, 2 LSLICEs
-     Net w_pll_50m_enable_4779: 2 loads, 2 LSLICEs
-     Net w_pll_50m_enable_3941: 10 loads, 10 LSLICEs
-     Net w_pll_50m_enable_2309: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_4305: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_4306: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_3160: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_3161: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_3162: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_4773: 6 loads, 6 LSLICEs
-     Net U8/u1/w_pll_50m_enable_3922: 6 loads, 6 LSLICEs
-     Net U8/u1/w_pll_50m_enable_4128: 1 loads, 1 LSLICEs
-     Net U8/u1/w_pll_50m_enable_4098: 4 loads, 4 LSLICEs
-     Net w_pll_50m_enable_3868: 8 loads, 8 LSLICEs
-     Net U8/u1/w_pll_50m_enable_4106: 4 loads, 4 LSLICEs
-     Net U8/u1/w_pll_50m_enable_3864: 1 loads, 1 LSLICEs
-     Net U8/u1/o_recv_data_tcp_7__N_9492: 2 loads, 0 LSLICEs
+     Net w_pll_50m_enable_2695: 4 loads, 4 LSLICEs
+     Net w_pll_50m_enable_929: 6 loads, 6 LSLICEs
+     Net U8/u1/w_pll_50m_enable_3989: 1 loads, 1 LSLICEs
+     Net w_pll_50m_enable_904: 3 loads, 3 LSLICEs
+     Net w_pll_50m_enable_448: 6 loads, 6 LSLICEs
+     Net w_pll_50m_enable_4120: 18 loads, 18 LSLICEs
+     Net w_pll_50m_enable_2005: 4 loads, 4 LSLICEs
+     Net w_pll_50m_enable_1960: 1 loads, 1 LSLICEs
+     Net w_pll_50m_enable_2545: 2 loads, 2 LSLICEs
+     Net w_pll_50m_enable_2294: 2 loads, 2 LSLICEs
+     Net w_pll_50m_enable_2314: 1 loads, 1 LSLICEs
+     Net w_pll_50m_enable_1957: 1 loads, 1 LSLICEs
+     Net w_pll_50m_enable_2306: 1 loads, 1 LSLICEs
+     Net w_pll_50m_enable_4567: 2 loads, 2 LSLICEs
+     Net w_pll_50m_enable_3833: 8 loads, 8 LSLICEs
+     Net w_pll_50m_enable_4675: 5 loads, 5 LSLICEs
+     Net U8/u1/o_recv_data_tcp_7__N_9496: 2 loads, 0 LSLICEs
      Net U8/u1/u4/fcnt_en: 6 loads, 6 LSLICEs
      Net U8/u1/u4/wren_i: 8 loads, 6 LSLICEs
      Net U8/u1/u4/rden_i: 8 loads, 6 LSLICEs
-     Net U8/u1/u1/w_pll_50m_enable_2021: 16 loads, 16 LSLICEs
-     Net U8/u1/u1/w_pll_50m_enable_4326: 6 loads, 6 LSLICEs
-     Net U8/u1/u1/r_byte_size_16__N_10946: 32 loads, 32 LSLICEs
-     Net U8/u1/u1/w_pll_50m_enable_3358: 8 loads, 8 LSLICEs
-     Net U8/u1/u1/w_pll_50m_enable_3416: 1 loads, 1 LSLICEs
-     Net U8/u1/u1/u1/w_pll_50m_enable_4806: 16 loads, 16 LSLICEs
+     Net U8/u1/u1/w_pll_50m_enable_1639: 16 loads, 16 LSLICEs
+     Net U8/u1/u1/r_byte_size_16__N_10950: 31 loads, 31 LSLICEs
+     Net U8/u1/u1/w_pll_50m_enable_3326: 8 loads, 8 LSLICEs
+     Net U8/u1/u1/w_pll_50m_enable_4184: 6 loads, 6 LSLICEs
+     Net U8/u1/u1/w_pll_50m_enable_3380: 1 loads, 1 LSLICEs
      Net U8/u1/u1/u1/r_state[2]: 1 loads, 1 LSLICEs
-     Net U8/u1/u1/u1/w_pll_50m_enable_1572: 1 loads, 1 LSLICEs
-     Net U8/u1/u1/u1/w_pll_50m_enable_1568: 1 loads, 1 LSLICEs
-     Net U8/u1/u1/u1/w_pll_50m_enable_1571: 1 loads, 1 LSLICEs
-     Net U8/u1/u1/u1/w_pll_50m_enable_1692: 2 loads, 2 LSLICEs
-     Net U8/u1/u1/u1/w_pll_50m_enable_3722: 4 loads, 4 LSLICEs
-     Net U8/u1/u1/u1/w_pll_50m_enable_3715: 7 loads, 7 LSLICEs
-     Net U8/u1/u1/u1/w_pll_50m_enable_3723: 1 loads, 1 LSLICEs
-     Net U7/w_pll_50m_enable_2350: 16 loads, 16 LSLICEs
-     Net U7/w_pll_50m_enable_1036: 6 loads, 6 LSLICEs
-     Net U7/w_pll_50m_enable_3083: 8 loads, 8 LSLICEs
-     Net U7/w_pll_50m_enable_4427: 5 loads, 5 LSLICEs
-     Net U7/w_pll_50m_enable_2310: 8 loads, 8 LSLICEs
-     Net U7/w_pll_50m_enable_2239: 1 loads, 1 LSLICEs
-     Net w_pll_50m_enable_4432: 4 loads, 4 LSLICEs
-     Net U7/U2/w_pll_50m_enable_4412: 3 loads, 3 LSLICEs
-     Net U7/U2/w_pll_50m_enable_3865: 1 loads, 1 LSLICEs
-     Net U7/U2/w_pll_50m_enable_3921: 1 loads, 1 LSLICEs
-     Net U7/U2/u1/w_pll_50m_enable_3340: 2 loads, 2 LSLICEs
-     Net U7/U2/u1/w_pll_50m_enable_2028: 9 loads, 9 LSLICEs
-     Net U7/U2/u1/w_pll_50m_enable_3348: 1 loads, 1 LSLICEs
-     Net U7/U2/u1/w_pll_50m_enable_3346: 7 loads, 7 LSLICEs
-     Net U7/U2/u1/w_pll_50m_enable_1699: 1 loads, 1 LSLICEs
-     Net U7/U2/u1/w_pll_50m_enable_2298: 1 loads, 1 LSLICEs
-     Net U7/U2/u1/w_pll_50m_enable_3350: 1 loads, 1 LSLICEs
-     Net U7/U2/u1/u1/w_pll_50m_enable_1600: 2 loads, 2 LSLICEs
-     Net U7/U2/u1/u1/w_pll_50m_enable_1559: 1 loads, 1 LSLICEs
-     Net U7/U2/u1/u1/w_pll_50m_enable_3685: 8 loads, 8 LSLICEs
-     Net U7/U2/u1/u1/w_pll_50m_enable_1561: 1 loads, 1 LSLICEs
-     Net U7/U2/u1/u1/w_pll_50m_enable_2027: 1 loads, 1 LSLICEs
+     Net U8/u1/u1/u1/w_pll_50m_enable_1559: 1 loads, 1 LSLICEs
+     Net U8/u1/u1/u1/w_pll_50m_enable_3113: 16 loads, 16 LSLICEs
+     Net U8/u1/u1/u1/w_pll_50m_enable_1557: 1 loads, 1 LSLICEs
+     Net U8/u1/u1/u1/w_pll_50m_enable_1558: 1 loads, 1 LSLICEs
+     Net U8/u1/u1/u1/w_pll_50m_enable_3693: 1 loads, 1 LSLICEs
+     Net U8/u1/u1/u1/w_pll_50m_enable_3685: 7 loads, 7 LSLICEs
+     Net U8/u1/u1/u1/w_pll_50m_enable_1942: 2 loads, 2 LSLICEs
+     Net U8/u1/u1/u1/w_pll_50m_enable_3692: 4 loads, 4 LSLICEs
+     Net U7/w_pll_50m_enable_1671: 16 loads, 16 LSLICEs
+     Net U7/w_pll_50m_enable_305: 6 loads, 6 LSLICEs
+     Net U7/w_pll_50m_enable_1953: 8 loads, 8 LSLICEs
+     Net U7/w_pll_50m_enable_2296: 1 loads, 1 LSLICEs
+     Net U7/w_pll_50m_enable_4579: 5 loads, 5 LSLICEs
+     Net U7/w_pll_50m_enable_2163: 8 loads, 8 LSLICEs
+     Net U7/w_pll_50m_enable_4581: 4 loads, 4 LSLICEs
+     Net U7/U2/w_pll_50m_enable_3123: 1 loads, 1 LSLICEs
+     Net U7/U2/w_pll_50m_enable_4636: 3 loads, 3 LSLICEs
+     Net U7/U2/w_pll_50m_enable_3789: 1 loads, 1 LSLICEs
+     Net U7/U2/u1/w_pll_50m_enable_3315: 7 loads, 7 LSLICEs
+     Net U7/U2/u1/w_pll_50m_enable_1763: 9 loads, 9 LSLICEs
+     Net U7/U2/u1/w_pll_50m_enable_3309: 2 loads, 2 LSLICEs
+     Net U7/U2/u1/w_pll_50m_enable_1944: 1 loads, 1 LSLICEs
+     Net U7/U2/u1/w_pll_50m_enable_1958: 1 loads, 1 LSLICEs
+     Net U7/U2/u1/w_pll_50m_enable_3318: 1 loads, 1 LSLICEs
+     Net U7/U2/u1/w_pll_50m_enable_3317: 1 loads, 1 LSLICEs
+     Net U7/U2/u1/u1/w_pll_50m_enable_4696: 8 loads, 8 LSLICEs
      Net U7/U2/u1/u1/r_state[2]: 1 loads, 1 LSLICEs
-     Net U7/U2/u1/u1/w_pll_50m_enable_3692: 4 loads, 4 LSLICEs
-     Net U7/U2/u1/u1/w_pll_50m_enable_3693: 1 loads, 1 LSLICEs
-     Net U7/U2/u1/u1/w_pll_50m_enable_4794: 8 loads, 8 LSLICEs
-     Net w_pll_50m_enable_4074: 16 loads, 16 LSLICEs
+     Net U7/U2/u1/u1/w_pll_50m_enable_3655: 8 loads, 8 LSLICEs
+     Net U7/U2/u1/u1/w_pll_50m_enable_1552: 1 loads, 1 LSLICEs
+     Net U7/U2/u1/u1/w_pll_50m_enable_1554: 1 loads, 1 LSLICEs
+     Net U7/U2/u1/u1/w_pll_50m_enable_1731: 2 loads, 2 LSLICEs
+     Net U7/U2/u1/u1/w_pll_50m_enable_1744: 1 loads, 1 LSLICEs
+     Net U7/U2/u1/u1/w_pll_50m_enable_3662: 4 loads, 4 LSLICEs
+     Net U7/U2/u1/u1/w_pll_50m_enable_3663: 1 loads, 1 LSLICEs
+     Net w_pll_50m_enable_3914: 16 loads, 16 LSLICEs
      Net r_rst_cnt_15__N_33: 9 loads, 9 LSLICEs
-     Net w_pll_50m_enable_2966: 25 loads, 25 LSLICEs
-     Net w_pll_50m_enable_4521: 11 loads, 11 LSLICEs
-     Net w_zero_sign: 10 loads, 10 LSLICEs
-     Net jtaghub16_ip_enable0: 13 loads, 13 LSLICEs
+     Net w_pll_50m_enable_2835: 25 loads, 25 LSLICEs
+     Net r_adc_state_7__N_1786[1]: 11 loads, 11 LSLICEs
+     Net w_zero_sign: 9 loads, 9 LSLICEs
+     Net w_pll_50m_enable_4194: 16 loads, 16 LSLICEs
      Net jtaghub16_jupdate: 7 loads, 7 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/clk[0]_N_keep_enable_20: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/op_code_2__N_17553: 3 loads, 3 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/clk[0]_N_keep_enable_23: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/clk[0]_N_keep_enable_24: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/op_code_2__N_17553: 3 loads, 3 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/clk[0]_N_keep_enable_21: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/clk[0]_N_keep_enable_22: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/op_code_2__N_17553_adj_21612: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/clk[0]_N_keep_enable_19: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_50: 11 loads, 11 LSLICEs
+     Net jtaghub16_ip_enable0: 13 loads, 13 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/op_code_2__N_17539: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/clk[0]_N_keep_enable_31: 1 loads, 1 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/clk[0]_N_keep_enable_32: 1 loads, 1 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/op_code_2__N_17539_adj_21473: 3 loads, 3 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/clk[0]_N_keep_enable_35: 1 loads, 1 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/clk[0]_N_keep_enable_36: 1 loads, 1 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/op_code_2__N_17539_adj_21482: 3 loads, 3 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/clk[0]_N_keep_enable_33: 1 loads, 1 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/clk[0]_N_keep_enable_34: 1 loads, 1 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/clk[0]_N_keep_enable_37: 1 loads, 1 LSLICEs
      Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/num_then_wen: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_48: 11 loads, 11 LSLICEs
      Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_123: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/jtck_N_17031_enable_259: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_126: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/cnt_contig_reg_wen: 8 loads, 8 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/next_then_reg_wen: 9 loads, 9 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/clk[0]_N_keep_enable_201: 8 loads, 8 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_221: 9 loads, 9 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_178: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_162: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_130: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_146: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/jtck_N_17031_enable_291: 8 loads, 8 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/jtck_N_17031_enable_276: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_142: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/jtck_N_17035_enable_241: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/clk[0]_N_keep_enable_126: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/cnt_contig_reg_wen: 8 loads, 8 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/next_then_reg_wen: 8 loads, 8 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_201: 8 loads, 8 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_221: 8 loads, 8 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/jtck_N_17035_enable_258: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/jtck_N_17035_enable_273: 8 loads, 8 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_186: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_138: 2 loads, 2 LSLICEs
      Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_222: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/clk[0]_N_keep_enable_134: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/clk[0]_N_keep_enable_138: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/clk[0]_N_keep_enable_150: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/clk[0]_N_keep_enable_154: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/clk[0]_N_keep_enable_158: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/clk[0]_N_keep_enable_166: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/clk[0]_N_keep_enable_170: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/clk[0]_N_keep_enable_174: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/clk[0]_N_keep_enable_182: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/clk[0]_N_keep_enable_186: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_154: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_170: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_134: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_150: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_166: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_182: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_130: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/clk[0]_N_keep_enable_142: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_146: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/clk[0]_N_keep_enable_158: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_162: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/clk[0]_N_keep_enable_174: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/clk[0]_N_keep_enable_178: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/tcnt_0/clk[0]_N_keep_enable_206: 4 loads, 4 LSLICEs
      Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/tcnt_0/clk[0]_N_keep_enable_223: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/clk[0]_N_keep_enable_206: 4 loads, 4 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/clk[0]_N_keep_enable_25: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/clk[0]_N_keep_enable_47: 1 loads, 1 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/clk[0]_N_keep_enable_50: 1 loads, 1 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/reg0_read_N_18049: 1 loads, 1 LSLICEs
      Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/clk[0]_N_keep_enable_74: 5 loads, 5 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/reg0_read_N_18063: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtck_N_17031_enable_223: 25 loads, 25 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_65: 9 loads, 9 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtck_N_17035_enable_214: 25 loads, 25 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_65: 8 loads, 8 LSLICEs
      Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_78: 3 loads, 3 LSLICEs
      Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_87: 5 loads, 5 LSLICEs
      Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_6: 1 loads, 1 LSLICEs
      Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/sample_en_d: 5 loads, 5 LSLICEs
      Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_111: 5 loads, 5 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/trace_dout_int_82__N_18311: 7 loads, 7 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/trace_dout_int_73__N_18288: 8 loads, 8 LSLICEs
      Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_120: 5 loads, 5 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_16: 1 loads, 1 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_49: 1 loads, 1 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_237: 4 loads, 4 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_232: 5 loads, 5 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_241: 3 loads, 3 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_246: 3 loads, 3 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_24: 1 loads, 1 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_29: 1 loads, 1 LSLICEs
      Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_88: 1 loads, 1 LSLICEs
      Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_89: 1 loads, 1 LSLICEs
      Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_90: 1 loads, 1 LSLICEs
@@ -1777,316 +1806,510 @@ Design Summary:
      Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_100: 1 loads, 1 LSLICEs
      Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_101: 1 loads, 1 LSLICEs
      Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_102: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_16: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_17: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_18: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_237: 4 loads, 4 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_46: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_232: 5 loads, 5 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_241: 3 loads, 3 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/clk[0]_N_keep_enable_246: 3 loads, 3 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtck_N_17031_enable_256: 17 loads, 17 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17031_enable_18: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17031_enable_159: 25 loads, 25 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17031_enable_61: 26 loads, 26 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17031_enable_27: 4 loads, 4 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17031_enable_77: 8 loads, 8 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17031_enable_174: 26 loads, 26 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17031_enable_274: 8 loads, 8 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17031_enable_9: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17031_enable_10: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17031_enable_20: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17031_enable_14: 2 loads, 2 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17031_enable_19: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17031_enable_62: 1 loads, 1 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17031_enable_17: 1 loads, 1 LSLICEs
-     Net w_pll_50m_enable_4789: 16 loads, 16 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtck_N_17035_enable_238: 12 loads, 12 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17035_enable_14: 2 loads, 2 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17035_enable_27: 4 loads, 4 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17035_enable_61: 26 loads, 26 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17035_enable_77: 8 loads, 8 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17035_enable_165: 26 loads, 26 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17035_enable_20: 1 loads, 1 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17035_enable_256: 9 loads, 9 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17035_enable_19: 1 loads, 1 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17035_enable_18: 1 loads, 1 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17035_enable_150: 21 loads, 21 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17035_enable_62: 1 loads, 1 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17035_enable_11: 1 loads, 1 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17035_enable_12: 1 loads, 1 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17035_enable_17: 1 loads, 1 LSLICEs
      Net w_motor_state: 1 loads, 1 LSLICEs
-     Net U2/U4/w_pll_50m_enable_2293: 12 loads, 12 LSLICEs
-     Net U2/U4/w_pll_50m_enable_4406: 3 loads, 3 LSLICEs
-     Net w_pll_50m_enable_52: 5 loads, 5 LSLICEs
-     Net U2/U4/w_pll_50m_enable_4419: 12 loads, 12 LSLICEs
-     Net U2/U4/w_pll_50m_enable_4751: 8 loads, 8 LSLICEs
-     Net w_pll_50m_enable_4444: 21 loads, 21 LSLICEs
-     Net w_pll_50m_enable_3017: 26 loads, 26 LSLICEs
-     Net w_pll_50m_enable_3070: 26 loads, 26 LSLICEs
-     Net U2/U3/w_pll_50m_enable_37: 8 loads, 8 LSLICEs
-     Net U2/U3/w_pll_50m_enable_4422: 16 loads, 16 LSLICEs
-     Net U2/U3/w_pll_50m_enable_2010: 4 loads, 4 LSLICEs
-     Net U2/U3/frequency_state_N_1113: 6 loads, 6 LSLICEs
-     Net U2/U3/w_pll_50m_enable_4421: 1 loads, 1 LSLICEs
-     Net U2/U3/w_pll_50m_enable_4380: 2 loads, 2 LSLICEs
-     Net U2/r_state_cnt_3__N_373: 5 loads, 5 LSLICEs
-     Net U2/w_pll_50m_enable_4776: 4 loads, 4 LSLICEs
-     Net U2/U2/w_pll_50m_enable_4119: 2 loads, 2 LSLICEs
-     Net U2/U1/o_opto_switch_N_109: 1 loads, 1 LSLICEs
-     Net U2/U1/w_pll_50m_enable_4753: 8 loads, 8 LSLICEs
-     Net U5/u2/w_pll_50m_enable_2165: 8 loads, 8 LSLICEs
-     Net U5/u2/w_pll_50m_enable_87: 1 loads, 1 LSLICEs
-     Net U5/u2/w_pll_50m_enable_2923: 1 loads, 1 LSLICEs
-     Net U5/u2/w_pll_50m_enable_2919: 2 loads, 2 LSLICEs
-     Net U5/u2/w_pll_50m_enable_939: 1 loads, 1 LSLICEs
-     Net U5/u2/no_first_flag_N_3979: 1 loads, 1 LSLICEs
-     Net U5/u2/w_pll_50m_enable_4126: 1 loads, 1 LSLICEs
-     Net U5/u2/w_pll_50m_enable_2128: 3 loads, 3 LSLICEs
-     Net U5/u2/w_pll_50m_enable_2143: 8 loads, 8 LSLICEs
-     Net U5/u2/spi_rw_flag_N_3957: 1 loads, 1 LSLICEs
-     Net U5/u2/w_pll_50m_enable_2423: 5 loads, 5 LSLICEs
-     Net U5/u2/w_pll_50m_enable_3299: 2 loads, 2 LSLICEs
-     Net U5/u2/w_pll_50m_enable_2797: 1 loads, 1 LSLICEs
-     Net U5/u2/w_pll_50m_enable_4127: 1 loads, 1 LSLICEs
-     Net U5/u2/w_pll_50m_enable_4221: 3 loads, 3 LSLICEs
-     Net U5/w_pll_50m_enable_4274: 2 loads, 2 LSLICEs
-     Net U5/w_pll_50m_enable_4277: 2 loads, 2 LSLICEs
-     Net U5/u2/u_mpt2042_spi_top/w_pll_50m_enable_2020: 5 loads, 5 LSLICEs
-     Net U5/u2/u_mpt2042_spi_top/spi_clk_cnt_flag_N_4130: 1 loads, 1 LSLICEs
-     Net U5/U7/r_packet_state_9__N_8276: 4 loads, 4 LSLICEs
-     Net U5/U7/w_pll_50m_enable_2494: 5 loads, 5 LSLICEs
-     Net U5/U7/w_pll_50m_enable_2471: 26 loads, 26 LSLICEs
-     Net U5/U7/w_pll_50m_enable_4304: 2 loads, 2 LSLICEs
-     Net U5/U7/w_pll_50m_enable_2486: 7 loads, 7 LSLICEs
-     Net U5/U7/w_pll_50m_enable_3923: 5 loads, 5 LSLICEs
-     Net U5/U6/r_packet_state_9__N_7886: 4 loads, 4 LSLICEs
-     Net U5/U6/w_pll_50m_enable_2670: 16 loads, 16 LSLICEs
-     Net U5/U6/w_pll_50m_enable_2625: 5 loads, 5 LSLICEs
-     Net U5/U6/r_packet_state_9__N_7955[0]: 5 loads, 5 LSLICEs
-     Net U5/U6/w_pll_50m_enable_2545: 27 loads, 27 LSLICEs
-     Net U5/U6/w_pll_50m_enable_4769: 5 loads, 5 LSLICEs
-     Net U5/U6/w_pll_50m_enable_3924: 4 loads, 4 LSLICEs
-     Net U5/U6/w_pll_50m_enable_1701: 1 loads, 1 LSLICEs
-     Net U5/U6/w_pll_50m_enable_2629: 1 loads, 1 LSLICEs
-     Net U5/U6/o_scan_counter_15__N_8048: 9 loads, 9 LSLICEs
-     Net U5/U6/w_pll_50m_enable_4264: 4 loads, 4 LSLICEs
-     Net U5/U6/w_pll_50m_enable_2605: 25 loads, 25 LSLICEs
-     Net U5/U6/o_first_angle_15__N_8087: 23 loads, 23 LSLICEs
-     Net U5/w_pll_50m_enable_2917: 25 loads, 25 LSLICEs
-     Net U5/U4/w_pll_50m_enable_2835: 5 loads, 5 LSLICEs
-     Net U5/U4/w_pll_50m_enable_2782: 5 loads, 5 LSLICEs
-     Net U5/U4/w_pll_50m_enable_101: 1 loads, 1 LSLICEs
-     Net U5/U4/w_dist_rddata1_63__N_6994: 2 loads, 0 LSLICEs
-     Net U5/U4/w_dist_rddata2_63__N_7003: 2 loads, 0 LSLICEs
-     Net U5/U4/w_pll_50m_enable_4078: 1 loads, 1 LSLICEs
-     Net U5/U4/w_pll_50m_enable_4257: 4 loads, 4 LSLICEs
-     Net U5/U4/w_pll_50m_enable_4080: 4 loads, 4 LSLICEs
-     Net U5/w_dist_sig: 8 loads, 8 LSLICEs
-     Net U5/U4/U3/w_pll_50m_enable_3295: 5 loads, 5 LSLICEs
-     Net U5/U4/U3/w_pll_50m_enable_3296: 2 loads, 2 LSLICEs
-     Net U5/U4/U3/w_pll_50m_enable_3306: 4 loads, 4 LSLICEs
-     Net U5/U4/U3/w_pll_50m_enable_3337: 16 loads, 16 LSLICEs
-     Net U5/U4/U3/w_pll_50m_enable_2308: 1 loads, 1 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_4805: 16 loads, 16 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_3132: 13 loads, 13 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_3199: 8 loads, 8 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_3214: 8 loads, 8 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_3229: 8 loads, 8 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_3244: 8 loads, 8 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_3259: 16 loads, 16 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_3272: 7 loads, 7 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_1686: 3 loads, 3 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_1061: 1 loads, 1 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_4040: 17 loads, 17 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_3961: 1 loads, 1 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_3958: 1 loads, 1 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_3963: 1 loads, 1 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_3141: 5 loads, 5 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_3184: 8 loads, 8 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_4024: 8 loads, 8 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_4055: 13 loads, 13 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_4813: 3 loads, 3 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_3960: 2 loads, 2 LSLICEs
-     Net U5/U3/U4/r_mult1_en: 8 loads, 8 LSLICEs
-     Net U5/U3/U4/w_pll_50m_enable_1531: 35 loads, 35 LSLICEs
-     Net U5/U3/U4/n237586: 2 loads, 0 LSLICEs
-     Net U5/U3/U4/U3/w_pll_50m_enable_3677: 16 loads, 16 LSLICEs
-     Net U5/U3/U4/U3/w_pll_50m_enable_2804: 1 loads, 1 LSLICEs
-     Net U5/U3/U4/U3/w_pll_50m_enable_3644: 8 loads, 8 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_1829: 26 loads, 26 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_1045: 2 loads, 2 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_3102: 8 loads, 8 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_1042: 2 loads, 2 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_1645: 8 loads, 8 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_4803: 3 loads, 3 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_1666: 8 loads, 8 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_1043: 1 loads, 1 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_3117: 8 loads, 8 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_3978: 8 loads, 8 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_3993: 8 loads, 8 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_1893: 8 loads, 8 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_4145: 8 loads, 8 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_4820: 3 loads, 3 LSLICEs
-     Net U5/U3/U3/r_mult1_en: 2 loads, 2 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_2313: 1 loads, 1 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_4815: 3 loads, 3 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_2396: 1 loads, 1 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_2397: 1 loads, 1 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_2398: 1 loads, 1 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_2400: 1 loads, 1 LSLICEs
-     Net U5/U3/U3/r_mult2_en: 1 loads, 1 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_1479: 25 loads, 25 LSLICEs
-     Net U5/U3/U3/n237584: 1 loads, 0 LSLICEs
-     Net U5/U3/U3/w_pll_50m_enable_1429: 26 loads, 26 LSLICEs
-     Net U5/U3/U3/n237582: 1 loads, 0 LSLICEs
-     Net U5/U3/U2/w_pll_50m_enable_2746: 14 loads, 14 LSLICEs
-     Net U5/U3/U2/w_pll_50m_enable_127: 1 loads, 1 LSLICEs
-     Net U5/U3/U2/w_pll_50m_enable_128: 1 loads, 1 LSLICEs
-     Net U5/U3/U2/w_pll_50m_enable_129: 1 loads, 1 LSLICEs
-     Net U5/U3/U2/w_pll_50m_enable_1014: 13 loads, 13 LSLICEs
-     Net U5/U3/U2/w_pll_50m_enable_1013: 11 loads, 11 LSLICEs
-     Net U5/U3/U2/w_pll_50m_enable_1008: 10 loads, 10 LSLICEs
-     Net U5/U3/U2/w_pll_50m_enable_1015: 1 loads, 1 LSLICEs
-     Net U5/U3/U1/w_pll_50m_enable_3808: 24 loads, 24 LSLICEs
-     Net U5/U3/U1/w_pll_50m_enable_2022: 1 loads, 1 LSLICEs
-     Net U3/w_pll_50m_enable_1508: 1 loads, 1 LSLICEs
-     Net U3/w_pll_50m_enable_2025: 1 loads, 1 LSLICEs
+     Net U3/w_pll_50m_enable_1608: 1 loads, 1 LSLICEs
+     Net U3/w_pll_50m_enable_2244: 1 loads, 1 LSLICEs
      Net U3/u5/r_pulse_sig: 6 loads, 6 LSLICEs
+     Net w_pll_50m_enable_2889: 26 loads, 26 LSLICEs
+     Net w_pll_50m_enable_2943: 26 loads, 26 LSLICEs
      Net U3/u4/r_dist_state_7__N_2867: 12 loads, 12 LSLICEs
      Net U3/u4/r_mult_en: 17 loads, 16 LSLICEs
      Net U3/u4/r_dist_state_7__N_2865: 22 loads, 22 LSLICEs
-     Net U3/u4/w_pll_50m_enable_4235: 9 loads, 9 LSLICEs
-     Net U3/u4/w_pll_50m_enable_3082: 1 loads, 1 LSLICEs
-     Net U3/u4/w_pll_50m_enable_4420: 8 loads, 8 LSLICEs
+     Net U3/u4/w_pll_50m_enable_4090: 9 loads, 9 LSLICEs
+     Net U3/u4/w_pll_50m_enable_4274: 8 loads, 8 LSLICEs
+     Net U3/u4/w_pll_50m_enable_2949: 1 loads, 1 LSLICEs
      Net U3/u3/r_apd_temp_15__N_2161: 4 loads, 4 LSLICEs
      Net U3/u3/r_mult_en: 25 loads, 24 LSLICEs
-     Net U3/u3/w_pll_50m_enable_4793: 8 loads, 8 LSLICEs
-     Net U3/u3/w_pll_50m_enable_2063: 1 loads, 1 LSLICEs
-     Net U3/u3/U1/w_pll_50m_enable_3956: 3 loads, 3 LSLICEs
-     Net U3/u3/U1/n237572: 1 loads, 0 LSLICEs
-     Net U3/u3/U1/w_pll_50m_enable_915: 23 loads, 23 LSLICEs
-     Net U3/u3/U1/w_pll_50m_enable_908: 7 loads, 7 LSLICEs
-     Net U3/u3/U1/w_pll_50m_enable_904: 11 loads, 11 LSLICEs
-     Net U3/u3/U1/w_pll_50m_enable_419: 5 loads, 5 LSLICEs
-     Net U3/u3/U1/w_pll_50m_enable_913: 1 loads, 1 LSLICEs
+     Net U3/u3/w_pll_50m_enable_4622: 8 loads, 8 LSLICEs
+     Net U3/u3/w_pll_50m_enable_2232: 1 loads, 1 LSLICEs
+     Net U3/u3/U1/w_pll_50m_enable_965: 23 loads, 23 LSLICEs
+     Net U3/u3/U1/w_pll_50m_enable_947: 7 loads, 7 LSLICEs
+     Net U3/u3/U1/w_pll_50m_enable_943: 11 loads, 11 LSLICEs
+     Net U3/u3/U1/w_pll_50m_enable_434: 5 loads, 5 LSLICEs
+     Net U3/u3/U1/w_pll_50m_enable_964: 1 loads, 1 LSLICEs
+     Net U3/u3/U1/w_pll_50m_enable_4702: 3 loads, 3 LSLICEs
      Net U3/u3/U1/r_mult_en: 8 loads, 8 LSLICEs
-     Net U3/u3/U1/w_pll_50m_enable_4059: 3 loads, 3 LSLICEs
-     Net U3/u3/U1/w_pll_50m_enable_4188: 16 loads, 16 LSLICEs
-     Net U3/u3/U1/w_pll_50m_enable_3077: 1 loads, 1 LSLICEs
-     Net U3/u3/U1/w_pll_50m_enable_1332: 26 loads, 26 LSLICEs
-     Net U3/u3/U1/U2/w_pll_50m_enable_3359: 2 loads, 2 LSLICEs
-     Net U3/u3/U1/U2/w_pll_50m_enable_3523: 11 loads, 11 LSLICEs
-     Net U3/u3/U1/U2/w_pll_50m_enable_3554: 32 loads, 32 LSLICEs
-     Net U3/u3/U1/U2/w_pll_50m_enable_2030: 1 loads, 1 LSLICEs
-     Net U3/u2/w_pll_50m_enable_55: 1 loads, 1 LSLICEs
-     Net U3/u2/w_pll_50m_enable_57: 1 loads, 1 LSLICEs
-     Net U3/u2/w_pll_50m_enable_3746: 3 loads, 3 LSLICEs
+     Net U3/u3/U1/w_pll_50m_enable_3918: 3 loads, 3 LSLICEs
+     Net U3/u3/U1/w_pll_50m_enable_2728: 1 loads, 1 LSLICEs
+     Net U3/u3/U1/w_pll_50m_enable_4042: 16 loads, 16 LSLICEs
+     Net U3/u3/U1/w_pll_50m_enable_1301: 26 loads, 26 LSLICEs
+     Net U3/u3/U1/n232779: 1 loads, 0 LSLICEs
+     Net U3/u3/U1/U2/w_pll_50m_enable_3327: 2 loads, 2 LSLICEs
+     Net U3/u3/U1/U2/w_pll_50m_enable_3497: 11 loads, 11 LSLICEs
+     Net U3/u3/U1/U2/w_pll_50m_enable_3528: 32 loads, 32 LSLICEs
+     Net U3/u3/U1/U2/w_pll_50m_enable_1955: 1 loads, 1 LSLICEs
+     Net U3/u2/w_pll_50m_enable_36: 1 loads, 1 LSLICEs
+     Net U3/u2/w_pll_50m_enable_37: 1 loads, 1 LSLICEs
+     Net U3/u2/w_pll_50m_enable_3599: 3 loads, 3 LSLICEs
      Net U3/u1/o_adc1_value_9__N_1834: 5 loads, 5 LSLICEs
      Net U3/u1/o_adc2_value_9__N_1835: 5 loads, 5 LSLICEs
-     Net U3/u1/w_pll_50m_enable_2601: 1 loads, 1 LSLICEs
-     Net U3/u1/u1/w_pll_50m_enable_890: 1 loads, 1 LSLICEs
-     Net U3/u1/u1/w_pll_50m_enable_1697: 1 loads, 1 LSLICEs
-     Net U3/u1/u1/w_pll_50m_enable_2785: 1 loads, 1 LSLICEs
-     Net U3/u1/u1/w_pll_50m_enable_2798: 1 loads, 1 LSLICEs
-     Net U3/u1/u1/w_pll_50m_enable_2783: 1 loads, 1 LSLICEs
-     Net U3/u1/u1/w_pll_50m_enable_2789: 1 loads, 1 LSLICEs
-     Net U3/u1/u1/w_pll_50m_enable_4301: 3 loads, 3 LSLICEs
-     Net U3/u1/u1/w_pll_50m_enable_2784: 1 loads, 1 LSLICEs
-     Net U3/u1/u1/w_pll_50m_enable_2787: 1 loads, 1 LSLICEs
-     Net U3/u1/u1/w_pll_50m_enable_2793: 1 loads, 1 LSLICEs
-     Net U3/u1/u1/w_pll_50m_enable_2810: 1 loads, 1 LSLICEs
-     Net U3/u1/u1/w_pll_50m_enable_2811: 1 loads, 1 LSLICEs
-     Net U3/u1/u1/w_pll_50m_enable_2932: 1 loads, 1 LSLICEs
+     Net U3/u1/w_pll_50m_enable_2367: 1 loads, 1 LSLICEs
+     Net U3/u1/u1/w_pll_50m_enable_925: 1 loads, 1 LSLICEs
+     Net U3/u1/u1/w_pll_50m_enable_1625: 1 loads, 1 LSLICEs
+     Net U3/u1/u1/w_pll_50m_enable_2683: 1 loads, 1 LSLICEs
+     Net U3/u1/u1/w_pll_50m_enable_2668: 1 loads, 1 LSLICEs
+     Net U3/u1/u1/w_pll_50m_enable_2672: 1 loads, 1 LSLICEs
+     Net U3/u1/u1/w_pll_50m_enable_4188: 3 loads, 3 LSLICEs
+     Net U3/u1/u1/w_pll_50m_enable_2654: 1 loads, 1 LSLICEs
+     Net U3/u1/u1/w_pll_50m_enable_2669: 1 loads, 1 LSLICEs
+     Net U3/u1/u1/w_pll_50m_enable_2670: 1 loads, 1 LSLICEs
+     Net U3/u1/u1/w_pll_50m_enable_2671: 1 loads, 1 LSLICEs
+     Net U3/u1/u1/w_pll_50m_enable_2674: 1 loads, 1 LSLICEs
+     Net U3/u1/u1/w_pll_50m_enable_2675: 1 loads, 1 LSLICEs
+     Net U3/u1/u1/w_pll_50m_enable_2797: 1 loads, 1 LSLICEs
+     Net U2/U4/w_pll_50m_enable_2209: 12 loads, 12 LSLICEs
+     Net U2/U4/w_pll_50m_enable_4245: 7 loads, 7 LSLICEs
+     Net U2/U4/w_pll_50m_enable_4271: 12 loads, 12 LSLICEs
+     Net w_pll_50m_enable_4255: 21 loads, 21 LSLICEs
+     Net U2/U4/w_pll_50m_enable_4588: 8 loads, 8 LSLICEs
+     Net U2/U3/w_pll_50m_enable_4699: 16 loads, 16 LSLICEs
+     Net U2/U3/w_pll_50m_enable_24: 8 loads, 8 LSLICEs
+     Net U2/w_pll_50m_enable_3928: 5 loads, 5 LSLICEs
+     Net U2/U3/w_pll_50m_enable_4007: 2 loads, 2 LSLICEs
+     Net U2/w_pll_50m_enable_2214: 4 loads, 4 LSLICEs
+     Net U2/U3/w_pll_50m_enable_4275: 1 loads, 1 LSLICEs
+     Net U2/U2/r_state_cnt_3__N_373: 5 loads, 5 LSLICEs
+     Net U2/U2/w_pll_50m_enable_3978: 2 loads, 2 LSLICEs
+     Net U2/U2/w_pll_50m_enable_4597: 4 loads, 4 LSLICEs
+     Net U2/U1/o_opto_switch_N_109: 1 loads, 1 LSLICEs
+     Net U2/U1/w_pll_50m_enable_4590: 8 loads, 8 LSLICEs
+     Net U5/u2/w_pll_50m_enable_1783: 8 loads, 8 LSLICEs
+     Net U5/u2/w_pll_50m_enable_55: 1 loads, 1 LSLICEs
+     Net U5/u2/w_pll_50m_enable_2784: 1 loads, 1 LSLICEs
+     Net U5/u2/w_pll_50m_enable_2782: 2 loads, 2 LSLICEs
+     Net U5/u2/w_pll_50m_enable_981: 1 loads, 1 LSLICEs
+     Net U5/u2/w_pll_50m_enable_3982: 1 loads, 1 LSLICEs
+     Net U5/u2/w_pll_50m_enable_3983: 1 loads, 1 LSLICEs
+     Net U5/u2/w_pll_50m_enable_3275: 2 loads, 2 LSLICEs
+     Net U5/u2/w_pll_50m_enable_1766: 3 loads, 3 LSLICEs
+     Net U5/u2/spi_rw_flag_N_3963: 1 loads, 1 LSLICEs
+     Net U5/u2/w_pll_50m_enable_1774: 8 loads, 8 LSLICEs
+     Net U5/u2/no_first_flag_N_3985: 1 loads, 1 LSLICEs
+     Net U5/u2/w_pll_50m_enable_2786: 1 loads, 1 LSLICEs
+     Net U5/u2/w_pll_50m_enable_4064: 3 loads, 3 LSLICEs
+     Net U5/u2/u_mpt2042_spi_top/spi_clk_cnt_flag_N_4134: 1 loads, 1 LSLICEs
+     Net U5/U8/w_pll_50m_enable_4144: 2 loads, 2 LSLICEs
+     Net U5/U8/w_pll_50m_enable_4147: 2 loads, 2 LSLICEs
+     Net U5/U8/w_pll_50m_enable_3985: 1 loads, 1 LSLICEs
+     Net U5/U8/w_pll_50m_enable_3986: 1 loads, 1 LSLICEs
+     Net U5/U7/r_packet_state_9__N_8280: 4 loads, 4 LSLICEs
+     Net U5/U7/w_pll_50m_enable_2402: 5 loads, 5 LSLICEs
+     Net U5/U7/w_pll_50m_enable_2392: 32 loads, 32 LSLICEs
+     Net U5/U7/w_pll_50m_enable_3791: 5 loads, 5 LSLICEs
+     Net U5/U7/w_pll_50m_enable_4162: 2 loads, 2 LSLICEs
+     Net U5/U6/r_packet_state_9__N_7890: 4 loads, 4 LSLICEs
+     Net U5/U6/w_pll_50m_enable_2572: 16 loads, 16 LSLICEs
+     Net U5/U6/w_pll_50m_enable_2525: 5 loads, 5 LSLICEs
+     Net U5/U6/r_packet_state_9__N_7959[0]: 5 loads, 5 LSLICEs
+     Net U5/U6/w_pll_50m_enable_2458: 27 loads, 27 LSLICEs
+     Net U5/U6/w_pll_50m_enable_1946: 1 loads, 1 LSLICEs
+     Net U5/U6/o_scan_counter_15__N_8052: 9 loads, 9 LSLICEs
+     Net U5/U6/w_pll_50m_enable_4134: 4 loads, 4 LSLICEs
+     Net U5/U6/w_pll_50m_enable_2512: 25 loads, 25 LSLICEs
+     Net U5/U6/o_first_angle_15__N_8091: 23 loads, 23 LSLICEs
+     Net U5/U6/w_pll_50m_enable_2528: 1 loads, 1 LSLICEs
+     Net U5/U6/w_pll_50m_enable_4609: 5 loads, 5 LSLICEs
+     Net U5/U6/w_pll_50m_enable_3792: 4 loads, 4 LSLICEs
+     Net U5/w_pll_50m_enable_2780: 25 loads, 25 LSLICEs
+     Net U5/U4/w_pll_50m_enable_2709: 5 loads, 5 LSLICEs
+     Net U5/U4/w_pll_50m_enable_2666: 5 loads, 5 LSLICEs
+     Net U5/U4/w_pll_50m_enable_148: 1 loads, 1 LSLICEs
+     Net U5/U4/w_dist_rddata1_63__N_6998: 2 loads, 0 LSLICEs
+     Net U5/U4/w_dist_rddata2_63__N_7007: 2 loads, 0 LSLICEs
+     Net U5/U4/w_pll_50m_enable_3920: 1 loads, 1 LSLICEs
+     Net U5/U4/w_pll_50m_enable_4127: 4 loads, 4 LSLICEs
+     Net U5/U4/w_pll_50m_enable_3929: 4 loads, 4 LSLICEs
+     Net U5/w_dist_sig: 8 loads, 8 LSLICEs
+     Net U5/U4/U3/w_pll_50m_enable_3264: 5 loads, 5 LSLICEs
+     Net U5/U4/U3/w_pll_50m_enable_3265: 2 loads, 2 LSLICEs
+     Net U5/U4/U3/w_pll_50m_enable_3272: 4 loads, 4 LSLICEs
+     Net U5/U4/U3/w_pll_50m_enable_3306: 16 loads, 16 LSLICEs
+     Net U5/U4/U3/w_pll_50m_enable_1959: 1 loads, 1 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_4695: 16 loads, 16 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_3103: 13 loads, 13 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_3112: 5 loads, 5 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_3153: 8 loads, 8 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_3168: 8 loads, 8 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_3183: 8 loads, 8 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_3198: 8 loads, 8 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_3213: 8 loads, 8 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_3228: 16 loads, 16 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_3241: 8 loads, 8 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_4704: 3 loads, 3 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_1038: 1 loads, 1 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_3884: 17 loads, 17 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_3869: 8 loads, 8 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_3899: 13 loads, 13 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_4686: 3 loads, 3 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_3815: 2 loads, 2 LSLICEs
+     Net U5/U3/U4/r_mult1_en: 8 loads, 8 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_3813: 1 loads, 1 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_3818: 1 loads, 1 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_3816: 1 loads, 1 LSLICEs
+     Net U5/U3/U4/w_pll_50m_enable_1534: 35 loads, 35 LSLICEs
+     Net U5/U3/U4/n232794: 2 loads, 0 LSLICEs
+     Net U5/U3/U4/U3/w_pll_50m_enable_3647: 16 loads, 16 LSLICEs
+     Net U5/U3/U4/U3/w_pll_50m_enable_2960: 1 loads, 1 LSLICEs
+     Net U5/U3/U4/U3/w_pll_50m_enable_3617: 8 loads, 8 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_3011: 25 loads, 25 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_4700: 3 loads, 3 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_3040: 8 loads, 8 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_3058: 2 loads, 2 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_999: 1 loads, 1 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_1001: 2 loads, 2 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_3073: 8 loads, 8 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_3809: 10 loads, 10 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_3848: 8 loads, 8 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_4697: 3 loads, 3 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_4005: 8 loads, 8 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_1963: 1 loads, 1 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_1964: 1 loads, 1 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_1965: 1 loads, 1 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_1966: 1 loads, 1 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_1967: 1 loads, 1 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_3056: 8 loads, 8 LSLICEs
+     Net U5/U3/U3/r_mult1_en: 2 loads, 2 LSLICEs
+     Net U5/U3/U3/r_mult2_en: 1 loads, 1 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_3025: 7 loads, 7 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_4692: 3 loads, 3 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_1469: 25 loads, 25 LSLICEs
+     Net U5/U3/U3/n232792: 1 loads, 0 LSLICEs
+     Net U5/U3/U3/w_pll_50m_enable_1419: 26 loads, 26 LSLICEs
+     Net U5/U3/U3/n232790: 1 loads, 0 LSLICEs
+     Net U5/U3/U2/w_pll_50m_enable_73: 1 loads, 1 LSLICEs
+     Net U5/U3/U2/w_pll_50m_enable_74: 1 loads, 1 LSLICEs
+     Net U5/U3/U2/w_pll_50m_enable_75: 1 loads, 1 LSLICEs
+     Net U5/U3/U2/w_pll_50m_enable_988: 13 loads, 13 LSLICEs
+     Net U5/U3/U2/w_pll_50m_enable_987: 11 loads, 11 LSLICEs
+     Net U5/U3/U2/w_pll_50m_enable_2639: 14 loads, 14 LSLICEs
+     Net U5/U3/U2/w_pll_50m_enable_983: 10 loads, 10 LSLICEs
+     Net U5/U3/U2/w_pll_50m_enable_989: 1 loads, 1 LSLICEs
+     Net U5/U3/U1/w_pll_50m_enable_3779: 24 loads, 24 LSLICEs
+     Net U5/U3/U1/w_pll_50m_enable_1662: 1 loads, 1 LSLICEs
      Net sa5phub/id_enable_0_sqmuxa: 1 loads, 1 LSLICEs
      Net sa5phub/N_5_i: 10 loads, 10 LSLICEs
-   Number of LSRs:  83
-     Net n93723: 6 loads, 6 LSLICEs
-     Net n237581: 2317 loads, 2317 LSLICEs
-     Net r_rst_n: 1332 loads, 1332 LSLICEs
-     Net n63626: 1 loads, 1 LSLICEs
-     Net n226549: 1 loads, 1 LSLICEs
-     Net n227425: 1 loads, 1 LSLICEs
-     Net n227423: 1 loads, 1 LSLICEs
-     Net n227420: 1 loads, 1 LSLICEs
-     Net n227418: 1 loads, 1 LSLICEs
-     Net n80310: 3 loads, 3 LSLICEs
-     Net n227154: 9 loads, 9 LSLICEs
-     Net n68105: 6 loads, 6 LSLICEs
-     Net n226552: 1 loads, 1 LSLICEs
-     Net n226547: 1 loads, 1 LSLICEs
-     Net n226742: 1 loads, 1 LSLICEs
-     Net n47651: 6 loads, 6 LSLICEs
-     Net n47654: 6 loads, 6 LSLICEs
-     Net n41636: 5 loads, 5 LSLICEs
-     Net n226504: 1 loads, 1 LSLICEs
-     Net n227443: 1 loads, 1 LSLICEs
-     Net n226739: 1 loads, 1 LSLICEs
-     Net n226737: 1 loads, 1 LSLICEs
-     Net n5193: 2 loads, 2 LSLICEs
-     Net f1_SPI_interrupt_n_N_3809: 2 loads, 2 LSLICEs
-     Net n226541: 1 loads, 1 LSLICEs
-     Net n226539: 1 loads, 1 LSLICEs
-     Net n227441: 1 loads, 1 LSLICEs
-     Net n227439: 1 loads, 1 LSLICEs
-     Net n227437: 1 loads, 1 LSLICEs
-     Net n227435: 1 loads, 1 LSLICEs
-     Net n227433: 1 loads, 1 LSLICEs
-     Net n227431: 1 loads, 1 LSLICEs
-     Net n227429: 1 loads, 1 LSLICEs
-     Net n227427: 1 loads, 1 LSLICEs
-     Net n41640: 3 loads, 3 LSLICEs
-     Net n226554: 1 loads, 1 LSLICEs
-     Net n5185: 3 loads, 3 LSLICEs
-     Net n226976: 1 loads, 1 LSLICEs
-     Net n226735: 1 loads, 1 LSLICEs
-     Net n227445: 1 loads, 1 LSLICEs
-     Net U8/u1/o_recv_data_udp_7__N_9509: 22 loads, 20 LSLICEs
-     Net jtaghub16_jrstn: 213 loads, 213 LSLICEs
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/reset_rvl_n: 262 loads, 252 LSLICEs
-     Net U2/U3/n227417: 1 loads, 1 LSLICEs
-     Net U2/U3/n227419: 1 loads, 1 LSLICEs
-     Net U2/U3/n227422: 1 loads, 1 LSLICEs
-     Net U2/U3/n227424: 1 loads, 1 LSLICEs
-     Net U2/U3/n227426: 1 loads, 1 LSLICEs
-     Net U2/U3/n227428: 1 loads, 1 LSLICEs
-     Net U2/U3/n226538: 1 loads, 1 LSLICEs
-     Net U2/U3/n226540: 1 loads, 1 LSLICEs
-     Net U2/U3/n226546: 1 loads, 1 LSLICEs
-     Net U2/U3/n226548: 1 loads, 1 LSLICEs
-     Net U2/U3/n226551: 1 loads, 1 LSLICEs
-     Net U2/U3/n226553: 1 loads, 1 LSLICEs
-     Net U2/U3/n226734: 1 loads, 1 LSLICEs
-     Net U2/U3/n226736: 1 loads, 1 LSLICEs
-     Net U2/U3/n226738: 1 loads, 1 LSLICEs
-     Net U2/U3/n226741: 1 loads, 1 LSLICEs
-     Net U5/u2/n226980: 4 loads, 4 LSLICEs
-     Net U5/u2/n203793: 1 loads, 1 LSLICEs
-     Net U5/u2/n94084: 2 loads, 2 LSLICEs
-     Net U5/u2/n94211: 2 loads, 2 LSLICEs
+   Number of LSRs:  76
+     Net n93899: 6 loads, 6 LSLICEs
+     Net n232789: 2320 loads, 2320 LSLICEs
+     Net r_rst_n: 1337 loads, 1337 LSLICEs
+     Net n222109: 1 loads, 1 LSLICEs
+     Net n222980: 1 loads, 1 LSLICEs
+     Net n222978: 1 loads, 1 LSLICEs
+     Net n222976: 1 loads, 1 LSLICEs
+     Net n222974: 1 loads, 1 LSLICEs
+     Net n222972: 1 loads, 1 LSLICEs
+     Net n5256: 2 loads, 2 LSLICEs
+     Net n79853: 3 loads, 3 LSLICEs
+     Net n222113: 1 loads, 1 LSLICEs
+     Net n222027: 1 loads, 1 LSLICEs
+     Net n63278: 1 loads, 1 LSLICEs
+     Net n222023: 1 loads, 1 LSLICEs
+     Net n222631: 9 loads, 9 LSLICEs
+     Net n67742: 6 loads, 6 LSLICEs
+     Net n222499: 1 loads, 1 LSLICEs
+     Net n47329: 6 loads, 6 LSLICEs
+     Net n47332: 6 loads, 6 LSLICEs
+     Net n222117: 1 loads, 1 LSLICEs
+     Net n222029: 1 loads, 1 LSLICEs
+     Net n222031: 1 loads, 1 LSLICEs
+     Net n222995: 1 loads, 1 LSLICEs
+     Net n222993: 1 loads, 1 LSLICEs
+     Net n222991: 1 loads, 1 LSLICEs
+     Net n222989: 1 loads, 1 LSLICEs
+     Net n222987: 1 loads, 1 LSLICEs
+     Net n222985: 1 loads, 1 LSLICEs
+     Net n222983: 1 loads, 1 LSLICEs
+     Net n222982: 1 loads, 1 LSLICEs
+     Net n41360: 5 loads, 5 LSLICEs
+     Net n41378: 3 loads, 3 LSLICEs
+     Net n222115: 1 loads, 1 LSLICEs
+     Net n5248: 3 loads, 3 LSLICEs
+     Net n222021: 1 loads, 1 LSLICEs
+     Net n222999: 1 loads, 1 LSLICEs
+     Net n222025: 1 loads, 1 LSLICEs
+     Net n222997: 1 loads, 1 LSLICEs
+     Net U8/u1/o_recv_data_udp_7__N_9513: 22 loads, 20 LSLICEs
+     Net jtaghub16_jrstn: 205 loads, 205 LSLICEs
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/reset_rvl_n: 254 loads, 244 LSLICEs
+     Net U3/u3/n222149: 1 loads, 1 LSLICEs
+     Net U3/u3/n222498: 1 loads, 1 LSLICEs
+     Net U3/u3/n222984: 1 loads, 1 LSLICEs
+     Net U3/u3/n222994: 1 loads, 1 LSLICEs
+     Net U3/u3/n222996: 1 loads, 1 LSLICEs
+     Net U3/u3/n222986: 1 loads, 1 LSLICEs
+     Net U3/u3/n222988: 1 loads, 1 LSLICEs
+     Net U3/u3/n222990: 1 loads, 1 LSLICEs
+     Net U3/u3/n222992: 1 loads, 1 LSLICEs
+     Net U3/u3/n222998: 1 loads, 1 LSLICEs
+     Net U2/U3/n222020: 1 loads, 1 LSLICEs
+     Net U2/U3/n222971: 1 loads, 1 LSLICEs
+     Net U2/U3/n222973: 1 loads, 1 LSLICEs
+     Net U2/U3/n222975: 1 loads, 1 LSLICEs
+     Net U2/U3/n222977: 1 loads, 1 LSLICEs
+     Net U2/U3/n222979: 1 loads, 1 LSLICEs
+     Net U2/U3/n222981: 1 loads, 1 LSLICEs
+     Net U2/U3/n222022: 1 loads, 1 LSLICEs
+     Net U2/U3/n222024: 1 loads, 1 LSLICEs
+     Net U2/U3/n222026: 1 loads, 1 LSLICEs
+     Net U2/U3/n222028: 1 loads, 1 LSLICEs
+     Net U2/U3/n222030: 1 loads, 1 LSLICEs
+     Net U2/U3/n222108: 1 loads, 1 LSLICEs
+     Net U2/U3/n222111: 1 loads, 1 LSLICEs
+     Net U2/U3/n222114: 1 loads, 1 LSLICEs
+     Net U2/U3/n222116: 1 loads, 1 LSLICEs
+     Net U5/u2/n93652: 2 loads, 2 LSLICEs
+     Net U5/u2/n93768: 2 loads, 2 LSLICEs
      Net U5/u2/spi_rdat[4]: 1 loads, 1 LSLICEs
-     Net U5/u2/n226981: 1 loads, 1 LSLICEs
-     Net U5/u2/n196936: 1 loads, 1 LSLICEs
-     Net U5/u2/n5160: 4 loads, 4 LSLICEs
-     Net U5/u2/n70565: 1 loads, 1 LSLICEs
-     Net U5/u2/n203803: 1 loads, 1 LSLICEs
-     Net U5/U8/n93652: 1 loads, 1 LSLICEs
-     Net U5/U3/U3/n47766: 10 loads, 10 LSLICEs
-     Net U5/U3/U3/n47772: 8 loads, 8 LSLICEs
-     Net U5/U3/U3/n47770: 8 loads, 8 LSLICEs
-     Net U3/u3/n226779: 1 loads, 1 LSLICEs
-     Net U3/u3/n227436: 1 loads, 1 LSLICEs
-     Net U3/u3/n227430: 1 loads, 1 LSLICEs
-     Net U3/u3/n227432: 1 loads, 1 LSLICEs
-     Net U3/u3/n227434: 1 loads, 1 LSLICEs
-     Net U3/u3/n227438: 1 loads, 1 LSLICEs
-     Net U3/u3/n227440: 1 loads, 1 LSLICEs
-     Net U3/u3/n227442: 1 loads, 1 LSLICEs
-     Net U3/u3/n227444: 1 loads, 1 LSLICEs
-     Net U3/u3/n226975: 1 loads, 1 LSLICEs
+     Net U5/u2/n5224: 4 loads, 4 LSLICEs
+     Net U5/U8/n93211: 1 loads, 1 LSLICEs
+     Net U5/U3/U3/n47439: 10 loads, 10 LSLICEs
+     Net U5/U3/U3/n47445: 8 loads, 8 LSLICEs
+     Net U5/U3/U3/n47443: 8 loads, 8 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net n237581: 2459 loads
-     Net r_rst_n: 1332 loads
-     Net n227520: 532 loads
-     Net w_sram_addr_eth[0]: 376 loads
-     Net U8/u1/r_state[0]: 276 loads
-     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/reset_rvl_n: 263 loads
-     Net w_sram_addr_eth[1]: 263 loads
-     Net U8/u1/r_state[2]: 251 loads
-     Net r_state_5__N_9794[3]: 250 loads
-     Net U8/u1/r_state[3]: 242 loads
+     Net n232789: 2458 loads
+     Net r_rst_n: 1337 loads
+     Net n222503: 438 loads
+     Net w_sram_addr_eth[0]: 394 loads
+     Net w_sram_addr_eth[1]: 271 loads
+     Net U8/u1/r_state[0]: 269 loads
+     Net c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/reset_rvl_n: 255 loads
+     Net U8/u1/r_state[1]: 242 loads
+     Net U8/u1/r_state[2]: 242 loads
+     Net r_state_5__N_9798[3]: 237 loads
  
 
    Number of warnings:  1
    Number of errors:    0
 
+
+. MULT18X18D  U3/u4/U1/dsp_mult_0:
+
+Multiplier
+	Operation A		Unsigned
+	Operation A Registers	CLK	CE	RST
+	--------------------------------------------
+		Input		CLK0	CE0	RST0
+		Pipeline	CLK0	CE0	RST0
+
+	Operation B		Unsigned
+	Operation B Registers	CLK	CE	RST
+	--------------------------------------------
+		Input		CLK0	CE0	RST0
+		Pipeline	CLK0	CE0	RST0
+Data
+	Input Registers		CLK	CE	RST	Source
+	-------------------------------------------------------
+		A		CLK0	CE0	RST0	A Data In
+		B		CLK0	CE0	RST0	B Data In
+		C		    	   	    	N/A
+	Cascaded Match
+
+	Pipeline Registers	CLK	CE	RST
+	--------------------------------------------
+		Pipe		CLK0	CE0	RST0
+
+	Output Register		CLK	CE	RST
+	--------------------------------------------
+		Output		CLK0	CE0	RST0
+Other
+	SOURCEB_MODE	B_SHIFT
+	MULT_BYPASS	DISABLED
+	CAS_MATCH_REG	FALSE
+	GSR		DISABLED
+	RESETMODE	ASYNC
+	CLK0_DIV	ENABLED
+	CLK1_DIV	ENABLED
+	CLK2_DIV	ENABLED
+	CLK3_DIV	ENABLED
+	HIGHSPEED_CLK	NONE
+	PSE17		0b00000000000000000
+	PSE35		0b00000000000000000
+
+	C_PSE17		0b00000000000000000
+
+. MULT9X9D  U3/u3/U4/dsp_mult_0:
+
+Multiplier
+	Operation A		Unsigned
+	Operation A Registers	CLK	CE	RST
+	--------------------------------------------
+		Input		CLK0	CE0	RST0
+		Pipeline	CLK0	CE0	RST0
+
+	Operation B		Unsigned
+	Operation B Registers	CLK	CE	RST
+	--------------------------------------------
+		Input		CLK0	CE0	RST0
+		Pipeline	CLK0	CE0	RST0
+Data
+	Input Registers		CLK	CE	RST	Source
+	-------------------------------------------------------
+		A		CLK0	CE0	RST0	A Data In
+		B		CLK0	CE0	RST0	B Data In
+		C		    	   	    	N/A
+	Cascaded Match
+
+	Pipeline Registers	CLK	CE	RST
+	--------------------------------------------
+		Pipe		CLK0	CE0	RST0
+
+	Output Register		CLK	CE	RST
+	--------------------------------------------
+		Output		CLK0	CE0	RST0
+Other
+	SOURCEB_MODE	B_SHIFT
+	MULT_BYPASS	DISABLED
+	CAS_MATCH_REG	FALSE
+	GSR		DISABLED
+	RESETMODE	ASYNC
+	CLK0_DIV	ENABLED
+	CLK1_DIV	ENABLED
+	CLK2_DIV	ENABLED
+	CLK3_DIV	ENABLED
+	HIGHSPEED_CLK	NONE
+
+. MULT9X9D  U3/u3/U3/dsp_mult_0:
+
+Multiplier
+	Operation A		Unsigned
+	Operation A Registers	CLK	CE	RST
+	--------------------------------------------
+		Input		CLK0	CE0	RST0
+		Pipeline	CLK0	CE0	RST0
+
+	Operation B		Unsigned
+	Operation B Registers	CLK	CE	RST
+	--------------------------------------------
+		Input		CLK0	CE0	RST0
+		Pipeline	CLK0	CE0	RST0
+Data
+	Input Registers		CLK	CE	RST	Source
+	-------------------------------------------------------
+		A		CLK0	CE0	RST0	A Data In
+		B		CLK0	CE0	RST0	B Data In
+		C		    	   	    	N/A
+	Cascaded Match
+
+	Pipeline Registers	CLK	CE	RST
+	--------------------------------------------
+		Pipe		CLK0	CE0	RST0
+
+	Output Register		CLK	CE	RST
+	--------------------------------------------
+		Output		CLK0	CE0	RST0
+Other
+	SOURCEB_MODE	B_SHIFT
+	MULT_BYPASS	DISABLED
+	CAS_MATCH_REG	FALSE
+	GSR		DISABLED
+	RESETMODE	ASYNC
+	CLK0_DIV	ENABLED
+	CLK1_DIV	ENABLED
+	CLK2_DIV	ENABLED
+	CLK3_DIV	ENABLED
+	HIGHSPEED_CLK	NONE
+
+. MULT9X9D  U3/u3/U2/dsp_mult_0:
+
+Multiplier
+	Operation A		Unsigned
+	Operation A Registers	CLK	CE	RST
+	--------------------------------------------
+		Input		CLK0	CE0	RST0
+		Pipeline	CLK0	CE0	RST0
+
+	Operation B		Unsigned
+	Operation B Registers	CLK	CE	RST
+	--------------------------------------------
+		Input		CLK0	CE0	RST0
+		Pipeline	CLK0	CE0	RST0
+Data
+	Input Registers		CLK	CE	RST	Source
+	-------------------------------------------------------
+		A		CLK0	CE0	RST0	A Data In
+		B		CLK0	CE0	RST0	B Data In
+		C		    	   	    	N/A
+	Cascaded Match
+
+	Pipeline Registers	CLK	CE	RST
+	--------------------------------------------
+		Pipe		CLK0	CE0	RST0
+
+	Output Register		CLK	CE	RST
+	--------------------------------------------
+		Output		CLK0	CE0	RST0
+Other
+	SOURCEB_MODE	B_SHIFT
+	MULT_BYPASS	DISABLED
+	CAS_MATCH_REG	FALSE
+	GSR		DISABLED
+	RESETMODE	ASYNC
+	CLK0_DIV	ENABLED
+	CLK1_DIV	ENABLED
+	CLK2_DIV	ENABLED
+	CLK3_DIV	ENABLED
+	HIGHSPEED_CLK	NONE
+
+. MULT18X18D  U3/u3/U1/U1/dsp_mult_0:
+
+Multiplier
+	Operation A		Unsigned
+	Operation A Registers	CLK	CE	RST
+	--------------------------------------------
+		Input		CLK0	CE0	RST0
+		Pipeline	CLK0	CE0	RST0
+
+	Operation B		Unsigned
+	Operation B Registers	CLK	CE	RST
+	--------------------------------------------
+		Input		CLK0	CE0	RST0
+		Pipeline	CLK0	CE0	RST0
+Data
+	Input Registers		CLK	CE	RST	Source
+	-------------------------------------------------------
+		A		CLK0	CE0	RST0	A Data In
+		B		CLK0	CE0	RST0	B Data In
+		C		    	   	    	N/A
+	Cascaded Match
+
+	Pipeline Registers	CLK	CE	RST
+	--------------------------------------------
+		Pipe		CLK0	CE0	RST0
+
+	Output Register		CLK	CE	RST
+	--------------------------------------------
+		Output		CLK0	CE0	RST0
+Other
+	SOURCEB_MODE	B_SHIFT
+	MULT_BYPASS	DISABLED
+	CAS_MATCH_REG	FALSE
+	GSR		DISABLED
+	RESETMODE	ASYNC
+	CLK0_DIV	ENABLED
+	CLK1_DIV	ENABLED
+	CLK2_DIV	ENABLED
+	CLK3_DIV	ENABLED
+	HIGHSPEED_CLK	NONE
+	PSE17		0b00000000000000000
+	PSE35		0b00000000000000000
+
+	C_PSE17		0b00000000000000000
 
 . MULT9X9D  U2/U4/U1/dsp_mult_0:
 
@@ -2354,223 +2577,10 @@ Other
 
 	C_PSE17		0b00000000000000000
 
-. MULT18X18D  U3/u4/U1/dsp_mult_0:
 
-Multiplier
-	Operation A		Unsigned
-	Operation A Registers	CLK	CE	RST
-	--------------------------------------------
-		Input		CLK0	CE0	RST0
-		Pipeline	CLK0	CE0	RST0
-
-	Operation B		Unsigned
-	Operation B Registers	CLK	CE	RST
-	--------------------------------------------
-		Input		CLK0	CE0	RST0
-		Pipeline	CLK0	CE0	RST0
-Data
-	Input Registers		CLK	CE	RST	Source
-	-------------------------------------------------------
-		A		CLK0	CE0	RST0	A Data In
-		B		CLK0	CE0	RST0	B Data In
-		C		    	   	    	N/A
-	Cascaded Match
-
-	Pipeline Registers	CLK	CE	RST
-	--------------------------------------------
-		Pipe		CLK0	CE0	RST0
-
-	Output Register		CLK	CE	RST
-	--------------------------------------------
-		Output		CLK0	CE0	RST0
-Other
-	SOURCEB_MODE	B_SHIFT
-	MULT_BYPASS	DISABLED
-	CAS_MATCH_REG	FALSE
-	GSR		DISABLED
-	RESETMODE	ASYNC
-	CLK0_DIV	ENABLED
-	CLK1_DIV	ENABLED
-	CLK2_DIV	ENABLED
-	CLK3_DIV	ENABLED
-	HIGHSPEED_CLK	NONE
-	PSE17		0b00000000000000000
-	PSE35		0b00000000000000000
-
-	C_PSE17		0b00000000000000000
-
-. MULT9X9D  U3/u3/U4/dsp_mult_0:
-
-Multiplier
-	Operation A		Unsigned
-	Operation A Registers	CLK	CE	RST
-	--------------------------------------------
-		Input		CLK0	CE0	RST0
-		Pipeline	CLK0	CE0	RST0
-
-	Operation B		Unsigned
-	Operation B Registers	CLK	CE	RST
-	--------------------------------------------
-		Input		CLK0	CE0	RST0
-		Pipeline	CLK0	CE0	RST0
-Data
-	Input Registers		CLK	CE	RST	Source
-	-------------------------------------------------------
-		A		CLK0	CE0	RST0	A Data In
-		B		CLK0	CE0	RST0	B Data In
-		C		    	   	    	N/A
-	Cascaded Match
-
-	Pipeline Registers	CLK	CE	RST
-	--------------------------------------------
-		Pipe		CLK0	CE0	RST0
-
-	Output Register		CLK	CE	RST
-	--------------------------------------------
-		Output		CLK0	CE0	RST0
-Other
-	SOURCEB_MODE	B_SHIFT
-	MULT_BYPASS	DISABLED
-	CAS_MATCH_REG	FALSE
-	GSR		DISABLED
-	RESETMODE	ASYNC
-	CLK0_DIV	ENABLED
-	CLK1_DIV	ENABLED
-	CLK2_DIV	ENABLED
-	CLK3_DIV	ENABLED
-	HIGHSPEED_CLK	NONE
-
-. MULT9X9D  U3/u3/U3/dsp_mult_0:
-
-Multiplier
-	Operation A		Unsigned
-	Operation A Registers	CLK	CE	RST
-	--------------------------------------------
-		Input		CLK0	CE0	RST0
-		Pipeline	CLK0	CE0	RST0
-
-	Operation B		Unsigned
-	Operation B Registers	CLK	CE	RST
-	--------------------------------------------
-		Input		CLK0	CE0	RST0
-		Pipeline	CLK0	CE0	RST0
-Data
-	Input Registers		CLK	CE	RST	Source
-	-------------------------------------------------------
-		A		CLK0	CE0	RST0	A Data In
-		B		CLK0	CE0	RST0	B Data In
-		C		    	   	    	N/A
-	Cascaded Match
-
-	Pipeline Registers	CLK	CE	RST
-	--------------------------------------------
-		Pipe		CLK0	CE0	RST0
-
-	Output Register		CLK	CE	RST
-	--------------------------------------------
-		Output		CLK0	CE0	RST0
-Other
-	SOURCEB_MODE	B_SHIFT
-	MULT_BYPASS	DISABLED
-	CAS_MATCH_REG	FALSE
-	GSR		DISABLED
-	RESETMODE	ASYNC
-	CLK0_DIV	ENABLED
-	CLK1_DIV	ENABLED
-	CLK2_DIV	ENABLED
-	CLK3_DIV	ENABLED
-	HIGHSPEED_CLK	NONE
-
-. MULT9X9D  U3/u3/U2/dsp_mult_0:
-
-Multiplier
-	Operation A		Unsigned
-	Operation A Registers	CLK	CE	RST
-	--------------------------------------------
-		Input		CLK0	CE0	RST0
-		Pipeline	CLK0	CE0	RST0
-
-	Operation B		Unsigned
-	Operation B Registers	CLK	CE	RST
-	--------------------------------------------
-		Input		CLK0	CE0	RST0
-		Pipeline	CLK0	CE0	RST0
-Data
-	Input Registers		CLK	CE	RST	Source
-	-------------------------------------------------------
-		A		CLK0	CE0	RST0	A Data In
-		B		CLK0	CE0	RST0	B Data In
-		C		    	   	    	N/A
-	Cascaded Match
-
-	Pipeline Registers	CLK	CE	RST
-	--------------------------------------------
-		Pipe		CLK0	CE0	RST0
-
-	Output Register		CLK	CE	RST
-	--------------------------------------------
-		Output		CLK0	CE0	RST0
-Other
-	SOURCEB_MODE	B_SHIFT
-	MULT_BYPASS	DISABLED
-	CAS_MATCH_REG	FALSE
-	GSR		DISABLED
-	RESETMODE	ASYNC
-	CLK0_DIV	ENABLED
-	CLK1_DIV	ENABLED
-	CLK2_DIV	ENABLED
-	CLK3_DIV	ENABLED
-	HIGHSPEED_CLK	NONE
-
-. MULT18X18D  U3/u3/U1/U1/dsp_mult_0:
-
-Multiplier
-	Operation A		Unsigned
-	Operation A Registers	CLK	CE	RST
-	--------------------------------------------
-		Input		CLK0	CE0	RST0
-		Pipeline	CLK0	CE0	RST0
-
-	Operation B		Unsigned
-	Operation B Registers	CLK	CE	RST
-	--------------------------------------------
-		Input		CLK0	CE0	RST0
-		Pipeline	CLK0	CE0	RST0
-Data
-	Input Registers		CLK	CE	RST	Source
-	-------------------------------------------------------
-		A		CLK0	CE0	RST0	A Data In
-		B		CLK0	CE0	RST0	B Data In
-		C		    	   	    	N/A
-	Cascaded Match
-
-	Pipeline Registers	CLK	CE	RST
-	--------------------------------------------
-		Pipe		CLK0	CE0	RST0
-
-	Output Register		CLK	CE	RST
-	--------------------------------------------
-		Output		CLK0	CE0	RST0
-Other
-	SOURCEB_MODE	B_SHIFT
-	MULT_BYPASS	DISABLED
-	CAS_MATCH_REG	FALSE
-	GSR		DISABLED
-	RESETMODE	ASYNC
-	CLK0_DIV	ENABLED
-	CLK1_DIV	ENABLED
-	CLK2_DIV	ENABLED
-	CLK3_DIV	ENABLED
-	HIGHSPEED_CLK	NONE
-	PSE17		0b00000000000000000
-	PSE35		0b00000000000000000
-
-	C_PSE17		0b00000000000000000
-
-
-Total CPU Time: 13 secs  
-Total REAL Time: 14 secs  
-Peak Memory Usage: 301 MB
+Total CPU Time: 15 secs  
+Total REAL Time: 16 secs  
+Peak Memory Usage: 300 MB
 
 Dumping design to file c25x_fpga_c25x_fpga_map.ncd.
 
@@ -2601,7 +2611,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2
-Thu May 22 18:54:57 2025
+Fri May 23 11:41:26 2025
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -2632,11 +2642,11 @@ Timing summary (Setup):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 4530748 paths, 4 nets, and 75002 connections (92.72% coverage)
+Constraints cover 5170887 paths, 4 nets, and 74335 connections (92.67% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2
-Thu May 22 18:54:58 2025
+Fri May 23 11:41:27 2025
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -2667,7 +2677,7 @@ Timing summary (Hold):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 4530748 paths, 4 nets, and 77487 connections (95.79% coverage)
+Constraints cover 5170887 paths, 4 nets, and 76834 connections (95.79% coverage)
 
 
 
@@ -2682,8 +2692,8 @@ Cumulative negative slack: 0 (0+0)
 --------------------------------------------------------------------------------
 
 Total CPU Time: 3 secs 
-Total REAL Time: 4 secs 
-Peak Memory Usage: 320 MB
+Total REAL Time: 3 secs 
+Peak Memory Usage: 319 MB
 
 
 mpartrce -p "c25x_fpga_c25x_fpga.p2t" -f "c25x_fpga_c25x_fpga.p3t" -tf "c25x_fpga_c25x_fpga.pt" "c25x_fpga_c25x_fpga_map.ncd" "c25x_fpga_c25x_fpga.ncd"
@@ -2693,7 +2703,7 @@ Removing old design directory at request of -rem command line option to this pro
 Running par. Please wait . . .
 
 Lattice Place and Route Report for Design "c25x_fpga_c25x_fpga_map.ncd"
-Thu May 22 18:54:59 2025
+Fri May 23 11:41:29 2025
 
 PAR: Place And Route Diamond (64-bit) 3.12.0.240.2.
 Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset D:/Project/H100_FPGA/promote.xml -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF:parASE=1 c25x_fpga_c25x_fpga_map.ncd c25x_fpga_c25x_fpga.dir/5_1.ncd c25x_fpga_c25x_fpga.prf
@@ -2720,7 +2730,7 @@ Device utilization summary:
    PIO (prelim)      74/197          37% used
                      74/197          37% bonded
 
-   SLICE          11141/12144        91% used
+   SLICE          11071/12144        91% used
 
    JTAG               1/1           100% used
    EBR               21/56           37% used
@@ -2731,8 +2741,8 @@ Device utilization summary:
 
 
 58 potential circuit loops found in timing analysis.
-Number of Signals: 28053
-Number of Connections: 80891
+Number of Signals: 27920
+Number of Connections: 80212
 
 Pin Constraint Summary:
    72 out of 74 pins locked (97% locked).
@@ -2740,21 +2750,21 @@ Pin Constraint Summary:
 
 INFO: CLKI 'i_clk_50m' at E7 driving 'U1/PLLInst_0' must use PCLK.
 The following 16 signals are selected to use the primary clock routing resources:
-    jtaghub16_jtck (driver: sa5phub/genblk8.jtagg_u, clk/ce/sr load #: 234/0/0)
-    w_pll_50m (driver: U1/PLLInst_0, clk/ce/sr load #: 4474/0/0)
+    jtaghub16_jtck (driver: sa5phub/genblk8.jtagg_u, clk/ce/sr load #: 225/0/0)
+    w_pll_50m (driver: U1/PLLInst_0, clk/ce/sr load #: 4464/0/0)
     w_pll_100m (driver: U1/PLLInst_0, clk/ce/sr load #: 15/0/0)
-    n237581 (driver: SLICE_10249, clk/ce/sr load #: 0/0/2317)
-    r_rst_n (driver: SLICE_5890, clk/ce/sr load #: 0/0/1332)
-    c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/reset_rvl_n (driver: c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/SLICE_9215, clk/ce/sr load #: 0/0/262)
-    jtaghub16_jrstn (driver: sa5phub/genblk8.jtagg_u, clk/ce/sr load #: 0/0/213)
-    w_pll_50m_enable_4710 (driver: SLICE_6918, clk/ce/sr load #: 0/66/0)
-    w_pll_50m_enable_4584 (driver: U8/u3/u3/SLICE_3843, clk/ce/sr load #: 0/49/0)
-    U5/U3/U4/w_pll_50m_enable_1531 (driver: U5/U3/U4/SLICE_3266, clk/ce/sr load #: 0/35/0)
-    w_pll_50m_enable_4647 (driver: U8/u3/u3/SLICE_4191, clk/ce/sr load #: 0/33/0)
-    U8/u5/U1/U1/w_pll_50m_enable_3778 (driver: U8/u5/U1/U1/i182077/SLICE_7251, clk/ce/sr load #: 0/32/0)
-    U8/u3/u1/w_pll_50m_enable_4810 (driver: U8/u3/u1/SLICE_4190, clk/ce/sr load #: 0/32/0)
-    U8/u1/u1/r_byte_size_16__N_10946 (driver: U8/u1/u1/SLICE_4889, clk/ce/sr load #: 0/32/0)
-    U8/u1/o_recv_data_udp_7__N_9509 (driver: U8/u1/SLICE_8988, clk/ce/sr load #: 0/0/22)
+    n232789 (driver: SLICE_8019, clk/ce/sr load #: 0/0/2320)
+    r_rst_n (driver: SLICE_5870, clk/ce/sr load #: 0/0/1337)
+    c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/reset_rvl_n (driver: c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/SLICE_10323, clk/ce/sr load #: 0/0/254)
+    jtaghub16_jrstn (driver: sa5phub/genblk8.jtagg_u, clk/ce/sr load #: 0/0/205)
+    w_pll_50m_enable_4547 (driver: U8/u3/u3/SLICE_4198, clk/ce/sr load #: 0/66/0)
+    w_pll_50m_enable_4421 (driver: U8/u3/u3/SLICE_3845, clk/ce/sr load #: 0/49/0)
+    U5/U3/U4/w_pll_50m_enable_1534 (driver: U5/U3/U4/SLICE_3266, clk/ce/sr load #: 0/35/0)
+    w_pll_50m_enable_4484 (driver: U8/u3/u3/SLICE_3845, clk/ce/sr load #: 0/33/0)
+    U8/u5/U1/U1/w_pll_50m_enable_3749 (driver: U8/u5/U1/U1/i177751/SLICE_7233, clk/ce/sr load #: 0/32/0)
+    U8/u3/u1/w_pll_50m_enable_4691 (driver: U8/u3/u1/SLICE_4197, clk/ce/sr load #: 0/32/0)
+    U8/u3/u1/o_ntp_server_get_63__N_12440 (driver: U8/u3/u1/SLICE_8425, clk/ce/sr load #: 0/32/0)
+    U8/u1/o_recv_data_udp_7__N_9513 (driver: U8/u1/SLICE_8933, clk/ce/sr load #: 0/0/22)
     i_clk_50m_c (driver: i_clk_50m, clk/ce/sr load #: 1/0/0)
 
 
@@ -2762,18 +2772,18 @@ No signal is selected as Global Set/Reset.
 .
 Starting Placer Phase 0.
 ..........
-Finished Placer Phase 0.  REAL time: 15 secs 
+Finished Placer Phase 0.  REAL time: 18 secs 
 
 
 Starting Placer Phase 1.
-.................................
-Placer score = 7968715.
-Finished Placer Phase 1.  REAL time: 54 secs 
+..................................
+Placer score = 7637724.
+Finished Placer Phase 1.  REAL time: 1 mins 12 secs 
 
 Starting Placer Phase 2.
 ..
-Placer score =  7674598
-Finished Placer Phase 2.  REAL time: 1 mins 5 secs 
+Placer score =  7372251
+Finished Placer Phase 2.  REAL time: 1 mins 24 secs 
 
 
 ------------------ Clock Report ------------------
@@ -2787,51 +2797,49 @@ Global Clock Resources:
   CLKDIV     : 0 out of 4 (0%)
 
 Quadrant TL Clocks:
-  PRIMARY "w_pll_50m" from CLKOP on comp "U1/PLLInst_0" on PLL site "PLL_BL0", CLK/CE/SR load = 1083
-  PRIMARY "n237581" from Q0 on comp "SLICE_10249" on site "R20C51C", CLK/CE/SR load = 726
-  PRIMARY "r_rst_n" from Q0 on comp "SLICE_5890" on site "R40C35D", CLK/CE/SR load = 78
-  PRIMARY "w_pll_50m_enable_4584" from F1 on comp "U8/u3/u3/SLICE_3843" on site "R8C46A", CLK/CE/SR load = 1
-  PRIMARY "U5/U3/U4/w_pll_50m_enable_1531" from Q0 on comp "U5/U3/U4/SLICE_3266" on site "R30C22D", CLK/CE/SR load = 35
-  PRIMARY "U8/u3/u1/w_pll_50m_enable_4810" from F1 on comp "U8/u3/u1/SLICE_4190" on site "R4C26C", CLK/CE/SR load = 32
-  PRIMARY "U8/u1/u1/r_byte_size_16__N_10946" from F1 on comp "U8/u1/u1/SLICE_4889" on site "R12C34C", CLK/CE/SR load = 1
+  PRIMARY "jtaghub16_jtck" from JTCK on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 2
+  PRIMARY "w_pll_50m" from CLKOP on comp "U1/PLLInst_0" on PLL site "PLL_BL0", CLK/CE/SR load = 1077
+  PRIMARY "n232789" from Q0 on comp "SLICE_8019" on site "R8C30D", CLK/CE/SR load = 756
+  PRIMARY "r_rst_n" from Q0 on comp "SLICE_5870" on site "R16C31C", CLK/CE/SR load = 25
+  PRIMARY "jtaghub16_jrstn" from JRSTN on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 2
+  PRIMARY "U5/U3/U4/w_pll_50m_enable_1534" from Q0 on comp "U5/U3/U4/SLICE_3266" on site "R7C21B", CLK/CE/SR load = 35
 
-  PRIMARY  : 7 out of 16 (43%)
+  PRIMARY  : 6 out of 16 (37%)
 
 Quadrant TR Clocks:
-  PRIMARY "w_pll_50m" from CLKOP on comp "U1/PLLInst_0" on PLL site "PLL_BL0", CLK/CE/SR load = 1265
-  PRIMARY "n237581" from Q0 on comp "SLICE_10249" on site "R20C51C", CLK/CE/SR load = 616
-  PRIMARY "r_rst_n" from Q0 on comp "SLICE_5890" on site "R40C35D", CLK/CE/SR load = 495
-  PRIMARY "w_pll_50m_enable_4710" from F1 on comp "SLICE_6918" on site "R8C49C", CLK/CE/SR load = 66
-  PRIMARY "w_pll_50m_enable_4584" from F1 on comp "U8/u3/u3/SLICE_3843" on site "R8C46A", CLK/CE/SR load = 48
-  PRIMARY "w_pll_50m_enable_4647" from F1 on comp "U8/u3/u3/SLICE_4191" on site "R8C49D", CLK/CE/SR load = 33
-  PRIMARY "U8/u1/u1/r_byte_size_16__N_10946" from F1 on comp "U8/u1/u1/SLICE_4889" on site "R12C34C", CLK/CE/SR load = 31
-  PRIMARY "U8/u1/o_recv_data_udp_7__N_9509" from F1 on comp "U8/u1/SLICE_8988" on site "R11C41D", CLK/CE/SR load = 10
+  PRIMARY "w_pll_50m" from CLKOP on comp "U1/PLLInst_0" on PLL site "PLL_BL0", CLK/CE/SR load = 1258
+  PRIMARY "n232789" from Q0 on comp "SLICE_8019" on site "R8C30D", CLK/CE/SR load = 460
+  PRIMARY "r_rst_n" from Q0 on comp "SLICE_5870" on site "R16C31C", CLK/CE/SR load = 655
+  PRIMARY "U8/u5/U1/U1/w_pll_50m_enable_3749" from OFX0 on comp "U8/u5/U1/U1/i177751/SLICE_7233" on site "R6C46D", CLK/CE/SR load = 32
 
-  PRIMARY  : 8 out of 16 (50%)
+  PRIMARY  : 4 out of 16 (25%)
 
 Quadrant BL Clocks:
-  PRIMARY "jtaghub16_jtck" from JTCK on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 202
-  PRIMARY "w_pll_50m" from CLKOP on comp "U1/PLLInst_0" on PLL site "PLL_BL0", CLK/CE/SR load = 990
+  PRIMARY "jtaghub16_jtck" from JTCK on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 201
+  PRIMARY "w_pll_50m" from CLKOP on comp "U1/PLLInst_0" on PLL site "PLL_BL0", CLK/CE/SR load = 998
   PRIMARY "w_pll_100m" from CLKOS2 on comp "U1/PLLInst_0" on PLL site "PLL_BL0", CLK/CE/SR load = 15
-  PRIMARY "n237581" from Q0 on comp "SLICE_10249" on site "R20C51C", CLK/CE/SR load = 563
-  PRIMARY "r_rst_n" from Q0 on comp "SLICE_5890" on site "R40C35D", CLK/CE/SR load = 166
-  PRIMARY "c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/reset_rvl_n" from F0 on comp "c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/SLICE_9215" on site "R47C31A", CLK/CE/SR load = 173
-  PRIMARY "jtaghub16_jrstn" from JRSTN on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 181
+  PRIMARY "n232789" from Q0 on comp "SLICE_8019" on site "R8C30D", CLK/CE/SR load = 622
+  PRIMARY "r_rst_n" from Q0 on comp "SLICE_5870" on site "R16C31C", CLK/CE/SR load = 59
+  PRIMARY "c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/reset_rvl_n" from F0 on comp "c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/SLICE_10323" on site "R33C12D", CLK/CE/SR load = 254
+  PRIMARY "jtaghub16_jrstn" from JRSTN on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 182
+  PRIMARY "U8/u3/u1/w_pll_50m_enable_4691" from F1 on comp "U8/u3/u1/SLICE_4197" on site "R32C24C", CLK/CE/SR load = 32
   PRIMARY "i_clk_50m_c" from comp "i_clk_50m" on PIO site "E7 (PT24A)", CLK/CE/SR load = 1
 
-  PRIMARY  : 8 out of 16 (50%)
+  PRIMARY  : 9 out of 16 (56%)
 
 Quadrant BR Clocks:
-  PRIMARY "jtaghub16_jtck" from JTCK on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 32
-  PRIMARY "w_pll_50m" from CLKOP on comp "U1/PLLInst_0" on PLL site "PLL_BL0", CLK/CE/SR load = 1136
-  PRIMARY "n237581" from Q0 on comp "SLICE_10249" on site "R20C51C", CLK/CE/SR load = 412
-  PRIMARY "r_rst_n" from Q0 on comp "SLICE_5890" on site "R40C35D", CLK/CE/SR load = 593
-  PRIMARY "c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/reset_rvl_n" from F0 on comp "c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/SLICE_9215" on site "R47C31A", CLK/CE/SR load = 89
-  PRIMARY "jtaghub16_jrstn" from JRSTN on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 32
-  PRIMARY "U8/u5/U1/U1/w_pll_50m_enable_3778" from OFX0 on comp "U8/u5/U1/U1/i182077/SLICE_7251" on site "R40C69A", CLK/CE/SR load = 32
-  PRIMARY "U8/u1/o_recv_data_udp_7__N_9509" from F1 on comp "U8/u1/SLICE_8988" on site "R11C41D", CLK/CE/SR load = 12
+  PRIMARY "jtaghub16_jtck" from JTCK on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 22
+  PRIMARY "w_pll_50m" from CLKOP on comp "U1/PLLInst_0" on PLL site "PLL_BL0", CLK/CE/SR load = 1131
+  PRIMARY "n232789" from Q0 on comp "SLICE_8019" on site "R8C30D", CLK/CE/SR load = 482
+  PRIMARY "r_rst_n" from Q0 on comp "SLICE_5870" on site "R16C31C", CLK/CE/SR load = 598
+  PRIMARY "jtaghub16_jrstn" from JRSTN on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 21
+  PRIMARY "w_pll_50m_enable_4547" from F1 on comp "U8/u3/u3/SLICE_4198" on site "R44C15C", CLK/CE/SR load = 66
+  PRIMARY "w_pll_50m_enable_4421" from F0 on comp "U8/u3/u3/SLICE_3845" on site "R44C15A", CLK/CE/SR load = 49
+  PRIMARY "w_pll_50m_enable_4484" from F1 on comp "U8/u3/u3/SLICE_3845" on site "R44C15A", CLK/CE/SR load = 33
+  PRIMARY "U8/u3/u1/o_ntp_server_get_63__N_12440" from F0 on comp "U8/u3/u1/SLICE_8425" on site "R42C54B", CLK/CE/SR load = 32
+  PRIMARY "U8/u1/o_recv_data_udp_7__N_9513" from F1 on comp "U8/u1/SLICE_8933" on site "R48C41A", CLK/CE/SR load = 22
 
-  PRIMARY  : 8 out of 16 (50%)
+  PRIMARY  : 10 out of 16 (62%)
 
 Edge Clocks:
 
@@ -2864,55 +2872,53 @@ I/O Bank Usage Summary:
 ---------------------------------- DSP Report ----------------------------------
 
 DSP Slice #:           1  2  3  4  5  6  7  8  9 10 11 12 13 14
-# of MULT9                            1              1  2      
-# of MULT18            1  1     1  2           1              1
+# of MULT9                   1                       1  2      
+# of MULT18               1        2  2  1        1            
 # of ALU24                                                     
 # of ALU54                                                     
 # of PRADD9                                                    
 # of PRADD18                                                   
 
-DSP Slice  1         Component_Type       Physical_Type           Instance_Name         
-  MULT18_R13C5         MULT18X18D             MULT18          U5/U3/U3/U2/dsp_mult_0    
-
 DSP Slice  2         Component_Type       Physical_Type           Instance_Name         
-  MULT18_R13C9         MULT18X18D             MULT18          U5/U3/U3/U1/dsp_mult_0    
+  MULT18_R13C9         MULT18X18D             MULT18          U3/u3/U1/U1/dsp_mult_0    
 
-DSP Slice  4         Component_Type       Physical_Type           Instance_Name         
- MULT18_R13C17         MULT18X18D             MULT18           U5/U1/U2/dsp_mult_0      
+DSP Slice  3         Component_Type       Physical_Type           Instance_Name         
+  MULT9_R13C13          MULT9X9D              MULT9            U2/U4/U1/dsp_mult_0      
 
 DSP Slice  5         Component_Type       Physical_Type           Instance_Name         
- MULT18_R13C22         MULT18X18D             MULT18          U5/U3/U4/U2/dsp_mult_0    
+ MULT18_R13C22         MULT18X18D             MULT18           U5/U1/U2/dsp_mult_0      
  MULT18_R13C23         MULT18X18D             MULT18          U5/U3/U4/U1/dsp_mult_0    
 
 DSP Slice  6         Component_Type       Physical_Type           Instance_Name         
- MULT18_R13C26          MULT9X9D              MULT9            U2/U4/U1/dsp_mult_0      
+ MULT18_R13C26         MULT18X18D             MULT18          U5/U3/U4/U2/dsp_mult_0    
+ MULT18_R13C27         MULT18X18D             MULT18          U5/U3/U3/U2/dsp_mult_0    
 
-DSP Slice  9         Component_Type       Physical_Type           Instance_Name         
- MULT18_R13C43         MULT18X18D             MULT18           U3/u4/U1/dsp_mult_0      
+DSP Slice  7         Component_Type       Physical_Type           Instance_Name         
+ MULT18_R13C33         MULT18X18D             MULT18          U5/U3/U3/U1/dsp_mult_0    
+
+DSP Slice 10         Component_Type       Physical_Type           Instance_Name         
+ MULT18_R13C46         MULT18X18D             MULT18           U3/u4/U1/dsp_mult_0      
 
 DSP Slice 11         Component_Type       Physical_Type           Instance_Name         
-  MULT9_R13C51          MULT9X9D              MULT9            U3/u3/U3/dsp_mult_0      
+  MULT9_R13C52          MULT9X9D              MULT9            U3/u3/U3/dsp_mult_0      
 
 DSP Slice 12         Component_Type       Physical_Type           Instance_Name         
- MULT18_R13C55          MULT9X9D              MULT9            U3/u3/U2/dsp_mult_0      
-  MULT9_R13C56          MULT9X9D              MULT9            U3/u3/U4/dsp_mult_0      
-
-DSP Slice 14         Component_Type       Physical_Type           Instance_Name         
- MULT18_R13C65         MULT18X18D             MULT18          U3/u3/U1/U1/dsp_mult_0    
+ MULT18_R13C55          MULT9X9D              MULT9            U3/u3/U4/dsp_mult_0      
+  MULT9_R13C56          MULT9X9D              MULT9            U3/u3/U2/dsp_mult_0      
 
 ------------------------------ End of DSP Report -------------------------------
-Total placer CPU time: 1 mins 4 secs 
+Total placer CPU time: 1 mins 23 secs 
 
 Dumping design to file c25x_fpga_c25x_fpga.dir/5_1.ncd.
 
 58 potential circuit loops found in timing analysis.
-0 connections routed; 80891 unrouted.
+0 connections routed; 80212 unrouted.
 Starting router resource preassignment
-DSP info: Total 2 dsp pins have been swapped.
+DSP info: Total 6 dsp pins have been swapped.
 
-Completed router resource preassignment. Real time: 1 mins 16 secs 
+Completed router resource preassignment. Real time: 1 mins 38 secs 
 
-Start NBR router at 18:56:16 05/22/25
+Start NBR router at 11:43:08 05/23/25
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -2928,100 +2934,91 @@ Note: NBR uses a different method to calculate timing slacks. The
 *****************************************************************
 
 58 potential circuit loops found in timing analysis.
-Start NBR special constraint process at 18:56:18 05/22/25
+Start NBR special constraint process at 11:43:10 05/23/25
 
-Start NBR section for initial routing at 18:56:19 05/22/25
+Start NBR section for initial routing at 11:43:12 05/23/25
 Level 1, iteration 1
-40(0.00%) conflicts; 63301(78.25%) untouched conns; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.326ns/0.000ns; real time: 1 mins 21 secs 
+114(0.01%) conflicts; 62512(77.93%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 1 mins 46 secs 
 Level 2, iteration 1
-2(0.00%) conflicts; 63334(78.30%) untouched conns; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.314ns/0.000ns; real time: 1 mins 22 secs 
+1(0.00%) conflict; 62590(78.03%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.966ns/0.000ns; real time: 1 mins 47 secs 
 Level 3, iteration 1
-35(0.00%) conflicts; 61281(75.76%) untouched conns; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.314ns/0.000ns; real time: 1 mins 24 secs 
+79(0.01%) conflicts; 60797(75.80%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 1 mins 49 secs 
 Level 4, iteration 1
-3798(0.33%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.314ns/0.000ns; real time: 1 mins 33 secs 
+3952(0.34%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.078ns/0.000ns; real time: 2 mins 1 secs 
 
-Info: Initial congestion level at 75% usage is 2
-Info: Initial congestion area  at 75% usage is 202 (6.01%)
+Info: Initial congestion level at 75% usage is 4
+Info: Initial congestion area  at 75% usage is 337 (10.03%)
 
-Start NBR section for normal routing at 18:56:32 05/22/25
+Start NBR section for normal routing at 11:43:31 05/23/25
 Level 1, iteration 1
-11(0.00%) conflicts; 6415(7.93%) untouched conns; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.314ns/0.000ns; real time: 1 mins 34 secs 
-Level 2, iteration 1
-5(0.00%) conflicts; 6422(7.94%) untouched conns; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.314ns/0.000ns; real time: 1 mins 35 secs 
-Level 3, iteration 1
-4(0.00%) conflicts; 6418(7.93%) untouched conns; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.314ns/0.000ns; real time: 1 mins 35 secs 
+9(0.00%) conflicts; 5780(7.21%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.078ns/0.000ns; real time: 2 mins 3 secs 
 Level 4, iteration 1
-2241(0.19%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 39 secs 
+1048(0.09%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 9 secs 
 Level 4, iteration 2
-1363(0.12%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 42 secs 
+494(0.04%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 11 secs 
 Level 4, iteration 3
-787(0.07%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 44 secs 
+263(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 13 secs 
 Level 4, iteration 4
-537(0.05%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 45 secs 
+122(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 14 secs 
 Level 4, iteration 5
-333(0.03%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 46 secs 
+62(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 15 secs 
 Level 4, iteration 6
-235(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 47 secs 
+27(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 15 secs 
 Level 4, iteration 7
-153(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 48 secs 
+17(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 16 secs 
 Level 4, iteration 8
-105(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 49 secs 
+9(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 16 secs 
 Level 4, iteration 9
-74(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 49 secs 
+6(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 17 secs 
 Level 4, iteration 10
-48(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 50 secs 
+5(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 17 secs 
 Level 4, iteration 11
-35(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 50 secs 
+3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 18 secs 
 Level 4, iteration 12
-26(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 51 secs 
+3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 18 secs 
 Level 4, iteration 13
-20(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 51 secs 
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 19 secs 
 Level 4, iteration 14
-16(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 51 secs 
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 19 secs 
 Level 4, iteration 15
-11(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 52 secs 
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 20 secs 
 Level 4, iteration 16
-11(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 52 secs 
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 20 secs 
 Level 4, iteration 17
-2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 53 secs 
-Level 4, iteration 18
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 53 secs 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 21 secs 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at 18:56:52 05/22/25
+Start NBR section for setup/hold timing optimization with effort level 3 at 11:43:50 05/23/25
 58 potential circuit loops found in timing analysis.
 58 potential circuit loops found in timing analysis.
 
-Start NBR section for re-routing at 18:56:56 05/22/25
+Start NBR section for re-routing at 11:43:55 05/23/25
 Level 4, iteration 1
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 1.280ns/0.000ns; real time: 1 mins 57 secs 
+Estimated worst slack/total negative slack<setup>: 1.104ns/0.000ns; real time: 2 mins 27 secs 
 
-Start NBR section for post-routing at 18:56:56 05/22/25
+Start NBR section for post-routing at 11:43:56 05/23/25
 58 potential circuit loops found in timing analysis.
 
 End NBR router with 0 unrouted connection
@@ -3030,7 +3027,7 @@ NBR Summary
 -----------
   Number of unrouted connections : 0 (0.00%)
   Number of connections with timing violations : 0 (0.00%)
-  Estimated worst slack<setup> : 1.280ns
+  Estimated worst slack<setup> : 1.104ns
   Timing score<setup> : 0
 -----------
 Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
@@ -3040,10 +3037,10 @@ Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored
 58 potential circuit loops found in timing analysis.
 58 potential circuit loops found in timing analysis.
 58 potential circuit loops found in timing analysis.
-Total CPU time 2 mins 5 secs 
-Total REAL time: 2 mins 9 secs 
+Total CPU time 2 mins 39 secs 
+Total REAL time: 2 mins 43 secs 
 Completely routed.
-End of route.  80891 routed (100.00%); 0 unrouted.
+End of route.  80212 routed (100.00%); 0 unrouted.
 
 Hold time timing score: 0, hold timing errors: 0
 
@@ -3054,14 +3051,14 @@ Dumping design to file c25x_fpga_c25x_fpga.dir/5_1.ncd.
 
 PAR_SUMMARY::Run status = Completed
 PAR_SUMMARY::Number of unrouted conns = 0
-PAR_SUMMARY::Worst  slack<setup/<ns>> = 1.280
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 1.104
 PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
 PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.170
 PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
 PAR_SUMMARY::Number of errors = 0
 
-Total CPU  time to completion: 2 mins 8 secs 
-Total REAL time to completion: 2 mins 12 secs 
+Total CPU  time to completion: 2 mins 43 secs 
+Total REAL time to completion: 2 mins 47 secs 
 
 par done!
 
@@ -3098,7 +3095,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2
-Thu May 22 18:57:14 2025
+Fri May 23 11:44:18 2025
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -3129,11 +3126,11 @@ Timing summary (Setup):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 4530748 paths, 4 nets, and 79414 connections (98.17% coverage)
+Constraints cover 5170887 paths, 4 nets, and 78758 connections (98.19% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2
-Thu May 22 18:57:15 2025
+Fri May 23 11:44:20 2025
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -3164,7 +3161,7 @@ Timing summary (Hold):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 4530748 paths, 4 nets, and 79414 connections (98.17% coverage)
+Constraints cover 5170887 paths, 4 nets, and 78758 connections (98.19% coverage)
 
 
 
@@ -3178,7 +3175,7 @@ Cumulative negative slack: 0 (0+0)
 
 --------------------------------------------------------------------------------
 
-Total CPU Time: 5 secs 
+Total CPU Time: 4 secs 
 Total REAL Time: 5 secs 
 Peak Memory Usage: 332 MB
 
@@ -3278,7 +3275,6 @@ Computing Max Clock to Output Delay ...
 Computing Hold Time ...
 58 potential circuit loops found in timing analysis.
 Computing Min Clock to Output Delay ...
-Done.
 
 tmcheck -par "c25x_fpga_c25x_fpga.par" 
 
@@ -3359,6 +3355,6 @@ Creating bit map...
 Bitstream Status: Final           Version 10.27.
  
 Saving bit stream in "c25x_fpga_c25x_fpga.bit".
-Total CPU Time: 7 secs 
-Total REAL Time: 8 secs 
+Total CPU Time: 6 secs 
+Total REAL Time: 7 secs 
 Peak Memory Usage: 382 MB

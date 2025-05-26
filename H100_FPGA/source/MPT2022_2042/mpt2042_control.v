@@ -335,7 +335,7 @@ begin
         end		
 
         ST_WAIT_INIT: begin
-            if(~f1_SPI_interrupt_n&(~f2_SPI_interrupt_n)&(~f0_SPI_interrupt_n)&i_angle_sync!=1)begin 
+            if(~f1_SPI_interrupt_n&(~f2_SPI_interrupt_n)&(~f0_SPI_interrupt_n))begin 
                 next_state = ST_RESULT;
             end else begin
                 next_state = ST_WAIT_INIT;
@@ -475,21 +475,20 @@ always @(posedge sys_clk) begin
         reset_flag_cnt <=#D 3'b0;     
     end
 end	
- reg [3:0] r_angle_sync;
 //12.5ns x 2
 always @(posedge sys_clk)begin 
     if(!sys_rst_n) begin
         ASIC_RESETN_OUT <=#D 1'b1;     
-    end else if(reset_flag_cnt == 3'd1|(i_angle_sync&verify_ok))begin
+    //end else if(reset_flag_cnt == 3'd1|(i_angle_sync&verify_ok))begin
+	end else if(reset_flag_cnt == 3'd1)begin
         ASIC_RESETN_OUT <=#D 1'b0;        
-    end else if(reset_flag_cnt == 3'd3|(i_angle_sync!=1))begin
+    //end else if(reset_flag_cnt == 3'd3|(i_angle_sync!=1))begin
+	end else if(reset_flag_cnt == 3'd3)begin
         ASIC_RESETN_OUT <=#D 1'b1;             
     end
 end	
 
-always @(posedge sys_clk) begin
-	r_angle_sync<={r_angle_sync[2:0],i_angle_sync};
-end
+
 always @(posedge sys_clk) begin
     if(!sys_rst_n) begin
         reset_start_pulse <=#D 1'b0;
@@ -615,7 +614,7 @@ end
 
 ///////////////////////////////////////////////////////////////////// ST_WAIT_INIT
 always @(posedge sys_clk) begin
-    if(!sys_rst_n|i_angle_sync) begin
+    if(!sys_rst_n) begin
         f0_SPI_interrupt_n <=#D 1'b1;
         f1_SPI_interrupt_n <=#D 1'b1;
 		f2_SPI_interrupt_n <=#D 1'b1;      
@@ -669,7 +668,7 @@ always @(posedge sys_clk) begin
 end	
 
 always @(posedge sys_clk) begin
-    if(!sys_rst_n|!clera_spi_clk) begin
+    if(!sys_rst_n) begin
         tdc_result_valid_flag <=#D 1'b0;   
     end else if(result_flag && spi_rd_vld && (tdc_result_cnt == 2'd2))begin
         tdc_result_valid_flag <=#D spi_rdat[4];                     
@@ -771,7 +770,7 @@ always @(posedge sys_clk) begin
         f1_next_byte_vld <=#D f0_next_byte_vld;      
     end
 end	
-wire w_SPI_SCK_OUT;
+/*wire w_SPI_SCK_OUT;
 reg clera_spi_clk ;
 assign  SPI_SCK_OUT = w_SPI_SCK_OUT&clera_spi_clk;
 always @(posedge sys_clk)begin
@@ -780,7 +779,7 @@ always @(posedge sys_clk)begin
 	end else begin
 		clera_spi_clk <=1'b1;
 	end
-end
+end*/
 mpt2042_spi_top u_mpt2042_spi_top
 (
 .sys_clk      (sys_clk),
@@ -793,7 +792,7 @@ mpt2042_spi_top u_mpt2042_spi_top
 .spi_cmd_type (spi_cmd_type),  
 
 .spi_so       (SPI_MISO_IN),   
-.spi_clk      (w_SPI_SCK_OUT),   
+.spi_clk      (SPI_SCK_OUT),   
 .spi_ssn      (SPI_CSN_OUT),   
 .spi_si       (SPI_MOSI_OUT),     
 

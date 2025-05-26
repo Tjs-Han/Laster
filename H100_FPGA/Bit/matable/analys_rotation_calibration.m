@@ -2,7 +2,7 @@ clc;
 close all;
 clear ;
 %% 修改文件编码为 UTF-8
-file_path = 'D:\Project\H100_FPGA\Bit\matable\data.txt';
+file_path = 'D:\Project\H100_FPGA\Bit\matable\TDC_-45_225度\20m.txt';
 fileID = fopen(file_path, 'r');
 % 逐行读取数据
 data = {};
@@ -23,7 +23,7 @@ close all;
 pulse = fall - rise;
 
 n = 0:5400 ;
-x = (n )./5401 * 2*pi;
+x = (n )./5401* 2*pi;
 m = n+1 ;
 
 

@@ -39,7 +39,7 @@ Performance Hardware Data Status:   Final          Version 55.1.
 // Package: CABGA256
 // ncd File: c25x_fpga_c25x_fpga.ncd
 // Version: Diamond (64-bit) 3.12.0.240.2
-// Written on Thu May 22 18:57:38 2025
+// Written on Fri May 23 11:44:47 2025
 // M: Minimum Performance Grade
 // iotiming c25x_fpga_c25x_fpga.ncd c25x_fpga_c25x_fpga.prf -gui -msgset D:/Project/H100_FPGA/promote.xml
 
@@ -51,92 +51,92 @@ Worst Case Results across Performance Grades (M, 9, 8, 7, 6):
 
 Port             Clock     Edge  Setup Performance_Grade  Hold Performance_Grade
 ----------------------------------------------------------------------
-i_adc_sda        i_clk_50m R    -0.071      M       3.843     6
-i_flash_miso     i_clk_50m R    -0.245      M       3.563     6
-i_opto_switch    i_clk_50m R    -0.512      M       4.229     6
-i_spi_miso       i_clk_50m R    -0.526      M       4.148     6
-i_tdc_init       i_clk_50m R     0.416      M       2.632     6
-i_tdc_spi_miso   i_clk_50m R     0.361      M       2.656     6
-io_sram_data[0]  i_clk_50m R    13.375      6       3.789     6
-io_sram_data[10] i_clk_50m R    10.172      6       3.454     6
-io_sram_data[11] i_clk_50m R     9.429      6       3.642     6
-io_sram_data[12] i_clk_50m R    10.299      6       4.460     6
-io_sram_data[13] i_clk_50m R     9.596      6       4.012     6
-io_sram_data[14] i_clk_50m R    11.216      6       4.229     6
-io_sram_data[15] i_clk_50m R     8.124      6       3.586     6
-io_sram_data[1]  i_clk_50m R    11.506      6       3.998     6
-io_sram_data[2]  i_clk_50m R    10.770      6       3.397     6
-io_sram_data[3]  i_clk_50m R     9.642      6       3.965     6
-io_sram_data[4]  i_clk_50m R     9.836      6       3.439     6
-io_sram_data[5]  i_clk_50m R     9.193      6       3.728     6
-io_sram_data[6]  i_clk_50m R    10.710      6       4.473     6
-io_sram_data[7]  i_clk_50m R     9.194      6       3.694     6
-io_sram_data[8]  i_clk_50m R     9.802      6       3.028     6
-io_sram_data[9]  i_clk_50m R     9.337      6       3.839     6
+i_adc_sda        i_clk_50m R    -0.115      M       3.784     6
+i_flash_miso     i_clk_50m R     1.066      M       1.137     6
+i_opto_switch    i_clk_50m R     0.266      M       3.390     6
+i_spi_miso       i_clk_50m R     0.255      M       2.747     6
+i_tdc_init       i_clk_50m R     0.504      M       2.502     6
+i_tdc_spi_miso   i_clk_50m R     0.969      M       1.556     6
+io_sram_data[0]  i_clk_50m R    12.216      6       4.112     6
+io_sram_data[10] i_clk_50m R    11.884      6       3.840     6
+io_sram_data[11] i_clk_50m R    10.118      6       3.593     6
+io_sram_data[12] i_clk_50m R    11.391      6       3.389     6
+io_sram_data[13] i_clk_50m R     9.603      6       3.776     6
+io_sram_data[14] i_clk_50m R    11.570      6       3.645     6
+io_sram_data[15] i_clk_50m R     9.962      6       3.441     6
+io_sram_data[1]  i_clk_50m R     9.883      6       4.035     6
+io_sram_data[2]  i_clk_50m R     8.352      6       4.100     6
+io_sram_data[3]  i_clk_50m R     9.296      6       4.285     6
+io_sram_data[4]  i_clk_50m R    12.555      6       3.700     6
+io_sram_data[5]  i_clk_50m R    10.591      6       3.422     6
+io_sram_data[6]  i_clk_50m R    10.600      6       3.555     6
+io_sram_data[7]  i_clk_50m R    10.161      6       3.538     6
+io_sram_data[8]  i_clk_50m R    10.181      6       4.655     6
+io_sram_data[9]  i_clk_50m R    10.258      6       3.731     6
 
 
 // Clock to Output Delay
 
 Port             Clock     Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
 ------------------------------------------------------------------------
-ASIC_RESETN_OUT  i_clk_50m R    13.659         6        5.114          M
-SPI_RSTN_OUT     i_clk_50m R    11.965         6        4.502          M
-io_sram_data[0]  i_clk_50m R    17.099         6        5.037          M
-io_sram_data[10] i_clk_50m R    16.399         6        4.632          M
-io_sram_data[11] i_clk_50m R    17.501         6        4.801          M
-io_sram_data[12] i_clk_50m R    18.001         6        4.858          M
-io_sram_data[13] i_clk_50m R    18.131         6        4.909          M
-io_sram_data[14] i_clk_50m R    18.376         6        4.850          M
-io_sram_data[15] i_clk_50m R    18.793         6        5.042          M
-io_sram_data[1]  i_clk_50m R    16.633         6        4.666          M
-io_sram_data[2]  i_clk_50m R    17.271         6        4.644          M
-io_sram_data[3]  i_clk_50m R    17.363         6        4.735          M
-io_sram_data[4]  i_clk_50m R    17.271         6        4.459          M
-io_sram_data[5]  i_clk_50m R    18.001         6        5.068          M
-io_sram_data[6]  i_clk_50m R    18.376         6        4.976          M
-io_sram_data[7]  i_clk_50m R    19.015         6        5.287          M
-io_sram_data[8]  i_clk_50m R    16.399         6        4.662          M
-io_sram_data[9]  i_clk_50m R    17.257         6        4.871          M
-o_adc_cs1        i_clk_50m R    11.815         6        4.303          M
-o_adc_cs2        i_clk_50m R    12.527         6        4.565          M
-o_adc_sclk       i_clk_50m R    11.649         6        4.377          M
-o_dac_cs         i_clk_50m R    11.654         6        4.381          M
-o_dac_scl        i_clk_50m R    11.633         6        4.375          M
-o_dac_sda        i_clk_50m R    12.091         6        4.552          M
-o_disable_tdc    i_clk_50m R    11.533         6        4.340          M
-o_flash_cs       i_clk_50m R    10.889         6        4.104          M
-o_flash_mosi     i_clk_50m R    11.181         6        4.227          M
-o_hv_en          i_clk_50m R    12.248         6        4.615          M
-o_laser_str      i_clk_50m R    15.708         6        5.898          M
-o_led_state      i_clk_50m R    11.922         6        4.503          M
-o_motor_pwm      i_clk_50m R    10.088         6        3.801          M
-o_program_n      i_clk_50m R    12.787         6        4.798          M
-o_spi_cs         i_clk_50m R    11.898         6        4.468          M
-o_spi_dclk       i_clk_50m R    10.295         6        3.872          M
-o_spi_mosi       i_clk_50m R    11.721         6        4.409          M
-o_sram_addr[0]   i_clk_50m R    17.405         6        5.066          M
-o_sram_addr[10]  i_clk_50m R    17.486         6        5.029          M
-o_sram_addr[11]  i_clk_50m R    17.997         6        5.303          M
-o_sram_addr[12]  i_clk_50m R    17.023         6        5.095          M
-o_sram_addr[13]  i_clk_50m R    17.401         6        5.177          M
-o_sram_addr[14]  i_clk_50m R    18.242         6        5.083          M
-o_sram_addr[15]  i_clk_50m R    18.311         6        5.169          M
-o_sram_addr[16]  i_clk_50m R    16.372         6        4.874          M
-o_sram_addr[17]  i_clk_50m R    17.179         6        5.152          M
-o_sram_addr[1]   i_clk_50m R    19.026         6        5.002          M
-o_sram_addr[2]   i_clk_50m R    18.485         6        5.230          M
-o_sram_addr[3]   i_clk_50m R    17.486         6        5.121          M
-o_sram_addr[4]   i_clk_50m R    17.820         6        5.104          M
-o_sram_addr[5]   i_clk_50m R    21.454         6        5.142          M
-o_sram_addr[6]   i_clk_50m R    17.125         6        4.791          M
-o_sram_addr[7]   i_clk_50m R    17.118         6        5.060          M
-o_sram_addr[8]   i_clk_50m R    21.224         6        5.255          M
-o_sram_addr[9]   i_clk_50m R    17.472         6        5.278          M
-o_sram_oe_n      i_clk_50m R    16.140         6        5.271          M
-o_sram_we_n      i_clk_50m R    17.575         6        5.531          M
-o_tdc_spi_clk    i_clk_50m R    14.588         6        5.256          M
-o_tdc_spi_mosi   i_clk_50m R    12.451         6        4.685          M
-o_tdc_spi_ssn    i_clk_50m R    12.868         6        4.847          M
-o_w5500_rst      i_clk_50m R    12.042         6        4.521          M
+ASIC_RESETN_OUT  i_clk_50m R    14.440         6        5.403          M
+SPI_RSTN_OUT     i_clk_50m R    11.133         6        4.185          M
+io_sram_data[0]  i_clk_50m R    15.185         6        4.492          M
+io_sram_data[10] i_clk_50m R    15.038         6        4.191          M
+io_sram_data[11] i_clk_50m R    16.077         6        4.877          M
+io_sram_data[12] i_clk_50m R    16.576         6        5.098          M
+io_sram_data[13] i_clk_50m R    16.706         6        4.855          M
+io_sram_data[14] i_clk_50m R    16.962         6        5.011          M
+io_sram_data[15] i_clk_50m R    17.000         6        5.165          M
+io_sram_data[1]  i_clk_50m R    15.208         6        4.697          M
+io_sram_data[2]  i_clk_50m R    16.066         6        4.607          M
+io_sram_data[3]  i_clk_50m R    15.663         6        4.724          M
+io_sram_data[4]  i_clk_50m R    16.066         6        4.714          M
+io_sram_data[5]  i_clk_50m R    16.576         6        4.878          M
+io_sram_data[6]  i_clk_50m R    16.962         6        5.002          M
+io_sram_data[7]  i_clk_50m R    17.441         6        5.038          M
+io_sram_data[8]  i_clk_50m R    15.038         6        4.342          M
+io_sram_data[9]  i_clk_50m R    16.053         6        4.876          M
+o_adc_cs1        i_clk_50m R    13.712         6        4.666          M
+o_adc_cs2        i_clk_50m R    13.425         6        4.549          M
+o_adc_sclk       i_clk_50m R    12.411         6        4.646          M
+o_dac_cs         i_clk_50m R    10.431         6        3.922          M
+o_dac_scl        i_clk_50m R    10.570         6        3.975          M
+o_dac_sda        i_clk_50m R    10.320         6        3.879          M
+o_disable_tdc    i_clk_50m R    12.600         6        4.718          M
+o_flash_cs       i_clk_50m R    14.321         6        5.389          M
+o_flash_mosi     i_clk_50m R    14.519         6        5.456          M
+o_hv_en          i_clk_50m R    13.170         6        4.951          M
+o_laser_str      i_clk_50m R    14.502         6        5.421          M
+o_led_state      i_clk_50m R    12.344         6        4.619          M
+o_motor_pwm      i_clk_50m R    10.840         6        4.086          M
+o_program_n      i_clk_50m R    12.813         6        4.818          M
+o_spi_cs         i_clk_50m R    13.393         6        5.030          M
+o_spi_dclk       i_clk_50m R    12.788         6        4.790          M
+o_spi_mosi       i_clk_50m R    13.143         6        4.943          M
+o_sram_addr[0]   i_clk_50m R    17.614         6        5.022          M
+o_sram_addr[10]  i_clk_50m R    18.482         6        5.428          M
+o_sram_addr[11]  i_clk_50m R    18.890         6        5.393          M
+o_sram_addr[12]  i_clk_50m R    18.984         6        5.280          M
+o_sram_addr[13]  i_clk_50m R    18.551         6        5.038          M
+o_sram_addr[14]  i_clk_50m R    18.345         6        5.294          M
+o_sram_addr[15]  i_clk_50m R    18.251         6        5.037          M
+o_sram_addr[16]  i_clk_50m R    18.913         6        5.090          M
+o_sram_addr[17]  i_clk_50m R    18.804         6        5.131          M
+o_sram_addr[1]   i_clk_50m R    17.477         6        4.868          M
+o_sram_addr[2]   i_clk_50m R    18.039         6        4.989          M
+o_sram_addr[3]   i_clk_50m R    17.350         6        5.106          M
+o_sram_addr[4]   i_clk_50m R    17.467         6        4.949          M
+o_sram_addr[5]   i_clk_50m R    18.183         6        5.017          M
+o_sram_addr[6]   i_clk_50m R    19.280         6        5.233          M
+o_sram_addr[7]   i_clk_50m R    18.915         6        5.332          M
+o_sram_addr[8]   i_clk_50m R    18.751         6        5.216          M
+o_sram_addr[9]   i_clk_50m R    19.359         6        5.142          M
+o_sram_oe_n      i_clk_50m R    14.815         6        4.714          M
+o_sram_we_n      i_clk_50m R    15.783         6        5.168          M
+o_tdc_spi_clk    i_clk_50m R    13.460         6        5.032          M
+o_tdc_spi_mosi   i_clk_50m R    13.713         6        5.145          M
+o_tdc_spi_ssn    i_clk_50m R    12.916         6        4.832          M
+o_w5500_rst      i_clk_50m R    14.428         6        5.414          M
 WARNING: you must also run trce with hold speed: 6
 WARNING: you must also run trce with setup speed: M

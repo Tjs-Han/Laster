@@ -4,7 +4,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Thu May 22 18:57:39 2025
+Fri May 23 11:44:48 2025
 
 
 Command: bitgen -w -g CfgMode:Disable -g RamCfg:Reset -g DisableUES:FALSE -g ES:No -e -s D:/Project/H100_FPGA/c25x_fpga.sec -k D:/Project/H100_FPGA/c25x_fpga.bek -gui -msgset D:/Project/H100_FPGA/promote.xml c25x_fpga_c25x_fpga.ncd c25x_fpga_c25x_fpga.prf 
@@ -75,6 +75,6 @@ Creating bit map...
 Bitstream Status: Final           Version 10.27.
  
 Saving bit stream in "c25x_fpga_c25x_fpga.bit".
-Total CPU Time: 7 secs 
-Total REAL Time: 8 secs 
+Total CPU Time: 6 secs 
+Total REAL Time: 7 secs 
 Peak Memory Usage: 382 MB

@@ -3,57 +3,57 @@ Report for cell c25x_fpga
    Instance path: c25x_fpga
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	   11141.00        100.0
-                                  LUT4	   14259.00        100.0
+                                  SLIC	   11071.00        100.0
+                                  LUT4	   14145.00        100.0
                                DISTRAM	      30.00        100.0
                                  IOBUF	         74        100.0
-                                PFUREG	       7933        100.0
-                                RIPPLE	       2631        100.0
+                                PFUREG	       7905        100.0
+                                RIPPLE	       2630        100.0
                                    EBR	         21        100.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                  w5500_control_uniq_1	          1        35.5
-                   sram_control_uniq_1	          1         1.6
+                  w5500_control_uniq_1	          1        35.7
                                sa5phub	          1         0.3
-                 rotate_control_uniq_1	          1         5.3
+                   sram_control_uniq_1	          1         1.4
                 self_inspection_uniq_1	          1         7.8
-                        reveal_coretop	          1         7.0
+                 rotate_control_uniq_1	          1         5.4
+                        reveal_coretop	          1         6.7
                   laser_control_uniq_1	          1         0.3
-                  flash_control_uniq_1	          1         4.2
-                   dist_measure_uniq_1	          1        17.9
+                  flash_control_uniq_1	          1         4.1
+                   dist_measure_uniq_1	          1        18.0
                        c25x_pll_uniq_1	          1         0.0
 ---------------------------------------------------
 Report for cell sram_control_uniq_1
    Instance path: c25x_fpga/U6
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     174.75         1.6
-                                  LUT4	     617.00         4.3
+                                  SLIC	     154.50         1.4
+                                  LUT4	     539.33         3.8
 ---------------------------------------------------
 Report for cell w5500_control_uniq_1
    Instance path: c25x_fpga/U8
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	    3952.07        35.5
-                                  LUT4	    6291.50        44.1
-                                PFUREG	       2935        37.0
-                                RIPPLE	        242         9.2
+                                  SLIC	    3950.57        35.7
+                                  LUT4	    6283.33        44.4
+                                PFUREG	       2933        37.1
+                                RIPPLE	        241         9.2
                                    EBR	         10        47.6
 SUB MODULES
                                   cell	      count    SLC Usage(%)
                  time_stamp_ntp_uniq_1	          1         0.6
-                spi_w5500_top_3_uniq_1	          1         7.9
-                 parameter_init_uniq_1	          1        15.6
-                datagram_parser_uniq_1	          1         8.6
-            datagram_parser_udp_uniq_1	          1         2.6
+                spi_w5500_top_3_uniq_1	          1         8.1
+                 parameter_init_uniq_1	          1        15.7
+            datagram_parser_udp_uniq_1	          1         2.5
+                datagram_parser_uniq_1	          1         8.5
 ---------------------------------------------------
 Report for cell parameter_init_uniq_1
    Instance path: c25x_fpga/U8/u5
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	    1737.75        15.6
-                                  LUT4	    2684.33        18.8
-                                PFUREG	       1721        21.7
+                                  SLIC	    1742.92        15.7
+                                  LUT4	    2700.33        19.1
+                                PFUREG	       1720        21.8
                                 RIPPLE	         69         2.6
                                    EBR	          1         4.8
 SUB MODULES
@@ -72,8 +72,8 @@ Report for cell time_stamp_uniq_1
    Instance path: c25x_fpga/U8/u5/U2
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      41.50         0.4
-                                  LUT4	      70.00         0.5
+                                  SLIC	      41.25         0.4
+                                  LUT4	      69.00         0.5
                                 PFUREG	         72         0.9
                                 RIPPLE	          5         0.2
 ---------------------------------------------------
@@ -81,8 +81,8 @@ Report for cell index_calculate_uniq_1
    Instance path: c25x_fpga/U8/u5/U1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     241.92         2.2
-                                  LUT4	     213.00         1.5
+                                  SLIC	     243.25         2.2
+                                  LUT4	     214.00         1.5
                                 PFUREG	        394         5.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
@@ -92,8 +92,8 @@ Report for cell division_uniq_3
    Instance path: c25x_fpga/U8/u5/U1/U1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      77.33         0.7
-                                  LUT4	     110.00         0.8
+                                  SLIC	      79.00         0.7
+                                  LUT4	     113.00         0.8
                                 PFUREG	         85         1.1
 ---------------------------------------------------
 Report for cell time_stamp_ntp_uniq_1
@@ -102,28 +102,28 @@ Report for cell time_stamp_ntp_uniq_1
                                   cell	      count    Res Usage(%)
                                   SLIC	      70.75         0.6
                                   LUT4	      77.00         0.5
-                                PFUREG	        107         1.3
+                                PFUREG	        107         1.4
                                 RIPPLE	         22         0.8
 ---------------------------------------------------
 Report for cell datagram_parser_udp_uniq_1
    Instance path: c25x_fpga/U8/u3
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     288.82         2.6
-                                  LUT4	     347.00         2.4
+                                  SLIC	     276.48         2.5
+                                  LUT4	     283.00         2.0
                                 PFUREG	        357         4.5
                                 RIPPLE	         19         0.7
 SUB MODULES
                                   cell	      count    SLC Usage(%)
+                  ntp_send_make_uniq_1	          1         1.3
                   ntp_calculate_uniq_1	          1         0.2
-                  ntp_send_make_uniq_1	          1         1.2
-             ntp_receive_parser_uniq_1	          1         1.2
+             ntp_receive_parser_uniq_1	          1         1.0
 ---------------------------------------------------
 Report for cell ntp_calculate_uniq_1
    Instance path: c25x_fpga/U8/u3/u3
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      21.92         0.2
+                                  SLIC	      22.00         0.2
                                   LUT4	      39.00         0.3
                                 PFUREG	         36         0.5
 ---------------------------------------------------
@@ -131,17 +131,17 @@ Report for cell ntp_send_make_uniq_1
    Instance path: c25x_fpga/U8/u3/u2
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     134.00         1.2
-                                  LUT4	     179.00         1.3
-                                PFUREG	         99         1.2
+                                  SLIC	     140.33         1.3
+                                  LUT4	     192.00         1.4
+                                PFUREG	         99         1.3
                                 RIPPLE	         12         0.5
 ---------------------------------------------------
 Report for cell ntp_receive_parser_uniq_1
    Instance path: c25x_fpga/U8/u3/u1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     132.90         1.2
-                                  LUT4	     129.00         0.9
+                                  SLIC	     114.15         1.0
+                                  LUT4	      52.00         0.4
                                 PFUREG	        222         2.8
                                 RIPPLE	          7         0.3
 ---------------------------------------------------
@@ -149,17 +149,17 @@ Report for cell datagram_parser_uniq_1
    Instance path: c25x_fpga/U8/u2
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     957.92         8.6
-                                  LUT4	    1619.83        11.4
-                                PFUREG	        345         4.3
+                                  SLIC	     943.92         8.5
+                                  LUT4	    1588.00        11.2
+                                PFUREG	        345         4.4
                                 RIPPLE	         76         2.9
                                    EBR	          5        23.8
 SUB MODULES
                                   cell	      count    SLC Usage(%)
+                packet_data_ram_uniq_1	          1         0.0
+                packet_data_ram_uniq_3	          1         0.0
                 packet_data_ram_uniq_4	          1         0.0
                 packet_data_ram_uniq_2	          1         0.0
-                packet_data_ram_uniq_3	          1         0.0
-                packet_data_ram_uniq_1	          1         0.0
                    eth_data_ram_uniq_1	          1         0.0
 ---------------------------------------------------
 Report for cell packet_data_ram_uniq_4
@@ -196,24 +196,24 @@ Report for cell spi_w5500_top_3_uniq_1
    Instance path: c25x_fpga/U8/u1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     879.83         7.9
-                                  LUT4	    1527.33        10.7
-                                PFUREG	        405         5.1
-                                RIPPLE	         56         2.1
+                                  SLIC	     897.00         8.1
+                                  LUT4	    1592.00        11.3
+                                PFUREG	        404         5.1
+                                RIPPLE	         55         2.1
                                    EBR	          4        19.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
                   tcp_recv_fifo_uniq_1	          1         0.4
                   spi_w5500_cmd_uniq_1	          1         1.5
-                   eth_send_ram_uniq_1	          1         0.0
                    eth_send_ram_uniq_3	          1         0.0
                    eth_send_ram_uniq_2	          1         0.0
+                   eth_send_ram_uniq_1	          1         0.0
 ---------------------------------------------------
 Report for cell tcp_recv_fifo_uniq_1
    Instance path: c25x_fpga/U8/u1/u4
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      40.42         0.4
+                                  SLIC	      41.00         0.4
                                   LUT4	       6.50         0.0
                                 PFUREG	         38         0.5
                                 RIPPLE	         37         1.4
@@ -229,8 +229,8 @@ Report for cell spi_w5500_cmd_uniq_1
    Instance path: c25x_fpga/U8/u1/u1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     169.33         1.5
-                                  LUT4	     278.00         1.9
+                                  SLIC	     170.33         1.5
+                                  LUT4	     276.33         2.0
                                 PFUREG	        123         1.6
                                 RIPPLE	          6         0.2
 SUB MODULES
@@ -241,8 +241,8 @@ Report for cell spi_master_eth_uniq_1
    Instance path: c25x_fpga/U8/u1/u1/u1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      44.33         0.4
-                                  LUT4	      62.00         0.4
+                                  SLIC	      45.83         0.4
+                                  LUT4	      67.00         0.5
                                 PFUREG	         42         0.5
 ---------------------------------------------------
 Report for cell eth_send_ram_uniq_3
@@ -261,8 +261,8 @@ Report for cell flash_control_uniq_1
    Instance path: c25x_fpga/U7
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     463.00         4.2
-                                  LUT4	     912.50         6.4
+                                  SLIC	     450.67         4.1
+                                  LUT4	     882.00         6.2
                                 PFUREG	        288         3.6
                                 RIPPLE	         17         0.6
 SUB MODULES
@@ -273,8 +273,8 @@ Report for cell spi_flash_top_uniq_1
    Instance path: c25x_fpga/U7/U2
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     135.92         1.2
-                                  LUT4	     248.67         1.7
+                                  SLIC	     135.75         1.2
+                                  LUT4	     248.33         1.8
                                 PFUREG	         81         1.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
@@ -284,8 +284,8 @@ Report for cell spi_flash_cmd_uniq_1
    Instance path: c25x_fpga/U7/U2/u1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     100.42         0.9
-                                  LUT4	     176.67         1.2
+                                  SLIC	     102.08         0.9
+                                  LUT4	     180.00         1.3
                                 PFUREG	         72         0.9
 SUB MODULES
                                   cell	      count    SLC Usage(%)
@@ -303,63 +303,63 @@ Report for cell reveal_coretop
    Instance path: c25x_fpga/c25x_fpga_reveal_coretop_instance
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     777.50         7.0
-                                  LUT4	    1036.50         7.3
+                                  SLIC	     746.67         6.7
+                                  LUT4	     993.50         7.0
                                DISTRAM	      28.00        93.3
-                                PFUREG	        777         9.8
+                                PFUREG	        750         9.5
                                 RIPPLE	         37         1.4
                                    EBR	          6        28.6
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                         c25x_fpga_la0	          1         7.0
+                         c25x_fpga_la0	          1         6.7
 ---------------------------------------------------
 Report for cell c25x_fpga_la0
    Instance path: c25x_fpga/c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     777.50         7.0
-                                  LUT4	    1036.50         7.3
+                                  SLIC	     746.67         6.7
+                                  LUT4	     993.50         7.0
                                DISTRAM	      28.00        93.3
-                                PFUREG	        777         9.8
+                                PFUREG	        750         9.5
                                 RIPPLE	         37         1.4
                                    EBR	          6        28.6
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-rvl_tm(NUM_TRACE_SIGNALS=83,NUM_TRACE_SAMPLES=1024,NUM_TRIGGER_SIGNALS=3,MULTIPLE_CAPTURE=1,NUM_TRIG_MAX=32,REVEAL_SIG=627907712,LSCC_FAMILY="ECP5U")	          1         2.6
-rvl_jtag_int(NUM_TRACE_SIGNALS=83,NUM_TRIGGER_SIGNALS=3)	          1         2.0
-                    c25x_fpga_la0_trig	          1         2.4
+rvl_tm(NUM_TRACE_SIGNALS=74,NUM_TRACE_SAMPLES=1024,NUM_TRIGGER_SIGNALS=3,MULTIPLE_CAPTURE=1,NUM_TRIG_MAX=32,REVEAL_SIG=628007760,LSCC_FAMILY="ECP5U")	          1         2.5
+rvl_jtag_int(NUM_TRACE_SIGNALS=74,NUM_TRIGGER_SIGNALS=3)	          1         1.7
+                    c25x_fpga_la0_trig	          1         2.5
 ---------------------------------------------------
 Report for cell c25x_fpga_la0_trig
    Instance path: c25x_fpga/c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     265.50         2.4
-                                  LUT4	     371.33         2.6
+                                  SLIC	     275.92         2.5
+                                  LUT4	     391.33         2.8
                                 PFUREG	        229         2.9
                                 RIPPLE	         13         0.5
                                    EBR	          1         4.8
 SUB MODULES
                                   cell	      count    SLC Usage(%)
+                 rvl_tu(NUM_TU_BITS=1)	          1         0.1
               rvl_tu(NUM_TU_BITS=1)_U1	          1         0.1
               rvl_tu(NUM_TU_BITS=1)_U0	          1         0.1
-                 rvl_tu(NUM_TU_BITS=1)	          1         0.1
+rvl_te(NUM_TU=3,NUM_TE_ROW=8,NUM_TE_COL=16,TE_EBR=1,NUM_TE_EVENT_CNT_BITS=4,LSCC_FAMILY="ECP5U")	          1         2.0
     rvl_tcnt(NUM_TE=1,NUM_TCNT_BITS=6)	          1         0.2
-rvl_te(NUM_TU=3,NUM_TE_ROW=8,NUM_TE_COL=16,TE_EBR=1,NUM_TE_EVENT_CNT_BITS=4,LSCC_FAMILY="ECP5U")	          1         1.9
-         rvl_decode(NUM_TU=3,NUM_TE=1)	          1         0.0
+         rvl_decode(NUM_TU=3,NUM_TE=1)	          1         0.1
 ---------------------------------------------------
 Report for cell rvl_tu(NUM_TU_BITS=1)
    Instance path: c25x_fpga/c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/tu_2
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       7.58         0.1
-                                  LUT4	       8.00         0.1
+                                  SLIC	       7.33         0.1
+                                  LUT4	      10.00         0.1
                                 PFUREG	          8         0.1
 ---------------------------------------------------
 Report for cell rvl_tu(NUM_TU_BITS=1)_U0
    Instance path: c25x_fpga/c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/tu_1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       6.58         0.1
+                                  SLIC	       6.17         0.1
                                   LUT4	       7.00         0.0
                                 PFUREG	          8         0.1
 ---------------------------------------------------
@@ -367,16 +367,16 @@ Report for cell rvl_tu(NUM_TU_BITS=1)_U1
    Instance path: c25x_fpga/c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/tu_0
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       6.25         0.1
-                                  LUT4	       7.00         0.0
+                                  SLIC	       7.00         0.1
+                                  LUT4	       8.00         0.1
                                 PFUREG	          8         0.1
 ---------------------------------------------------
 Report for cell rvl_te(NUM_TU=3,NUM_TE_ROW=8,NUM_TE_COL=16,TE_EBR=1,NUM_TE_EVENT_CNT_BITS=4,LSCC_FAMILY="ECP5U")
    Instance path: c25x_fpga/c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     214.08         1.9
-                                  LUT4	     297.33         2.1
+                                  SLIC	     216.33         2.0
+                                  LUT4	     300.00         2.1
                                 PFUREG	        187         2.4
                                 RIPPLE	          9         0.3
                                    EBR	          1         4.8
@@ -394,8 +394,8 @@ Report for cell rvl_tcnt(NUM_TE=1,NUM_TCNT_BITS=6)
    Instance path: c25x_fpga/c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/tcnt_0
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      18.25         0.2
-                                  LUT4	      24.00         0.2
+                                  SLIC	      20.25         0.2
+                                  LUT4	      25.67         0.2
                                 PFUREG	         18         0.2
                                 RIPPLE	          4         0.2
 ---------------------------------------------------
@@ -403,22 +403,22 @@ Report for cell rvl_decode(NUM_TU=3,NUM_TE=1)
    Instance path: c25x_fpga/c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/decode_u
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       3.83         0.0
-                                  LUT4	       8.00         0.1
+                                  SLIC	       9.17         0.1
+                                  LUT4	      20.00         0.1
 ---------------------------------------------------
-Report for cell rvl_tm(NUM_TRACE_SIGNALS=83,NUM_TRACE_SAMPLES=1024,NUM_TRIGGER_SIGNALS=3,MULTIPLE_CAPTURE=1,NUM_TRIG_MAX=32,REVEAL_SIG=627907712,LSCC_FAMILY="ECP5U")
+Report for cell rvl_tm(NUM_TRACE_SIGNALS=74,NUM_TRACE_SAMPLES=1024,NUM_TRIGGER_SIGNALS=3,MULTIPLE_CAPTURE=1,NUM_TRIG_MAX=32,REVEAL_SIG=628007760,LSCC_FAMILY="ECP5U")
    Instance path: c25x_fpga/c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     292.83         2.6
-                                  LUT4	     288.00         2.0
+                                  SLIC	     281.92         2.5
+                                  LUT4	     287.67         2.0
                                DISTRAM	      28.00        93.3
-                                PFUREG	        331         4.2
+                                PFUREG	        313         4.0
                                 RIPPLE	         20         0.8
                                    EBR	          5        23.8
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-pmi_ram_dpEbnonesadr83101024831010241218b37a	          1         0.0
+pmi_ram_dpEbnonesadr74101024741010241218b3af	          1         0.0
 pmi_distributed_dpramEbnoner105328f0007d	          1         0.2
 pmi_distributed_dpramEbnoner164168f01b22	          1         0.1
 ---------------------------------------------------
@@ -426,7 +426,7 @@ Report for cell pmi_distributed_dpramEbnoner105328f0007d
    Instance path: c25x_fpga/c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/pmi_distributed_dpramECP5Ubinarynonereg10532
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      22.50         0.2
+                                  SLIC	      22.17         0.2
                                   LUT4	      12.00         0.1
                                DISTRAM	      16.00        53.3
                                 PFUREG	         10         0.1
@@ -439,42 +439,182 @@ Report for cell pmi_distributed_dpramEbnoner164168f01b22
                                DISTRAM	      12.00        40.0
                                 PFUREG	         16         0.2
 ---------------------------------------------------
-Report for cell pmi_ram_dpEbnonesadr83101024831010241218b37a
-   Instance path: c25x_fpga/c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/pmi_ram_dpECP5Ubinarynonespeedasyncdisablereg8310102483101024
+Report for cell pmi_ram_dpEbnonesadr74101024741010241218b3af
+   Instance path: c25x_fpga/c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/pmi_ram_dpECP5Ubinarynonespeedasyncdisablereg7410102474101024
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                    EBR	          5        23.8
 ---------------------------------------------------
-Report for cell rvl_jtag_int(NUM_TRACE_SIGNALS=83,NUM_TRIGGER_SIGNALS=3)
+Report for cell rvl_jtag_int(NUM_TRACE_SIGNALS=74,NUM_TRIGGER_SIGNALS=3)
    Instance path: c25x_fpga/c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     219.17         2.0
-                                  LUT4	     377.17         2.6
-                                PFUREG	        217         2.7
+                                  SLIC	     188.83         1.7
+                                  LUT4	     314.50         2.2
+                                PFUREG	        208         2.6
                                 RIPPLE	          4         0.2
+---------------------------------------------------
+Report for cell c25x_pll_uniq_1
+   Instance path: c25x_fpga/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.0
+                                  LUT4	       1.00         0.0
+---------------------------------------------------
+Report for cell self_inspection_uniq_1
+   Instance path: c25x_fpga/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     866.33         7.8
+                                  LUT4	    1081.00         7.6
+                                PFUREG	        929        11.8
+                                RIPPLE	         49         1.9
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                  pluse_average_uniq_1	          1         0.7
+                    adc_to_dist_uniq_1	          1         0.9
+                     adc_to_dac_uniq_1	          1         4.5
+                    adc_control_uniq_1	          1         0.8
+                         DA_SPI_uniq_1	          1         0.2
+---------------------------------------------------
+Report for cell pluse_average_uniq_1
+   Instance path: c25x_fpga/U3/u5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      81.67         0.7
+                                PFUREG	        162         2.0
+---------------------------------------------------
+Report for cell adc_to_dist_uniq_1
+   Instance path: c25x_fpga/U3/u4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      97.58         0.9
+                                  LUT4	      83.00         0.6
+                                PFUREG	        145         1.8
+                                RIPPLE	          5         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     multiplier_uniq_2	          1         0.1
+---------------------------------------------------
+Report for cell multiplier_uniq_2
+   Instance path: c25x_fpga/U3/u4/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.00         0.1
+                                PFUREG	         32         0.4
+---------------------------------------------------
+Report for cell adc_to_dac_uniq_1
+   Instance path: c25x_fpga/U3/u3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     499.17         4.5
+                                  LUT4	     763.00         5.4
+                                PFUREG	        442         5.6
+                                RIPPLE	          5         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    multiplier3_uniq_2	          1         0.2
+                    multiplier3_uniq_4	          1         0.1
+                    multiplier3_uniq_3	          1         0.1
+                    adc_to_temp_uniq_1	          1         2.6
+---------------------------------------------------
+Report for cell multiplier3_uniq_4
+   Instance path: c25x_fpga/U3/u3/U4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.00         0.1
+                                PFUREG	         32         0.4
+---------------------------------------------------
+Report for cell multiplier3_uniq_3
+   Instance path: c25x_fpga/U3/u3/U3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.00         0.1
+                                PFUREG	         32         0.4
+---------------------------------------------------
+Report for cell multiplier3_uniq_2
+   Instance path: c25x_fpga/U3/u3/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      23.33         0.2
+                                PFUREG	         32         0.4
+---------------------------------------------------
+Report for cell adc_to_temp_uniq_1
+   Instance path: c25x_fpga/U3/u3/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     289.50         2.6
+                                  LUT4	     471.67         3.3
+                                PFUREG	        275         3.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     multiplier_uniq_1	          1         0.3
+                       division_uniq_1	          1         0.6
+---------------------------------------------------
+Report for cell division_uniq_1
+   Instance path: c25x_fpga/U3/u3/U1/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      71.50         0.6
+                                  LUT4	     107.00         0.8
+                                PFUREG	         66         0.8
+---------------------------------------------------
+Report for cell multiplier_uniq_1
+   Instance path: c25x_fpga/U3/u3/U1/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      34.00         0.3
+                                PFUREG	         64         0.8
+---------------------------------------------------
+Report for cell DA_SPI_uniq_1
+   Instance path: c25x_fpga/U3/u2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      20.00         0.2
+                                  LUT4	      38.00         0.3
+                                PFUREG	         19         0.2
+---------------------------------------------------
+Report for cell adc_control_uniq_1
+   Instance path: c25x_fpga/U3/u1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      85.33         0.8
+                                  LUT4	     111.00         0.8
+                                PFUREG	         82         1.0
+                                RIPPLE	          9         0.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         AD_SPI_uniq_1	          1         0.4
+---------------------------------------------------
+Report for cell AD_SPI_uniq_1
+   Instance path: c25x_fpga/U3/u1/u1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      42.00         0.4
+                                  LUT4	      62.00         0.4
+                                PFUREG	         38         0.5
 ---------------------------------------------------
 Report for cell rotate_control_uniq_1
    Instance path: c25x_fpga/U2
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     594.42         5.3
-                                  LUT4	     961.00         6.7
+                                  SLIC	     593.58         5.4
+                                  LUT4	     956.67         6.8
                                 PFUREG	        483         6.1
                                 RIPPLE	         39         1.5
 SUB MODULES
                                   cell	      count    SLC Usage(%)
              opto_switch_filter_uniq_1	          1         0.1
                   motor_control_uniq_1	          1         0.9
-                motor_control_2_uniq_1	          1         3.1
+                motor_control_2_uniq_1	          1         3.0
                encoder_generate_uniq_1	          1         1.2
 ---------------------------------------------------
 Report for cell encoder_generate_uniq_1
    Instance path: c25x_fpga/U2/U4
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     130.58         1.2
-                                  LUT4	     208.33         1.5
+                                  SLIC	     130.92         1.2
+                                  LUT4	     209.00         1.5
                                 PFUREG	        154         1.9
 SUB MODULES
                                   cell	      count    SLC Usage(%)
@@ -500,8 +640,8 @@ Report for cell motor_control_2_uniq_1
    Instance path: c25x_fpga/U2/U3
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     341.58         3.1
-                                  LUT4	     557.00         3.9
+                                  SLIC	     337.58         3.0
+                                  LUT4	     544.67         3.9
                                 PFUREG	        193         2.4
                                 RIPPLE	         21         0.8
 ---------------------------------------------------
@@ -509,16 +649,16 @@ Report for cell motor_control_uniq_1
    Instance path: c25x_fpga/U2/U2
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      97.58         0.9
-                                  LUT4	     156.00         1.1
-                                PFUREG	         99         1.2
+                                  SLIC	     101.58         0.9
+                                  LUT4	     166.00         1.2
+                                PFUREG	         99         1.3
                                 RIPPLE	         18         0.7
 ---------------------------------------------------
 Report for cell opto_switch_filter_uniq_1
    Instance path: c25x_fpga/U2/U1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      16.00         0.1
+                                  SLIC	      15.67         0.1
                                   LUT4	      28.00         0.2
                                 PFUREG	         19         0.2
 ---------------------------------------------------
@@ -526,8 +666,8 @@ Report for cell laser_control_uniq_1
    Instance path: c25x_fpga/U4
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      38.17         0.3
-                                  LUT4	      67.33         0.5
+                                  SLIC	      37.83         0.3
+                                  LUT4	      67.00         0.5
                                 PFUREG	         25         0.3
                                 RIPPLE	          5         0.2
 ---------------------------------------------------
@@ -535,28 +675,28 @@ Report for cell dist_measure_uniq_1
    Instance path: c25x_fpga/U5
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	    1991.17        17.9
-                                  LUT4	    2936.67        20.6
-                                PFUREG	       2093        26.4
+                                  SLIC	    1989.83        18.0
+                                  LUT4	    2981.67        21.1
+                                PFUREG	       2094        26.5
                                 RIPPLE	         78         3.0
                                    EBR	          5        23.8
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-            rise_signal_process_uniq_1	          1         0.6
-                mpt2042_control_uniq_1	          1         1.4
+            rise_signal_process_uniq_1	          1         0.7
+                mpt2042_control_uniq_1	          1         1.2
                    measure_para_uniq_1	          1         0.2
                  data_process_3_uniq_1	          1         3.9
                     dist_packet_uniq_1	          1         2.1
-                 dist_calculate_uniq_1	          1         8.6
+                 dist_calculate_uniq_1	          1         8.8
                    calib_packet_uniq_1	          1         0.9
 ---------------------------------------------------
 Report for cell mpt2042_control_uniq_1
    Instance path: c25x_fpga/U5/u2
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     158.00         1.4
-                                  LUT4	     186.00         1.3
-                                PFUREG	        176         2.2
+                                  SLIC	     133.83         1.2
+                                  LUT4	     144.00         1.0
+                                PFUREG	        174         2.2
                                 RIPPLE	          7         0.3
                                    EBR	          1         4.8
 SUB MODULES
@@ -568,8 +708,8 @@ Report for cell mpt2042_spi_top_uniq_1
    Instance path: c25x_fpga/U5/u2/u_mpt2042_spi_top
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      31.75         0.3
-                                  LUT4	      44.67         0.3
+                                  SLIC	      32.33         0.3
+                                  LUT4	      46.00         0.3
                                 PFUREG	         41         0.5
 ---------------------------------------------------
 Report for cell mpt2042_rom_128x8_uniq_1
@@ -582,16 +722,16 @@ Report for cell rise_signal_process_uniq_1
    Instance path: c25x_fpga/U5/U8
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      65.83         0.6
-                                  LUT4	     120.00         0.8
-                                PFUREG	         75         0.9
+                                  SLIC	      75.08         0.7
+                                  LUT4	     144.00         1.0
+                                PFUREG	         77         1.0
 ---------------------------------------------------
 Report for cell calib_packet_uniq_1
    Instance path: c25x_fpga/U5/U7
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     103.83         0.9
-                                  LUT4	     169.00         1.2
+                                  SLIC	     103.42         0.9
+                                  LUT4	     169.33         1.2
                                 PFUREG	        125         1.6
                                 RIPPLE	         10         0.4
 ---------------------------------------------------
@@ -599,8 +739,8 @@ Report for cell dist_packet_uniq_1
    Instance path: c25x_fpga/U5/U6
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     233.92         2.1
-                                  LUT4	     253.00         1.8
+                                  SLIC	     236.42         2.1
+                                  LUT4	     256.67         1.8
                                 PFUREG	        318         4.0
                                 RIPPLE	         40         1.5
 ---------------------------------------------------
@@ -608,23 +748,23 @@ Report for cell data_process_3_uniq_1
    Instance path: c25x_fpga/U5/U4
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     439.33         3.9
-                                  LUT4	     778.67         5.5
-                                PFUREG	        348         4.4
+                                  SLIC	     435.67         3.9
+                                  LUT4	     775.00         5.5
+                                PFUREG	        349         4.4
                                 RIPPLE	         12         0.5
                                    EBR	          4        19.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
+                   distance_ram_uniq_1	          1         0.0
                        division_uniq_2	          1         0.4
                    distance_ram_uniq_2	          1         0.0
-                   distance_ram_uniq_1	          1         0.0
 ---------------------------------------------------
 Report for cell division_uniq_2
    Instance path: c25x_fpga/U5/U4/U3
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      40.00         0.4
-                                  LUT4	      80.00         0.6
+                                  SLIC	      41.00         0.4
+                                  LUT4	      82.00         0.6
                                 PFUREG	         62         0.8
 ---------------------------------------------------
 Report for cell distance_ram_uniq_2
@@ -643,23 +783,23 @@ Report for cell dist_calculate_uniq_1
    Instance path: c25x_fpga/U5/U3
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     963.00         8.6
-                                  LUT4	    1429.00        10.0
+                                  SLIC	     978.17         8.8
+                                  LUT4	    1491.67        10.5
                                 PFUREG	       1014        12.8
                                 RIPPLE	          9         0.3
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                       rssi_cal_uniq_1	          1         3.4
+                       rssi_cal_uniq_1	          1         3.5
                       index_cal_uniq_1	          1         0.8
                        data_pre_uniq_1	          1         0.2
-                       dist_cal_uniq_1	          1         4.2
+                       dist_cal_uniq_1	          1         4.3
 ---------------------------------------------------
 Report for cell rssi_cal_uniq_1
    Instance path: c25x_fpga/U5/U3/U4
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     378.67         3.4
-                                  LUT4	     489.67         3.4
+                                  SLIC	     391.75         3.5
+                                  LUT4	     549.67         3.9
                                 PFUREG	        465         5.9
 SUB MODULES
                                   cell	      count    SLC Usage(%)
@@ -671,7 +811,7 @@ Report for cell div_rill_uniq_1
    Instance path: c25x_fpga/U5/U3/U4/U3
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     102.67         0.9
+                                  SLIC	     102.42         0.9
                                   LUT4	     157.00         1.1
                                 PFUREG	        118         1.5
 ---------------------------------------------------
@@ -693,8 +833,8 @@ Report for cell dist_cal_uniq_1
    Instance path: c25x_fpga/U5/U3/U3
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     472.58         4.2
-                                  LUT4	     724.00         5.1
+                                  SLIC	     475.17         4.3
+                                  LUT4	     727.33         5.1
                                 PFUREG	        409         5.2
                                 RIPPLE	          9         0.3
 SUB MODULES
@@ -720,7 +860,7 @@ Report for cell index_cal_uniq_1
    Instance path: c25x_fpga/U5/U3/U2
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      84.75         0.8
+                                  SLIC	      84.58         0.8
                                   LUT4	     168.00         1.2
                                 PFUREG	        103         1.3
 ---------------------------------------------------
@@ -750,151 +890,11 @@ Report for cell multiplier_uniq_4
                                   SLIC	      24.00         0.2
                                 PFUREG	         32         0.4
 ---------------------------------------------------
-Report for cell c25x_pll_uniq_1
-   Instance path: c25x_fpga/U1
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	       0.25         0.0
-                                  LUT4	       1.00         0.0
----------------------------------------------------
-Report for cell self_inspection_uniq_1
-   Instance path: c25x_fpga/U3
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	     871.33         7.8
-                                  LUT4	    1085.67         7.6
-                                PFUREG	        929        11.7
-                                RIPPLE	         49         1.9
-SUB MODULES
-                                  cell	      count    SLC Usage(%)
-                  pluse_average_uniq_1	          1         0.7
-                     adc_to_dac_uniq_1	          1         4.6
-                    adc_to_dist_uniq_1	          1         0.9
-                    adc_control_uniq_1	          1         0.7
-                         DA_SPI_uniq_1	          1         0.2
----------------------------------------------------
-Report for cell pluse_average_uniq_1
-   Instance path: c25x_fpga/U3/u5
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      81.67         0.7
-                                PFUREG	        162         2.0
----------------------------------------------------
-Report for cell adc_to_dist_uniq_1
-   Instance path: c25x_fpga/U3/u4
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      97.58         0.9
-                                  LUT4	      81.00         0.6
-                                PFUREG	        145         1.8
-                                RIPPLE	          5         0.2
-SUB MODULES
-                                  cell	      count    SLC Usage(%)
-                     multiplier_uniq_2	          1         0.1
----------------------------------------------------
-Report for cell multiplier_uniq_2
-   Instance path: c25x_fpga/U3/u4/U1
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      16.00         0.1
-                                PFUREG	         32         0.4
----------------------------------------------------
-Report for cell adc_to_dac_uniq_1
-   Instance path: c25x_fpga/U3/u3
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	     508.00         4.6
-                                  LUT4	     776.67         5.4
-                                PFUREG	        442         5.6
-                                RIPPLE	          5         0.2
-SUB MODULES
-                                  cell	      count    SLC Usage(%)
-                    multiplier3_uniq_4	          1         0.1
-                    multiplier3_uniq_3	          1         0.1
-                    multiplier3_uniq_2	          1         0.2
-                    adc_to_temp_uniq_1	          1         2.7
----------------------------------------------------
-Report for cell multiplier3_uniq_4
-   Instance path: c25x_fpga/U3/u3/U4
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      16.00         0.1
-                                PFUREG	         32         0.4
----------------------------------------------------
-Report for cell multiplier3_uniq_3
-   Instance path: c25x_fpga/U3/u3/U3
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      16.00         0.1
-                                PFUREG	         32         0.4
----------------------------------------------------
-Report for cell multiplier3_uniq_2
-   Instance path: c25x_fpga/U3/u3/U2
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      23.33         0.2
-                                PFUREG	         32         0.4
----------------------------------------------------
-Report for cell adc_to_temp_uniq_1
-   Instance path: c25x_fpga/U3/u3/U1
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	     296.08         2.7
-                                  LUT4	     482.67         3.4
-                                PFUREG	        275         3.5
-SUB MODULES
-                                  cell	      count    SLC Usage(%)
-                     multiplier_uniq_1	          1         0.3
-                       division_uniq_1	          1         0.7
----------------------------------------------------
-Report for cell division_uniq_1
-   Instance path: c25x_fpga/U3/u3/U1/U2
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      73.17         0.7
-                                  LUT4	     108.00         0.8
-                                PFUREG	         66         0.8
----------------------------------------------------
-Report for cell multiplier_uniq_1
-   Instance path: c25x_fpga/U3/u3/U1/U1
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      34.00         0.3
-                                PFUREG	         64         0.8
----------------------------------------------------
-Report for cell DA_SPI_uniq_1
-   Instance path: c25x_fpga/U3/u2
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      19.00         0.2
-                                  LUT4	      37.00         0.3
-                                PFUREG	         19         0.2
----------------------------------------------------
-Report for cell adc_control_uniq_1
-   Instance path: c25x_fpga/U3/u1
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      82.00         0.7
-                                  LUT4	     104.00         0.7
-                                PFUREG	         82         1.0
-                                RIPPLE	          9         0.3
-SUB MODULES
-                                  cell	      count    SLC Usage(%)
-                         AD_SPI_uniq_1	          1         0.4
----------------------------------------------------
-Report for cell AD_SPI_uniq_1
-   Instance path: c25x_fpga/U3/u1/u1
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  SLIC	      40.00         0.4
-                                  LUT4	      58.00         0.4
-                                PFUREG	         38         0.5
----------------------------------------------------
 Report for cell sa5phub
    Instance path: c25x_fpga/sa5phub
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      37.52         0.3
+                                  SLIC	      37.18         0.3
                                   LUT4	      21.50         0.2
                                 PFUREG	         48         0.6
                                 RIPPLE	          8         0.3
