@@ -1,0 +1,90 @@
+BITGEN: Bitstream Generator Diamond (64-bit) 3.13.0.56.2
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+Wed May 21 20:10:44 2025
+
+
+Command: bitgen -w -g CfgMode:Disable -g RamCfg:Reset -g DisableUES:FALSE -g ES:No -e -s D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/df1_lidar_top.sec -k D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/df1_lidar_top.bek -gui -msgset D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/promote.xml df1_lidar_top_impl1.ncd df1_lidar_top_impl1.prf 
+
+Loading design for application Bitgen from file df1_lidar_top_impl1.ncd.
+Design name: df1_lidar_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-45F
+Package:     CABGA256
+Performance: 7
+Loading device for application Bitgen from file 'sa5p45.nph' in environment: D:/TOOL/LatticeDiamond/diamond/3.13/ispfpga.
+Package Status:                     Final          Version 1.50.
+Performance Hardware Data Status:   Final          Version 55.1.
+
+Running DRC.
+WARNING - BlockCheck: SLICE u2_ddr3_interface/u2_ddr_round_robin/u3_dist2ddr/SLICE_2344, CEMUX is tied to low.
+WARNING - BlockCheck: SLICE u2_ddr3_interface/u2_ddr_round_robin/u3_dist2ddr/SLICE_2345, CEMUX is tied to low.
+WARNING - BlockCheck: SLICE u2_ddr3_interface/u2_ddr_round_robin/u3_dist2ddr/SLICE_2346, CEMUX is tied to low.
+WARNING - BlockCheck: SLICE u2_ddr3_interface/u2_ddr_round_robin/u3_dist2ddr/SLICE_2347, CEMUX is tied to low.
+WARNING - BlockCheck: SLICE u2_ddr3_interface/u2_ddr_round_robin/u0_udp2ddr/SLICE_2419, CEMUX is tied to low.
+WARNING - BlockCheck: SLICE u2_ddr3_interface/u2_ddr_round_robin/u0_udp2ddr/SLICE_2420, CEMUX is tied to low.
+WARNING - BlockCheck: SLICE u2_ddr3_interface/u2_ddr_round_robin/u0_udp2ddr/SLICE_2421, CEMUX is tied to low.
+WARNING - BlockCheck: SLICE u2_ddr3_interface/u2_ddr_round_robin/u0_udp2ddr/SLICE_2422, CEMUX is tied to low.
+DRC detected 0 errors and 8 warnings.
+Reading Preference File from df1_lidar_top_impl1.prf.
+INFO -  SW_XO3D_SECURITY_ENCRYPTION *NOT* controlled by sa5p00.acd ###
+INFO -  SW_XO3D_SECURITY_ENCRYPTION license_securityIP OK
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                        CfgMode  |                      Disable**  |
++---------------------------------+---------------------------------+
+|                        DONE_EX  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        DONE_OD  |                           ON**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                          2.4**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                    CONFIG_MODE  |                         JTAG**  |
++---------------------------------+---------------------------------+
+|                        WAKE_UP  |                           21**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                             ES  |                           No**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                     DisableUES  |                        FALSE**  |
++---------------------------------+---------------------------------+
+|            SLAVE_PARALLEL_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                      DONE_PULL  |                           ON**  |
++---------------------------------+---------------------------------+
+|               CONFIG_IOVOLTAGE  |                          2.5**  |
++---------------------------------+---------------------------------+
+|                        TRANSFR  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 10.27.
+ 
+Saving bit stream in "df1_lidar_top_impl1.bit".
+Total CPU Time: 9 secs 
+Total REAL Time: 9 secs 
+Peak Memory Usage: 494 MB

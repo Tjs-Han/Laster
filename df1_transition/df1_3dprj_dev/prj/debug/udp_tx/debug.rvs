@@ -1,0 +1,94 @@
+<Project ModBy="Analyzer" Name="D:/FreeWork/df1_demo/df1_lidar_top/prj/debug/UDP/debug.rvs" Date="2024-12-03">
+ <Core Name="df1_lidar_top_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="16384" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_trig_tx_en"/>
+    <Bus Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state" Radix="0">
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state:0"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state:1"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state:2"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state:3"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state:4"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state:5"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state:6"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state:7"/>
+    </Bus>
+    <Bus Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr" Radix="0">
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:0"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:1"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:2"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:3"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:4"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:5"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:6"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:7"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:8"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:9"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:10"/>
+    </Bus>
+    <Bus Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata" Radix="0">
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata:0"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata:1"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata:2"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata:3"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata:4"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata:5"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata:6"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata:7"/>
+    </Bus>
+    <Bus Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num" Radix="0">
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:0"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:1"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:2"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:3"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:4"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:5"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:6"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:7"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:8"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:9"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:10"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:11"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:12"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:13"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:14"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:15"/>
+    </Bus>
+    <Bus Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num" Radix="0">
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:0"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:1"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:2"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:3"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:4"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:5"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:6"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:7"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:8"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:9"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:10"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:11"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:12"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:13"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:14"/>
+     <Sig Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:15"/>
+    </Bus>
+    <Sig Name="u_eth_top/o_ethphy_txen"/>
+    <Bus Name="u_eth_top/o_ethphy_txd" Radix="0">
+     <Sig Name="u_eth_top/o_ethphy_txd:0"/>
+     <Sig Name="u_eth_top/o_ethphy_txd:1"/>
+    </Bus>
+   </Trace>
+   <Trigger>
+    <TU Operator="0" Name="TU1" ID="1" Value="00" Radix="3"/>
+    <TU Operator="0" Name="TU2" ID="2" Value="1" Radix="3"/>
+    <TE Enable="0" Expression="TU1" Name="TE1" ID="1"/>
+    <TE Enable="1" Expression="TU2" Name="TE2" ID="2"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+</Project>

@@ -1,0 +1,8 @@
+i sync_clk
+m 0 0
+u 19 25
+p {p:sync_clk}{t:Inst_rxdll_sync.sync_clk}{p:Inst_rxdll_sync.sync_clk}{t:Inst_rxdll_sync.cs_rx_sync[5].C}
+e ckid0_0 {t:Inst_rxdll_sync.cs_rx_sync[5].C} dffr
+c ckid0_0 {p:sync_clk} port Unsupported/too complex instance on clock path
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

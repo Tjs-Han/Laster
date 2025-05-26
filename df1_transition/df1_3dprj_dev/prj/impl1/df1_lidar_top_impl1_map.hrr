@@ -1,0 +1,2087 @@
+---------------------------------------------------
+Report for cell df1_lidar_top
+   Instance path: df1_lidar_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	   12618.00        100.0
+                                 IOLGC	      28.00        100.0
+                                  LUT4	   13247.00        100.0
+                               DISTRAM	     177.00        100.0
+                                 IOREG	         28        100.0
+                                 IOBUF	        101        100.0
+                                PFUREG	      12224        100.0
+                                RIPPLE	       2637        100.0
+                                   EBR	         58        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               sa5phub	          1         0.3
+rotate_control_uniq_1_1000000000s_10s_800000_71s_60s_100	          1         6.5
+                        reveal_coretop	          1         5.1
+                            pll_uniq_1	          1         0.0
+                  phy_mdio_ctrl_uniq_1	          1         1.3
+                    mpt2042_top_uniq_1	          1         7.4
+                  motor_control_uniq_1	          1         6.1
+                        iddrx2f_uniq_1	          1         0.2
+                        iddrx2f_uniq_2	          1         0.2
+                      iddr_init_uniq_1	          1         0.1
+                      iddr_init_uniq_2	          1         0.1
+                  laser_control_uniq_1	          1         0.1
+              flash_control_uniq_1_Z15	          1         2.9
+                        eth_top_uniq_1	          1        36.9
+dist_measure_uniq_1_64s_27s_65536_16384_100	          1         1.4
+                    df1_ddr3_ip_uniq_1	          1        17.1
+ddr3_interface_uniq_1_96s_8s_4s_64s_27s_5s_8s_16s	          1         6.5
+                 ddr3_init_ctrl_uniq_1	          1         0.1
+                     HV_control_uniq_1	          1         7.1
+---------------------------------------------------
+Report for cell phy_mdio_ctrl_uniq_1
+   Instance path: df1_lidar_top/u_phy_mdio_ctrl
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     164.33         1.3
+                                  LUT4	     192.00         1.4
+                                PFUREG	        196         1.6
+                                RIPPLE	         41         1.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                 phy_mdio_drive_uniq_1	          1         0.6
+---------------------------------------------------
+Report for cell phy_mdio_drive_uniq_1
+   Instance path: df1_lidar_top/u_phy_mdio_ctrl/u_phy_mdio_drive
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      71.33         0.6
+                                  LUT4	      98.00         0.7
+                                PFUREG	         92         0.8
+                                RIPPLE	         10         0.4
+---------------------------------------------------
+Report for cell HV_control_uniq_1
+   Instance path: df1_lidar_top/u_HV_control
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     899.00         7.1
+                                  LUT4	     740.00         5.6
+                               DISTRAM	       8.00         4.5
+                                PFUREG	        768         6.3
+                                RIPPLE	        244         9.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                temp_adc_filter_uniq_1	          1         0.9
+                  pluse_average_uniq_1	          1         2.5
+                     adc_to_dac_uniq_1	          1         2.7
+                    adc_control_uniq_1	          1         0.5
+                     DA_SPI_pwm_uniq_1	          1         0.2
+---------------------------------------------------
+Report for cell temp_adc_filter_uniq_1
+   Instance path: df1_lidar_top/u_HV_control/u6
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     110.17         0.9
+                                  LUT4	     100.00         0.8
+                               DISTRAM	       8.00         4.5
+                                PFUREG	         97         0.8
+                                RIPPLE	         40         1.5
+---------------------------------------------------
+Report for cell pluse_average_uniq_1
+   Instance path: df1_lidar_top/u_HV_control/u5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     312.00         2.5
+                                  LUT4	     170.00         1.3
+                                PFUREG	        170         1.4
+                                RIPPLE	         63         2.4
+---------------------------------------------------
+Report for cell adc_to_dac_uniq_1
+   Instance path: df1_lidar_top/u_HV_control/u3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     343.00         2.7
+                                  LUT4	     371.00         2.8
+                                PFUREG	        345         2.8
+                                RIPPLE	         87         3.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                      dac_table_uniq_1	          1         0.2
+                    adc_to_temp_uniq_1	          1         2.3
+---------------------------------------------------
+Report for cell dac_table_uniq_1
+   Instance path: df1_lidar_top/u_HV_control/u3/u2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      29.50         0.2
+                                  LUT4	      27.50         0.2
+                                PFUREG	         21         0.2
+                                RIPPLE	         12         0.5
+---------------------------------------------------
+Report for cell adc_to_temp_uniq_1
+   Instance path: df1_lidar_top/u_HV_control/u3/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     293.00         2.3
+                                  LUT4	     321.00         2.4
+                                PFUREG	        286         2.3
+                                RIPPLE	         75         2.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     multiplier_uniq_1	          1         0.3
+                       division_uniq_1	          1         0.8
+---------------------------------------------------
+Report for cell division_uniq_1
+   Instance path: df1_lidar_top/u_HV_control/u3/U1/u_temp_division
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      99.33         0.8
+                                  LUT4	      87.00         0.7
+                                PFUREG	         83         0.7
+                                RIPPLE	         43         1.6
+---------------------------------------------------
+Report for cell multiplier_uniq_1
+   Instance path: df1_lidar_top/u_HV_control/u3/U1/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      32.00         0.3
+                                PFUREG	         64         0.5
+---------------------------------------------------
+Report for cell DA_SPI_pwm_uniq_1
+   Instance path: df1_lidar_top/u_HV_control/u_hvpwm_ctrl
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      24.00         0.2
+                                  LUT4	      10.00         0.1
+                                PFUREG	         21         0.2
+                                RIPPLE	         13         0.5
+---------------------------------------------------
+Report for cell adc_control_uniq_1
+   Instance path: df1_lidar_top/u_HV_control/u_adc_sample
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      60.83         0.5
+                                  LUT4	      63.00         0.5
+                                PFUREG	         64         0.5
+                                RIPPLE	         12         0.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         AD_SPI_uniq_1	          1         0.3
+---------------------------------------------------
+Report for cell AD_SPI_uniq_1
+   Instance path: df1_lidar_top/u_HV_control/u_adc_sample/u1_spi
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.50         0.3
+                                  LUT4	      43.00         0.3
+                                PFUREG	         29         0.2
+                                RIPPLE	          3         0.1
+---------------------------------------------------
+Report for cell dist_measure_uniq_1_64s_27s_65536_16384_100
+   Instance path: df1_lidar_top/u_dist
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     180.50         1.4
+                                  LUT4	     202.00         1.5
+                                PFUREG	        257         2.1
+                                RIPPLE	         48         1.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+loop_packet_uniq_1_100_0_1_2_4_8_16_32_64	          1         0.6
+calib_packet_uniq_1_100_0_1_2_4_8_16_32_64_128	          1         0.9
+---------------------------------------------------
+Report for cell loop_packet_uniq_1_100_0_1_2_4_8_16_32_64
+   Instance path: df1_lidar_top/u_dist/u_loop_packet
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      72.83         0.6
+                                  LUT4	      81.00         0.6
+                                PFUREG	        120         1.0
+                                RIPPLE	         15         0.6
+---------------------------------------------------
+Report for cell calib_packet_uniq_1_100_0_1_2_4_8_16_32_64_128
+   Instance path: df1_lidar_top/u_dist/u_calib_data
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     107.67         0.9
+                                  LUT4	     121.00         0.9
+                                PFUREG	        137         1.1
+                                RIPPLE	         33         1.3
+---------------------------------------------------
+Report for cell mpt2042_top_uniq_1
+   Instance path: df1_lidar_top/u_mpt2042_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     939.75         7.4
+                                  LUT4	    1060.00         8.0
+                               DISTRAM	     128.00        72.3
+                                PFUREG	        919         7.5
+                                RIPPLE	        134         5.1
+                                   EBR	          2         3.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+               lvds_ddrdata_top_uniq_1	          1         2.1
+               lvds_ddrdata_top_uniq_2	          1         2.2
+         mpt2042_spi_master_uniq_2_Z21	          1         0.3
+         mpt2042_spi_master_uniq_1_Z20	          1         0.3
+                mpt2042_dataprc_uniq_2	          1         0.7
+                    mpt2042_cfg_uniq_2	          1         0.5
+                mpt2042_dataprc_uniq_1	          1         0.7
+                    mpt2042_cfg_uniq_1	          1         0.5
+---------------------------------------------------
+Report for cell mpt2042_dataprc_uniq_2
+   Instance path: df1_lidar_top/u_mpt2042_top/u2_mpt2042_dataprc
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      83.67         0.7
+                                  LUT4	     130.00         1.0
+                                PFUREG	        114         0.9
+                                RIPPLE	          5         0.2
+---------------------------------------------------
+Report for cell lvds_ddrdata_top_uniq_2
+   Instance path: df1_lidar_top/u_mpt2042_top/u2_lvds_dec
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     272.50         2.2
+                                  LUT4	     269.00         2.0
+                               DISTRAM	      64.00        36.2
+                                PFUREG	        204         1.7
+                                RIPPLE	         34         1.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                   decode_8b10b_uniq_2	          1         0.2
+                        crc8_d8_uniq_2	          1         0.1
+                  asfifo_decode_uniq_2	          1         1.3
+---------------------------------------------------
+Report for cell asfifo_decode_uniq_2
+   Instance path: df1_lidar_top/u_mpt2042_top/u2_lvds_dec/u_lasfifo_decode
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     159.00         1.3
+                                  LUT4	      84.00         0.6
+                               DISTRAM	      64.00        36.2
+                                PFUREG	        102         0.8
+                                RIPPLE	         22         0.8
+---------------------------------------------------
+Report for cell crc8_d8_uniq_2
+   Instance path: df1_lidar_top/u_mpt2042_top/u2_lvds_dec/u_crc8_d8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      11.00         0.1
+                                  LUT4	      16.00         0.1
+                                PFUREG	          8         0.1
+---------------------------------------------------
+Report for cell decode_8b10b_uniq_2
+   Instance path: df1_lidar_top/u_mpt2042_top/u2_lvds_dec/u_dec_8b10b
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      22.50         0.2
+                                  LUT4	      42.00         0.3
+                                PFUREG	          9         0.1
+---------------------------------------------------
+Report for cell mpt2042_dataprc_uniq_1
+   Instance path: df1_lidar_top/u_mpt2042_top/u1_mpt2042_dataprc
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      83.00         0.7
+                                  LUT4	     128.00         1.0
+                                PFUREG	        116         0.9
+                                RIPPLE	          5         0.2
+---------------------------------------------------
+Report for cell lvds_ddrdata_top_uniq_1
+   Instance path: df1_lidar_top/u_mpt2042_top/u1_lvds_dec
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     270.50         2.1
+                                  LUT4	     268.00         2.0
+                               DISTRAM	      64.00        36.2
+                                PFUREG	        204         1.7
+                                RIPPLE	         34         1.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                   decode_8b10b_uniq_1	          1         0.2
+                        crc8_d8_uniq_1	          1         0.1
+                  asfifo_decode_uniq_1	          1         1.3
+---------------------------------------------------
+Report for cell asfifo_decode_uniq_1
+   Instance path: df1_lidar_top/u_mpt2042_top/u1_lvds_dec/u_lasfifo_decode
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     159.00         1.3
+                                  LUT4	      84.00         0.6
+                               DISTRAM	      64.00        36.2
+                                PFUREG	        102         0.8
+                                RIPPLE	         22         0.8
+---------------------------------------------------
+Report for cell crc8_d8_uniq_1
+   Instance path: df1_lidar_top/u_mpt2042_top/u1_lvds_dec/u_crc8_d8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      11.00         0.1
+                                  LUT4	      16.00         0.1
+                                PFUREG	          8         0.1
+---------------------------------------------------
+Report for cell decode_8b10b_uniq_1
+   Instance path: df1_lidar_top/u_mpt2042_top/u1_lvds_dec/u_dec_8b10b
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.00         0.2
+                                  LUT4	      41.00         0.3
+                                PFUREG	          9         0.1
+---------------------------------------------------
+Report for cell mpt2042_spi_master_uniq_2_Z21
+   Instance path: df1_lidar_top/u_mpt2042_top/u2_mpt2042_spi_master
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.33         0.3
+                                  LUT4	      46.00         0.3
+                                PFUREG	         38         0.3
+                                RIPPLE	          5         0.2
+---------------------------------------------------
+Report for cell mpt2042_cfg_uniq_2
+   Instance path: df1_lidar_top/u_mpt2042_top/u2_mpt2042_cfg
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      63.17         0.5
+                                  LUT4	      69.00         0.5
+                                PFUREG	         68         0.6
+                                RIPPLE	         23         0.9
+                                   EBR	          1         1.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    mpt2042_rom_uniq_2	          1         0.0
+---------------------------------------------------
+Report for cell mpt2042_rom_uniq_2
+   Instance path: df1_lidar_top/u_mpt2042_top/u2_mpt2042_cfg/u_mpt2042_rom
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         1.7
+---------------------------------------------------
+Report for cell mpt2042_spi_master_uniq_1_Z20
+   Instance path: df1_lidar_top/u_mpt2042_top/u1_mpt2042_spi_master
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.33         0.3
+                                  LUT4	      46.00         0.3
+                                PFUREG	         38         0.3
+                                RIPPLE	          5         0.2
+---------------------------------------------------
+Report for cell mpt2042_cfg_uniq_1
+   Instance path: df1_lidar_top/u_mpt2042_top/u1_mpt2042_cfg
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      62.17         0.5
+                                  LUT4	      69.00         0.5
+                                PFUREG	         68         0.6
+                                RIPPLE	         23         0.9
+                                   EBR	          1         1.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    mpt2042_rom_uniq_1	          1         0.0
+---------------------------------------------------
+Report for cell mpt2042_rom_uniq_1
+   Instance path: df1_lidar_top/u_mpt2042_top/u1_mpt2042_cfg/u_mpt2042_rom
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         1.7
+---------------------------------------------------
+Report for cell iddrx2f_uniq_2
+   Instance path: df1_lidar_top/u2_iddr_tdc2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      28.50         0.2
+                                  LUT4	      45.00         0.3
+                                 IOBUF	          2         2.0
+                                PFUREG	         22         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+              iddrx2frxdll_sync_uniq_2	          1         0.2
+---------------------------------------------------
+Report for cell iddrx2frxdll_sync_uniq_2
+   Instance path: df1_lidar_top/u2_iddr_tdc2/Inst_rxdll_sync
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      28.50         0.2
+                                  LUT4	      45.00         0.3
+                                PFUREG	         22         0.2
+---------------------------------------------------
+Report for cell iddrx2f_uniq_1
+   Instance path: df1_lidar_top/u1_iddr_tdc1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      28.50         0.2
+                                  LUT4	      45.00         0.3
+                                 IOBUF	          2         2.0
+                                PFUREG	         22         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+              iddrx2frxdll_sync_uniq_1	          1         0.2
+---------------------------------------------------
+Report for cell iddrx2frxdll_sync_uniq_1
+   Instance path: df1_lidar_top/u1_iddr_tdc1/Inst_rxdll_sync
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      28.50         0.2
+                                  LUT4	      45.00         0.3
+                                PFUREG	         22         0.2
+---------------------------------------------------
+Report for cell iddr_init_uniq_2
+   Instance path: df1_lidar_top/u2_iddr_init
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.50         0.1
+                                  LUT4	       9.00         0.1
+                                PFUREG	         14         0.1
+                                RIPPLE	          5         0.2
+---------------------------------------------------
+Report for cell iddr_init_uniq_1
+   Instance path: df1_lidar_top/u1_iddr_init
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.50         0.1
+                                  LUT4	       9.00         0.1
+                                PFUREG	         14         0.1
+                                RIPPLE	          5         0.2
+---------------------------------------------------
+Report for cell laser_control_uniq_1
+   Instance path: df1_lidar_top/u_laser_control
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      15.25         0.1
+                                  LUT4	      28.00         0.2
+                                PFUREG	         20         0.2
+---------------------------------------------------
+Report for cell rotate_control_uniq_1_1000000000s_10s_800000_71s_60s_100
+   Instance path: df1_lidar_top/u_rotate_control
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     820.00         6.5
+                                  LUT4	     742.00         5.6
+                                PFUREG	       1086         8.9
+                                RIPPLE	        318        12.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+           opto_signal_dejitter_uniq_1	          1         0.1
+           opto_signal_dejitter_uniq_2	          1         0.1
+opto_emiperiod_cal_uniq_1_1000000000s_10s_800000_125	          1         0.1
+encoder_control_uniq_2_1000000000s_10s_60s_100	          1         3.1
+encoder_control_uniq_1_1000000000s_10s_71s_100	          1         3.1
+---------------------------------------------------
+Report for cell encoder_control_uniq_2_1000000000s_10s_60s_100
+   Instance path: df1_lidar_top/u_rotate_control/u4_encoder_control
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     397.00         3.1
+                                  LUT4	     364.00         2.7
+                                PFUREG	        528         4.3
+                                RIPPLE	        153         5.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+opto_switch_uniq_2_1000000000s_10s_60s_100_200_196_8333_16666_Z18	          1         0.2
+              encoder_calculate_uniq_2	          1         0.7
+                       code_cnt_uniq_2	          1         0.4
+                 code_angle_uniq_2_Z19	          1         1.8
+---------------------------------------------------
+Report for cell code_cnt_uniq_2
+   Instance path: df1_lidar_top/u_rotate_control/u4_encoder_control/u5_code_cnt
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      44.67         0.4
+                                  LUT4	      43.00         0.3
+                                PFUREG	         76         0.6
+                                RIPPLE	         21         0.8
+---------------------------------------------------
+Report for cell code_angle_uniq_2_Z19
+   Instance path: df1_lidar_top/u_rotate_control/u4_encoder_control/u3_code_angle
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     231.00         1.8
+                                  LUT4	     269.00         2.0
+                                PFUREG	        297         2.4
+                                RIPPLE	         53         2.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+               multiplier_10x32_uniq_2	          1         0.0
+               divider_32_16bit_uniq_6	          1         0.8
+---------------------------------------------------
+Report for cell divider_32_16bit_uniq_6
+   Instance path: df1_lidar_top/u_rotate_control/u4_encoder_control/u3_code_angle/u_divider_code
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     106.33         0.8
+                                  LUT4	     132.00         1.0
+                                PFUREG	        104         0.9
+                                RIPPLE	         21         0.8
+---------------------------------------------------
+Report for cell multiplier_10x32_uniq_2
+   Instance path: df1_lidar_top/u_rotate_control/u4_encoder_control/u3_code_angle/u1_multiplier_10x32
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell encoder_calculate_uniq_2
+   Instance path: df1_lidar_top/u_rotate_control/u4_encoder_control/u2_encoder_calculate
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      90.00         0.7
+                                  LUT4	      18.00         0.1
+                                PFUREG	        131         1.1
+                                RIPPLE	         66         2.5
+---------------------------------------------------
+Report for cell opto_switch_uniq_2_1000000000s_10s_60s_100_200_196_8333_16666_Z18
+   Instance path: df1_lidar_top/u_rotate_control/u4_encoder_control/u1_opto_switch
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      31.33         0.2
+                                  LUT4	      34.00         0.3
+                                PFUREG	         24         0.2
+                                RIPPLE	         13         0.5
+---------------------------------------------------
+Report for cell encoder_control_uniq_1_1000000000s_10s_71s_100
+   Instance path: df1_lidar_top/u_rotate_control/u3_encoder_control
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     395.00         3.1
+                                  LUT4	     355.00         2.7
+                                PFUREG	        527         4.3
+                                RIPPLE	        153         5.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+opto_switch_uniq_1_1000000000s_10s_71s_100_200_196_7042_14084_Z16	          1         0.2
+              encoder_calculate_uniq_1	          1         0.7
+                       code_cnt_uniq_1	          1         0.4
+                 code_angle_uniq_1_Z17	          1         1.8
+---------------------------------------------------
+Report for cell code_cnt_uniq_1
+   Instance path: df1_lidar_top/u_rotate_control/u3_encoder_control/u5_code_cnt
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      44.67         0.4
+                                  LUT4	      43.00         0.3
+                                PFUREG	         76         0.6
+                                RIPPLE	         21         0.8
+---------------------------------------------------
+Report for cell code_angle_uniq_1_Z17
+   Instance path: df1_lidar_top/u_rotate_control/u3_encoder_control/u3_code_angle
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     231.00         1.8
+                                  LUT4	     263.00         2.0
+                                PFUREG	        297         2.4
+                                RIPPLE	         53         2.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+               multiplier_10x32_uniq_1	          1         0.0
+               divider_32_16bit_uniq_5	          1         0.8
+---------------------------------------------------
+Report for cell divider_32_16bit_uniq_5
+   Instance path: df1_lidar_top/u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     106.67         0.8
+                                  LUT4	     127.00         1.0
+                                PFUREG	        104         0.9
+                                RIPPLE	         21         0.8
+---------------------------------------------------
+Report for cell multiplier_10x32_uniq_1
+   Instance path: df1_lidar_top/u_rotate_control/u3_encoder_control/u3_code_angle/u1_multiplier_10x32
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell encoder_calculate_uniq_1
+   Instance path: df1_lidar_top/u_rotate_control/u3_encoder_control/u2_encoder_calculate
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      90.00         0.7
+                                  LUT4	      18.00         0.1
+                                PFUREG	        131         1.1
+                                RIPPLE	         66         2.5
+---------------------------------------------------
+Report for cell opto_switch_uniq_1_1000000000s_10s_71s_100_200_196_7042_14084_Z16
+   Instance path: df1_lidar_top/u_rotate_control/u3_encoder_control/u1_opto_switch
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      29.33         0.2
+                                  LUT4	      31.00         0.2
+                                PFUREG	         23         0.2
+                                RIPPLE	         13         0.5
+---------------------------------------------------
+Report for cell opto_emiperiod_cal_uniq_1_1000000000s_10s_800000_125
+   Instance path: df1_lidar_top/u_rotate_control/u2_opto_emiperiod_cal
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      11.00         0.1
+                                  LUT4	      13.00         0.1
+                                PFUREG	          9         0.1
+                                RIPPLE	          4         0.2
+---------------------------------------------------
+Report for cell opto_signal_dejitter_uniq_2
+   Instance path: df1_lidar_top/u_rotate_control/u1_opto_signal_dejitter
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00         0.1
+                                  LUT4	       5.00         0.0
+                                PFUREG	         11         0.1
+                                RIPPLE	          4         0.2
+---------------------------------------------------
+Report for cell opto_signal_dejitter_uniq_1
+   Instance path: df1_lidar_top/u_rotate_control/u0_opto_signal_dejitter
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00         0.1
+                                  LUT4	       4.00         0.0
+                                PFUREG	         10         0.1
+                                RIPPLE	          4         0.2
+---------------------------------------------------
+Report for cell motor_control_uniq_1
+   Instance path: df1_lidar_top/u_motor_control
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     765.00         6.1
+                                  LUT4	     684.00         5.2
+                                PFUREG	        848         6.9
+                                RIPPLE	        290        11.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+           signal_dejitter_uniq_2_500s	          1         0.1
+           signal_dejitter_uniq_1_500s	          1         0.1
+                    motor_drive_uniq_2	          1         3.0
+                    motor_drive_uniq_1	          1         3.0
+---------------------------------------------------
+Report for cell motor_drive_uniq_2
+   Instance path: df1_lidar_top/u_motor_control/u2_motor_drive
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     374.00         3.0
+                                  LUT4	     338.00         2.6
+                                PFUREG	        412         3.4
+                                RIPPLE	        140         5.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                multiplier_16x8_uniq_2	          1         0.0
+               divider_32_16bit_uniq_3	          1         0.6
+               divider_32_16bit_uniq_4	          1         0.6
+---------------------------------------------------
+Report for cell divider_32_16bit_uniq_4
+   Instance path: df1_lidar_top/u_motor_control/u2_motor_drive/u_divider2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      77.00         0.6
+                                  LUT4	      77.00         0.6
+                                PFUREG	        103         0.8
+                                RIPPLE	         21         0.8
+---------------------------------------------------
+Report for cell multiplier_16x8_uniq_2
+   Instance path: df1_lidar_top/u_motor_control/u2_motor_drive/u_multiplier_16x8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell divider_32_16bit_uniq_3
+   Instance path: df1_lidar_top/u_motor_control/u2_motor_drive/u_divider1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      75.00         0.6
+                                  LUT4	      74.00         0.6
+                                PFUREG	        103         0.8
+                                RIPPLE	         21         0.8
+---------------------------------------------------
+Report for cell motor_drive_uniq_1
+   Instance path: df1_lidar_top/u_motor_control/u1_motor_drive
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     373.00         3.0
+                                  LUT4	     338.00         2.6
+                                PFUREG	        412         3.4
+                                RIPPLE	        140         5.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                multiplier_16x8_uniq_1	          1         0.0
+               divider_32_16bit_uniq_1	          1         0.6
+               divider_32_16bit_uniq_2	          1         0.6
+---------------------------------------------------
+Report for cell divider_32_16bit_uniq_2
+   Instance path: df1_lidar_top/u_motor_control/u1_motor_drive/u_divider2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      77.00         0.6
+                                  LUT4	      77.00         0.6
+                                PFUREG	        103         0.8
+                                RIPPLE	         21         0.8
+---------------------------------------------------
+Report for cell multiplier_16x8_uniq_1
+   Instance path: df1_lidar_top/u_motor_control/u1_motor_drive/u_multiplier_16x8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell divider_32_16bit_uniq_1
+   Instance path: df1_lidar_top/u_motor_control/u1_motor_drive/u_divider1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      75.00         0.6
+                                  LUT4	      74.00         0.6
+                                PFUREG	        103         0.8
+                                RIPPLE	         21         0.8
+---------------------------------------------------
+Report for cell signal_dejitter_uniq_2_500s
+   Instance path: df1_lidar_top/u_motor_control/u1_signal_dejitter
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.00         0.1
+                                  LUT4	       4.00         0.0
+                                PFUREG	         12         0.1
+                                RIPPLE	          5         0.2
+---------------------------------------------------
+Report for cell signal_dejitter_uniq_1_500s
+   Instance path: df1_lidar_top/u_motor_control/u0_signal_dejitter
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.00         0.1
+                                  LUT4	       4.00         0.0
+                                PFUREG	         12         0.1
+                                RIPPLE	          5         0.2
+---------------------------------------------------
+Report for cell flash_control_uniq_1_Z15
+   Instance path: df1_lidar_top/u_flash_control
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     364.50         2.9
+                                  LUT4	     425.00         3.2
+                                PFUREG	        324         2.7
+                                RIPPLE	        120         4.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                  spi_flash_top_uniq_1	          1         0.9
+---------------------------------------------------
+Report for cell spi_flash_top_uniq_1
+   Instance path: df1_lidar_top/u_flash_control/u_spi_flash_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     109.83         0.9
+                                  LUT4	     140.00         1.1
+                                PFUREG	         99         0.8
+                                RIPPLE	         25         0.9
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                  spi_flash_cmd_uniq_1	          1         0.7
+---------------------------------------------------
+Report for cell spi_flash_cmd_uniq_1
+   Instance path: df1_lidar_top/u_flash_control/u_spi_flash_top/u_spi_cmd
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      94.00         0.7
+                                  LUT4	     111.00         0.8
+                                PFUREG	         85         0.7
+                                RIPPLE	         25         0.9
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     spi_master_uniq_1	          1         0.3
+---------------------------------------------------
+Report for cell spi_master_uniq_1
+   Instance path: df1_lidar_top/u_flash_control/u_spi_flash_top/u_spi_cmd/u_flashspi_master
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.33         0.3
+                                  LUT4	      36.00         0.3
+                                PFUREG	         43         0.4
+                                RIPPLE	          9         0.3
+---------------------------------------------------
+Report for cell eth_top_uniq_1
+   Instance path: df1_lidar_top/u_eth_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    4658.17        36.9
+                                  LUT4	    4949.50        37.4
+                                PFUREG	       3823        31.3
+                                RIPPLE	       1048        39.7
+                                   EBR	         17        29.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+udpcom_control_uniq_1_621093152_64s_27s_16s	          1        14.9
+                       rmii_top_uniq_1	          1         1.3
+                        mac_top_uniq_1	          1         1.5
+ip_top_uniq_1_3232235786_3232235878_Z12	          1        15.6
+                        eth_pll_uniq_1	          1         0.0
+                       eth_ctrl_uniq_1	          1         0.2
+arp_ctrl_uniq_1_3232235786_3232235878_Z5	          1         3.4
+---------------------------------------------------
+Report for cell eth_ctrl_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_eth_ctrl
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.00         0.2
+                                  LUT4	      25.00         0.2
+                                PFUREG	         17         0.1
+---------------------------------------------------
+Report for cell udpcom_control_uniq_1_621093152_64s_27s_16s
+   Instance path: df1_lidar_top/u_eth_top/u_udpcom_control
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1883.67        14.9
+                                  LUT4	    2325.50        17.6
+                                PFUREG	       1400        11.5
+                                RIPPLE	        383        14.5
+                                   EBR	         10        17.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+      udpcom_parameter_init_uniq_1_Z14	          1         6.8
+     udpcom_datagram_parser_uniq_1_Z13	          1         7.9
+                  udp_broadcast_uniq_1	          1         0.2
+---------------------------------------------------
+Report for cell udp_broadcast_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_udpcom_control/u_udp_broadcast
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      25.00         0.2
+                                  LUT4	      15.00         0.1
+                                PFUREG	         30         0.2
+                                RIPPLE	         16         0.6
+---------------------------------------------------
+Report for cell udpcom_parameter_init_uniq_1_Z14
+   Instance path: df1_lidar_top/u_eth_top/u_udpcom_control/u_parameter_init
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     856.80         6.8
+                                  LUT4	    1175.00         8.9
+                                PFUREG	        847         6.9
+                                RIPPLE	         81         3.1
+                                   EBR	          2         3.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                    sfifo_64x48_uniq_1	          1         0.2
+---------------------------------------------------
+Report for cell sfifo_64x48_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_udpcom_control/u_parameter_init/u1_sfifo_64x48
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      30.80         0.2
+                                  LUT4	       7.00         0.1
+                                PFUREG	         21         0.2
+                                RIPPLE	         25         0.9
+                                   EBR	          2         3.4
+---------------------------------------------------
+Report for cell udpcom_datagram_parser_uniq_1_Z13
+   Instance path: df1_lidar_top/u_eth_top/u_udpcom_control/u_datagram_parser
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     995.03         7.9
+                                  LUT4	    1110.00         8.4
+                                PFUREG	        523         4.3
+                                RIPPLE	        286        10.8
+                                   EBR	          8        13.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                 dataram_2048x8_uniq_2	          1         0.0
+                 dataram_1024x8_uniq_4	          1         0.0
+                 dataram_1024x8_uniq_5	          1         0.0
+                 dataram_1024x8_uniq_2	          1         0.0
+                 dataram_1024x8_uniq_3	          1         0.0
+                 dataram_1024x8_uniq_1	          1         0.0
+                 code_ram128x32_uniq_2	          1         0.0
+                 code_ram128x32_uniq_1	          1         0.0
+---------------------------------------------------
+Report for cell code_ram128x32_uniq_2
+   Instance path: df1_lidar_top/u_eth_top/u_udpcom_control/u_datagram_parser/code2_ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         1.7
+---------------------------------------------------
+Report for cell code_ram128x32_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_udpcom_control/u_datagram_parser/code1_ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         1.7
+---------------------------------------------------
+Report for cell dataram_1024x8_uniq_5
+   Instance path: df1_lidar_top/u_eth_top/u_udpcom_control/u_datagram_parser/u_calib_data2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         1.7
+---------------------------------------------------
+Report for cell dataram_1024x8_uniq_4
+   Instance path: df1_lidar_top/u_eth_top/u_udpcom_control/u_datagram_parser/u_calib_data1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         1.7
+---------------------------------------------------
+Report for cell dataram_1024x8_uniq_3
+   Instance path: df1_lidar_top/u_eth_top/u_udpcom_control/u_datagram_parser/u_loop_data2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         1.7
+---------------------------------------------------
+Report for cell dataram_1024x8_uniq_2
+   Instance path: df1_lidar_top/u_eth_top/u_udpcom_control/u_datagram_parser/u_loop_data1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         1.7
+---------------------------------------------------
+Report for cell dataram_1024x8_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_udpcom_control/u_datagram_parser/u_cache_data
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         1.7
+---------------------------------------------------
+Report for cell dataram_2048x8_uniq_2
+   Instance path: df1_lidar_top/u_eth_top/u_udpcom_control/u_datagram_parser/udprx_dataram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         1.7
+---------------------------------------------------
+Report for cell ip_top_uniq_1_3232235786_3232235878_Z12
+   Instance path: df1_lidar_top/u_eth_top/u_ip_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1962.50        15.6
+                                  LUT4	    1861.00        14.0
+                                PFUREG	       1504        12.3
+                                RIPPLE	        520        19.7
+                                   EBR	          2         3.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+udp_top_uniq_1_3232235786_3232235878_Z11	          1         7.0
+icmp_top_uniq_1_3232235786_3232235878_Z8	          1         8.6
+---------------------------------------------------
+Report for cell udp_top_uniq_1_3232235786_3232235878_Z11
+   Instance path: df1_lidar_top/u_eth_top/u_ip_top/u_udp_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     882.50         7.0
+                                  LUT4	     845.00         6.4
+                                PFUREG	        662         5.4
+                                RIPPLE	        219         8.3
+                                   EBR	          1         1.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                      udp_rx_uniq_1_Z9	          1         1.7
+                     udp_tx_uniq_1_Z10	          1         5.0
+                 dataram_2048x8_uniq_1	          1         0.0
+                       crc32_d8_uniq_4	          1         0.3
+---------------------------------------------------
+Report for cell crc32_d8_uniq_4
+   Instance path: df1_lidar_top/u_eth_top/u_ip_top/u_udp_top/u_crc32_d8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.50         0.3
+                                  LUT4	      62.00         0.5
+                                PFUREG	         32         0.3
+---------------------------------------------------
+Report for cell dataram_2048x8_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_ip_top/u_udp_top/udprx_dataram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         1.7
+---------------------------------------------------
+Report for cell udp_tx_uniq_1_Z10
+   Instance path: df1_lidar_top/u_eth_top/u_ip_top/u_udp_top/u_udp_tx
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     630.00         5.0
+                                  LUT4	     559.00         4.2
+                                PFUREG	        416         3.4
+                                RIPPLE	        155         5.9
+---------------------------------------------------
+Report for cell udp_rx_uniq_1_Z9
+   Instance path: df1_lidar_top/u_eth_top/u_ip_top/u_udp_top/u_udp_rx
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     217.00         1.7
+                                  LUT4	     224.00         1.7
+                                PFUREG	        214         1.8
+                                RIPPLE	         64         2.4
+---------------------------------------------------
+Report for cell icmp_top_uniq_1_3232235786_3232235878_Z8
+   Instance path: df1_lidar_top/u_eth_top/u_ip_top/u_icmp_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1080.00         8.6
+                                  LUT4	    1016.00         7.7
+                                PFUREG	        842         6.9
+                                RIPPLE	        301        11.4
+                                   EBR	          1         1.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+            synfifo_data_2048x8_uniq_1	          1         0.3
+                     icmp_tx_uniq_1_Z7	          1         5.6
+                     icmp_rx_uniq_1_Z6	          1         2.3
+                       crc32_d8_uniq_3	          1         0.3
+---------------------------------------------------
+Report for cell crc32_d8_uniq_3
+   Instance path: df1_lidar_top/u_eth_top/u_ip_top/u_icmp_top/u_crc32_d8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      34.50         0.3
+                                  LUT4	      63.00         0.5
+                                PFUREG	         32         0.3
+---------------------------------------------------
+Report for cell synfifo_data_2048x8_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_ip_top/u_icmp_top/icmp_synfifo_data_2048x8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      43.00         0.3
+                                  LUT4	       7.00         0.1
+                                PFUREG	         38         0.3
+                                RIPPLE	         37         1.4
+                                   EBR	          1         1.7
+---------------------------------------------------
+Report for cell icmp_tx_uniq_1_Z7
+   Instance path: df1_lidar_top/u_eth_top/u_ip_top/u_icmp_top/u_icmp_tx
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     706.50         5.6
+                                  LUT4	     680.00         5.1
+                                PFUREG	        488         4.0
+                                RIPPLE	        170         6.4
+---------------------------------------------------
+Report for cell icmp_rx_uniq_1_Z6
+   Instance path: df1_lidar_top/u_eth_top/u_ip_top/u_icmp_top/u_icmp_rx
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     296.00         2.3
+                                  LUT4	     266.00         2.0
+                                PFUREG	        284         2.3
+                                RIPPLE	         94         3.6
+---------------------------------------------------
+Report for cell arp_ctrl_uniq_1_3232235786_3232235878_Z5
+   Instance path: df1_lidar_top/u_eth_top/u_arp_ctrl
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     432.00         3.4
+                                  LUT4	     543.00         4.1
+                                PFUREG	        475         3.9
+                                RIPPLE	          8         0.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       crc32_d8_uniq_1	          1         0.3
+                      arp_tx_uniq_1_Z4	          1         1.8
+arp_rx_uniq_1_3232235786_3232235777_0_1_2_4_8_2054_Z3	          1         1.4
+---------------------------------------------------
+Report for cell crc32_d8_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_arp_ctrl/utx_crc32_d8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      32.50         0.3
+                                  LUT4	      62.00         0.5
+                                PFUREG	         32         0.3
+---------------------------------------------------
+Report for cell arp_tx_uniq_1_Z4
+   Instance path: df1_lidar_top/u_eth_top/u_arp_ctrl/u_arp_tx
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     224.00         1.8
+                                  LUT4	     258.00         1.9
+                                PFUREG	        194         1.6
+                                RIPPLE	          3         0.1
+---------------------------------------------------
+Report for cell arp_rx_uniq_1_3232235786_3232235777_0_1_2_4_8_2054_Z3
+   Instance path: df1_lidar_top/u_eth_top/u_arp_ctrl/u_arp_rx
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     175.50         1.4
+                                  LUT4	     223.00         1.7
+                                PFUREG	        249         2.0
+                                RIPPLE	          5         0.2
+---------------------------------------------------
+Report for cell mac_top_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_mac_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     193.50         1.5
+                                  LUT4	     106.00         0.8
+                                PFUREG	        223         1.8
+                                RIPPLE	         85         3.2
+                                   EBR	          3         5.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         mac_tx_uniq_1	          1         0.4
+                         mac_rx_uniq_1	          1         1.1
+---------------------------------------------------
+Report for cell mac_tx_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_mac_top/u_mac_tx
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      56.00         0.4
+                                  LUT4	      23.00         0.2
+                                PFUREG	         55         0.4
+                                RIPPLE	         37         1.4
+                                   EBR	          1         1.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+         fifo_mac_frame_2048x10_uniq_2	          1         0.3
+---------------------------------------------------
+Report for cell fifo_mac_frame_2048x10_uniq_2
+   Instance path: df1_lidar_top/u_eth_top/u_mac_top/u_mac_tx/u_fifo_mac_frame_2048x10
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      42.30         0.3
+                                  LUT4	       7.50         0.1
+                                PFUREG	         38         0.3
+                                RIPPLE	         37         1.4
+                                   EBR	          1         1.7
+---------------------------------------------------
+Report for cell mac_rx_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_mac_top/u_mac_rx
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     137.50         1.1
+                                  LUT4	      83.00         0.6
+                                PFUREG	        168         1.4
+                                RIPPLE	         48         1.8
+                                   EBR	          2         3.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+         fifo_mac_frame_2048x10_uniq_1	          1         0.3
+---------------------------------------------------
+Report for cell fifo_mac_frame_2048x10_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_mac_top/u_mac_rx/u_fifo_mac_frame_2048x10
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      43.50         0.3
+                                  LUT4	       8.00         0.1
+                                PFUREG	         38         0.3
+                                RIPPLE	         37         1.4
+                                   EBR	          2         3.4
+---------------------------------------------------
+Report for cell rmii_top_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_rmii_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     164.50         1.3
+                                  LUT4	      88.00         0.7
+                                PFUREG	        204         1.7
+                                RIPPLE	         52         2.0
+                                   EBR	          2         3.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        rmii_tx_uniq_1	          1         0.9
+                        rmii_rx_uniq_1	          1         0.4
+---------------------------------------------------
+Report for cell rmii_tx_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_rmii_top/u_rmii_tx
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     109.00         0.9
+                                  LUT4	      61.00         0.5
+                                PFUREG	        137         1.1
+                                RIPPLE	         34         1.3
+                                   EBR	          1         1.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+           dcfifo_rmiitx_4096x2_uniq_1	          1         0.8
+---------------------------------------------------
+Report for cell dcfifo_rmiitx_4096x2_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     106.00         0.8
+                                  LUT4	      61.00         0.5
+                                PFUREG	        132         1.1
+                                RIPPLE	         34         1.3
+                                   EBR	          1         1.7
+---------------------------------------------------
+Report for cell rmii_rx_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_rmii_top/u_rmii_rx
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      55.50         0.4
+                                  LUT4	      27.00         0.2
+                                PFUREG	         67         0.5
+                                RIPPLE	         18         0.7
+                                   EBR	          1         1.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+             dcfifo_rmiirx_36x2_uniq_1	          1         0.4
+---------------------------------------------------
+Report for cell dcfifo_rmiirx_36x2_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      52.50         0.4
+                                  LUT4	      27.00         0.2
+                                PFUREG	         62         0.5
+                                RIPPLE	         18         0.7
+                                   EBR	          1         1.7
+---------------------------------------------------
+Report for cell eth_pll_uniq_1
+   Instance path: df1_lidar_top/u_eth_top/u_eth_pll
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                  LUT4	       1.00         0.0
+---------------------------------------------------
+Report for cell ddr3_interface_uniq_1_96s_8s_4s_64s_27s_5s_8s_16s
+   Instance path: df1_lidar_top/u2_ddr3_interface
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     821.83         6.5
+                                  LUT4	     538.50         4.1
+                                PFUREG	        915         7.5
+                                RIPPLE	        174         6.6
+                                   EBR	         19        32.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+             ddr_round_robin_uniq_1_Z2	          1         6.0
+                ddr3_rw_ctrl_uniq_1_Z1	          1         0.6
+---------------------------------------------------
+Report for cell ddr_round_robin_uniq_1_Z2
+   Instance path: df1_lidar_top/u2_ddr3_interface/u2_ddr_round_robin
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     751.83         6.0
+                                  LUT4	     473.50         3.6
+                                PFUREG	        798         6.5
+                                RIPPLE	        174         6.6
+                                   EBR	         19        32.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                   sfifo_128x96_uniq_3	          1         0.3
+                   sfifo_128x96_uniq_4	          1         0.2
+                   sfifo_128x96_uniq_1	          1         0.2
+                   sfifo_128x96_uniq_2	          1         0.3
+                  asfifo_256x64_uniq_2	          1         0.6
+                  asfifo_256x96_uniq_1	          1         0.6
+                  asfifo_256x64_uniq_1	          1         0.6
+---------------------------------------------------
+Report for cell asfifo_256x64_uniq_2
+   Instance path: df1_lidar_top/u2_ddr3_interface/u2_ddr_round_robin/u_ddr2flash
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      75.00         0.6
+                                  LUT4	      40.00         0.3
+                                PFUREG	         92         0.8
+                                RIPPLE	         26         1.0
+                                   EBR	          2         3.4
+---------------------------------------------------
+Report for cell asfifo_256x64_uniq_1
+   Instance path: df1_lidar_top/u2_ddr3_interface/u2_ddr_round_robin/u_ddr2para
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      74.83         0.6
+                                  LUT4	      39.50         0.3
+                                PFUREG	         92         0.8
+                                RIPPLE	         26         1.0
+                                   EBR	          2         3.4
+---------------------------------------------------
+Report for cell asfifo_256x96_uniq_1
+   Instance path: df1_lidar_top/u2_ddr3_interface/u2_ddr_round_robin/u_asfifo_256x96
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      76.00         0.6
+                                  LUT4	      40.00         0.3
+                                PFUREG	         92         0.8
+                                RIPPLE	         26         1.0
+                                   EBR	          3         5.2
+---------------------------------------------------
+Report for cell sfifo_128x96_uniq_4
+   Instance path: df1_lidar_top/u2_ddr3_interface/u2_ddr_round_robin/u3_dist2ddr
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.73         0.2
+                                  LUT4	       1.50         0.0
+                                PFUREG	         25         0.2
+                                RIPPLE	         21         0.8
+                                   EBR	          3         5.2
+---------------------------------------------------
+Report for cell sfifo_128x96_uniq_3
+   Instance path: df1_lidar_top/u2_ddr3_interface/u2_ddr_round_robin/u2_flash2ddr
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      31.93         0.3
+                                  LUT4	       6.50         0.0
+                                PFUREG	         26         0.2
+                                RIPPLE	         27         1.0
+                                   EBR	          3         5.2
+---------------------------------------------------
+Report for cell sfifo_128x96_uniq_2
+   Instance path: df1_lidar_top/u2_ddr3_interface/u2_ddr_round_robin/u1_para2ddr
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      31.93         0.3
+                                  LUT4	       6.50         0.0
+                                PFUREG	         26         0.2
+                                RIPPLE	         27         1.0
+                                   EBR	          3         5.2
+---------------------------------------------------
+Report for cell sfifo_128x96_uniq_1
+   Instance path: df1_lidar_top/u2_ddr3_interface/u2_ddr_round_robin/u0_udp2ddr
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.73         0.2
+                                  LUT4	       1.50         0.0
+                                PFUREG	         25         0.2
+                                RIPPLE	         21         0.8
+                                   EBR	          3         5.2
+---------------------------------------------------
+Report for cell ddr3_rw_ctrl_uniq_1_Z1
+   Instance path: df1_lidar_top/u2_ddr3_interface/u1_ddr3_rw_ctrl
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      70.00         0.6
+                                  LUT4	      65.00         0.5
+                                PFUREG	        117         1.0
+---------------------------------------------------
+Report for cell ddr3_init_ctrl_uniq_1
+   Instance path: df1_lidar_top/u1_ddr3_init_ctrl
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.50         0.1
+                                  LUT4	       8.00         0.1
+                                PFUREG	         22         0.2
+                                RIPPLE	          9         0.3
+---------------------------------------------------
+Report for cell df1_ddr3_ip_uniq_1
+   Instance path: df1_lidar_top/u_ddr3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    2154.50        17.1
+                                  LUT4	    2718.00        20.5
+                               DISTRAM	      22.00        12.4
+                                 IOBUF	         45        44.6
+                                PFUREG	       2258        18.5
+                                RIPPLE	        115         4.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+ ddr3_sdram_mem_top_ddr3_ipcore_uniq_1	          1        17.1
+---------------------------------------------------
+Report for cell ddr3_sdram_mem_top_ddr3_ipcore_uniq_1
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    2154.50        17.1
+                                  LUT4	    2718.00        20.5
+                               DISTRAM	      22.00        12.4
+                                 IOBUF	         45        44.6
+                                PFUREG	       2258        18.5
+                                RIPPLE	        115         4.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                  ddr_clks_ddr3_ipcore	          1         0.3
+                           ddr3_ipcore	          1        16.7
+---------------------------------------------------
+Report for cell ddr3_ipcore
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    2112.17        16.7
+                                  LUT4	    2653.50        20.0
+                               DISTRAM	      22.00        12.4
+                                 IOBUF	         44        43.6
+                                PFUREG	       2230        18.2
+                                RIPPLE	        115         4.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        ddr3_sdram_phy	          1         4.4
+                      ddr3_ipcore_core	          1        12.3
+---------------------------------------------------
+Report for cell ddr3_ipcore_core
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1553.00        12.3
+                                  LUT4	    1960.00        14.8
+                               DISTRAM	      22.00        12.4
+                                PFUREG	       1496        12.2
+                                RIPPLE	         92         3.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       ddr3_sdram_core	          1        12.3
+---------------------------------------------------
+Report for cell ddr3_sdram_core
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1553.00        12.3
+                                  LUT4	    1960.00        14.8
+                               DISTRAM	      22.00        12.4
+                                PFUREG	       1496        12.2
+                                RIPPLE	         92         3.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                            queue_ctrl	          1         1.2
+                                   odt	          1         0.0
+                         intfc_cdl_cal	          1         0.3
+                                   cal	          1         7.9
+                                   cdl	          1         2.9
+---------------------------------------------------
+Report for cell odt
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/odt_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.00         0.0
+                                  LUT4	       4.00         0.0
+                                PFUREG	          3         0.0
+---------------------------------------------------
+Report for cell queue_ctrl
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     150.33         1.2
+                                  LUT4	     136.00         1.0
+                                PFUREG	        243         2.0
+                                RIPPLE	          5         0.2
+---------------------------------------------------
+Report for cell cdl
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cdl_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     364.17         2.9
+                                  LUT4	     343.00         2.6
+                               DISTRAM	      22.00        12.4
+                                PFUREG	        367         3.0
+                                RIPPLE	         31         1.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        row_addr_tab_1	          1         0.1
+                        row_addr_tab_0	          1         0.1
+---------------------------------------------------
+Report for cell row_addr_tab_0
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cdl_0/U2_row_addr_tab
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.00         0.1
+                                  LUT4	       1.00         0.0
+                               DISTRAM	      11.00         6.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_distributed_dpramEbnonen14664pb76a61a	          1         0.1
+---------------------------------------------------
+Report for cell pmi_distributed_dpramEbnonen14664pb76a61a
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cdl_0/U2_row_addr_tab/pmi_distributed_dpram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      11.00         0.1
+                               DISTRAM	      11.00         6.2
+---------------------------------------------------
+Report for cell row_addr_tab_1
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cdl_0/U1_row_addr_tab
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.83         0.1
+                                  LUT4	       4.00         0.0
+                               DISTRAM	      11.00         6.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_distributed_dpramEbnonen14664pb76a61a_0	          1         0.1
+---------------------------------------------------
+Report for cell pmi_distributed_dpramEbnonen14664pb76a61a_0
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cdl_0/U1_row_addr_tab/pmi_distributed_dpram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.33         0.1
+                               DISTRAM	      11.00         6.2
+---------------------------------------------------
+Report for cell cal
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     996.17         7.9
+                                  LUT4	    1430.00        10.8
+                                PFUREG	        852         7.0
+                                RIPPLE	         56         2.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        spcial_cmd_top	          1         1.6
+                             main_ctrl	          1         0.1
+                                 dpath	          1         0.8
+                        cmd_truth_tble	          1         0.8
+                          cmd_flow_top	          1         3.0
+---------------------------------------------------
+Report for cell dpath
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/dpath_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      99.92         0.8
+                                  LUT4	      88.00         0.7
+                                PFUREG	        123         1.0
+---------------------------------------------------
+Report for cell cmd_truth_tble
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/cmd_truth_tble_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     102.42         0.8
+                                  LUT4	     144.50         1.1
+                                PFUREG	         61         0.5
+                                RIPPLE	         13         0.5
+---------------------------------------------------
+Report for cell cmd_flow_top
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/cmd_flow_top_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     378.58         3.0
+                                  LUT4	     616.00         4.7
+                                PFUREG	        251         2.1
+                                RIPPLE	         20         0.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        flow_ctrl_tmrs	          1         1.1
+                         cmd_flow_ctrl	          1         0.9
+                           cmd_intrfce	          1         1.0
+---------------------------------------------------
+Report for cell cmd_intrfce
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/cmd_flow_top_0/cmd_intrfce_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     125.58         1.0
+                                  LUT4	     222.00         1.7
+                                PFUREG	         93         0.8
+---------------------------------------------------
+Report for cell flow_ctrl_tmrs
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/cmd_flow_top_0/flow_ctrl_tmrs_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     138.00         1.1
+                                  LUT4	     198.00         1.5
+                                PFUREG	        117         1.0
+                                RIPPLE	         20         0.8
+---------------------------------------------------
+Report for cell cmd_flow_ctrl
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/cmd_flow_top_0/cmd_flow_ctrl_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     115.00         0.9
+                                  LUT4	     196.00         1.5
+                                PFUREG	         41         0.3
+---------------------------------------------------
+Report for cell spcial_cmd_top
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/spcial_cmd_top_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     204.50         1.6
+                                  LUT4	     292.00         2.2
+                                PFUREG	        145         1.2
+                                RIPPLE	         23         0.9
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                      spcial_ctrl_tmrs	          1         0.4
+                        spcial_intrfce	          1         0.6
+                       spcial_cmd_ctrl	          1         0.6
+---------------------------------------------------
+Report for cell spcial_intrfce
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/spcial_cmd_top_0/spcial_intrfce_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      80.67         0.6
+                                  LUT4	     140.00         1.1
+                                PFUREG	         31         0.3
+---------------------------------------------------
+Report for cell spcial_ctrl_tmrs
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/spcial_cmd_top_0/spcial_ctrl_tmrs_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      54.33         0.4
+                                  LUT4	      47.00         0.4
+                                PFUREG	         56         0.5
+                                RIPPLE	         23         0.9
+---------------------------------------------------
+Report for cell spcial_cmd_ctrl
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/spcial_cmd_top_0/spcial_cmd_ctrl_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      69.50         0.6
+                                  LUT4	     105.00         0.8
+                                PFUREG	         58         0.5
+---------------------------------------------------
+Report for cell main_ctrl
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/main_ctrl_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.50         0.1
+                                  LUT4	      28.00         0.2
+                                PFUREG	         10         0.1
+---------------------------------------------------
+Report for cell intfc_cdl_cal
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/intfc_cdl_cal_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      33.00         0.3
+                                  LUT4	      38.00         0.3
+                                PFUREG	         30         0.2
+---------------------------------------------------
+Report for cell ddr3_sdram_phy
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     558.67         4.4
+                                  LUT4	     692.50         5.2
+                                 IOBUF	         44        43.6
+                                PFUREG	        734         6.0
+                                RIPPLE	         23         0.9
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               wr_path	          1         0.3
+                         read_training	          1         0.7
+                       rd_data_match_0	          1         0.1
+                       rd_data_match_1	          1         0.1
+                    phy_cmd_truth_tble	          1         0.7
+                            gen_data_0	          1         0.3
+                              gen_data	          1         0.3
+                              init_top	          1         0.6
+                           ddr3_dqs_io	          1         0.1
+                            ddr3_dm_io	          1         0.0
+                          ddr3_data_io	          1         0.0
+                          addr_cmd_blk	          1         0.3
+---------------------------------------------------
+Report for cell addr_cmd_blk
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_addr_cmd_blk
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      35.25         0.3
+                                  LUT4	      25.00         0.2
+                                PFUREG	         66         0.5
+---------------------------------------------------
+Report for cell wr_path
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      41.00         0.3
+                                  LUT4	      76.00         0.6
+                                PFUREG	         80         0.7
+---------------------------------------------------
+Report for cell gen_data_0
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/u2[1].gen_data
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      34.25         0.3
+                                  LUT4	      34.00         0.3
+                                PFUREG	         66         0.5
+---------------------------------------------------
+Report for cell gen_data
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/u2[0].gen_data
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      39.58         0.3
+                                  LUT4	      38.50         0.3
+                                PFUREG	         69         0.6
+---------------------------------------------------
+Report for cell ddr3_dqs_io
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      11.00         0.1
+                                  LUT4	       8.00         0.1
+                                 IOBUF	          2         2.0
+                                PFUREG	          4         0.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              bidi_dqs	          1         0.0
+                            bidi_dqs_1	          1         0.0
+---------------------------------------------------
+Report for cell bidi_dqs_1
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[1].bidi_dqs
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.00         0.0
+                                  LUT4	       4.00         0.0
+                                 IOBUF	          1         1.0
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell bidi_dqs
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.00         0.0
+                                  LUT4	       4.00         0.0
+                                 IOBUF	          1         1.0
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell ddr3_dm_io
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dm_io
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          2         2.0
+---------------------------------------------------
+Report for cell ddr3_data_io
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_data_io
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	         16        15.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           bidi_cell_4	          1         0.0
+                           bidi_cell_8	          1         0.0
+                           bidi_cell_9	          1         0.0
+                           bidi_cell_6	          1         0.0
+                           bidi_cell_7	          1         0.0
+                           bidi_cell_5	          1         0.0
+                           bidi_cell_1	          1         0.0
+                          bidi_cell_13	          1         0.0
+                           bidi_cell_2	          1         0.0
+                           bidi_cell_3	          1         0.0
+                          bidi_cell_14	          1         0.0
+                          bidi_cell_11	          1         0.0
+                          bidi_cell_12	          1         0.0
+                          bidi_cell_10	          1         0.0
+                           bidi_cell_0	          1         0.0
+                             bidi_cell	          1         0.0
+---------------------------------------------------
+Report for cell bidi_cell_14
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[10].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.0
+---------------------------------------------------
+Report for cell bidi_cell_13
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[4].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.0
+---------------------------------------------------
+Report for cell bidi_cell_12
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[11].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.0
+---------------------------------------------------
+Report for cell bidi_cell_11
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[3].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.0
+---------------------------------------------------
+Report for cell bidi_cell_10
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[7].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.0
+---------------------------------------------------
+Report for cell bidi_cell_9
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[5].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.0
+---------------------------------------------------
+Report for cell bidi_cell_8
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[13].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.0
+---------------------------------------------------
+Report for cell bidi_cell_7
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[15].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.0
+---------------------------------------------------
+Report for cell bidi_cell_6
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[14].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.0
+---------------------------------------------------
+Report for cell bidi_cell_5
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[9].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.0
+---------------------------------------------------
+Report for cell bidi_cell_4
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[1].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.0
+---------------------------------------------------
+Report for cell bidi_cell_3
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[8].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.0
+---------------------------------------------------
+Report for cell bidi_cell_2
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[12].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.0
+---------------------------------------------------
+Report for cell bidi_cell_1
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[0].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.0
+---------------------------------------------------
+Report for cell bidi_cell_0
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[2].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.0
+---------------------------------------------------
+Report for cell bidi_cell
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[6].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.0
+---------------------------------------------------
+Report for cell phy_cmd_truth_tble
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/phy_cmd_truth_tble_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      86.17         0.7
+                                  LUT4	     213.00         1.6
+                                PFUREG	         14         0.1
+---------------------------------------------------
+Report for cell init_top
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/init_top_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      75.50         0.6
+                                  LUT4	      95.00         0.7
+                                PFUREG	         72         0.6
+                                RIPPLE	         14         0.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             init_tmrs	          1         0.3
+                              init_fsm	          1         0.3
+---------------------------------------------------
+Report for cell init_tmrs
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/init_top_0/init_tmrs_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      32.50         0.3
+                                  LUT4	      33.00         0.2
+                                PFUREG	         40         0.3
+                                RIPPLE	         14         0.5
+---------------------------------------------------
+Report for cell init_fsm
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/init_top_0/init_fsm_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      43.00         0.3
+                                  LUT4	      62.00         0.5
+                                PFUREG	         32         0.3
+---------------------------------------------------
+Report for cell rd_data_match_0
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/u4[0].rd_data_match
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.00         0.1
+                                  LUT4	      14.00         0.1
+                                PFUREG	          2         0.0
+---------------------------------------------------
+Report for cell rd_data_match_1
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/u4[1].rd_data_match
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.75         0.1
+                                  LUT4	      18.00         0.1
+                                PFUREG	          2         0.0
+---------------------------------------------------
+Report for cell read_training
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/read_training_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      88.83         0.7
+                                  LUT4	     126.00         1.0
+                                PFUREG	         82         0.7
+                                RIPPLE	          9         0.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                      store_rdclksel_0	          1         0.1
+                        store_rdclksel	          1         0.1
+---------------------------------------------------
+Report for cell store_rdclksel_0
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/read_training_0/genblk1.u1[1].store_rdclksel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.50         0.1
+                                  LUT4	       7.00         0.1
+                                PFUREG	         12         0.1
+---------------------------------------------------
+Report for cell store_rdclksel
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/read_training_0/genblk1.u1[0].store_rdclksel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00         0.1
+                                  LUT4	      11.00         0.1
+                                PFUREG	         12         0.1
+---------------------------------------------------
+Report for cell ddr_clks_ddr3_ipcore
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_clocking
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      40.33         0.3
+                                  LUT4	      62.50         0.5
+                                 IOBUF	          1         1.0
+                                PFUREG	         28         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+          pmi_pll_fp0O50E51331pedc31dc	          1         0.0
+                  mem_sync_ddr3_ipcore	          1         0.2
+                ddrdll_upd_ddr3_ipcore	          1         0.1
+---------------------------------------------------
+Report for cell ddrdll_upd_ddr3_ipcore
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_dll_upd
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      14.50         0.1
+                                  LUT4	      20.00         0.2
+                                PFUREG	         13         0.1
+---------------------------------------------------
+Report for cell mem_sync_ddr3_ipcore
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      23.00         0.2
+                                  LUT4	      38.50         0.3
+                                PFUREG	         14         0.1
+---------------------------------------------------
+Report for cell pmi_pll_fp0O50E51331pedc31dc
+   Instance path: df1_lidar_top/u_ddr3/ddr3_ipcore_inst/U1_clocking/pmi_pll
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                  LUT4	       1.00         0.0
+---------------------------------------------------
+Report for cell pll_uniq_1
+   Instance path: df1_lidar_top/u_pll
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.33         0.0
+                                  LUT4	       2.00         0.0
+---------------------------------------------------
+Report for cell reveal_coretop
+   Instance path: df1_lidar_top/df1_lidar_top_reveal_coretop_instance
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     647.25         5.1
+                                  LUT4	     752.00         5.7
+                                PFUREG	        638         5.2
+                                RIPPLE	         65         2.5
+                                   EBR	         20        34.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     df1_lidar_top_la0	          1         5.1
+---------------------------------------------------
+Report for cell df1_lidar_top_la0
+   Instance path: df1_lidar_top/df1_lidar_top_reveal_coretop_instance/df1_lidar_top_la0_inst_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     647.25         5.1
+                                  LUT4	     752.00         5.7
+                                PFUREG	        638         5.2
+                                RIPPLE	         65         2.5
+                                   EBR	         20        34.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                            rvl_tm_Z24	          1         1.7
+ rvl_jtag_int_80s_13s_0s_0s_7s_80s_80s	          1         1.9
+                df1_lidar_top_la0_trig	          1         1.5
+---------------------------------------------------
+Report for cell df1_lidar_top_la0_trig
+   Instance path: df1_lidar_top/df1_lidar_top_reveal_coretop_instance/df1_lidar_top_la0_inst_0/trig_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     194.58         1.5
+                                  LUT4	     214.00         1.6
+                                PFUREG	        148         1.2
+                                RIPPLE	         29         1.1
+                                   EBR	          2         3.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                 rvl_tu_1s_0s_0s_0s_1s	          1         0.1
+                rvl_tu_12s_0s_0s_0s_1s	          1         0.6
+                          rvl_te_Z22_0	          1         0.2
+                          rvl_te_Z22_1	          1         0.4
+                   rvl_tcnt_2s_3s_1_0s	          1         0.1
+                      rvl_decode_2s_2s	          1         0.1
+---------------------------------------------------
+Report for cell rvl_decode_2s_2s
+   Instance path: df1_lidar_top/df1_lidar_top_reveal_coretop_instance/df1_lidar_top_la0_inst_0/trig_u/decode_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.75         0.1
+                                  LUT4	      16.50         0.1
+---------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s
+   Instance path: df1_lidar_top/df1_lidar_top_reveal_coretop_instance/df1_lidar_top_la0_inst_0/trig_u/tu_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      10.50         0.1
+                                  LUT4	      13.00         0.1
+                                PFUREG	          8         0.1
+---------------------------------------------------
+Report for cell rvl_tu_12s_0s_0s_0s_1s
+   Instance path: df1_lidar_top/df1_lidar_top_reveal_coretop_instance/df1_lidar_top_la0_inst_0/trig_u/tu_1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      71.58         0.6
+                                  LUT4	      58.50         0.4
+                                PFUREG	         52         0.4
+                                RIPPLE	         11         0.4
+---------------------------------------------------
+Report for cell rvl_te_Z22_1
+   Instance path: df1_lidar_top/df1_lidar_top_reveal_coretop_instance/df1_lidar_top_la0_inst_0/trig_u/te_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      51.42         0.4
+                                  LUT4	      58.50         0.4
+                                PFUREG	         46         0.4
+                                RIPPLE	          9         0.3
+                                   EBR	          1         1.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+   pmi_ram_dpEbnonesadr124124p130655d1	          1         0.0
+---------------------------------------------------
+Report for cell pmi_ram_dpEbnonesadr124124p130655d1
+   Instance path: df1_lidar_top/df1_lidar_top_reveal_coretop_instance/df1_lidar_top_la0_inst_0/trig_u/te_0/genblk1.te_tt_ebr_ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         1.7
+---------------------------------------------------
+Report for cell rvl_te_Z22_0
+   Instance path: df1_lidar_top/df1_lidar_top_reveal_coretop_instance/df1_lidar_top_la0_inst_0/trig_u/te_1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      29.83         0.2
+                                  LUT4	      33.00         0.2
+                                PFUREG	         29         0.2
+                                RIPPLE	          9         0.3
+                                   EBR	          1         1.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+ pmi_ram_dpEbnonesadr124124p130655d1_0	          1         0.0
+---------------------------------------------------
+Report for cell pmi_ram_dpEbnonesadr124124p130655d1_0
+   Instance path: df1_lidar_top/df1_lidar_top_reveal_coretop_instance/df1_lidar_top_la0_inst_0/trig_u/te_1/genblk1.te_tt_ebr_ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         1.7
+---------------------------------------------------
+Report for cell rvl_tcnt_2s_3s_1_0s
+   Instance path: df1_lidar_top/df1_lidar_top_reveal_coretop_instance/df1_lidar_top_la0_inst_0/trig_u/tcnt_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      15.58         0.1
+                                  LUT4	      21.50         0.2
+                                PFUREG	         13         0.1
+---------------------------------------------------
+Report for cell rvl_jtag_int_80s_13s_0s_0s_7s_80s_80s
+   Instance path: df1_lidar_top/df1_lidar_top_reveal_coretop_instance/df1_lidar_top_la0_inst_0/jtag_int_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     240.17         1.9
+                                  LUT4	     330.00         2.5
+                                PFUREG	        198         1.6
+                                RIPPLE	          8         0.3
+---------------------------------------------------
+Report for cell rvl_tm_Z24
+   Instance path: df1_lidar_top/df1_lidar_top_reveal_coretop_instance/df1_lidar_top_la0_inst_0/tm_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     211.25         1.7
+                                  LUT4	     206.50         1.6
+                                PFUREG	        292         2.4
+                                RIPPLE	         28         1.1
+                                   EBR	         18        31.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_ram_dpEbnonesadr8012409680124096p13a9735a	          1         0.2
+---------------------------------------------------
+Report for cell pmi_ram_dpEbnonesadr8012409680124096p13a9735a
+   Instance path: df1_lidar_top/df1_lidar_top_reveal_coretop_instance/df1_lidar_top_la0_inst_0/tm_u/genblk4.tr_mem
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.00         0.2
+                                  LUT4	      80.00         0.6
+                                PFUREG	          2         0.0
+                                   EBR	         18        31.0
+---------------------------------------------------
+Report for cell sa5phub
+   Instance path: df1_lidar_top/sa5phub
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      40.75         0.3
+                                  LUT4	      22.00         0.2
+                                PFUREG	         48         0.4
+                                RIPPLE	          8         0.3

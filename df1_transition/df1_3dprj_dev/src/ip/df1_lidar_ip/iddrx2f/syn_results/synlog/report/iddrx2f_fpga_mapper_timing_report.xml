@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\syn_results\synlog\iddrx2f_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>iddrx2f|sync_clk</data>
+<data>100.0 MHz</data>
+<data>268.2 MHz</data>
+<data>6.271</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>568.8 MHz</data>
+<data>8.242</data>
+</row>
+</report_table>

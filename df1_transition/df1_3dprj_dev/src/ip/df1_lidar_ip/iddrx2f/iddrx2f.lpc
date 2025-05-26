@@ -1,0 +1,66 @@
+[Device]
+Family=ecp5u
+PartType=LFE5U-45F
+PartName=LFE5U-45F-7BG256I
+SpeedGrade=7
+Package=CABGA256
+OperatingCondition=IND
+Status=S
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=DDR_GENERIC
+CoreRevision=6.0
+ModuleName=iddrx2f
+SourceFormat=verilog
+ParameterFileVersion=1.0
+Date=04/24/2025
+Time=21:00:39
+
+[Parameters]
+Verilog=1
+VHDL=0
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=[MSB:LSB]
+IO=0
+mode=Receive
+trioddr=0
+io_type=LVDS
+width=1
+freq_in=300
+bandwidth=600
+aligned=Edge-to-Edge
+pre-configuration=ENABLED
+mode2=Receive
+trioddr2=0
+io_type2=LVDS
+freq_in2=300
+gear=4:1
+aligned2=Edge-to-Edge
+width2=1
+DataLane=By Time
+EnECLK=0
+Interface=GDDRX2_RX.ECLK.Aligned
+Delay=Static User Defined
+DelVal=65
+EnInEdge=
+NumEdge=BOTH
+EnDynamic=0
+GenPll=0
+Freq=
+AFreq=
+Reference=0
+IOBUF=
+ReceiverSync=0
+EnDynamicAlign=
+DynamicAlign=
+MIPIFilter=0
+enClkIBuf=0
+ClkIBuf=LVDS
+
+[Command]
+cmd_line= -w -n iddrx2f -lang verilog -synth synplify -bus_exp 7 -bb -arch sa5p00 -type iol -mode Receive -io_type LVDS -width 1 -freq_in 300 -gear 4 -aligned -del 65

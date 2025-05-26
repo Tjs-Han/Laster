@@ -1,0 +1,7 @@
+D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\bin64\syn_nfilter.exe  -link  -top  iddrx2f  -multisrs  D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\syn_results\synwork\iddrx2f_comp.srs  -osyn  D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\syn_results\synwork\iddrx2f_mult.srs  -log  D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\syn_results\synlog\iddrx2f_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\TOOL\LatticeDiamond\diamond\3.13\synpbase\bin64\syn_nfilter.exe -link -top iddrx2f -multisrs ..\synwork\iddrx2f_comp.srs -osyn ..\synwork\iddrx2f_mult.srs -log ..\synlog\iddrx2f_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\iddrx2f_comp.srs|io:i|time:1745499645|size:10943|exec:0|csum:8E57B9F1F8D4D533204691AC14C63257
+file:..\synwork\iddrx2f_mult.srs|io:o|time:1745499647|size:6333|exec:0|csum:
+file:..\synlog\iddrx2f_multi_srs_gen.srr|io:o|time:1745499647|size:1064|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\tool\latticediamond\diamond\3.13\synpbase\bin64\syn_nfilter.exe|io:i|time:1691632456|size:10600960|exec:1|csum:6BAEBE966B12EE4A1CCC452B6603E0B1

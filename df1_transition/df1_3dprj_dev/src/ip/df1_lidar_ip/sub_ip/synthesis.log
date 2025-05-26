@@ -1,0 +1,143 @@
+synthesis:  version Diamond (64-bit) 3.13.0.56.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+Thu Sep 19 20:49:20 2024
+
+
+Command Line:  D:\TOOL\LatticeDiamond\diamond\3.13\ispfpga\bin\nt64\synthesis.exe -f sub_ip.synproj -sdc D:/FreeWork/df1_demo/gpx2/src/ip/df1_lidar_ip/sub_ip/sub_ip.ldc -gui 
+
+Synthesis options:
+The -a option is ecp5u.
+The -s option is 6.
+The -t option is CABGA256.
+The -d option is LFE5U-45F.
+Using package CABGA256.
+Using performance grade 6.
+                                                          
+
+##########################################################
+
+### Lattice Family : ECP5U
+
+### Device  : LFE5U-45F
+
+### Package : CABGA256
+
+### Speed   : 6
+
+##########################################################
+
+                                                          
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Balanced
+Top-level module name = sub_ip.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Use IO Insertion = FALSE
+Use IO Reg = FALSE (implied)
+WARNING - synthesis: Cannot pack registers into I/Os because use_io_insertion is FALSE.
+WARNING - synthesis: Ignoring user setting of use_io_reg. Value is set to FALSE.
+Use IO Reg = FALSE
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/FreeWork/df1_demo/gpx2/src/ip/df1_lidar_ip/sub_ip (searchpath added)
+Verilog design file = D:/TOOL/LatticeDiamond/diamond/3.13/cae_library/synthesis/verilog/ecp5u.v
+Verilog design file = D:/TOOL/LatticeDiamond/diamond/3.13/cae_library/synthesis/verilog/pmi_def.v
+Verilog design file = D:/FreeWork/df1_demo/gpx2/src/ip/df1_lidar_ip/sub_ip/sub_ip.v
+NGO file = D:/FreeWork/df1_demo/gpx2/src/ip/df1_lidar_ip/sub_ip/sub_ip.ngo
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+-sdc option: SDC file input is D:/FreeWork/df1_demo/gpx2/src/ip/df1_lidar_ip/sub_ip/sub_ip.ldc.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file D:/TOOL/LatticeDiamond/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file d:/tool/latticediamond/diamond/3.13/cae_library/synthesis/verilog/ecp5u.v. VERI-1482
+Analyzing Verilog file d:/tool/latticediamond/diamond/3.13/cae_library/synthesis/verilog/pmi_def.v. VERI-1482
+Analyzing Verilog file d:/freework/df1_demo/gpx2/src/ip/df1_lidar_ip/sub_ip/sub_ip.v. VERI-1482
+Analyzing Verilog file D:/TOOL/LatticeDiamond/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v. VERI-1482
+Top module name (Verilog): sub_ip
+INFO - synthesis: d:/freework/df1_demo/gpx2/src/ip/df1_lidar_ip/sub_ip/sub_ip.v(8): compiling module sub_ip. VERI-1018
+INFO - synthesis: D:/TOOL/LatticeDiamond/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v(76): compiling module CCU2C(INJECT1_0="NO",INJECT1_1="NO"). VERI-1018
+INFO - synthesis: D:/TOOL/LatticeDiamond/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v(76): compiling module CCU2C(INIT0=16'b1001100110101010,INIT1=16'b1001100110101010,INJECT1_0="NO",INJECT1_1="NO"). VERI-1018
+INFO - synthesis: D:/TOOL/LatticeDiamond/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v(757): compiling module VHI. VERI-1018
+INFO - synthesis: D:/TOOL/LatticeDiamond/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp5u.v(761): compiling module VLO. VERI-1018
+WARNING - synthesis: d:/freework/df1_demo/gpx2/src/ip/df1_lidar_ip/sub_ip/sub_ip.v(39): input port CIN is not connected on this instance. VDB-1013
+Loading NGL library 'D:/TOOL/LatticeDiamond/diamond/3.13/ispfpga/sa5p00/data/sa5plib.ngl'...
+Loading NGL library 'D:/TOOL/LatticeDiamond/diamond/3.13/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'D:/TOOL/LatticeDiamond/diamond/3.13/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'D:/TOOL/LatticeDiamond/diamond/3.13/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'sa5p45.nph' in environment: D:/TOOL/LatticeDiamond/diamond/3.13/ispfpga.
+Package Status:                     Final          Version 1.50.
+WARNING - synthesis: There are no design constraints in the file D:/FreeWork/df1_demo/gpx2/src/ip/df1_lidar_ip/sub_ip/sub_ip.ldc
+Top-level module name = sub_ip.
+WARNING - synthesis: There are no design constraints in the file D:/FreeWork/df1_demo/gpx2/src/ip/df1_lidar_ip/sub_ip/sub_ip.ldc
+This ldc file was generated by Clarity Designer!
+
+######## Missing driver on net n58. Patching with GND.
+
+
+
+######## GSR will not be inferred in an NGO flow, unless force_gsr=yes.
+WARNING - synthesis: There are no design constraints in the file sub_ip_for_lpf.sdc
+Writing LPF file D:/FreeWork/df1_demo/gpx2/src/ip/df1_lidar_ip/sub_ip/sub_ip.lpf.
+Results of NGD DRC are available in sub_ip_drc.log.
+WARNING - synthesis: DRC checking was skipped because the -ngo option was used.
+Writing NGD file D:/FreeWork/df1_demo/gpx2/src/ip/df1_lidar_ip/sub_ip/sub_ip.ngo.
+
+################### Begin Area Report (sub_ip)######################
+Number of register bits => 0 of 44439 (0 % )
+CCU2C => 18
+GSR => 1
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 0
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : precin, loads : 1
+  Net : co0, loads : 1
+  Net : co1, loads : 1
+  Net : co2, loads : 1
+  Net : co3, loads : 1
+  Net : co4, loads : 1
+  Net : co5, loads : 1
+  Net : co6, loads : 1
+  Net : co7, loads : 1
+  Net : co8, loads : 1
+################### End Clock Report ##################
+
+Peak Memory Usage: 84.574  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.313  secs
+--------------------------------------------------------------

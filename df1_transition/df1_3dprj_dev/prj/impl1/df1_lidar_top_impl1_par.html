@@ -1,0 +1,528 @@
+<HTML>
+<HEAD><TITLE>Place & Route Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Par"></A>PAR: Place And Route Diamond (64-bit) 3.13.0.56.2.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&amp;T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+Wed May 21 20:06:01 2025
+
+D:/TOOL/LatticeDiamond/diamond/3.13/ispfpga\bin\nt64\par -f
+df1_lidar_top_impl1.p2t df1_lidar_top_impl1_map.ncd df1_lidar_top_impl1.dir
+df1_lidar_top_impl1.prf -gui -msgset
+D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/promote.xml
+
+
+Preference file: df1_lidar_top_impl1.prf.
+
+<A name="par_cts"></A><B><U><big>Cost Table Summary</big></U></B>
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+<span style="background-color:red">5_1   *      0            -4.764       54544        0.131        0            03:57        Completed</span>
+* : Design saved.
+
+Total (real) run time for 1-seed: 3 mins 58 secs 
+
+par done!
+
+Note: user must run &apos;Trace&apos; for timing closure signoff.
+
+Lattice Place and Route Report for Design &quot;df1_lidar_top_impl1_map.ncd&quot;
+Wed May 21 20:06:01 2025
+
+
+<A name="par_best"></A><B><U><big>Best Par Run</big></U></B>
+PAR: Place And Route Diamond (64-bit) 3.13.0.56.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/promote.xml -exp WARNING_ON_PCLKPLC1=1:parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF:parASE=1:par_low_skew_clock_net=0 df1_lidar_top_impl1_map.ncd df1_lidar_top_impl1.dir/5_1.ncd df1_lidar_top_impl1.prf
+Preference file: df1_lidar_top_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file df1_lidar_top_impl1_map.ncd.
+Design name: df1_lidar_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-45F
+Package:     CABGA256
+Performance: 7
+Loading device for application par from file &apos;sa5p45.nph&apos; in environment: D:/TOOL/LatticeDiamond/diamond/3.13/ispfpga.
+Package Status:                     Final          Version 1.50.
+Performance Hardware Data Status:   Final          Version 55.1.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+
+<A name="par_dus"></A><B><U><big>Device utilization summary:</big></U></B>
+
+   PIO (prelim)     109/245          44% used
+                    109/197          55% bonded
+   IOLOGIC           74/245          30% used
+
+   SLICE          12618/21924        57% used
+
+   GSR                1/1           100% used
+   DQS                2/10           20% used
+   CLKDIV             3/4            75% used
+   JTAG               1/1           100% used
+   EBR               58/108          53% used
+   PLL                3/4            75% used
+   DDRDLL             3/4            75% used
+   DLLDEL             2/12           16% used
+   ECLKSYNC           3/10           30% used
+   MULT18             7/72            9% used
+   ALU54              2/36            5% used
+   CCLK               1/1           100% used
+
+
+9 potential circuit loops found in timing analysis.
+Based on the preference: FREQUENCY PORT &quot;i_tdc2_lvds_serclk&quot; 300.000000 MHz ;
+A new generated preference: FREQUENCY NET &quot;w_iddr_sclk2&quot; 150.000000 MHz ;
+Based on the preference: FREQUENCY PORT &quot;i_tdc1_lvds_serclk&quot; 300.000000 MHz ;
+A new generated preference: FREQUENCY NET &quot;w_iddr_sclk1&quot; 150.000000 MHz ;
+Based on the preference: FREQUENCY PORT &quot;i_ddrclk_100m&quot; 100.000000 MHz ;
+A new generated preference: FREQUENCY NET &quot;w_sclk&quot; 50.000000 MHz ;
+Number of Signals: 32933
+Number of Connections: 86194
+
+Pin Constraint Summary:
+   99 out of 101 pins locked (98% locked).
+
+
+..
+WARNING - par: Missing VCCIO pin for DQS group &apos;u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[1].bidi_dqs/inst_dqsbuf&apos;..etc
+WARNING - par: Missing VCCIO pin for DQS group &apos;u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf&apos;..etc
+INFO: CLKI &apos;i_ddrclk_100m&apos; at J1 driving &apos;u_ddr3/ddr3_ipcore_inst/U1_clocking/pmi_pll/PLLInst_0&apos; must use PCLK.
+The following 17 signals are selected to use the primary clock routing resources:
+    u_eth_top/u_eth_pll/CLKOP (driver: u_eth_top/u_eth_pll/PLLInst_0, clk/ce/sr load #: 1/0/0)
+    u_ddr3/ddr3_ipcore_inst/U1_clocking/clkop (driver: u_ddr3/ddr3_ipcore_inst/U1_clocking/pmi_pll/PLLInst_0, clk/ce/sr load #: 1/0/0)
+    w_pll_50m (driver: u_pll/PLLInst_0, clk/ce/sr load #: 879/0/0)
+    jtaghub16_jtck (driver: sa5phub/genblk8.jtagg_u, clk/ce/sr load #: 230/0/0)
+    w_pll_100m (driver: u_pll/PLLInst_0, clk/ce/sr load #: 3930/0/0)
+    w_sclk (driver: u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_CLKDIVF, clk/ce/sr load #: 1677/0/0)
+    w_iddr_sclk2 (driver: u2_iddr_tdc2/Inst6_CLKDIVF, clk/ce/sr load #: 120/0/0)
+    w_iddr_sclk1 (driver: u1_iddr_tdc1/Inst6_CLKDIVF, clk/ce/sr load #: 120/0/0)
+    u_eth_top.w_ethphy_refclk_90 (driver: u_eth_top/u_eth_pll/PLLInst_0, clk/ce/sr load #: 41/0/0)
+    u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos (driver: u_ddr3/ddr3_ipcore_inst/U1_clocking/pmi_pll/PLLInst_0, clk/ce/sr load #: 12/0/0)
+    w_pll_150m (driver: u_pll/PLLInst_0, clk/ce/sr load #: 58/0/0)
+    i_ethphy_refclk_c (driver: i_ethphy_refclk, clk/ce/sr load #: 21/0/0)
+    i_clk_50m_c (driver: i_clk_50m, clk/ce/sr load #: 16/0/0)
+    r_ddrrst_n (driver: SLICE_3141, clk/ce/sr load #: 0/4/1822)
+    r2_150mrst_sync (driver: SLICE_11254, clk/ce/sr load #: 0/0/439)
+    jtaghub16_jrstn (driver: sa5phub/genblk8.jtagg_u, clk/ce/sr load #: 0/0/209)
+    u_ddr3/ddr3_ipcore_inst/U1_clocking/clk_in_c (driver: i_ddrclk_100m, clk/ce/sr load #: 1/0/0)
+
+
+Signal w_rst_n_i is selected as Global Set/Reset.
+.
+Starting Placer Phase 0.
+............
+Finished Placer Phase 0.  REAL time: 17 secs 
+
+
+Starting Placer Phase 1.
+........................................
+Placer score = 7261618.
+Finished Placer Phase 1.  REAL time: 1 mins 6 secs 
+
+Starting Placer Phase 2.
+..
+Placer score =  6796618
+Finished Placer Phase 2.  REAL time: 1 mins 19 secs 
+
+
+
+<A name="par_clk"></A><B><U><big>Clock Report</big></U></B>
+
+Global Clock Resources:
+  CLK_PIN    : 3 out of 12 (25%)
+  GR_PCLK    : 0 out of 12 (0%)
+  PLL        : 3 out of 4 (75%)
+  DCS        : 0 out of 2 (0%)
+  DCC        : 0 out of 60 (0%)
+  CLKDIV     : 3 out of 4 (75%)
+
+Quadrant TL Clocks:
+  PRIMARY &quot;u_eth_top/u_eth_pll/CLKOP&quot; from CLKOP on comp &quot;u_eth_top/u_eth_pll/PLLInst_0&quot; on PLL site &quot;PLL_TL0&quot;, CLK/CE/SR load = 1
+  PRIMARY &quot;w_pll_50m&quot; from CLKOP on comp &quot;u_pll/PLLInst_0&quot; on PLL site &quot;PLL_TR0&quot;, CLK/CE/SR load = 19
+  PRIMARY &quot;w_pll_100m&quot; from CLKOS on comp &quot;u_pll/PLLInst_0&quot; on PLL site &quot;PLL_TR0&quot;, CLK/CE/SR load = 933
+  PRIMARY &quot;w_sclk&quot; from comp &quot;u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_CLKDIVF&quot; on CLKDIV site &quot;CLKDIV_L1&quot;, CLK/CE/SR load = 244
+  PRIMARY &quot;u_eth_top.w_ethphy_refclk_90&quot; from CLKOS on comp &quot;u_eth_top/u_eth_pll/PLLInst_0&quot; on PLL site &quot;PLL_TL0&quot;, CLK/CE/SR load = 3
+  PRIMARY &quot;w_pll_150m&quot; from CLKOS2 on comp &quot;u_pll/PLLInst_0&quot; on PLL site &quot;PLL_TR0&quot;, CLK/CE/SR load = 27
+  PRIMARY &quot;i_ethphy_refclk_c&quot; from comp &quot;i_ethphy_refclk&quot; on CLK_PIN site &quot;C7 (PT36A)&quot;, CLK/CE/SR load = 4
+  PRIMARY &quot;r_ddrrst_n&quot; from Q0 on comp &quot;SLICE_3141&quot; on site &quot;R56C38D&quot;, CLK/CE/SR load = 366
+  PRIMARY &quot;r2_150mrst_sync&quot; from Q0 on comp &quot;SLICE_11254&quot; on site &quot;R33C54A&quot;, CLK/CE/SR load = 39
+
+  PRIMARY  : 9 out of 16 (56%)
+
+Quadrant TR Clocks:
+  PRIMARY &quot;w_pll_50m&quot; from CLKOP on comp &quot;u_pll/PLLInst_0&quot; on PLL site &quot;PLL_TR0&quot;, CLK/CE/SR load = 147
+  PRIMARY &quot;jtaghub16_jtck&quot; from JTCK on comp &quot;sa5phub/genblk8.jtagg_u&quot; on site &quot;JTAG&quot;, CLK/CE/SR load = 4
+  PRIMARY &quot;w_pll_100m&quot; from CLKOS on comp &quot;u_pll/PLLInst_0&quot; on PLL site &quot;PLL_TR0&quot;, CLK/CE/SR load = 1359
+  PRIMARY &quot;w_iddr_sclk2&quot; from comp &quot;u2_iddr_tdc2/Inst6_CLKDIVF&quot; on CLKDIV site &quot;CLKDIV_R0&quot;, CLK/CE/SR load = 1
+  PRIMARY &quot;w_iddr_sclk1&quot; from comp &quot;u1_iddr_tdc1/Inst6_CLKDIVF&quot; on CLKDIV site &quot;CLKDIV_R1&quot;, CLK/CE/SR load = 1
+  PRIMARY &quot;w_pll_150m&quot; from CLKOS2 on comp &quot;u_pll/PLLInst_0&quot; on PLL site &quot;PLL_TR0&quot;, CLK/CE/SR load = 2
+  PRIMARY &quot;i_clk_50m_c&quot; from comp &quot;i_clk_50m&quot; on CLK_PIN site &quot;A7 (PT38A)&quot;, CLK/CE/SR load = 1
+  PRIMARY &quot;r_ddrrst_n&quot; from Q0 on comp &quot;SLICE_3141&quot; on site &quot;R56C38D&quot;, CLK/CE/SR load = 4
+  PRIMARY &quot;r2_150mrst_sync&quot; from Q0 on comp &quot;SLICE_11254&quot; on site &quot;R33C54A&quot;, CLK/CE/SR load = 101
+
+  PRIMARY  : 9 out of 16 (56%)
+
+Quadrant BL Clocks:
+  PRIMARY &quot;u_ddr3/ddr3_ipcore_inst/U1_clocking/clkop&quot; from CLKOP on comp &quot;u_ddr3/ddr3_ipcore_inst/U1_clocking/pmi_pll/PLLInst_0&quot; on PLL site &quot;PLL_BL0&quot;, CLK/CE/SR load = 1
+  PRIMARY &quot;w_pll_50m&quot; from CLKOP on comp &quot;u_pll/PLLInst_0&quot; on PLL site &quot;PLL_TR0&quot;, CLK/CE/SR load = 115
+  PRIMARY &quot;jtaghub16_jtck&quot; from JTCK on comp &quot;sa5phub/genblk8.jtagg_u&quot; on site &quot;JTAG&quot;, CLK/CE/SR load = 7
+  PRIMARY &quot;w_pll_100m&quot; from CLKOS on comp &quot;u_pll/PLLInst_0&quot; on PLL site &quot;PLL_TR0&quot;, CLK/CE/SR load = 763
+  PRIMARY &quot;w_sclk&quot; from comp &quot;u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_CLKDIVF&quot; on CLKDIV site &quot;CLKDIV_L1&quot;, CLK/CE/SR load = 1433
+  PRIMARY &quot;w_iddr_sclk2&quot; from comp &quot;u2_iddr_tdc2/Inst6_CLKDIVF&quot; on CLKDIV site &quot;CLKDIV_R0&quot;, CLK/CE/SR load = 14
+  PRIMARY &quot;w_iddr_sclk1&quot; from comp &quot;u1_iddr_tdc1/Inst6_CLKDIVF&quot; on CLKDIV site &quot;CLKDIV_R1&quot;, CLK/CE/SR load = 105
+  PRIMARY &quot;u_eth_top.w_ethphy_refclk_90&quot; from CLKOS on comp &quot;u_eth_top/u_eth_pll/PLLInst_0&quot; on PLL site &quot;PLL_TL0&quot;, CLK/CE/SR load = 38
+  PRIMARY &quot;u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos&quot; from CLKOS on comp &quot;u_ddr3/ddr3_ipcore_inst/U1_clocking/pmi_pll/PLLInst_0&quot; on PLL site &quot;PLL_BL0&quot;, CLK/CE/SR load = 12
+  PRIMARY &quot;w_pll_150m&quot; from CLKOS2 on comp &quot;u_pll/PLLInst_0&quot; on PLL site &quot;PLL_TR0&quot;, CLK/CE/SR load = 28
+  PRIMARY &quot;i_ethphy_refclk_c&quot; from comp &quot;i_ethphy_refclk&quot; on CLK_PIN site &quot;C7 (PT36A)&quot;, CLK/CE/SR load = 17
+  PRIMARY &quot;i_clk_50m_c&quot; from comp &quot;i_clk_50m&quot; on CLK_PIN site &quot;A7 (PT38A)&quot;, CLK/CE/SR load = 15
+  PRIMARY &quot;r_ddrrst_n&quot; from Q0 on comp &quot;SLICE_3141&quot; on site &quot;R56C38D&quot;, CLK/CE/SR load = 1456
+  PRIMARY &quot;r2_150mrst_sync&quot; from Q0 on comp &quot;SLICE_11254&quot; on site &quot;R33C54A&quot;, CLK/CE/SR load = 63
+  PRIMARY &quot;jtaghub16_jrstn&quot; from JRSTN on comp &quot;sa5phub/genblk8.jtagg_u&quot; on site &quot;JTAG&quot;, CLK/CE/SR load = 7
+  PRIMARY &quot;u_ddr3/ddr3_ipcore_inst/U1_clocking/clk_in_c&quot; from comp &quot;i_ddrclk_100m&quot; on CLK_PIN site &quot;J1 (PL32A)&quot;, CLK/CE/SR load = 1
+
+  PRIMARY  : 16 out of 16 (100%)
+
+Quadrant BR Clocks:
+  PRIMARY &quot;w_pll_50m&quot; from CLKOP on comp &quot;u_pll/PLLInst_0&quot; on PLL site &quot;PLL_TR0&quot;, CLK/CE/SR load = 598
+  PRIMARY &quot;jtaghub16_jtck&quot; from JTCK on comp &quot;sa5phub/genblk8.jtagg_u&quot; on site &quot;JTAG&quot;, CLK/CE/SR load = 219
+  PRIMARY &quot;w_pll_100m&quot; from CLKOS on comp &quot;u_pll/PLLInst_0&quot; on PLL site &quot;PLL_TR0&quot;, CLK/CE/SR load = 875
+  PRIMARY &quot;w_iddr_sclk2&quot; from comp &quot;u2_iddr_tdc2/Inst6_CLKDIVF&quot; on CLKDIV site &quot;CLKDIV_R0&quot;, CLK/CE/SR load = 105
+  PRIMARY &quot;w_iddr_sclk1&quot; from comp &quot;u1_iddr_tdc1/Inst6_CLKDIVF&quot; on CLKDIV site &quot;CLKDIV_R1&quot;, CLK/CE/SR load = 14
+  PRIMARY &quot;w_pll_150m&quot; from CLKOS2 on comp &quot;u_pll/PLLInst_0&quot; on PLL site &quot;PLL_TR0&quot;, CLK/CE/SR load = 1
+  PRIMARY &quot;r2_150mrst_sync&quot; from Q0 on comp &quot;SLICE_11254&quot; on site &quot;R33C54A&quot;, CLK/CE/SR load = 236
+  PRIMARY &quot;jtaghub16_jrstn&quot; from JRSTN on comp &quot;sa5phub/genblk8.jtagg_u&quot; on site &quot;JTAG&quot;, CLK/CE/SR load = 202
+
+  PRIMARY  : 8 out of 16 (50%)
+
+Edge Clocks:
+
+  ECLK &quot;u2_iddr_tdc2/eclko&quot;: BANK2_ECLK0
+    - From CLK_PIN &quot;J16&quot;, driver &quot;i_tdc2_lvds_serclk&quot;.
+  ECLK &quot;u1_iddr_tdc1/eclko&quot;: BANK2_ECLK1
+    - From CLK_PIN &quot;K16&quot;, driver &quot;i_tdc1_lvds_serclk&quot;.
+  ECLK &quot;u1_iddr_tdc1/eclko&quot;: BANK3_ECLK1
+    - From CLK_PIN &quot;K16&quot;, driver &quot;i_tdc1_lvds_serclk&quot;.
+  ECLK &quot;u_ddr3/ddr3_ipcore_inst/eclk&quot;: BANK6_ECLK1
+    - From GPLL_CLKOP &quot;PLL_BL0&quot;.CLKOP, driver &quot;u_ddr3/ddr3_ipcore_inst/U1_clocking/pmi_pll/PLLInst_0&quot;.
+  ECLK &quot;u_ddr3/ddr3_ipcore_inst/eclk&quot;: BANK7_ECLK1
+    - From GPLL_CLKOP &quot;PLL_BL0&quot;.CLKOP, driver &quot;u_ddr3/ddr3_ipcore_inst/U1_clocking/pmi_pll/PLLInst_0&quot;.
+
+
+
+
++
+
+#####################################
+# :::&apos;###:::::&apos;######:::::&apos;###:::::::
+# ::&apos;## ##:::&apos;##... ##:::&apos;## ##::::::
+#  &apos;##:. ##:: ##:::..:::&apos;##:. ##:::::
+#  ##:::. ##: ##:::::::&apos;##:::. ##::::
+#  #########: ##::::::: #########::::
+#  ##.... ##: ##::: ##: ##.... ##::::
+#  ##:::: ##:. ######:: ##:::: ##::::
+#..:::::..:::......:::..:::::..::::::
+#####################################
+#
+USE PRIMARY NET &quot;u_eth_top/u_eth_pll/CLKOP&quot; QUADRANT_TL ;
+USE PRIMARY NET &quot;u_ddr3/ddr3_ipcore_inst/U1_clocking/clkop&quot; QUADRANT_BL ;
+USE PRIMARY NET &quot;w_pll_50m&quot; ;
+USE PRIMARY NET &quot;jtaghub16_jtck&quot; ;
+USE PRIMARY NET &quot;w_pll_100m&quot; ;
+USE PRIMARY NET &quot;w_sclk&quot; QUADRANT_TL QUADRANT_BL ;
+USE PRIMARY NET &quot;w_iddr_sclk2&quot; ;
+USE PRIMARY NET &quot;w_iddr_sclk1&quot; ;
+USE PRIMARY NET &quot;u_eth_top.w_ethphy_refclk_90&quot; QUADRANT_TL QUADRANT_BL ;
+USE PRIMARY NET &quot;u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos&quot; QUADRANT_BL ;
+USE PRIMARY NET &quot;w_pll_150m&quot; ;
+USE PRIMARY NET &quot;i_ethphy_refclk_c&quot; QUADRANT_TL QUADRANT_BL ;
+USE PRIMARY NET &quot;i_clk_50m_c&quot; ;
+USE PRIMARY NET &quot;r_ddrrst_n&quot; ;
+USE PRIMARY NET &quot;r2_150mrst_sync&quot; ;
+USE PRIMARY NET &quot;jtaghub16_jrstn&quot; QUADRANT_BL QUADRANT_BR ;
+USE PRIMARY NET &quot;u_ddr3/ddr3_ipcore_inst/U1_clocking/clk_in_c&quot; QUADRANT_BL ;
+############################################ 
+
+
+DQSDLL Usage Summary:
+   Number of DQSDLL used: 3.
+   DQSDLL used: Both Top &amp; Bottom.
+
+I/O Usage Summary (final):
+   110 out of 245 (44.9%) PIO sites used.
+   110 out of 197 (55.8%) bonded PIO sites used.
+   Number of PIO comps: 101; differential: 8.
+   Number of Vref pins used: 1.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+--------------+------------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref1   | Bank Vref2 |
++----------+----------------+------------+--------------+------------+
+| 0        | 11 / 24 ( 45%) | 3.3V       | -            | -          |
+| 1        | 18 / 32 ( 56%) | 3.3V       | -            | -          |
+| 2        | 8 / 32 ( 25%)  | 1.2V       | -            | -          |
+| 3        | 16 / 32 ( 50%) | 3.3V       | -            | -          |
+| 6        | 25 / 32 ( 78%) | 1.35V      | 0.675V@VREF1 | -          |
+| 7        | 26 / 32 ( 81%) | 1.35V      | -            | -          |
+| 8        | 6 / 13 ( 46%)  | 2.5V       | -            | -          |
++----------+----------------+------------+--------------+------------+
+
+---------------------------------- DSP Report ----------------------------------
+
+DSP Slice #:           1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18
+# of MULT9                                                                 
+# of MULT18                        2                    1                  
+# of ALU24                                                                 
+# of ALU54                         1                                       
+# of PRADD9                                                                
+# of PRADD18                                                               
+
+DSP Slice #:          19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36
+# of MULT9                                                                 
+# of MULT18                              2                 2               
+# of ALU24                                                                 
+# of ALU54                               1                                 
+# of PRADD9                                                                
+# of PRADD18                                                               
+
+DSP Slice  5         Component_Type       Physical_Type                                        Instance_Name                                      
+ MULT18_R22C22         MULT18X18D             MULT18          u_rotate_control/u4_encoder_control/u3_code_angle/u1_multiplier_10x32/dsp_mult_1    
+ MULT18_R22C23         MULT18X18D             MULT18          u_rotate_control/u4_encoder_control/u3_code_angle/u1_multiplier_10x32/dsp_mult_0    
+  ALU54_R22C25           ALU54B               ALU54           u_rotate_control/u4_encoder_control/u3_code_angle/u1_multiplier_10x32/dsp_alu_0     
+
+DSP Slice 12         Component_Type       Physical_Type                                        Instance_Name                                      
+ MULT18_R22C55         MULT18X18D             MULT18                    u_motor_control/u1_motor_drive/u_multiplier_16x8/dsp_mult_0               
+
+DSP Slice 25         Component_Type       Physical_Type                                        Instance_Name                                      
+ MULT18_R46C31         MULT18X18D             MULT18          u_rotate_control/u3_encoder_control/u3_code_angle/u1_multiplier_10x32/dsp_mult_1    
+ MULT18_R46C32         MULT18X18D             MULT18          u_rotate_control/u3_encoder_control/u3_code_angle/u1_multiplier_10x32/dsp_mult_0    
+  ALU54_R46C34           ALU54B               ALU54           u_rotate_control/u3_encoder_control/u3_code_angle/u1_multiplier_10x32/dsp_alu_0     
+
+DSP Slice 31         Component_Type       Physical_Type                                        Instance_Name                                      
+ MULT18_R46C60         MULT18X18D             MULT18                                  u_HV_control/u3/U1/U1/dsp_mult_0                            
+ MULT18_R46C61         MULT18X18D             MULT18                    u_motor_control/u2_motor_drive/u_multiplier_16x8/dsp_mult_0               
+
+------------------------------ End of DSP Report -------------------------------
+Total placer CPU time: 1 mins 18 secs 
+
+Dumping design to file df1_lidar_top_impl1.dir/5_1.ncd.
+
+9 potential circuit loops found in timing analysis.
+0 connections routed; 86194 unrouted.
+Starting router resource preassignment
+DSP info: Total 2 dsp pins have been swapped.
+
+Completed router resource preassignment. Real time: 1 mins 32 secs 
+
+Start NBR router at 20:07:35 05/21/25
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+9 potential circuit loops found in timing analysis.
+Start NBR special constraint process at 20:07:38 05/21/25
+
+Start NBR section for initial routing at 20:07:42 05/21/25
+Level 1, iteration 1
+176(0.01%) conflicts; 64534(74.87%) untouched conns; 1686595 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.497ns/-1686.595ns; real time: 1 mins 46 secs 
+Level 2, iteration 1
+51(0.00%) conflicts; 63859(74.09%) untouched conns; 1708419 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.497ns/-1708.419ns; real time: 1 mins 49 secs 
+Level 3, iteration 1
+765(0.04%) conflicts; 51569(59.83%) untouched conns; 802463 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -3.258ns/-802.464ns; real time: 2 mins 9 secs 
+Level 4, iteration 1
+3851(0.18%) conflicts; 0(0.00%) untouched conn; 1124632 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.926ns/-1124.633ns; real time: 2 mins 47 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 11 (0.18%)
+
+Start NBR section for normal routing at 20:08:49 05/21/25
+Level 1, iteration 1
+158(0.01%) conflicts; 5339(6.19%) untouched conns; 1075771 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.791ns/-1075.771ns; real time: 2 mins 55 secs 
+Level 4, iteration 1
+2491(0.12%) conflicts; 0(0.00%) untouched conn; 1079276 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.791ns/-1079.276ns; real time: 3 mins 1 secs 
+Level 4, iteration 2
+1308(0.06%) conflicts; 0(0.00%) untouched conn; 1053406 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.764ns/-1053.406ns; real time: 3 mins 4 secs 
+Level 4, iteration 3
+770(0.04%) conflicts; 0(0.00%) untouched conn; 1061824 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.764ns/-1061.825ns; real time: 3 mins 11 secs 
+Level 4, iteration 4
+378(0.02%) conflicts; 0(0.00%) untouched conn; 1061824 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.764ns/-1061.825ns; real time: 3 mins 12 secs 
+Level 4, iteration 5
+199(0.01%) conflicts; 0(0.00%) untouched conn; 1067111 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.764ns/-1067.112ns; real time: 3 mins 14 secs 
+Level 4, iteration 6
+101(0.00%) conflicts; 0(0.00%) untouched conn; 1067111 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.764ns/-1067.112ns; real time: 3 mins 14 secs 
+Level 4, iteration 7
+53(0.00%) conflicts; 0(0.00%) untouched conn; 1065921 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.764ns/-1065.921ns; real time: 3 mins 16 secs 
+Level 4, iteration 8
+31(0.00%) conflicts; 0(0.00%) untouched conn; 1065921 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.764ns/-1065.921ns; real time: 3 mins 17 secs 
+Level 4, iteration 9
+12(0.00%) conflicts; 0(0.00%) untouched conn; 1065335 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.764ns/-1065.335ns; real time: 3 mins 18 secs 
+Level 4, iteration 10
+18(0.00%) conflicts; 0(0.00%) untouched conn; 1065335 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.764ns/-1065.335ns; real time: 3 mins 18 secs 
+Level 4, iteration 11
+7(0.00%) conflicts; 0(0.00%) untouched conn; 1065303 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.764ns/-1065.303ns; real time: 3 mins 20 secs 
+Level 4, iteration 12
+4(0.00%) conflicts; 0(0.00%) untouched conn; 1065303 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.764ns/-1065.303ns; real time: 3 mins 21 secs 
+Level 4, iteration 13
+0(0.00%) conflict; 0(0.00%) untouched conn; 1070723 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.764ns/-1070.723ns; real time: 3 mins 22 secs 
+
+Start NBR section for performance tuning (iteration 1) at 20:09:23 05/21/25
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 1070723 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.764ns/-1070.723ns; real time: 3 mins 29 secs 
+
+Start NBR section for re-routing at 20:09:30 05/21/25
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 1070723 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: -4.764ns/-1070.723ns; real time: 3 mins 29 secs 
+
+Start NBR section for post-routing at 20:09:30 05/21/25
+9 potential circuit loops found in timing analysis.
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 534 (0.62%)
+  Estimated worst slack&lt;setup&gt; : -4.764ns
+  Timing score&lt;setup&gt; : 54544
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+9 potential circuit loops found in timing analysis.
+9 potential circuit loops found in timing analysis.
+9 potential circuit loops found in timing analysis.
+Total CPU time 3 mins 46 secs 
+Total REAL time: 3 mins 53 secs 
+Completely routed.
+End of route.  86194 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 54544 
+
+Dumping design to file df1_lidar_top_impl1.dir/5_1.ncd.
+
+
+All signals are completely routed.
+
+
+PAR_SUMMARY::Run status = Completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack&lt;setup/&lt;ns&gt;&gt; = -4.764
+PAR_SUMMARY::Timing score&lt;setup/&lt;ns&gt;&gt; = 54.544
+PAR_SUMMARY::Worst  slack&lt;hold /&lt;ns&gt;&gt; = 0.131
+PAR_SUMMARY::Timing score&lt;hold /&lt;ns&gt;&gt; = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 3 mins 51 secs 
+Total REAL time to completion: 3 mins 58 secs 
+
+par done!
+
+Note: user must run &apos;Trace&apos; for timing closure signoff.
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&amp;T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

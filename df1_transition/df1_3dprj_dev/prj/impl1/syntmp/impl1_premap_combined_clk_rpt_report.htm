@@ -1,0 +1,39 @@
+<html><body><samp><pre>
+<!@TC:0>
+
+
+@S |Clock Optimization Summary
+
+
+
+<a name=clockReport34></a>#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[</a>
+
+3 non-gated/non-generated clock tree(s) driving 179 clock pin(s) of sequential element(s)
+4 gated/generated clock tree(s) driving 9094 clock pin(s) of sequential element(s)
+0 instances converted, 9094 sequential instances remain driven by gated/generated clocks
+
+============================================ Non-Gated/Non-Generated Clocks ============================================
+Clock Tree ID     Driving Element         Drive Element Type     Fanout     Sample Instance                             
+------------------------------------------------------------------------------------------------------------------------
+ckid0_3       i_gpx2_lvds_lclkout     port                   123        u_gpx2_control_wrapper.r_result_cnt3[4]     
+ckid0_5       i_ethphy_refclk         Unconstrained_port     35         u_eth_top.u_rmii_top.u_rmii_rx.r_ethphy_rxdv
+ckid0_9       i_clk_50m               port                   21         r_rst_n                                     
+========================================================================================================================
+======================================================================================================================== Gated/Generated Clocks ========================================================================================================================
+Clock Tree ID     Driving Element                              Drive Element Type       Unconverted Fanout     Sample Instance                                                         Explanation                                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ckid0_1       u_pll.PLLInst_0.CLKOS                        EHXPLLL                  6973                   u_rotate_control.u2_encoder_control.u7.FF_63                            Synplify Pro Clock optimization on technology cells not supported in this product
+ckid0_2       u_pll.PLLInst_0.CLKOP                        EHXPLLL                  1522                   u_HV_control.u3.U1.U1.FF_63                                             Synplify Pro Clock optimization on technology cells not supported in this product
+ckid0_4       u_eth_top.u_eth_pll.PLLInst_0.CLKOS          EHXPLLL                  72                     u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.pdp_ram_0_0_0     Synplify Pro Clock optimization on technology cells not supported in this product
+ckid0_7       u_ddr3.ddr3_ipcore_inst.U1_clocking.sclk     ddr_clks_ddr3_ipcore     527                    u1_ddr3_init_ctrl.r_rst_srvcd                                           Derived clock on input (not legal for GCC)                                       
+========================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+
+Summary of user generated gated clocks:
+0 user generated gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+
+
+</pre></samp></body></html>

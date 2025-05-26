@@ -1,0 +1,80 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "14:41:35    12-May-2025",
+	"Working Directory" : "D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/divider_24bit/syn_results",
+	"Install" : "D:/TOOL/LatticeDiamond/diamond/3.13/synpbase"
+},
+"syn_results" :{
+   "Start Time" : "14:41:04",
+   "Runtime" : "31s",
+   "Executable Run Time" : "30s",
+   "synthesis" : {
+      "Start Time" : "14:41:04",
+      "Runtime" : "31s",
+      "Executable Run Time" : "30s",
+      "compile" : {
+         "Start Time" : "14:41:04",
+         "Runtime" : "23s",
+         "Executable Run Time" : "22s",
+         "compile_flow" : {
+            "Start Time" : "14:41:04",
+            "Runtime" : "18s",
+            "Executable Run Time" : "17s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/divider_24bit/syn_results",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "14:41:04",
+               "Run Time" : "16s",
+               "Exe Run Time" : "15s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/divider_24bit/syn_results",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "14:41:20",
+               "Run Time" : "02s",
+               "Exe Run Time" : "02s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/divider_24bit/syn_results",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "14:41:22",
+            "Run Time" : "05s",
+            "Exe Run Time" : "05s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Start Time" : "14:41:27",
+         "Runtime" : "08s",
+         "Executable Run Time" : "08s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/divider_24bit/syn_results",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "14:41:27",
+            "Run Time" : "08s",
+            "Exe Run Time" : "08s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

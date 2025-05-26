@@ -1,0 +1,35 @@
+#Start recording tcl command: 4/15/2025 11:49:19
+#Project Location: D:/FreeWork/df1_second_round/df1_lidar_top/prj; Project name: df1_lidar_top
+prj_project open "D:/FreeWork/df1_second_round/df1_lidar_top/prj/df1_lidar_top.ldf"
+prj_src remove "D:/FreeWork/df1_second_round/df1_lidar_top/prj/debug/3d_prj/debug.rvl" "D:/FreeWork/df1_second_round/df1_lidar_top/prj/debug/3d_prj/untitled.rva"
+rvl_project new
+rvl_trace add_sig  {{u_eth_top/u_udpcom_control/u_parameter_init/i_get_cmd_id[15:0]}}
+rvl_trace add_sig  {{u_eth_top/u_udpcom_control/u_parameter_init/i_udprecv_desport[15:0]}}
+rvl_trace add_sig  {u_eth_top/u_udpcom_control/u_parameter_init/o_userlink_state}
+rvl_trace add_sig  {{u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state[11:0]}}
+rvl_trace add_sig  {{u_eth_top/u_udpcom_control/u_datagram_parser/r_udp_txram_wrdata[7:0]}}
+rvl_trace add_sig  {{u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state[7:0]}}
+rvl_trace add_sig  {{u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txdata[7:0]}}
+rvl_trace trc_option SampleClk=w_pll_100m
+rvl_trace trc_option BufferDepth=2048
+rvl_trace add_sig -insert_at u_eth_top/u_udpcom_control/u_parameter_init/i_udprecv_desport {u_eth_top/u_udpcom_control/w_broadcast_en}
+rvl_tu set -name TU1 -add_sig {u_eth_top/u_udpcom_control/w_broadcast_en }
+rvl_tu add -radix Bin 
+rvl_tu add -radix Bin 
+rvl_te add
+rvl_te add
+rvl_tu set -name TU2 -add_sig {u_eth_top/u_udpcom_control/u_datagram_parser/r_parse_start }
+rvl_tu set -name TU3 -add_sig {{u_eth_top/u_udpcom_control/u_datagram_parser/r_rx_state[7:0]} }
+rvl_te set -expression TU1 TE1
+rvl_te set -expression TU2 TE2
+rvl_te set -expression TU3 TE3
+rvl_te set -ram EBR TE2
+rvl_te set -ram EBR TE3
+rvl_te set -max_seq_depth 1 TE2
+rvl_te set -max_seq_depth 1 TE3
+rvl_project save -overwrite D:/FreeWork/df1_second_round/df1_lidar_top/prj/debug/3d_prj/debug.rvl
+prj_src add "D:/FreeWork/df1_second_round/df1_lidar_top/prj/debug/3d_prj/debug.rvl"
+rvl_project close -force
+rvl_project open D:/FreeWork/df1_second_round/df1_lidar_top/prj/debug/3d_prj/debug.rvl
+rvl_project close -force
+#Stop recording: 4/15/2025 12:01:35

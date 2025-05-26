@@ -1,0 +1,80 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "20:05:14    21-May-2025",
+	"Working Directory" : "D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/impl1",
+	"Install" : "D:/TOOL/LatticeDiamond/diamond/3.13/synpbase"
+},
+"impl1" :{
+   "Start Time" : "20:02:06",
+   "Runtime" : "03m:08s",
+   "Executable Run Time" : "03m:06s",
+   "synthesis" : {
+      "Start Time" : "20:02:06",
+      "Runtime" : "03m:08s",
+      "Executable Run Time" : "03m:06s",
+      "compile" : {
+         "Start Time" : "20:02:06",
+         "Runtime" : "01m:21s",
+         "Executable Run Time" : "01m:20s",
+         "compile_flow" : {
+            "Start Time" : "20:02:06",
+            "Runtime" : "01m:12s",
+            "Executable Run Time" : "01m:11s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/impl1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "20:02:06",
+               "Run Time" : "01m:10s",
+               "Exe Run Time" : "01m:09s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/impl1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "20:03:16",
+               "Run Time" : "02s",
+               "Exe Run Time" : "02s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/impl1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "20:03:18",
+            "Run Time" : "09s",
+            "Exe Run Time" : "09s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Start Time" : "20:03:28",
+         "Runtime" : "01m:46s",
+         "Executable Run Time" : "01m:46s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/impl1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "20:03:28",
+            "Run Time" : "01m:46s",
+            "Exe Run Time" : "01m:46s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

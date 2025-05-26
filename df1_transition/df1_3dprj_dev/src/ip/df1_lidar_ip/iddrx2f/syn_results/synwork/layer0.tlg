@@ -1,0 +1,66 @@
+Selecting top level module iddrx2f
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\cae_library\synthesis\verilog\ecp5u.v":278:7:278:8|Synthesizing module IB in library work.
+Running optimization stage 1 on IB .......
+Finished optimization stage 1 on IB (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 114MB)
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\cae_library\synthesis\verilog\ecp5u.v":1534:7:1534:13|Synthesizing module CLKDIVF in library work.
+Running optimization stage 1 on CLKDIVF .......
+Finished optimization stage 1 on CLKDIVF (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 114MB)
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\cae_library\synthesis\verilog\ecp5u.v":1558:7:1558:15|Synthesizing module ECLKSYNCB in library work.
+Running optimization stage 1 on ECLKSYNCB .......
+Finished optimization stage 1 on ECLKSYNCB (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 114MB)
+@N: CG364 :"D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\iddrx2f.v":31:7:31:23|Synthesizing module iddrx2frxdll_sync in library work.
+Running optimization stage 1 on iddrx2frxdll_sync .......
+Finished optimization stage 1 on iddrx2frxdll_sync (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 116MB)
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\cae_library\synthesis\verilog\ecp5u.v":761:7:761:9|Synthesizing module VLO in library work.
+Running optimization stage 1 on VLO .......
+Finished optimization stage 1 on VLO (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 116MB)
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\cae_library\synthesis\verilog\ecp5u.v":1608:7:1608:13|Synthesizing module DDRDLLA in library work.
+Running optimization stage 1 on DDRDLLA .......
+Finished optimization stage 1 on DDRDLLA (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 116MB)
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\cae_library\synthesis\verilog\ecp5u.v":1616:7:1616:13|Synthesizing module DLLDELD in library work.
+Running optimization stage 1 on DLLDELD .......
+Finished optimization stage 1 on DLLDELD (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 116MB)
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\cae_library\synthesis\verilog\ecp5u.v":1627:7:1627:13|Synthesizing module IDDRX2F in library work.
+Running optimization stage 1 on IDDRX2F .......
+Finished optimization stage 1 on IDDRX2F (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 116MB)
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\cae_library\synthesis\verilog\ecp5u.v":1580:7:1580:12|Synthesizing module DELAYG in library work.
+Running optimization stage 1 on DELAYG .......
+Finished optimization stage 1 on DELAYG (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 116MB)
+@N: CG364 :"D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\iddrx2f.v":392:7:392:13|Synthesizing module iddrx2f in library work.
+Running optimization stage 1 on iddrx2f .......
+Finished optimization stage 1 on iddrx2f (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 116MB)
+Running optimization stage 2 on iddrx2f .......
+Finished optimization stage 2 on iddrx2f (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 116MB)
+Running optimization stage 2 on DELAYG .......
+Finished optimization stage 2 on DELAYG (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 116MB)
+Running optimization stage 2 on IDDRX2F .......
+Finished optimization stage 2 on IDDRX2F (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 116MB)
+Running optimization stage 2 on DLLDELD .......
+Finished optimization stage 2 on DLLDELD (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 116MB)
+Running optimization stage 2 on DDRDLLA .......
+Finished optimization stage 2 on DDRDLLA (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 116MB)
+Running optimization stage 2 on VLO .......
+Finished optimization stage 2 on VLO (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 116MB)
+Running optimization stage 2 on iddrx2frxdll_sync .......
+@N: CL201 :"D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\iddrx2f.v":247:0:247:5|Trying to extract state machine for register cs_rx_sync.
+Extracted state machine for register cs_rx_sync
+State machine has 6 reachable states with original encodings of:
+   00010
+   00011
+   10000
+   10010
+   11010
+   11110
+Finished optimization stage 2 on iddrx2frxdll_sync (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 116MB)
+Running optimization stage 2 on ECLKSYNCB .......
+Finished optimization stage 2 on ECLKSYNCB (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 116MB)
+Running optimization stage 2 on CLKDIVF .......
+Finished optimization stage 2 on CLKDIVF (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 116MB)
+Running optimization stage 2 on IB .......
+Finished optimization stage 2 on IB (CPU Time 0h:00m:00s, Memory Used current: 115MB peak: 116MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\syn_results\synwork\layer0.duruntime
+
+

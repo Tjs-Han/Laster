@@ -1,0 +1,7 @@
+D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\bin64\syn_nfilter.exe  -link  -top  pll  -multisrs  D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\pll\syn_results\synwork\pll_comp.srs  -osyn  D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\pll\syn_results\synwork\pll_mult.srs  -log  D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\pll\syn_results\synlog\pll_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\TOOL\LatticeDiamond\diamond\3.13\synpbase\bin64\syn_nfilter.exe -link -top pll -multisrs ..\synwork\pll_comp.srs -osyn ..\synwork\pll_mult.srs -log ..\synlog\pll_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\pll_comp.srs|io:i|time:1745499330|size:5036|exec:0|csum:CFAD8B025F2689D408E3BCC9C726FF93
+file:..\synwork\pll_mult.srs|io:o|time:1745499332|size:4812|exec:0|csum:
+file:..\synlog\pll_multi_srs_gen.srr|io:o|time:1745499332|size:1064|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\tool\latticediamond\diamond\3.13\synpbase\bin64\syn_nfilter.exe|io:i|time:1691632456|size:10600960|exec:1|csum:6BAEBE966B12EE4A1CCC452B6603E0B1

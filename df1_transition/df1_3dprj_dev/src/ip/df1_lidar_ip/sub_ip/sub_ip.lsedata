@@ -1,0 +1,662 @@
+<top name = "sub_ip"  library = "work"  arch = ""  entry = "Verilog">
+
+<clocks>
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 0
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "sub_ip">
+
+    <!--
+        Top Level Pins: 96
+    -->
+
+    <pins>
+        <pitem  name = "DataA[31]"  direction = "in"  />
+        <pitem  name = "DataA[30]"  direction = "in"  />
+        <pitem  name = "DataA[29]"  direction = "in"  />
+        <pitem  name = "DataA[28]"  direction = "in"  />
+        <pitem  name = "DataA[27]"  direction = "in"  />
+        <pitem  name = "DataA[26]"  direction = "in"  />
+        <pitem  name = "DataA[25]"  direction = "in"  />
+        <pitem  name = "DataA[24]"  direction = "in"  />
+        <pitem  name = "DataA[23]"  direction = "in"  />
+        <pitem  name = "DataA[22]"  direction = "in"  />
+        <pitem  name = "DataA[21]"  direction = "in"  />
+        <pitem  name = "DataA[20]"  direction = "in"  />
+        <pitem  name = "DataA[19]"  direction = "in"  />
+        <pitem  name = "DataA[18]"  direction = "in"  />
+        <pitem  name = "DataA[17]"  direction = "in"  />
+        <pitem  name = "DataA[16]"  direction = "in"  />
+        <pitem  name = "DataA[15]"  direction = "in"  />
+        <pitem  name = "DataA[14]"  direction = "in"  />
+        <pitem  name = "DataA[13]"  direction = "in"  />
+        <pitem  name = "DataA[12]"  direction = "in"  />
+        <pitem  name = "DataA[11]"  direction = "in"  />
+        <pitem  name = "DataA[10]"  direction = "in"  />
+        <pitem  name = "DataA[9]"  direction = "in"  />
+        <pitem  name = "DataA[8]"  direction = "in"  />
+        <pitem  name = "DataA[7]"  direction = "in"  />
+        <pitem  name = "DataA[6]"  direction = "in"  />
+        <pitem  name = "DataA[5]"  direction = "in"  />
+        <pitem  name = "DataA[4]"  direction = "in"  />
+        <pitem  name = "DataA[3]"  direction = "in"  />
+        <pitem  name = "DataA[2]"  direction = "in"  />
+        <pitem  name = "DataA[1]"  direction = "in"  />
+        <pitem  name = "DataA[0]"  direction = "in"  />
+        <pitem  name = "DataB[31]"  direction = "in"  />
+        <pitem  name = "DataB[30]"  direction = "in"  />
+        <pitem  name = "DataB[29]"  direction = "in"  />
+        <pitem  name = "DataB[28]"  direction = "in"  />
+        <pitem  name = "DataB[27]"  direction = "in"  />
+        <pitem  name = "DataB[26]"  direction = "in"  />
+        <pitem  name = "DataB[25]"  direction = "in"  />
+        <pitem  name = "DataB[24]"  direction = "in"  />
+        <pitem  name = "DataB[23]"  direction = "in"  />
+        <pitem  name = "DataB[22]"  direction = "in"  />
+        <pitem  name = "DataB[21]"  direction = "in"  />
+        <pitem  name = "DataB[20]"  direction = "in"  />
+        <pitem  name = "DataB[19]"  direction = "in"  />
+        <pitem  name = "DataB[18]"  direction = "in"  />
+        <pitem  name = "DataB[17]"  direction = "in"  />
+        <pitem  name = "DataB[16]"  direction = "in"  />
+        <pitem  name = "DataB[15]"  direction = "in"  />
+        <pitem  name = "DataB[14]"  direction = "in"  />
+        <pitem  name = "DataB[13]"  direction = "in"  />
+        <pitem  name = "DataB[12]"  direction = "in"  />
+        <pitem  name = "DataB[11]"  direction = "in"  />
+        <pitem  name = "DataB[10]"  direction = "in"  />
+        <pitem  name = "DataB[9]"  direction = "in"  />
+        <pitem  name = "DataB[8]"  direction = "in"  />
+        <pitem  name = "DataB[7]"  direction = "in"  />
+        <pitem  name = "DataB[6]"  direction = "in"  />
+        <pitem  name = "DataB[5]"  direction = "in"  />
+        <pitem  name = "DataB[4]"  direction = "in"  />
+        <pitem  name = "DataB[3]"  direction = "in"  />
+        <pitem  name = "DataB[2]"  direction = "in"  />
+        <pitem  name = "DataB[1]"  direction = "in"  />
+        <pitem  name = "DataB[0]"  direction = "in"  />
+        <pitem  name = "Result[31]"  direction = "out"  />
+        <pitem  name = "Result[30]"  direction = "out"  />
+        <pitem  name = "Result[29]"  direction = "out"  />
+        <pitem  name = "Result[28]"  direction = "out"  />
+        <pitem  name = "Result[27]"  direction = "out"  />
+        <pitem  name = "Result[26]"  direction = "out"  />
+        <pitem  name = "Result[25]"  direction = "out"  />
+        <pitem  name = "Result[24]"  direction = "out"  />
+        <pitem  name = "Result[23]"  direction = "out"  />
+        <pitem  name = "Result[22]"  direction = "out"  />
+        <pitem  name = "Result[21]"  direction = "out"  />
+        <pitem  name = "Result[20]"  direction = "out"  />
+        <pitem  name = "Result[19]"  direction = "out"  />
+        <pitem  name = "Result[18]"  direction = "out"  />
+        <pitem  name = "Result[17]"  direction = "out"  />
+        <pitem  name = "Result[16]"  direction = "out"  />
+        <pitem  name = "Result[15]"  direction = "out"  />
+        <pitem  name = "Result[14]"  direction = "out"  />
+        <pitem  name = "Result[13]"  direction = "out"  />
+        <pitem  name = "Result[12]"  direction = "out"  />
+        <pitem  name = "Result[11]"  direction = "out"  />
+        <pitem  name = "Result[10]"  direction = "out"  />
+        <pitem  name = "Result[9]"  direction = "out"  />
+        <pitem  name = "Result[8]"  direction = "out"  />
+        <pitem  name = "Result[7]"  direction = "out"  />
+        <pitem  name = "Result[6]"  direction = "out"  />
+        <pitem  name = "Result[5]"  direction = "out"  />
+        <pitem  name = "Result[4]"  direction = "out"  />
+        <pitem  name = "Result[3]"  direction = "out"  />
+        <pitem  name = "Result[2]"  direction = "out"  />
+        <pitem  name = "Result[1]"  direction = "out"  />
+        <pitem  name = "Result[0]"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 20
+    -->
+
+    <instance  name = "precin_inst99"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "COUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "precin"  />
+        </nets>
+    </instance>
+
+    <instance  name = "addsub_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "CIN"  direction = "in"  />
+        <pitem  name = "S1"  direction = "out"  />
+        <pitem  name = "COUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "DataA[0]"  />
+        <nitem  name = "scuba_vlo"  />
+        <nitem  name = "DataB[0]"  />
+        <nitem  name = "precin"  />
+        <nitem  name = "Result[0]"  />
+        <nitem  name = "co0"  />
+        </nets>
+    </instance>
+
+    <instance  name = "addsub_1"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "CIN"  direction = "in"  />
+        <pitem  name = "S0"  direction = "out"  />
+        <pitem  name = "S1"  direction = "out"  />
+        <pitem  name = "COUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "DataA[1]"  />
+        <nitem  name = "DataA[2]"  />
+        <nitem  name = "DataB[1]"  />
+        <nitem  name = "DataB[2]"  />
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "co0"  />
+        <nitem  name = "Result[1]"  />
+        <nitem  name = "Result[2]"  />
+        <nitem  name = "co1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "addsub_2"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "CIN"  direction = "in"  />
+        <pitem  name = "S0"  direction = "out"  />
+        <pitem  name = "S1"  direction = "out"  />
+        <pitem  name = "COUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "DataA[3]"  />
+        <nitem  name = "DataA[4]"  />
+        <nitem  name = "DataB[3]"  />
+        <nitem  name = "DataB[4]"  />
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "co1"  />
+        <nitem  name = "Result[3]"  />
+        <nitem  name = "Result[4]"  />
+        <nitem  name = "co2"  />
+        </nets>
+    </instance>
+
+    <instance  name = "addsub_3"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "CIN"  direction = "in"  />
+        <pitem  name = "S0"  direction = "out"  />
+        <pitem  name = "S1"  direction = "out"  />
+        <pitem  name = "COUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "DataA[5]"  />
+        <nitem  name = "DataA[6]"  />
+        <nitem  name = "DataB[5]"  />
+        <nitem  name = "DataB[6]"  />
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "co2"  />
+        <nitem  name = "Result[5]"  />
+        <nitem  name = "Result[6]"  />
+        <nitem  name = "co3"  />
+        </nets>
+    </instance>
+
+    <instance  name = "addsub_4"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "CIN"  direction = "in"  />
+        <pitem  name = "S0"  direction = "out"  />
+        <pitem  name = "S1"  direction = "out"  />
+        <pitem  name = "COUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "DataA[7]"  />
+        <nitem  name = "DataA[8]"  />
+        <nitem  name = "DataB[7]"  />
+        <nitem  name = "DataB[8]"  />
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "co3"  />
+        <nitem  name = "Result[7]"  />
+        <nitem  name = "Result[8]"  />
+        <nitem  name = "co4"  />
+        </nets>
+    </instance>
+
+    <instance  name = "addsub_5"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "CIN"  direction = "in"  />
+        <pitem  name = "S0"  direction = "out"  />
+        <pitem  name = "S1"  direction = "out"  />
+        <pitem  name = "COUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "DataA[9]"  />
+        <nitem  name = "DataA[10]"  />
+        <nitem  name = "DataB[9]"  />
+        <nitem  name = "DataB[10]"  />
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "co4"  />
+        <nitem  name = "Result[9]"  />
+        <nitem  name = "Result[10]"  />
+        <nitem  name = "co5"  />
+        </nets>
+    </instance>
+
+    <instance  name = "addsub_6"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "CIN"  direction = "in"  />
+        <pitem  name = "S0"  direction = "out"  />
+        <pitem  name = "S1"  direction = "out"  />
+        <pitem  name = "COUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "DataA[11]"  />
+        <nitem  name = "DataA[12]"  />
+        <nitem  name = "DataB[11]"  />
+        <nitem  name = "DataB[12]"  />
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "co5"  />
+        <nitem  name = "Result[11]"  />
+        <nitem  name = "Result[12]"  />
+        <nitem  name = "co6"  />
+        </nets>
+    </instance>
+
+    <instance  name = "addsub_7"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "CIN"  direction = "in"  />
+        <pitem  name = "S0"  direction = "out"  />
+        <pitem  name = "S1"  direction = "out"  />
+        <pitem  name = "COUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "DataA[13]"  />
+        <nitem  name = "DataA[14]"  />
+        <nitem  name = "DataB[13]"  />
+        <nitem  name = "DataB[14]"  />
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "co6"  />
+        <nitem  name = "Result[13]"  />
+        <nitem  name = "Result[14]"  />
+        <nitem  name = "co7"  />
+        </nets>
+    </instance>
+
+    <instance  name = "addsub_8"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "CIN"  direction = "in"  />
+        <pitem  name = "S0"  direction = "out"  />
+        <pitem  name = "S1"  direction = "out"  />
+        <pitem  name = "COUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "DataA[15]"  />
+        <nitem  name = "DataA[16]"  />
+        <nitem  name = "DataB[15]"  />
+        <nitem  name = "DataB[16]"  />
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "co7"  />
+        <nitem  name = "Result[15]"  />
+        <nitem  name = "Result[16]"  />
+        <nitem  name = "co8"  />
+        </nets>
+    </instance>
+
+    <instance  name = "addsub_9"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "CIN"  direction = "in"  />
+        <pitem  name = "S0"  direction = "out"  />
+        <pitem  name = "S1"  direction = "out"  />
+        <pitem  name = "COUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "DataA[17]"  />
+        <nitem  name = "DataA[18]"  />
+        <nitem  name = "DataB[17]"  />
+        <nitem  name = "DataB[18]"  />
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "co8"  />
+        <nitem  name = "Result[17]"  />
+        <nitem  name = "Result[18]"  />
+        <nitem  name = "co9"  />
+        </nets>
+    </instance>
+
+    <instance  name = "addsub_10"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "CIN"  direction = "in"  />
+        <pitem  name = "S0"  direction = "out"  />
+        <pitem  name = "S1"  direction = "out"  />
+        <pitem  name = "COUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "DataA[19]"  />
+        <nitem  name = "DataA[20]"  />
+        <nitem  name = "DataB[19]"  />
+        <nitem  name = "DataB[20]"  />
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "co9"  />
+        <nitem  name = "Result[19]"  />
+        <nitem  name = "Result[20]"  />
+        <nitem  name = "co10"  />
+        </nets>
+    </instance>
+
+    <instance  name = "addsub_11"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "CIN"  direction = "in"  />
+        <pitem  name = "S0"  direction = "out"  />
+        <pitem  name = "S1"  direction = "out"  />
+        <pitem  name = "COUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "DataA[21]"  />
+        <nitem  name = "DataA[22]"  />
+        <nitem  name = "DataB[21]"  />
+        <nitem  name = "DataB[22]"  />
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "co10"  />
+        <nitem  name = "Result[21]"  />
+        <nitem  name = "Result[22]"  />
+        <nitem  name = "co11"  />
+        </nets>
+    </instance>
+
+    <instance  name = "addsub_12"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "CIN"  direction = "in"  />
+        <pitem  name = "S0"  direction = "out"  />
+        <pitem  name = "S1"  direction = "out"  />
+        <pitem  name = "COUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "DataA[23]"  />
+        <nitem  name = "DataA[24]"  />
+        <nitem  name = "DataB[23]"  />
+        <nitem  name = "DataB[24]"  />
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "co11"  />
+        <nitem  name = "Result[23]"  />
+        <nitem  name = "Result[24]"  />
+        <nitem  name = "co12"  />
+        </nets>
+    </instance>
+
+    <instance  name = "addsub_13"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "CIN"  direction = "in"  />
+        <pitem  name = "S0"  direction = "out"  />
+        <pitem  name = "S1"  direction = "out"  />
+        <pitem  name = "COUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "DataA[25]"  />
+        <nitem  name = "DataA[26]"  />
+        <nitem  name = "DataB[25]"  />
+        <nitem  name = "DataB[26]"  />
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "co12"  />
+        <nitem  name = "Result[25]"  />
+        <nitem  name = "Result[26]"  />
+        <nitem  name = "co13"  />
+        </nets>
+    </instance>
+
+    <instance  name = "addsub_14"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "CIN"  direction = "in"  />
+        <pitem  name = "S0"  direction = "out"  />
+        <pitem  name = "S1"  direction = "out"  />
+        <pitem  name = "COUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "DataA[27]"  />
+        <nitem  name = "DataA[28]"  />
+        <nitem  name = "DataB[27]"  />
+        <nitem  name = "DataB[28]"  />
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "co13"  />
+        <nitem  name = "Result[27]"  />
+        <nitem  name = "Result[28]"  />
+        <nitem  name = "co14"  />
+        </nets>
+    </instance>
+
+    <instance  name = "addsub_15"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "CIN"  direction = "in"  />
+        <pitem  name = "S0"  direction = "out"  />
+        <pitem  name = "S1"  direction = "out"  />
+        <pitem  name = "COUT"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "DataA[29]"  />
+        <nitem  name = "DataA[30]"  />
+        <nitem  name = "DataB[29]"  />
+        <nitem  name = "DataB[30]"  />
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "co14"  />
+        <nitem  name = "Result[29]"  />
+        <nitem  name = "Result[30]"  />
+        <nitem  name = "co15"  />
+        </nets>
+    </instance>
+
+    <instance  name = "scuba_vhi_inst"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "scuba_vhi"  />
+        </nets>
+    </instance>
+
+    <instance  name = "scuba_vlo_inst"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "Z"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "scuba_vlo"  />
+        </nets>
+    </instance>
+
+    <instance  name = "addsub_16"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "A0"  direction = "in"  />
+        <pitem  name = "A1"  direction = "in"  />
+        <pitem  name = "B0"  direction = "in"  />
+        <pitem  name = "B1"  direction = "in"  />
+        <pitem  name = "C0"  direction = "in"  />
+        <pitem  name = "C1"  direction = "in"  />
+        <pitem  name = "D0"  direction = "in"  />
+        <pitem  name = "D1"  direction = "in"  />
+        <pitem  name = "CIN"  direction = "in"  />
+        <pitem  name = "S0"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "DataA[31]"  />
+        <nitem  name = "scuba_vlo"  />
+        <nitem  name = "DataB[31]"  />
+        <nitem  name = "scuba_vhi"  />
+        <nitem  name = "co15"  />
+        <nitem  name = "Result[31]"  />
+        </nets>
+    </instance>
+
+    <!--
+        Views in design "sub_ip": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>

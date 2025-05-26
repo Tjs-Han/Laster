@@ -1,0 +1,258 @@
+<Project ModBy="Analyzer" Name="D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/debug/tdc/tdc.rvs" Date="2025-05-07">
+ <Core Name="df1_lidar_top_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="2048" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Sig Name="w_laser_sync"/>
+    <Bus Name="o_laser_str" Radix="0">
+     <Sig Name="o_laser_str:0"/>
+     <Sig Name="o_laser_str:1"/>
+     <Sig Name="o_laser_str:2"/>
+     <Sig Name="o_laser_str:3"/>
+     <Sig Name="o_laser_str:4"/>
+     <Sig Name="o_laser_str:5"/>
+     <Sig Name="o_laser_str:6"/>
+     <Sig Name="o_laser_str:7"/>
+    </Bus>
+    <Sig Name="u_mpt2042_top/u1_lvds_dec/w_comma_k"/>
+    <Bus Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout" Radix="0">
+     <Sig Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout:0"/>
+     <Sig Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout:1"/>
+     <Sig Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout:2"/>
+     <Sig Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout:3"/>
+     <Sig Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout:4"/>
+     <Sig Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout:5"/>
+     <Sig Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout:6"/>
+     <Sig Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout:7"/>
+    </Bus>
+    <Bus Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state" Radix="0">
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state:0"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state:1"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state:2"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state:3"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state:4"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state:5"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state:6"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state:7"/>
+    </Bus>
+    <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/i_lvdsfifo_empty"/>
+    <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_lvdsfifo_ren"/>
+    <Bus Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg" Radix="0">
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:0"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:1"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:2"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:3"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:4"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:5"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:6"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:7"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:8"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:9"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:10"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:11"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:12"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:13"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:14"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:15"/>
+    </Bus>
+    <Bus Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg" Radix="0">
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:0"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:1"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:2"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:3"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:4"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:5"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:6"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:7"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:8"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:9"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:10"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:11"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:12"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:13"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:14"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:15"/>
+    </Bus>
+    <Bus Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data" Radix="0">
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:0"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:1"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:2"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:3"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:4"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:5"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:6"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:7"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:8"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:9"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:10"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:11"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:12"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:13"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:14"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:15"/>
+    </Bus>
+    <Bus Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data" Radix="0">
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:0"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:1"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:2"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:3"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:4"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:5"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:6"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:7"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:8"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:9"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:10"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:11"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:12"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:13"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:14"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:15"/>
+    </Bus>
+    <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_measure_fail"/>
+    <Sig Name="u_mpt2042_top/u2_lvds_dec/w_comma_k"/>
+    <Bus Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout" Radix="0">
+     <Sig Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout:0"/>
+     <Sig Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout:1"/>
+     <Sig Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout:2"/>
+     <Sig Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout:3"/>
+     <Sig Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout:4"/>
+     <Sig Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout:5"/>
+     <Sig Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout:6"/>
+     <Sig Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout:7"/>
+    </Bus>
+    <Bus Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state" Radix="0">
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state:0"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state:1"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state:2"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state:3"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state:4"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state:5"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state:6"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state:7"/>
+    </Bus>
+    <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/i_lvdsfifo_empty"/>
+    <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_lvdsfifo_ren"/>
+    <Bus Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg" Radix="0">
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:0"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:1"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:2"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:3"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:4"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:5"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:6"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:7"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:8"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:9"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:10"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:11"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:12"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:13"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:14"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:15"/>
+    </Bus>
+    <Bus Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg" Radix="0">
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:0"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:1"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:2"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:3"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:4"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:5"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:6"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:7"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:8"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:9"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:10"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:11"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:12"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:13"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:14"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:15"/>
+    </Bus>
+    <Bus Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data" Radix="0">
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:0"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:1"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:2"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:3"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:4"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:5"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:6"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:7"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:8"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:9"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:10"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:11"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:12"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:13"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:14"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:15"/>
+    </Bus>
+    <Bus Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data" Radix="0">
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:0"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:1"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:2"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:3"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:4"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:5"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:6"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:7"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:8"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:9"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:10"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:11"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:12"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:13"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:14"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:15"/>
+    </Bus>
+    <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_measure_fail"/>
+    <Sig Name="u_mpt2042_top/i_tdc_strdy"/>
+    <Sig Name="w_tdc_sig"/>
+    <Bus Name="w_tdc_rdata" Radix="0">
+     <Sig Name="w_tdc_rdata:0"/>
+     <Sig Name="w_tdc_rdata:1"/>
+     <Sig Name="w_tdc_rdata:2"/>
+     <Sig Name="w_tdc_rdata:3"/>
+     <Sig Name="w_tdc_rdata:4"/>
+     <Sig Name="w_tdc_rdata:5"/>
+     <Sig Name="w_tdc_rdata:6"/>
+     <Sig Name="w_tdc_rdata:7"/>
+     <Sig Name="w_tdc_rdata:8"/>
+     <Sig Name="w_tdc_rdata:9"/>
+     <Sig Name="w_tdc_rdata:10"/>
+     <Sig Name="w_tdc_rdata:11"/>
+     <Sig Name="w_tdc_rdata:12"/>
+     <Sig Name="w_tdc_rdata:13"/>
+     <Sig Name="w_tdc_rdata:14"/>
+     <Sig Name="w_tdc_rdata:15"/>
+    </Bus>
+    <Bus Name="w_tdc_fdata" Radix="0">
+     <Sig Name="w_tdc_fdata:0"/>
+     <Sig Name="w_tdc_fdata:1"/>
+     <Sig Name="w_tdc_fdata:2"/>
+     <Sig Name="w_tdc_fdata:3"/>
+     <Sig Name="w_tdc_fdata:4"/>
+     <Sig Name="w_tdc_fdata:5"/>
+     <Sig Name="w_tdc_fdata:6"/>
+     <Sig Name="w_tdc_fdata:7"/>
+     <Sig Name="w_tdc_fdata:8"/>
+     <Sig Name="w_tdc_fdata:9"/>
+     <Sig Name="w_tdc_fdata:10"/>
+     <Sig Name="w_tdc_fdata:11"/>
+     <Sig Name="w_tdc_fdata:12"/>
+     <Sig Name="w_tdc_fdata:13"/>
+     <Sig Name="w_tdc_fdata:14"/>
+     <Sig Name="w_tdc_fdata:15"/>
+    </Bus>
+   </Trace>
+   <Trigger>
+    <TU Operator="0" Name="TU1" ID="1" Value="1" Radix="0"/>
+    <TE Enable="1" Expression="TU1" Name="TE1" ID="1"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+</Project>

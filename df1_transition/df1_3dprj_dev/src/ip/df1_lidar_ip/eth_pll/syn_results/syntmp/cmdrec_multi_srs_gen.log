@@ -1,0 +1,7 @@
+D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\bin64\syn_nfilter.exe  -link  -top  eth_pll  -multisrs  D:\FreeWork\df1_demo\phy_develop\src\ip\df1_lidar_ip\eth_pll\syn_results\synwork\eth_pll_comp.srs  -osyn  D:\FreeWork\df1_demo\phy_develop\src\ip\df1_lidar_ip\eth_pll\syn_results\synwork\eth_pll_mult.srs  -log  D:\FreeWork\df1_demo\phy_develop\src\ip\df1_lidar_ip\eth_pll\syn_results\synlog\eth_pll_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\TOOL\LatticeDiamond\diamond\3.13\synpbase\bin64\syn_nfilter.exe -link -top eth_pll -multisrs ..\synwork\eth_pll_comp.srs -osyn ..\synwork\eth_pll_mult.srs -log ..\synlog\eth_pll_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\eth_pll_comp.srs|io:i|time:1729167616|size:4908|exec:0|csum:A4A514B937DDEB1AEDE4615AB37324B3
+file:..\synwork\eth_pll_mult.srs|io:o|time:1729167617|size:4751|exec:0|csum:
+file:..\synlog\eth_pll_multi_srs_gen.srr|io:o|time:1729167617|size:1190|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\tool\latticediamond\diamond\3.13\synpbase\bin64\syn_nfilter.exe|io:i|time:1691632456|size:10600960|exec:1|csum:6BAEBE966B12EE4A1CCC452B6603E0B1

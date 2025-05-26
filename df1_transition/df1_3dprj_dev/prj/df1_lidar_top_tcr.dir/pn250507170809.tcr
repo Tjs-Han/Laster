@@ -1,0 +1,11 @@
+#Start recording tcl command: 5/7/2025 17:05:10
+#Project Location: D:/FreeWork/df1_second_round/df1_3dprj_dev/prj; Project name: df1_lidar_top
+prj_project open "D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/df1_lidar_top.ldf"
+prj_run Translate -impl impl1
+pgr_project open "D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/impl1/impl1.xcf"
+pgr_project close
+rvl_project open D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/debug/tdc/tdc.rvl
+rvl_project close -force
+prj_src remove "D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/mpt2042/mpt2042_top.v"
+prj_src add "D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/mpt2042/mpt2042_top.v"
+#Stop recording: 5/7/2025 17:08:09

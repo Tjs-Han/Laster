@@ -1,0 +1,316 @@
+<Project ModBy="Analyzer" Name="D:/FreeWork/df1_demo/df1_lidar_top/prj/debug/ddr_interface/coe2ddr/debug.rvs" Date="2024-12-10">
+ <Core Name="df1_lidar_top_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="4096" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_coe_set_flag"/>
+    <Bus Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:15"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:16"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:17"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:18"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:19"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:20"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:21"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:22"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:23"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:24"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:25"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:26"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:27"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:28"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:29"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:30"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:31"/>
+    </Bus>
+    <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_wren"/>
+    <Bus Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:15"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:16"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:17"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:18"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:19"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:20"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:21"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:22"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:23"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:24"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:25"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:26"/>
+    </Bus>
+    <Bus Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:15"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:16"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:17"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:18"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:19"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:20"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:21"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:22"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:23"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:24"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:25"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:26"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:27"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:28"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:29"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:30"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:31"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:32"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:33"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:34"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:35"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:36"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:37"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:38"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:39"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:40"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:41"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:42"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:43"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:44"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:45"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:46"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:47"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:48"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:49"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:50"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:51"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:52"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:53"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:54"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:55"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:56"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:57"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:58"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:59"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:60"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:61"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:62"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:63"/>
+    </Bus>
+    <Bus Name="u_eth_top/u_udpcom_control/u_parameter_init/r_serial_num" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_serial_num:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_serial_num:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_serial_num:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_serial_num:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_serial_num:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_serial_num:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_serial_num:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_serial_num:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_serial_num:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_serial_num:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_serial_num:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_serial_num:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_serial_num:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_serial_num:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_serial_num:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_serial_num:15"/>
+    </Bus>
+    <Bus Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:15"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:16"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:17"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:18"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:19"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:20"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:21"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:22"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:23"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:24"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:25"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_ddr_addr_base:26"/>
+    </Bus>
+    <Sig Name="u_eth_top/u_udpcom_control/o_ddr2para_rden"/>
+    <Bus Name="u_eth_top/u_udpcom_control/o_para2ddr_addr" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:15"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:16"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:17"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:18"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:19"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:20"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:21"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:22"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:23"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:24"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:25"/>
+     <Sig Name="u_eth_top/u_udpcom_control/o_para2ddr_addr:26"/>
+    </Bus>
+    <Sig Name="u_eth_top/u_udpcom_control/w_rddr_usercmd"/>
+    <Bus Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_state" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_state:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_state:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_state:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_state:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_state:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_state:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_state:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_state:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_state:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_state:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_state:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_state:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_state:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_state:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_state:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_state:15"/>
+    </Bus>
+    <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_empty"/>
+    <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ddr2para_fifo_rden"/>
+    <Bus Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:15"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:16"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:17"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:18"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:19"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:20"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:21"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:22"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:23"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:24"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:25"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:26"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:27"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:28"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:29"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:30"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:31"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:32"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:33"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:34"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:35"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:36"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:37"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:38"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:39"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:40"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:41"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:42"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:43"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:44"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:45"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:46"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:47"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:48"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:49"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:50"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:51"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:52"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:53"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:54"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:55"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:56"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:57"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:58"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:59"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:60"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:61"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:62"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/i_ddr2para_fifo_data:63"/>
+    </Bus>
+   </Trace>
+   <Trigger>
+    <TU Operator="0" Name="TU1" ID="1" Value="20" Radix="3"/>
+    <TU Operator="0" Name="TU2" ID="2" Value="1000" Radix="3"/>
+    <TU Operator="0" Name="TU3" ID="3" Value="0000" Radix="2"/>
+    <TE Enable="1" Expression="TU1" Name="TE1" ID="1"/>
+    <TE Enable="0" Expression="TU2" Name="TE2" ID="2"/>
+    <TE Enable="0" Expression="TU3" Name="TE3" ID="3"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+</Project>

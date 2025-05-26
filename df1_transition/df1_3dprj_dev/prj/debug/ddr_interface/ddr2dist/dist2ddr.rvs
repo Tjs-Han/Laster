@@ -1,0 +1,184 @@
+<Project ModBy="Analyzer" Name="D:/FreeWork/df1_demo/df1_lidar_top/prj/debug/ddr_interface/ddr2dist/dist2ddr.rvs" Date="2025-02-11">
+ <Core Name="df1_lidar_top_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="4096" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Sig Name="w_angle_sync"/>
+    <Sig Name="w_gpx2_signal"/>
+    <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_dist2ddr_rden"/>
+    <Sig Name="u2_ddr3_interface/i_cmd_rdy"/>
+    <Sig Name="u2_ddr3_interface/o_cmd_valid"/>
+    <Sig Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/w_cmd_gone"/>
+    <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_rdata_valid"/>
+    <Bus Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata" Radix="0">
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:0"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:1"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:2"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:3"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:4"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:5"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:6"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:7"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:8"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:9"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:10"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:11"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:12"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:13"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:14"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:15"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:16"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:17"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:18"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:19"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:20"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:21"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:22"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:23"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:24"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:25"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:26"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:27"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:28"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:29"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:30"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:31"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:32"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:33"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:34"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:35"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:36"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:37"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:38"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:39"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:40"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:41"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:42"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:43"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:44"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:45"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:46"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:47"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:48"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:49"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:50"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:51"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:52"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:53"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:54"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:55"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:56"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:57"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:58"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:59"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:60"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:61"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:62"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:63"/>
+    </Bus>
+    <Bus Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_cmd" Radix="0">
+     <Sig Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_cmd:0"/>
+     <Sig Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_cmd:1"/>
+     <Sig Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_cmd:2"/>
+     <Sig Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_cmd:3"/>
+    </Bus>
+    <Bus Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_req_type" Radix="0">
+     <Sig Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_req_type:0"/>
+     <Sig Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_req_type:1"/>
+     <Sig Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_req_type:2"/>
+     <Sig Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_req_type:3"/>
+    </Bus>
+    <Bus Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state" Radix="0">
+     <Sig Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:0"/>
+     <Sig Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:1"/>
+     <Sig Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:2"/>
+     <Sig Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:3"/>
+     <Sig Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:4"/>
+     <Sig Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:5"/>
+     <Sig Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:6"/>
+     <Sig Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:7"/>
+    </Bus>
+    <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_wren_dist"/>
+    <Bus Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data" Radix="0">
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:0"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:1"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:2"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:3"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:4"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:5"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:6"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:7"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:8"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:9"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:10"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:11"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:12"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:13"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:14"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:15"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:16"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:17"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:18"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:19"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:20"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:21"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:22"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:23"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:24"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:25"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:26"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:27"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:28"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:29"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:30"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:31"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:32"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:33"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:34"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:35"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:36"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:37"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:38"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:39"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:40"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:41"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:42"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:43"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:44"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:45"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:46"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:47"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:48"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:49"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:50"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:51"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:52"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:53"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:54"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:55"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:56"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:57"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:58"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:59"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:60"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:61"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:62"/>
+     <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:63"/>
+    </Bus>
+    <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/o_ddr2dist_fifo_empty"/>
+    <Sig Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr2dist_fifo_rden"/>
+   </Trace>
+   <Trigger>
+    <TU Operator="0" Name="TU1" ID="1" Value="01" Radix="3"/>
+    <TU Operator="0" Name="TU2" ID="2" Value="0" Radix="0"/>
+    <TE Enable="1" Expression="TU1" Name="TE1" ID="1"/>
+    <TE Enable="0" Expression="TU1" Name="TE2" ID="2"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+ <Token width="4" type="user" name="TOKEN_SET_0"/>
+</Project>

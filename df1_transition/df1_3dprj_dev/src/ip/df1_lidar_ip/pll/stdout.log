@@ -1,0 +1,95 @@
+Running in Lattice mode
+
+                               Synplify Pro (R) 
+
+                Version U-2023.03L-SP1 for win64 - Aug 10, 2023 
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\bin64\mbin\synbatch.exe
+Install:     D:\TOOL\LatticeDiamond\diamond\3.13\synpbase
+Hostname:    FREE-FPGA
+Date:        Thu Apr 24 20:55:27 2025
+Version:     U-2023.03L-SP1
+
+Arguments:   -product synplify_base -batch D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/pll/syn_results/pll.prj
+ProductType: synplify_pro
+
+
+
+
+log file: "D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\pll\syn_results\pll.srr"
+Running: syn_results in foreground
+
+Running pll|syn_results
+
+Running Flow: compile (Compile) on pll|syn_results
+# Thu Apr 24 20:55:28 2025
+
+Running Flow: compile_flow (Compile Process) on pll|syn_results
+# Thu Apr 24 20:55:28 2025
+
+Running: compiler (Compile Input) on pll|syn_results
+# Thu Apr 24 20:55:28 2025
+Copied D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\pll\syn_results\synwork\pll_comp.srs to D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\pll\syn_results\pll.srs
+
+compiler completed
+# Thu Apr 24 20:55:31 2025
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on pll|syn_results
+# Thu Apr 24 20:55:31 2025
+
+multi_srs_gen completed
+# Thu Apr 24 20:55:32 2025
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\pll\syn_results\synwork\pll_mult.srs to D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\pll\syn_results\pll.srs
+Copied D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\pll\syn_results\pll.srr to D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\pll\syn_results\pll.srf
+Complete: Compile Process on pll|syn_results
+
+Running: premap (Premap) on pll|syn_results
+# Thu Apr 24 20:55:32 2025
+
+premap completed
+# Thu Apr 24 20:55:34 2025
+
+Return Code: 0
+Run Time:00h:00m:02s
+Complete: Compile on pll|syn_results
+
+Running Flow: map (Map) on pll|syn_results
+# Thu Apr 24 20:55:35 2025
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on pll|syn_results
+# Thu Apr 24 20:55:35 2025
+Copied D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\pll\syn_results\synwork\pll_m.srm to D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\pll\syn_results\pll.srm
+
+fpga_mapper completed with warnings
+# Thu Apr 24 20:55:39 2025
+
+Return Code: 1
+Run Time:00h:00m:04s
+Complete: Map on pll|syn_results
+Copied D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\pll\syn_results\pll.srr to D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\pll\syn_results\pll.srf
+Complete: Logic Synthesis on pll|syn_results
+exit status=0
+exit status=0

@@ -1,0 +1,30 @@
+SCUBA, Version Diamond (64-bit) 3.13.0.56.2
+Thu Sep 19 20:49:19 2024
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : D:\TOOL\LatticeDiamond\diamond\3.13\ispfpga\bin\nt64\scuba.exe -w -n sub_ip -lang verilog -synth lse -bus_exp 7 -bb -arch sa5p00 -type mgaddsub -direction sub -width 32 -unsigned -pipeline 0 -fdc D:/FreeWork/df1_demo/gpx2/src/ip/df1_lidar_ip/sub_ip/sub_ip.fdc 
+    Circuit name     : sub_ip
+    Module type      : sub
+    Module Version   : 3.5
+    Width            : 32
+    Ports            : 
+	Inputs       : DataA[31:0], DataB[31:0]
+	Outputs      : Result[31:0]
+    I/O buffer       : not inserted
+    Representation   : unsigned number
+    EDIF output      : sub_ip.edn
+    Verilog output   : sub_ip.v
+    Verilog template : sub_ip_tmpl.v
+    Verilog testbench: tb_sub_ip_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : sub_ip.srp
+    Element Usage    :
+          CCU2C : 18
+    Estimated Resource Usage:
+            LUT : 36

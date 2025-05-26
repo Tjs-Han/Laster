@@ -1,0 +1,94 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: D:\TOOL\LatticeDiamond\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FREE-FPGA
+
+Implementation : impl1
+
+# Written on Wed May 21 20:03:20 2025
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "D:\FreeWork\df1_second_round\df1_3dprj_dev\prj\df1_lidar_top.sdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                          Requested     Requested     Clock        Clock                     Clock
+Level     Clock                                          Frequency     Period        Type         Group                     Load 
+---------------------------------------------------------------------------------------------------------------------------------
+0 -       w_pll_50m                                      50.0 MHz      20.000        declared     default_clkgroup          1799 
+                                                                                                                                 
+0 -       i_ethphy_refclk                                50.0 MHz      20.000        declared     default_clkgroup          35   
+                                                                                                                                 
+0 -       i_clk_50m                                      50.0 MHz      20.000        declared     default_clkgroup          26   
+                                                                                                                                 
+0 -       i_ddrclk_100m                                  100.0 MHz     10.000        declared     default_clkgroup          0    
+                                                                                                                                 
+0 -       i_tdc1_lvds_serclk                             300.0 MHz     3.333         declared     group_15_31               0    
+                                                                                                                                 
+0 -       i_tdc2_lvds_serclk                             300.0 MHz     3.333         declared     group_15_54               0    
+                                                                                                                                 
+0 -       df1_lidar_top|w_pll_100m                       200.0 MHz     5.000         inferred     Inferred_clkgroup_0_2     7423 
+                                                                                                                                 
+0 -       ddr3_sdram_mem_top_ddr3_ipcore_uniq_1|sclk     200.0 MHz     5.000         inferred     Inferred_clkgroup_0_7     414  
+                                                                                                                                 
+0 -       reveal_coretop|jtck_inferred_clock[0]          200.0 MHz     5.000         inferred     Inferred_clkgroup_0_3     343  
+                                                                                                                                 
+0 -       iddrx2f_uniq_1|sclk_inferred_clock             200.0 MHz     5.000         inferred     Inferred_clkgroup_0_5     166  
+                                                                                                                                 
+0 -       iddrx2f_uniq_2|sclk_inferred_clock             200.0 MHz     5.000         inferred     Inferred_clkgroup_0_4     166  
+                                                                                                                                 
+0 -       pll_uniq_1|CLKOS2_inferred_clock               200.0 MHz     5.000         inferred     Inferred_clkgroup_0_1     74   
+                                                                                                                                 
+0 -       eth_pll_uniq_1|CLKOS_inferred_clock            200.0 MHz     5.000         inferred     Inferred_clkgroup_0_6     72   
+=================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                               Clock     Source                                                                       Clock Pin                                                        Non-clock Pin     Non-clock Pin              
+Clock                                          Load      Pin                                                                          Seq Example                                                      Seq Example       Comb Example               
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+w_pll_50m                                      1799      u_pll.PLLInst_0.CLKOP(EHXPLLL)                                               u_HV_control.r_sample_cnt[25:0].C                                -                 -                          
+                                                                                                                                                                                                                                                    
+i_ethphy_refclk                                35        i_ethphy_refclk(port)                                                        u_eth_top.u_rmii_top.u_rmii_rx.r_rmii_rxd[1:0].C                 -                 -                          
+                                                                                                                                                                                                                                                    
+i_clk_50m                                      26        i_clk_50m(port)                                                              r_ddrrst_n.C                                                     -                 -                          
+                                                                                                                                                                                                                                                    
+i_ddrclk_100m                                  0         i_ddrclk_100m(port)                                                          -                                                                -                 -                          
+                                                                                                                                                                                                                                                    
+i_tdc1_lvds_serclk                             0         i_tdc1_lvds_serclk(port)                                                     -                                                                -                 u1_iddr_tdc1.Inst7_IB.I(IB)
+                                                                                                                                                                                                                                                    
+i_tdc2_lvds_serclk                             0         i_tdc2_lvds_serclk(port)                                                     -                                                                -                 u2_iddr_tdc2.Inst7_IB.I(IB)
+                                                                                                                                                                                                                                                    
+df1_lidar_top|w_pll_100m                       7423      u_pll.PLLInst_0.CLKOS(EHXPLLL)                                               r_initload_done.C                                                -                 -                          
+                                                                                                                                                                                                                                                    
+ddr3_sdram_mem_top_ddr3_ipcore_uniq_1|sclk     414       u_ddr3.ddr3_ipcore_inst.U1_clocking.sclk(ddr_clks_ddr3_ipcore)               u2_ddr3_interface.u2_ddr_round_robin.r_ddr2para_data[63:0].C     -                 -                          
+                                                                                                                                                                                                                                                    
+reveal_coretop|jtck_inferred_clock[0]          343       df1_lidar_top_reveal_coretop_instance.jtagconn16_inst_0.jtck(jtagconn16)     -                                                                -                 -                          
+                                                                                                                                                                                                                                                    
+iddrx2f_uniq_1|sclk_inferred_clock             166       u1_iddr_tdc1.Inst6_CLKDIVF.CDIVX(CLKDIVF)                                    u_mpt2042_top.u1_lvds_dec.r_decode_reset.C                       -                 -                          
+                                                                                                                                                                                                                                                    
+iddrx2f_uniq_2|sclk_inferred_clock             166       u2_iddr_tdc2.Inst6_CLKDIVF.CDIVX(CLKDIVF)                                    u_mpt2042_top.u2_lvds_dec.r_decode_reset.C                       -                 -                          
+                                                                                                                                                                                                                                                    
+pll_uniq_1|CLKOS2_inferred_clock               74        u_pll.PLLInst_0.CLKOS2(EHXPLLL)                                              r2_150mrst_sync.C                                                -                 -                          
+                                                                                                                                                                                                                                                    
+eth_pll_uniq_1|CLKOS_inferred_clock            72        u_eth_top.u_eth_pll.PLLInst_0.CLKOS(EHXPLLL)                                 u_eth_top.u_rmii_top.u_rmii_tx.o_ethphy_txen.C                   -                 -                          
+====================================================================================================================================================================================================================================================

@@ -1,0 +1,952 @@
+
+fsm_encoding {92114111444} onehot
+
+fsm_state_encoding {92114111444} ST_IDLE {000000000000001}
+
+fsm_state_encoding {92114111444} ST_CFG_MR0 {000000000000010}
+
+fsm_state_encoding {92114111444} ST_CFG_MR1 {000000000000100}
+
+fsm_state_encoding {92114111444} ST_CFG_MR2 {000000000001000}
+
+fsm_state_encoding {92114111444} ST_CFG_MR3 {000000000010000}
+
+fsm_state_encoding {92114111444} ST_READY {000000000100000}
+
+fsm_state_encoding {92114111444} ST_WAIT_FIFO {000000001000000}
+
+fsm_state_encoding {92114111444} ST_RDFIFO {000000010000000}
+
+fsm_state_encoding {92114111444} ST_WDDR {000000100000000}
+
+fsm_state_encoding {92114111444} ST_WAIT_RDY {000001000000000}
+
+fsm_state_encoding {92114111444} ST_WAIT_WRDONE {000010000000000}
+
+fsm_state_encoding {92114111444} ST_RDDR {000100000000000}
+
+fsm_state_encoding {92114111444} ST_WAIT_VALID {001000000000000}
+
+fsm_state_encoding {92114111444} ST_WAIT_RDONE {010000000000000}
+
+fsm_state_encoding {92114111444} ST_DONE {100000000000000}
+
+fsm_registers {92114111444} {r_curr_state[14]}  {r_curr_state[13]}  {r_curr_state[12]}  {r_curr_state[11]}  {r_curr_state[10]}  {r_curr_state[9]}  {r_curr_state[8]}  {r_curr_state[7]}  {r_curr_state[6]}  {r_curr_state[5]}  {r_curr_state[4]}  {r_curr_state[3]}  {r_curr_state[2]}  {r_curr_state[1]}  {r_curr_state[0]} 
+
+fsm_encoding {94305430543} onehot
+
+fsm_state_encoding {94305430543} ST_SEL_IDLE {00001}
+
+fsm_state_encoding {94305430543} ST_SEL_MSG0 {00010}
+
+fsm_state_encoding {94305430543} ST_SEL_MSG1 {00100}
+
+fsm_state_encoding {94305430543} ST_SEL_MSG2 {01000}
+
+fsm_state_encoding {94305430543} ST_SEL_MSG3 {10000}
+
+fsm_registers {94305430543} {r_curr_state[4]}  {r_curr_state[3]}  {r_curr_state[2]}  {r_curr_state[1]}  {r_curr_state[0]} 
+
+fsm_encoding {39124412440} onehot
+
+fsm_state_encoding {39124412440} ST_IDLE {00001}
+
+fsm_state_encoding {39124412440} ST_ETH_HEAD {00010}
+
+fsm_state_encoding {39124412440} ST_ARP_DATA {00100}
+
+fsm_state_encoding {39124412440} ST_WAIT_EOP {01000}
+
+fsm_state_encoding {39124412440} ST_RX_END {10000}
+
+fsm_registers {39124412440} {r_cur_state[4]}  {r_cur_state[3]}  {r_cur_state[2]}  {r_cur_state[1]}  {r_cur_state[0]} 
+
+fsm_encoding {40133413339} original
+
+fsm_state_encoding {40133413339} ST_IDLE {00001}
+
+fsm_state_encoding {40133413339} ST_PREAMBLE {00010}
+
+fsm_state_encoding {40133413339} ST_ETH_HEAD {00100}
+
+fsm_state_encoding {40133413339} ST_ARP_DATA {01000}
+
+fsm_state_encoding {40133413339} ST_CRC {10000}
+
+fsm_registers {40133413339} {r_cur_state[4]}  {r_cur_state[3]}  {r_cur_state[2]}  {r_cur_state[1]}  {r_cur_state[0]} 
+
+fsm_encoding {44161416138} onehot
+
+fsm_state_encoding {44161416138} ST_IDLE {00000001}
+
+fsm_state_encoding {44161416138} ST_ETH_HEAD {00000010}
+
+fsm_state_encoding {44161416138} ST_IP_HEAD {00000100}
+
+fsm_state_encoding {44161416138} ST_ICMP_HEAD {00001000}
+
+fsm_state_encoding {44161416138} ST_ICMP_DATA {00010000}
+
+fsm_state_encoding {44161416138} ST_WAIT_EOP {00100000}
+
+fsm_state_encoding {44161416138} ST_RX_DONE {01000000}
+
+fsm_state_encoding {44161416138} ST_RX_END {10000000}
+
+fsm_registers {44161416138} {r_cur_state[7]}  {r_cur_state[6]}  {r_cur_state[5]}  {r_cur_state[4]}  {r_cur_state[3]}  {r_cur_state[2]}  {r_cur_state[1]}  {r_cur_state[0]} 
+
+fsm_encoding {45154415437} original
+
+fsm_state_encoding {45154415437} ST_IDLE {00000001}
+
+fsm_state_encoding {45154415437} ST_HEAD_CHECKSUM {00000010}
+
+fsm_state_encoding {45154415437} ST_ICMP_CHECKSUM {00000100}
+
+fsm_state_encoding {45154415437} ST_PREAMBLE {00001000}
+
+fsm_state_encoding {45154415437} ST_ETH_HEAD {00010000}
+
+fsm_state_encoding {45154415437} ST_IP_HEAD {00100000}
+
+fsm_state_encoding {45154415437} ST_ICMP_DATA {01000000}
+
+fsm_state_encoding {45154415437} ST_CRC {10000000}
+
+fsm_registers {45154415437} {r_cur_state[7]}  {r_cur_state[6]}  {r_cur_state[5]}  {r_cur_state[4]}  {r_cur_state[3]}  {r_cur_state[2]}  {r_cur_state[1]}  {r_cur_state[0]} 
+
+fsm_encoding {47136413636} onehot
+
+fsm_state_encoding {47136413636} ST_IDLE {0000001}
+
+fsm_state_encoding {47136413636} ST_ETH_HEAD {0000010}
+
+fsm_state_encoding {47136413636} ST_IP_HEAD {0000100}
+
+fsm_state_encoding {47136413636} ST_UDP_HEAD {0001000}
+
+fsm_state_encoding {47136413636} ST_UDP_DATA {0010000}
+
+fsm_state_encoding {47136413636} ST_WAIT_EOP {0100000}
+
+fsm_state_encoding {47136413636} ST_RX_END {1000000}
+
+fsm_registers {47136413636} {r_cur_state[6]}  {r_cur_state[5]}  {r_cur_state[4]}  {r_cur_state[3]}  {r_cur_state[2]}  {r_cur_state[1]}  {r_cur_state[0]} 
+
+fsm_encoding {48202420235} original
+
+fsm_state_encoding {48202420235} ST_IDLE {00000000}
+
+fsm_state_encoding {48202420235} ST_CHECK_SUM {00000001}
+
+fsm_state_encoding {48202420235} ST_PREAMBLE {00000010}
+
+fsm_state_encoding {48202420235} ST_ETH_HEAD {00000100}
+
+fsm_state_encoding {48202420235} ST_IP_HEAD {00001000}
+
+fsm_state_encoding {48202420235} ST_TX_DATA {00010000}
+
+fsm_state_encoding {48202420235} ST_CRC {00100000}
+
+fsm_registers {48202420235} {r_cur_state[7]}  {r_cur_state[6]}  {r_cur_state[5]}  {r_cur_state[4]}  {r_cur_state[3]}  {r_cur_state[2]}  {r_cur_state[1]}  {r_cur_state[0]} 
+
+fsm_encoding {79356135633} onehot
+
+fsm_state_encoding {79356135633} ST_IDLE {00000000001}
+
+fsm_state_encoding {79356135633} ST_READY {00000000010}
+
+fsm_state_encoding {79356135633} ST_RXRAM_PARSEDATA {00000000100}
+
+fsm_state_encoding {79356135633} ST_RXRAM_RDADDR {00000001000}
+
+fsm_state_encoding {79356135633} ST_RXRAM_RDDATA {00000010000}
+
+fsm_state_encoding {79356135633} ST_RXRAM_RDDONE {00000100000}
+
+fsm_state_encoding {79356135633} ST_TXRAM_START {00001000000}
+
+fsm_state_encoding {79356135633} ST_TXRAM_WRADDR {00010000000}
+
+fsm_state_encoding {79356135633} ST_TXRAM_DATA {00100000000}
+
+fsm_state_encoding {79356135633} ST_WAIT_FIFO {01000000000}
+
+fsm_state_encoding {79356135633} ST_TXRAM_DONE {10000000000}
+
+fsm_registers {79356135633} {r_state[10]}  {r_state[9]}  {r_state[8]}  {r_state[7]}  {r_state[6]}  {r_state[5]}  {r_state[4]}  {r_state[3]}  {r_state[2]}  {r_state[1]}  {r_state[0]} 
+
+fsm_encoding {79286128634} onehot
+
+fsm_state_encoding {79286128634} ST_DDR_IDLE {00000001}
+
+fsm_state_encoding {79286128634} ST_DDR_READY {00000010}
+
+fsm_state_encoding {79286128634} ST_DDR_BASEADDR {00000100}
+
+fsm_state_encoding {79286128634} ST_DDR_RDEN {00001000}
+
+fsm_state_encoding {79286128634} ST_ADDR_INCR {00010000}
+
+fsm_state_encoding {79286128634} ST_DDR_DELAY {00100000}
+
+fsm_state_encoding {79286128634} ST_WAIT_DDR {01000000}
+
+fsm_state_encoding {79286128634} ST_DDR_RDDONE {10000000}
+
+fsm_registers {79286128634} {r_rddr_state[7]}  {r_rddr_state[6]}  {r_rddr_state[5]}  {r_rddr_state[4]}  {r_rddr_state[3]}  {r_rddr_state[2]}  {r_rddr_state[1]}  {r_rddr_state[0]} 
+
+fsm_encoding {694014032} onehot
+
+fsm_state_encoding {694014032} CAL_IDLE {00001}
+
+fsm_state_encoding {694014032} CAL_ASSIGN {00010}
+
+fsm_state_encoding {694014032} CAL_COMP {00100}
+
+fsm_state_encoding {694014032} CAL_END {01000}
+
+fsm_state_encoding {694014032} CAL_OVER {10000}
+
+fsm_registers {694014032} {r_cal_state[4]}  {r_cal_state[3]}  {r_cal_state[2]}  {r_cal_state[1]}  {r_cal_state[0]} 
+
+fsm_encoding {87101110131} sequential
+
+fsm_state_encoding {87101110131} ST_IDLE {000}
+
+fsm_state_encoding {87101110131} ST_ASSIGN {001}
+
+fsm_state_encoding {87101110131} ST_START {010}
+
+fsm_state_encoding {87101110131} ST_STOP {011}
+
+fsm_state_encoding {87101110131} ST_END {100}
+
+fsm_state_encoding {87101110131} ST_OUTPUT {101}
+
+fsm_registers {87101110131} {r_index_state[2]}  {r_index_state[1]}  {r_index_state[0]} 
+
+fsm_encoding {84344134430} onehot
+
+fsm_state_encoding {84344134430} PARA_IDLE {0000000000000000001}
+
+fsm_state_encoding {84344134430} PARA_WAIT {0000000000000000010}
+
+fsm_state_encoding {84344134430} READ_DDR_EN {0000000000000000100}
+
+fsm_state_encoding {84344134430} READ_DDR_FIFO {0000000000000001000}
+
+fsm_state_encoding {84344134430} READ_FIFO_EN {0000000000000010000}
+
+fsm_state_encoding {84344134430} READ_FIFO_DATA {0000000000000100000}
+
+fsm_state_encoding {84344134430} PARA_DATA_WRITE {0000000000001000000}
+
+fsm_state_encoding {84344134430} PARA_DATA_CNT {0000000000010000000}
+
+fsm_state_encoding {84344134430} WRITE_PARA2DDR_EN {0000000000100000000}
+
+fsm_state_encoding {84344134430} WRITE_ADDR_INC {0000000001000000000}
+
+fsm_state_encoding {84344134430} PARA_SHIFT {0000000010000000000}
+
+fsm_state_encoding {84344134430} PARA_DELAY {0000000100000000000}
+
+fsm_state_encoding {84344134430} PARA_STORE {0000001000000000000}
+
+fsm_state_encoding {84344134430} DDR_BASE_ADDR {0000010000000000000}
+
+fsm_state_encoding {84344134430} READ_CACHE_DATA {0000100000000000000}
+
+fsm_state_encoding {84344134430} WRDDR_EN {0001000000000000000}
+
+fsm_state_encoding {84344134430} WRDDR_ADDR_INCR {0010000000000000000}
+
+fsm_state_encoding {84344134430} WRDDR_CNT {0100000000000000000}
+
+fsm_state_encoding {84344134430} PARA_END {1000000000000000000}
+
+fsm_registers {84344134430} {r_para_state[18]}  {r_para_state[17]}  {r_para_state[16]}  {r_para_state[15]}  {r_para_state[14]}  {r_para_state[13]}  {r_para_state[12]}  {r_para_state[11]}  {r_para_state[10]}  {r_para_state[9]}  {r_para_state[8]}  {r_para_state[7]}  {r_para_state[6]}  {r_para_state[5]}  {r_para_state[4]}  {r_para_state[3]}  {r_para_state[2]}  {r_para_state[1]}  {r_para_state[0]} 
+
+fsm_encoding {99107110729} onehot
+
+fsm_state_encoding {99107110729} 000 {00001}
+
+fsm_state_encoding {99107110729} 001 {00010}
+
+fsm_state_encoding {99107110729} 010 {00100}
+
+fsm_state_encoding {99107110729} 011 {01000}
+
+fsm_state_encoding {99107110729} 100 {10000}
+
+fsm_registers {99107110729} {r_state[4]}  {r_state[3]}  {r_state[2]}  {r_state[1]}  {r_state[0]} 
+
+fsm_encoding {97190119028} onehot
+
+fsm_state_encoding {97190119028} IDLE {0000000001}
+
+fsm_state_encoding {97190119028} CS_LOW {0000000010}
+
+fsm_state_encoding {97190119028} CS_HIGH {0000000100}
+
+fsm_state_encoding {97190119028} CMD {0000001000}
+
+fsm_state_encoding {97190119028} CMD_ACK {0000010000}
+
+fsm_state_encoding {97190119028} ADDR {0000100000}
+
+fsm_state_encoding {97190119028} ADDR_ACK {0001000000}
+
+fsm_state_encoding {97190119028} RW_BYTE_REQ {0010000000}
+
+fsm_state_encoding {97190119028} RW_BYTE {0100000000}
+
+fsm_state_encoding {97190119028} RW_BYTE_ACK {1000000000}
+
+fsm_registers {97190119028} {r_state[9]}  {r_state[8]}  {r_state[7]}  {r_state[6]}  {r_state[5]}  {r_state[4]}  {r_state[3]}  {r_state[2]}  {r_state[1]}  {r_state[0]} 
+
+fsm_encoding {985615627} onehot
+
+fsm_state_encoding {985615627} 00000000 {00000001}
+
+fsm_state_encoding {985615627} 00000001 {00000010}
+
+fsm_state_encoding {985615627} 00000010 {00000100}
+
+fsm_state_encoding {985615627} 00000011 {00001000}
+
+fsm_state_encoding {985615627} 00000101 {00010000}
+
+fsm_state_encoding {985615627} 00000110 {00100000}
+
+fsm_state_encoding {985615627} 11000111 {01000000}
+
+fsm_state_encoding {985615627} 11011000 {10000000}
+
+fsm_registers {985615627} {r_cmd[7]}  {r_cmd[6]}  {r_cmd[5]}  {r_cmd[4]}  {r_cmd[3]}  {r_cmd[2]}  {r_cmd[1]}  {r_cmd[0]} 
+
+fsm_encoding {98110111026} sequential
+
+fsm_state_encoding {98110111026} IDLE {00}
+
+fsm_state_encoding {98110111026} WAIT_CMD {01}
+
+fsm_state_encoding {98110111026} CMD {10}
+
+fsm_state_encoding {98110111026} CMD_ACK {11}
+
+fsm_registers {98110111026} {r_state[1]}  {r_state[0]} 
+
+fsm_encoding {95140114025} onehot
+
+fsm_state_encoding {95140114025} FLASH_IDLE {000000000000000000000001}
+
+fsm_state_encoding {95140114025} FLASH_READ {000000000000000000000010}
+
+fsm_state_encoding {95140114025} FLASH_READ_ACK {000000000000000000000100}
+
+fsm_state_encoding {95140114025} FLASH_READ_ASSIGN {000000000000000000001000}
+
+fsm_state_encoding {95140114025} FLASH_READ_DATA {000000000000000000010000}
+
+fsm_state_encoding {95140114025} FLASH_WDDR_ADDR {000000000000000000100000}
+
+fsm_state_encoding {95140114025} FLASH_READ_SHIFT {000000000000000001000000}
+
+fsm_state_encoding {95140114025} FLASH_READ_DELAY {000000000000000010000000}
+
+fsm_state_encoding {95140114025} FLASH_WAIT {000000000000000100000000}
+
+fsm_state_encoding {95140114025} FLASH_ERASE {000000000000001000000000}
+
+fsm_state_encoding {95140114025} FLASH_ERASE_ACK {000000000000010000000000}
+
+fsm_state_encoding {95140114025} FLASH_ERASE_DELAY {000000000000100000000000}
+
+fsm_state_encoding {95140114025} FLASH_RDDR_EN {000000000001000000000000}
+
+fsm_state_encoding {95140114025} FLASH_RDDR_ADDR {000000000010000000000000}
+
+fsm_state_encoding {95140114025} FLASH_WRITE_CMD {000000000100000000000000}
+
+fsm_state_encoding {95140114025} FLASH_RDFIFO_EN {000000001000000000000000}
+
+fsm_state_encoding {95140114025} FLASH_RDFIFO_DATA {000000010000000000000000}
+
+fsm_state_encoding {95140114025} FLASH_WRITE_REG {000000100000000000000000}
+
+fsm_state_encoding {95140114025} FLASH_WRITE_DATA {000001000000000000000000}
+
+fsm_state_encoding {95140114025} FLASH_WRITE_WAIT {000010000000000000000000}
+
+fsm_state_encoding {95140114025} FLASH_WRITE_ACK {000100000000000000000000}
+
+fsm_state_encoding {95140114025} FLASH_PAGE_INCR {001000000000000000000000}
+
+fsm_state_encoding {95140114025} FLASH_WRITE_DELAY {010000000000000000000000}
+
+fsm_state_encoding {95140114025} FLASH_END {100000000000000000000000}
+
+fsm_registers {95140114025} {r_flash_state[23]}  {r_flash_state[22]}  {r_flash_state[21]}  {r_flash_state[20]}  {r_flash_state[19]}  {r_flash_state[18]}  {r_flash_state[17]}  {r_flash_state[16]}  {r_flash_state[15]}  {r_flash_state[14]}  {r_flash_state[13]}  {r_flash_state[12]}  {r_flash_state[11]}  {r_flash_state[10]}  {r_flash_state[9]}  {r_flash_state[8]}  {r_flash_state[7]}  {r_flash_state[6]}  {r_flash_state[5]}  {r_flash_state[4]}  {r_flash_state[3]}  {r_flash_state[2]}  {r_flash_state[1]}  {r_flash_state[0]} 
+
+fsm_encoding {50260126024} onehot
+
+fsm_state_encoding {50260126024} ST_IDLE {000001}
+
+fsm_state_encoding {50260126024} ST_POWER_ON {000010}
+
+fsm_state_encoding {50260126024} ST_MOTOR2SET {000100}
+
+fsm_state_encoding {50260126024} ST_WAIT_SPEED {001000}
+
+fsm_state_encoding {50260126024} ST_SPEED_STABLE {010000}
+
+fsm_state_encoding {50260126024} ST_SPEED_FAILED {100000}
+
+fsm_registers {50260126024} {r_state[5]}  {r_state[4]}  {r_state[3]}  {r_state[2]}  {r_state[1]}  {r_state[0]} 
+
+fsm_encoding {50260126024} onehot
+
+fsm_state_encoding {50260126024} ST_IDLE {000001}
+
+fsm_state_encoding {50260126024} ST_POWER_ON {000010}
+
+fsm_state_encoding {50260126024} ST_MOTOR2SET {000100}
+
+fsm_state_encoding {50260126024} ST_WAIT_SPEED {001000}
+
+fsm_state_encoding {50260126024} ST_SPEED_STABLE {010000}
+
+fsm_state_encoding {50260126024} ST_SPEED_FAILED {100000}
+
+fsm_registers {50260126024} {r_state[5]}  {r_state[4]}  {r_state[3]}  {r_state[2]}  {r_state[1]}  {r_state[0]} 
+
+fsm_encoding {58192419223} onehot
+
+fsm_state_encoding {58192419223} 000 {00000001}
+
+fsm_state_encoding {58192419223} 001 {00000010}
+
+fsm_state_encoding {58192419223} 010 {00000100}
+
+fsm_state_encoding {58192419223} 011 {00001000}
+
+fsm_state_encoding {58192419223} 100 {00010000}
+
+fsm_state_encoding {58192419223} 101 {00100000}
+
+fsm_state_encoding {58192419223} 110 {01000000}
+
+fsm_state_encoding {58192419223} 111 {10000000}
+
+fsm_registers {58192419223} {r_eg_state[7]}  {r_eg_state[6]}  {r_eg_state[5]}  {r_eg_state[4]}  {r_eg_state[3]}  {r_eg_state[2]}  {r_eg_state[1]}  {r_eg_state[0]} 
+
+fsm_encoding {56126412622} onehot
+
+fsm_state_encoding {56126412622} FS_IDLE {000001}
+
+fsm_state_encoding {56126412622} FS_WAIT {000010}
+
+fsm_state_encoding {56126412622} FS_JUDGE {000100}
+
+fsm_state_encoding {56126412622} FS_BEGIN {001000}
+
+fsm_state_encoding {56126412622} FS_CYC {010000}
+
+fsm_state_encoding {56126412622} FS_INRV {100000}
+
+fsm_registers {56126412622} {fs_state[5]}  {fs_state[4]}  {fs_state[3]}  {fs_state[2]}  {fs_state[1]}  {fs_state[0]} 
+
+fsm_encoding {58192419221} onehot
+
+fsm_state_encoding {58192419221} 000 {00000001}
+
+fsm_state_encoding {58192419221} 001 {00000010}
+
+fsm_state_encoding {58192419221} 010 {00000100}
+
+fsm_state_encoding {58192419221} 011 {00001000}
+
+fsm_state_encoding {58192419221} 100 {00010000}
+
+fsm_state_encoding {58192419221} 101 {00100000}
+
+fsm_state_encoding {58192419221} 110 {01000000}
+
+fsm_state_encoding {58192419221} 111 {10000000}
+
+fsm_registers {58192419221} {r_eg_state[7]}  {r_eg_state[6]}  {r_eg_state[5]}  {r_eg_state[4]}  {r_eg_state[3]}  {r_eg_state[2]}  {r_eg_state[1]}  {r_eg_state[0]} 
+
+fsm_encoding {615915919} onehot
+
+fsm_state_encoding {615915919} LASER_IDLE {0000001}
+
+fsm_state_encoding {615915919} LASER_WAIT {0000010}
+
+fsm_state_encoding {615915919} LASER_DELAY {0000100}
+
+fsm_state_encoding {615915919} LASER_RSTI {0001000}
+
+fsm_state_encoding {615915919} LASER_EMIT {0010000}
+
+fsm_state_encoding {615915919} LASER_WINDOW {0100000}
+
+fsm_state_encoding {615915919} LASER_END {1000000}
+
+fsm_registers {615915919} {r_laser_state[6]}  {r_laser_state[5]}  {r_laser_state[4]}  {r_laser_state[3]}  {r_laser_state[2]}  {r_laser_state[1]}  {r_laser_state[0]} 
+
+fsm_encoding {74119411918} onehot
+
+fsm_state_encoding {74119411918} ST_GPX2_IDLE {0000000001}
+
+fsm_state_encoding {74119411918} ST_GPX2_PORON {0000000010}
+
+fsm_state_encoding {74119411918} ST_GPX2_PORDLY {0000000100}
+
+fsm_state_encoding {74119411918} ST_GPX2_WRREG {0000001000}
+
+fsm_state_encoding {74119411918} ST_GPX2_RDREG {0000010000}
+
+fsm_state_encoding {74119411918} ST_GPX2_WAIT_EN {0000100000}
+
+fsm_state_encoding {74119411918} ST_GPX2_INIT {0001000000}
+
+fsm_state_encoding {74119411918} ST_GPX2_WAIT_SIGN {0010000000}
+
+fsm_state_encoding {74119411918} ST_GPX2_WAIT_RESULT {0100000000}
+
+fsm_state_encoding {74119411918} ST_GPX2_END {1000000000}
+
+fsm_registers {74119411918} {r_curr_state[9]}  {r_curr_state[8]}  {r_curr_state[7]}  {r_curr_state[6]}  {r_curr_state[5]}  {r_curr_state[4]}  {r_curr_state[3]}  {r_curr_state[2]}  {r_curr_state[1]}  {r_curr_state[0]} 
+
+fsm_encoding {757447417} onehot
+
+fsm_state_encoding {757447417} ST_IDLE {000001}
+
+fsm_state_encoding {757447417} ST_SPI_INRV {000010}
+
+fsm_state_encoding {757447417} ST_DCLK_L {000100}
+
+fsm_state_encoding {757447417} ST_DCLK_H {001000}
+
+fsm_state_encoding {757447417} ST_SPI_OVER {010000}
+
+fsm_state_encoding {757447417} ST_SPI_DONE {100000}
+
+fsm_registers {757447417} {r_curr_state[5]}  {r_curr_state[4]}  {r_curr_state[3]}  {r_curr_state[2]}  {r_curr_state[1]}  {r_curr_state[0]} 
+
+fsm_encoding {766516516} onehot
+
+fsm_state_encoding {766516516} ST_IDLE {0000001}
+
+fsm_state_encoding {766516516} ST_READY {0000010}
+
+fsm_state_encoding {766516516} ST_WAIT {0000100}
+
+fsm_state_encoding {766516516} ST_DLY {0001000}
+
+fsm_state_encoding {766516516} ST_DATA_FILL {0010000}
+
+fsm_state_encoding {766516516} ST_OVER {0100000}
+
+fsm_state_encoding {766516516} ST_END {1000000}
+
+fsm_registers {766516516} {r_fill_state[6]}  {r_fill_state[5]}  {r_fill_state[4]}  {r_fill_state[3]}  {r_fill_state[2]}  {r_fill_state[1]}  {r_fill_state[0]} 
+
+fsm_encoding {73202420215} onehot
+
+fsm_state_encoding {73202420215} ST_IDLE {0000000001}
+
+fsm_state_encoding {73202420215} ST_WAIT_SIGN {0000000010}
+
+fsm_state_encoding {73202420215} ST_WAIT_MFRAME {0000000100}
+
+fsm_state_encoding {73202420215} ST_WAIT_ERFRAME {0000001000}
+
+fsm_state_encoding {73202420215} ST_WAIT_EFFRAME {0000010000}
+
+fsm_state_encoding {73202420215} ST_WAIT_DELAY {0000100000}
+
+fsm_state_encoding {73202420215} ST_WAIT_CAL {0001000000}
+
+fsm_state_encoding {73202420215} ST_START_CAL {0010000000}
+
+fsm_state_encoding {73202420215} ST_OUT_RESULT {0100000000}
+
+fsm_state_encoding {73202420215} ST_DONE {1000000000}
+
+fsm_registers {73202420215} {r_curr_state[9]}  {r_curr_state[8]}  {r_curr_state[7]}  {r_curr_state[6]}  {r_curr_state[5]}  {r_curr_state[4]}  {r_curr_state[3]}  {r_curr_state[2]}  {r_curr_state[1]}  {r_curr_state[0]} 
+
+fsm_encoding {727937914} onehot
+
+fsm_state_encoding {727937914} 000 {00001}
+
+fsm_state_encoding {727937914} 001 {00010}
+
+fsm_state_encoding {727937914} 010 {00100}
+
+fsm_state_encoding {727937914} 011 {01000}
+
+fsm_state_encoding {727937914} 100 {10000}
+
+fsm_registers {727937914} {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
+
+fsm_encoding {636016013} onehot
+
+fsm_state_encoding {636016013} ADC_IDLE {0000001}
+
+fsm_state_encoding {636016013} ADC_SAMP1 {0000010}
+
+fsm_state_encoding {636016013} ADC_WAIT1 {0000100}
+
+fsm_state_encoding {636016013} ADC_DELAY {0001000}
+
+fsm_state_encoding {636016013} ADC_SAMP2 {0010000}
+
+fsm_state_encoding {636016013} ADC_WAIT2 {0100000}
+
+fsm_state_encoding {636016013} ADC_END {1000000}
+
+fsm_registers {636016013} {r_adc_state[6]}  {r_adc_state[5]}  {r_adc_state[4]}  {r_adc_state[3]}  {r_adc_state[2]}  {r_adc_state[1]}  {r_adc_state[0]} 
+
+fsm_encoding {694014032} onehot
+
+fsm_state_encoding {694014032} CAL_IDLE {00001}
+
+fsm_state_encoding {694014032} CAL_ASSIGN {00010}
+
+fsm_state_encoding {694014032} CAL_COMP {00100}
+
+fsm_state_encoding {694014032} CAL_END {01000}
+
+fsm_state_encoding {694014032} CAL_OVER {10000}
+
+fsm_registers {694014032} {r_cal_state[4]}  {r_cal_state[3]}  {r_cal_state[2]}  {r_cal_state[1]}  {r_cal_state[0]} 
+
+fsm_encoding {659119112} onehot
+
+fsm_state_encoding {659119112} TEMP_IDLE {0000000001}
+
+fsm_state_encoding {659119112} TEMP_WAIT {0000000010}
+
+fsm_state_encoding {659119112} TEMP_JUDGE {0000000100}
+
+fsm_state_encoding {659119112} TEMP_ASSIGN {0000001000}
+
+fsm_state_encoding {659119112} TEMP_CAL1 {0000010000}
+
+fsm_state_encoding {659119112} TEMP_DELAY1 {0000100000}
+
+fsm_state_encoding {659119112} TEMP_CAL2 {0001000000}
+
+fsm_state_encoding {659119112} TEMP_DELAY2 {0010000000}
+
+fsm_state_encoding {659119112} TEMP_CAL3 {0100000000}
+
+fsm_state_encoding {659119112} TEMP_END {1000000000}
+
+fsm_registers {659119112} {r_temp_state[9]}  {r_temp_state[8]}  {r_temp_state[7]}  {r_temp_state[6]}  {r_temp_state[5]}  {r_temp_state[4]}  {r_temp_state[3]}  {r_temp_state[2]}  {r_temp_state[1]}  {r_temp_state[0]} 
+
+fsm_encoding {714214211} sequential
+
+fsm_state_encoding {714214211} 000 {000}
+
+fsm_state_encoding {714214211} 001 {001}
+
+fsm_state_encoding {714214211} 010 {010}
+
+fsm_state_encoding {714214211} 011 {011}
+
+fsm_state_encoding {714214211} 100 {100}
+
+fsm_state_encoding {714214211} 101 {101}
+
+fsm_state_encoding {714214211} 110 {110}
+
+fsm_state_encoding {714214211} 111 {111}
+
+fsm_registers {714214211} {r_table_state[2]}  {r_table_state[1]}  {r_table_state[0]} 
+
+fsm_encoding {646416410} onehot
+
+fsm_state_encoding {646416410} DAC_IDLE {0000001}
+
+fsm_state_encoding {646416410} DAC_TEMP_NOW {0000010}
+
+fsm_state_encoding {646416410} DAC_CHOOSE {0000100}
+
+fsm_state_encoding {646416410} DAC_PARA {0001000}
+
+fsm_state_encoding {646416410} DAC_ASSIGN {0010000}
+
+fsm_state_encoding {646416410} DAC_VALUE {0100000}
+
+fsm_state_encoding {646416410} DAC_END {1000000}
+
+fsm_registers {646416410} {r_dac_state[6]}  {r_dac_state[5]}  {r_dac_state[4]}  {r_dac_state[3]}  {r_dac_state[2]}  {r_dac_state[1]}  {r_dac_state[0]} 
+
+fsm_encoding {66361369} sequential
+
+fsm_state_encoding {66361369} 000 {000}
+
+fsm_state_encoding {66361369} 001 {001}
+
+fsm_state_encoding {66361369} 010 {010}
+
+fsm_state_encoding {66361369} 011 {011}
+
+fsm_state_encoding {66361369} 100 {100}
+
+fsm_state_encoding {66361369} 101 {101}
+
+fsm_state_encoding {66361369} 110 {110}
+
+fsm_state_encoding {66361369} 111 {111}
+
+fsm_registers {66361369} {r_table_state[2]}  {r_table_state[1]}  {r_table_state[0]} 
+
+fsm_encoding {62811818} sequential
+
+fsm_state_encoding {62811818} CHECK_IDLE {00}
+
+fsm_state_encoding {62811818} CHECK_WAIT {01}
+
+fsm_state_encoding {62811818} CHECK_SETHV {10}
+
+fsm_state_encoding {62811818} CHECK_GETHV {11}
+
+fsm_registers {62811818} {r_check_state[1]}  {r_check_state[0]} 
+
+fsm_encoding {101641647} sequential
+
+fsm_state_encoding {101641647} ST_IDLE {00}
+
+fsm_state_encoding {101641647} ST_READY {01}
+
+fsm_state_encoding {101641647} ST_CAL_PULSE {10}
+
+fsm_state_encoding {101641647} ST_END {11}
+
+fsm_registers {101641647} {r_data_state[1]}  {r_data_state[0]} 
+
+fsm_encoding {102781786} onehot
+
+fsm_state_encoding {102781786} ST_IDLE {000000001}
+
+fsm_state_encoding {102781786} ST_RISE_PRE {000000010}
+
+fsm_state_encoding {102781786} ST_RISE_INDEX {000000100}
+
+fsm_state_encoding {102781786} ST_PULSE_PRE {000001000}
+
+fsm_state_encoding {102781786} ST_PULSE_INDEX1 {000010000}
+
+fsm_state_encoding {102781786} ST_PULSE_INDEX2 {000100000}
+
+fsm_state_encoding {102781786} ST_CAL_PULSERE {001000000}
+
+fsm_state_encoding {102781786} ST_INDEX_CALDONE {010000000}
+
+fsm_state_encoding {102781786} ST_INDEX_END {100000000}
+
+fsm_registers {102781786} {r_index_state[8]}  {r_index_state[7]}  {r_index_state[6]}  {r_index_state[5]}  {r_index_state[4]}  {r_index_state[3]}  {r_index_state[2]}  {r_index_state[1]}  {r_index_state[0]} 
+
+fsm_encoding {10312311235} onehot
+
+fsm_state_encoding {10312311235} ST_IDLE {0000000000000000001}
+
+fsm_state_encoding {10312311235} ST_PRE_READ {0000000000000000010}
+
+fsm_state_encoding {10312311235} ST_RDFIFO_FIRDATA {0000000000000000100}
+
+fsm_state_encoding {10312311235} ST_RDFIFO_FIREN {0000000000000001000}
+
+fsm_state_encoding {10312311235} ST_RDFIFO_SECREN {0000000000000010000}
+
+fsm_state_encoding {10312311235} ST_WAIT_RDEMPTY {0000000000000100000}
+
+fsm_state_encoding {10312311235} ST_READ_DIST1 {0000000000001000000}
+
+fsm_state_encoding {10312311235} ST_READ_DIST2 {0000000000010000000}
+
+fsm_state_encoding {10312311235} CAL_DELAY2 {0000000000100000000}
+
+fsm_state_encoding {10312311235} DIST_CAL2 {0000000001000000000}
+
+fsm_state_encoding {10312311235} DIST_CAL1 {0000000010000000000}
+
+fsm_state_encoding {10312311235} CAL_DELAY {0000000100000000000}
+
+fsm_state_encoding {10312311235} ST_RDFIFO_SECDATA {0000001000000000000}
+
+fsm_state_encoding {10312311235} READ_DIST3 {0000010000000000000}
+
+fsm_state_encoding {10312311235} WAIT_FIFO_EMPTY {0000100000000000000}
+
+fsm_state_encoding {10312311235} READ_DIST4 {0001000000000000000}
+
+fsm_state_encoding {10312311235} CAL_END {0010000000000000000}
+
+fsm_state_encoding {10312311235} CAL_OVER {0100000000000000000}
+
+fsm_state_encoding {10312311235} ST_DONE {1000000000000000000}
+
+fsm_registers {10312311235} {r_dist_state[18]}  {r_dist_state[17]}  {r_dist_state[16]}  {r_dist_state[15]}  {r_dist_state[14]}  {r_dist_state[13]}  {r_dist_state[12]}  {r_dist_state[11]}  {r_dist_state[10]}  {r_dist_state[9]}  {r_dist_state[8]}  {r_dist_state[7]}  {r_dist_state[6]}  {r_dist_state[5]}  {r_dist_state[4]}  {r_dist_state[3]}  {r_dist_state[2]}  {r_dist_state[1]}  {r_dist_state[0]} 
+
+fsm_encoding {105260264} onehot
+
+fsm_state_encoding {105260264} s_idle {00001}
+
+fsm_state_encoding {105260264} s_init {00010}
+
+fsm_state_encoding {105260264} s_calc1 {00100}
+
+fsm_state_encoding {105260264} s_calc2 {01000}
+
+fsm_state_encoding {105260264} s_done {10000}
+
+fsm_registers {105260264} {status[4]}  {status[3]}  {status[2]}  {status[1]}  {status[0]} 
+
+fsm_encoding {10411711173} onehot
+
+fsm_state_encoding {10411711173} IDLE {000000000000000001}
+
+fsm_state_encoding {10411711173} DIST_INDEX {000000000000000010}
+
+fsm_state_encoding {10411711173} RSSI_PRE {000000000000000100}
+
+fsm_state_encoding {10411711173} READ_FIFO_FIR {000000000000001000}
+
+fsm_state_encoding {10411711173} READ_FIFO_DATA_FIR {000000000000010000}
+
+fsm_state_encoding {10411711173} RSSI_READ1 {000000000000100000}
+
+fsm_state_encoding {10411711173} RSSI_READ2 {000000000001000000}
+
+fsm_state_encoding {10411711173} WAIT_FIFO {000000000010000000}
+
+fsm_state_encoding {10411711173} READ_FIFO_SEC {000000000100000000}
+
+fsm_state_encoding {10411711173} READ_FIFO_DATA_SEC {000000001000000000}
+
+fsm_state_encoding {10411711173} RSSI_READ3 {000000010000000000}
+
+fsm_state_encoding {10411711173} RSSI_READ4 {000000100000000000}
+
+fsm_state_encoding {10411711173} WAIT_FIFO_EMPTY {000001000000000000}
+
+fsm_state_encoding {10411711173} RSSI_CAL {000010000000000000}
+
+fsm_state_encoding {10411711173} RSSI_DELAY {000100000000000000}
+
+fsm_state_encoding {10411711173} RSSI_DIVID {001000000000000000}
+
+fsm_state_encoding {10411711173} RSSI_WAIT {010000000000000000}
+
+fsm_state_encoding {10411711173} RSSI_END {100000000000000000}
+
+fsm_registers {10411711173} {r_rssi_state[17]}  {r_rssi_state[16]}  {r_rssi_state[15]}  {r_rssi_state[14]}  {r_rssi_state[13]}  {r_rssi_state[12]}  {r_rssi_state[11]}  {r_rssi_state[10]}  {r_rssi_state[9]}  {r_rssi_state[8]}  {r_rssi_state[7]}  {r_rssi_state[6]}  {r_rssi_state[5]}  {r_rssi_state[4]}  {r_rssi_state[3]}  {r_rssi_state[2]}  {r_rssi_state[1]}  {r_rssi_state[0]} 
+
+fsm_encoding {90911912} onehot
+
+fsm_state_encoding {90911912} ST_IDLE {000000001}
+
+fsm_state_encoding {90911912} ST_READY {000000010}
+
+fsm_state_encoding {90911912} ST_WAIT {000000100}
+
+fsm_state_encoding {90911912} ST_WAIT2 {000001000}
+
+fsm_state_encoding {90911912} ST_WRITE {000010000}
+
+fsm_state_encoding {90911912} ST_SHIFT {000100000}
+
+fsm_state_encoding {90911912} ST_SHIFT2 {001000000}
+
+fsm_state_encoding {90911912} ST_SHIFT3 {010000000}
+
+fsm_state_encoding {90911912} ST_END {100000000}
+
+fsm_registers {90911912} {r_calib_state[8]}  {r_calib_state[7]}  {r_calib_state[6]}  {r_calib_state[5]}  {r_calib_state[4]}  {r_calib_state[3]}  {r_calib_state[2]}  {r_calib_state[1]}  {r_calib_state[0]} 
+
+fsm_encoding {89901901} onehot
+
+fsm_state_encoding {89901901} ST_IDLE {0000000001}
+
+fsm_state_encoding {89901901} ST_READY {0000000010}
+
+fsm_state_encoding {89901901} ST_WAIT {0000000100}
+
+fsm_state_encoding {89901901} ST_WAIT2 {0000001000}
+
+fsm_state_encoding {89901901} ST_WRITE {0000010000}
+
+fsm_state_encoding {89901901} ST_SHIFT {0000100000}
+
+fsm_state_encoding {89901901} ST_SHIFT2 {0001000000}
+
+fsm_state_encoding {89901901} ST_SHIFT3 {0010000000}
+
+fsm_state_encoding {89901901} ST_CYCLE_DONE {0100000000}
+
+fsm_state_encoding {89901901} ST_END {1000000000}
+
+fsm_registers {89901901} {r_loop_state[9]}  {r_loop_state[8]}  {r_loop_state[7]}  {r_loop_state[6]}  {r_loop_state[5]}  {r_loop_state[4]}  {r_loop_state[3]}  {r_loop_state[2]}  {r_loop_state[1]}  {r_loop_state[0]} 
+
+fsm_encoding {29102410242} sequential
+
+fsm_state_encoding {29102410242} ST_IDLE {00}
+
+fsm_state_encoding {29102410242} ST_PHY_EXEC {01}
+
+fsm_state_encoding {29102410242} ST_REG_READ {10}
+
+fsm_state_encoding {29102410242} ST_REG_WRITE {11}
+
+fsm_registers {29102410242} {r_curr_state[1]}  {r_curr_state[0]} 
+
+fsm_encoding {28185418541} onehot
+
+fsm_state_encoding {28185418541} ST_IDLE {00000000000000000001}
+
+fsm_state_encoding {28185418541} ST_WAIT_POWER_ON {00000000000000000010}
+
+fsm_state_encoding {28185418541} ST_WRITE_PHY_BMCR {00000000000000000100}
+
+fsm_state_encoding {28185418541} ST_READ_PHY_BMCR {00000000000000001000}
+
+fsm_state_encoding {28185418541} ST_WRITE_PHY_RCSR {00000000000000010000}
+
+fsm_state_encoding {28185418541} ST_READ_PHY_RCSR {00000000000000100000}
+
+fsm_state_encoding {28185418541} ST_WRITE_PHYCR {00000000000001000000}
+
+fsm_state_encoding {28185418541} ST_READ_PHYCR {00000000000010000000}
+
+fsm_state_encoding {28185418541} ST_WRITE_PHY_REGCR {00000000000100000000}
+
+fsm_state_encoding {28185418541} ST_WRITE_PHY_EXADDR {00000000001000000000}
+
+fsm_state_encoding {28185418541} ST_WRITE_PHY_NPREGCR {00000000010000000000}
+
+fsm_state_encoding {28185418541} ST_WRITE_PHY_NPADDR {00000000100000000000}
+
+fsm_state_encoding {28185418541} ST_READ_PHY_NPADDR_DATA {00000001000000000000}
+
+fsm_state_encoding {28185418541} ST_READ_PHY_BMSR {00000010000000000000}
+
+fsm_state_encoding {28185418541} ST_READ_PHY_PHYSTS {00000100000000000000}
+
+fsm_state_encoding {28185418541} ST_READ_PHY_ANAR {00001000000000000000}
+
+fsm_state_encoding {28185418541} ST_READ_CR3 {00010000000000000000}
+
+fsm_state_encoding {28185418541} ST_WAIT_PHYLINK {00100000000000000000}
+
+fsm_state_encoding {28185418541} ST_LINK_DETEC {01000000000000000000}
+
+fsm_state_encoding {28185418541} ST_WAIT_DONE {10000000000000000000}
+
+fsm_registers {28185418541} {r_curr_state[19]}  {r_curr_state[18]}  {r_curr_state[17]}  {r_curr_state[16]}  {r_curr_state[15]}  {r_curr_state[14]}  {r_curr_state[13]}  {r_curr_state[12]}  {r_curr_state[11]}  {r_curr_state[10]}  {r_curr_state[9]}  {r_curr_state[8]}  {r_curr_state[7]}  {r_curr_state[6]}  {r_curr_state[5]}  {r_curr_state[4]}  {r_curr_state[3]}  {r_curr_state[2]}  {r_curr_state[1]}  {r_curr_state[0]} 

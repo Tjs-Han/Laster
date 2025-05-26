@@ -1,0 +1,68 @@
+<Project ModBy="Analyzer" Name="D:/FreeWork/Lattice_FAE/df1/prj/debug/hv_debug/debug.rvs" Date="2024-11-13">
+ <Core Name="df1_lidar_top_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="2048" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Bus Name="u_HV_control/i_temp_apdhv_base" Radix="0">
+     <Sig Name="u_HV_control/i_temp_apdhv_base:0"/>
+     <Sig Name="u_HV_control/i_temp_apdhv_base:1"/>
+     <Sig Name="u_HV_control/i_temp_apdhv_base:2"/>
+     <Sig Name="u_HV_control/i_temp_apdhv_base:3"/>
+     <Sig Name="u_HV_control/i_temp_apdhv_base:4"/>
+     <Sig Name="u_HV_control/i_temp_apdhv_base:5"/>
+     <Sig Name="u_HV_control/i_temp_apdhv_base:6"/>
+     <Sig Name="u_HV_control/i_temp_apdhv_base:7"/>
+     <Sig Name="u_HV_control/i_temp_apdhv_base:8"/>
+     <Sig Name="u_HV_control/i_temp_apdhv_base:9"/>
+     <Sig Name="u_HV_control/i_temp_apdhv_base:10"/>
+     <Sig Name="u_HV_control/i_temp_apdhv_base:11"/>
+     <Sig Name="u_HV_control/i_temp_apdhv_base:12"/>
+     <Sig Name="u_HV_control/i_temp_apdhv_base:13"/>
+     <Sig Name="u_HV_control/i_temp_apdhv_base:14"/>
+     <Sig Name="u_HV_control/i_temp_apdhv_base:15"/>
+    </Bus>
+    <Bus Name="u_HV_control/i_temp_temp_base" Radix="0">
+     <Sig Name="u_HV_control/i_temp_temp_base:0"/>
+     <Sig Name="u_HV_control/i_temp_temp_base:1"/>
+     <Sig Name="u_HV_control/i_temp_temp_base:2"/>
+     <Sig Name="u_HV_control/i_temp_temp_base:3"/>
+     <Sig Name="u_HV_control/i_temp_temp_base:4"/>
+     <Sig Name="u_HV_control/i_temp_temp_base:5"/>
+     <Sig Name="u_HV_control/i_temp_temp_base:6"/>
+     <Sig Name="u_HV_control/i_temp_temp_base:7"/>
+     <Sig Name="u_HV_control/i_temp_temp_base:8"/>
+     <Sig Name="u_HV_control/i_temp_temp_base:9"/>
+     <Sig Name="u_HV_control/i_temp_temp_base:10"/>
+     <Sig Name="u_HV_control/i_temp_temp_base:11"/>
+     <Sig Name="u_HV_control/i_temp_temp_base:12"/>
+     <Sig Name="u_HV_control/i_temp_temp_base:13"/>
+     <Sig Name="u_HV_control/i_temp_temp_base:14"/>
+     <Sig Name="u_HV_control/i_temp_temp_base:15"/>
+    </Bus>
+    <Sig Name="u_HV_control/i_hvcp_switch"/>
+    <Sig Name="u_HV_control/i_dicp_switch"/>
+    <Bus Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value" Radix="0">
+     <Sig Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:0"/>
+     <Sig Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:1"/>
+     <Sig Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:2"/>
+     <Sig Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:3"/>
+     <Sig Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:4"/>
+     <Sig Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:5"/>
+     <Sig Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:6"/>
+     <Sig Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:7"/>
+     <Sig Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:8"/>
+     <Sig Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:9"/>
+    </Bus>
+    <Sig Name="u_HV_control/u3/i_dac_set_sig"/>
+   </Trace>
+   <Trigger>
+    <TU Operator="0" Name="TU1" ID="1" Value="0" Radix="0"/>
+    <TE Enable="1" Expression="TU1" Name="TE1" ID="1"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+</Project>

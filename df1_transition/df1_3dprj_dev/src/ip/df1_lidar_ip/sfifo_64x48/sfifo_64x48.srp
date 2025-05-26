@@ -1,0 +1,38 @@
+SCUBA, Version Diamond (64-bit) 3.13.0.56.2
+Wed Feb 26 13:50:45 2025
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : D:\TOOL\LatticeDiamond\diamond\3.13\ispfpga\bin\nt64\scuba.exe -w -n sfifo_64x48 -lang verilog -synth synplify -bus_exp 7 -bb -arch sa5p00 -type ebfifo -sync_mode -depth 64 -width 48 -no_enable -pe -1 -pf -1 -sync_reset -fdc D:/FreeWork/df1/df1_newprj/src/ip/df1_lidar_ip/sfifo_64x48/sfifo_64x48.fdc 
+    Circuit name     : sfifo_64x48
+    Module type      : fifoblk
+    Module Version   : 5.1
+    Ports            : 
+	Inputs       : Data[47:0], Clock, WrEn, RdEn, Reset
+	Outputs      : Q[47:0], Empty, Full
+    I/O buffer       : not inserted
+    EDIF output      : sfifo_64x48.edn
+    Verilog output   : sfifo_64x48.v
+    Verilog template : sfifo_64x48_tmpl.v
+    Verilog testbench: tb_sfifo_64x48_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : sfifo_64x48.srp
+    Element Usage    :
+          CCU2C : 27
+           AND2 : 3
+        FD1P3DX : 21
+        FD1S3BX : 1
+        FD1S3DX : 1
+            INV : 4
+       ROM16X1A : 2
+           XOR2 : 1
+       PDPW16KD : 2
+    Estimated Resource Usage:
+            LUT : 60
+            EBR : 2
+            Reg : 23

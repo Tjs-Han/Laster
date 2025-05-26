@@ -1,0 +1,982 @@
+# Tue Dec 17 18:23:58 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: D:\TOOL\LatticeDiamond\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FREE-FPGA
+
+Implementation : impl1
+Synopsys Lattice Technology Pre-mapping, Version map202303lat, Build 132R, Built Aug 31 2023 04:16:35, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 139MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 154MB peak: 154MB)
+
+Reading constraint file: D:\FreeWork\df1_demo\df1_lidar_top\prj\df1_lidar.sdc
+@L: D:\FreeWork\df1_demo\df1_lidar_top\prj\impl1\impl1_scck.rpt 
+See clock summary report "D:\FreeWork\df1_demo\df1_lidar_top\prj\impl1\impl1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 188MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 204MB peak: 204MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 205MB peak: 206MB)
+
+NConnInternalConnection caching is on
+@N: FX493 |Applying initial value "1" on instance r_phy_ready.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "0" on instance r_bmsr_rdata[2].
+@N: FX493 |Applying initial value "0" on instance wait_power_on_flag.
+@N: FX493 |Applying initial value "0" on instance wait_poer_on_done.
+@N: FX493 |Applying initial value "0" on instance r_link_done.
+@N: FX493 |Applying initial value "0" on instance r_link_status.
+@N: FX493 |Applying initial value "0" on instance r_phy_exec.
+@N: FX493 |Applying initial value "0" on instance eth_phy_en.
+@N: FX493 |Applying initial value "0" on instance wait_power_on_us_valid.
+@N: FX493 |Applying initial value "0" on instance r_phy_wrdata[12].
+@N: FX493 |Applying initial value "0" on instance r_phy_rh_wl.
+@N: FX493 |Applying initial value "000" on instance r_phy_wrdata[2:0].
+@N: FX493 |Applying initial value "00" on instance r_phy_wrdata[6:5].
+@N: FX493 |Applying initial value "000" on instance r_phy_wrdata[10:8].
+@N: FX493 |Applying initial value "00" on instance r_phy_wrdata[15:14].
+@N: FX493 |Applying initial value "0000000" on instance r_phy_wrdata[23:17].
+@N: FX493 |Applying initial value "000" on instance r_phy_wrdata[30:28].
+@N: FX493 |Applying initial value "00000000" on instance r_eth_type[15:8].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_op_data[15:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_recv_desip[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_recv_srcip[31:0].
+@N: FX493 |Applying initial value "000000000000000000000000000000000000000000000000" on instance r_recv_srcmac[47:0].
+@N: FX493 |Applying initial value "000000000000000000000000000000000000000000000000" on instance r_recv_desmac[47:0].
+@N: FX493 |Applying initial value "0" on instance r_error_en.
+@N: FX493 |Applying initial value "0" on instance r_skip_en.
+@N: FX493 |Applying initial value "0" on instance r_icmp_rxdone.
+@N: FX493 |Applying initial value "0" on instance r_rec_en.
+@N: FX493 |Applying initial value "00000000" on instance r_icmp_type[7:0].
+@N: FX493 |Applying initial value "00000000" on instance r_rec_data[7:0].
+@N: FX493 |Applying initial value "00000000" on instance r_eth_type[15:8].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_icmp_id[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_icmp_seq[15:0].
+@N: FX493 |Applying initial value "000000000000000000000000" on instance r_recv_desip[23:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_rec_byte_num[15:0].
+@N: FX493 |Applying initial value "000000000000000000000000000000000000000000000000" on instance r_recv_desmac[47:0].
+@N: FX493 |Applying initial value "00000000" on instance r0_icmp_rxdata[7:0].
+@N: FX493 |Applying initial value "0" on instance r_error_en.
+@N: FX493 |Applying initial value "0" on instance r_skip_en.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_reply_checksum[31:0].
+@N: FX493 |Applying initial value "0" on instance r_udp_recram_wren.
+@N: FX493 |Applying initial value "00000000" on instance r_udp_recram_wrdata[7:0].
+@N: FX493 |Applying initial value "00000000" on instance r_eth_type[15:8].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_recv_desport[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_recv_srcport[15:0].
+@N: FX493 |Applying initial value "000000000000000000000000" on instance r_recv_desip[23:0].
+@N: FX493 |Applying initial value "0" on instance r_udp_rxdone.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_rec_byte_num[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_send_desport[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_send_srcport[15:0].
+@N: FX493 |Applying initial value "000000000000000000000000000000000000000000000000" on instance r_recv_desmac[47:0].
+@N: FX493 |Applying initial value "0" on instance r_error_en.
+@N: FX493 |Applying initial value "0" on instance r_skip_en.
+@N: FX493 |Applying initial value "0" on instance r_udp_txram_wren.
+@N: FX493 |Applying initial value "0000" on instance r_ack_reg[3:0].
+@N: FX493 |Applying initial value "0" on instance r_ddr2para_rden.
+@N: FX493 |Applying initial value "0" on instance r_rddr_flag.
+@N: FX493 |Applying initial value "0" on instance r_parse_done.
+@N: FX493 |Applying initial value "0" on instance r_udp_send_req.
+@N: FX493 |Applying initial value "0" on instance r_parse_start.
+@N: FX493 |Applying initial value "0" on instance r_rddr_usercmd.
+@N: FX493 |Applying initial value "11111111" on instance r_get_cmd_code[7:0].
+@N: FX493 |Applying initial value "0" on instance r_udp_sendram_flag.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_get_para6[15:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_get_para3[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_get_para4[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_get_para5[31:0].
+@N: FX493 |Applying initial value "0" on instance r_ddr2para_fifo_rden.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_get_para2[15:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_get_para1[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_get_para0[31:0].
+@N: FX493 |Applying initial value "0" on instance r_cacheram_wren.
+@N: FX493 |Applying initial value "00000000" on instance r_udp_txram_wrdata[7:0].
+@N: FX493 |Applying initial value "0" on instance r_cal_done.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_divisor[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_quotient[15:0].
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":89:1:89:6|Register r_angle_reso[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@A: FX681 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":89:1:89:6|Initial value on register r_start_angle[31:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":89:1:89:6|Register r_start_angle[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@A: FX681 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":89:1:89:6|Initial value on register r_stop_angle[31:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":89:1:89:6|Register r_stop_angle[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@N: FX493 |Applying initial value "0000000000000000" on instance r_start_index1[15:0].
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":165:1:165:6|Register r_stop_index1[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@N: FX493 |Applying initial value "0000000000000000" on instance r_start_index2[15:0].
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":165:1:165:6|Register r_stop_index2[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@N: FX493 |Applying initial value "0000000000000000" on instance r_start_index[15:0].
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":101:1:101:6|Register r_stop_index[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@N: FX493 |Applying initial value "0" on instance r_cal_sig.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_divisor[15:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_dividend[31:0].
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":101:1:101:6|Register r_index_num[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_start_angle_c[31:0].
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":101:1:101:6|Register r_stop_angle_c[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":76:1:76:6|Register r_index_max[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@A: FX681 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":101:1:101:6|Initial value on register r_index_num_pre[15:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":101:1:101:6|Register r_index_num_pre[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@N: FX493 |Applying initial value "00000000" on instance r_set_cmd_code[7:0].
+@N: FX493 |Applying initial value "0" on instance r_ddr2para_rden.
+@N: FX493 |Applying initial value "0" on instance r_ddr2para_fifo_rden.
+@N: FX493 |Applying initial value "000000" on instance r_parsedone_flag[5:0].
+@N: FX493 |Applying initial value "00000" on instance r_loopback_flag[4:0].
+@N: FX493 |Applying initial value "00000" on instance r_caliback_flag[4:0].
+@N: FX493 |Applying initial value "0" on instance r_parainit_done.
+@N: FX493 |Applying initial value "0" on instance r_para2ddr_wren.
+@N: FX493 |Applying initial value "0" on instance r_parameter_sig.
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":770:1:770:6|Register r_pwmvalue_motor2[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@N: FX493 |Applying initial value "0" on instance r_rssi_set_flag.
+@N: FX493 |Applying initial value "0" on instance r_rssi_get_flag.
+@N: FX493 |Applying initial value "0" on instance r_coe_set_flag.
+@N: FX493 |Applying initial value "0" on instance r_coe_get_flag.
+@N: FX493 |Applying initial value "0" on instance r_parameter_read.
+@N: FX493 |Applying initial value "0" on instance r_coe_com_flag.
+@N: FX493 |Applying initial value "0" on instance r_coe_write_flag.
+@N: FX493 |Applying initial value "0" on instance r_discal_flag.
+@N: FX493 |Applying initial value "0" on instance r_set_para6[0].
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":333:1:333:6|Register r_password_user[31:0] with reset has an initial value of 1. Ignoring initial value.  
+
+Only the first 100 messages of id 'FX493' are reported. To see all messages use 'report_messages -log D:\FreeWork\df1_demo\df1_lidar_top\prj\impl1\impl1_cck.srr -id FX493' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {FX493} -count unlimited' in the Tcl shell.
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":770:1:770:6|Register r_pwmvalue_motor1[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":735:1:735:6|Register r_config_mode[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":745:1:745:6|Register r_angle_reso[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":755:1:755:6|Register r_freq_motor2[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":782:1:782:6|Register r_start_angle[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":782:1:782:6|Register r_stop_angle[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":810:1:810:6|Register r_temp_apdhv_base[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":810:1:810:6|Register r_temp_temp_base[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":827:1:827:6|Register r_distance_max[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":827:1:827:6|Register r_distance_min[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":755:1:755:6|Register r_freq_motor1[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":356:1:356:6|Register r_page_rdnum[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Register r_flash_rdaddr[23:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":372:1:372:6|Register r_page_num[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@A: FX681 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":328:1:328:6|Initial value on register r_flash_addr[23:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":328:1:328:6|Register r_flash_addr[23:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":115:1:115:6|Register r_freq_motor[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@A: FX681 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":348:1:348:6|Initial value on register r_pwm_cnt[15:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":348:1:348:6|Register r_pwm_cnt[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":123:1:123:6|Register r_pwm_setval[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@A: FX681 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":331:1:331:6|Initial value on register r_pwm_value[15:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":331:1:331:6|Register r_pwm_value[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":184:4:184:9|Register r_cyc_result[23:0] with reset has an initial value of 1. Ignoring initial value.  
+@A: FX681 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":114:4:114:9|Initial value on register r_pulse_time_avecnt[31:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":114:4:114:9|Register r_pulse_time_avecnt[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":264:4:264:9|Register r_cycletime_num[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":276:4:276:9|Register r_toothtime_num[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\sync_control.v":116:1:116:6|Register r_gpx2_init_cnt[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":184:4:184:9|Register r_cyc_result[23:0] with reset has an initial value of 1. Ignoring initial value.  
+@A: FX681 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":114:4:114:9|Initial value on register r_pulse_time_avecnt[31:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":114:4:114:9|Register r_pulse_time_avecnt[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":264:4:264:9|Register r_cycletime_num[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":276:4:276:9|Register r_toothtime_num[31:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: BN287 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\sync_control.v":116:1:116:6|Register r_gpx2_init_cnt[15:0] with reset has an initial value of 1. Ignoring initial value.  
+@A: FX681 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":148:1:148:6|Initial value on register r_result_cnt1[4:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@A: FX681 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":158:1:158:6|Initial value on register r_result_cnt2[4:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@A: FX681 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":168:1:168:6|Initial value on register r_result_cnt3[4:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_ctrl.v":336:4:336:9|Removing sequential instance u_phy_mdio_ctrl.r_phy_wrdata[28] because it is equivalent to instance u_phy_mdio_ctrl.r_phy_wrdata[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_ctrl.v":336:4:336:9|Removing sequential instance u_phy_mdio_ctrl.r_phy_wrdata[29] because it is equivalent to instance u_phy_mdio_ctrl.r_phy_rh_wl. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_tx.v":179:4:179:9|Removing sequential instance u_eth_top.u_arp_ctrl.u_arp_tx.r_arp_data[18][7:0] because it is equivalent to instance u_eth_top.u_arp_ctrl.u_arp_tx.r_eth_head[0][7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_tx.v":179:4:179:9|Removing sequential instance u_eth_top.u_arp_ctrl.u_arp_tx.r_arp_data[19][7:0] because it is equivalent to instance u_eth_top.u_arp_ctrl.u_arp_tx.r_eth_head[1][7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_tx.v":179:4:179:9|Removing sequential instance u_eth_top.u_arp_ctrl.u_arp_tx.r_arp_data[20][7:0] because it is equivalent to instance u_eth_top.u_arp_ctrl.u_arp_tx.r_eth_head[2][7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_tx.v":179:4:179:9|Removing sequential instance u_eth_top.u_arp_ctrl.u_arp_tx.r_arp_data[21][7:0] because it is equivalent to instance u_eth_top.u_arp_ctrl.u_arp_tx.r_eth_head[3][7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_tx.v":179:4:179:9|Removing sequential instance u_eth_top.u_arp_ctrl.u_arp_tx.r_arp_data[22][7:0] because it is equivalent to instance u_eth_top.u_arp_ctrl.u_arp_tx.r_eth_head[4][7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_tx.v":179:4:179:9|Removing sequential instance u_eth_top.u_arp_ctrl.u_arp_tx.r_arp_data[23][7:0] because it is equivalent to instance u_eth_top.u_arp_ctrl.u_arp_tx.r_eth_head[5][7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance u_eth_top.u_udpcom_control.u_parameter_init.r_set_para4[6] because it is equivalent to instance u_eth_top.u_udpcom_control.u_parameter_init.r_set_para4[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance u_eth_top.u_udpcom_control.u_parameter_init.r_set_para4[4] because it is equivalent to instance u_eth_top.u_udpcom_control.u_parameter_init.r_set_para4[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance u_eth_top.u_udpcom_control.u_parameter_init.r_set_para4[2] because it is equivalent to instance u_eth_top.u_udpcom_control.u_parameter_init.r_set_para4[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance u_eth_top.u_udpcom_control.u_parameter_init.r_set_para3[5] because it is equivalent to instance u_eth_top.u_udpcom_control.u_parameter_init.r_set_para3[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance u_eth_top.u_udpcom_control.u_parameter_init.r_set_para3[6] because it is equivalent to instance u_eth_top.u_udpcom_control.u_parameter_init.r_set_para3[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":280:1:280:6|Removing sequential instance u_flash_control.r_flash_cmd[6] because it is equivalent to instance u_flash_control.r_flash_cmd[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\adc_to_temp.v":91:1:91:6|Removing sequential instance u_HV_control.u3.U1.r_mult1_dataB[8] because it is equivalent to instance u_HV_control.u3.U1.r_mult1_dataB[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult2_dataA[0] because it is equivalent to instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult1_dataA[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult2_dataA[1] because it is equivalent to instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult1_dataA[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult2_dataA[2] because it is equivalent to instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult1_dataA[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult2_dataA[3] because it is equivalent to instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult1_dataA[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult2_dataA[4] because it is equivalent to instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult1_dataA[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult2_dataA[5] because it is equivalent to instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult1_dataA[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult2_dataA[6] because it is equivalent to instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult1_dataA[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult2_dataA[7] because it is equivalent to instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult1_dataA[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult2_dataA[8] because it is equivalent to instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult1_dataA[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult2_dataA[9] because it is equivalent to instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult1_dataA[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult2_dataA[10] because it is equivalent to instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult1_dataA[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult2_dataA[11] because it is equivalent to instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult1_dataA[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult2_dataA[12] because it is equivalent to instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult1_dataA[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult2_dataA[13] because it is equivalent to instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult1_dataA[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult2_dataA[14] because it is equivalent to instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult1_dataA[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult2_dataA[15] because it is equivalent to instance u_dist.u_dist_calculate.u4_rssi_cal.r_mult1_dataA[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 267MB peak: 267MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 267MB peak: 268MB)
+
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_1 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_1 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_2 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_2 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_3 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_3 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_4 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_4 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_5 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_5 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_6 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_6 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_7 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_7 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_8 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_8 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_9 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_9 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_10 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_10 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 268MB peak: 268MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 268MB peak: 269MB)
+
+@N: BN115 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_ctrl.v":172:13:172:24|Removing instance urx_crc32_d8 (in view: work.arp_ctrl_3232235786_3232235878_Z5(verilog)) because it does not drive other instances.
+@W: BN114 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\fifo_mac_frame_2048x10\fifo_mac_frame_2048x10.v":220:11:220:23|Removing instance pdp_ram_0_1_0 (in view: work.fifo_mac_frame_2048x10_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[0] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[1] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[2] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[3] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[4] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[5] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[6] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[7] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[8] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[9] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[10] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[11] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[12] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[13] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[14] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[15] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[0] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[1] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[2] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[3] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[4] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[5] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[6] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[7] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[8] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[9] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[10] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[11] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[12] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[13] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[14] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[15] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[8] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[9] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[10] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[11] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[12] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[13] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[14] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[15] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[16] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[17] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[18] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[19] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[20] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[21] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[22] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[23] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[24] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[25] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[26] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[27] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[28] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[29] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[30] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[31] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para6[0] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para6[0] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":183:12:183:16|Removing sequential instance FF_47 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":187:12:187:16|Removing sequential instance FF_46 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":191:12:191:16|Removing sequential instance FF_45 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":195:12:195:16|Removing sequential instance FF_44 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":199:12:199:16|Removing sequential instance FF_43 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":203:12:203:16|Removing sequential instance FF_42 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":207:12:207:16|Removing sequential instance FF_41 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":211:12:211:16|Removing sequential instance FF_40 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":215:12:215:16|Removing sequential instance FF_39 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":219:12:219:16|Removing sequential instance FF_38 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":223:12:223:16|Removing sequential instance FF_37 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":227:12:227:16|Removing sequential instance FF_36 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":231:12:231:16|Removing sequential instance FF_35 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":235:12:235:16|Removing sequential instance FF_34 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":239:12:239:16|Removing sequential instance FF_33 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":243:12:243:16|Removing sequential instance FF_32 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":183:12:183:16|Removing sequential instance FF_47 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":187:12:187:16|Removing sequential instance FF_46 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":191:12:191:16|Removing sequential instance FF_45 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":195:12:195:16|Removing sequential instance FF_44 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":199:12:199:16|Removing sequential instance FF_43 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":203:12:203:16|Removing sequential instance FF_42 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":207:12:207:16|Removing sequential instance FF_41 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":211:12:211:16|Removing sequential instance FF_40 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":215:12:215:16|Removing sequential instance FF_39 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":219:12:219:16|Removing sequential instance FF_38 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":223:12:223:16|Removing sequential instance FF_37 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":227:12:227:16|Removing sequential instance FF_36 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":231:12:231:16|Removing sequential instance FF_35 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":235:12:235:16|Removing sequential instance FF_34 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":239:12:239:16|Removing sequential instance FF_33 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":243:12:243:16|Removing sequential instance FF_32 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_spi_master.v":124:1:124:6|Removing sequential instance r_spi_rdbyte[7] (in view: work.gpx2_spi_master_Z22(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\temp_adc_filter.v":90:1:90:6|Removing sequential instance r_adcval_fact[12] (in view: work.temp_adc_filter(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\temp_adc_filter.v":90:1:90:6|Removing sequential instance r_adcval_fact[13] (in view: work.temp_adc_filter(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\temp_adc_filter.v":90:1:90:6|Removing sequential instance r_adcval_fact[14] (in view: work.temp_adc_filter(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\temp_adc_filter.v":90:1:90:6|Removing sequential instance r_adcval_fact[15] (in view: work.temp_adc_filter(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance yyushu[15:0] (in view: work.div_rill(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\hv_control.v":200:1:200:6|Removing sequential instance r_hv_monit (in view: work.HV_control(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\hv_control.v":190:1:190:6|Removing sequential instance r_temp_monit (in view: work.HV_control(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_rx.v":174:4:174:9|Removing sequential instance r_crc32_rxen (in view: work.arp_rx_3232235786_3232235777_0_1_2_4_8_2054_Z3(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_rx.v":174:4:174:9|Removing sequential instance r_crc32_rxdata[7:0] (in view: work.arp_rx_3232235786_3232235777_0_1_2_4_8_2054_Z3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+
+Only the first 100 messages of id 'BN362' are reported. To see all messages use 'report_messages -log D:\FreeWork\df1_demo\df1_lidar_top\prj\impl1\impl1_cck.srr -id BN362' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN362} -count unlimited' in the Tcl shell.
+@N: BN115 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_control.v":186:12:186:13|Removing instance u7 (in view: work.encoder_control_1000000000s_10s_30000_10s_100(verilog)) because it does not drive other instances.
+@N: BN115 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_control.v":144:15:144:27|Removing instance u4_code_angle (in view: work.encoder_control_1000000000s_10s_30000_10s_100(verilog)) because it does not drive other instances.
+@N: BN115 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_control.v":127:4:127:18|Removing instance u3_sync_control (in view: work.encoder_control_1000000000s_10s_30000_10s_100(verilog)) because it does not drive other instances.
+@N: BN115 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":364:20:364:40|Removing instance u1_multiplier_in32bit (in view: work.rssi_cal_Z24(verilog)) because it does not drive other instances.
+@W: BN114 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier_in32bit\multiplier_in32bit.v":755:11:755:19|Removing instance dsp_alu_0 (in view: work.multiplier_in32bit_3(verilog)) because it does not drive other instances.
+@W: BN114 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier_in32bit\multiplier_in32bit.v":540:11:540:19|Removing instance dsp_alu_1 (in view: work.multiplier_in32bit_3(verilog)) because it does not drive other instances.
+@W: BN114 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier_in32bit\multiplier_in32bit.v":1245:15:1245:24|Removing instance dsp_mult_0 (in view: work.multiplier_in32bit_3(verilog)) because it does not drive other instances.
+@W: BN114 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier_in32bit\multiplier_in32bit.v":1144:15:1144:24|Removing instance dsp_mult_1 (in view: work.multiplier_in32bit_3(verilog)) because it does not drive other instances.
+@W: BN114 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier_in32bit\multiplier_in32bit.v":1047:15:1047:24|Removing instance dsp_mult_2 (in view: work.multiplier_in32bit_3(verilog)) because it does not drive other instances.
+@W: BN114 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier_in32bit\multiplier_in32bit.v":950:15:950:24|Removing instance dsp_mult_3 (in view: work.multiplier_in32bit_3(verilog)) because it does not drive other instances.
+Encoding state machine r_curr_state[14:0] (in view: work.ddr3_rw_ctrl_Z1(verilog))
+original code -> new code
+   00000000 -> 000000000000001
+   00000001 -> 000000000000010
+   00000010 -> 000000000000100
+   00000011 -> 000000000001000
+   00000100 -> 000000000010000
+   00000101 -> 000000000100000
+   00000110 -> 000000001000000
+   00000111 -> 000000010000000
+   00001000 -> 000000100000000
+   00001001 -> 000001000000000
+   00001010 -> 000010000000000
+   00001011 -> 000100000000000
+   00001100 -> 001000000000000
+   00001101 -> 010000000000000
+   00001110 -> 100000000000000
+Encoding state machine r_curr_state[4:0] (in view: work.ddr_round_robin_Z2(verilog))
+original code -> new code
+   00000000 -> 00001
+   00000001 -> 00010
+   00000010 -> 00100
+   00000100 -> 01000
+   00001000 -> 10000
+Encoding state machine r_cur_state[4:0] (in view: work.arp_rx_3232235786_3232235777_0_1_2_4_8_2054_Z3(verilog))
+original code -> new code
+   00000 -> 00001
+   00001 -> 00010
+   00010 -> 00100
+   00100 -> 01000
+   01000 -> 10000
+Encoding state machine r_cur_state[4:0] (in view: work.arp_tx_Z4(verilog))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine r_cur_state[7:0] (in view: work.icmp_rx_Z6(verilog))
+original code -> new code
+   00000000 -> 00000001
+   00000001 -> 00000010
+   00000010 -> 00000100
+   00000100 -> 00001000
+   00001000 -> 00010000
+   00010000 -> 00100000
+   00100000 -> 01000000
+   01000000 -> 10000000
+Encoding state machine r_cur_state[7:0] (in view: work.icmp_tx_Z7(verilog))
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+Encoding state machine r_cur_state[6:0] (in view: work.udp_rx_Z9(verilog))
+original code -> new code
+   00000000 -> 0000001
+   00000001 -> 0000010
+   00000010 -> 0000100
+   00000100 -> 0001000
+   00001000 -> 0010000
+   00010000 -> 0100000
+   00100000 -> 1000000
+Encoding state machine r_cur_state[6:0] (in view: work.udp_tx_Z10(verilog))
+original code -> new code
+   00000000 -> 00000000
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+Encoding state machine r_state[10:0] (in view: work.udpcom_datagram_parser_Z13(verilog))
+original code -> new code
+   0000000000000000 -> 00000000001
+   0000000000000001 -> 00000000010
+   0000000000000010 -> 00000000100
+   0000000000000100 -> 00000001000
+   0000000000001000 -> 00000010000
+   0000000000010000 -> 00000100000
+   0000000000100000 -> 00001000000
+   0000000001000000 -> 00010000000
+   0000000010000000 -> 00100000000
+   0000000100000000 -> 01000000000
+   0000001000000000 -> 10000000000
+Encoding state machine r_rddr_state[7:0] (in view: work.udpcom_datagram_parser_Z13(verilog))
+original code -> new code
+   00000000 -> 00000001
+   00000001 -> 00000010
+   00000010 -> 00000100
+   00000100 -> 00001000
+   00001000 -> 00010000
+   00010000 -> 00100000
+   00100000 -> 01000000
+   01000000 -> 10000000
+Encoding state machine r_cal_state[4:0] (in view: work.division_0(verilog))
+original code -> new code
+   0000 -> 00001
+   0001 -> 00010
+   0010 -> 00100
+   0100 -> 01000
+   1000 -> 10000
+Encoding state machine r_index_state[5:0] (in view: work.angle2index(verilog))
+original code -> new code
+   00000000 -> 000
+   00000010 -> 001
+   00000100 -> 010
+   00001000 -> 011
+   00010000 -> 100
+   00100000 -> 101
+Encoding state machine r_para_state[18:0] (in view: work.udpcom_parameter_init_Z14(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000000000000000001
+   00000000000000000000000000000001 -> 0000000000000000010
+   00000000000000000000000000000010 -> 0000000000000000100
+   00000000000000000000000000000100 -> 0000000000000001000
+   00000000000000000000000000001000 -> 0000000000000010000
+   00000000000000000000000000010000 -> 0000000000000100000
+   00000000000000000000000000100000 -> 0000000000001000000
+   00000000000000000000000001000000 -> 0000000000010000000
+   00000000000000000000000010000000 -> 0000000000100000000
+   00000000000000000000000100000000 -> 0000000001000000000
+   00000000000000000000001000000000 -> 0000000010000000000
+   00000000000000000000010000000000 -> 0000000100000000000
+   00000000000000000000100000000000 -> 0000001000000000000
+   00000000000000000001000000000000 -> 0000010000000000000
+   00000000000000000010000000000000 -> 0000100000000000000
+   00000000000000000100000000000000 -> 0001000000000000000
+   00000000000000001000000000000000 -> 0010000000000000000
+   00000000000000010000000000000000 -> 0100000000000000000
+   00000000000000100000000000000000 -> 1000000000000000000
+Encoding state machine r_state[4:0] (in view: work.spi_master(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine r_state[9:0] (in view: work.spi_flash_cmd(verilog))
+original code -> new code
+   0000 -> 0000000001
+   0001 -> 0000000010
+   0010 -> 0000000100
+   0011 -> 0000001000
+   0100 -> 0000010000
+   0101 -> 0000100000
+   0110 -> 0001000000
+   0111 -> 0010000000
+   1000 -> 0100000000
+   1001 -> 1000000000
+Encoding state machine r_cmd[7:0] (in view: work.spi_flash_top(verilog))
+original code -> new code
+   00000000 -> 00000001
+   00000001 -> 00000010
+   00000010 -> 00000100
+   00000011 -> 00001000
+   00000101 -> 00010000
+   00000110 -> 00100000
+   11000111 -> 01000000
+   11011000 -> 10000000
+Encoding state machine r_state[3:0] (in view: work.spi_flash_top(verilog))
+original code -> new code
+   0000 -> 00
+   0001 -> 01
+   0010 -> 10
+   0011 -> 11
+@N: MO225 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_flash_top.v":110:1:110:6|There are no possible illegal states for state machine r_state[3:0] (in view: work.spi_flash_top(verilog)); safe FSM implementation is not required.
+Encoding state machine r_flash_state[23:0] (in view: work.flash_control_Z15(verilog))
+original code -> new code
+   000000000000000000000000 -> 000000000000000000000001
+   000000000000000000000001 -> 000000000000000000000010
+   000000000000000000000010 -> 000000000000000000000100
+   000000000000000000000100 -> 000000000000000000001000
+   000000000000000000001000 -> 000000000000000000010000
+   000000000000000000010000 -> 000000000000000000100000
+   000000000000000000100000 -> 000000000000000001000000
+   000000000000000001000000 -> 000000000000000010000000
+   000000000000000010000000 -> 000000000000000100000000
+   000000000000000100000000 -> 000000000000001000000000
+   000000000000001000000000 -> 000000000000010000000000
+   000000000000010000000000 -> 000000000000100000000000
+   000000000000100000000000 -> 000000000001000000000000
+   000000000001000000000000 -> 000000000010000000000000
+   000000000010000000000000 -> 000000000100000000000000
+   000000000100000000000000 -> 000000001000000000000000
+   000000001000000000000000 -> 000000010000000000000000
+   000000010000000000000000 -> 000000100000000000000000
+   000000100000000000000000 -> 000001000000000000000000
+   000001000000000000000000 -> 000010000000000000000000
+   000010000000000000000000 -> 000100000000000000000000
+   000100000000000000000000 -> 001000000000000000000000
+   001000000000000000000000 -> 010000000000000000000000
+   010000000000000000000000 -> 100000000000000000000000
+Encoding state machine r_state[5:0] (in view: work.motor_drive_1(verilog))
+original code -> new code
+   0000 -> 000001
+   0001 -> 000010
+   0010 -> 000100
+   0011 -> 001000
+   0100 -> 010000
+   0101 -> 100000
+Encoding state machine r_state[5:0] (in view: work.motor_drive_0(verilog))
+original code -> new code
+   0000 -> 000001
+   0001 -> 000010
+   0010 -> 000100
+   0011 -> 001000
+   0100 -> 010000
+   0101 -> 100000
+Encoding state machine r_eg_state[7:0] (in view: work.encoder_calculate_Z17(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+Encoding state machine fs_state[5:0] (in view: work.sync_control_Z18(verilog))
+original code -> new code
+   00000000 -> 000001
+   00000010 -> 000010
+   00000100 -> 000100
+   00001000 -> 001000
+   00100000 -> 010000
+   01000000 -> 100000
+Encoding state machine r_eg_state[7:0] (in view: work.encoder_calculate_Z20(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+Encoding state machine r_laser_state[6:0] (in view: work.laser_control(verilog))
+original code -> new code
+   00000000 -> 0000001
+   00000001 -> 0000010
+   00000010 -> 0000100
+   00000100 -> 0001000
+   00001000 -> 0010000
+   00010000 -> 0100000
+   00100000 -> 1000000
+Encoding state machine r_curr_state[9:0] (in view: work.gpx2_cfg(verilog))
+original code -> new code
+   00000000 -> 0000000001
+   00000001 -> 0000000010
+   00000010 -> 0000000100
+   00000011 -> 0000001000
+   00000100 -> 0000010000
+   00000101 -> 0000100000
+   00000110 -> 0001000000
+   00000111 -> 0010000000
+   00001000 -> 0100000000
+   00001001 -> 1000000000
+Encoding state machine r_curr_state[5:0] (in view: work.gpx2_spi_master_Z22(verilog))
+original code -> new code
+   00000000 -> 000001
+   00000001 -> 000010
+   00000010 -> 000100
+   00000011 -> 001000
+   00000100 -> 010000
+   00000101 -> 100000
+Encoding state machine r_fill_state[6:0] (in view: work.data_fill(verilog))
+original code -> new code
+   00000000 -> 0000001
+   00000001 -> 0000010
+   00000010 -> 0000100
+   00000100 -> 0001000
+   00001000 -> 0010000
+   00010000 -> 0100000
+   00100000 -> 1000000
+Encoding state machine r_curr_state[9:0] (in view: work.gpx2_control_wrapper(verilog))
+original code -> new code
+   00000000 -> 0000000001
+   00000001 -> 0000000010
+   00000010 -> 0000000100
+   00000011 -> 0000001000
+   00000100 -> 0000010000
+   00000101 -> 0000100000
+   00000110 -> 0001000000
+   00000111 -> 0010000000
+   00001000 -> 0100000000
+   00001001 -> 1000000000
+Encoding state machine state[4:0] (in view: work.AD_SPI(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine r_adc_state[6:0] (in view: work.adc_control(verilog))
+original code -> new code
+   00000000 -> 0000001
+   00000010 -> 0000010
+   00000100 -> 0000100
+   00001000 -> 0001000
+   00010000 -> 0010000
+   00100000 -> 0100000
+   01000000 -> 1000000
+Encoding state machine r_cal_state[4:0] (in view: work.division_1(verilog))
+original code -> new code
+   0000 -> 00001
+   0001 -> 00010
+   0010 -> 00100
+   0100 -> 01000
+   1000 -> 10000
+Encoding state machine r_temp_state[9:0] (in view: work.adc_to_temp(verilog))
+original code -> new code
+   0000000000 -> 0000000001
+   0000000001 -> 0000000010
+   0000000010 -> 0000000100
+   0000000100 -> 0000001000
+   0000001000 -> 0000010000
+   0000010000 -> 0000100000
+   0000100000 -> 0001000000
+   0001000000 -> 0010000000
+   0010000000 -> 0100000000
+   0100000000 -> 1000000000
+Encoding state machine r_table_state[7:0] (in view: work.dac_table(verilog))
+original code -> new code
+   000 -> 000
+   001 -> 001
+   010 -> 010
+   011 -> 011
+   100 -> 100
+   101 -> 101
+   110 -> 110
+   111 -> 111
+@N: MO225 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\dac_table.v":42:1:42:6|There are no possible illegal states for state machine r_table_state[7:0] (in view: work.dac_table(verilog)); safe FSM implementation is not required.
+Encoding state machine r_dac_state[6:0] (in view: work.adc_to_dac(verilog))
+original code -> new code
+   00000000 -> 0000001
+   00000010 -> 0000010
+   00000100 -> 0000100
+   00001000 -> 0001000
+   00010000 -> 0010000
+   00100000 -> 0100000
+   01000000 -> 1000000
+Encoding state machine r_table_state[7:0] (in view: work.adc_to_dist_2(verilog))
+original code -> new code
+   000 -> 000
+   001 -> 001
+   010 -> 010
+   011 -> 011
+   100 -> 100
+   101 -> 101
+   110 -> 110
+   111 -> 111
+@N: MO225 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\adc_to_dist_2.v":36:1:36:6|There are no possible illegal states for state machine r_table_state[7:0] (in view: work.adc_to_dist_2(verilog)); safe FSM implementation is not required.
+Encoding state machine r_check_state[3:0] (in view: work.HV_control(verilog))
+original code -> new code
+   0000 -> 00
+   0010 -> 01
+   0100 -> 10
+   1000 -> 11
+@N: MO225 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\hv_control.v":81:1:81:6|There are no possible illegal states for state machine r_check_state[3:0] (in view: work.HV_control(verilog)); safe FSM implementation is not required.
+Encoding state machine r_data_state[3:0] (in view: work.data_pre(verilog))
+original code -> new code
+   0000 -> 00
+   0001 -> 01
+   0010 -> 10
+   0100 -> 11
+@N: MO225 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|There are no possible illegal states for state machine r_data_state[3:0] (in view: work.data_pre(verilog)); safe FSM implementation is not required.
+Encoding state machine r_index_state[8:0] (in view: work.index_cal(verilog))
+original code -> new code
+   00000000 -> 000000001
+   00000001 -> 000000010
+   00000010 -> 000000100
+   00000100 -> 000001000
+   00001000 -> 000010000
+   00010000 -> 000100000
+   00100000 -> 001000000
+   01000000 -> 010000000
+   10000000 -> 100000000
+Encoding state machine r_dist_state[18:0] (in view: work.dist_cal_Z23(verilog))
+original code -> new code
+   00000000 -> 0000000000000000001
+   00000001 -> 0000000000000000010
+   00000010 -> 0000000000000000100
+   00000011 -> 0000000000000001000
+   00000100 -> 0000000000000010000
+   00000101 -> 0000000000000100000
+   00000110 -> 0000000000001000000
+   00000111 -> 0000000000010000000
+   00001000 -> 0000000000100000000
+   00001001 -> 0000000001000000000
+   00001010 -> 0000000010000000000
+   00001011 -> 0000000100000000000
+   00001100 -> 0000001000000000000
+   00001101 -> 0000010000000000000
+   00001110 -> 0000100000000000000
+   00001111 -> 0001000000000000000
+   00011000 -> 0010000000000000000
+   00011001 -> 0100000000000000000
+   00011011 -> 1000000000000000000
+Encoding state machine status[4:0] (in view: work.div_rill(verilog))
+original code -> new code
+   000000 -> 00001
+   000001 -> 00010
+   000010 -> 00100
+   000100 -> 01000
+   001000 -> 10000
+Encoding state machine r_rssi_state[17:0] (in view: work.rssi_cal_Z24(verilog))
+original code -> new code
+   00000000000000000000 -> 000000000000000001
+   00000000000000000001 -> 000000000000000010
+   00000000000000000010 -> 000000000000000100
+   00000000000000000100 -> 000000000000001000
+   00000000000000001000 -> 000000000000010000
+   00000000000000010000 -> 000000000000100000
+   00000000000000100000 -> 000000000001000000
+   00000000000001000000 -> 000000000010000000
+   00000000000010000000 -> 000000000100000000
+   00000000000100000000 -> 000000001000000000
+   00000000001000000000 -> 000000010000000000
+   00000000010000000000 -> 000000100000000000
+   00000000100000000000 -> 000001000000000000
+   00000001000000000000 -> 000010000000000000
+   00000010000000000000 -> 000100000000000000
+   00000100000000000000 -> 001000000000000000
+   00001000000000000000 -> 010000000000000000
+   00010000000000000000 -> 100000000000000000
+Encoding state machine r_calib_state[8:0] (in view: work.calib_packet_Z25(verilog))
+original code -> new code
+   000000000000 -> 000000001
+   000000000001 -> 000000010
+   000000000010 -> 000000100
+   000000000100 -> 000001000
+   000000001000 -> 000010000
+   000000010000 -> 000100000
+   000000100000 -> 001000000
+   000001000000 -> 010000000
+   001000000000 -> 100000000
+Encoding state machine r_loop_state[9:0] (in view: work.loop_packet_Z26(verilog))
+original code -> new code
+   000000000000 -> 0000000001
+   000000000001 -> 0000000010
+   000000000010 -> 0000000100
+   000000000100 -> 0000001000
+   000000001000 -> 0000010000
+   000000010000 -> 0000100000
+   000000100000 -> 0001000000
+   000001000000 -> 0010000000
+   000010000000 -> 0100000000
+   001000000000 -> 1000000000
+Encoding state machine r_curr_state[3:0] (in view: work.phy_mdio_drive(verilog))
+original code -> new code
+   000000 -> 00
+   000001 -> 01
+   000010 -> 10
+   000100 -> 11
+@N: MO225 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_drive.v":102:4:102:9|There are no possible illegal states for state machine r_curr_state[3:0] (in view: work.phy_mdio_drive(verilog)); safe FSM implementation is not required.
+Encoding state machine r_curr_state[19:0] (in view: work.phy_mdio_ctrl(verilog))
+original code -> new code
+   000000 -> 00000000000000000001
+   000001 -> 00000000000000000010
+   000101 -> 00000000000000000100
+   000110 -> 00000000000000001000
+   000111 -> 00000000000000010000
+   001000 -> 00000000000000100000
+   001001 -> 00000000000001000000
+   001010 -> 00000000000010000000
+   001011 -> 00000000000100000000
+   001100 -> 00000000001000000000
+   001101 -> 00000000010000000000
+   001110 -> 00000000100000000000
+   001111 -> 00000001000000000000
+   010000 -> 00000010000000000000
+   010001 -> 00000100000000000000
+   010010 -> 00001000000000000000
+   010011 -> 00010000000000000000
+   010100 -> 00100000000000000000
+   010101 -> 01000000000000000000
+   010110 -> 10000000000000000000
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 292MB peak: 292MB)
+
+
+mixed edge conversion for GCC is OFF
+@W: MO197 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":202:4:202:9|Removing FSM register r_cur_state[6] (in view view:work.udp_tx_Z10(verilog)) because its output is a constant.
+@W: MO197 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":202:4:202:9|Removing FSM register r_cur_state[7] (in view view:work.udp_tx_Z10(verilog)) because its output is a constant.
+@W: BZ240 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_ddr3_ip\ddr3_ipcore\ddr3_sdram_mem_top_wrapper_ddr3_ipcore.v":106:33:106:36|GCC encountered Inferred Clock constraint on net GCC considers to be data u_ddr3.ddr3_ipcore_inst.sclk; this will likely lead to failure to convert
+@N: BN115 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_control.v":175:13:175:14|Removing instance u6 (in view: work.encoder_control_1000000000s_10s_30000_10s_100(verilog)) because it does not drive other instances.
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 294MB peak: 294MB)
+
+@W: MT511 :"d:/freework/df1_demo/df1_lidar_top/prj/df1_lidar.sdc":1:0:1:0|Clock source [get_ports w_pll_50m] not found in netlist: create_clock -period 20 [get_ports w_pll_50m].
+@W: MT511 :"d:/freework/df1_demo/df1_lidar_top/prj/df1_lidar.sdc":2:0:2:0|Clock source [get_ports w_pll_100m] not found in netlist: create_clock -period 10 [get_ports w_pll_100m].
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 294MB peak: 295MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 294MB peak: 295MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=108 on top level netlist df1_lidar_top 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 294MB peak: 295MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                   Requested     Requested     Clock        Clock                       Clock
+Level     Clock                                   Frequency     Period        Type         Group                       Load 
+----------------------------------------------------------------------------------------------------------------------------
+0 -       pll|CLKOS_inferred_clock                205.1 MHz     4.875         inferred     Autoconstr_clkgroup_0_2     6973 
+                                                                                                                            
+0 -       pll|CLKOP_inferred_clock                205.1 MHz     4.875         inferred     Autoconstr_clkgroup_0_3     1531 
+                                                                                                                            
+0 -       ddr3_sdram_mem_top_ddr3_ipcore|sclk     205.1 MHz     4.875         inferred     Autoconstr_clkgroup_0_7     527  
+                                                                                                                            
+0 -       df1_lidar_top|i_gpx2_lvds_lclkout       205.1 MHz     4.875         inferred     Autoconstr_clkgroup_0_4     123  
+                                                                                                                            
+0 -       eth_pll|CLKOS_inferred_clock            205.1 MHz     4.875         inferred     Autoconstr_clkgroup_0_5     72   
+                                                                                                                            
+0 -       df1_lidar_top|i_ethphy_refclk           205.1 MHz     4.875         inferred     Autoconstr_clkgroup_0_6     35   
+                                                                                                                            
+0 -       df1_lidar_top|i_clk_50m                 205.1 MHz     4.875         inferred     Autoconstr_clkgroup_0_1     21   
+============================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                        Clock     Source                                                             Clock Pin                                                        Non-clock Pin     Non-clock Pin               
+Clock                                   Load      Pin                                                                Seq Example                                                      Seq Example       Comb Example                
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pll|CLKOS_inferred_clock                6973      u_pll.PLLInst_0.CLKOS(EHXPLLL)                                     r_dist_rstn.C                                                    -                 o_gpx2_lvds_lclkin.I[0](and)
+                                                                                                                                                                                                                                    
+pll|CLKOP_inferred_clock                1531      u_pll.PLLInst_0.CLKOP(EHXPLLL)                                     u_HV_control.r_sample_cnt[25:0].C                                -                 -                           
+                                                                                                                                                                                                                                    
+ddr3_sdram_mem_top_ddr3_ipcore|sclk     527       u_ddr3.ddr3_ipcore_inst.U1_clocking.sclk(ddr_clks_ddr3_ipcore)     u2_ddr3_interface.u2_ddr_round_robin.r_ddr2para_data[63:0].C     -                 -                           
+                                                                                                                                                                                                                                    
+df1_lidar_top|i_gpx2_lvds_lclkout       123       i_gpx2_lvds_lclkout(port)                                          u_gpx2_control_wrapper.r1_lvds_frame[0].C                        -                 -                           
+                                                                                                                                                                                                                                    
+eth_pll|CLKOS_inferred_clock            72        u_eth_top.u_eth_pll.PLLInst_0.CLKOS(EHXPLLL)                       u_eth_top.u_rmii_top.u_rmii_tx.o_ethphy_txen.C                   -                 -                           
+                                                                                                                                                                                                                                    
+df1_lidar_top|i_ethphy_refclk           35        i_ethphy_refclk(port)                                              u_eth_top.u_rmii_top.u_rmii_rx.r_rmii_rxd[1:0].C                 -                 -                           
+                                                                                                                                                                                                                                    
+df1_lidar_top|i_clk_50m                 21        i_clk_50m(port)                                                    r_ddrrst_n.C                                                     -                 -                           
+====================================================================================================================================================================================================================================
+
+@W: MT529 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\df1_lidar_top.v":299:1:299:6|Found inferred clock df1_lidar_top|i_clk_50m which controls 21 sequential elements including r_rst_n. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\sfifo_128x96\sfifo_128x96.v":141:13:141:25|Found inferred clock pll|CLKOS_inferred_clock which controls 6973 sequential elements including u2_ddr3_interface.u2_ddr_round_robin.u0_udp2ddr.pdp_ram_0_0_2. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\signal_dejitter.v":42:1:42:6|Found inferred clock pll|CLKOP_inferred_clock which controls 1531 sequential elements including u_motor_control.u0_signal_dejitter.r_opto_cnt[8:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":168:1:168:6|Found inferred clock df1_lidar_top|i_gpx2_lvds_lclkout which controls 123 sequential elements including u_gpx2_control_wrapper.r_result_cnt3[4]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\dcfifo_rmiitx_4096x2\dcfifo_rmiitx_4096x2.v":485:11:485:23|Found inferred clock eth_pll|CLKOS_inferred_clock which controls 72 sequential elements including u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.pdp_ram_0_0_0. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\dcfifo_rmiirx_36x2\dcfifo_rmiirx_36x2.v":243:11:243:23|Found inferred clock df1_lidar_top|i_ethphy_refclk which controls 35 sequential elements including u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.pdp_ram_0_0_0. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr3_init_ctrl.v":43:4:43:9|Found inferred clock ddr3_sdram_mem_top_ddr3_ipcore|sclk which controls 527 sequential elements including u1_ddr3_init_ctrl.r_rst_srvcd. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+3 non-gated/non-generated clock tree(s) driving 179 clock pin(s) of sequential element(s)
+4 gated/generated clock tree(s) driving 9094 clock pin(s) of sequential element(s)
+0 instances converted, 9094 sequential instances remain driven by gated/generated clocks
+
+============================================ Non-Gated/Non-Generated Clocks ============================================
+Clock Tree ID     Driving Element         Drive Element Type     Fanout     Sample Instance                             
+------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_3       i_gpx2_lvds_lclkout     port                   123        u_gpx2_control_wrapper.r_result_cnt3[4]     
+@KP:ckid0_5       i_ethphy_refclk         Unconstrained_port     35         u_eth_top.u_rmii_top.u_rmii_rx.r_ethphy_rxdv
+@KP:ckid0_9       i_clk_50m               port                   21         r_rst_n                                     
+========================================================================================================================
+======================================================================================================================== Gated/Generated Clocks ========================================================================================================================
+Clock Tree ID     Driving Element                              Drive Element Type       Unconverted Fanout     Sample Instance                                                         Explanation                                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_1       u_pll.PLLInst_0.CLKOS                        EHXPLLL                  6973                   u_rotate_control.u2_encoder_control.u7.FF_63                            Synplify Pro Clock optimization on technology cells not supported in this product
+@KP:ckid0_2       u_pll.PLLInst_0.CLKOP                        EHXPLLL                  1522                   u_HV_control.u3.U1.U1.FF_63                                             Synplify Pro Clock optimization on technology cells not supported in this product
+@KP:ckid0_4       u_eth_top.u_eth_pll.PLLInst_0.CLKOS          EHXPLLL                  72                     u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.pdp_ram_0_0_0     Synplify Pro Clock optimization on technology cells not supported in this product
+@KP:ckid0_7       u_ddr3.ddr3_ipcore_inst.U1_clocking.sclk     ddr_clks_ddr3_ipcore     527                    u1_ddr3_init_ctrl.r_rst_srvcd                                           Derived clock on input (not legal for GCC)                                       
+========================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+
+Summary of user generated gated clocks:
+0 user generated gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 281MB peak: 295MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 285MB peak: 295MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "D:\FreeWork\df1_demo\df1_lidar_top\prj\impl1\impl1_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 291MB peak: 295MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 186MB peak: 295MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:06s cputime
+# Tue Dec 17 18:24:05 2024
+
+###########################################################]

@@ -1,0 +1,143 @@
+<Project ModBy="Analyzer" Name="D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/debug/loop_data/debug.rvs" Date="2025-05-19">
+ <Core Name="df1_lidar_top_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="4096" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Sig Name="w_angle_sync"/>
+    <Sig Name="w_cdctdc_ready"/>
+    <Sig Name="w_laser_sync"/>
+    <Sig Name="w_tdc_sig"/>
+    <Sig Name="u_dist/i_tdcsig_sync"/>
+    <Sig Name="u_dist/u_loop_packet/i_loopdata_flag"/>
+    <Sig Name="u_dist/u_loop_packet/i_newsig_sync"/>
+    <Bus Name="u_dist/u_loop_packet/r_loop_state" Radix="0">
+     <Sig Name="u_dist/u_loop_packet/r_loop_state:0"/>
+     <Sig Name="u_dist/u_loop_packet/r_loop_state:1"/>
+     <Sig Name="u_dist/u_loop_packet/r_loop_state:2"/>
+     <Sig Name="u_dist/u_loop_packet/r_loop_state:3"/>
+     <Sig Name="u_dist/u_loop_packet/r_loop_state:4"/>
+     <Sig Name="u_dist/u_loop_packet/r_loop_state:5"/>
+     <Sig Name="u_dist/u_loop_packet/r_loop_state:6"/>
+     <Sig Name="u_dist/u_loop_packet/r_loop_state:7"/>
+     <Sig Name="u_dist/u_loop_packet/r_loop_state:8"/>
+     <Sig Name="u_dist/u_loop_packet/r_loop_state:9"/>
+     <Sig Name="u_dist/u_loop_packet/r_loop_state:10"/>
+     <Sig Name="u_dist/u_loop_packet/r_loop_state:11"/>
+    </Bus>
+    <Bus Name="u_dist/u_loop_packet/r_packet_num" Radix="0">
+     <Sig Name="u_dist/u_loop_packet/r_packet_num:0"/>
+     <Sig Name="u_dist/u_loop_packet/r_packet_num:1"/>
+     <Sig Name="u_dist/u_loop_packet/r_packet_num:2"/>
+     <Sig Name="u_dist/u_loop_packet/r_packet_num:3"/>
+     <Sig Name="u_dist/u_loop_packet/r_packet_num:4"/>
+     <Sig Name="u_dist/u_loop_packet/r_packet_num:5"/>
+     <Sig Name="u_dist/u_loop_packet/r_packet_num:6"/>
+     <Sig Name="u_dist/u_loop_packet/r_packet_num:7"/>
+     <Sig Name="u_dist/u_loop_packet/r_packet_num:8"/>
+     <Sig Name="u_dist/u_loop_packet/r_packet_num:9"/>
+     <Sig Name="u_dist/u_loop_packet/r_packet_num:10"/>
+     <Sig Name="u_dist/u_loop_packet/r_packet_num:11"/>
+     <Sig Name="u_dist/u_loop_packet/r_packet_num:12"/>
+     <Sig Name="u_dist/u_loop_packet/r_packet_num:13"/>
+     <Sig Name="u_dist/u_loop_packet/r_packet_num:14"/>
+     <Sig Name="u_dist/u_loop_packet/r_packet_num:15"/>
+    </Bus>
+    <Sig Name="u_dist/u_loop_packet/r_loop_make"/>
+    <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/w_loop_ack"/>
+    <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_cmd_ack"/>
+    <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wren"/>
+    <Bus Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:15"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:16"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:17"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:18"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:19"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:20"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:21"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:22"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:23"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:24"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:25"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:26"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:27"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:28"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:29"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:30"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:31"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:32"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:33"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:34"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:35"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:36"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:37"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:38"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:39"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:40"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:41"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:42"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:43"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:44"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:45"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:46"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:47"/>
+    </Bus>
+    <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/o_udpfifo_empty"/>
+    <Bus Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:11"/>
+    </Bus>
+    <Bus Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:15"/>
+    </Bus>
+   </Trace>
+   <Trigger>
+    <TU Operator="0" Name="TU1" ID="1" Value="020" Radix="3"/>
+    <TE Enable="1" Expression="TU1" Name="TE1" ID="1"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+</Project>

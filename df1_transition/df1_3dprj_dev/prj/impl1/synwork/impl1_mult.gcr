@@ -1,0 +1,66 @@
+i w_pll_100m
+m 0 0
+u 3256 6973
+p {t:w_pll_100m_keep.OUT[0]}{t:r_dist_rstn.C}
+e ckid0_0 {t:r_dist_rstn.C} dffr
+c ckid0_0 {t:u_pll.CLKOS} pll Unsupported/too complex instance on clock path
+i w_pll_50m
+m 0 0
+u 480 1522
+p {t:w_pll_50m_keep.OUT[0]}{t:u_HV_control.i_clk_50m}{p:u_HV_control.i_clk_50m}{t:u_HV_control.r_check_state[1].C}
+e ckid0_1 {t:u_HV_control.r_check_state[1].C} dffr
+c ckid0_1 {t:u_pll.CLKOP} pll Unsupported/too complex instance on clock path
+i i_gpx2_lvds_lclkout
+m 0 0
+u 123 123
+p {p:i_gpx2_lvds_lclkout}{t:u_gpx2_control_wrapper.i_gpx2_lvds_lclkout}{p:u_gpx2_control_wrapper.i_gpx2_lvds_lclkout}{t:u_gpx2_control_wrapper.r_result_cnt3[4].C}
+e ckid0_2 {t:u_gpx2_control_wrapper.r_result_cnt3[4].C} dffr
+c ckid0_2 {p:i_gpx2_lvds_lclkout} port Unsupported/too complex instance on clock path
+i u_eth_top.u_eth_pll.CLKOS_i
+m 0 0
+u 71 72
+n ckid0_3 {t:u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.pdp_ram_0_0_0.CLKB} Synplify Pro Clock optimization on technology cells not supported in this product
+p {t:u_eth_top.u_eth_pll.PLLInst_0.CLKOS}{t:u_eth_top.u_eth_pll.CLKOS_inferred_clock.I[0]}{t:u_eth_top.u_eth_pll.CLKOS_inferred_clock.OUT[0]}{p:u_eth_top.u_eth_pll.CLKOS}{t:u_eth_top.u_eth_pll.CLKOS}{t:u_eth_top.u_rmii_top.i_phy_refclk_90}{p:u_eth_top.u_rmii_top.i_phy_refclk_90}{t:u_eth_top.u_rmii_top.u_rmii_tx.i_phy_refclk_90}{p:u_eth_top.u_rmii_top.u_rmii_tx.i_phy_refclk_90}{t:u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.RdClock}{p:u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.RdClock}{t:u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.pdp_ram_0_0_0.CLKB}
+e ckid0_3 {t:u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.pdp_ram_0_0_0.CLKB} DP16KD
+d ckid0_3 {t:u_eth_top.u_eth_pll.PLLInst_0.CLKOS} EHXPLLL Clock source is constant
+i i_ethphy_refclk
+m 0 0
+u 34 35
+p {p:i_ethphy_refclk}{t:u_eth_top.i_ethphy_refclk}{p:u_eth_top.i_ethphy_refclk}{t:u_eth_top.u_rmii_top.i_ethphy_refclk}{p:u_eth_top.u_rmii_top.i_ethphy_refclk}{t:u_eth_top.u_rmii_top.u_rmii_rx.i_ethphy_refclk}{p:u_eth_top.u_rmii_top.u_rmii_rx.i_ethphy_refclk}{t:u_eth_top.u_rmii_top.u_rmii_rx.r_ethphy_rxdv.C}
+e ckid0_4 {t:u_eth_top.u_rmii_top.u_rmii_rx.r_ethphy_rxdv.C} sdffr
+c ckid0_4 {p:i_ethphy_refclk} port Unsupported/too complex instance on clock path
+i u_ddr3.ddr3_ipcore_inst.un1_U1_clocking
+m 0 0
+u 228 527
+p {t:u_ddr3.ddr3_ipcore_inst.U1_clocking.sclk}{t:u_ddr3.ddr3_ipcore_inst.sclk.I[0]}{t:u_ddr3.ddr3_ipcore_inst.sclk.OUT[0]}{p:u_ddr3.ddr3_ipcore_inst.sclk_out}{t:u_ddr3.ddr3_ipcore_inst.sclk_out}{p:u_ddr3.ddr3_ipcore_sclk_out}{t:u_ddr3.ddr3_ipcore_sclk_out}{t:u1_ddr3_init_ctrl.i_clk}{p:u1_ddr3_init_ctrl.i_clk}{t:u1_ddr3_init_ctrl.r_rst_srvcd.C}
+e ckid0_5 {t:u1_ddr3_init_ctrl.r_rst_srvcd.C} dffre
+c ckid0_6 {t:u_ddr3.ddr3_ipcore_inst.U1_clocking.sclk} ddr_clks_ddr3_ipcore Unsupported/too complex instance on clock path
+i i_clk_50m
+m 0 0
+u 3 21
+p {p:i_clk_50m}{t:r_rst_n.C}
+e ckid0_7 {t:r_rst_n.C} dffr
+c ckid0_7 {p:i_clk_50m} port Unsupported/too complex instance on clock path
+i u_ddr3.ddr3_ipcore_inst.clocking_good
+m 0 0
+u 0 0
+i u_ddr3.ddr3_ipcore_inst.un1_U1_clocking_1
+m 0 0
+u 0 0
+i u_ddr3.ddr3_ipcore_inst.ddr_rst
+m 0 0
+u 0 0
+i u_ddr3.ddr3_ipcore_inst.ddrdel
+m 0 0
+u 0 0
+i u_ddr3.ddr3_ipcore_inst.dqsbuf_pause
+m 0 0
+u 0 0
+i u_ddr3.ddr3_ipcore_inst.update_done
+m 0 0
+u 0 0
+i u_eth_top.u_eth_pll.CLKOP
+m 0 0
+u 0 0
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

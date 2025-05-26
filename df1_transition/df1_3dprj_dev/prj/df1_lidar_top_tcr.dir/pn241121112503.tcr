@@ -1,0 +1,26 @@
+#Start recording tcl command: 11/21/2024 09:35:14
+#Project Location: D:/FreeWork/df1/prj; Project name: df1_lidar_top
+prj_project open "D:/FreeWork/df1/prj/df1_lidar_top.ldf"
+prj_src remove "D:/FreeWork/df1/src/rtl/ddr/ddr_rw_test.v"
+prj_src add "D:/FreeWork/df1/src/rtl/ddr/ddr3_interface.v" "D:/FreeWork/df1/src/rtl/ddr/ddr_round_robin.v"
+sbp_design open -dsgn "D:/FreeWork/df1/src/ip/df1_lidar_ip/df1_lidar_ip.sbx"
+sbp_resource remove -ip {df1_lidar_ip/sfifo_128x96}
+sbp_resource remove -ip {df1_lidar_ip/ddr3_user_wrfifo}
+sbp_resource remove -ip {df1_lidar_ip/ddr3_user_rdfifo}
+sbp_design gen
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "D:/FreeWork/df1/src/ip/df1_lidar_ip/sfifo_128x96"
+source "D:/FreeWork/df1/src/ip/df1_lidar_ip/sfifo_128x96/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "D:/FreeWork/df1/src/ip/df1_lidar_ip/sfifo_128x96"
+source "D:/FreeWork/df1/src/ip/df1_lidar_ip/sfifo_128x96/generate_ngd.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_builder export_add -comp {df1_lidar_ip/sfifo_128x96}
+sbp_design gen
+prj_run Translate -impl impl1
+prj_src add "D:/FreeWork/df1/src/rtl/flash/flash_control.v" "D:/FreeWork/df1/src/rtl/flash/USRMCLK.v"
+prj_src add "D:/FreeWork/df1/src/rtl/flash/spi flash/spi_flash_cmd.v" "D:/FreeWork/df1/src/rtl/flash/spi flash/spi_flash_top.v" "D:/FreeWork/df1/src/rtl/flash/spi flash/spi_master.v"
+prj_run Translate -impl impl1
+prj_run Translate -impl impl1
+#Stop recording: 11/21/2024 11:25:03

@@ -1,0 +1,41 @@
+SCUBA, Version Diamond (64-bit) 3.13.0.56.2
+Tue Apr 29 11:14:36 2025
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : D:\TOOL\LatticeDiamond\diamond\3.13\ispfpga\bin\nt64\scuba.exe -w -n asfifo_decode -lang verilog -synth synplify -bus_exp 7 -bb -arch sa5p00 -type ebfifo -depth 128 -width 10 -pfu_fifo -regout -no_enable -sync_reset -pe -1 -pf -1 -fdc D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/asfifo_decode/asfifo_decode.fdc 
+    Circuit name     : asfifo_decode
+    Module type      : ebfifo
+    Module Version   : 5.8
+    Ports            : 
+	Inputs       : Data[9:0], WrClock, RdClock, WrEn, RdEn, Reset, RPReset
+	Outputs      : Q[9:0], Empty, Full
+    I/O buffer       : not inserted
+    EDIF output      : asfifo_decode.edn
+    Verilog output   : asfifo_decode.v
+    Verilog template : asfifo_decode_tmpl.v
+    Verilog testbench: tb_asfifo_decode_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : asfifo_decode.srp
+    Element Usage    :
+          CCU2C : 22
+           AND2 : 2
+        FD1P3BX : 2
+        FD1P3DX : 66
+        FD1S3BX : 1
+        FD1S3DX : 33
+            INV : 5
+          MUX81 : 10
+            OR2 : 1
+       ROM16X1A : 36
+       DPR16X4C : 24
+           XOR2 : 14
+    Estimated Resource Usage:
+            LUT : 117
+           DRAM : 24
+            Reg : 102

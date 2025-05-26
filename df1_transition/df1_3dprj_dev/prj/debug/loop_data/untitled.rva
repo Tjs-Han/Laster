@@ -1,0 +1,173 @@
+<!DOCTYPE ispTLA>
+<ispTLA>
+ <CreationDate>???? 11?? 27 16:14:42 2024</CreationDate>
+ <XCFFileName/>
+ <CableSetting>
+  <IsTRSTConnected val="false"/>
+  <TRSTSetting val="0"/>
+  <IsBSCANConnected val="false"/>
+  <BSCANSetting val="0"/>
+  <CableType val="USB"/>
+  <PortAddress val="0"/>
+  <PortSetting val="0"/>
+  <TCKDelay val="1"/>
+ </CableSetting>
+ <DeviceCount>1</DeviceCount>
+ <Device>
+  <DeviceIndex>0</DeviceIndex>
+  <DeviceName>1. LFE5U-45F</DeviceName>
+  <DeviceID>0x41112043</DeviceID>
+  <HasIspTRACY>true</HasIspTRACY>
+  <HasJTAG2WB>false</HasJTAG2WB>
+  <SERDES/>
+  <IRBypassLen>8</IRBypassLen>
+  <RVLFileName>debug.rvl</RVLFileName>
+  <RVSFileName>debug.rvs</RVSFileName>
+  <LACoreCount>1</LACoreCount>
+  <WinUI CoreIndex="0">
+   <TraceSigTreeData>
+    <TraceSignal IsHidden="false" Name="w_angle_sync" NodeType="0" PortIndex="0"/>
+    <TraceSignal IsHidden="false" Name="w_cdctdc_ready" NodeType="0" PortIndex="1"/>
+    <TraceSignal IsHidden="false" Name="w_laser_sync" NodeType="0" PortIndex="2"/>
+    <TraceSignal IsHidden="false" Name="w_tdc_sig" NodeType="0" PortIndex="3"/>
+    <TraceSignal IsHidden="false" Name="u_dist/i_tdcsig_sync" NodeType="0" PortIndex="4"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/i_loopdata_flag" NodeType="0" PortIndex="5"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/i_newsig_sync" NodeType="0" PortIndex="6"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_loop_state" NodeType="1" PortIndex="7">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_loop_state:0" NodeType="2" PortIndex="7"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_loop_state:1" NodeType="2" PortIndex="8"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_loop_state:2" NodeType="2" PortIndex="9"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_loop_state:3" NodeType="2" PortIndex="10"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_loop_state:4" NodeType="2" PortIndex="11"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_loop_state:5" NodeType="2" PortIndex="12"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_loop_state:6" NodeType="2" PortIndex="13"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_loop_state:7" NodeType="2" PortIndex="14"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_loop_state:8" NodeType="2" PortIndex="15"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_loop_state:9" NodeType="2" PortIndex="16"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_loop_state:10" NodeType="2" PortIndex="17"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_loop_state:11" NodeType="2" PortIndex="18"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_packet_num" NodeType="1" PortIndex="19">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_packet_num:0" NodeType="2" PortIndex="19"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_packet_num:1" NodeType="2" PortIndex="20"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_packet_num:2" NodeType="2" PortIndex="21"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_packet_num:3" NodeType="2" PortIndex="22"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_packet_num:4" NodeType="2" PortIndex="23"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_packet_num:5" NodeType="2" PortIndex="24"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_packet_num:6" NodeType="2" PortIndex="25"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_packet_num:7" NodeType="2" PortIndex="26"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_packet_num:8" NodeType="2" PortIndex="27"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_packet_num:9" NodeType="2" PortIndex="28"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_packet_num:10" NodeType="2" PortIndex="29"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_packet_num:11" NodeType="2" PortIndex="30"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_packet_num:12" NodeType="2" PortIndex="31"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_packet_num:13" NodeType="2" PortIndex="32"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_packet_num:14" NodeType="2" PortIndex="33"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_packet_num:15" NodeType="2" PortIndex="34"/>
+    <TraceSignal IsHidden="false" Name="u_dist/u_loop_packet/r_loop_make" NodeType="0" PortIndex="35"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/w_loop_ack" NodeType="0" PortIndex="36"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_cmd_ack" NodeType="0" PortIndex="37"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wren" NodeType="0" PortIndex="38"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata" NodeType="1" PortIndex="39">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:0" NodeType="2" PortIndex="39"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:1" NodeType="2" PortIndex="40"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:2" NodeType="2" PortIndex="41"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:3" NodeType="2" PortIndex="42"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:4" NodeType="2" PortIndex="43"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:5" NodeType="2" PortIndex="44"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:6" NodeType="2" PortIndex="45"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:7" NodeType="2" PortIndex="46"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:8" NodeType="2" PortIndex="47"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:9" NodeType="2" PortIndex="48"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:10" NodeType="2" PortIndex="49"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:11" NodeType="2" PortIndex="50"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:12" NodeType="2" PortIndex="51"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:13" NodeType="2" PortIndex="52"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:14" NodeType="2" PortIndex="53"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:15" NodeType="2" PortIndex="54"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:16" NodeType="2" PortIndex="55"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:17" NodeType="2" PortIndex="56"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:18" NodeType="2" PortIndex="57"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:19" NodeType="2" PortIndex="58"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:20" NodeType="2" PortIndex="59"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:21" NodeType="2" PortIndex="60"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:22" NodeType="2" PortIndex="61"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:23" NodeType="2" PortIndex="62"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:24" NodeType="2" PortIndex="63"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:25" NodeType="2" PortIndex="64"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:26" NodeType="2" PortIndex="65"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:27" NodeType="2" PortIndex="66"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:28" NodeType="2" PortIndex="67"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:29" NodeType="2" PortIndex="68"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:30" NodeType="2" PortIndex="69"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:31" NodeType="2" PortIndex="70"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:32" NodeType="2" PortIndex="71"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:33" NodeType="2" PortIndex="72"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:34" NodeType="2" PortIndex="73"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:35" NodeType="2" PortIndex="74"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:36" NodeType="2" PortIndex="75"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:37" NodeType="2" PortIndex="76"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:38" NodeType="2" PortIndex="77"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:39" NodeType="2" PortIndex="78"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:40" NodeType="2" PortIndex="79"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:41" NodeType="2" PortIndex="80"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:42" NodeType="2" PortIndex="81"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:43" NodeType="2" PortIndex="82"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:44" NodeType="2" PortIndex="83"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:45" NodeType="2" PortIndex="84"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:46" NodeType="2" PortIndex="85"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:47" NodeType="2" PortIndex="86"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/o_udpfifo_empty" NodeType="0" PortIndex="87"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state" NodeType="1" PortIndex="88">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:0" NodeType="2" PortIndex="88"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:1" NodeType="2" PortIndex="89"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:2" NodeType="2" PortIndex="90"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:3" NodeType="2" PortIndex="91"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:4" NodeType="2" PortIndex="92"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:5" NodeType="2" PortIndex="93"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:6" NodeType="2" PortIndex="94"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:7" NodeType="2" PortIndex="95"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:8" NodeType="2" PortIndex="96"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:9" NodeType="2" PortIndex="97"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:10" NodeType="2" PortIndex="98"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:11" NodeType="2" PortIndex="99"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code" NodeType="1" PortIndex="100">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:0" NodeType="2" PortIndex="100"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:1" NodeType="2" PortIndex="101"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:2" NodeType="2" PortIndex="102"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:3" NodeType="2" PortIndex="103"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:4" NodeType="2" PortIndex="104"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:5" NodeType="2" PortIndex="105"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:6" NodeType="2" PortIndex="106"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:7" NodeType="2" PortIndex="107"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:8" NodeType="2" PortIndex="108"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:9" NodeType="2" PortIndex="109"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:10" NodeType="2" PortIndex="110"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:11" NodeType="2" PortIndex="111"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:12" NodeType="2" PortIndex="112"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:13" NodeType="2" PortIndex="113"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:14" NodeType="2" PortIndex="114"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:15" NodeType="2" PortIndex="115"/>
+   </TraceSigTreeData>
+   <TriggerUI UserSelect="0" PreSelectType="0" PreSelect="1" UserSelectPos="0"/>
+   <CoreRun Run="true"/>
+   <CoreWndUIData>
+    <ClockFrequency Unit="ns" Frequency="-1.0"/>
+   </CoreWndUIData>
+  </WinUI>
+ </Device>
+</ispTLA>

@@ -1,0 +1,186 @@
+#--  Synopsys, Inc.
+#--  Version U-2023.03L-SP1
+#--  Project file D:\FreeWork\df1_demo\df1_lidar_top\prj\impl1\impl1_syn.prj
+#--  Written on Tue Dec 17 19:55:27 2024
+
+
+#project files
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/df1_lidar_top.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/asfifo_256x64/asfifo_256x64.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/asfifo_256x96/asfifo_256x96.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/code_ram128x32/code_ram128x32.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/dataram_1024x8/dataram_1024x8.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/dataram_2048x8/dataram_2048x8.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/dcfifo_rmiirx_36x2/dcfifo_rmiirx_36x2.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/dcfifo_rmiitx_2048x2/dcfifo_rmiitx_2048x2.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/dcfifo_rmiitx_4096x2/dcfifo_rmiitx_4096x2.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/eth_pll/eth_pll.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/fifo_mac_frame_2048x10/fifo_mac_frame_2048x10.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/multiplier/multiplier.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/multiplier2/multiplier2.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/multiplier_in32bit/multiplier_in32bit.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/pll/pll.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/sfifo_128x96/sfifo_128x96.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/sub_ip/sub_ip.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/synfifo_data_2048x8/synfifo_data_2048x8.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/df1_lidar_ip.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_ddr3_ip/ddr3_ipcore/ddr3_sdram_mem_top_wrapper_ddr3_ipcore.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_ddr3_ip/ddr3_ipcore/ddr3_ipcore_bb.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_ddr3_ip/ddr3_ipcore/ddr_clks_ddr3_ipcore_bb.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_ddr3_ip/df1_ddr3_ip.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/phy_mdio/phy_mdio_ctrl.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/phy_mdio/phy_mdio_drive.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/eth_top.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/eth_ctrl.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/rmii_top/rmii_top.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/rmii_top/rmii_rx.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/rmii_top/rmii_tx.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/mac_top/mac_top.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/mac_top/mac_rx.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/mac_top/mac_tx.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/arp/arp_ctrl.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/arp/arp_rx.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/arp/arp_tx.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/arp/crc32_d8.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/ip_top/ip_top.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/ip_top/icmp/icmp_top.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/ip_top/icmp/icmp_rx.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/ip_top/icmp/icmp_tx.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/ip_top/udp/udp_top.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/ip_top/udp/udp_rx.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/ip_top/udp/udp_tx.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/motor/motor_control.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/motor/motor_drive.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/motor/signal_dejitter.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/rotate/rotate_control.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/rotate/opto_switch_filter.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/rotate/motor_monit.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/rotate/encoder/encoder_control.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/rotate/encoder/sync_control.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/rotate/encoder/opto_switch.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/rotate/encoder/encoder_calculate.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/rotate/encoder/code_cnt.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/rotate/encoder/code_angle.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/laser/laser_control.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/insp/HV_control.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/insp/adc_control.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/insp/adc_to_dac.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/insp/adc_to_temp.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/insp/adc_to_dist_2.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/insp/pluse_average.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/insp/temp_adc_filter.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/insp/division.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/insp/DA_SPI_pwm.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/insp/dac_table.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/insp/AD_SPI.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/gpx2/gpx2_control_wrapper.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/gpx2/gpx2_cfg.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/gpx2/gpx2_spi_master.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/gpx2/data_fill.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/gpx2/gpx2_lvds_ctrl.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/gpx2/gpx2_lvds.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/data_communication/udpcom_datagram_parser.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/data_communication/datagram_cmd_defines.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/data_communication/parameter_ident_define.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/data_communication/udpcom_control.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/data_communication/udpcom_parameter_init.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/eth/data_communication/angle2index.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/data_packet/dist_measure.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/data_packet/loop_packet.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/data_packet/calib_packet.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/ddr/ddr3_init_ctrl.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/ddr/ddr3_rw_ctrl.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/ddr/ddr3_interface.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/ddr/ddr_round_robin.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/flash/flash_control.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/flash/USRMCLK.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/flash/spi flash/spi_flash_cmd.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/flash/spi flash/spi_flash_top.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/flash/spi flash/spi_master.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/data_packet/dist_calculate.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/data_packet/data_pre.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/data_packet/index_cal.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/data_packet/dist_cal.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/data_packet/rssi_cal.v"
+add_file -verilog -vlog_std v2001 "D:/FreeWork/df1_demo/df1_lidar_top/src/rtl/data_packet/div_rill.v"
+
+
+#implementation: "impl1"
+impl -add impl1 -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std sysv
+set_option -project_relative_includes 1
+set_option -hdl_define -set SBP_SYNTHESIS
+set_option -include_path {D:/FreeWork/df1_demo/df1_lidar_top/prj}
+
+#device options
+set_option -technology ECP5U
+set_option -part LFE5U_45F
+set_option -package BG256C
+set_option -speed_grade -7
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module "df1_lidar_top"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+set_option -scm2hydra 0
+set_option -scm2hydra_preserve_rtl_sig 1
+set_option -hdl_strict_syntax 0
+set_option -rtl_xmr_naming 0
+set_option -use_module_idb 1
+
+# mapper_without_write_options
+set_option -frequency auto
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_structural_verilog 0
+set_option -write_vhdl 0
+
+# Lattice XP
+set_option -maxfan 100
+set_option -disable_io_insertion 0
+set_option -retiming 0
+set_option -pipe 1
+set_option -forcegsr no
+set_option -fix_gated_and_generated_clocks 1
+set_option -rw_check_on_ram 1
+set_option -update_models_cp 0
+set_option -syn_edif_array_rename 1
+set_option -Write_declared_clocks_only 1
+set_option -seqshift_no_replicate 0
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# common_options
+set_option -add_dut_hierarchy 0
+set_option -prepare_readback 0
+
+# flow_options
+set_option -use_unified_compile 0
+set_option -slr_aware_debug 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./impl1.edi"
+impl -active "impl1"

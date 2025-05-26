@@ -1,0 +1,660 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":89406:9:89406:42|Tristate driver multiplier_10x32_alu_signedcin_1_0 (in view: work.multiplier_10x32_uniq_1(verilog)) on net multiplier_10x32_alu_signedcin_1_0 (in view: work.multiplier_10x32_uniq_1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":89407:9:89407:42|Tristate driver multiplier_10x32_alu_in_cin_1_0_53 (in view: work.multiplier_10x32_uniq_1(verilog)) on net multiplier_10x32_alu_in_cin_1_0_53 (in view: work.multiplier_10x32_uniq_1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":89408:9:89408:42|Tristate driver multiplier_10x32_alu_in_cin_1_0_52 (in view: work.multiplier_10x32_uniq_1(verilog)) on net multiplier_10x32_alu_in_cin_1_0_52 (in view: work.multiplier_10x32_uniq_1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":89409:9:89409:42|Tristate driver multiplier_10x32_alu_in_cin_1_0_51 (in view: work.multiplier_10x32_uniq_1(verilog)) on net multiplier_10x32_alu_in_cin_1_0_51 (in view: work.multiplier_10x32_uniq_1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":89410:9:89410:42|Tristate driver multiplier_10x32_alu_in_cin_1_0_50 (in view: work.multiplier_10x32_uniq_1(verilog)) on net multiplier_10x32_alu_in_cin_1_0_50 (in view: work.multiplier_10x32_uniq_1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":89411:9:89411:42|Tristate driver multiplier_10x32_alu_in_cin_1_0_49 (in view: work.multiplier_10x32_uniq_1(verilog)) on net multiplier_10x32_alu_in_cin_1_0_49 (in view: work.multiplier_10x32_uniq_1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":89412:9:89412:42|Tristate driver multiplier_10x32_alu_in_cin_1_0_48 (in view: work.multiplier_10x32_uniq_1(verilog)) on net multiplier_10x32_alu_in_cin_1_0_48 (in view: work.multiplier_10x32_uniq_1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":89413:9:89413:42|Tristate driver multiplier_10x32_alu_in_cin_1_0_47 (in view: work.multiplier_10x32_uniq_1(verilog)) on net multiplier_10x32_alu_in_cin_1_0_47 (in view: work.multiplier_10x32_uniq_1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":89414:9:89414:42|Tristate driver multiplier_10x32_alu_in_cin_1_0_46 (in view: work.multiplier_10x32_uniq_1(verilog)) on net multiplier_10x32_alu_in_cin_1_0_46 (in view: work.multiplier_10x32_uniq_1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":89415:9:89415:42|Tristate driver multiplier_10x32_alu_in_cin_1_0_45 (in view: work.multiplier_10x32_uniq_1(verilog)) on net multiplier_10x32_alu_in_cin_1_0_45 (in view: work.multiplier_10x32_uniq_1(verilog)) has its enable tied to GND.
+@N: BZ173 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":105130:75:105130:98|ROM un39_r_divisor[11:0] (in view: work.adc_to_temp_uniq_1(verilog)) mapped in logic.
+@N: BZ173 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":105130:75:105130:98|ROM un39_r_divisor[11:0] (in view: work.adc_to_temp_uniq_1(verilog)) mapped in logic.
+@N: MO106 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":105130:75:105130:98|Found ROM un39_r_divisor[11:0] (in view: work.adc_to_temp_uniq_1(verilog)) with 22 words by 12 bits.
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":103908:4:103908:9|Found counter in view:work.df1_lidar_top(verilog) instance u_dist.u_loop_packet.r_packet_num[15:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":103895:4:103895:9|Found counter in view:work.df1_lidar_top(verilog) instance u_dist.u_loop_packet.r_loop_wraddr[9:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":14091:4:14091:9|Found counter in view:work.df1_lidar_top(verilog) instance u1_ddr3_init_ctrl.r_init_cnt[15:0] 
+@N: FX493 |Applying initial value "0" on instance u_dist.u_loop_packet.r_shift_num[0].
+@N: FX493 |Applying initial value "0" on instance u_dist.u_loop_packet.r_shift_num[1].
+@N: FX493 |Applying initial value "0" on instance u_dist.u_loop_packet.r_shift_num[2].
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[63] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[62] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[61] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[60] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[59] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[58] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[57] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[56] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[55] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[54] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[53] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[52] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[51] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[50] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[49] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[48] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[47] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[46] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[45] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[44] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[43] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[42] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[41] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[40] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[39] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[38] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[37] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[36] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[35] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[34] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[33] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[32] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[31] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[30] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[29] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[28] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[27] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[26] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[25] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[24] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[23] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[22] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[21] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[20] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[19] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[18] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[17] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[16] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[15] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[14] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[13] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[12] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[11] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[10] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[9] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[8] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[7] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[6] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[5] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[4] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[3] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[2] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[1] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50508:4:50508:9|Removing sequential instance r_wfifo_data2[65] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50545:4:50545:9|Removing sequential instance r_wfifo_data3[0] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50508:4:50508:9|Removing sequential instance r_wfifo_data2[64] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":71542:4:71542:9|Removing sequential instance r_fifo_wdata[9] (in view: work.mac_tx_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":71542:4:71542:9|Removing sequential instance r_fifo_wdata[8] (in view: work.mac_tx_uniq_1(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":71977:4:71977:9|Found counter in view:work.arp_rx_uniq_1_3232235786_3232235777_0_1_2_4_8_2054_Z3(verilog) instance r_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":72350:4:72350:9|Found counter in view:work.arp_tx_uniq_1_Z4(verilog) instance r_data_cnt[4:0] 
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":72350:4:72350:9|Removing sequential instance r_arp_data\[7\][2] (in view: work.arp_tx_uniq_1_Z4(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":73512:4:73512:9|Found counter in view:work.icmp_rx_uniq_1_Z6(verilog) instance r_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":73512:4:73512:9|Found counter in view:work.icmp_rx_uniq_1_Z6(verilog) instance r_icmp_rxcnt[15:0] 
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') r_skip_en38 (in view: work.icmp_rx_uniq_1_Z6(verilog))
+@N: MF179 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":73620:118:73620:156|Found 8 by 8 bit equality operator ('==') un1_i_mac_packet_rxdata_2 (in view: work.icmp_rx_uniq_1_Z6(verilog))
+@N: MF179 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":73620:74:73620:112|Found 24 by 24 bit equality operator ('==') un1_i_lidar_ip (in view: work.icmp_rx_uniq_1_Z6(verilog))
+@N: MF179 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":73570:54:73570:82|Found 48 by 48 bit equality operator ('==') un1_i_lidar_mac (in view: work.icmp_rx_uniq_1_Z6(verilog))
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":74004:4:74004:9|Found counter in view:work.icmp_tx_uniq_1_Z7(verilog) instance r_data_cnt[15:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":74004:4:74004:9|Found counter in view:work.icmp_tx_uniq_1_Z7(verilog) instance r_real_add_cnt[4:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":74004:4:74004:9|Found counter in view:work.icmp_tx_uniq_1_Z7(verilog) instance r_ip_head\[1\][31:16] 
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') r_tx_req14 (in view: work.icmp_tx_uniq_1_Z7(verilog))
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') un1_r_txdata_num_2 (in view: work.icmp_tx_uniq_1_Z7(verilog))
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":75927:4:75927:9|Found counter in view:work.udp_rx_uniq_1_Z9(verilog) instance r_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":75927:4:75927:9|Found counter in view:work.udp_rx_uniq_1_Z9(verilog) instance r_data_cnt[15:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":75927:4:75927:9|Found counter in view:work.udp_rx_uniq_1_Z9(verilog) instance r_udp_recram_wraddr[10:0] 
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') r_skip_en34 (in view: work.udp_rx_uniq_1_Z9(verilog))
+@N: MF179 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":76026:110:76026:148|Found 8 by 8 bit equality operator ('==') un1_i_mac_packet_rxdata_2 (in view: work.udp_rx_uniq_1_Z9(verilog))
+@N: MF179 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":76026:66:76026:104|Found 24 by 24 bit equality operator ('==') un1_i_lidar_ip (in view: work.udp_rx_uniq_1_Z9(verilog))
+@N: MF179 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":75982:54:75982:82|Found 48 by 48 bit equality operator ('==') un1_i_lidar_mac (in view: work.udp_rx_uniq_1_Z9(verilog))
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":76404:4:76404:9|Found counter in view:work.udp_tx_uniq_1_Z10(verilog) instance r_data_cnt[15:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":76404:4:76404:9|Found counter in view:work.udp_tx_uniq_1_Z10(verilog) instance r_udp_txram_rdaddr[10:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":76404:4:76404:9|Found counter in view:work.udp_tx_uniq_1_Z10(verilog) instance r_real_add_cnt[4:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":76404:4:76404:9|Found counter in view:work.udp_tx_uniq_1_Z10(verilog) instance r_ip_head\[1\][31:16] 
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') un1_r_tx_data_num_2 (in view: work.udp_tx_uniq_1_Z10(verilog))
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78404:4:78404:9|Found counter in view:work.udpcom_datagram_parser_uniq_1_Z13(verilog) instance r_loop_rdaddr[9:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78303:4:78303:9|Found counter in view:work.udpcom_datagram_parser_uniq_1_Z13(verilog) instance r_cacheram_wraddr[9:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":77990:4:77990:9|Found counter in view:work.udpcom_datagram_parser_uniq_1_Z13(verilog) instance r_waitddr_delay[31:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78423:4:78423:9|Found counter in view:work.udpcom_datagram_parser_uniq_1_Z13(verilog) instance r_calib_rdaddr[9:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78391:4:78391:9|Found counter in view:work.udpcom_datagram_parser_uniq_1_Z13(verilog) instance r_code_rdaddr2[8:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78378:4:78378:9|Found counter in view:work.udpcom_datagram_parser_uniq_1_Z13(verilog) instance r_code_rdaddr1[8:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":77990:4:77990:9|Found counter in view:work.udpcom_datagram_parser_uniq_1_Z13(verilog) instance r_byte_txcnt[10:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":77935:4:77935:9|Found counter in view:work.udpcom_datagram_parser_uniq_1_Z13(verilog) instance r_udp_rxram_rdaddr[10:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":77935:4:77935:9|Found counter in view:work.udpcom_datagram_parser_uniq_1_Z13(verilog) instance r_byte_rxcnt[10:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78518:4:78518:9|Found counter in view:work.udpcom_datagram_parser_uniq_1_Z13(verilog) instance r_udp_txram_wraddr[10:0] 
+@N: FX493 |Applying initial value "0" on instance r_shift_num[0].
+@N: FX493 |Applying initial value "0" on instance r_shift_num[1].
+@N: FX493 |Applying initial value "0" on instance r_shift_num[2].
+@N: MF179 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78640:86:78640:128|Found 16 by 16 bit equality operator ('==') un1_r_udpcom_byte_size_1 (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog))
+@N: MF179 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78643:86:78643:128|Found 16 by 16 bit equality operator ('==') un1_r_udpcom_byte_size_2 (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog))
+@N: MF179 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78496:29:78496:64|Found 16 by 16 bit equality operator ('==') un1_r_recsum_header (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog))
+@N: MF179 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78499:33:78499:64|Found 16 by 16 bit equality operator ('==') un1_r_recsum_data (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog))
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78132:4:78132:9|Removing sequential instance r_get_para2[16] (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78132:4:78132:9|Removing sequential instance r_get_para2[17] (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78132:4:78132:9|Removing sequential instance r_get_para2[18] (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78132:4:78132:9|Removing sequential instance r_get_para2[19] (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78132:4:78132:9|Removing sequential instance r_get_para2[20] (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78132:4:78132:9|Removing sequential instance r_get_para2[21] (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78132:4:78132:9|Removing sequential instance r_get_para2[22] (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78132:4:78132:9|Removing sequential instance r_get_para2[23] (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78132:4:78132:9|Removing sequential instance r_get_para2[24] (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78132:4:78132:9|Removing sequential instance r_get_para2[25] (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78132:4:78132:9|Removing sequential instance r_get_para2[26] (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78132:4:78132:9|Removing sequential instance r_get_para2[27] (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78132:4:78132:9|Removing sequential instance r_get_para2[28] (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78132:4:78132:9|Removing sequential instance r_get_para2[29] (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78132:4:78132:9|Removing sequential instance r_get_para2[30] (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":78132:4:78132:9|Removing sequential instance r_get_para2[31] (in view: work.udpcom_datagram_parser_uniq_1_Z13(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":81267:4:81267:9|Found counter in view:work.udpcom_parameter_init_uniq_1_Z14(verilog) instance r_write_cnt[15:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":81119:4:81119:9|Found counter in view:work.udpcom_parameter_init_uniq_1_Z14(verilog) instance r_read_cnt[31:2] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":81165:4:81165:9|Found counter in view:work.udpcom_parameter_init_uniq_1_Z14(verilog) instance r_shift_num[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":81283:4:81283:9|Found counter in view:work.udpcom_parameter_init_uniq_1_Z14(verilog) instance r_cache_rdaddr[9:0] 
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[9].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[10].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[11].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[12].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[13].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[14].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[15].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[16].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[17].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[18].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[19].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[20].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[21].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[22].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[23].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[24].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[25].
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":82995:4:82995:9|Found counter in view:work.udp_broadcast_uniq_1(verilog) instance r_sec_mscnt[9:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":82980:4:82980:9|Found counter in view:work.udp_broadcast_uniq_1(verilog) instance r_1ms_uscnt[9:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":82968:4:82968:9|Found counter in view:work.udp_broadcast_uniq_1(verilog) instance r_1us_clkcnt[6:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":83833:4:83833:9|Found counter in view:work.flash_control_uniq_1_Z15(verilog) instance r_flash2ddr_addr[26:2] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":83936:4:83936:9|Found counter in view:work.flash_control_uniq_1_Z15(verilog) instance r_ddren_cnt_flash[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":83923:4:83923:9|Found counter in view:work.flash_control_uniq_1_Z15(verilog) instance r_write_cnt[8:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":83910:4:83910:9|Found counter in view:work.flash_control_uniq_1_Z15(verilog) instance r_shift_cnt[3:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":83808:4:83808:9|Found counter in view:work.flash_control_uniq_1_Z15(verilog) instance r_read_cnt[3:0] 
+@N: FX493 |Applying initial value "0" on instance r_read_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_read_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_read_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_read_cnt[3].
+@N: FX493 |Applying initial value "0" on instance r_shift_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_shift_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_shift_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_shift_cnt[3].
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":83730:4:83730:9|Removing sequential instance r_page_rdnum[0] (in view: work.flash_control_uniq_1_Z15(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":83667:4:83667:9|Removing sequential instance r_flash_rdaddr[0] (in view: work.flash_control_uniq_1_Z15(verilog)) because it does not drive other instances.
+@N: FX493 |Applying initial value "0" on instance r_cmd_dlycnt[0].
+@N: FX493 |Applying initial value "0" on instance r_cmd_dlycnt[1].
+@N: FX493 |Applying initial value "0" on instance r_cmd_dlycnt[2].
+@N: FX493 |Applying initial value "0" on instance r_cmd_dlycnt[3].
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":84288:4:84288:9|Removing sequential instance r_byte_size[7] (in view: work.spi_flash_cmd_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":84288:4:84288:9|Removing sequential instance r_byte_size[6] (in view: work.spi_flash_cmd_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":84288:4:84288:9|Removing sequential instance r_byte_size[5] (in view: work.spi_flash_cmd_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":84288:4:84288:9|Removing sequential instance r_byte_size[4] (in view: work.spi_flash_cmd_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":84288:4:84288:9|Removing sequential instance r_byte_size[3] (in view: work.spi_flash_cmd_uniq_1(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":84339:4:84339:9|Found counter in view:work.spi_flash_cmd_uniq_1(verilog) instance r_delay_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":84408:4:84408:9|Found counter in view:work.spi_flash_cmd_uniq_1(verilog) instance r_byte_cnt[8:0] 
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":84288:4:84288:9|Removing sequential instance r_byte_size[2] (in view: work.spi_flash_cmd_uniq_1(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":84601:4:84601:9|Found counter in view:work.spi_master_uniq_1(verilog) instance r_bit_cnt[3:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":84571:4:84571:9|Found counter in view:work.spi_master_uniq_1(verilog) instance r_clk_cnt[15:0] 
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[3].
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":84829:4:84829:9|Found counter in view:work.signal_dejitter_uniq_1_500s(verilog) instance r_opto_cnt[8:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":84895:4:84895:9|Found counter in view:work.signal_dejitter_uniq_2_500s(verilog) instance r_opto_cnt[8:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":85432:4:85432:9|Found counter in view:work.motor_drive_uniq_1(verilog) instance r_speed_reach_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":85225:4:85225:9|Found counter in view:work.motor_drive_uniq_1(verilog) instance r_delay_ms_cnt[15:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":85195:4:85195:9|Found counter in view:work.motor_drive_uniq_1(verilog) instance r_fg_frequency[27:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":85491:4:85491:9|Found counter in view:work.motor_drive_uniq_1(verilog) instance r_speed_overcnt[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":85225:4:85225:9|Found counter in view:work.motor_drive_uniq_1(verilog) instance r_delay_ns_cnt[15:0] 
+@N: MF179 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":85257:21:85257:49|Found 16 by 16 bit equality operator ('==') un1_i_freq_motor_1 (in view: work.motor_drive_uniq_1(verilog))
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":86350:4:86350:9|Found counter in view:work.divider_32_16bit_uniq_1(verilog) instance r_count[4:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":86472:4:86472:9|Found counter in view:work.divider_32_16bit_uniq_2(verilog) instance r_count[4:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":86123:4:86123:9|Found counter in view:work.motor_drive_uniq_2(verilog) instance r_speed_reach_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":85916:4:85916:9|Found counter in view:work.motor_drive_uniq_2(verilog) instance r_delay_ms_cnt[15:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":85886:4:85886:9|Found counter in view:work.motor_drive_uniq_2(verilog) instance r_fg_frequency[27:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":86182:4:86182:9|Found counter in view:work.motor_drive_uniq_2(verilog) instance r_speed_overcnt[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":85916:4:85916:9|Found counter in view:work.motor_drive_uniq_2(verilog) instance r_delay_ns_cnt[15:0] 
+@N: MF179 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":85948:21:85948:49|Found 16 by 16 bit equality operator ('==') un1_i_freq_motor_1 (in view: work.motor_drive_uniq_2(verilog))
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":86594:4:86594:9|Found counter in view:work.divider_32_16bit_uniq_3(verilog) instance r_count[4:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":86716:4:86716:9|Found counter in view:work.divider_32_16bit_uniq_4(verilog) instance r_count[4:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":87898:4:87898:9|Found counter in view:work.opto_signal_dejitter_uniq_1(verilog) instance r_opto_cnt[6:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":87968:4:87968:9|Found counter in view:work.opto_signal_dejitter_uniq_2(verilog) instance r_opto_cnt[6:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":88352:4:88352:9|Found counter in view:work.opto_switch_uniq_1_1000000000s_10s_71s_100_200_196_7042_14084_Z16(verilog) instance r_code_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":88331:4:88331:9|Found counter in view:work.opto_switch_uniq_1_1000000000s_10s_71s_100_200_196_7042_14084_Z16(verilog) instance r_clk_cnt[13:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":88608:4:88608:9|Found counter in view:work.encoder_calculate_uniq_1(verilog) instance r_pulsetime_actcnt[31:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":88576:4:88576:9|Found counter in view:work.encoder_calculate_uniq_1(verilog) instance r_time_sumcnt[31:0] 
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":88587:4:88587:9|Removing sequential instance r_pulse_time_avecnt[28] (in view: work.encoder_calculate_uniq_1(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":88853:4:88853:9|Found counter in view:work.code_angle_uniq_1_Z17(verilog) instance r_cycle_clkcnt[23:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":88817:4:88817:9|Found counter in view:work.code_angle_uniq_1_Z17(verilog) instance r_code_clkcnt[15:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":88980:4:88980:9|Found counter in view:work.code_angle_uniq_1_Z17(verilog) instance r_dly_clkcnt[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":88798:4:88798:9|Found counter in view:work.code_angle_uniq_1_Z17(verilog) instance r_code_sernum[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":86838:4:86838:9|Found counter in view:work.divider_32_16bit_uniq_5(verilog) instance r_count[4:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":92053:4:92053:9|Found counter in view:work.code_cnt_uniq_1(verilog) instance r_code_clkcnt[31:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":92053:4:92053:9|Found counter in view:work.code_cnt_uniq_1(verilog) instance r_code_wraddr[6:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":88471:4:88471:9|Found counter in view:work.opto_switch_uniq_2_1000000000s_10s_60s_100_200_196_8333_16666_Z18(verilog) instance r_code_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":88450:4:88450:9|Found counter in view:work.opto_switch_uniq_2_1000000000s_10s_60s_100_200_196_8333_16666_Z18(verilog) instance r_clk_cnt[14:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":88717:4:88717:9|Found counter in view:work.encoder_calculate_uniq_2(verilog) instance r_pulsetime_actcnt[31:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":88685:4:88685:9|Found counter in view:work.encoder_calculate_uniq_2(verilog) instance r_time_sumcnt[31:0] 
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":88696:4:88696:9|Removing sequential instance r_pulse_time_avecnt[28] (in view: work.encoder_calculate_uniq_2(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":89152:4:89152:9|Found counter in view:work.code_angle_uniq_2_Z19(verilog) instance r_cycle_clkcnt[23:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":89116:4:89116:9|Found counter in view:work.code_angle_uniq_2_Z19(verilog) instance r_code_clkcnt[15:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":89279:4:89279:9|Found counter in view:work.code_angle_uniq_2_Z19(verilog) instance r_dly_clkcnt[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":89097:4:89097:9|Found counter in view:work.code_angle_uniq_2_Z19(verilog) instance r_code_sernum[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":86960:4:86960:9|Found counter in view:work.divider_32_16bit_uniq_6(verilog) instance r_count[4:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":92188:4:92188:9|Found counter in view:work.code_cnt_uniq_2(verilog) instance r_code_clkcnt[31:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":92188:4:92188:9|Found counter in view:work.code_cnt_uniq_2(verilog) instance r_code_wraddr[6:0] 
+@N: FX493 |Applying initial value "0" on instance r_laser_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_laser_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_laser_cnt[2].
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":92491:4:92491:9|Found counter in view:work.iddr_init_uniq_1(verilog) instance r_init_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":92606:4:92606:9|Found counter in view:work.iddr_init_uniq_2(verilog) instance r_init_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":94166:4:94166:9|Found counter in view:work.mpt2042_cfg_uniq_1(verilog) instance r_cnt_byte[5:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":94166:4:94166:9|Found counter in view:work.mpt2042_cfg_uniq_1(verilog) instance r_dly_clkcnt[3:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":94033:4:94033:9|Found counter in view:work.mpt2042_cfg_uniq_1(verilog) instance r_sec_mscnt[9:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":94018:4:94018:9|Found counter in view:work.mpt2042_cfg_uniq_1(verilog) instance r_1ms_uscnt[9:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":94006:4:94006:9|Found counter in view:work.mpt2042_cfg_uniq_1(verilog) instance r_1us_clkcnt[6:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":94340:4:94340:9|Found counter in view:work.mpt2042_cfg_uniq_1(verilog) instance r_cfgreg_cnt[3:0] 
+@N: FX493 |Applying initial value "0" on instance r_cfgreg_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_cfgreg_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_cfgreg_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_cfgreg_cnt[3].
+@N: FX493 |Applying initial value "0" on instance r_dly_clkcnt[0].
+@N: FX493 |Applying initial value "0" on instance r_dly_clkcnt[1].
+@N: FX493 |Applying initial value "0" on instance r_dly_clkcnt[2].
+@N: FX493 |Applying initial value "0" on instance r_dly_clkcnt[3].
+@N: FX493 |Applying initial value "0" on instance r_1sec_dlycnt[0].
+@N: FX493 |Applying initial value "0" on instance r_1sec_dlycnt[1].
+@N: FX493 |Applying initial value "0" on instance r_1sec_dlycnt[2].
+@N: MF179 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":94365:50:94365:79|Found 8 by 8 bit equality operator ('==') un2_r_regcfg_verify (in view: work.mpt2042_cfg_uniq_1(verilog))
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":95580:4:95580:9|Found counter in view:work.mpt2042_spi_master_uniq_1_Z20(verilog) instance r_bit_cnt[3:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":95580:4:95580:9|Found counter in view:work.mpt2042_spi_master_uniq_1_Z20(verilog) instance r_clk_cnt[7:0] 
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[3].
+@N: FX493 |Applying initial value "0" on instance r_cs_dlycnt[0].
+@N: FX493 |Applying initial value "0" on instance r_cs_dlycnt[1].
+@N: FX493 |Applying initial value "0" on instance r_cs_dlycnt[2].
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":94722:4:94722:9|Found counter in view:work.mpt2042_cfg_uniq_2(verilog) instance r_cnt_byte[5:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":94722:4:94722:9|Found counter in view:work.mpt2042_cfg_uniq_2(verilog) instance r_dly_clkcnt[3:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":94589:4:94589:9|Found counter in view:work.mpt2042_cfg_uniq_2(verilog) instance r_sec_mscnt[9:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":94574:4:94574:9|Found counter in view:work.mpt2042_cfg_uniq_2(verilog) instance r_1ms_uscnt[9:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":94562:4:94562:9|Found counter in view:work.mpt2042_cfg_uniq_2(verilog) instance r_1us_clkcnt[6:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":94896:4:94896:9|Found counter in view:work.mpt2042_cfg_uniq_2(verilog) instance r_cfgreg_cnt[3:0] 
+@N: FX493 |Applying initial value "0" on instance r_cfgreg_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_cfgreg_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_cfgreg_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_cfgreg_cnt[3].
+@N: FX493 |Applying initial value "0" on instance r_dly_clkcnt[0].
+@N: FX493 |Applying initial value "0" on instance r_dly_clkcnt[1].
+@N: FX493 |Applying initial value "0" on instance r_dly_clkcnt[2].
+@N: FX493 |Applying initial value "0" on instance r_dly_clkcnt[3].
+@N: FX493 |Applying initial value "0" on instance r_1sec_dlycnt[0].
+@N: FX493 |Applying initial value "0" on instance r_1sec_dlycnt[1].
+@N: FX493 |Applying initial value "0" on instance r_1sec_dlycnt[2].
+@N: MF179 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":94921:50:94921:79|Found 8 by 8 bit equality operator ('==') un2_r_regcfg_verify (in view: work.mpt2042_cfg_uniq_2(verilog))
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":95808:4:95808:9|Found counter in view:work.mpt2042_spi_master_uniq_2_Z21(verilog) instance r_bit_cnt[3:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":95808:4:95808:9|Found counter in view:work.mpt2042_spi_master_uniq_2_Z21(verilog) instance r_clk_cnt[7:0] 
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[3].
+@N: FX493 |Applying initial value "0" on instance r_cs_dlycnt[0].
+@N: FX493 |Applying initial value "0" on instance r_cs_dlycnt[1].
+@N: FX493 |Applying initial value "0" on instance r_cs_dlycnt[2].
+@N: FX493 |Applying initial value "0" on instance r_comma_clkcnt[0].
+@N: FX493 |Applying initial value "0" on instance r_comma_clkcnt[1].
+@N: FX493 |Applying initial value "0" on instance r_comma_clkcnt[2].
+@N: FX493 |Applying initial value "0" on instance r_lvds_clkcnt[0].
+@N: FX493 |Applying initial value "0" on instance r_lvds_clkcnt[1].
+@N: FX493 |Applying initial value "0" on instance r_lvds_clkcnt[2].
+@N: MF179 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":96319:41:96319:70|Found 8 by 8 bit equality operator ('==') r_lvdsfifo_wdata22 (in view: work.lvds_ddrdata_top_uniq_1(verilog))
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":102408:4:102408:9|Found counter in view:work.mpt2042_dataprc_uniq_1(verilog) instance r_delay_clkcnt[7:0] 
+@N: FX493 |Applying initial value "0" on instance r_data_bytecnt[0].
+@N: FX493 |Applying initial value "0" on instance r_data_bytecnt[1].
+@N: FX493 |Applying initial value "0" on instance r_comma_clkcnt[0].
+@N: FX493 |Applying initial value "0" on instance r_comma_clkcnt[1].
+@N: FX493 |Applying initial value "0" on instance r_comma_clkcnt[2].
+@N: FX493 |Applying initial value "0" on instance r_lvds_clkcnt[0].
+@N: FX493 |Applying initial value "0" on instance r_lvds_clkcnt[1].
+@N: FX493 |Applying initial value "0" on instance r_lvds_clkcnt[2].
+@N: MF179 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":96798:41:96798:70|Found 8 by 8 bit equality operator ('==') r_lvdsfifo_wdata22 (in view: work.lvds_ddrdata_top_uniq_2(verilog))
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":102864:4:102864:9|Found counter in view:work.mpt2042_dataprc_uniq_2(verilog) instance r_delay_clkcnt[7:0] 
+@N: FX493 |Applying initial value "0" on instance r_data_bytecnt[0].
+@N: FX493 |Applying initial value "0" on instance r_data_bytecnt[1].
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":103589:4:103589:9|Found counter in view:work.calib_packet_uniq_1_100_0_1_2_4_8_16_32_64_128(verilog) instance r_packet_num[15:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":103576:4:103576:9|Found counter in view:work.calib_packet_uniq_1_100_0_1_2_4_8_16_32_64_128(verilog) instance r_calib_wraddr[9:0] 
+@N: FX493 |Applying initial value "0" on instance r_cali_pointnum[0].
+@N: FX493 |Applying initial value "0" on instance r_cali_pointnum[1].
+@N: FX493 |Applying initial value "0" on instance r_cali_pointnum[2].
+@N: FX493 |Applying initial value "0" on instance r_cali_pointnum[3].
+@N: FX493 |Applying initial value "0" on instance r_cali_pointnum[4].
+@N: FX493 |Applying initial value "0" on instance r_cali_pointnum[5].
+@N: FX493 |Applying initial value "0" on instance r_cali_pointnum[6].
+@N: FX493 |Applying initial value "0" on instance r_cali_pointnum[7].
+@N: FX493 |Applying initial value "0" on instance r_cali_pointnum[8].
+@N: FX493 |Applying initial value "0" on instance r_cali_pointnum[9].
+@N: FX493 |Applying initial value "0" on instance r_cali_pointnum[10].
+@N: FX493 |Applying initial value "0" on instance r_cali_pointnum[11].
+@N: FX493 |Applying initial value "0" on instance r_cali_pointnum[12].
+@N: FX493 |Applying initial value "0" on instance r_cali_pointnum[13].
+@N: FX493 |Applying initial value "0" on instance r_cali_pointnum[14].
+@N: FX493 |Applying initial value "0" on instance r_cali_pointnum[15].
+@N: FX493 |Applying initial value "0" on instance r_dlycnt[0].
+@N: FX493 |Applying initial value "0" on instance r_dlycnt[1].
+@N: FX493 |Applying initial value "0" on instance r_dlycnt[2].
+@N: FX493 |Applying initial value "0" on instance r_dlycnt[3].
+@N: FX493 |Applying initial value "0" on instance r_shift_num[0].
+@N: FX493 |Applying initial value "0" on instance r_shift_num[1].
+@N: FX493 |Applying initial value "0" on instance r_shift_num[2].
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value1[15] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value1[14] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value1[13] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value1[12] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value1[11] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value2[15] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value2[14] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value2[13] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value2[12] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value2[11] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value3[15] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value3[14] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value3[13] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value3[12] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value3[11] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value4[15] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value4[14] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value4[13] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value4[12] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value4[11] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value5[15] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value5[14] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value5[13] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value5[12] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value5[11] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value6[15] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value6[14] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value6[13] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value6[12] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value6[11] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value7[15] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value7[14] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value7[13] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value7[12] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value7[11] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value8[15] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value8[14] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value8[13] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value8[12] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value8[11] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value9[15] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value9[14] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value9[13] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value9[12] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value9[11] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueA[15] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueA[14] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueA[13] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueA[12] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueA[11] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueB[15] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueB[14] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueB[13] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueB[12] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueB[11] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueC[15] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueC[14] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueC[13] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueC[12] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueC[11] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueD[15] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueD[14] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueD[13] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueD[12] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueD[11] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueE[15] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueE[14] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueE[13] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueE[12] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueE[11] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueF[15] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueF[14] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueF[13] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueF[12] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueF[11] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106506:4:106506:9|Removing sequential instance u5.r_pulse_average[19] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106506:4:106506:9|Removing sequential instance u5.r_pulse_average[18] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106506:4:106506:9|Removing sequential instance u5.r_pulse_average[17] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106506:4:106506:9|Removing sequential instance u5.r_pulse_average[16] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106506:4:106506:9|Removing sequential instance u5.r_pulse_average[15] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106506:4:106506:9|Removing sequential instance u5.r_pulse_average[14] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":104085:4:104085:9|Found counter in view:work.HV_control_uniq_1(verilog) instance r_adc_init_cnt[28:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":104106:4:104106:9|Found counter in view:work.HV_control_uniq_1(verilog) instance r_sample_cnt[25:0] 
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueF[10] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueE[10] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueD[10] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueC[10] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueB[10] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_valueA[10] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value9[10] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value8[10] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value7[10] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value6[10] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value5[10] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value4[10] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value3[10] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value2[10] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value1[10] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106463:4:106463:9|Removing sequential instance u5.r_pulse_value0[10] (in view: work.HV_control_uniq_1(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":104419:4:104419:9|Found counter in view:work.adc_control_uniq_1(verilog) instance r_adc_delay[15:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":104510:4:104510:9|Found counter in view:work.AD_SPI_uniq_1(verilog) instance clk_cnt[4:0] 
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106179:4:106179:9|Removing sequential instance u2.r_dac_para[1] (in view: work.adc_to_dac_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106179:4:106179:9|Removing sequential instance u2.r_dac_para[0] (in view: work.adc_to_dac_uniq_1(verilog)) because it does not drive other instances.
+@N: FX493 |Applying initial value "0" on instance u2.r_temp_diff[0].
+@N: FX493 |Applying initial value "0" on instance u2.r_temp_diff[1].
+@N: FX493 |Applying initial value "0" on instance u2.r_temp_diff[2].
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":105019:4:105019:9|Found counter in view:work.adc_to_temp_uniq_1(verilog) instance r_temp_num[4:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":105019:4:105019:9|Found counter in view:work.adc_to_temp_uniq_1(verilog) instance r_dealy_cnt[3:0] 
+@N: FX493 |Applying initial value "0" on instance r_dealy_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_dealy_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_dealy_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_dealy_cnt[3].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[0].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[1].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[2].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[3].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[4].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[5].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[6].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[7].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[8].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[9].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[10].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[11].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[12].
+@N: FX493 |Applying initial value "0" on instance r_divisor[0].
+@N: FX493 |Applying initial value "0" on instance r_divisor[1].
+@N: FX493 |Applying initial value "0" on instance r_divisor[2].
+@N: FX493 |Applying initial value "0" on instance r_divisor[3].
+@N: FX493 |Applying initial value "0" on instance r_divisor[4].
+@N: FX493 |Applying initial value "0" on instance r_divisor[5].
+@N: FX493 |Applying initial value "0" on instance r_divisor[6].
+@N: FX493 |Applying initial value "0" on instance r_divisor[7].
+@N: FX493 |Applying initial value "0" on instance r_divisor[8].
+@N: FX493 |Applying initial value "0" on instance r_divisor[9].
+@N: FX493 |Applying initial value "0" on instance r_divisor[10].
+@N: FX493 |Applying initial value "0" on instance r_divisor[11].
+@N: FX493 |Applying initial value "0" on instance r_divisor[12].
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":105019:4:105019:9|Removing sequential instance r_adc_value[0] (in view: work.adc_to_temp_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":105019:4:105019:9|Removing sequential instance r_adc_value[1] (in view: work.adc_to_temp_uniq_1(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106077:4:106077:9|Found counter in view:work.division_uniq_1(verilog) instance r_cal_cnt[15:0] 
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106554:4:106554:9|Removing sequential instance r_pulse_value5[15] (in view: work.temp_adc_filter_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106554:4:106554:9|Removing sequential instance r_pulse_value5[14] (in view: work.temp_adc_filter_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106554:4:106554:9|Removing sequential instance r_pulse_value5[13] (in view: work.temp_adc_filter_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106554:4:106554:9|Removing sequential instance r_pulse_value5[12] (in view: work.temp_adc_filter_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106554:4:106554:9|Removing sequential instance r_pulse_value5[1] (in view: work.temp_adc_filter_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106554:4:106554:9|Removing sequential instance r_pulse_value4[15] (in view: work.temp_adc_filter_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106554:4:106554:9|Removing sequential instance r_pulse_value4[14] (in view: work.temp_adc_filter_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106554:4:106554:9|Removing sequential instance r_pulse_value4[13] (in view: work.temp_adc_filter_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106554:4:106554:9|Removing sequential instance r_pulse_value4[12] (in view: work.temp_adc_filter_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106554:4:106554:9|Removing sequential instance r_pulse_value4[1] (in view: work.temp_adc_filter_uniq_1(verilog)) because it does not drive other instances.
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[0].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[1].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[2].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[3].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[4].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[5].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[6].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[7].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[8].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[9].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[10].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[11].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[12].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[13].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[14].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[15].
+@N: FX493 |Applying initial value "0" on instance r_diff_val43[0].
+@N: FX493 |Applying initial value "0" on instance r_diff_val43[1].
+@N: FX493 |Applying initial value "0" on instance r_diff_val43[2].
+@N: FX493 |Applying initial value "0" on instance r_diff_val43[3].
+@N: FX493 |Applying initial value "0" on instance r_diff_val43[4].
+@N: FX493 |Applying initial value "0" on instance r_diff_val43[5].
+@N: FX493 |Applying initial value "0" on instance r_diff_val43[6].
+@N: FX493 |Applying initial value "0" on instance r_diff_val43[7].
+@N: FX493 |Applying initial value "0" on instance r_diff_val43[8].
+@N: FX493 |Applying initial value "0" on instance r_diff_val43[9].
+@N: FX493 |Applying initial value "0" on instance r_diff_val43[10].
+@N: FX493 |Applying initial value "0" on instance r_diff_val43[11].
+@N: FX493 |Applying initial value "0" on instance r_diff_val43[12].
+@N: FX493 |Applying initial value "0" on instance r_diff_val43[13].
+@N: FX493 |Applying initial value "0" on instance r_diff_val43[14].
+@N: FX493 |Applying initial value "0" on instance r_diff_val43[15].
+@N: FX493 |Applying initial value "0" on instance r_diff_val45[0].
+@N: FX493 |Applying initial value "0" on instance r_diff_val45[1].
+@N: FX493 |Applying initial value "0" on instance r_diff_val45[2].
+@N: FX493 |Applying initial value "0" on instance r_diff_val45[3].
+@N: FX493 |Applying initial value "0" on instance r_diff_val45[4].
+@N: FX493 |Applying initial value "0" on instance r_diff_val45[5].
+@N: FX493 |Applying initial value "0" on instance r_diff_val45[6].
+@N: FX493 |Applying initial value "0" on instance r_diff_val45[7].
+@N: FX493 |Applying initial value "0" on instance r_diff_val45[8].
+@N: FX493 |Applying initial value "0" on instance r_diff_val45[9].
+@N: FX493 |Applying initial value "0" on instance r_diff_val45[10].
+@N: FX493 |Applying initial value "0" on instance r_diff_val45[11].
+@N: FX493 |Applying initial value "0" on instance r_diff_val45[12].
+@N: FX493 |Applying initial value "0" on instance r_diff_val45[13].
+@N: FX493 |Applying initial value "0" on instance r_diff_val45[14].
+@N: FX493 |Applying initial value "0" on instance r_diff_val45[15].
+@N: FX493 |Applying initial value "0" on instance r_diff_val54[0].
+@N: FX493 |Applying initial value "0" on instance r_diff_val54[1].
+@N: FX493 |Applying initial value "0" on instance r_diff_val54[2].
+@N: FX493 |Applying initial value "0" on instance r_diff_val54[3].
+@N: FX493 |Applying initial value "0" on instance r_diff_val54[4].
+@N: FX493 |Applying initial value "0" on instance r_diff_val54[5].
+@N: FX493 |Applying initial value "0" on instance r_diff_val54[6].
+@N: FX493 |Applying initial value "0" on instance r_diff_val54[7].
+@N: FX493 |Applying initial value "0" on instance r_diff_val54[8].
+@N: FX493 |Applying initial value "0" on instance r_diff_val54[9].
+@N: FX493 |Applying initial value "0" on instance r_diff_val54[10].
+@N: FX493 |Applying initial value "0" on instance r_diff_val54[11].
+@N: FX493 |Applying initial value "0" on instance r_diff_val54[12].
+@N: FX493 |Applying initial value "0" on instance r_diff_val54[13].
+@N: FX493 |Applying initial value "0" on instance r_diff_val54[14].
+@N: FX493 |Applying initial value "0" on instance r_diff_val54[15].
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106554:4:106554:9|Removing sequential instance r_pulse_value4[0] (in view: work.temp_adc_filter_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106554:4:106554:9|Removing sequential instance r_pulse_value5[0] (in view: work.temp_adc_filter_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106582:4:106582:9|Removing sequential instance r_diff_val34[0] (in view: work.temp_adc_filter_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106582:4:106582:9|Removing sequential instance r_diff_val43[0] (in view: work.temp_adc_filter_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106582:4:106582:9|Removing sequential instance r_diff_val45[0] (in view: work.temp_adc_filter_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106582:4:106582:9|Removing sequential instance r_diff_val54[0] (in view: work.temp_adc_filter_uniq_1(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":62887:4:62887:9|Found counter in view:work.phy_mdio_ctrl_uniq_1(verilog) instance r_delay_ns_cnt[16:0] 
+@N: MO231 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":62887:4:62887:9|Found counter in view:work.phy_mdio_ctrl_uniq_1(verilog) instance r_delay_ms_cnt[12:0] 
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":64021:4:64021:9|Removing sequential instance r_valid_rdata[15] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":64021:4:64021:9|Removing sequential instance r_valid_rdata[14] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":64021:4:64021:9|Removing sequential instance r_valid_rdata[13] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":64021:4:64021:9|Removing sequential instance r_valid_rdata[12] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":64021:4:64021:9|Removing sequential instance r_valid_rdata[11] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":64021:4:64021:9|Removing sequential instance r_valid_rdata[10] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":64021:4:64021:9|Removing sequential instance r_valid_rdata[9] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":64021:4:64021:9|Removing sequential instance r_valid_rdata[8] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":64021:4:64021:9|Removing sequential instance r_valid_rdata[7] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":64021:4:64021:9|Removing sequential instance r_valid_rdata[6] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":64021:4:64021:9|Removing sequential instance r_valid_rdata[5] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":64021:4:64021:9|Removing sequential instance r_valid_rdata[4] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":64021:4:64021:9|Removing sequential instance r_valid_rdata[3] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":64021:4:64021:9|Removing sequential instance r_valid_rdata[1] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":64021:4:64021:9|Removing sequential instance r_valid_rdata[0] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":63916:4:63916:9|Removing sequential instance r_mdio_rdata[15] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":63916:4:63916:9|Removing sequential instance r_mdio_rdata[14] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":63916:4:63916:9|Removing sequential instance r_mdio_rdata[13] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":63916:4:63916:9|Removing sequential instance r_mdio_rdata[12] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":63916:4:63916:9|Removing sequential instance r_mdio_rdata[11] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":63916:4:63916:9|Removing sequential instance r_mdio_rdata[10] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":63916:4:63916:9|Removing sequential instance r_mdio_rdata[9] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":63916:4:63916:9|Removing sequential instance r_mdio_rdata[8] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":63916:4:63916:9|Removing sequential instance r_mdio_rdata[7] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":63916:4:63916:9|Removing sequential instance r_mdio_rdata[6] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":63916:4:63916:9|Removing sequential instance r_mdio_rdata[5] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":63916:4:63916:9|Removing sequential instance r_mdio_rdata[4] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":63916:4:63916:9|Removing sequential instance r_mdio_rdata[3] (in view: work.phy_mdio_drive_uniq_1(verilog)) because it does not drive other instances.
+@N: MF794 |RAM r_pulse_value3_CR15[9:0] required 2 registers during mapping 
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50421:4:50421:9|Removing sequential instance r_wfifo_en0 (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50434:4:50434:9|Removing sequential instance r_wfifo_data0[0] (in view: work.ddr_round_robin_uniq_1_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":76404:4:76404:9|Removing sequential instance r_ip_head\[5\][11] (in view: work.udp_tx_uniq_1_Z10(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":76404:4:76404:9|Removing sequential instance r_ip_head\[5\][0] (in view: work.udp_tx_uniq_1_Z10(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":83751:4:83751:9|Removing sequential instance u_flash_control.r_page_num[0] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":83691:4:83691:9|Removing sequential instance u_flash_control.r_flash_addr[1] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":83691:4:83691:9|Removing sequential instance u_flash_control.r_flash_addr[0] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":83691:4:83691:9|Removing sequential instance u_flash_control.r_flash_addr[7] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":83691:4:83691:9|Removing sequential instance u_flash_control.r_flash_addr[6] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":83691:4:83691:9|Removing sequential instance u_flash_control.r_flash_addr[5] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":83691:4:83691:9|Removing sequential instance u_flash_control.r_flash_addr[4] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":83691:4:83691:9|Removing sequential instance u_flash_control.r_flash_addr[3] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":83691:4:83691:9|Removing sequential instance u_flash_control.r_flash_addr[2] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":77915:4:77915:9|Removing sequential instance u_eth_top.u_udpcom_control.u_datagram_parser.r_para2ddr_addr[1] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":77915:4:77915:9|Removing sequential instance u_eth_top.u_udpcom_control.u_datagram_parser.r_para2ddr_addr[0] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50471:4:50471:9|Removing sequential instance u2_ddr3_interface.u2_ddr_round_robin.r_wfifo_data1[65] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50471:4:50471:9|Removing sequential instance u2_ddr3_interface.u2_ddr_round_robin.r_wfifo_data1[64] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":50434:4:50434:9|Removing sequential instance u2_ddr3_interface.u2_ddr_round_robin.r_wfifo_data0[91] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: FA113 :|Pipelining module NoName. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":74004:4:74004:9|Pushed in register r_check_buffer[31:0].
+@N: MF169 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":74004:4:74004:9|Pushed in register r_ip_head\\\[2\\\].
+@N: FA113 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":74056:20:74056:23|Pipelining module un1_r_check_buffer_icmp_1[31:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":74004:4:74004:9|Pushed in register r_check_buffer_icmp[31:0].
+@N: FA113 :|Pipelining module NoName. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":76404:4:76404:9|Pushed in register r_check_buffer[31:0].
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":84073:4:84073:9|Removing sequential instance u_flash_control.u_spi_flash_top.r_cmd[6] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: FA113 :|Pipelining module NoName. For more information, search for "pipelining" in Online Help.
+@N: MF169 :|Pushed in register NoName.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106582:4:106582:9|Removing sequential instance u_HV_control.u6.r_diff_val34[1] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":88619:4:88619:9|Removing sequential instance u_rotate_control.u3_encoder_control.u2_encoder_calculate.r_pulse_time_prior_cnt[29] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: FX271 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":77990:4:77990:9|Replicating instance u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_txcnt[1] (in view: work.df1_lidar_top(verilog)) with 90 loads 2 times to improve timing.
+@N: FX271 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":77990:4:77990:9|Replicating instance u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_txcnt[2] (in view: work.df1_lidar_top(verilog)) with 33 loads 1 time to improve timing.
+@N: FX271 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":77990:4:77990:9|Replicating instance u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_txcnt[3] (in view: work.df1_lidar_top(verilog)) with 33 loads 1 time to improve timing.
+@N: FX271 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":77990:4:77990:9|Replicating instance u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_txcnt[0] (in view: work.df1_lidar_top(verilog)) with 195 loads 3 times to improve timing.
+@N: FX271 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":77990:4:77990:9|Replicating instance u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_txcnt[4] (in view: work.df1_lidar_top(verilog)) with 17 loads 1 time to improve timing.
+@N: FX271 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":77990:4:77990:9|Replicating instance u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_txcnt[5] (in view: work.df1_lidar_top(verilog)) with 13 loads 1 time to improve timing.
+@N: FX271 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":77990:4:77990:9|Replicating instance u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_txcnt[7] (in view: work.df1_lidar_top(verilog)) with 15 loads 1 time to improve timing.
+@N: FX271 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":77990:4:77990:9|Replicating instance u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_txcnt[6] (in view: work.df1_lidar_top(verilog)) with 11 loads 1 time to improve timing.
+@N: FX271 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":77990:4:77990:9|Replicating instance u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_txcnt[8] (in view: work.df1_lidar_top(verilog)) with 14 loads 1 time to improve timing.
+@N: FX271 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":77990:4:77990:9|Replicating instance u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_txcnt[9] (in view: work.df1_lidar_top(verilog)) with 11 loads 1 time to improve timing.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":84073:4:84073:9|Removing sequential instance u_flash_control.u_spi_flash_top.r_cmd[1] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":83667:4:83667:9|Removing sequential instance u_flash_control.r_flash_rdaddr[21] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FO126 :"d:\freework\df1_second_round\df1_3dprj_dev\prj\impl1\reveal_workspace\tmpreveal\df1_lidar_top_rvl.v":106554:4:106554:9|Generating RAM u_HV_control.u6.r_pulse_value3_CR15[9:0]
+@N: FX1056 |Writing EDF file: D:\FreeWork\df1_second_round\df1_3dprj_dev\prj\impl1\df1_lidar_top_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock i_clk_50m with period 20.00ns 
+@N: MT615 |Found clock i_ethphy_refclk with period 20.00ns 
+@N: MT615 |Found clock i_ddrclk_100m with period 10.00ns 
+@N: MT615 |Found clock w_pll_50m with period 20.00ns 
+@N: MT615 |Found clock i_tdc1_lvds_serclk with period 3.33ns 
+@N: MT615 |Found clock i_tdc2_lvds_serclk with period 3.33ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

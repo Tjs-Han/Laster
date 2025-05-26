@@ -1,0 +1,937 @@
+//
+// Written by Synplify Pro 
+// Product Version "U-2023.03L-SP1"
+// Program "Synplify Pro", Mapper "map202303lat, Build 132R"
+// Thu Apr 24 21:00:52 2025
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\d:\tool\latticediamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v "
+// file 1 "\d:\tool\latticediamond\diamond\3.13\synpbase\lib\lucent\pmi_def.v "
+// file 2 "\d:\tool\latticediamond\diamond\3.13\synpbase\lib\vlog\hypermods.v "
+// file 3 "\d:\tool\latticediamond\diamond\3.13\synpbase\lib\vlog\scemi_objects.v "
+// file 4 "\d:\tool\latticediamond\diamond\3.13\synpbase\lib\vlog\scemi_pipes.svh "
+// file 5 "\d:\tool\latticediamond\diamond\3.13\cae_library\synthesis\verilog\ecp5u.v "
+// file 6 "\d:\tool\latticediamond\diamond\3.13\cae_library\synthesis\verilog\pmi_def.v "
+// file 7 "\d:\freework\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\iddrx2f.v "
+// file 8 "\d:\tool\latticediamond\diamond\3.13\synpbase\lib\nlconst.dat "
+// file 9 "\d:\freework\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\iddrx2f.fdc "
+
+`timescale 100 ps/100 ps
+module iddrx2frxdll_sync (
+  cs_rx_sync_i_0,
+  ddr_reset_1z,
+  update,
+  freeze,
+  N_68_i,
+  ready,
+  dll_lock,
+  dll_reset_1z,
+  sync_reset,
+  sync_clk
+)
+;
+output cs_rx_sync_i_0 ;
+output ddr_reset_1z ;
+input update ;
+output freeze ;
+output N_68_i ;
+output ready ;
+input dll_lock ;
+output dll_reset_1z ;
+input sync_reset ;
+input sync_clk ;
+wire cs_rx_sync_i_0 ;
+wire ddr_reset_1z ;
+wire update ;
+wire freeze ;
+wire N_68_i ;
+wire ready ;
+wire dll_lock ;
+wire dll_reset_1z ;
+wire sync_reset ;
+wire sync_clk ;
+wire [5:0] cs_rx_sync;
+wire [2:0] dll_lock_cnt;
+wire [2:0] ready_cnt;
+wire [2:0] ready_cnt_QN;
+wire [2:0] dll_lock_cnt_QN;
+wire [2:0] ctrl_cnt;
+wire [2:0] ctrl_cnt_QN;
+wire [5:0] cs_rx_sync_QN;
+wire [5:2] cs_rx_sync_ns;
+wire [0:0] cs_rx_sync_ns_i_0_0;
+wire [3:3] cs_rx_sync_ns_2;
+wire [2:2] ctrl_cnt_4_i_0;
+wire [3:3] cs_rx_sync_ns_0_a3_0_1;
+wire ns_rx_sync_0_sqmuxa_4 ;
+wire N_59 ;
+wire N_35_i ;
+wire N_43_i ;
+wire VCC ;
+wire N_41_i ;
+wire N_39_i ;
+wire ns_rx_sync_2_sqmuxa ;
+wire N_46 ;
+wire not_uddcntln ;
+wire not_uddcntln_QN ;
+wire ns_rx_sync_0_sqmuxa_3 ;
+wire N_51 ;
+wire not_stop ;
+wire not_stop_QN ;
+wire ns_rx_sync_1_sqmuxa_1 ;
+wire not_reset_1_sqmuxa_i ;
+wire not_reset ;
+wire not_reset_QN ;
+wire N_106 ;
+wire un1_ns_rx_sync_0_sqmuxa_0 ;
+wire not_freeze ;
+wire not_freeze_QN ;
+wire ns_rx_sync_1_sqmuxa ;
+wire N_48 ;
+wire get_ready ;
+wire get_ready_QN ;
+wire dll_reset_QN ;
+wire dll_lock_q1 ;
+wire dll_lock_q2 ;
+wire dll_lock_q2_QN ;
+wire dll_lock_q1_QN ;
+wire N_37_i ;
+wire N_33_i ;
+wire GND ;
+wire ddr_reset_d ;
+wire ddr_reset_d_QN ;
+wire N_23_i ;
+wire N_21_i ;
+wire N_25_i ;
+wire N_77_i ;
+wire N_79_i ;
+wire ns_rx_sync_0_sqmuxa_1 ;
+wire N_17 ;
+wire assert_stop ;
+wire assert_stop_QN ;
+wire N_60 ;
+wire N_72 ;
+wire N_90 ;
+wire N_54 ;
+wire N_74 ;
+wire N_104 ;
+wire N_56 ;
+wire N_92 ;
+wire N_61 ;
+wire N_64 ;
+wire N_55 ;
+wire N_75 ;
+wire N_57 ;
+wire N_62 ;
+wire un1_dll_lock_cnt_2_ac0_3 ;
+wire N_88 ;
+wire N_6 ;
+wire N_5 ;
+wire N_4 ;
+wire N_3 ;
+wire N_2 ;
+wire N_1 ;
+  INV \cs_rx_sync_RNII34D[2]  (
+	.A(cs_rx_sync[2]),
+	.Z(cs_rx_sync_i_0)
+);
+  LUT4 \dll_lock_cnt_RNO[1]  (
+	.A(ns_rx_sync_0_sqmuxa_4),
+	.B(dll_lock_cnt[1]),
+	.C(N_59),
+	.D(dll_lock_cnt[0]),
+	.Z(N_35_i)
+);
+defparam \dll_lock_cnt_RNO[1] .init=16'h4144;
+// @7:247
+  FD1S3DX \ready_cnt_reg[0]  (
+	.D(N_43_i),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(ready_cnt[0])
+);
+// @7:247
+  FD1S3DX \ready_cnt_reg[1]  (
+	.D(N_41_i),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(ready_cnt[1])
+);
+// @7:247
+  FD1S3DX \ready_cnt_reg[2]  (
+	.D(N_39_i),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(ready_cnt[2])
+);
+// @7:247
+  FD1P3DX not_uddcntln_reg (
+	.D(ns_rx_sync_2_sqmuxa),
+	.SP(N_46),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(not_uddcntln)
+);
+// @7:247
+  FD1P3DX not_stop_reg (
+	.D(ns_rx_sync_0_sqmuxa_3),
+	.SP(N_51),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(not_stop)
+);
+// @7:247
+  FD1P3DX not_reset_reg (
+	.D(ns_rx_sync_1_sqmuxa_1),
+	.SP(not_reset_1_sqmuxa_i),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(not_reset)
+);
+// @7:247
+  FD1P3DX not_freeze_reg (
+	.D(N_106),
+	.SP(un1_ns_rx_sync_0_sqmuxa_0),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(not_freeze)
+);
+// @7:247
+  FD1P3DX get_ready_reg (
+	.D(ns_rx_sync_1_sqmuxa),
+	.SP(N_48),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(get_ready)
+);
+// @7:247
+  FD1S3BX dll_reset (
+	.D(ns_rx_sync_0_sqmuxa_4),
+	.CK(sync_clk),
+	.PD(sync_reset),
+	.Q(dll_reset_1z)
+);
+// @7:236
+  FD1S3DX dll_lock_q2_reg (
+	.D(dll_lock_q1),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(dll_lock_q2)
+);
+// @7:236
+  FD1S3DX dll_lock_q1_reg (
+	.D(dll_lock),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(dll_lock_q1)
+);
+// @7:247
+  FD1S3DX \dll_lock_cnt_reg[0]  (
+	.D(N_37_i),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(dll_lock_cnt[0])
+);
+// @7:247
+  FD1S3DX \dll_lock_cnt_reg[1]  (
+	.D(N_35_i),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(dll_lock_cnt[1])
+);
+// @7:247
+  FD1S3DX \dll_lock_cnt_reg[2]  (
+	.D(N_33_i),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(dll_lock_cnt[2])
+);
+// @7:247
+  FD1S3BX ddr_reset_d_reg (
+	.D(GND),
+	.CK(sync_clk),
+	.PD(sync_reset),
+	.Q(ddr_reset_d)
+);
+// @7:247
+  FD1S3DX \ctrl_cnt_reg[0]  (
+	.D(N_23_i),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(ctrl_cnt[0])
+);
+// @7:247
+  FD1S3DX \ctrl_cnt_reg[1]  (
+	.D(N_21_i),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(ctrl_cnt[1])
+);
+// @7:247
+  FD1S3DX \ctrl_cnt_reg[2]  (
+	.D(N_25_i),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(ctrl_cnt[2])
+);
+// @7:247
+  FD1S3BX \cs_rx_sync_reg[0]  (
+	.D(N_77_i),
+	.CK(sync_clk),
+	.PD(sync_reset),
+	.Q(cs_rx_sync[0])
+);
+// @7:247
+  FD1S3DX \cs_rx_sync[1]  (
+	.D(N_79_i),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(ready)
+);
+// @7:247
+  FD1S3DX \cs_rx_sync_reg[2]  (
+	.D(cs_rx_sync_ns[2]),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(cs_rx_sync[2])
+);
+// @7:247
+  FD1S3DX \cs_rx_sync_reg[3]  (
+	.D(cs_rx_sync_ns[3]),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(cs_rx_sync[3])
+);
+// @7:247
+  FD1S3DX \cs_rx_sync_reg[4]  (
+	.D(cs_rx_sync_ns[4]),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(cs_rx_sync[4])
+);
+// @7:247
+  FD1S3DX \cs_rx_sync_reg[5]  (
+	.D(cs_rx_sync_ns[5]),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(cs_rx_sync[5])
+);
+// @7:247
+  FD1P3DX assert_stop_reg (
+	.D(ns_rx_sync_0_sqmuxa_1),
+	.SP(N_17),
+	.CK(sync_clk),
+	.CD(sync_reset),
+	.Q(assert_stop)
+);
+// @7:247
+  LUT4 \dll_lock_cnt_RNO[2]  (
+	.A(dll_lock_cnt[1]),
+	.B(dll_lock_cnt[2]),
+	.C(ns_rx_sync_0_sqmuxa_4),
+	.D(N_60),
+	.Z(N_33_i)
+);
+defparam \dll_lock_cnt_RNO[2] .init=16'h0C06;
+// @7:247
+  LUT4 \cs_rx_sync_RNO[0]  (
+	.A(cs_rx_sync_ns_i_0_0[0]),
+	.B(N_72),
+	.C(N_90),
+	.D(ready),
+	.Z(N_77_i)
+);
+defparam \cs_rx_sync_RNO[0] .init=16'h0501;
+// @7:247
+  LUT4 \dll_lock_cnt_RNO[0]  (
+	.A(dll_lock_cnt[0]),
+	.B(ns_rx_sync_0_sqmuxa_4),
+	.C(N_59),
+	.D(VCC),
+	.Z(N_37_i)
+);
+defparam \dll_lock_cnt_RNO[0] .init=16'h2121;
+// @7:247
+  LUT4 \cs_rx_sync_RNO[1]  (
+	.A(cs_rx_sync[0]),
+	.B(N_54),
+	.C(N_74),
+	.D(ready),
+	.Z(N_79_i)
+);
+defparam \cs_rx_sync_RNO[1] .init=16'hBB0B;
+// @7:247
+  LUT4 \cs_rx_sync_ns_0[3]  (
+	.A(N_104),
+	.B(cs_rx_sync[3]),
+	.C(cs_rx_sync_ns_2[3]),
+	.D(N_56),
+	.Z(cs_rx_sync_ns[3])
+);
+defparam \cs_rx_sync_ns_0[3] .init=16'hFEFA;
+// @7:247
+  LUT4 \cs_rx_sync_ns_0_0[4]  (
+	.A(cs_rx_sync[4]),
+	.B(ns_rx_sync_0_sqmuxa_3),
+	.C(N_56),
+	.D(N_92),
+	.Z(cs_rx_sync_ns[4])
+);
+defparam \cs_rx_sync_ns_0_0[4] .init=16'hFFEC;
+// @7:247
+  LUT4 \cs_rx_sync_ns_i_0_m2[0]  (
+	.A(assert_stop),
+	.B(cs_rx_sync[3]),
+	.C(not_freeze),
+	.D(N_61),
+	.Z(N_72)
+);
+defparam \cs_rx_sync_ns_i_0_m2[0] .init=16'hBF8C;
+// @7:247
+  LUT4 \ctrl_cnt_RNO[0]  (
+	.A(ctrl_cnt[0]),
+	.B(ctrl_cnt[2]),
+	.C(ns_rx_sync_0_sqmuxa_4),
+	.D(N_64),
+	.Z(N_23_i)
+);
+defparam \ctrl_cnt_RNO[0] .init=16'h0F09;
+// @7:247
+  LUT4 \ctrl_cnt_RNO[1]  (
+	.A(ctrl_cnt[1]),
+	.B(ns_rx_sync_0_sqmuxa_4),
+	.C(N_55),
+	.D(N_64),
+	.Z(N_21_i)
+);
+defparam \ctrl_cnt_RNO[1] .init=16'h3321;
+// @7:247
+  LUT4 \ctrl_cnt_RNO[2]  (
+	.A(ctrl_cnt[2]),
+	.B(ctrl_cnt_4_i_0[2]),
+	.C(N_54),
+	.D(ready),
+	.Z(N_25_i)
+);
+defparam \ctrl_cnt_RNO[2] .init=16'h0322;
+// @7:247
+  LUT4 \ready_cnt_RNO[0]  (
+	.A(get_ready),
+	.B(ns_rx_sync_0_sqmuxa_4),
+	.C(ready_cnt[0]),
+	.D(N_75),
+	.Z(N_43_i)
+);
+defparam \ready_cnt_RNO[0] .init=16'h1232;
+// @7:247
+  LUT4 \ready_cnt_RNO[1]  (
+	.A(ns_rx_sync_0_sqmuxa_4),
+	.B(ready_cnt[1]),
+	.C(ready_cnt[2]),
+	.D(N_57),
+	.Z(N_41_i)
+);
+defparam \ready_cnt_RNO[1] .init=16'h4451;
+// @7:247
+  LUT4 \ready_cnt_RNO[2]  (
+	.A(ns_rx_sync_0_sqmuxa_4),
+	.B(ready_cnt[2]),
+	.C(N_62),
+	.D(VCC),
+	.Z(N_39_i)
+);
+defparam \ready_cnt_RNO[2] .init=16'h4545;
+// @7:338
+  LUT4 \dll_lock_cnt_4_i_o2[1]  (
+	.A(dll_lock_cnt[0]),
+	.B(N_59),
+	.C(VCC),
+	.D(VCC),
+	.Z(N_60)
+);
+defparam \dll_lock_cnt_4_i_o2[1] .init=16'hDDDD;
+// @7:247
+  LUT4 \cs_rx_sync_ns_i_0_o2[1]  (
+	.A(ready_cnt[2]),
+	.B(N_61),
+	.C(N_62),
+	.D(VCC),
+	.Z(N_74)
+);
+defparam \cs_rx_sync_ns_i_0_o2[1] .init=16'hFDFD;
+// @7:247
+  LUT4 \cs_rx_sync_ns_0[5]  (
+	.A(cs_rx_sync[5]),
+	.B(not_reset),
+	.C(ns_rx_sync_1_sqmuxa_1),
+	.D(N_56),
+	.Z(cs_rx_sync_ns[5])
+);
+defparam \cs_rx_sync_ns_0[5] .init=16'hFAF2;
+// @7:146
+  LUT4 ns_rx_sync_1_sqmuxa_0_a2 (
+	.A(assert_stop),
+	.B(cs_rx_sync[3]),
+	.C(not_freeze),
+	.D(N_56),
+	.Z(ns_rx_sync_1_sqmuxa)
+);
+defparam ns_rx_sync_1_sqmuxa_0_a2.init=16'h0040;
+// @7:247
+  LUT4 \cs_rx_sync_ns_0_0_a2_0[4]  (
+	.A(assert_stop),
+	.B(cs_rx_sync[3]),
+	.C(N_56),
+	.D(VCC),
+	.Z(N_92)
+);
+defparam \cs_rx_sync_ns_0_0_a2_0[4] .init=16'h0808;
+// @7:247
+  LUT4 \cs_rx_sync_ns_i_0_o2[0]  (
+	.A(cs_rx_sync[0]),
+	.B(not_uddcntln),
+	.C(N_64),
+	.D(VCC),
+	.Z(N_61)
+);
+defparam \cs_rx_sync_ns_i_0_o2[0] .init=16'h5757;
+// @7:181
+  LUT4 ns_rx_sync_1_sqmuxa_1_cZ (
+	.A(cs_rx_sync[4]),
+	.B(not_stop),
+	.C(N_56),
+	.D(VCC),
+	.Z(ns_rx_sync_1_sqmuxa_1)
+);
+defparam ns_rx_sync_1_sqmuxa_1_cZ.init=16'h0202;
+// @7:247
+  LUT4 \cs_rx_sync_ns_0_a3_2[3]  (
+	.A(cs_rx_sync[4]),
+	.B(not_stop),
+	.C(N_56),
+	.D(VCC),
+	.Z(N_106)
+);
+defparam \cs_rx_sync_ns_0_a3_2[3] .init=16'h0808;
+// @7:200
+  LUT4 ns_rx_sync_0_sqmuxa_3_0_a2 (
+	.A(cs_rx_sync[5]),
+	.B(not_reset),
+	.C(N_56),
+	.D(VCC),
+	.Z(ns_rx_sync_0_sqmuxa_3)
+);
+defparam ns_rx_sync_0_sqmuxa_3_0_a2.init=16'h0808;
+// @7:338
+  LUT4 \dll_lock_cnt_4_i_o2[0]  (
+	.A(dll_lock_cnt[2]),
+	.B(dll_lock_q2),
+	.C(un1_dll_lock_cnt_2_ac0_3),
+	.D(dll_lock),
+	.Z(N_59)
+);
+defparam \dll_lock_cnt_4_i_o2[0] .init=16'h3BFF;
+// @7:146
+  LUT4 ns_rx_sync_2_sqmuxa_0_a2 (
+	.A(assert_stop),
+	.B(cs_rx_sync[3]),
+	.C(not_freeze),
+	.D(N_56),
+	.Z(ns_rx_sync_2_sqmuxa)
+);
+defparam ns_rx_sync_2_sqmuxa_0_a2.init=16'h0004;
+// @7:247
+  LUT4 \cs_rx_sync_ns_i_0_a2_2[0]  (
+	.A(cs_rx_sync[3]),
+	.B(ready_cnt[2]),
+	.C(N_62),
+	.D(ready),
+	.Z(N_90)
+);
+defparam \cs_rx_sync_ns_i_0_a2_2[0] .init=16'h0004;
+// @7:247
+  LUT4 \cs_rx_sync_ns_i_0_0_cZ[0]  (
+	.A(cs_rx_sync[0]),
+	.B(cs_rx_sync[3]),
+	.C(N_54),
+	.D(N_88),
+	.Z(cs_rx_sync_ns_i_0_0[0])
+);
+defparam \cs_rx_sync_ns_i_0_0_cZ[0] .init=16'hFF01;
+// @7:169
+  LUT4 ns_rx_sync_0_sqmuxa_1_0_a2 (
+	.A(cs_rx_sync[2]),
+	.B(not_uddcntln),
+	.C(N_56),
+	.D(VCC),
+	.Z(ns_rx_sync_0_sqmuxa_1)
+);
+defparam ns_rx_sync_0_sqmuxa_1_0_a2.init=16'h0808;
+// @7:247
+  LUT4 \cs_rx_sync_ns_0_a3_0[3]  (
+	.A(cs_rx_sync[0]),
+	.B(cs_rx_sync_ns_0_a3_0_1[3]),
+	.C(dll_lock_cnt[0]),
+	.D(dll_lock_cnt[1]),
+	.Z(N_104)
+);
+defparam \cs_rx_sync_ns_0_a3_0[3] .init=16'h0080;
+// @7:338
+  LUT4 \ctrl_cnt_RNO_0[2]  (
+	.A(ctrl_cnt[0]),
+	.B(ctrl_cnt[1]),
+	.C(ctrl_cnt[2]),
+	.D(N_64),
+	.Z(ctrl_cnt_4_i_0[2])
+);
+defparam \ctrl_cnt_RNO_0[2] .init=16'hFF07;
+// @7:435
+  LUT4 \cs_rx_sync_RNI9C8Q[5]  (
+	.A(cs_rx_sync[4]),
+	.B(cs_rx_sync[5]),
+	.C(VCC),
+	.D(VCC),
+	.Z(N_68_i)
+);
+defparam \cs_rx_sync_RNI9C8Q[5] .init=16'hEEEE;
+// @7:338
+  LUT4 \dll_lock_cnt_RNIQH11[1]  (
+	.A(dll_lock_cnt[0]),
+	.B(dll_lock_cnt[1]),
+	.C(dll_lock_cnt[2]),
+	.D(VCC),
+	.Z(N_64)
+);
+defparam \dll_lock_cnt_RNIQH11[1] .init=16'hDFDF;
+// @7:270
+  LUT4 un1_dll_lock_cnt_2_ac0_3_cZ (
+	.A(dll_lock_cnt[0]),
+	.B(dll_lock_cnt[1]),
+	.C(dll_lock_cnt[2]),
+	.D(VCC),
+	.Z(un1_dll_lock_cnt_2_ac0_3)
+);
+defparam un1_dll_lock_cnt_2_ac0_3_cZ.init=16'h1010;
+// @7:247
+  LUT4 \un5_a2_0_a2[4]  (
+	.A(cs_rx_sync[0]),
+	.B(ready),
+	.C(VCC),
+	.D(VCC),
+	.Z(freeze)
+);
+defparam \un5_a2_0_a2[4] .init=16'h1111;
+// @7:338
+  LUT4 dll_lock_q2_RNIMVUG (
+	.A(dll_lock_q2),
+	.B(update),
+	.C(VCC),
+	.D(VCC),
+	.Z(N_54)
+);
+defparam dll_lock_q2_RNIMVUG.init=16'hDDDD;
+// @7:338
+  LUT4 \ready_cnt_4_i_o2[0]  (
+	.A(ready_cnt[1]),
+	.B(ready_cnt[2]),
+	.C(VCC),
+	.D(VCC),
+	.Z(N_75)
+);
+defparam \ready_cnt_4_i_o2[0] .init=16'h7777;
+// @7:338
+  LUT4 \ready_cnt_4_i_o2[1]  (
+	.A(get_ready),
+	.B(ready_cnt[0]),
+	.C(VCC),
+	.D(VCC),
+	.Z(N_57)
+);
+defparam \ready_cnt_4_i_o2[1] .init=16'h7777;
+// @7:146
+  LUT4 ns_rx_sync25_0_o2_0 (
+	.A(ctrl_cnt[0]),
+	.B(ctrl_cnt[2]),
+	.C(VCC),
+	.D(VCC),
+	.Z(N_55)
+);
+defparam ns_rx_sync25_0_o2_0.init=16'hDDDD;
+// @7:120
+  LUT4 ddr_reset (
+	.A(cs_rx_sync[5]),
+	.B(ddr_reset_d),
+	.C(VCC),
+	.D(VCC),
+	.Z(ddr_reset_1z)
+);
+defparam ddr_reset.init=16'hEEEE;
+// @7:247
+  LUT4 \cs_rx_sync_ns_0_a3_0_1_cZ[3]  (
+	.A(dll_lock_cnt[2]),
+	.B(not_uddcntln),
+	.C(VCC),
+	.D(VCC),
+	.Z(cs_rx_sync_ns_0_a3_0_1[3])
+);
+defparam \cs_rx_sync_ns_0_a3_0_1_cZ[3] .init=16'h2222;
+// @7:247
+  LUT4 \cs_rx_sync_ns_i_0_a2_0[0]  (
+	.A(N_56),
+	.B(ready),
+	.C(cs_rx_sync[0]),
+	.D(VCC),
+	.Z(N_88)
+);
+defparam \cs_rx_sync_ns_i_0_a2_0[0] .init=16'h0202;
+// @7:338
+  LUT4 dll_lock_q2_RNI723U (
+	.A(ready),
+	.B(update),
+	.C(dll_lock_q2),
+	.D(VCC),
+	.Z(ns_rx_sync_0_sqmuxa_4)
+);
+defparam dll_lock_q2_RNI723U.init=16'h8A8A;
+// @7:338
+  LUT4 \ready_cnt_4_i_o2[2]  (
+	.A(ready_cnt[1]),
+	.B(ready_cnt[0]),
+	.C(get_ready),
+	.D(VCC),
+	.Z(N_62)
+);
+defparam \ready_cnt_4_i_o2[2] .init=16'h7F7F;
+// @7:146
+  LUT4 ns_rx_sync25_0_o2 (
+	.A(ctrl_cnt[1]),
+	.B(ctrl_cnt[2]),
+	.C(ctrl_cnt[0]),
+	.D(VCC),
+	.Z(N_56)
+);
+defparam ns_rx_sync25_0_o2.init=16'hDFDF;
+// @7:338
+  LUT4 not_uddcntln_1_sqmuxa_i_0 (
+	.A(ns_rx_sync_2_sqmuxa),
+	.B(dll_lock_q2),
+	.C(update),
+	.D(ready),
+	.Z(N_46)
+);
+defparam not_uddcntln_1_sqmuxa_i_0.init=16'hFBAA;
+// @7:338
+  LUT4 get_ready_1_sqmuxa_i_0 (
+	.A(ns_rx_sync_1_sqmuxa),
+	.B(dll_lock_q2),
+	.C(update),
+	.D(ready),
+	.Z(N_48)
+);
+defparam get_ready_1_sqmuxa_i_0.init=16'hFBAA;
+// @7:338
+  LUT4 not_stop_1_sqmuxa_i_0 (
+	.A(ns_rx_sync_0_sqmuxa_3),
+	.B(dll_lock_q2),
+	.C(update),
+	.D(ready),
+	.Z(N_51)
+);
+defparam not_stop_1_sqmuxa_i_0.init=16'hFBAA;
+// @7:247
+  LUT4 not_reset_1_sqmuxa_i_cZ (
+	.A(ns_rx_sync_1_sqmuxa_1),
+	.B(dll_lock_q2),
+	.C(update),
+	.D(ready),
+	.Z(not_reset_1_sqmuxa_i)
+);
+defparam not_reset_1_sqmuxa_i_cZ.init=16'hFBAA;
+// @7:338
+  LUT4 un1_ns_rx_sync_0_sqmuxa_0_cZ (
+	.A(N_106),
+	.B(dll_lock_q2),
+	.C(update),
+	.D(ready),
+	.Z(un1_ns_rx_sync_0_sqmuxa_0)
+);
+defparam un1_ns_rx_sync_0_sqmuxa_0_cZ.init=16'hFBAA;
+// @7:338
+  LUT4 assert_stop_2_sqmuxa_i_0 (
+	.A(cs_rx_sync_ns_2[3]),
+	.B(dll_lock_q2),
+	.C(update),
+	.D(ready),
+	.Z(N_17)
+);
+defparam assert_stop_2_sqmuxa_i_0.init=16'hFBAA;
+// @7:247
+  LUT4 \cs_rx_sync_ns_0_2[3]  (
+	.A(ns_rx_sync_0_sqmuxa_1),
+	.B(N_56),
+	.C(not_stop),
+	.D(cs_rx_sync[4]),
+	.Z(cs_rx_sync_ns_2[3])
+);
+defparam \cs_rx_sync_ns_0_2[3] .init=16'hBAAA;
+// @7:247
+  LUT4 \cs_rx_sync_ns_0_0[2]  (
+	.A(ns_rx_sync_2_sqmuxa),
+	.B(cs_rx_sync[2]),
+	.C(N_56),
+	.D(not_uddcntln),
+	.Z(cs_rx_sync_ns[2])
+);
+defparam \cs_rx_sync_ns_0_0[2] .init=16'hEAEE;
+  VHI VCC_0 (
+	.Z(VCC)
+);
+  VLO GND_0 (
+	.Z(GND)
+);
+endmodule /* iddrx2frxdll_sync */
+
+(* NGD_DRC_MASK=1 *)module iddrx2f (
+  alignwd,
+  clkin,
+  dcntl,
+  ready,
+  sclk,
+  sync_clk,
+  sync_reset,
+  update,
+  datain,
+  q
+)
+;
+input alignwd ;
+input clkin ;
+output [7:0] dcntl ;
+output ready ;
+output sclk ;
+input sync_clk ;
+input sync_reset ;
+input update ;
+input [0:0] datain ;
+output [3:0] q ;
+wire alignwd ;
+wire clkin ;
+wire ready ;
+wire sclk ;
+wire sync_clk ;
+wire sync_reset ;
+wire update ;
+wire [2:2] \Inst_rxdll_sync.cs_rx_sync_i ;
+wire buf_clkin ;
+wire eclko ;
+wire reset ;
+wire eclki ;
+wire dll_lock ;
+wire dll_reset ;
+wire freeze ;
+wire ddrdel ;
+wire clock_cflag ;
+wire dataini_t0 ;
+wire buf_dataini0 ;
+wire \Inst_rxdll_sync.N_68_i  ;
+wire GND ;
+wire VCC ;
+  VLO GND_0 (
+	.Z(GND)
+);
+  VHI VCC_0 (
+	.Z(VCC)
+);
+  PUR PUR_INST (
+	.PUR(VCC)
+);
+  GSR GSR_INST (
+	.GSR(VCC)
+);
+// @7:428
+(* IO_TYPE="LVDS" *)  IB Inst7_IB (
+	.I(clkin),
+	.O(buf_clkin)
+);
+// @7:459
+(* IO_TYPE="LVDS" *)  IB Inst1_IB0 (
+	.I(datain[0]),
+	.O(buf_dataini0)
+);
+// @7:457
+  DELAYG udel_dataini0 (
+	.A(buf_dataini0),
+	.Z(dataini_t0)
+);
+defparam udel_dataini0.DEL_MODE = "USER_DEFINED";
+defparam udel_dataini0.DEL_VALUE = 65;
+// @7:452
+  IDDRX2F Inst2_IDDRX2F0 (
+	.D(dataini_t0),
+	.SCLK(sclk),
+	.ECLK(eclko),
+	.RST(reset),
+	.ALIGNWD(alignwd),
+	.Q3(q[3]),
+	.Q2(q[2]),
+	.Q1(q[1]),
+	.Q0(q[0])
+);
+// @7:449
+  DLLDELD Inst3_DLLDELD (
+	.A(buf_clkin),
+	.DDRDEL(ddrdel),
+	.LOADN(\Inst_rxdll_sync.cs_rx_sync_i [2]),
+	.MOVE(GND),
+	.DIRECTION(GND),
+	.Z(eclki),
+	.CFLAG(clock_cflag)
+);
+// @7:444
+  DDRDLLA Inst4_DDRDLLA (
+	.CLK(eclko),
+	.RST(dll_reset),
+	.UDDCNTLN(\Inst_rxdll_sync.cs_rx_sync_i [2]),
+	.FREEZE(freeze),
+	.DDRDEL(ddrdel),
+	.LOCK(dll_lock),
+	.DCNTL7(dcntl[7]),
+	.DCNTL6(dcntl[6]),
+	.DCNTL5(dcntl[5]),
+	.DCNTL4(dcntl[4]),
+	.DCNTL3(dcntl[3]),
+	.DCNTL2(dcntl[2]),
+	.DCNTL1(dcntl[1]),
+	.DCNTL0(dcntl[0])
+);
+defparam Inst4_DDRDLLA.FORCE_MAX_DELAY = "NO";
+// @7:435
+  ECLKSYNCB Inst5_ECLKSYNCB (
+	.ECLKI(eclki),
+	.STOP(\Inst_rxdll_sync.N_68_i ),
+	.ECLKO(eclko)
+);
+// @7:432
+  CLKDIVF Inst6_CLKDIVF (
+	.CLKI(eclko),
+	.RST(reset),
+	.ALIGNWD(alignwd),
+	.CDIVX(sclk)
+);
+defparam Inst6_CLKDIVF.DIV = "2.0";
+// @7:437
+  iddrx2frxdll_sync Inst_rxdll_sync (
+	.cs_rx_sync_i_0(\Inst_rxdll_sync.cs_rx_sync_i [2]),
+	.ddr_reset_1z(reset),
+	.update(update),
+	.freeze(freeze),
+	.N_68_i(\Inst_rxdll_sync.N_68_i ),
+	.ready(ready),
+	.dll_lock(dll_lock),
+	.dll_reset_1z(dll_reset),
+	.sync_reset(sync_reset),
+	.sync_clk(sync_clk)
+);
+endmodule /* iddrx2f */
+

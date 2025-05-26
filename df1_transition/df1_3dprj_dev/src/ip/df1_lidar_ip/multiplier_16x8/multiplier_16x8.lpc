@@ -1,0 +1,44 @@
+[Device]
+Family=ecp5u
+PartType=LFE5U-45F
+PartName=LFE5U-45F-7BG256I
+SpeedGrade=7
+Package=CABGA256
+OperatingCondition=IND
+Status=S
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=Multiplier
+CoreRevision=4.9
+ModuleName=multiplier_16x8
+SourceFormat=verilog
+ParameterFileVersion=1.0
+Date=05/12/2025
+Time=11:22:32
+
+[Parameters]
+Verilog=1
+VHDL=0
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=[MSB:LSB]
+IO=0
+pmi_implemenntation=DSP
+pmi_const_coeff=No
+pmi_coeff_value=2
+pmi_ram_mult=No
+pmi_dataa_width=16
+pmi_datab_width=8
+pmi_datap_width=24
+pmi_signa=Unsigned
+pmi_signb=Unsigned
+pmi_additional_pipeline=1
+pmi_input_reg=No
+pmi_output_reg=No
+
+[Command]
+cmd_line= -w -n multiplier_16x8 -lang verilog -synth synplify -bus_exp 7 -bb -arch sa5p00 -type dspmult -simple_portname -widtha 16 -widthb 8 -widthp 24 -PL_stages 1 -clk0 -ce0 -rst0

@@ -1,0 +1,2185 @@
+----------------------------------------------------------------------
+Report for cell df1_lidar_top.verilog
+
+Register bits: 8458 of 43848 (19%)
+PIC Latch:       0
+I/O cells:       45
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        7       100.0
+                               AND2       33       100.0
+                                 BB        1       100.0
+                              CCU2C     2522       100.0
+                             DP16KD       12       100.0
+                           DPR16X4C        3       100.0
+                            EHXPLLL        2       100.0
+                            FD1P3AX      434       100.0
+                            FD1P3BX      335       100.0
+                            FD1P3DX     4833       100.0
+                            FD1P3IX      508       100.0
+                            FD1S3AX       39       100.0
+                            FD1S3AY        3       100.0
+                            FD1S3BX      147       100.0
+                            FD1S3DX     1765       100.0
+                            FD1S3IX      366       100.0
+                                GSR        1       100.0
+                                 IB       21       100.0
+                           IFS1P3BX        1       100.0
+                           IFS1P3DX        9       100.0
+                           IFS1P3IX        3       100.0
+                                INV      123       100.0
+                            L6MUX21       64       100.0
+                         MULT18X18D       16       100.0
+                                 OB       23       100.0
+                           OFS1P3BX        4       100.0
+                           OFS1P3DX        8       100.0
+                           OFS1P3IX        3       100.0
+                                OR2        6       100.0
+                           ORCALUT4     8150       100.0
+                           PDPW16KD       23       100.0
+                              PFUMX      228       100.0
+                                PUR        1       100.0
+                           ROM16X1A      150       100.0
+                                VHI      113       100.0
+                                VLO      113       100.0
+                               XOR2      105       100.0
+                        ddr3_ipcore        1       100.0
+               ddr_clks_ddr3_ipcore        1       100.0
+SUB MODULES 
+                             AD_SPI        1       100.0
+                         DA_SPI_pwm        1       100.0
+                         HV_control        1       100.0
+                        adc_control        1       100.0
+                         adc_to_dac        1       100.0
+                        adc_to_temp        1       100.0
+                        angle2index        1       100.0
+          arp_ctrl_3232235786_3232235878_Z5        1       100.0
+          arp_rx_3232235786_3232235777_0_1_2_4_8_2054_Z3        1       100.0
+                          arp_tx_Z4        1       100.0
+                      asfifo_256x64        1       100.0
+                    asfifo_256x64_0        1       100.0
+                    asfifo_256x64_1        1       100.0
+                      asfifo_256x96        1       100.0
+                   calib_packet_Z25        1       100.0
+                       code_angle_0        1       100.0
+                           code_cnt        1       100.0
+                         code_cnt_1        1       100.0
+                     code_ram128x32        1       100.0
+                   code_ram128x32_0        1       100.0
+                           crc32_d8        1       100.0
+                         crc32_d8_2        1       100.0
+                         crc32_d8_3        1       100.0
+                          dac_table        1       100.0
+                          data_fill        1       100.0
+                           data_pre        1       100.0
+                     dataram_1024x8        1       100.0
+                   dataram_1024x8_1        1       100.0
+                   dataram_1024x8_2        1       100.0
+                   dataram_1024x8_4        1       100.0
+                     dataram_2048x8        1       100.0
+                   dataram_2048x8_0        1       100.0
+                 dcfifo_rmiirx_36x2        1       100.0
+               dcfifo_rmiitx_4096x2        1       100.0
+                     ddr3_init_ctrl        1       100.0
+          ddr3_interface_96s_8s_4s_64s_27s_5s_8s_16s        1       100.0
+                    ddr3_rw_ctrl_Z1        1       100.0
+          ddr3_sdram_mem_top_ddr3_ipcore        1       100.0
+                 ddr_round_robin_Z2        1       100.0
+                        df1_ddr3_ip        1       100.0
+                       dist_cal_Z23        1       100.0
+          dist_calculate_27s_64s_65536_16384        1       100.0
+          dist_measure_64s_27s_65536_16384_100        1       100.0
+                           div_rill        1       100.0
+                         division_0        1       100.0
+                         division_1        1       100.0
+              encoder_calculate_Z17        1       100.0
+              encoder_calculate_Z20        1       100.0
+          encoder_control_1000000000s_10s_300000_100s_100        1       100.0
+          encoder_control_1000000000s_10s_30000_10s_100        1       100.0
+                           eth_ctrl        1       100.0
+                            eth_pll        1       100.0
+                            eth_top        1       100.0
+           fifo_mac_frame_2048x10_0        1       100.0
+           fifo_mac_frame_2048x10_1        1       100.0
+                  flash_control_Z15        1       100.0
+                           gpx2_cfg        1       100.0
+               gpx2_control_wrapper        1       100.0
+                gpx2_spi_master_Z22        1       100.0
+                         icmp_rx_Z6        1       100.0
+          icmp_top_3232235786_3232235878_Z8        1       100.0
+                         icmp_tx_Z7        1       100.0
+                          index_cal        1       100.0
+          ip_top_3232235786_3232235878_Z12        1       100.0
+                      laser_control        1       100.0
+                    loop_packet_Z26        1       100.0
+                             mac_rx        1       100.0
+                            mac_top        1       100.0
+                             mac_tx        1       100.0
+                      motor_control        1       100.0
+                      motor_drive_0        1       100.0
+                      motor_drive_1        1       100.0
+                      multiplier2_0        1       100.0
+                       multiplier_0        1       100.0
+                       multiplier_2        1       100.0
+               multiplier_in32bit_0        1       100.0
+               multiplier_in32bit_1        1       100.0
+               multiplier_in32bit_2        1       100.0
+                    opto_switch_Z16        1       100.0
+                    opto_switch_Z19        1       100.0
+                 opto_switch_filter        1       100.0
+               opto_switch_filter_1        1       100.0
+                      phy_mdio_ctrl        1       100.0
+                     phy_mdio_drive        1       100.0
+                                pll        1       100.0
+                      pluse_average        1       100.0
+                            rmii_rx        1       100.0
+                           rmii_top        1       100.0
+                            rmii_tx        1       100.0
+          rotate_control_1000000000s_10s_300000_100s_10s_100        1       100.0
+                       rssi_cal_Z24        1       100.0
+                     sfifo_128x96_0        1       100.0
+                     sfifo_128x96_1        1       100.0
+                     sfifo_128x96_2        1       100.0
+                     sfifo_128x96_3        1       100.0
+               signal_dejitter_500s        1       100.0
+             signal_dejitter_500s_1        1       100.0
+                      spi_flash_cmd        1       100.0
+                      spi_flash_top        1       100.0
+                         spi_master        1       100.0
+                             sub_ip        1       100.0
+                           sub_ip_0        1       100.0
+                           sub_ip_1        1       100.0
+                   sync_control_Z18        1       100.0
+                synfifo_data_2048x8        1       100.0
+                    temp_adc_filter        1       100.0
+                          udp_rx_Z9        1       100.0
+          udp_top_3232235786_3232235878_Z11        1       100.0
+                         udp_tx_Z10        1       100.0
+          udpcom_control_64s_27s_16s        1       100.0
+          udpcom_datagram_parser_Z13        1       100.0
+          udpcom_parameter_init_Z14        1       100.0
+                            
+                         TOTAL         20289           
+----------------------------------------------------------------------
+Report for cell phy_mdio_ctrl.netlist
+     Instance path:  u_phy_mdio_ctrl
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       41         1.6
+                            FD1P3DX       66         1.4
+                            FD1P3IX       70        13.8
+                            FD1S3AX        4        10.3
+                            FD1S3AY        1        33.3
+                            FD1S3BX        1         0.7
+                            FD1S3DX        7         0.4
+                            FD1S3IX       47        12.8
+                                INV        3         2.4
+                           ORCALUT4      192         2.4
+                                VHI        2         1.8
+                                VLO        2         1.8
+SUB MODULES 
+                     phy_mdio_drive        1       100.0
+                            
+                         TOTAL           437           
+----------------------------------------------------------------------
+Report for cell phy_mdio_drive.netlist
+     Instance path:  u_phy_mdio_ctrl.u_phy_mdio_drive
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       10         0.4
+                            FD1P3IX       70        13.8
+                            FD1S3AY        1        33.3
+                            FD1S3IX       21         5.7
+                                INV        2         1.6
+                           ORCALUT4      100         1.2
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           206           
+----------------------------------------------------------------------
+Report for cell dist_measure_64s_27s_65536_16384_100.netlist
+     Instance path:  u_dist
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        6        85.7
+                              CCU2C      364        14.4
+                            FD1P3AX      100        23.0
+                            FD1P3BX        3         0.9
+                            FD1P3DX      549        11.4
+                            FD1S3AX        4        10.3
+                            FD1S3AY        1        33.3
+                            FD1S3BX        6         4.1
+                            FD1S3DX      123         7.0
+                            FD1S3IX       17         4.6
+                                INV        1         0.8
+                         MULT18X18D       12        75.0
+                           ORCALUT4     1147        14.1
+                                VHI       13        11.5
+                                VLO       13        11.5
+SUB MODULES 
+                   calib_packet_Z25        1       100.0
+                           data_pre        1       100.0
+                       dist_cal_Z23        1       100.0
+          dist_calculate_27s_64s_65536_16384        1       100.0
+                           div_rill        1       100.0
+                          index_cal        1       100.0
+                    loop_packet_Z26        1       100.0
+               multiplier_in32bit_0        1       100.0
+               multiplier_in32bit_1        1       100.0
+               multiplier_in32bit_2        1       100.0
+                       rssi_cal_Z24        1       100.0
+                           sub_ip_1        1       100.0
+                            
+                         TOTAL          2371           
+----------------------------------------------------------------------
+Report for cell loop_packet_Z26.netlist
+     Instance path:  u_dist.u_loop_packet
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       20         0.8
+                            FD1P3DX        9         0.2
+                            FD1S3BX        1         0.7
+                            FD1S3DX        2         0.1
+                           ORCALUT4        4         0.0
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            38           
+----------------------------------------------------------------------
+Report for cell calib_packet_Z25.netlist
+     Instance path:  u_dist.u_calib_data
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       38         1.5
+                            FD1P3BX        3         0.9
+                            FD1P3DX      108         2.2
+                            FD1S3BX        1         0.7
+                            FD1S3DX       15         0.8
+                                INV        1         0.8
+                           ORCALUT4      107         1.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           275           
+----------------------------------------------------------------------
+Report for cell dist_calculate_27s_64s_65536_16384.netlist
+     Instance path:  u_dist.u_dist_calculate
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        6        85.7
+                              CCU2C      306        12.1
+                            FD1P3AX      100        23.0
+                            FD1P3DX      432         8.9
+                            FD1S3AX        4        10.3
+                            FD1S3AY        1        33.3
+                            FD1S3BX        4         2.7
+                            FD1S3DX      106         6.0
+                            FD1S3IX       17         4.6
+                         MULT18X18D       12        75.0
+                           ORCALUT4     1036        12.7
+                                VHI       10         8.8
+                                VLO       10         8.8
+SUB MODULES 
+                           data_pre        1       100.0
+                       dist_cal_Z23        1       100.0
+                           div_rill        1       100.0
+                          index_cal        1       100.0
+               multiplier_in32bit_0        1       100.0
+               multiplier_in32bit_1        1       100.0
+               multiplier_in32bit_2        1       100.0
+                       rssi_cal_Z24        1       100.0
+                           sub_ip_1        1       100.0
+                            
+                         TOTAL          2053           
+----------------------------------------------------------------------
+Report for cell rssi_cal_Z24.netlist
+     Instance path:  u_dist.u_dist_calculate.u4_rssi_cal
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        2        28.6
+                              CCU2C       75         3.0
+                            FD1P3AX       34         7.8
+                            FD1P3DX      138         2.9
+                            FD1S3AX        4        10.3
+                            FD1S3AY        1        33.3
+                            FD1S3BX        1         0.7
+                            FD1S3DX       20         1.1
+                            FD1S3IX       17         4.6
+                         MULT18X18D        4        25.0
+                           ORCALUT4      183         2.2
+                                VHI        3         2.7
+                                VLO        3         2.7
+SUB MODULES 
+                           div_rill        1       100.0
+               multiplier_in32bit_2        1       100.0
+                            
+                         TOTAL           487           
+----------------------------------------------------------------------
+Report for cell div_rill.netlist
+     Instance path:  u_dist.u_dist_calculate.u4_rssi_cal.U3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        9         0.4
+                            FD1S3AX        4        10.3
+                            FD1S3AY        1        33.3
+                            FD1S3IX       17         4.6
+                           ORCALUT4       55         0.7
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            88           
+----------------------------------------------------------------------
+Report for cell multiplier_in32bit_2.netlist
+  Original Cell name multiplier_in32bit
+     Instance path:  u_dist.u_dist_calculate.u4_rssi_cal.u2_multiplier_in32bit
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        2        28.6
+                         MULT18X18D        4        25.0
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL             8           
+----------------------------------------------------------------------
+Report for cell dist_cal_Z23.netlist
+     Instance path:  u_dist.u_dist_calculate.u3_dist_cal
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        4        57.1
+                              CCU2C      213         8.4
+                            FD1P3AX       66        15.2
+                            FD1P3DX      241         5.0
+                            FD1S3BX        2         1.4
+                            FD1S3DX       68         3.9
+                         MULT18X18D        8        50.0
+                           ORCALUT4      745         9.1
+                                VHI        3         2.7
+                                VLO        3         2.7
+SUB MODULES 
+               multiplier_in32bit_0        1       100.0
+               multiplier_in32bit_1        1       100.0
+                            
+                         TOTAL          1355           
+----------------------------------------------------------------------
+Report for cell multiplier_in32bit_0.netlist
+  Original Cell name multiplier_in32bit
+     Instance path:  u_dist.u_dist_calculate.u3_dist_cal.u2_multiplier_in32bit
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        2        28.6
+                         MULT18X18D        4        25.0
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL             8           
+----------------------------------------------------------------------
+Report for cell multiplier_in32bit_1.netlist
+  Original Cell name multiplier_in32bit
+     Instance path:  u_dist.u_dist_calculate.u3_dist_cal.u1_multiplier_in32bit
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        2        28.6
+                         MULT18X18D        4        25.0
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL             8           
+----------------------------------------------------------------------
+Report for cell index_cal.netlist
+     Instance path:  u_dist.u_dist_calculate.u2_index_cal
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        3         0.1
+                            FD1S3BX        1         0.7
+                            FD1S3DX       11         0.6
+                           ORCALUT4       37         0.5
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            54           
+----------------------------------------------------------------------
+Report for cell data_pre.netlist
+     Instance path:  u_dist.u_dist_calculate.u1_data_pre
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       18         0.7
+                            FD1P3DX       50         1.0
+                            FD1S3DX        7         0.4
+                           ORCALUT4       62         0.8
+                                VHI        2         1.8
+                                VLO        2         1.8
+SUB MODULES 
+                           sub_ip_1        1       100.0
+                            
+                         TOTAL           142           
+----------------------------------------------------------------------
+Report for cell sub_ip_1.netlist
+  Original Cell name sub_ip
+     Instance path:  u_dist.u_dist_calculate.u1_data_pre.u_sub_ip
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       18         0.7
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            20           
+----------------------------------------------------------------------
+Report for cell HV_control.netlist
+     Instance path:  u_HV_control
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C      232         9.2
+                           DPR16X4C        3       100.0
+                            FD1P3BX        9         2.7
+                            FD1P3DX      567        11.7
+                            FD1P3IX       10         2.0
+                            FD1S3AX        3         7.7
+                            FD1S3BX        8         5.4
+                            FD1S3DX      179        10.1
+                                INV        2         1.6
+                         MULT18X18D        1         6.2
+                           ORCALUT4      727         8.9
+                              PFUMX        8         3.5
+                                VHI       11         9.7
+                                VLO       11         9.7
+SUB MODULES 
+                             AD_SPI        1       100.0
+                         DA_SPI_pwm        1       100.0
+                        adc_control        1       100.0
+                         adc_to_dac        1       100.0
+                        adc_to_temp        1       100.0
+                          dac_table        1       100.0
+                         division_1        1       100.0
+                       multiplier_2        1       100.0
+                      pluse_average        1       100.0
+                    temp_adc_filter        1       100.0
+                            
+                         TOTAL          1781           
+----------------------------------------------------------------------
+Report for cell temp_adc_filter.netlist
+     Instance path:  u_HV_control.u6
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       40         1.6
+                           DPR16X4C        3       100.0
+                            FD1P3DX       22         0.5
+                            FD1P3IX       10         2.0
+                            FD1S3AX        3         7.7
+                            FD1S3DX       62         3.5
+                                INV        2         1.6
+                           ORCALUT4       99         1.2
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           243           
+----------------------------------------------------------------------
+Report for cell pluse_average.netlist
+     Instance path:  u_HV_control.u5
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       63         2.5
+                            FD1P3DX      171         3.5
+                           ORCALUT4      170         2.1
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           406           
+----------------------------------------------------------------------
+Report for cell adc_to_dac.netlist
+     Instance path:  u_HV_control.u3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       75         3.0
+                            FD1P3BX        4         1.2
+                            FD1P3DX      286         5.9
+                            FD1S3BX        4         2.7
+                            FD1S3DX       35         2.0
+                         MULT18X18D        1         6.2
+                           ORCALUT4      361         4.4
+                              PFUMX        8         3.5
+                                VHI        5         4.4
+                                VLO        5         4.4
+SUB MODULES 
+                        adc_to_temp        1       100.0
+                          dac_table        1       100.0
+                         division_1        1       100.0
+                       multiplier_2        1       100.0
+                            
+                         TOTAL           788           
+----------------------------------------------------------------------
+Report for cell dac_table.netlist
+     Instance path:  u_HV_control.u3.u2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        1         0.0
+                            FD1S3DX        3         0.2
+                           ORCALUT4       13         0.2
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            19           
+----------------------------------------------------------------------
+Report for cell adc_to_temp.netlist
+     Instance path:  u_HV_control.u3.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       75         3.0
+                            FD1P3DX      271         5.6
+                            FD1S3BX        3         2.0
+                            FD1S3DX       13         0.7
+                         MULT18X18D        1         6.2
+                           ORCALUT4      323         4.0
+                              PFUMX        8         3.5
+                                VHI        3         2.7
+                                VLO        3         2.7
+SUB MODULES 
+                         division_1        1       100.0
+                       multiplier_2        1       100.0
+                            
+                         TOTAL           702           
+----------------------------------------------------------------------
+Report for cell division_1.netlist
+  Original Cell name division
+     Instance path:  u_HV_control.u3.U1.u_temp_division
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       43         1.7
+                            FD1P3DX       78         1.6
+                            FD1S3BX        1         0.7
+                            FD1S3DX        4         0.2
+                           ORCALUT4       87         1.1
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           215           
+----------------------------------------------------------------------
+Report for cell multiplier_2.netlist
+  Original Cell name multiplier
+     Instance path:  u_HV_control.u3.U1.U1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX       64         1.3
+                         MULT18X18D        1         6.2
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            67           
+----------------------------------------------------------------------
+Report for cell DA_SPI_pwm.netlist
+     Instance path:  u_HV_control.u_hvpwm_ctrl
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       13         0.5
+                            FD1P3BX        3         0.9
+                            FD1P3DX        7         0.1
+                            FD1S3DX       11         0.6
+                           ORCALUT4        9         0.1
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            45           
+----------------------------------------------------------------------
+Report for cell adc_control.netlist
+     Instance path:  u_HV_control.u_adc_sample
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       12         0.5
+                            FD1P3BX        2         0.6
+                            FD1P3DX       31         0.6
+                            FD1S3BX        4         2.7
+                            FD1S3DX       37         2.1
+                           ORCALUT4       62         0.8
+                                VHI        2         1.8
+                                VLO        2         1.8
+SUB MODULES 
+                             AD_SPI        1       100.0
+                            
+                         TOTAL           153           
+----------------------------------------------------------------------
+Report for cell AD_SPI.netlist
+     Instance path:  u_HV_control.u_adc_sample.u1_spi
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        3         0.1
+                            FD1P3BX        2         0.6
+                            FD1P3DX       10         0.2
+                            FD1S3BX        3         2.0
+                            FD1S3DX       14         0.8
+                           ORCALUT4       43         0.5
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            77           
+----------------------------------------------------------------------
+Report for cell gpx2_control_wrapper.netlist
+     Instance path:  u_gpx2_control_wrapper
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C      100         4.0
+                            FD1P3AX       96        22.1
+                            FD1P3BX        1         0.3
+                            FD1P3DX      348         7.2
+                            FD1S3AX       21        53.8
+                            FD1S3BX        3         2.0
+                            FD1S3DX       35         2.0
+                            FD1S3IX        4         1.1
+                           ORCALUT4      364         4.5
+                                VHI        6         5.3
+                                VLO        6         5.3
+SUB MODULES 
+                          data_fill        1       100.0
+                           gpx2_cfg        1       100.0
+                gpx2_spi_master_Z22        1       100.0
+                             sub_ip        1       100.0
+                           sub_ip_0        1       100.0
+                            
+                         TOTAL           989           
+----------------------------------------------------------------------
+Report for cell data_fill.netlist
+     Instance path:  u_gpx2_control_wrapper.u_data_fill
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       27         1.1
+                            FD1P3DX      113         2.3
+                            FD1S3BX        2         1.4
+                            FD1S3DX        6         0.3
+                           ORCALUT4       96         1.2
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           246           
+----------------------------------------------------------------------
+Report for cell gpx2_spi_master_Z22.netlist
+     Instance path:  u_gpx2_control_wrapper.u_gpx2_spi_master
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        5         0.2
+                            FD1P3BX        1         0.3
+                            FD1P3DX       22         0.5
+                            FD1S3BX        1         0.7
+                            FD1S3DX        7         0.4
+                           ORCALUT4       44         0.5
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            82           
+----------------------------------------------------------------------
+Report for cell gpx2_cfg.netlist
+     Instance path:  u_gpx2_control_wrapper.u_gpx2_cfg
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       13         0.5
+                            FD1P3DX       32         0.7
+                            FD1S3DX       10         0.6
+                           ORCALUT4       93         1.1
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           150           
+----------------------------------------------------------------------
+Report for cell sub_ip_0.netlist
+  Original Cell name sub_ip
+     Instance path:  u_gpx2_control_wrapper.u2_sub_ip
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       18         0.7
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            20           
+----------------------------------------------------------------------
+Report for cell sub_ip.netlist
+  Original Cell name sub_ip
+     Instance path:  u_gpx2_control_wrapper.u1_sub_ip
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       18         0.7
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            20           
+----------------------------------------------------------------------
+Report for cell laser_control.netlist
+     Instance path:  u_laser_control
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        8         0.3
+                            FD1S3BX        1         0.7
+                            FD1S3DX       23         1.3
+                           ORCALUT4       19         0.2
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            53           
+----------------------------------------------------------------------
+Report for cell rotate_control_1000000000s_10s_300000_100s_10s_100.netlist
+     Instance path:  u_rotate_control
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        1        14.3
+                              CCU2C      277        11.0
+                            FD1P3BX       17         5.1
+                            FD1P3DX      340         7.0
+                            FD1S3BX       15        10.2
+                            FD1S3DX      300        17.0
+                                INV        1         0.8
+                         MULT18X18D        3        18.8
+                           ORCALUT4      218         2.7
+                                VHI       15        13.3
+                                VLO       15        13.3
+SUB MODULES 
+                       code_angle_0        1       100.0
+                           code_cnt        1       100.0
+                         code_cnt_1        1       100.0
+              encoder_calculate_Z17        1       100.0
+              encoder_calculate_Z20        1       100.0
+          encoder_control_1000000000s_10s_300000_100s_100        1       100.0
+          encoder_control_1000000000s_10s_30000_10s_100        1       100.0
+                      multiplier2_0        1       100.0
+                       multiplier_0        1       100.0
+                    opto_switch_Z16        1       100.0
+                    opto_switch_Z19        1       100.0
+                 opto_switch_filter        1       100.0
+               opto_switch_filter_1        1       100.0
+                   sync_control_Z18        1       100.0
+                            
+                         TOTAL          1216           
+----------------------------------------------------------------------
+Report for cell encoder_control_1000000000s_10s_30000_10s_100.netlist
+     Instance path:  u_rotate_control.u3_encoder_control
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       90         3.6
+                            FD1P3BX        6         1.8
+                            FD1P3DX       69         1.4
+                            FD1S3BX        3         2.0
+                            FD1S3DX      119         6.7
+                           ORCALUT4       27         0.3
+                                VHI        4         3.5
+                                VLO        4         3.5
+SUB MODULES 
+                         code_cnt_1        1       100.0
+              encoder_calculate_Z20        1       100.0
+                    opto_switch_Z19        1       100.0
+                            
+                         TOTAL           325           
+----------------------------------------------------------------------
+Report for cell code_cnt_1.netlist
+  Original Cell name code_cnt
+     Instance path:  u_rotate_control.u3_encoder_control.u5_code_cnt
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        5         0.2
+                            FD1P3DX       39         0.8
+                            FD1S3DX        1         0.1
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            47           
+----------------------------------------------------------------------
+Report for cell encoder_calculate_Z20.netlist
+     Instance path:  u_rotate_control.u3_encoder_control.u2_encoder_calculate
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       71         2.8
+                            FD1P3BX        6         1.8
+                            FD1P3DX       22         0.5
+                            FD1S3BX        2         1.4
+                            FD1S3DX      101         5.7
+                           ORCALUT4        8         0.1
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           212           
+----------------------------------------------------------------------
+Report for cell opto_switch_Z19.netlist
+     Instance path:  u_rotate_control.u3_encoder_control.u1_opto_switch
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       14         0.6
+                            FD1P3DX        8         0.2
+                            FD1S3BX        1         0.7
+                            FD1S3DX       17         1.0
+                           ORCALUT4       19         0.2
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            61           
+----------------------------------------------------------------------
+Report for cell encoder_control_1000000000s_10s_300000_100s_100.netlist
+     Instance path:  u_rotate_control.u2_encoder_control
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        1        14.3
+                              CCU2C      169         6.7
+                            FD1P3BX       11         3.3
+                            FD1P3DX      237         4.9
+                            FD1S3BX        9         6.1
+                            FD1S3DX      181        10.3
+                         MULT18X18D        3        18.8
+                           ORCALUT4      167         2.0
+                                VHI        8         7.1
+                                VLO        8         7.1
+SUB MODULES 
+                       code_angle_0        1       100.0
+                           code_cnt        1       100.0
+              encoder_calculate_Z17        1       100.0
+                      multiplier2_0        1       100.0
+                       multiplier_0        1       100.0
+                    opto_switch_Z16        1       100.0
+                   sync_control_Z18        1       100.0
+                            
+                         TOTAL           801           
+----------------------------------------------------------------------
+Report for cell multiplier_0.netlist
+  Original Cell name multiplier
+     Instance path:  u_rotate_control.u2_encoder_control.u7
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX       32         0.7
+                         MULT18X18D        1         6.2
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            35           
+----------------------------------------------------------------------
+Report for cell multiplier2_0.netlist
+  Original Cell name multiplier2
+     Instance path:  u_rotate_control.u2_encoder_control.u6
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             ALU54B        1        14.3
+                         MULT18X18D        2        12.5
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell code_cnt.netlist
+  Original Cell name code_cnt
+     Instance path:  u_rotate_control.u2_encoder_control.u5_code_cnt
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       22         0.9
+                            FD1P3DX       39         0.8
+                            FD1S3DX       33         1.9
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            96           
+----------------------------------------------------------------------
+Report for cell code_angle_0.netlist
+  Original Cell name code_angle
+     Instance path:  u_rotate_control.u2_encoder_control.u4_code_angle
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       18         0.7
+                            FD1P3DX       16         0.3
+                            FD1S3DX       29         1.6
+                           ORCALUT4       24         0.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            89           
+----------------------------------------------------------------------
+Report for cell sync_control_Z18.netlist
+     Instance path:  u_rotate_control.u2_encoder_control.u3_sync_control
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       40         1.6
+                            FD1P3DX       43         0.9
+                            FD1S3BX        5         3.4
+                            FD1S3DX       25         1.4
+                           ORCALUT4       53         0.7
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           168           
+----------------------------------------------------------------------
+Report for cell encoder_calculate_Z17.netlist
+     Instance path:  u_rotate_control.u2_encoder_control.u2_encoder_calculate
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       76         3.0
+                            FD1P3BX       11         3.3
+                            FD1P3DX       99         2.0
+                            FD1S3BX        3         2.0
+                            FD1S3DX       80         4.5
+                           ORCALUT4       73         0.9
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           344           
+----------------------------------------------------------------------
+Report for cell opto_switch_Z16.netlist
+     Instance path:  u_rotate_control.u2_encoder_control.u1_opto_switch
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       13         0.5
+                            FD1P3DX        8         0.2
+                            FD1S3BX        1         0.7
+                            FD1S3DX       14         0.8
+                           ORCALUT4       17         0.2
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            55           
+----------------------------------------------------------------------
+Report for cell opto_switch_filter_1.netlist
+  Original Cell name opto_switch_filter
+     Instance path:  u_rotate_control.u1_opto_switch_filter
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        9         0.4
+                            FD1P3DX       17         0.4
+                            FD1S3BX        2         1.4
+                                INV        1         0.8
+                           ORCALUT4       12         0.1
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            43           
+----------------------------------------------------------------------
+Report for cell opto_switch_filter.netlist
+  Original Cell name opto_switch_filter
+     Instance path:  u_rotate_control.u0_opto_switch_filter
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        9         0.4
+                            FD1P3DX       17         0.4
+                            FD1S3BX        1         0.7
+                           ORCALUT4       12         0.1
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            41           
+----------------------------------------------------------------------
+Report for cell motor_control.netlist
+     Instance path:  u_motor_control
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C      208         8.2
+                            FD1P3BX       17         5.1
+                            FD1P3DX      137         2.8
+                            FD1S3BX       40        27.2
+                            FD1S3DX      188        10.7
+                                INV        2         1.6
+                           ORCALUT4      259         3.2
+                                VHI        5         4.4
+                                VLO        5         4.4
+SUB MODULES 
+                      motor_drive_0        1       100.0
+                      motor_drive_1        1       100.0
+               signal_dejitter_500s        1       100.0
+             signal_dejitter_500s_1        1       100.0
+                            
+                         TOTAL           865           
+----------------------------------------------------------------------
+Report for cell motor_drive_0.netlist
+  Original Cell name motor_drive
+     Instance path:  u_motor_control.u2_motor_drive
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       99         3.9
+                            FD1P3BX        8         2.4
+                            FD1P3DX       66         1.4
+                            FD1S3BX       20        13.6
+                            FD1S3DX       83         4.7
+                                INV        1         0.8
+                           ORCALUT4      126         1.5
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           405           
+----------------------------------------------------------------------
+Report for cell motor_drive_1.netlist
+  Original Cell name motor_drive
+     Instance path:  u_motor_control.u1_motor_drive
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       99         3.9
+                            FD1P3BX        9         2.7
+                            FD1P3DX       69         1.4
+                            FD1S3BX       20        13.6
+                            FD1S3DX       83         4.7
+                                INV        1         0.8
+                           ORCALUT4      125         1.5
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           408           
+----------------------------------------------------------------------
+Report for cell signal_dejitter_500s_1.netlist
+  Original Cell name signal_dejitter_500s
+     Instance path:  u_motor_control.u1_signal_dejitter
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        5         0.2
+                            FD1P3DX        1         0.0
+                            FD1S3DX       11         0.6
+                           ORCALUT4        4         0.0
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            23           
+----------------------------------------------------------------------
+Report for cell signal_dejitter_500s.netlist
+  Original Cell name signal_dejitter_500s
+     Instance path:  u_motor_control.u0_signal_dejitter
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        5         0.2
+                            FD1P3DX        1         0.0
+                            FD1S3DX       11         0.6
+                           ORCALUT4        4         0.0
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            23           
+----------------------------------------------------------------------
+Report for cell flash_control_Z15.netlist
+     Instance path:  u_flash_control
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C      120         4.8
+                            FD1P3BX        3         0.9
+                            FD1P3DX      211         4.4
+                            FD1S3BX       12         8.2
+                            FD1S3DX      104         5.9
+                                INV        2         1.6
+                            L6MUX21        8        12.5
+                           ORCALUT4      421         5.2
+                              PFUMX       16         7.0
+                                VHI        4         3.5
+                                VLO        4         3.5
+SUB MODULES 
+                      spi_flash_cmd        1       100.0
+                      spi_flash_top        1       100.0
+                         spi_master        1       100.0
+                            
+                         TOTAL           908           
+----------------------------------------------------------------------
+Report for cell spi_flash_top.netlist
+     Instance path:  u_flash_control.u_spi_flash_top
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       25         1.0
+                            FD1P3BX        1         0.3
+                            FD1P3DX       63         1.3
+                            FD1S3BX        2         1.4
+                            FD1S3DX       32         1.8
+                           ORCALUT4      144         1.8
+                                VHI        3         2.7
+                                VLO        3         2.7
+SUB MODULES 
+                      spi_flash_cmd        1       100.0
+                         spi_master        1       100.0
+                            
+                         TOTAL           275           
+----------------------------------------------------------------------
+Report for cell spi_flash_cmd.netlist
+     Instance path:  u_flash_control.u_spi_flash_top.u_spi_cmd
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       25         1.0
+                            FD1P3DX       57         1.2
+                            FD1S3BX        2         1.4
+                            FD1S3DX       25         1.4
+                           ORCALUT4      115         1.4
+                                VHI        2         1.8
+                                VLO        2         1.8
+SUB MODULES 
+                         spi_master        1       100.0
+                            
+                         TOTAL           229           
+----------------------------------------------------------------------
+Report for cell spi_master.netlist
+     Instance path:  u_flash_control.u_spi_flash_top.u_spi_cmd.u_flashspi_master
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        9         0.4
+                            FD1P3DX       37         0.8
+                            FD1S3BX        1         0.7
+                            FD1S3DX        4         0.2
+                           ORCALUT4       36         0.4
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            89           
+----------------------------------------------------------------------
+Report for cell eth_top.netlist
+     Instance path:  u_eth_top
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       13        39.4
+                              CCU2C      941        37.3
+                             DP16KD       12       100.0
+                            EHXPLLL        1        50.0
+                            FD1P3AX      174        40.1
+                            FD1P3BX      277        82.7
+                            FD1P3DX     2268        46.9
+                            FD1P3IX      125        24.6
+                            FD1S3AX        1         2.6
+                            FD1S3BX       52        35.4
+                            FD1S3DX      623        35.3
+                            FD1S3IX       64        17.5
+                                INV       79        64.2
+                            L6MUX21       56        87.5
+                                OR2        2        33.3
+                           ORCALUT4     4371        53.6
+                           PDPW16KD        2         8.7
+                              PFUMX      204        89.5
+                           ROM16X1A       54        36.0
+                                VHI       40        35.4
+                                VLO       40        35.4
+                               XOR2       37        35.2
+SUB MODULES 
+                        angle2index        1       100.0
+          arp_ctrl_3232235786_3232235878_Z5        1       100.0
+          arp_rx_3232235786_3232235777_0_1_2_4_8_2054_Z3        1       100.0
+                          arp_tx_Z4        1       100.0
+                     code_ram128x32        1       100.0
+                   code_ram128x32_0        1       100.0
+                           crc32_d8        1       100.0
+                         crc32_d8_2        1       100.0
+                         crc32_d8_3        1       100.0
+                     dataram_1024x8        1       100.0
+                   dataram_1024x8_1        1       100.0
+                   dataram_1024x8_2        1       100.0
+                   dataram_1024x8_4        1       100.0
+                     dataram_2048x8        1       100.0
+                   dataram_2048x8_0        1       100.0
+                 dcfifo_rmiirx_36x2        1       100.0
+               dcfifo_rmiitx_4096x2        1       100.0
+                         division_0        1       100.0
+                           eth_ctrl        1       100.0
+                            eth_pll        1       100.0
+           fifo_mac_frame_2048x10_0        1       100.0
+           fifo_mac_frame_2048x10_1        1       100.0
+                         icmp_rx_Z6        1       100.0
+          icmp_top_3232235786_3232235878_Z8        1       100.0
+                         icmp_tx_Z7        1       100.0
+          ip_top_3232235786_3232235878_Z12        1       100.0
+                             mac_rx        1       100.0
+                            mac_top        1       100.0
+                             mac_tx        1       100.0
+                            rmii_rx        1       100.0
+                           rmii_top        1       100.0
+                            rmii_tx        1       100.0
+                synfifo_data_2048x8        1       100.0
+                          udp_rx_Z9        1       100.0
+          udp_top_3232235786_3232235878_Z11        1       100.0
+                         udp_tx_Z10        1       100.0
+          udpcom_control_64s_27s_16s        1       100.0
+          udpcom_datagram_parser_Z13        1       100.0
+          udpcom_parameter_init_Z14        1       100.0
+                            
+                         TOTAL          9475           
+----------------------------------------------------------------------
+Report for cell eth_ctrl.netlist
+     Instance path:  u_eth_top.u_eth_ctrl
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX       13         0.3
+                            FD1S3DX        4         0.2
+                           ORCALUT4       25         0.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            44           
+----------------------------------------------------------------------
+Report for cell udpcom_control_64s_27s_16s.netlist
+     Instance path:  u_eth_top.u_udpcom_control
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C      300        11.9
+                             DP16KD        5        41.7
+                            FD1P3BX      107        31.9
+                            FD1P3DX     1022        21.1
+                            FD1S3BX       44        29.9
+                            FD1S3DX      235        13.3
+                                INV        9         7.3
+                            L6MUX21       11        17.2
+                           ORCALUT4     2347        28.8
+                           PDPW16KD        2         8.7
+                              PFUMX       66        28.9
+                                VHI       12        10.6
+                                VLO       12        10.6
+SUB MODULES 
+                        angle2index        1       100.0
+                     code_ram128x32        1       100.0
+                   code_ram128x32_0        1       100.0
+                     dataram_1024x8        1       100.0
+                   dataram_1024x8_1        1       100.0
+                   dataram_1024x8_2        1       100.0
+                   dataram_1024x8_4        1       100.0
+                   dataram_2048x8_0        1       100.0
+                         division_0        1       100.0
+          udpcom_datagram_parser_Z13        1       100.0
+          udpcom_parameter_init_Z14        1       100.0
+                            
+                         TOTAL          4183           
+----------------------------------------------------------------------
+Report for cell udpcom_parameter_init_Z14.netlist
+     Instance path:  u_eth_top.u_udpcom_control.u_parameter_init
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C      136         5.4
+                            FD1P3BX       99        29.6
+                            FD1P3DX      742        15.4
+                            FD1S3BX       41        27.9
+                            FD1S3DX      183        10.4
+                                INV        6         4.9
+                           ORCALUT4     1363        16.7
+                                VHI        3         2.7
+                                VLO        3         2.7
+SUB MODULES 
+                        angle2index        1       100.0
+                         division_0        1       100.0
+                            
+                         TOTAL          2578           
+----------------------------------------------------------------------
+Report for cell angle2index.netlist
+     Instance path:  u_eth_top.u_udpcom_control.u_parameter_init.u0_angle2index
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       71         2.8
+                            FD1P3BX       13         3.9
+                            FD1P3DX      213         4.4
+                            FD1S3BX       41        27.9
+                            FD1S3DX      111         6.3
+                                INV        2         1.6
+                           ORCALUT4      146         1.8
+                                VHI        2         1.8
+                                VLO        2         1.8
+SUB MODULES 
+                         division_0        1       100.0
+                            
+                         TOTAL           602           
+----------------------------------------------------------------------
+Report for cell division_0.netlist
+  Original Cell name division
+     Instance path:  u_eth_top.u_udpcom_control.u_parameter_init.u0_angle2index.u_calindex_division
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       43         1.7
+                            FD1P3DX       81         1.7
+                            FD1S3BX        1         0.7
+                            FD1S3DX        4         0.2
+                           ORCALUT4       90         1.1
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           221           
+----------------------------------------------------------------------
+Report for cell udpcom_datagram_parser_Z13.netlist
+     Instance path:  u_eth_top.u_udpcom_control.u_datagram_parser
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C      164         6.5
+                             DP16KD        5        41.7
+                            FD1P3BX        8         2.4
+                            FD1P3DX      280         5.8
+                            FD1S3BX        3         2.0
+                            FD1S3DX       52         2.9
+                                INV        3         2.4
+                            L6MUX21       11        17.2
+                           ORCALUT4      958        11.8
+                           PDPW16KD        2         8.7
+                              PFUMX       66        28.9
+                                VHI        8         7.1
+                                VLO        8         7.1
+SUB MODULES 
+                     code_ram128x32        1       100.0
+                   code_ram128x32_0        1       100.0
+                     dataram_1024x8        1       100.0
+                   dataram_1024x8_1        1       100.0
+                   dataram_1024x8_2        1       100.0
+                   dataram_1024x8_4        1       100.0
+                   dataram_2048x8_0        1       100.0
+                            
+                         TOTAL          1575           
+----------------------------------------------------------------------
+Report for cell code_ram128x32_0.netlist
+  Original Cell name code_ram128x32
+     Instance path:  u_eth_top.u_udpcom_control.u_datagram_parser.code2_ram
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           PDPW16KD        1         4.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell code_ram128x32.netlist
+  Original Cell name code_ram128x32
+     Instance path:  u_eth_top.u_udpcom_control.u_datagram_parser.code1_ram
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           PDPW16KD        1         4.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell dataram_1024x8_2.netlist
+  Original Cell name dataram_1024x8
+     Instance path:  u_eth_top.u_udpcom_control.u_datagram_parser.u_calib_data2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             DP16KD        1         8.3
+                           ORCALUT4        1         0.0
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell dataram_1024x8_1.netlist
+  Original Cell name dataram_1024x8
+     Instance path:  u_eth_top.u_udpcom_control.u_datagram_parser.u_calib_data1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             DP16KD        1         8.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell dataram_1024x8.netlist
+  Original Cell name dataram_1024x8
+     Instance path:  u_eth_top.u_udpcom_control.u_datagram_parser.u_loop_data1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             DP16KD        1         8.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell dataram_1024x8_4.netlist
+  Original Cell name dataram_1024x8
+     Instance path:  u_eth_top.u_udpcom_control.u_datagram_parser.u_cache_data
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             DP16KD        1         8.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell dataram_2048x8_0.netlist
+  Original Cell name dataram_2048x8
+     Instance path:  u_eth_top.u_udpcom_control.u_datagram_parser.udprx_dataram
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             DP16KD        1         8.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell ip_top_3232235786_3232235878_Z12.netlist
+     Instance path:  u_eth_top.u_ip_top
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        3         9.1
+                              CCU2C      492        19.5
+                             DP16KD        2        16.7
+                            FD1P3AX      174        40.1
+                            FD1P3BX      103        30.7
+                            FD1P3DX      709        14.7
+                            FD1P3IX       32         6.3
+                            FD1S3BX        3         2.0
+                            FD1S3DX      283        16.0
+                                INV       53        43.1
+                            L6MUX21       35        54.7
+                           ORCALUT4     1444        17.7
+                              PFUMX      100        43.9
+                           ROM16X1A        2         1.3
+                                VHI       11         9.7
+                                VLO       11         9.7
+                               XOR2        1         1.0
+SUB MODULES 
+                         crc32_d8_2        1       100.0
+                         crc32_d8_3        1       100.0
+                     dataram_2048x8        1       100.0
+                         icmp_rx_Z6        1       100.0
+          icmp_top_3232235786_3232235878_Z8        1       100.0
+                         icmp_tx_Z7        1       100.0
+                synfifo_data_2048x8        1       100.0
+                          udp_rx_Z9        1       100.0
+          udp_top_3232235786_3232235878_Z11        1       100.0
+                         udp_tx_Z10        1       100.0
+                            
+                         TOTAL          3468           
+----------------------------------------------------------------------
+Report for cell udp_top_3232235786_3232235878_Z11.netlist
+     Instance path:  u_eth_top.u_ip_top.u_udp_top
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C      203         8.0
+                             DP16KD        1         8.3
+                            FD1P3AX       62        14.3
+                            FD1P3BX       51        15.2
+                            FD1P3DX      305         6.3
+                            FD1P3IX       16         3.1
+                            FD1S3BX        1         0.7
+                            FD1S3DX       92         5.2
+                                INV       16        13.0
+                            L6MUX21       23        35.9
+                           ORCALUT4      635         7.8
+                              PFUMX       59        25.9
+                                VHI        5         4.4
+                                VLO        5         4.4
+SUB MODULES 
+                         crc32_d8_3        1       100.0
+                     dataram_2048x8        1       100.0
+                          udp_rx_Z9        1       100.0
+                         udp_tx_Z10        1       100.0
+                            
+                         TOTAL          1478           
+----------------------------------------------------------------------
+Report for cell crc32_d8_3.netlist
+  Original Cell name crc32_d8
+     Instance path:  u_eth_top.u_ip_top.u_udp_top.u_crc32_d8
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3BX       32         9.6
+                           ORCALUT4       64         0.8
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            98           
+----------------------------------------------------------------------
+Report for cell dataram_2048x8.netlist
+  Original Cell name dataram_2048x8
+     Instance path:  u_eth_top.u_ip_top.u_udp_top.udprx_dataram
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             DP16KD        1         8.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell udp_tx_Z10.netlist
+     Instance path:  u_eth_top.u_ip_top.u_udp_top.u_udp_tx
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C      162         6.4
+                            FD1P3AX       62        14.3
+                            FD1P3BX       19         5.7
+                            FD1P3DX      134         2.8
+                            FD1P3IX       16         3.1
+                            FD1S3DX       82         4.6
+                                INV       15        12.2
+                            L6MUX21       23        35.9
+                           ORCALUT4      371         4.6
+                              PFUMX       59        25.9
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           945           
+----------------------------------------------------------------------
+Report for cell udp_rx_Z9.netlist
+     Instance path:  u_eth_top.u_ip_top.u_udp_top.u_udp_rx
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       41         1.6
+                            FD1P3DX      171         3.5
+                            FD1S3BX        1         0.7
+                            FD1S3DX       10         0.6
+                                INV        1         0.8
+                           ORCALUT4      200         2.5
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           426           
+----------------------------------------------------------------------
+Report for cell icmp_top_3232235786_3232235878_Z8.netlist
+     Instance path:  u_eth_top.u_ip_top.u_icmp_top
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        3         9.1
+                              CCU2C      289        11.5
+                             DP16KD        1         8.3
+                            FD1P3AX      112        25.8
+                            FD1P3BX       52        15.5
+                            FD1P3DX      404         8.4
+                            FD1P3IX       16         3.1
+                            FD1S3BX        2         1.4
+                            FD1S3DX      191        10.8
+                                INV       37        30.1
+                            L6MUX21       12        18.8
+                           ORCALUT4      809         9.9
+                              PFUMX       41        18.0
+                           ROM16X1A        2         1.3
+                                VHI        5         4.4
+                                VLO        5         4.4
+                               XOR2        1         1.0
+SUB MODULES 
+                         crc32_d8_2        1       100.0
+                         icmp_rx_Z6        1       100.0
+                         icmp_tx_Z7        1       100.0
+                synfifo_data_2048x8        1       100.0
+                            
+                         TOTAL          1986           
+----------------------------------------------------------------------
+Report for cell crc32_d8_2.netlist
+  Original Cell name crc32_d8
+     Instance path:  u_eth_top.u_ip_top.u_icmp_top.u_crc32_d8
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3BX       32         9.6
+                           ORCALUT4       62         0.8
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            96           
+----------------------------------------------------------------------
+Report for cell synfifo_data_2048x8.netlist
+     Instance path:  u_eth_top.u_ip_top.u_icmp_top.icmp_synfifo_data_2048x8
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        3         9.1
+                              CCU2C       37         1.5
+                             DP16KD        1         8.3
+                            FD1P3DX       36         0.7
+                            FD1S3BX        1         0.7
+                            FD1S3DX        1         0.1
+                                INV        4         3.3
+                           ROM16X1A        2         1.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                               XOR2        1         1.0
+                            
+                         TOTAL            88           
+----------------------------------------------------------------------
+Report for cell icmp_tx_Z7.netlist
+     Instance path:  u_eth_top.u_ip_top.u_icmp_top.u_icmp_tx
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C      184         7.3
+                            FD1P3AX       96        22.1
+                            FD1P3BX       20         6.0
+                            FD1P3DX      112         2.3
+                            FD1P3IX       16         3.1
+                            FD1S3DX      179        10.1
+                                INV       31        25.2
+                            L6MUX21       12        18.8
+                           ORCALUT4      486         6.0
+                              PFUMX       41        18.0
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL          1179           
+----------------------------------------------------------------------
+Report for cell icmp_rx_Z6.netlist
+     Instance path:  u_eth_top.u_ip_top.u_icmp_top.u_icmp_rx
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       68         2.7
+                            FD1P3AX       16         3.7
+                            FD1P3DX      256         5.3
+                            FD1S3BX        1         0.7
+                            FD1S3DX       11         0.6
+                                INV        2         1.6
+                           ORCALUT4      261         3.2
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           617           
+----------------------------------------------------------------------
+Report for cell arp_ctrl_3232235786_3232235878_Z5.netlist
+     Instance path:  u_eth_top.u_arp_ctrl
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       12         0.5
+                            FD1P3BX       63        18.8
+                            FD1P3DX      342         7.1
+                            FD1S3BX        1         0.7
+                            FD1S3DX       21         1.2
+                                INV        1         0.8
+                            L6MUX21       10        15.6
+                           ORCALUT4      501         6.1
+                              PFUMX       36        15.8
+                                VHI        4         3.5
+                                VLO        4         3.5
+SUB MODULES 
+          arp_rx_3232235786_3232235777_0_1_2_4_8_2054_Z3        1       100.0
+                          arp_tx_Z4        1       100.0
+                           crc32_d8        1       100.0
+                            
+                         TOTAL           998           
+----------------------------------------------------------------------
+Report for cell crc32_d8.netlist
+  Original Cell name crc32_d8
+     Instance path:  u_eth_top.u_arp_ctrl.utx_crc32_d8
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3BX       32         9.6
+                           ORCALUT4       61         0.7
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            95           
+----------------------------------------------------------------------
+Report for cell arp_tx_Z4.netlist
+     Instance path:  u_eth_top.u_arp_ctrl.u_arp_tx
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        7         0.3
+                            FD1P3BX       31         9.3
+                            FD1P3DX       69         1.4
+                            FD1S3DX       14         0.8
+                            L6MUX21       10        15.6
+                           ORCALUT4      181         2.2
+                              PFUMX       34        14.9
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           348           
+----------------------------------------------------------------------
+Report for cell arp_rx_3232235786_3232235777_0_1_2_4_8_2054_Z3.netlist
+     Instance path:  u_eth_top.u_arp_ctrl.u_arp_rx
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        5         0.2
+                            FD1P3DX      273         5.6
+                            FD1S3BX        1         0.7
+                            FD1S3DX        7         0.4
+                                INV        1         0.8
+                           ORCALUT4      259         3.2
+                              PFUMX        2         0.9
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           550           
+----------------------------------------------------------------------
+Report for cell mac_top.netlist
+     Instance path:  u_eth_top.u_mac_top
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        6        18.2
+                              CCU2C       85         3.4
+                             DP16KD        3        25.0
+                            FD1P3DX       72         1.5
+                            FD1P3IX       93        18.3
+                            FD1S3AX        1         2.6
+                            FD1S3BX        2         1.4
+                            FD1S3DX        2         0.1
+                            FD1S3IX       54        14.8
+                                INV       10         8.1
+                           ORCALUT4       54         0.7
+                              PFUMX        2         0.9
+                           ROM16X1A        4         2.7
+                                VHI        5         4.4
+                                VLO        5         4.4
+                               XOR2        2         1.9
+SUB MODULES 
+           fifo_mac_frame_2048x10_0        1       100.0
+           fifo_mac_frame_2048x10_1        1       100.0
+                             mac_rx        1       100.0
+                             mac_tx        1       100.0
+                            
+                         TOTAL           404           
+----------------------------------------------------------------------
+Report for cell mac_tx.netlist
+     Instance path:  u_eth_top.u_mac_top.u_mac_tx
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        3         9.1
+                              CCU2C       37         1.5
+                             DP16KD        1         8.3
+                            FD1P3DX       36         0.7
+                            FD1P3IX        9         1.8
+                            FD1S3BX        1         0.7
+                            FD1S3DX        1         0.1
+                            FD1S3IX        8         2.2
+                                INV        5         4.1
+                           ORCALUT4        8         0.1
+                              PFUMX        2         0.9
+                           ROM16X1A        2         1.3
+                                VHI        2         1.8
+                                VLO        2         1.8
+                               XOR2        1         1.0
+SUB MODULES 
+           fifo_mac_frame_2048x10_1        1       100.0
+                            
+                         TOTAL           119           
+----------------------------------------------------------------------
+Report for cell fifo_mac_frame_2048x10_1.netlist
+  Original Cell name fifo_mac_frame_2048x10
+     Instance path:  u_eth_top.u_mac_top.u_mac_tx.u_fifo_mac_frame_2048x10
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        3         9.1
+                              CCU2C       37         1.5
+                             DP16KD        1         8.3
+                            FD1P3DX       36         0.7
+                            FD1S3BX        1         0.7
+                            FD1S3DX        1         0.1
+                                INV        5         4.1
+                           ROM16X1A        2         1.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                               XOR2        1         1.0
+                            
+                         TOTAL            89           
+----------------------------------------------------------------------
+Report for cell mac_rx.netlist
+     Instance path:  u_eth_top.u_mac_top.u_mac_rx
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        3         9.1
+                              CCU2C       48         1.9
+                             DP16KD        2        16.7
+                            FD1P3DX       36         0.7
+                            FD1P3IX       84        16.5
+                            FD1S3AX        1         2.6
+                            FD1S3BX        1         0.7
+                            FD1S3DX        1         0.1
+                            FD1S3IX       46        12.6
+                                INV        5         4.1
+                           ORCALUT4       46         0.6
+                           ROM16X1A        2         1.3
+                                VHI        2         1.8
+                                VLO        2         1.8
+                               XOR2        1         1.0
+SUB MODULES 
+           fifo_mac_frame_2048x10_0        1       100.0
+                            
+                         TOTAL           281           
+----------------------------------------------------------------------
+Report for cell fifo_mac_frame_2048x10_0.netlist
+  Original Cell name fifo_mac_frame_2048x10
+     Instance path:  u_eth_top.u_mac_top.u_mac_rx.u_fifo_mac_frame_2048x10
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        3         9.1
+                              CCU2C       37         1.5
+                             DP16KD        2        16.7
+                            FD1P3DX       36         0.7
+                            FD1S3BX        1         0.7
+                            FD1S3DX        1         0.1
+                                INV        5         4.1
+                           ROM16X1A        2         1.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                               XOR2        1         1.0
+                            
+                         TOTAL            90           
+----------------------------------------------------------------------
+Report for cell rmii_top.netlist
+     Instance path:  u_eth_top.u_rmii_top
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        4        12.1
+                              CCU2C       52         2.1
+                             DP16KD        2        16.7
+                            FD1P3BX        4         1.2
+                            FD1P3DX      110         2.3
+                            FD1S3BX        2         1.4
+                            FD1S3DX       78         4.4
+                            FD1S3IX       10         2.7
+                                INV        6         4.9
+                                OR2        2        33.3
+                           ROM16X1A       48        32.0
+                                VHI        5         4.4
+                                VLO        5         4.4
+                               XOR2       34        32.4
+SUB MODULES 
+                 dcfifo_rmiirx_36x2        1       100.0
+               dcfifo_rmiitx_4096x2        1       100.0
+                            rmii_rx        1       100.0
+                            rmii_tx        1       100.0
+                            
+                         TOTAL           366           
+----------------------------------------------------------------------
+Report for cell rmii_tx.netlist
+     Instance path:  u_eth_top.u_rmii_top.u_rmii_tx
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        2         6.1
+                              CCU2C       34         1.3
+                             DP16KD        1         8.3
+                            FD1P3BX        2         0.6
+                            FD1P3DX       76         1.6
+                            FD1S3BX        1         0.7
+                            FD1S3DX       53         3.0
+                            FD1S3IX        5         1.4
+                                INV        3         2.4
+                                OR2        1        16.7
+                           ROM16X1A       34        22.7
+                                VHI        2         1.8
+                                VLO        2         1.8
+                               XOR2       24        22.9
+SUB MODULES 
+               dcfifo_rmiitx_4096x2        1       100.0
+                            
+                         TOTAL           241           
+----------------------------------------------------------------------
+Report for cell dcfifo_rmiitx_4096x2.netlist
+     Instance path:  u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        2         6.1
+                              CCU2C       34         1.3
+                             DP16KD        1         8.3
+                            FD1P3BX        2         0.6
+                            FD1P3DX       76         1.6
+                            FD1S3BX        1         0.7
+                            FD1S3DX       53         3.0
+                                INV        3         2.4
+                                OR2        1        16.7
+                           ROM16X1A       34        22.7
+                                VHI        1         0.9
+                                VLO        1         0.9
+                               XOR2       24        22.9
+                            
+                         TOTAL           233           
+----------------------------------------------------------------------
+Report for cell rmii_rx.netlist
+     Instance path:  u_eth_top.u_rmii_top.u_rmii_rx
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        2         6.1
+                              CCU2C       18         0.7
+                             DP16KD        1         8.3
+                            FD1P3BX        2         0.6
+                            FD1P3DX       34         0.7
+                            FD1S3BX        1         0.7
+                            FD1S3DX       25         1.4
+                            FD1S3IX        5         1.4
+                                INV        3         2.4
+                                OR2        1        16.7
+                           ROM16X1A       14         9.3
+                                VHI        2         1.8
+                                VLO        2         1.8
+                               XOR2       10         9.5
+SUB MODULES 
+                 dcfifo_rmiirx_36x2        1       100.0
+                            
+                         TOTAL           121           
+----------------------------------------------------------------------
+Report for cell dcfifo_rmiirx_36x2.netlist
+     Instance path:  u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        2         6.1
+                              CCU2C       18         0.7
+                             DP16KD        1         8.3
+                            FD1P3BX        2         0.6
+                            FD1P3DX       34         0.7
+                            FD1S3BX        1         0.7
+                            FD1S3DX       25         1.4
+                                INV        3         2.4
+                                OR2        1        16.7
+                           ROM16X1A       14         9.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                               XOR2       10         9.5
+                            
+                         TOTAL           113           
+----------------------------------------------------------------------
+Report for cell eth_pll.netlist
+     Instance path:  u_eth_top.u_eth_pll
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            EHXPLLL        1        50.0
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell ddr3_interface_96s_8s_4s_64s_27s_5s_8s_16s.netlist
+     Instance path:  u2_ddr3_interface
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       20        60.6
+                              CCU2C      212         8.4
+                            FD1P3AX       64        14.7
+                            FD1P3BX        8         2.4
+                            FD1P3DX      343         7.1
+                            FD1P3IX      303        59.6
+                            FD1S3AX        4        10.3
+                            FD1S3AY        1        33.3
+                            FD1S3BX        9         6.1
+                            FD1S3DX      165         9.3
+                            FD1S3IX      211        57.7
+                                INV       24        19.5
+                                OR2        4        66.7
+                           ORCALUT4      407         5.0
+                           PDPW16KD       21        91.3
+                           ROM16X1A       96        64.0
+                                VHI       11         9.7
+                                VLO       11         9.7
+                               XOR2       68        64.8
+SUB MODULES 
+                      asfifo_256x64        1       100.0
+                    asfifo_256x64_0        1       100.0
+                    asfifo_256x64_1        1       100.0
+                      asfifo_256x96        1       100.0
+                    ddr3_rw_ctrl_Z1        1       100.0
+                 ddr_round_robin_Z2        1       100.0
+                     sfifo_128x96_0        1       100.0
+                     sfifo_128x96_1        1       100.0
+                     sfifo_128x96_2        1       100.0
+                     sfifo_128x96_3        1       100.0
+                            
+                         TOTAL          1992           
+----------------------------------------------------------------------
+Report for cell ddr_round_robin_Z2.netlist
+     Instance path:  u2_ddr3_interface.u2_ddr_round_robin
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2       20        60.6
+                              CCU2C      212         8.4
+                            FD1P3BX        8         2.4
+                            FD1P3DX      304         6.3
+                            FD1P3IX      303        59.6
+                            FD1S3AX        4        10.3
+                            FD1S3AY        1        33.3
+                            FD1S3BX        8         5.4
+                            FD1S3DX      152         8.6
+                            FD1S3IX      211        57.7
+                                INV       24        19.5
+                                OR2        4        66.7
+                           ORCALUT4      342         4.2
+                           PDPW16KD       21        91.3
+                           ROM16X1A       96        64.0
+                                VHI        9         8.0
+                                VLO        9         8.0
+                               XOR2       68        64.8
+SUB MODULES 
+                      asfifo_256x64        1       100.0
+                    asfifo_256x64_0        1       100.0
+                    asfifo_256x64_1        1       100.0
+                      asfifo_256x96        1       100.0
+                     sfifo_128x96_0        1       100.0
+                     sfifo_128x96_1        1       100.0
+                     sfifo_128x96_2        1       100.0
+                     sfifo_128x96_3        1       100.0
+                            
+                         TOTAL          1804           
+----------------------------------------------------------------------
+Report for cell asfifo_256x64_1.netlist
+  Original Cell name asfifo_256x64
+     Instance path:  u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        2         6.1
+                              CCU2C       26         1.0
+                            FD1P3BX        2         0.6
+                            FD1P3DX       52         1.1
+                            FD1S3BX        1         0.7
+                            FD1S3DX       37         2.1
+                                INV        2         1.6
+                                OR2        1        16.7
+                           PDPW16KD        2         8.7
+                           ROM16X1A       22        14.7
+                                VHI        1         0.9
+                                VLO        1         0.9
+                               XOR2       16        15.2
+                            
+                         TOTAL           165           
+----------------------------------------------------------------------
+Report for cell asfifo_256x64_0.netlist
+  Original Cell name asfifo_256x64
+     Instance path:  u2_ddr3_interface.u2_ddr_round_robin.u_ddr2flash
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        2         6.1
+                              CCU2C       26         1.0
+                            FD1P3BX        2         0.6
+                            FD1P3DX       52         1.1
+                            FD1S3BX        1         0.7
+                            FD1S3DX       37         2.1
+                                INV        2         1.6
+                                OR2        1        16.7
+                           PDPW16KD        2         8.7
+                           ROM16X1A       22        14.7
+                                VHI        1         0.9
+                                VLO        1         0.9
+                               XOR2       16        15.2
+                            
+                         TOTAL           165           
+----------------------------------------------------------------------
+Report for cell asfifo_256x64.netlist
+  Original Cell name asfifo_256x64
+     Instance path:  u2_ddr3_interface.u2_ddr_round_robin.u_ddr2para
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        2         6.1
+                              CCU2C       26         1.0
+                            FD1P3BX        2         0.6
+                            FD1P3DX       52         1.1
+                            FD1S3BX        1         0.7
+                            FD1S3DX       37         2.1
+                                INV        2         1.6
+                                OR2        1        16.7
+                           PDPW16KD        2         8.7
+                           ROM16X1A       22        14.7
+                                VHI        1         0.9
+                                VLO        1         0.9
+                               XOR2       16        15.2
+                            
+                         TOTAL           165           
+----------------------------------------------------------------------
+Report for cell asfifo_256x96.netlist
+     Instance path:  u2_ddr3_interface.u2_ddr_round_robin.u_asfifo_256x96
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        2         6.1
+                              CCU2C       26         1.0
+                            FD1P3BX        2         0.6
+                            FD1P3DX       52         1.1
+                            FD1S3BX        1         0.7
+                            FD1S3DX       37         2.1
+                                INV        2         1.6
+                                OR2        1        16.7
+                           PDPW16KD        3        13.0
+                           ROM16X1A       22        14.7
+                                VHI        1         0.9
+                                VLO        1         0.9
+                               XOR2       16        15.2
+                            
+                         TOTAL           166           
+----------------------------------------------------------------------
+Report for cell sfifo_128x96_0.netlist
+  Original Cell name sfifo_128x96
+     Instance path:  u2_ddr3_interface.u2_ddr_round_robin.u3_dist2ddr
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        3         9.1
+                              CCU2C       27         1.1
+                            FD1P3DX       24         0.5
+                            FD1S3BX        1         0.7
+                            FD1S3DX        1         0.1
+                                INV        4         3.3
+                           PDPW16KD        3        13.0
+                           ROM16X1A        2         1.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                               XOR2        1         1.0
+                            
+                         TOTAL            68           
+----------------------------------------------------------------------
+Report for cell sfifo_128x96_1.netlist
+  Original Cell name sfifo_128x96
+     Instance path:  u2_ddr3_interface.u2_ddr_round_robin.u2_flash2ddr
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        3         9.1
+                              CCU2C       27         1.1
+                            FD1P3DX       24         0.5
+                            FD1S3BX        1         0.7
+                            FD1S3DX        1         0.1
+                                INV        4         3.3
+                           PDPW16KD        3        13.0
+                           ROM16X1A        2         1.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                               XOR2        1         1.0
+                            
+                         TOTAL            68           
+----------------------------------------------------------------------
+Report for cell sfifo_128x96_2.netlist
+  Original Cell name sfifo_128x96
+     Instance path:  u2_ddr3_interface.u2_ddr_round_robin.u1_para2ddr
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        3         9.1
+                              CCU2C       27         1.1
+                            FD1P3DX       24         0.5
+                            FD1S3BX        1         0.7
+                            FD1S3DX        1         0.1
+                                INV        4         3.3
+                           PDPW16KD        3        13.0
+                           ROM16X1A        2         1.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                               XOR2        1         1.0
+                            
+                         TOTAL            68           
+----------------------------------------------------------------------
+Report for cell sfifo_128x96_3.netlist
+  Original Cell name sfifo_128x96
+     Instance path:  u2_ddr3_interface.u2_ddr_round_robin.u0_udp2ddr
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        3         9.1
+                              CCU2C       27         1.1
+                            FD1P3DX       24         0.5
+                            FD1S3BX        1         0.7
+                            FD1S3DX        1         0.1
+                                INV        4         3.3
+                           PDPW16KD        3        13.0
+                           ROM16X1A        2         1.3
+                                VHI        1         0.9
+                                VLO        1         0.9
+                               XOR2        1         1.0
+                            
+                         TOTAL            68           
+----------------------------------------------------------------------
+Report for cell ddr3_rw_ctrl_Z1.netlist
+     Instance path:  u2_ddr3_interface.u1_ddr3_rw_ctrl
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX       64        14.7
+                            FD1P3DX       39         0.8
+                            FD1S3BX        1         0.7
+                            FD1S3DX       13         0.7
+                           ORCALUT4       65         0.8
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL           184           
+----------------------------------------------------------------------
+Report for cell ddr3_init_ctrl.netlist
+     Instance path:  u1_ddr3_init_ctrl
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        9         0.4
+                            FD1P3DX        4         0.1
+                            FD1S3DX       18         1.0
+                                INV        3         2.4
+                           ORCALUT4        5         0.1
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL            41           
+----------------------------------------------------------------------
+Report for cell df1_ddr3_ip.netlist
+     Instance path:  u_ddr3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                VHI        2         1.8
+                                VLO        2         1.8
+                        ddr3_ipcore        1       100.0
+               ddr_clks_ddr3_ipcore        1       100.0
+SUB MODULES 
+          ddr3_sdram_mem_top_ddr3_ipcore        1       100.0
+                            
+                         TOTAL             7           
+----------------------------------------------------------------------
+Report for cell ddr3_sdram_mem_top_ddr3_ipcore.netlist
+     Instance path:  u_ddr3.ddr3_ipcore_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                VHI        1         0.9
+                                VLO        1         0.9
+                        ddr3_ipcore        1       100.0
+               ddr_clks_ddr3_ipcore        1       100.0
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell pll.netlist
+     Instance path:  u_pll
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            EHXPLLL        1        50.0
+                                VHI        1         0.9
+                                VLO        1         0.9
+                            
+                         TOTAL             3           

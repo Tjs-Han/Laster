@@ -1,0 +1,412 @@
+(edif iddrx2f
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 4 24 21 0 40)
+      (program "SCUBA" (version "Diamond (64-bit) 3.13.0.56.2"))))
+      (comment "D:\TOOL\LatticeDiamond\diamond\3.13\ispfpga\bin\nt64\scuba.exe -w -n iddrx2f -lang verilog -synth synplify -bus_exp 7 -bb -arch sa5p00 -type iol -mode Receive -io_type LVDS -width 1 -freq_in 300 -gear 4 -aligned -del 65 -fdc D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/iddrx2f/iddrx2f.fdc ")
+  (library ORCLIB
+    (edifLevel 0)
+    (technology
+      (numberDefinition))
+    (cell VLO
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port Z
+            (direction OUTPUT)))))
+    (cell IB
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell DDRDLLA
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port CLK
+            (direction INPUT))
+          (port RST
+            (direction INPUT))
+          (port UDDCNTLN
+            (direction INPUT))
+          (port FREEZE
+            (direction INPUT))
+          (port DDRDEL
+            (direction OUTPUT))
+          (port LOCK
+            (direction OUTPUT))
+          (port DCNTL7
+            (direction OUTPUT))
+          (port DCNTL6
+            (direction OUTPUT))
+          (port DCNTL5
+            (direction OUTPUT))
+          (port DCNTL4
+            (direction OUTPUT))
+          (port DCNTL3
+            (direction OUTPUT))
+          (port DCNTL2
+            (direction OUTPUT))
+          (port DCNTL1
+            (direction OUTPUT))
+          (port DCNTL0
+            (direction OUTPUT)))))
+    (cell DELAYG
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port A
+            (direction INPUT))
+          (port Z
+            (direction OUTPUT)))))
+    (cell DLLDELD
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port A
+            (direction INPUT))
+          (port DDRDEL
+            (direction INPUT))
+          (port LOADN
+            (direction INPUT))
+          (port MOVE
+            (direction INPUT))
+          (port DIRECTION
+            (direction INPUT))
+          (port Z
+            (direction OUTPUT))
+          (port CFLAG
+            (direction OUTPUT)))))
+    (cell IDDRX2F
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT))
+          (port SCLK
+            (direction INPUT))
+          (port ECLK
+            (direction INPUT))
+          (port RST
+            (direction INPUT))
+          (port ALIGNWD
+            (direction INPUT))
+          (port Q3
+            (direction OUTPUT))
+          (port Q2
+            (direction OUTPUT))
+          (port Q1
+            (direction OUTPUT))
+          (port Q0
+            (direction OUTPUT)))))
+    (cell CLKDIVF
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port CLKI
+            (direction INPUT))
+          (port RST
+            (direction INPUT))
+          (port ALIGNWD
+            (direction INPUT))
+          (port CDIVX
+            (direction OUTPUT)))))
+    (cell ECLKSYNCB
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port ECLKI
+            (direction INPUT))
+          (port STOP
+            (direction INPUT))
+          (port ECLKO
+            (direction OUTPUT)))))
+    (cell rxdll_sync
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port rst
+            (direction INPUT))
+          (port sync_clk
+            (direction INPUT))
+          (port update
+            (direction INPUT))
+          (port dll_lock
+            (direction INPUT))
+          (port dll_reset
+            (direction OUTPUT))
+          (port uddcntln
+            (direction OUTPUT))
+          (port freeze
+            (direction OUTPUT))
+          (port stop
+            (direction OUTPUT))
+          (port ddr_reset
+            (direction OUTPUT))
+          (port ready
+            (direction OUTPUT)))
+        (property NGD_DRC_MASK (integer 1))
+        (contents
+          (net ready
+            (joined
+              (portRef ready)))
+          (net ddr_reset
+            (joined
+              (portRef ddr_reset)))
+          (net stop
+            (joined
+              (portRef stop)))
+          (net freeze
+            (joined
+              (portRef freeze)))
+          (net uddcntln
+            (joined
+              (portRef uddcntln)))
+          (net dll_reset
+            (joined
+              (portRef dll_reset)))
+          (net dll_lock
+            (joined
+              (portRef dll_lock)))
+          (net update
+            (joined
+              (portRef update)))
+          (net sync_clk
+            (joined
+              (portRef sync_clk)))
+          (net rst
+            (joined
+              (portRef rst))))))
+    (cell iddrx2f
+      (cellType GENERIC)
+      (view view1
+        (viewType NETLIST)
+        (interface
+          (port alignwd
+            (direction INPUT))
+          (port clkin
+            (direction INPUT))
+          (port (array (rename dcntl "dcntl(7:0)") 8)
+            (direction OUTPUT))
+          (port ready
+            (direction OUTPUT))
+          (port sclk
+            (direction OUTPUT))
+          (port sync_clk
+            (direction INPUT))
+          (port sync_reset
+            (direction INPUT))
+          (port update
+            (direction INPUT))
+          (port (array (rename datain "datain(0:0)") 1)
+            (direction INPUT))
+          (port (array (rename q "q(3:0)") 4)
+            (direction OUTPUT)))
+        (property NGD_DRC_MASK (integer 1))
+        (contents
+          (instance Inst7_IB
+            (viewRef view1 
+              (cellRef IB))
+            (property IO_TYPE
+              (string "LVDS")))
+          (instance Inst6_CLKDIVF
+            (viewRef view1 
+              (cellRef CLKDIVF))
+            (property DIV
+              (string "2.0")))
+          (instance Inst5_ECLKSYNCB
+            (viewRef view1 
+              (cellRef ECLKSYNCB)))
+          (instance Inst_rxdll_sync
+            (viewRef view1 
+              (cellRef rxdll_sync)))
+          (instance scuba_vlo_inst
+            (viewRef view1 
+              (cellRef VLO)))
+          (instance Inst4_DDRDLLA
+            (viewRef view1 
+              (cellRef DDRDLLA))
+            (property FORCE_MAX_DELAY
+              (string "NO")))
+          (instance Inst3_DLLDELD
+            (viewRef view1 
+              (cellRef DLLDELD)))
+          (instance Inst2_IDDRX2F0
+            (viewRef view1 
+              (cellRef IDDRX2F)))
+          (instance udel_dataini0
+            (viewRef view1 
+              (cellRef DELAYG))
+            (property DEL_VALUE
+              (string "65"))
+            (property DEL_MODE
+              (string "USER_DEFINED")))
+          (instance Inst1_IB0
+            (viewRef view1 
+              (cellRef IB))
+            (property IO_TYPE
+              (string "LVDS")))
+          (net stop
+            (joined
+              (portRef stop (instanceRef Inst_rxdll_sync))
+              (portRef STOP (instanceRef Inst5_ECLKSYNCB))))
+          (net dll_lock
+            (joined
+              (portRef LOCK (instanceRef Inst4_DDRDLLA))
+              (portRef dll_lock (instanceRef Inst_rxdll_sync))))
+          (net freeze
+            (joined
+              (portRef FREEZE (instanceRef Inst4_DDRDLLA))
+              (portRef freeze (instanceRef Inst_rxdll_sync))))
+          (net dll_reset
+            (joined
+              (portRef RST (instanceRef Inst4_DDRDLLA))
+              (portRef dll_reset (instanceRef Inst_rxdll_sync))))
+          (net clock_cflag
+            (joined
+              (portRef CFLAG (instanceRef Inst3_DLLDELD))))
+          (net eclki
+            (joined
+              (portRef Z (instanceRef Inst3_DLLDELD))
+              (portRef ECLKI (instanceRef Inst5_ECLKSYNCB))))
+          (net clock_direction
+            (joined
+              (portRef DIRECTION (instanceRef Inst3_DLLDELD))
+              (portRef Z (instanceRef scuba_vlo_inst))))
+          (net clock_move
+            (joined
+              (portRef MOVE (instanceRef Inst3_DLLDELD))
+              (portRef Z (instanceRef scuba_vlo_inst))))
+          (net clock_loadn
+            (joined
+              (portRef LOADN (instanceRef Inst3_DLLDELD))
+              (portRef UDDCNTLN (instanceRef Inst4_DDRDLLA))
+              (portRef uddcntln (instanceRef Inst_rxdll_sync))))
+          (net ddrdel
+            (joined
+              (portRef DDRDEL (instanceRef Inst3_DLLDELD))
+              (portRef DDRDEL (instanceRef Inst4_DDRDLLA))))
+          (net buf_clkin
+            (joined
+              (portRef A (instanceRef Inst3_DLLDELD))
+              (portRef O (instanceRef Inst7_IB))))
+          (net reset
+            (joined
+              (portRef RST (instanceRef Inst2_IDDRX2F0))
+              (portRef RST (instanceRef Inst6_CLKDIVF))
+              (portRef ddr_reset (instanceRef Inst_rxdll_sync))))
+          (net eclko
+            (joined
+              (portRef ECLK (instanceRef Inst2_IDDRX2F0))
+              (portRef CLKI (instanceRef Inst6_CLKDIVF))
+              (portRef ECLKO (instanceRef Inst5_ECLKSYNCB))
+              (portRef CLK (instanceRef Inst4_DDRDLLA))))
+          (net dataini_t0
+            (joined
+              (portRef Z (instanceRef udel_dataini0))
+              (portRef D (instanceRef Inst2_IDDRX2F0))))
+          (net buf_dataini0
+            (joined
+              (portRef O (instanceRef Inst1_IB0))
+              (portRef A (instanceRef udel_dataini0))))
+          (net q3
+            (joined
+              (portRef (member q 0))
+              (portRef Q3 (instanceRef Inst2_IDDRX2F0))))
+          (net q2
+            (joined
+              (portRef (member q 1))
+              (portRef Q2 (instanceRef Inst2_IDDRX2F0))))
+          (net q1
+            (joined
+              (portRef (member q 2))
+              (portRef Q1 (instanceRef Inst2_IDDRX2F0))))
+          (net q0
+            (joined
+              (portRef (member q 3))
+              (portRef Q0 (instanceRef Inst2_IDDRX2F0))))
+          (net datain0
+            (joined
+              (portRef (member datain 0))
+              (portRef I (instanceRef Inst1_IB0))))
+          (net update
+            (joined
+              (portRef update)
+              (portRef update (instanceRef Inst_rxdll_sync))))
+          (net sync_reset
+            (joined
+              (portRef sync_reset)
+              (portRef rst (instanceRef Inst_rxdll_sync))))
+          (net sync_clk
+            (joined
+              (portRef sync_clk)
+              (portRef sync_clk (instanceRef Inst_rxdll_sync))))
+          (net sclk
+            (joined
+              (portRef sclk)
+              (portRef SCLK (instanceRef Inst2_IDDRX2F0))
+              (portRef CDIVX (instanceRef Inst6_CLKDIVF))))
+          (net ready
+            (joined
+              (portRef ready)
+              (portRef ready (instanceRef Inst_rxdll_sync))))
+          (net dcntl7
+            (joined
+              (portRef (member dcntl 0))
+              (portRef DCNTL7 (instanceRef Inst4_DDRDLLA))))
+          (net dcntl6
+            (joined
+              (portRef (member dcntl 1))
+              (portRef DCNTL6 (instanceRef Inst4_DDRDLLA))))
+          (net dcntl5
+            (joined
+              (portRef (member dcntl 2))
+              (portRef DCNTL5 (instanceRef Inst4_DDRDLLA))))
+          (net dcntl4
+            (joined
+              (portRef (member dcntl 3))
+              (portRef DCNTL4 (instanceRef Inst4_DDRDLLA))))
+          (net dcntl3
+            (joined
+              (portRef (member dcntl 4))
+              (portRef DCNTL3 (instanceRef Inst4_DDRDLLA))))
+          (net dcntl2
+            (joined
+              (portRef (member dcntl 5))
+              (portRef DCNTL2 (instanceRef Inst4_DDRDLLA))))
+          (net dcntl1
+            (joined
+              (portRef (member dcntl 6))
+              (portRef DCNTL1 (instanceRef Inst4_DDRDLLA))))
+          (net dcntl0
+            (joined
+              (portRef (member dcntl 7))
+              (portRef DCNTL0 (instanceRef Inst4_DDRDLLA))))
+          (net clkin
+            (joined
+              (portRef clkin)
+              (portRef I (instanceRef Inst7_IB))))
+          (net alignwd
+            (joined
+              (portRef alignwd)
+              (portRef ALIGNWD (instanceRef Inst6_CLKDIVF))
+              (portRef ALIGNWD (instanceRef Inst2_IDDRX2F0))))))))
+  (design iddrx2f
+    (cellRef iddrx2f
+      (libraryRef ORCLIB)))
+)

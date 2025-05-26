@@ -1,0 +1,28 @@
+Selecting top level module eth_pll
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\cae_library\synthesis\verilog\ecp5u.v":757:7:757:9|Synthesizing module VHI in library work.
+Running optimization stage 1 on VHI .......
+Finished optimization stage 1 on VHI (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\cae_library\synthesis\verilog\ecp5u.v":761:7:761:9|Synthesizing module VLO in library work.
+Running optimization stage 1 on VLO .......
+Finished optimization stage 1 on VLO (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\cae_library\synthesis\verilog\ecp5u.v":1696:7:1696:13|Synthesizing module EHXPLLL in library work.
+Running optimization stage 1 on EHXPLLL .......
+Finished optimization stage 1 on EHXPLLL (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+@N: CG364 :"D:\FreeWork\df1_demo\phy_develop\src\ip\df1_lidar_ip\eth_pll\eth_pll.v":8:7:8:13|Synthesizing module eth_pll in library work.
+Running optimization stage 1 on eth_pll .......
+@W: CL168 :"D:\FreeWork\df1_demo\phy_develop\src\ip\df1_lidar_ip\eth_pll\eth_pll.v":20:8:20:21|Removing instance scuba_vhi_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+Finished optimization stage 1 on eth_pll (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+Running optimization stage 2 on eth_pll .......
+Finished optimization stage 2 on eth_pll (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+Running optimization stage 2 on EHXPLLL .......
+Finished optimization stage 2 on EHXPLLL (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+Running optimization stage 2 on VLO .......
+Finished optimization stage 2 on VLO (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+Running optimization stage 2 on VHI .......
+Finished optimization stage 2 on VHI (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: D:\FreeWork\df1_demo\phy_develop\src\ip\df1_lidar_ip\eth_pll\syn_results\synwork\layer0.duruntime
+
+

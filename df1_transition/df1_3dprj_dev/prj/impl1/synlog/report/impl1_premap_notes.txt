@@ -1,0 +1,936 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FX493 |Applying initial value "1" on instance r_phy_ready.
+@N: FX493 |Applying initial value "0" on instance r_bmsr_rdata[2].
+@N: FX493 |Applying initial value "0" on instance wait_power_on_flag.
+@N: FX493 |Applying initial value "0" on instance wait_poer_on_done.
+@N: FX493 |Applying initial value "0" on instance r_link_done.
+@N: FX493 |Applying initial value "0" on instance r_link_status.
+@N: FX493 |Applying initial value "0" on instance r_phy_exec.
+@N: FX493 |Applying initial value "0" on instance eth_phy_en.
+@N: FX493 |Applying initial value "0" on instance wait_power_on_us_valid.
+@N: FX493 |Applying initial value "0" on instance r_phy_wrdata[12].
+@N: FX493 |Applying initial value "0" on instance r_phy_rh_wl.
+@N: FX493 |Applying initial value "000" on instance r_phy_wrdata[2:0].
+@N: FX493 |Applying initial value "00" on instance r_phy_wrdata[6:5].
+@N: FX493 |Applying initial value "000" on instance r_phy_wrdata[10:8].
+@N: FX493 |Applying initial value "00" on instance r_phy_wrdata[15:14].
+@N: FX493 |Applying initial value "0000000" on instance r_phy_wrdata[23:17].
+@N: FX493 |Applying initial value "000" on instance r_phy_wrdata[30:28].
+@N: FX493 |Applying initial value "00000000" on instance r_eth_type[15:8].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_op_data[15:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_recv_desip[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_recv_srcip[31:0].
+@N: FX493 |Applying initial value "000000000000000000000000000000000000000000000000" on instance r_recv_srcmac[47:0].
+@N: FX493 |Applying initial value "000000000000000000000000000000000000000000000000" on instance r_recv_desmac[47:0].
+@N: FX493 |Applying initial value "0" on instance r_error_en.
+@N: FX493 |Applying initial value "0" on instance r_skip_en.
+@N: FX493 |Applying initial value "0" on instance r_icmp_rxdone.
+@N: FX493 |Applying initial value "0" on instance r_rec_en.
+@N: FX493 |Applying initial value "00000000" on instance r_icmp_type[7:0].
+@N: FX493 |Applying initial value "00000000" on instance r_rec_data[7:0].
+@N: FX493 |Applying initial value "00000000" on instance r_eth_type[15:8].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_icmp_id[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_icmp_seq[15:0].
+@N: FX493 |Applying initial value "000000000000000000000000" on instance r_recv_desip[23:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_rec_byte_num[15:0].
+@N: FX493 |Applying initial value "000000000000000000000000000000000000000000000000" on instance r_recv_desmac[47:0].
+@N: FX493 |Applying initial value "00000000" on instance r0_icmp_rxdata[7:0].
+@N: FX493 |Applying initial value "0" on instance r_error_en.
+@N: FX493 |Applying initial value "0" on instance r_skip_en.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_reply_checksum[31:0].
+@N: FX493 |Applying initial value "0" on instance r_udp_recram_wren.
+@N: FX493 |Applying initial value "00000000" on instance r_udp_recram_wrdata[7:0].
+@N: FX493 |Applying initial value "00000000" on instance r_eth_type[15:8].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_recv_desport[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_recv_srcport[15:0].
+@N: FX493 |Applying initial value "000000000000000000000000" on instance r_recv_desip[23:0].
+@N: FX493 |Applying initial value "0" on instance r_udp_rxdone.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_rec_byte_num[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_send_desport[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_send_srcport[15:0].
+@N: FX493 |Applying initial value "000000000000000000000000000000000000000000000000" on instance r_recv_desmac[47:0].
+@N: FX493 |Applying initial value "0" on instance r_error_en.
+@N: FX493 |Applying initial value "0" on instance r_skip_en.
+@N: FX493 |Applying initial value "0" on instance r_udp_txram_wren.
+@N: FX493 |Applying initial value "0000" on instance r_ack_reg[3:0].
+@N: FX493 |Applying initial value "0" on instance r_ddr2para_rden.
+@N: FX493 |Applying initial value "0" on instance r_rddr_flag.
+@N: FX493 |Applying initial value "0" on instance r_parse_done.
+@N: FX493 |Applying initial value "0" on instance r_udp_send_req.
+@N: FX493 |Applying initial value "0" on instance r_parse_start.
+@N: FX493 |Applying initial value "0" on instance r_rddr_usercmd.
+@N: FX493 |Applying initial value "11111111" on instance r_get_cmd_code[7:0].
+@N: FX493 |Applying initial value "0" on instance r_udp_sendram_flag.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_get_para6[15:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_get_para3[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_get_para4[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_get_para5[31:0].
+@N: FX493 |Applying initial value "0" on instance r_ddr2para_fifo_rden.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_get_para2[15:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_get_para1[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_get_para0[31:0].
+@N: FX493 |Applying initial value "0" on instance r_cacheram_wren.
+@N: FX493 |Applying initial value "00000000" on instance r_udp_txram_wrdata[7:0].
+@N: FX493 |Applying initial value "0" on instance r_cal_done.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_divisor[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_quotient[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_start_index1[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_start_index2[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_start_index[15:0].
+@N: FX493 |Applying initial value "0" on instance r_cal_sig.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_divisor[15:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_dividend[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_start_angle_c[31:0].
+@N: FX493 |Applying initial value "00000000" on instance r_set_cmd_code[7:0].
+@N: FX493 |Applying initial value "0" on instance r_ddr2para_rden.
+@N: FX493 |Applying initial value "0" on instance r_ddr2para_fifo_rden.
+@N: FX493 |Applying initial value "000000" on instance r_parsedone_flag[5:0].
+@N: FX493 |Applying initial value "00000" on instance r_loopback_flag[4:0].
+@N: FX493 |Applying initial value "00000" on instance r_caliback_flag[4:0].
+@N: FX493 |Applying initial value "0" on instance r_parainit_done.
+@N: FX493 |Applying initial value "0" on instance r_para2ddr_wren.
+@N: FX493 |Applying initial value "0" on instance r_parameter_sig.
+@N: FX493 |Applying initial value "0" on instance r_rssi_set_flag.
+@N: FX493 |Applying initial value "0" on instance r_rssi_get_flag.
+@N: FX493 |Applying initial value "0" on instance r_coe_set_flag.
+@N: FX493 |Applying initial value "0" on instance r_coe_get_flag.
+@N: FX493 |Applying initial value "0" on instance r_parameter_read.
+@N: FX493 |Applying initial value "0" on instance r_coe_com_flag.
+@N: FX493 |Applying initial value "0" on instance r_coe_write_flag.
+@N: FX493 |Applying initial value "0" on instance r_discal_flag.
+@N: FX493 |Applying initial value "0" on instance r_set_para6[0].
+@N: FX493 |Applying initial value "0" on instance r_para_write_flag.
+@N: FX493 |Applying initial value "0" on instance r_calibrate_flag.
+@N: FX493 |Applying initial value "0" on instance r_loopdata_flag.
+@N: FX493 |Applying initial value "0" on instance r_set_para4[0].
+@N: FX493 |Applying initial value "0" on instance r_set_para4[2].
+@N: FX493 |Applying initial value "0" on instance r_set_para4[4].
+@N: FX493 |Applying initial value "0" on instance r_set_para4[6].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_set_para5[31:0].
+@N: FX493 |Applying initial value "0" on instance r_cmd_ack.
+@N: FX493 |Applying initial value "0" on instance r_login_state_02.
+@N: FX493 |Applying initial value "000" on instance r_set_para3[2:0].
+@N: FX493 |Applying initial value "00" on instance r_set_para3[6:5].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_angle_offset1[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_angle_offset2[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_hvcomp_switch[15:0].
+@N: FX493 |Applying initial value "0" on instance r_login_state_03.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_set_para2[15:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_set_para1[31:0].
+@N: FX493 |Applying initial value "0000000000000000000000000000000000000000000000000000000000000000" on instance r_para2ddr_data[63:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_set_para0[31:0].
+@N: FX493 |Applying initial value "0" on instance o_wr_ack.
+@N: FX493 |Applying initial value "0" on instance o_spi_mosi.
+@N: FX493 |Applying initial value "0" on instance o_spi_dclk.
+@N: FX493 |Applying initial value "00000000" on instance r_data_in[7:0].
+@N: FX493 |Applying initial value "00000000" on instance o_data_out[7:0].
+@N: FX493 |Applying initial value "0" on instance r_wr_req.
+@N: FX493 |Applying initial value "0" on instance o_data_req.
+@N: FX493 |Applying initial value "1" on instance r_cs_ctrl.
+@N: FX493 |Applying initial value "0" on instance o_cmd_ack.
+@N: FX493 |Applying initial value "00000000" on instance r_data_in[7:0].
+@N: FX493 |Applying initial value "0" on instance r_cmd_valid.
+@N: FX493 |Applying initial value "0" on instance o_cmd_ack.
+@N: FX493 |Applying initial value "0" on instance r_erase_flag.
+@N: FX493 |Applying initial value "00" on instance r_flash_cmd[1:0].
+@N: FX493 |Applying initial value "0" on instance r_flash_cmd[3].
+@N: FX493 |Applying initial value "0" on instance r_flash_cmd[6].
+@N: FX493 |Applying initial value "0" on instance r_cmd_ack.
+@N: FX493 |Applying initial value "0" on instance r_cmd_valid.
+@N: FX493 |Applying initial value "00000000" on instance r_data_in[7:0].
+@N: FX493 |Applying initial value "0" on instance r_poweron_initload.
+@N: FX493 |Applying initial value "0" on instance r_freq_switch.
+@N: FX493 |Applying initial value "0" on instance r_motor_pwm.
+@N: FX493 |Applying initial value "0" on instance r_speed_govern_done.
+@N: FX493 |Applying initial value "0" on instance r_delay_flag.
+@N: FX493 |Applying initial value "1" on instance r_opto_switch1.
+@N: FX493 |Applying initial value "1" on instance r_opto_switch2.
+@N: FX493 |Applying initial value "0" on instance r_opto_switch.
+@N: FX493 |Applying initial value "1" on instance r_opto_switch_cal.
+@N: FX493 |Applying initial value "1" on instance r_opto_switch1.
+@N: FX493 |Applying initial value "1" on instance r_opto_switch2.
+@N: FX493 |Applying initial value "0" on instance r_zerosig_fault.
+@N: FX493 |Applying initial value "0" on instance r_toothsig_fault.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_mult1_dataB[15:0].
+@N: FX493 |Applying initial value "000000000000000000000000" on instance r_mult1_dataA[23:0].
+@N: FX493 |Applying initial value "0" on instance r_zero_sign_r.
+@N: FX493 |Applying initial value "000000000000000000000000" on instance r_cyc_result[23:0].
+@N: FX493 |Applying initial value "0" on instance r_angle_sync.
+@N: FX493 |Applying initial value "0" on instance r_opto_rise.
+@N: FX493 |Applying initial value "0" on instance r_zero_sign.
+@N: FX493 |Applying initial value "0" on instance r_gpx2_init.
+@N: FX493 |Applying initial value "000000000000" on instance r_mult1_dataA[11:0].
+@N: FX493 |Applying initial value "0000" on instance r_mult1_dataB[3:0].
+@N: FX493 |Applying initial value "0" on instance r_code_wren.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_code_wrdata[31:0].
+@N: FX493 |Applying initial value "1" on instance r_opto_switch_cal.
+@N: FX493 |Applying initial value "1" on instance r_opto_switch1.
+@N: FX493 |Applying initial value "1" on instance r_opto_switch2.
+@N: FX493 |Applying initial value "0" on instance r_zerosig_fault.
+@N: FX493 |Applying initial value "0" on instance r_toothsig_fault.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_mult1_dataB[15:0].
+@N: FX493 |Applying initial value "000000000000000000000000" on instance r_mult1_dataA[23:0].
+@N: FX493 |Applying initial value "0" on instance r_zero_sign_r.
+@N: FX493 |Applying initial value "000000000000000000000000" on instance r_cyc_result[23:0].
+@N: FX493 |Applying initial value "0" on instance r_angle_sync.
+@N: FX493 |Applying initial value "0" on instance r_opto_rise.
+@N: FX493 |Applying initial value "0" on instance r_zero_sign.
+@N: FX493 |Applying initial value "0" on instance r_gpx2_init.
+@N: FX493 |Applying initial value "0" on instance r_laser_str.
+@N: FX493 |Applying initial value "1" on instance r_disable_tdc.
+@N: FX493 |Applying initial value "0" on instance r_spicom_ready.
+@N: FX493 |Applying initial value "1" on instance r_spi_ssn.
+@N: FX493 |Applying initial value "0" on instance r_spicom_req.
+@N: FX493 |Applying initial value "00000000" on instance r_spi_wdata[7:0].
+@N: FX493 |Applying initial value "00000000" on instance r_spi_rdbyte[7:0].
+@N: FX493 |Applying initial value "1" on instance r_spicom_ready.
+@N: FX493 |Applying initial value "0" on instance r_spi_mosi.
+@N: FX493 |Applying initial value "0" on instance r_spi_dclk.
+@N: FX493 |Applying initial value "0" on instance r_spi_rdvalid.
+@N: FX493 |Applying initial value "00000000" on instance r_spi_wdata[7:0].
+@N: FX493 |Applying initial value "0" on instance r_tdc_newsig.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_code_angle1[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_code_angle2[15:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_fall_data[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_rise_data[31:0].
+@N: FX493 |Applying initial value "000" on instance r1_lvds_frame[2:0].
+@N: FX493 |Applying initial value "000" on instance r1_lvds_sdo[2:0].
+@N: FX493 |Applying initial value "0" on instance r_gpx2_signal.
+@N: FX493 |Applying initial value "0" on instance r_tdcsync_ready.
+@N: FX493 |Applying initial value "000" on instance r2_lvds_frame[2:0].
+@N: FX493 |Applying initial value "000" on instance r2_lvds_sdo[2:0].
+@N: FX493 |Applying initial value "0" on instance r_tdc_sig.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_result_stop1[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_result_stop2[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_result_stop3[31:0].
+@N: FX493 |Applying initial value "0" on instance r_tdcmodule_en.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_tdc_falldata[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_tdc_risedata[31:0].
+@N: FX493 |Applying initial value "00000" on instance r_result_cnt1[4:0].
+@N: FX493 |Applying initial value "00000" on instance r_result_cnt2[4:0].
+@N: FX493 |Applying initial value "00000" on instance r_result_cnt3[4:0].
+@N: FX493 |Applying initial value "0" on instance r_cal_flag.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_data_stop2[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_start_data[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_data_stop1[31:0].
+@N: FX493 |Applying initial value "0" on instance r_adc_en.
+@N: FX493 |Applying initial value "0000000000" on instance r_adc1_value[9:0].
+@N: FX493 |Applying initial value "0000000000" on instance r_adc2_value[9:0].
+@N: FX493 |Applying initial value "0" on instance r_adc_cs_cs.
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[8].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataB[10].
+@N: FX493 |Applying initial value "0" on instance r_cal_sig.
+@N: FX493 |Applying initial value "0" on instance r_temp_done.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_dividend[31:0].
+@N: FX493 |Applying initial value "000000000000" on instance r_adc_value[11:0].
+@N: FX493 |Applying initial value "0" on instance r_mult_en.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_temp_value_coe[31:0].
+@N: FX493 |Applying initial value "0" on instance r_para_done.
+@N: FX493 |Applying initial value "0" on instance r_diff_value.
+@N: FX493 |Applying initial value "0" on instance r_dac_start.
+@N: FX493 |Applying initial value "0" on instance r_para_start.
+@N: FX493 |Applying initial value "0" on instance r_adc_start.
+@N: FX493 |Applying initial value "0000000000" on instance r_adc_value[9:0].
+@N: FX493 |Applying initial value "0000000000" on instance r_dac_value[11:2].
+@N: FX493 |Applying initial value "0" on instance r_dicp_polar_pre1.
+@N: FX493 |Applying initial value "0" on instance r_dist_diff_polar.
+@N: FX493 |Applying initial value "000000000000000" on instance r_dist_diff_dist[14:0].
+@N: FX493 |Applying initial value "0" on instance r_diff_value.
+@N: FX493 |Applying initial value "000000000000000" on instance r_dicp_rdvalue1[14:0].
+@N: FX493 |Applying initial value "0" on instance r_dicp_polar.
+@N: FX493 |Applying initial value "0" on instance r_dicp_polar_pre.
+@N: FX493 |Applying initial value "0" on instance r_pulse_sig.
+@N: FX493 |Applying initial value "00000000000000" on instance r_adcval_fact[15:2].
+@N: FX493 |Applying initial value "0" on instance r_dac_start.
+@N: FX493 |Applying initial value "0" on instance r_init_flag.
+@N: FX493 |Applying initial value "0" on instance r_hv_monit.
+@N: FX493 |Applying initial value "0" on instance r_temp_monit.
+@N: FX493 |Applying initial value "0" on instance r_sample_flag.
+@N: FX493 |Applying initial value "0" on instance r_temp_valid.
+@N: FX493 |Applying initial value "0000000000" on instance r_adc_hv_value[9:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_adc_temp_value[15:0].
+@N: FX493 |Applying initial value "0" on instance r_tdc_newsig.
+@N: FX493 |Applying initial value "0" on instance r_dist_precal_sig.
+@N: FX493 |Applying initial value "0000000000000000" on instance r_dist_precal_angle1[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_dist_precal_angle2[15:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_rise_data[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_pulse_data[31:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_index_angle1[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_index_angle2[15:0].
+@N: FX493 |Applying initial value "0" on instance r_index_flag[3].
+@N: FX493 |Applying initial value "00" on instance r_index_flag[1:0].
+@N: FX493 |Applying initial value "0" on instance r_dist_flag.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_dist_data[31:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_discal_angle1[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_discal_angle2[15:0].
+@N: FX493 |Applying initial value "00" on instance r_index_flag[1:0].
+@N: FX493 |Applying initial value "0" on instance r_sign_coe_hh.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_dist_coe_hh[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_mult2_dataA[31:0].
+@N: FX493 |Applying initial value "0" on instance r_distcal_flag.
+@N: FX493 |Applying initial value "0" on instance r_sign_coe_hl.
+@N: FX493 |Applying initial value "0" on instance r_sign_coe_lh.
+@N: FX493 |Applying initial value "0" on instance r_sign_coe_ll.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_dist_coe_hl[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_dist_coe_lh[31:0].
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_dist_coe_ll[31:0].
+@N: FX493 |Applying initial value "0" on instance r_incr_polar.
+@N: FX493 |Applying initial value "0" on instance r_ddr_rden.
+@N: FX493 |Applying initial value "0" on instance r_sign_data_h.
+@N: FX493 |Applying initial value "0" on instance r_sign_data_l.
+@N: FX493 |Applying initial value "0" on instance r_fifo_rden.
+@N: FX493 |Applying initial value "00000000000000000000000000000000" on instance r_mult1_dataA[31:0].
+@N: FX493 |Applying initial value "0" on instance r_mult2_en.
+@N: FX493 |Applying initial value "00000000000000000000000000" on instance r_rdddr_addr_base[26:1].
+@N: FX493 |Applying initial value "0" on instance r_mult1_en.
+@N: FX493 |Applying initial value "0000000000000000" on instance tempa[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance tempb[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance temp_b[31:16].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_rssical_angle1[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_rssical_angle2[15:0].
+@N: FX493 |Applying initial value "0" on instance r_rssical_newsig.
+@N: FX493 |Applying initial value "0" on instance r_rssi_ddr_en.
+@N: FX493 |Applying initial value "0" on instance r_divide_en.
+@N: FX493 |Applying initial value "00" on instance r_rssi_tail[1:0].
+@N: FX493 |Applying initial value "0" on instance r_mult1_en.
+@N: FX493 |Applying initial value "0" on instance r_mult2_en.
+@N: FX493 |Applying initial value "0" on instance r_ddr_rden.
+@N: FX493 |Applying initial value "0" on instance r_fifo_rden.
+@N: FX493 |Applying initial value "0000000000" on instance r_dist_value[15:6].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_pulse_para1[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_pulse_para2[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_rssi_para1[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_rssi_para2[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_mult1_dataA[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_mult2_dataA[15:0].
+@N: FX493 |Applying initial value "00000000" on instance r_rssi_tail[11:4].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_divisor[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_rssi_data[15:0].
+@N: FX493 |Applying initial value "0" on instance r_calib_wren.
+@N: FX493 |Applying initial value "00000000" on instance r_calib_wrdata[7:0].
+@N: FX493 |Applying initial value "0" on instance r_calib_cycle_done.
+@N: FX493 |Applying initial value "0" on instance r_calib_pingpang.
+@N: FX493 |Applying initial value "0" on instance r_calib_make.
+@N: FX493 |Applying initial value "0000000000000000000000000000000000000000000000000000000000000000" on instance r_packet_data[63:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_calib_points[15:0].
+@N: FX493 |Applying initial value "0" on instance r_loop_wren.
+@N: FX493 |Applying initial value "00000000" on instance r_loop_wrdata[7:0].
+@N: FX493 |Applying initial value "0" on instance r_loop_cycle_done.
+@N: FX493 |Applying initial value "0" on instance r_loop_pingpang.
+@N: FX493 |Applying initial value "0" on instance r_loop_make.
+@N: FX493 |Applying initial value "0000000000000000000000000000000000000000000000000000000000000000" on instance r_packet_data[63:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance r_loop_points[15:0].
+@N: FX493 |Applying initial value "0" on instance r_dist_rstn.
+@N: FX493 |Applying initial value "0" on instance r_rst_n.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_1 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_1 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_2 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_2 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_3 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_3 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_4 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_4 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_5 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_5 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_6 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_6 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_7 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_7 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_8 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_8 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_9 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_9 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":39:32:39:45|Tristate driver o_ddr2udp_data_10 (in view: work.ddr_round_robin_Z2(verilog)) on net o_ddr2udp_data_10 (in view: work.ddr_round_robin_Z2(verilog)) has its enable tied to GND.
+@N: BN115 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_ctrl.v":172:13:172:24|Removing instance urx_crc32_d8 (in view: work.arp_ctrl_3232235786_3232235878_Z5(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[0] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[1] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[2] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[3] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[4] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[5] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[6] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[7] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[8] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[9] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[10] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[11] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[12] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[13] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[14] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_srcport[15] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[0] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[1] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[2] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[3] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[4] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[5] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[6] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[7] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[8] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[9] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[10] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[11] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[12] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[13] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[14] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_send_desport[15] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[8] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[9] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[10] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[11] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[12] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[13] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[14] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[15] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[16] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[17] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[18] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[19] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[20] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[21] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[22] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[23] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[24] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[25] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[26] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[27] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[28] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[29] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[30] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para5[31] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":843:1:843:6|Removing sequential instance r_set_para6[0] (in view: work.udpcom_parameter_init_Z14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para6[0] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":183:12:183:16|Removing sequential instance FF_47 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":187:12:187:16|Removing sequential instance FF_46 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":191:12:191:16|Removing sequential instance FF_45 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":195:12:195:16|Removing sequential instance FF_44 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":199:12:199:16|Removing sequential instance FF_43 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":203:12:203:16|Removing sequential instance FF_42 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":207:12:207:16|Removing sequential instance FF_41 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":211:12:211:16|Removing sequential instance FF_40 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":215:12:215:16|Removing sequential instance FF_39 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":219:12:219:16|Removing sequential instance FF_38 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":223:12:223:16|Removing sequential instance FF_37 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":227:12:227:16|Removing sequential instance FF_36 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":231:12:231:16|Removing sequential instance FF_35 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":235:12:235:16|Removing sequential instance FF_34 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":239:12:239:16|Removing sequential instance FF_33 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":243:12:243:16|Removing sequential instance FF_32 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":183:12:183:16|Removing sequential instance FF_47 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":187:12:187:16|Removing sequential instance FF_46 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":191:12:191:16|Removing sequential instance FF_45 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":195:12:195:16|Removing sequential instance FF_44 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":199:12:199:16|Removing sequential instance FF_43 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":203:12:203:16|Removing sequential instance FF_42 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":207:12:207:16|Removing sequential instance FF_41 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":211:12:211:16|Removing sequential instance FF_40 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":215:12:215:16|Removing sequential instance FF_39 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":219:12:219:16|Removing sequential instance FF_38 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":223:12:223:16|Removing sequential instance FF_37 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":227:12:227:16|Removing sequential instance FF_36 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":231:12:231:16|Removing sequential instance FF_35 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":235:12:235:16|Removing sequential instance FF_34 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":239:12:239:16|Removing sequential instance FF_33 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":243:12:243:16|Removing sequential instance FF_32 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_spi_master.v":124:1:124:6|Removing sequential instance r_spi_rdbyte[7] (in view: work.gpx2_spi_master_Z22(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\temp_adc_filter.v":90:1:90:6|Removing sequential instance r_adcval_fact[12] (in view: work.temp_adc_filter(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\temp_adc_filter.v":90:1:90:6|Removing sequential instance r_adcval_fact[13] (in view: work.temp_adc_filter(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\temp_adc_filter.v":90:1:90:6|Removing sequential instance r_adcval_fact[14] (in view: work.temp_adc_filter(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\temp_adc_filter.v":90:1:90:6|Removing sequential instance r_adcval_fact[15] (in view: work.temp_adc_filter(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance yyushu[15:0] (in view: work.div_rill(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\hv_control.v":200:1:200:6|Removing sequential instance r_hv_monit (in view: work.HV_control(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\hv_control.v":190:1:190:6|Removing sequential instance r_temp_monit (in view: work.HV_control(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_rx.v":174:4:174:9|Removing sequential instance r_crc32_rxen (in view: work.arp_rx_3232235786_3232235777_0_1_2_4_8_2054_Z3(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_rx.v":174:4:174:9|Removing sequential instance r_crc32_rxdata[7:0] (in view: work.arp_rx_3232235786_3232235777_0_1_2_4_8_2054_Z3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_rx.v":174:4:174:9|Removing sequential instance r_rxcrc32_clr (in view: work.arp_rx_3232235786_3232235777_0_1_2_4_8_2054_Z3(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":260:4:260:9|Removing sequential instance r_tx_req (in view: work.udp_tx_Z10(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_tx.v":348:4:348:9|Removing sequential instance r_arp_tx_sop (in view: work.arp_tx_Z4(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":311:12:311:16|Removing sequential instance FF_15 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":315:12:315:16|Removing sequential instance FF_14 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":319:12:319:16|Removing sequential instance FF_13 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":323:12:323:16|Removing sequential instance FF_12 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":327:12:327:16|Removing sequential instance FF_11 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":331:12:331:16|Removing sequential instance FF_10 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":335:12:335:15|Removing sequential instance FF_9 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":339:12:339:15|Removing sequential instance FF_8 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":343:12:343:15|Removing sequential instance FF_7 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":347:12:347:15|Removing sequential instance FF_6 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":351:12:351:15|Removing sequential instance FF_5 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":355:12:355:15|Removing sequential instance FF_4 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":359:12:359:15|Removing sequential instance FF_3 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":363:12:363:15|Removing sequential instance FF_2 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":367:12:367:15|Removing sequential instance FF_1 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":371:12:371:15|Removing sequential instance FF_0 (in view: work.multiplier_0(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":311:12:311:16|Removing sequential instance FF_15 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":315:12:315:16|Removing sequential instance FF_14 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":319:12:319:16|Removing sequential instance FF_13 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":323:12:323:16|Removing sequential instance FF_12 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":327:12:327:16|Removing sequential instance FF_11 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":331:12:331:16|Removing sequential instance FF_10 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":335:12:335:15|Removing sequential instance FF_9 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":339:12:339:15|Removing sequential instance FF_8 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":343:12:343:15|Removing sequential instance FF_7 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":347:12:347:15|Removing sequential instance FF_6 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":351:12:351:15|Removing sequential instance FF_5 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":355:12:355:15|Removing sequential instance FF_4 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":359:12:359:15|Removing sequential instance FF_3 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":363:12:363:15|Removing sequential instance FF_2 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":367:12:367:15|Removing sequential instance FF_1 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":371:12:371:15|Removing sequential instance FF_0 (in view: work.multiplier_1(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\sync_control.v":126:4:126:9|Removing sequential instance r_gpx2_init (in view: work.sync_control_Z21(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_spi_master.v":124:1:124:6|Removing sequential instance r_spi_rdbyte[6] (in view: work.gpx2_spi_master_Z22(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_data[0] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_data[1] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_data[2] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_data[3] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_data[4] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_data[5] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_data[6] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_data[7] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_data[8] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_data[9] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_data[10] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_data[11] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_data[12] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_data[13] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_data[14] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_data[15] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":337:1:337:6|Removing sequential instance r_rssi_tail[0] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":337:1:337:6|Removing sequential instance r_rssi_tail[1] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":337:1:337:6|Removing sequential instance r_rssi_tail[4] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":337:1:337:6|Removing sequential instance r_rssi_tail[5] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":337:1:337:6|Removing sequential instance r_rssi_tail[6] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":337:1:337:6|Removing sequential instance r_rssi_tail[7] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":337:1:337:6|Removing sequential instance r_rssi_tail[8] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":337:1:337:6|Removing sequential instance r_rssi_tail[9] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":337:1:337:6|Removing sequential instance r_rssi_tail[10] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":337:1:337:6|Removing sequential instance r_rssi_tail[11] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle2[0] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle2[1] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle2[2] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle2[3] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle2[4] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle2[5] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle2[6] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle2[7] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle2[8] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle2[9] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle2[10] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle2[11] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle2[12] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle2[13] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle2[14] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle2[15] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_newsig (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":225:1:225:6|Removing sequential instance r_loop_points[0] (in view: work.loop_packet_Z26(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":225:1:225:6|Removing sequential instance r_loop_points[1] (in view: work.loop_packet_Z26(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":225:1:225:6|Removing sequential instance r_loop_points[2] (in view: work.loop_packet_Z26(verilog)) of type view:PrimLib.dffrse(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":225:1:225:6|Removing sequential instance r_loop_points[3] (in view: work.loop_packet_Z26(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":225:1:225:6|Removing sequential instance r_loop_points[4] (in view: work.loop_packet_Z26(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":225:1:225:6|Removing sequential instance r_loop_points[5] (in view: work.loop_packet_Z26(verilog)) of type view:PrimLib.dffrse(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":225:1:225:6|Removing sequential instance r_loop_points[6] (in view: work.loop_packet_Z26(verilog)) of type view:PrimLib.dffrse(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":225:1:225:6|Removing sequential instance r_loop_points[7] (in view: work.loop_packet_Z26(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":225:1:225:6|Removing sequential instance r_loop_points[8] (in view: work.loop_packet_Z26(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":225:1:225:6|Removing sequential instance r_loop_points[9] (in view: work.loop_packet_Z26(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":225:1:225:6|Removing sequential instance r_loop_points[10] (in view: work.loop_packet_Z26(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":225:1:225:6|Removing sequential instance r_loop_points[11] (in view: work.loop_packet_Z26(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":225:1:225:6|Removing sequential instance r_loop_points[12] (in view: work.loop_packet_Z26(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":225:1:225:6|Removing sequential instance r_loop_points[13] (in view: work.loop_packet_Z26(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":225:1:225:6|Removing sequential instance r_loop_points[14] (in view: work.loop_packet_Z26(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":225:1:225:6|Removing sequential instance r_loop_points[15] (in view: work.loop_packet_Z26(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\calib_packet.v":216:1:216:6|Removing sequential instance r_calib_points[13] (in view: work.calib_packet_Z25(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\calib_packet.v":216:1:216:6|Removing sequential instance r_calib_points[14] (in view: work.calib_packet_Z25(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\calib_packet.v":216:1:216:6|Removing sequential instance r_calib_points[15] (in view: work.calib_packet_Z25(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":470:1:470:6|Removing sequential instance r_actual_speed[31:0] (in view: work.motor_drive_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":470:1:470:6|Removing sequential instance r_actual_speed[31:0] (in view: work.motor_drive_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":101:1:101:6|Removing sequential instance r_index_num[15:0] (in view: work.angle2index(verilog)) of type view:PrimLib.dffpatre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_master.v":45:1:45:6|Removing sequential instance o_spi_dclk (in view: work.spi_master(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_spi_master.v":124:1:124:6|Removing sequential instance r_spi_rdbyte[5] (in view: work.gpx2_spi_master_Z22(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle1[0] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle1[1] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle1[2] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle1[3] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle1[4] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle1[5] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle1[6] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle1[7] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle1[8] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle1[9] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle1[10] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle1[11] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle1[12] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle1[13] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle1[14] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssical_angle1[15] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":322:4:322:9|Removing sequential instance r_toothsig_fault (in view: work.encoder_calculate_Z17(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":312:4:312:9|Removing sequential instance r_zerosig_fault (in view: work.encoder_calculate_Z17(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\sync_control.v":126:4:126:9|Removing sequential instance r_gpx2_init (in view: work.sync_control_Z18(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":322:4:322:9|Removing sequential instance r_toothsig_fault (in view: work.encoder_calculate_Z20(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":312:4:312:9|Removing sequential instance r_zerosig_fault (in view: work.encoder_calculate_Z20(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_spi_master.v":124:1:124:6|Removing sequential instance r_spi_rdbyte[4] (in view: work.gpx2_spi_master_Z22(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\sync_control.v":116:1:116:6|Removing sequential instance r_gpx2_init_cnt[15:0] (in view: work.sync_control_Z21(verilog)) of type view:PrimLib.dffpatr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_spi_master.v":124:1:124:6|Removing sequential instance r_spi_rdbyte[3] (in view: work.gpx2_spi_master_Z22(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle2[0] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle2[1] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle2[2] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle2[3] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle2[4] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle2[5] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle2[6] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle2[7] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle2[8] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle2[9] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle2[10] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle2[11] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle2[12] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle2[13] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle2[14] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle2[15] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_spi_master.v":124:1:124:6|Removing sequential instance r_spi_rdbyte[2] (in view: work.gpx2_spi_master_Z22(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle1[0] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle1[1] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle1[2] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle1[3] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle1[4] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle1[5] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle1[6] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle1[7] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle1[8] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle1[9] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle1[10] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle1[11] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle1[12] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle1[13] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle1[14] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Removing sequential instance r_discal_angle1[15] (in view: work.dist_cal_Z23(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\sync_control.v":116:1:116:6|Removing sequential instance r_gpx2_init_cnt[15:0] (in view: work.sync_control_Z18(verilog)) of type view:PrimLib.dffpatr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":76:1:76:6|Removing sequential instance r_index_max[15:0] (in view: work.angle2index(verilog)) of type view:PrimLib.dffpatr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_spi_master.v":124:1:124:6|Removing sequential instance r_spi_rdbyte[1] (in view: work.gpx2_spi_master_Z22(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_spi_master.v":124:1:124:6|Removing sequential instance r_spi_rdbyte[0] (in view: work.gpx2_spi_master_Z22(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle2[0] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle2[1] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle2[2] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle2[3] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle2[4] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle2[5] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle2[6] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle2[7] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle2[8] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle2[9] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle2[10] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle2[11] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle2[12] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle2[13] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle2[14] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle2[15] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle1[0] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle1[1] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle1[2] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle1[3] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle1[4] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle1[5] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle1[6] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle1[7] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle1[8] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle1[9] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle1[10] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle1[11] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle1[12] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle1[13] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle1[14] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Removing sequential instance r_index_angle1[15] (in view: work.index_cal(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance yshang[15:0] (in view: work.div_rill(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle2[0] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle2[1] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle2[2] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle2[3] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle2[4] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle2[5] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle2[6] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle2[7] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle2[8] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle2[9] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle2[10] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle2[11] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle2[12] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle2[13] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle2[14] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle2[15] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle1[0] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle1[1] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle1[2] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle1[3] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle1[4] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle1[5] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle1[6] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle1[7] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle1[8] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle1[9] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle1[10] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle1[11] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle1[12] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle1[13] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle1[14] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance r_dist_precal_angle1[15] (in view: work.data_pre(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Removing sequential instance r_code_angle2[0] (in view: work.data_fill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Removing sequential instance r_code_angle2[1] (in view: work.data_fill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Removing sequential instance r_code_angle2[2] (in view: work.data_fill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Removing sequential instance r_code_angle2[3] (in view: work.data_fill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Removing sequential instance r_code_angle2[4] (in view: work.data_fill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Removing sequential instance r_code_angle2[5] (in view: work.data_fill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Removing sequential instance r_code_angle2[6] (in view: work.data_fill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Removing sequential instance r_code_angle2[7] (in view: work.data_fill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Removing sequential instance r_code_angle2[8] (in view: work.data_fill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Removing sequential instance r_code_angle2[9] (in view: work.data_fill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Removing sequential instance r_code_angle2[10] (in view: work.data_fill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Removing sequential instance r_code_angle2[11] (in view: work.data_fill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Removing sequential instance r_code_angle2[12] (in view: work.data_fill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Removing sequential instance r_code_angle2[13] (in view: work.data_fill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Removing sequential instance r_code_angle2[14] (in view: work.data_fill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Removing sequential instance r_code_angle2[15] (in view: work.data_fill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance temp_b[31] (in view: work.div_rill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance temp_b[30] (in view: work.div_rill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance temp_b[29] (in view: work.div_rill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance temp_b[28] (in view: work.div_rill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance temp_b[27] (in view: work.div_rill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance temp_b[26] (in view: work.div_rill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance temp_b[25] (in view: work.div_rill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance temp_b[24] (in view: work.div_rill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance temp_b[23] (in view: work.div_rill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance temp_b[22] (in view: work.div_rill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance temp_b[21] (in view: work.div_rill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance temp_b[20] (in view: work.div_rill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance temp_b[19] (in view: work.div_rill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance temp_b[18] (in view: work.div_rill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance temp_b[17] (in view: work.div_rill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance temp_b[16] (in view: work.div_rill(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempb[15] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempb[14] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempb[13] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempb[12] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempb[11] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempb[10] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempb[9] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempb[8] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempb[7] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempb[6] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempb[5] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempb[4] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempb[3] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempb[2] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempb[1] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempb[0] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempa[15] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempa[14] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempa[13] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempa[12] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempa[11] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempa[10] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempa[9] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempa[8] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempa[7] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempa[6] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempa[5] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempa[4] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempa[3] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempa[2] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempa[1] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance tempa[0] (in view: work.div_rill(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Removing sequential instance temp_a[31:0] (in view: work.div_rill(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\adc_to_dist_2.v":36:1:36:6|Removing sequential instance r_dicp_ram_rdaddr[6:0] (in view: work.adc_to_dist_2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\dac_table.v":42:1:42:6|Removing sequential instance r_hvcp_ram_rdaddr[6:0] (in view: work.dac_table(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN115 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_control.v":186:12:186:13|Removing instance u7 (in view: work.encoder_control_1000000000s_10s_30000_10s_100(verilog)) because it does not drive other instances.
+@N: BN115 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_control.v":144:15:144:27|Removing instance u4_code_angle (in view: work.encoder_control_1000000000s_10s_30000_10s_100(verilog)) because it does not drive other instances.
+@N: BN115 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_control.v":127:4:127:18|Removing instance u3_sync_control (in view: work.encoder_control_1000000000s_10s_30000_10s_100(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\code_angle.v":58:4:58:9|Removing sequential instance r_code_angle[15:0] (in view: work.code_angle_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\code_angle.v":45:4:45:9|Removing sequential instance r_angle_zero[15:0] (in view: work.code_angle_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":300:4:300:9|Removing sequential instance r_toothtime_cnt[31:0] (in view: work.encoder_calculate_Z20(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":288:4:288:9|Removing sequential instance r_cycletime_cnt[31:0] (in view: work.encoder_calculate_Z20(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":276:4:276:9|Removing sequential instance r_toothtime_num[31:0] (in view: work.encoder_calculate_Z20(verilog)) of type view:PrimLib.dffpatr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":264:4:264:9|Removing sequential instance r_cycletime_num[31:0] (in view: work.encoder_calculate_Z20(verilog)) of type view:PrimLib.dffpatr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":300:4:300:9|Removing sequential instance r_toothtime_cnt[31:0] (in view: work.encoder_calculate_Z17(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":288:4:288:9|Removing sequential instance r_cycletime_cnt[31:0] (in view: work.encoder_calculate_Z17(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":276:4:276:9|Removing sequential instance r_toothtime_num[31:0] (in view: work.encoder_calculate_Z17(verilog)) of type view:PrimLib.dffpatr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":264:4:264:9|Removing sequential instance r_cycletime_num[31:0] (in view: work.encoder_calculate_Z17(verilog)) of type view:PrimLib.dffpatr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":460:1:460:6|Removing sequential instance r_clk_cnt[31:0] (in view: work.motor_drive_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":450:1:450:6|Removing sequential instance r_motor_fg_cnt[3:0] (in view: work.motor_drive_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":460:1:460:6|Removing sequential instance r_clk_cnt[31:0] (in view: work.motor_drive_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":450:1:450:6|Removing sequential instance r_motor_fg_cnt[3:0] (in view: work.motor_drive_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":101:1:101:6|Removing sequential instance r_index_num_pre[15:0] (in view: work.angle2index(verilog)) of type view:PrimLib.dffpatr(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[31] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[30] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[29] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[28] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[27] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[26] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[25] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[24] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[23] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[22] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[21] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[20] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[19] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[18] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[17] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[16] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[15] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[14] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[13] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[12] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[11] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[10] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[9] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[8] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[7] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[6] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[5] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[4] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[3] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[2] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[1] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para4[0] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[31] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[30] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[29] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[28] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[27] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[26] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[25] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[24] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[23] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[22] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[21] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[20] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[19] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[18] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[17] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[16] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[15] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[14] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[13] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[12] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[11] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[10] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[9] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[8] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[7] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[6] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[5] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[4] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[3] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[2] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[1] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para3[0] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para6[15] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para6[14] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para6[13] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para6[12] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para6[11] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para6[10] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para6[9] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para6[8] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para6[7] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para6[6] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para6[5] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para6[4] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para6[3] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para6[2] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":440:1:440:6|Removing sequential instance r_get_para6[1] (in view: work.udpcom_datagram_parser_Z13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_srcport[15] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_srcport[14] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_srcport[13] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_srcport[12] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_srcport[11] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_srcport[10] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_srcport[9] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_srcport[8] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_srcport[7] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_srcport[6] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_srcport[5] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_srcport[4] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_srcport[3] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_srcport[2] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_srcport[1] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_srcport[0] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_desport[15] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_desport[14] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_desport[13] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_desport[12] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_desport[11] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_desport[10] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_desport[9] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_desport[8] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_desport[7] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_desport[6] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_desport[5] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_desport[4] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_desport[3] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_desport[2] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_desport[1] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Removing sequential instance r_recv_desport[0] (in view: work.udp_rx_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":184:4:184:9|Removing sequential instance r_cyc_result[23:0] (in view: work.encoder_calculate_Z20(verilog)) of type view:PrimLib.dffpatre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_dividend[15:0] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_divisor[0] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_divisor[1] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_divisor[2] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_divisor[3] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_divisor[4] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_divisor[5] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_divisor[6] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_divisor[7] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_divisor[8] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_divisor[9] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_divisor[10] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_divisor[11] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_divisor[12] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_divisor[13] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_divisor[14] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_divisor[15] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para[15:0] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":364:20:364:40|Removing instance u1_multiplier_in32bit (in view: work.rssi_cal_Z24(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_mult1_dataB[15:0] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para2[15] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para2[14] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para2[13] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para2[12] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para2[11] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para2[10] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para2[9] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para2[8] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para2[7] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para2[6] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para2[5] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para2[4] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para2[3] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para2[2] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para2[1] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para2[0] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para1[15] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para1[14] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para1[13] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para1[12] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para1[11] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para1[10] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para1[9] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para1[8] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para1[7] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para1[6] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para1[5] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para1[4] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para1[3] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para1[2] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para1[1] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_rssi_para1[0] (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Removing sequential instance r_mult1_en (in view: work.rssi_cal_Z24(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: FX493 |Applying initial value "1" on instance r_curr_state[0].
+@N: FX493 |Applying initial value "0" on instance r_curr_state[1].
+@N: FX493 |Applying initial value "0" on instance r_curr_state[2].
+@N: FX493 |Applying initial value "0" on instance r_curr_state[3].
+@N: FX493 |Applying initial value "0" on instance r_curr_state[4].
+@N: MO225 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_flash_top.v":110:1:110:6|There are no possible illegal states for state machine r_state[3:0] (in view: work.spi_flash_top(verilog)); safe FSM implementation is not required.
+@N: MO225 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\dac_table.v":42:1:42:6|There are no possible illegal states for state machine r_table_state[7:0] (in view: work.dac_table(verilog)); safe FSM implementation is not required.
+@N: MO225 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\adc_to_dist_2.v":36:1:36:6|There are no possible illegal states for state machine r_table_state[7:0] (in view: work.adc_to_dist_2(verilog)); safe FSM implementation is not required.
+@N: MO225 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\hv_control.v":81:1:81:6|There are no possible illegal states for state machine r_check_state[3:0] (in view: work.HV_control(verilog)); safe FSM implementation is not required.
+@N: MO225 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|There are no possible illegal states for state machine r_data_state[3:0] (in view: work.data_pre(verilog)); safe FSM implementation is not required.
+@N: FX493 |Applying initial value "1" on instance status[0].
+@N: FX493 |Applying initial value "0" on instance status[1].
+@N: FX493 |Applying initial value "0" on instance status[2].
+@N: FX493 |Applying initial value "0" on instance status[3].
+@N: FX493 |Applying initial value "0" on instance status[4].
+@N: MO225 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_drive.v":102:4:102:9|There are no possible illegal states for state machine r_curr_state[3:0] (in view: work.phy_mdio_drive(verilog)); safe FSM implementation is not required.
+@N: BN115 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_control.v":175:13:175:14|Removing instance u6 (in view: work.encoder_control_1000000000s_10s_30000_10s_100(verilog)) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=108 on top level netlist df1_lidar_top 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

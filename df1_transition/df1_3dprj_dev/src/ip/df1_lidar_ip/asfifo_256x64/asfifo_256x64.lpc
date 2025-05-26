@@ -1,0 +1,53 @@
+[Device]
+Family=ecp5u
+PartType=LFE5U-45F
+PartName=LFE5U-45F-7BG256I
+SpeedGrade=7
+Package=CABGA256
+OperatingCondition=IND
+Status=S
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=FIFO_DC
+CoreRevision=5.8
+ModuleName=asfifo_256x64
+SourceFormat=verilog
+ParameterFileVersion=1.0
+Date=04/18/2025
+Time=13:37:36
+
+[Parameters]
+Verilog=1
+VHDL=0
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=[MSB:LSB]
+IO=0
+FIFOImp=EBR Based
+Depth=256
+Width=64
+RDepth=256
+RWidth=64
+regout=1
+ClockEn=0
+CtrlByRdEn=0
+EmpFlg=0
+PeMode=Static - Dual Threshold
+PeAssert=10
+PeDeassert=12
+FullFlg=0
+PfMode=Static - Dual Threshold
+PfAssert=508
+PfDeassert=506
+Reset=Async
+Reset1=Sync
+RDataCount=0
+WDataCount=0
+EnECC=0
+
+[Command]
+cmd_line= -w -n asfifo_256x64 -lang verilog -synth synplify -bus_exp 7 -bb -arch sa5p00 -type ebfifo -depth 256 -width 64 -rwidth 64 -regout -no_enable -reset_rel SYNC -pe -1 -pf -1

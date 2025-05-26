@@ -1,0 +1,148 @@
+<Project ModBy="Inserter" SigType="0" Name="D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/debug/loop_data/debug.rvl" Date="2025-05-15">
+    <IP Version="1_6_042617"/>
+    <Design DesignEntry="Schematic/Verilog HDL" Synthesis="synplify" DeviceFamily="ECP5U" DesignName="df1_lidar_top"/>
+    <Core InsertDataset="0" Insert="1" Reveal_sig="627004283" Name="df1_lidar_top_LA0" ID="0">
+        <Setting>
+            <Clock SampleClk="w_pll_100m" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
+            <TraceBuffer Implementation="0" BitTimeStamp="0" hasTimeStamp="0" IncTrigSig="0" BufferDepth="4096"/>
+            <Capture Mode="0" MinSamplesPerTrig="16"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut Polarity="0" MinPulseWidth="0" TrigOutNetType="1" EnableTrigOut="0" TrigOutNet="reveal_debug_df1_lidar_top_LA0_net"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Type="SIG" Name="w_angle_sync"/>
+                <Sig Type="SIG" Name="w_cdctdc_ready"/>
+                <Sig Type="SIG" Name="w_laser_sync"/>
+                <Sig Type="SIG" Name="w_tdc_sig"/>
+                <Sig Type="SIG" Name="u_dist/i_tdcsig_sync"/>
+                <Sig Type="SIG" Name="u_dist/u_loop_packet/i_loopdata_flag"/>
+                <Sig Type="SIG" Name="u_dist/u_loop_packet/i_newsig_sync"/>
+                <Bus Name="u_dist/u_loop_packet/r_loop_state">
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_loop_state:0"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_loop_state:1"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_loop_state:2"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_loop_state:3"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_loop_state:4"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_loop_state:5"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_loop_state:6"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_loop_state:7"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_loop_state:8"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_loop_state:9"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_loop_state:10"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_loop_state:11"/>
+                </Bus>
+                <Bus Name="u_dist/u_loop_packet/r_packet_num">
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_packet_num:0"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_packet_num:1"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_packet_num:2"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_packet_num:3"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_packet_num:4"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_packet_num:5"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_packet_num:6"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_packet_num:7"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_packet_num:8"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_packet_num:9"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_packet_num:10"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_packet_num:11"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_packet_num:12"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_packet_num:13"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_packet_num:14"/>
+                    <Sig Type="SIG" Name="u_dist/u_loop_packet/r_packet_num:15"/>
+                </Bus>
+                <Sig Type="SIG" Name="u_dist/u_loop_packet/r_loop_make"/>
+                <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/w_loop_ack"/>
+                <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_cmd_ack"/>
+                <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wren"/>
+                <Bus Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata">
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:0"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:1"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:2"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:3"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:4"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:5"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:6"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:7"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:8"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:9"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:10"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:11"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:12"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:13"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:14"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:15"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:16"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:17"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:18"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:19"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:20"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:21"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:22"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:23"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:24"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:25"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:26"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:27"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:28"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:29"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:30"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:31"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:32"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:33"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:34"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:35"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:36"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:37"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:38"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:39"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:40"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:41"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:42"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:43"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:44"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:45"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:46"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_udpfifo_wrdata:47"/>
+                </Bus>
+                <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/o_udpfifo_empty"/>
+                <Bus Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state">
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:0"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:1"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:2"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:3"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:4"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:5"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:6"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:7"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:8"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:9"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:10"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_tx_state:11"/>
+                </Bus>
+                <Bus Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code">
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:0"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:1"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:2"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:3"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:4"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:5"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:6"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:7"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:8"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:9"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:10"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:11"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:12"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:13"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:14"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_datagram_parser/r_ret_code:15"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU Serialbits="0" Type="0" ID="1" Sig="(BUS)u_dist/u_loop_packet/r_loop_state[11:0],"/>
+                <TE MaxSequence="1" MaxEvnCnt="1" ID="1" Resource="1"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

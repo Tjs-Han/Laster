@@ -1,0 +1,343 @@
+<!DOCTYPE ispTLA>
+<ispTLA>
+ <CreationDate>???? 10?? 30 16:51:08 2024</CreationDate>
+ <XCFFileName/>
+ <CableSetting>
+  <IsTRSTConnected val="false"/>
+  <TRSTSetting val="0"/>
+  <IsBSCANConnected val="false"/>
+  <BSCANSetting val="0"/>
+  <CableType val="USB"/>
+  <PortAddress val="0"/>
+  <PortSetting val="0"/>
+  <TCKDelay val="1"/>
+ </CableSetting>
+ <DeviceCount>1</DeviceCount>
+ <Device>
+  <DeviceIndex>0</DeviceIndex>
+  <DeviceName>1. LFE5U-45F</DeviceName>
+  <DeviceID>0x41112043</DeviceID>
+  <HasIspTRACY>true</HasIspTRACY>
+  <HasJTAG2WB>false</HasJTAG2WB>
+  <SERDES/>
+  <IRBypassLen>8</IRBypassLen>
+  <RVLFileName>debug.rvl</RVLFileName>
+  <RVSFileName>debug.rvs</RVSFileName>
+  <LACoreCount>1</LACoreCount>
+  <WinUI CoreIndex="0">
+   <TraceSigTreeData>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u0/r_parse_done" NodeType="0" PortIndex="0"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code" NodeType="1" PortIndex="1">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code:0" NodeType="2" PortIndex="1"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code:1" NodeType="2" PortIndex="2"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code:2" NodeType="2" PortIndex="3"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code:3" NodeType="2" PortIndex="4"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code:4" NodeType="2" PortIndex="5"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code:5" NodeType="2" PortIndex="6"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code:6" NodeType="2" PortIndex="7"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code:7" NodeType="2" PortIndex="8"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_config_mode" NodeType="1" PortIndex="9">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_config_mode:0" NodeType="2" PortIndex="9"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_config_mode:1" NodeType="2" PortIndex="10"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_config_mode:2" NodeType="2" PortIndex="11"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_config_mode:3" NodeType="2" PortIndex="12"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_config_mode:4" NodeType="2" PortIndex="13"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_config_mode:5" NodeType="2" PortIndex="14"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_config_mode:6" NodeType="2" PortIndex="15"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_config_mode:7" NodeType="2" PortIndex="16"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_config_mode:8" NodeType="2" PortIndex="17"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_config_mode:9" NodeType="2" PortIndex="18"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_config_mode:10" NodeType="2" PortIndex="19"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_config_mode:11" NodeType="2" PortIndex="20"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_config_mode:12" NodeType="2" PortIndex="21"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_config_mode:13" NodeType="2" PortIndex="22"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_config_mode:14" NodeType="2" PortIndex="23"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u1/r_config_mode:15" NodeType="2" PortIndex="24"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_cal_mode" NodeType="1" PortIndex="25">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_cal_mode:0" NodeType="2" PortIndex="25"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_cal_mode:1" NodeType="2" PortIndex="26"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_freq_motor2" NodeType="1" PortIndex="27">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_freq_motor2:0" NodeType="2" PortIndex="27"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_freq_motor2:1" NodeType="2" PortIndex="28"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_freq_motor2:2" NodeType="2" PortIndex="29"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_freq_motor2:3" NodeType="2" PortIndex="30"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_freq_motor2:4" NodeType="2" PortIndex="31"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_freq_motor2:5" NodeType="2" PortIndex="32"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_freq_motor2:6" NodeType="2" PortIndex="33"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_freq_motor2:7" NodeType="2" PortIndex="34"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_freq_motor2:8" NodeType="2" PortIndex="35"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_freq_motor2:9" NodeType="2" PortIndex="36"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_freq_motor2:10" NodeType="2" PortIndex="37"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_freq_motor2:11" NodeType="2" PortIndex="38"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_freq_motor2:12" NodeType="2" PortIndex="39"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_freq_motor2:13" NodeType="2" PortIndex="40"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_freq_motor2:14" NodeType="2" PortIndex="41"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/i_freq_motor2:15" NodeType="2" PortIndex="42"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum" NodeType="1" PortIndex="43">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:0" NodeType="2" PortIndex="43"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:1" NodeType="2" PortIndex="44"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:2" NodeType="2" PortIndex="45"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:3" NodeType="2" PortIndex="46"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:4" NodeType="2" PortIndex="47"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:5" NodeType="2" PortIndex="48"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:6" NodeType="2" PortIndex="49"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:7" NodeType="2" PortIndex="50"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:8" NodeType="2" PortIndex="51"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:9" NodeType="2" PortIndex="52"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:10" NodeType="2" PortIndex="53"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:11" NodeType="2" PortIndex="54"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:12" NodeType="2" PortIndex="55"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:13" NodeType="2" PortIndex="56"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:14" NodeType="2" PortIndex="57"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:15" NodeType="2" PortIndex="58"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:16" NodeType="2" PortIndex="59"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:17" NodeType="2" PortIndex="60"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:18" NodeType="2" PortIndex="61"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:19" NodeType="2" PortIndex="62"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:20" NodeType="2" PortIndex="63"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:21" NodeType="2" PortIndex="64"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:22" NodeType="2" PortIndex="65"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:23" NodeType="2" PortIndex="66"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache" NodeType="1" PortIndex="67">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:0" NodeType="2" PortIndex="67"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:1" NodeType="2" PortIndex="68"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:2" NodeType="2" PortIndex="69"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:3" NodeType="2" PortIndex="70"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:4" NodeType="2" PortIndex="71"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:5" NodeType="2" PortIndex="72"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:6" NodeType="2" PortIndex="73"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:7" NodeType="2" PortIndex="74"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:8" NodeType="2" PortIndex="75"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:9" NodeType="2" PortIndex="76"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:10" NodeType="2" PortIndex="77"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:11" NodeType="2" PortIndex="78"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:12" NodeType="2" PortIndex="79"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:13" NodeType="2" PortIndex="80"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:14" NodeType="2" PortIndex="81"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:15" NodeType="2" PortIndex="82"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:16" NodeType="2" PortIndex="83"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:17" NodeType="2" PortIndex="84"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:18" NodeType="2" PortIndex="85"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:19" NodeType="2" PortIndex="86"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:20" NodeType="2" PortIndex="87"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:21" NodeType="2" PortIndex="88"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:22" NodeType="2" PortIndex="89"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:23" NodeType="2" PortIndex="90"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:24" NodeType="2" PortIndex="91"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:25" NodeType="2" PortIndex="92"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:26" NodeType="2" PortIndex="93"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:27" NodeType="2" PortIndex="94"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:28" NodeType="2" PortIndex="95"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:29" NodeType="2" PortIndex="96"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:30" NodeType="2" PortIndex="97"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:31" NodeType="2" PortIndex="98"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum" NodeType="1" PortIndex="99">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:0" NodeType="2" PortIndex="99"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:1" NodeType="2" PortIndex="100"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:2" NodeType="2" PortIndex="101"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:3" NodeType="2" PortIndex="102"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:4" NodeType="2" PortIndex="103"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:5" NodeType="2" PortIndex="104"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:6" NodeType="2" PortIndex="105"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:7" NodeType="2" PortIndex="106"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:8" NodeType="2" PortIndex="107"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:9" NodeType="2" PortIndex="108"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:10" NodeType="2" PortIndex="109"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:11" NodeType="2" PortIndex="110"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:12" NodeType="2" PortIndex="111"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:13" NodeType="2" PortIndex="112"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:14" NodeType="2" PortIndex="113"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:15" NodeType="2" PortIndex="114"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:16" NodeType="2" PortIndex="115"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:17" NodeType="2" PortIndex="116"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:18" NodeType="2" PortIndex="117"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:19" NodeType="2" PortIndex="118"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:20" NodeType="2" PortIndex="119"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:21" NodeType="2" PortIndex="120"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:22" NodeType="2" PortIndex="121"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:23" NodeType="2" PortIndex="122"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_pwm_value" NodeType="1" PortIndex="123">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_pwm_value:0" NodeType="2" PortIndex="123"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_pwm_value:1" NodeType="2" PortIndex="124"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_pwm_value:2" NodeType="2" PortIndex="125"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_pwm_value:3" NodeType="2" PortIndex="126"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_pwm_value:4" NodeType="2" PortIndex="127"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_pwm_value:5" NodeType="2" PortIndex="128"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_pwm_value:6" NodeType="2" PortIndex="129"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_pwm_value:7" NodeType="2" PortIndex="130"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_pwm_value:8" NodeType="2" PortIndex="131"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_pwm_value:9" NodeType="2" PortIndex="132"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_pwm_value:10" NodeType="2" PortIndex="133"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_pwm_value:11" NodeType="2" PortIndex="134"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_pwm_value:12" NodeType="2" PortIndex="135"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_pwm_value:13" NodeType="2" PortIndex="136"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_pwm_value:14" NodeType="2" PortIndex="137"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_pwm_value:15" NodeType="2" PortIndex="138"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval" NodeType="1" PortIndex="139">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:0" NodeType="2" PortIndex="139"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:1" NodeType="2" PortIndex="140"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:2" NodeType="2" PortIndex="141"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:3" NodeType="2" PortIndex="142"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:4" NodeType="2" PortIndex="143"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:5" NodeType="2" PortIndex="144"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:6" NodeType="2" PortIndex="145"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:7" NodeType="2" PortIndex="146"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:8" NodeType="2" PortIndex="147"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:9" NodeType="2" PortIndex="148"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:10" NodeType="2" PortIndex="149"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:11" NodeType="2" PortIndex="150"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:12" NodeType="2" PortIndex="151"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:13" NodeType="2" PortIndex="152"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:14" NodeType="2" PortIndex="153"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:15" NodeType="2" PortIndex="154"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_state" NodeType="1" PortIndex="155">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_state:0" NodeType="2" PortIndex="155"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_state:1" NodeType="2" PortIndex="156"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_state:2" NodeType="2" PortIndex="157"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_state:3" NodeType="2" PortIndex="158"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt" NodeType="1" PortIndex="159">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt:0" NodeType="2" PortIndex="159"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt:1" NodeType="2" PortIndex="160"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt:2" NodeType="2" PortIndex="161"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt:3" NodeType="2" PortIndex="162"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt:4" NodeType="2" PortIndex="163"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt:5" NodeType="2" PortIndex="164"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt:6" NodeType="2" PortIndex="165"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt:7" NodeType="2" PortIndex="166"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_stable_flag" NodeType="0" PortIndex="167"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_overcnt" NodeType="1" PortIndex="168">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_overcnt:0" NodeType="2" PortIndex="168"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_overcnt:1" NodeType="2" PortIndex="169"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_overcnt:2" NodeType="2" PortIndex="170"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_overcnt:3" NodeType="2" PortIndex="171"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_overcnt:4" NodeType="2" PortIndex="172"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_overcnt:5" NodeType="2" PortIndex="173"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_overcnt:6" NodeType="2" PortIndex="174"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_overcnt:7" NodeType="2" PortIndex="175"/>
+    <TraceSignal IsHidden="false" Name="u_motor_control/u2_motor_drive/r_speed_oversig" NodeType="0" PortIndex="176"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/i_calib_mode" NodeType="1" PortIndex="177">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/i_calib_mode:0" NodeType="2" PortIndex="177"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/i_calib_mode:1" NodeType="2" PortIndex="178"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/i_motor_state2" NodeType="0" PortIndex="179"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/o_zero_sign" NodeType="0" PortIndex="180"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/o_opto_rise" NodeType="0" PortIndex="181"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt" NodeType="1" PortIndex="182">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:0" NodeType="2" PortIndex="182"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:1" NodeType="2" PortIndex="183"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:2" NodeType="2" PortIndex="184"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:3" NodeType="2" PortIndex="185"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:4" NodeType="2" PortIndex="186"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:5" NodeType="2" PortIndex="187"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:6" NodeType="2" PortIndex="188"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:7" NodeType="2" PortIndex="189"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:8" NodeType="2" PortIndex="190"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:9" NodeType="2" PortIndex="191"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:10" NodeType="2" PortIndex="192"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:11" NodeType="2" PortIndex="193"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:12" NodeType="2" PortIndex="194"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:13" NodeType="2" PortIndex="195"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:14" NodeType="2" PortIndex="196"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:15" NodeType="2" PortIndex="197"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:16" NodeType="2" PortIndex="198"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:17" NodeType="2" PortIndex="199"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:18" NodeType="2" PortIndex="200"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:19" NodeType="2" PortIndex="201"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:20" NodeType="2" PortIndex="202"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:21" NodeType="2" PortIndex="203"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:22" NodeType="2" PortIndex="204"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:23" NodeType="2" PortIndex="205"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:24" NodeType="2" PortIndex="206"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:25" NodeType="2" PortIndex="207"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:26" NodeType="2" PortIndex="208"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:27" NodeType="2" PortIndex="209"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:28" NodeType="2" PortIndex="210"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:29" NodeType="2" PortIndex="211"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:30" NodeType="2" PortIndex="212"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:31" NodeType="2" PortIndex="213"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt" NodeType="1" PortIndex="214">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:0" NodeType="2" PortIndex="214"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:1" NodeType="2" PortIndex="215"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:2" NodeType="2" PortIndex="216"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:3" NodeType="2" PortIndex="217"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:4" NodeType="2" PortIndex="218"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:5" NodeType="2" PortIndex="219"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:6" NodeType="2" PortIndex="220"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:7" NodeType="2" PortIndex="221"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:8" NodeType="2" PortIndex="222"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:9" NodeType="2" PortIndex="223"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:10" NodeType="2" PortIndex="224"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:11" NodeType="2" PortIndex="225"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:12" NodeType="2" PortIndex="226"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:13" NodeType="2" PortIndex="227"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:14" NodeType="2" PortIndex="228"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:15" NodeType="2" PortIndex="229"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:16" NodeType="2" PortIndex="230"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:17" NodeType="2" PortIndex="231"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:18" NodeType="2" PortIndex="232"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:19" NodeType="2" PortIndex="233"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:20" NodeType="2" PortIndex="234"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:21" NodeType="2" PortIndex="235"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:22" NodeType="2" PortIndex="236"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:23" NodeType="2" PortIndex="237"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:24" NodeType="2" PortIndex="238"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:25" NodeType="2" PortIndex="239"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:26" NodeType="2" PortIndex="240"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:27" NodeType="2" PortIndex="241"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:28" NodeType="2" PortIndex="242"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:29" NodeType="2" PortIndex="243"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:30" NodeType="2" PortIndex="244"/>
+    <TraceSignal IsHidden="false" Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:31" NodeType="2" PortIndex="245"/>
+   </TraceSigTreeData>
+   <TriggerUI UserSelect="0" PreSelectType="1" PreSelect="1" UserSelectPos="0"/>
+   <CoreRun Run="true"/>
+   <CoreWndUIData>
+    <ClockFrequency Unit="ns" Frequency="-1.0"/>
+   </CoreWndUIData>
+  </WinUI>
+ </Device>
+</ispTLA>

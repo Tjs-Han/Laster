@@ -1,0 +1,377 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG334 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\df1_lidar_ip.v":1:13:1:25|Read directive translate_off.
+@N: CG333 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\df1_lidar_ip.v":3:13:3:24|Read directive translate_on.
+@N: CG334 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_ddr3_ip\df1_ddr3_ip.v":1:13:1:25|Read directive translate_off.
+@N: CG333 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_ddr3_ip\df1_ddr3_ip.v":3:13:3:24|Read directive translate_on.
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v":757:7:757:9|Synthesizing module VHI in library work.
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v":761:7:761:9|Synthesizing module VLO in library work.
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v":1696:7:1696:13|Synthesizing module EHXPLLL in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\pll\pll.v":8:7:8:9|Synthesizing module pll in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_ddr3_ip\ddr3_ipcore\ddr3_ipcore_bb.v":9:7:9:17|Synthesizing module ddr3_ipcore in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_ddr3_ip\ddr3_ipcore\ddr_clks_ddr3_ipcore_bb.v":12:7:12:26|Synthesizing module ddr_clks_ddr3_ipcore in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_ddr3_ip\ddr3_ipcore\ddr3_sdram_mem_top_wrapper_ddr3_ipcore.v":9:7:9:36|Synthesizing module ddr3_sdram_mem_top_ddr3_ipcore in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_ddr3_ip\df1_ddr3_ip.v":11:7:11:17|Synthesizing module df1_ddr3_ip in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr3_init_ctrl.v":19:7:19:20|Synthesizing module ddr3_init_ctrl in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr3_rw_ctrl.v":17:7:17:18|Synthesizing module ddr3_rw_ctrl in library work.
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v":25:7:25:10|Synthesizing module AND2 in library work.
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v":367:7:367:9|Synthesizing module INV in library work.
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v":810:7:810:10|Synthesizing module XOR2 in library work.
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v":710:7:710:14|Synthesizing module ROM16X1A in library work.
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v":959:7:959:14|Synthesizing module PDPW16KD in library work.
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v":119:7:119:13|Synthesizing module FD1P3DX in library work.
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v":160:7:160:13|Synthesizing module FD1S3BX in library work.
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v":168:7:168:13|Synthesizing module FD1S3DX in library work.
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v":76:7:76:11|Synthesizing module CCU2C in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\sfifo_128x96\sfifo_128x96.v":8:7:8:18|Synthesizing module sfifo_128x96 in library work.
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v":656:7:656:9|Synthesizing module OR2 in library work.
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v":110:7:110:13|Synthesizing module FD1P3BX in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\asfifo_256x96\asfifo_256x96.v":8:7:8:19|Synthesizing module asfifo_256x96 in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\asfifo_256x64\asfifo_256x64.v":8:7:8:19|Synthesizing module asfifo_256x64 in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":17:7:17:21|Synthesizing module ddr_round_robin in library work.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":196:4:196:9|Register bit r_wfifo_data0[92] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":196:4:196:9|Register bit r_wfifo_data0[93] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":196:4:196:9|Register bit r_wfifo_data0[94] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":225:4:225:9|Register bit r_wfifo_data1[91] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":225:4:225:9|Register bit r_wfifo_data1[93] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":225:4:225:9|Register bit r_wfifo_data1[94] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":254:4:254:9|Register bit r_wfifo_data2[93] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":254:4:254:9|Register bit r_wfifo_data2[94] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Register bit r_wfifo_data3[91] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Register bit r_wfifo_data3[92] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Register bit r_wfifo_data3[94] is always 0.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr3_interface.v":17:7:17:20|Synthesizing module ddr3_interface in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_drive.v":35:7:35:20|Synthesizing module phy_mdio_drive in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_drive.v":228:35:228:46|Removing redundant assignment.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_drive.v":94:4:94:9|Register bit phy_reset_n is always 1.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_ctrl.v":42:7:42:19|Synthesizing module phy_mdio_ctrl in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_ctrl.v":582:28:582:39|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_ctrl.v":592:28:592:39|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_ctrl.v":602:28:602:39|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_ctrl.v":612:27:612:37|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_ctrl.v":622:30:622:43|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_ctrl.v":632:28:632:39|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_ctrl.v":642:29:642:41|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_ctrl.v":652:31:652:45|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\eth_pll\eth_pll.v":8:7:8:13|Synthesizing module eth_pll in library work.
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v":866:7:866:12|Synthesizing module DP16KD in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\dcfifo_rmiirx_36x2\dcfifo_rmiirx_36x2.v":8:7:8:24|Synthesizing module dcfifo_rmiirx_36x2 in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\rmii_top\rmii_rx.v":17:7:17:13|Synthesizing module rmii_rx in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\dcfifo_rmiitx_4096x2\dcfifo_rmiitx_4096x2.v":8:7:8:26|Synthesizing module dcfifo_rmiitx_4096x2 in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\rmii_top\rmii_tx.v":17:7:17:13|Synthesizing module rmii_tx in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\rmii_top\rmii_top.v":16:7:16:14|Synthesizing module rmii_top in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\fifo_mac_frame_2048x10\fifo_mac_frame_2048x10.v":8:7:8:28|Synthesizing module fifo_mac_frame_2048x10 in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\mac_top\mac_rx.v":32:7:32:12|Synthesizing module mac_rx in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\mac_top\mac_tx.v":16:7:16:12|Synthesizing module mac_tx in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\mac_top\mac_top.v":29:7:29:13|Synthesizing module mac_top in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_rx.v":44:7:44:12|Synthesizing module arp_rx in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_rx.v":243:47:243:60|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_tx.v":44:7:44:12|Synthesizing module arp_tx in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\arp\crc32_d8.v":17:7:17:14|Synthesizing module crc32_d8 in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_ctrl.v":44:7:44:14|Synthesizing module arp_ctrl in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_rx.v":76:7:76:13|Synthesizing module icmp_rx in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_rx.v":381:56:381:75|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":16:7:16:13|Synthesizing module icmp_tx in library work.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[0][16] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[0][17] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[0][18] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[0][19] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[0][20] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[0][21] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[0][22] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[0][23] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[0][24] is always 1.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[0][25] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[0][26] is always 1.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[0][27] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[0][28] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[0][29] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[0][30] is always 1.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[0][31] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[2][16] is always 1.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[2][17] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[2][18] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[2][19] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[2][20] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[2][21] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[2][22] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[2][23] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[2][24] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[2][25] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[2][26] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[2][27] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[2][28] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[2][29] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[2][30] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[2][31] is always 1.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][0] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][1] is always 1.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][2] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][3] is always 1.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][4] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][5] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][6] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][7] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][8] is always 1.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][9] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][10] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][11] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][12] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][13] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][14] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][15] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][16] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][17] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][18] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][19] is always 1.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][20] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][21] is always 1.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][22] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][23] is always 1.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][24] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][25] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][26] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][27] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][28] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][29] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][30] is always 1.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[3][31] is always 1.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[1][0] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[1][1] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[1][2] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[1][3] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[1][4] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[1][5] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[1][6] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[1][7] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[1][8] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[1][9] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[1][10] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[1][11] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[1][12] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[1][13] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[1][14] is always 1.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[1][15] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[5][16] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[5][17] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[5][18] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[5][19] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[5][20] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[5][21] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[5][22] is always 0.
+@N: CL189 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Register bit r_ip_head[5][23] is always 0.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\synfifo_data_2048x8\synfifo_data_2048x8.v":8:7:8:25|Synthesizing module synfifo_data_2048x8 in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_top.v":76:7:76:14|Synthesizing module icmp_top in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":64:7:64:12|Synthesizing module udp_rx in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":64:7:64:12|Synthesizing module udp_tx in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":423:47:423:64|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\dataram_2048x8\dataram_2048x8.v":8:7:8:20|Synthesizing module dataram_2048x8 in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_top.v":63:7:63:13|Synthesizing module udp_top in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\ip_top.v":17:7:17:12|Synthesizing module ip_top in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\dataram_1024x8\dataram_1024x8.v":8:7:8:20|Synthesizing module dataram_1024x8 in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\code_ram128x32\code_ram128x32.v":8:7:8:20|Synthesizing module code_ram128x32 in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":21:7:21:28|Synthesizing module udpcom_datagram_parser in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":666:21:666:34|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":1083:26:1083:43|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":1088:26:1088:43|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":1093:26:1093:43|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\division.v":10:7:10:14|Synthesizing module division in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":20:7:20:17|Synthesizing module angle2index in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":19:7:19:27|Synthesizing module udpcom_parameter_init in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":530:22:530:36|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":672:23:672:38|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_control.v":17:7:17:20|Synthesizing module udpcom_control in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\eth_ctrl.v":17:7:17:14|Synthesizing module eth_ctrl in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\eth_top.v":44:7:44:13|Synthesizing module eth_top in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\flash\USRMCLK.v":1:7:1:13|Synthesizing module USRMCLK in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_master.v":3:7:3:16|Synthesizing module spi_master in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_flash_cmd.v":15:7:15:19|Synthesizing module spi_flash_cmd in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_flash_cmd.v":81:18:81:28|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_flash_cmd.v":121:17:121:25|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_flash_top.v":15:7:15:19|Synthesizing module spi_flash_top in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":32:7:32:19|Synthesizing module flash_control in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\motor\signal_dejitter.v":17:7:17:21|Synthesizing module signal_dejitter in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\motor\signal_dejitter.v":47:20:47:31|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\motor\signal_dejitter.v":53:20:53:31|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":23:7:23:17|Synthesizing module motor_drive in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":230:24:230:40|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":338:19:338:29|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":344:19:344:29|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\motor\motor_control.v":18:7:18:19|Synthesizing module motor_control in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\opto_switch_filter.v":18:7:18:24|Synthesizing module opto_switch_filter in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\opto_switch_filter.v":53:17:53:26|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\opto_switch_filter.v":61:20:61:32|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\opto_switch.v":18:7:18:17|Synthesizing module opto_switch in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\opto_switch.v":83:18:83:27|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\opto_switch.v":91:18:91:27|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\opto_switch.v":102:25:102:41|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\opto_switch.v":107:25:107:41|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":18:7:18:23|Synthesizing module encoder_calculate in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":123:35:123:53|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":170:18:170:28|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":294:32:294:46|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":306:32:306:46|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\sync_control.v":18:7:18:18|Synthesizing module sync_control in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\sync_control.v":217:15:217:21|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\code_angle.v":1:7:1:16|Synthesizing module code_angle in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\code_cnt.v":16:7:16:14|Synthesizing module code_cnt in library work.
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v":1354:7:1354:12|Synthesizing module ALU54B in library work.
+@N: CG364 :"D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\lib\lucent\ecp5u.v":1184:7:1184:16|Synthesizing module MULT18X18D in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier2\multiplier2.v":8:7:8:17|Synthesizing module multiplier2 in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier\multiplier.v":8:7:8:16|Synthesizing module multiplier in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_control.v":17:7:17:21|Synthesizing module encoder_control in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\opto_switch.v":18:7:18:17|Synthesizing module opto_switch in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":18:7:18:23|Synthesizing module encoder_calculate in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\sync_control.v":18:7:18:18|Synthesizing module sync_control in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_control.v":17:7:17:21|Synthesizing module encoder_control in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\rotate_control.v":19:7:19:20|Synthesizing module rotate_control in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\laser\laser_control.v":17:7:17:19|Synthesizing module laser_control in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\sub_ip\sub_ip.v":8:7:8:12|Synthesizing module sub_ip in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_cfg.v":12:7:12:14|Synthesizing module gpx2_cfg in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_cfg.v":344:35:344:49|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_spi_master.v":25:7:25:21|Synthesizing module gpx2_spi_master in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_spi_master.v":169:19:169:27|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":18:7:18:15|Synthesizing module data_fill in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":19:7:19:26|Synthesizing module gpx2_control_wrapper in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":126:23:126:38|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":182:20:182:32|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":189:20:189:32|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":196:20:196:32|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":294:22:294:33|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":305:22:305:33|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":312:22:312:33|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":317:22:317:33|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":324:22:324:33|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":352:24:352:40|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":367:22:367:35|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":368:22:368:35|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\AD_SPI.v":12:7:12:12|Synthesizing module AD_SPI in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\AD_SPI.v":65:23:65:32|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\AD_SPI.v":76:21:76:28|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\AD_SPI.v":144:23:144:32|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\adc_control.v":16:7:16:17|Synthesizing module adc_control in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\DA_SPI_pwm.v":10:7:10:16|Synthesizing module DA_SPI_pwm in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\adc_to_temp.v":18:7:18:17|Synthesizing module adc_to_temp in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\adc_to_temp.v":188:21:188:32|Removing redundant assignment.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\dac_table.v":16:7:16:15|Synthesizing module dac_table in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\adc_to_dac.v":16:7:16:16|Synthesizing module adc_to_dac in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\adc_to_dist_2.v":1:7:1:19|Synthesizing module adc_to_dist_2 in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\pluse_average.v":11:7:11:19|Synthesizing module pluse_average in library work.
+@N: CG364 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\temp_adc_filter.v":11:7:11:21|Synthesizing module temp_adc_filter in library work.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\HV_control.v":117:21:117:34|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":92:30:92:49|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":93:30:93:49|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":102:22:102:33|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":156:21:156:32|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":158:22:158:34|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":88:38:88:43|Removing redundant assignment.
+@N: CG179 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\df1_lidar_top.v":305:28:305:39|Removing redundant assignment.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_measure.v":44:14:44:26|Input i_motor_state is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_measure.v":45:14:45:25|Input i_measure_en is unused.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":90:1:90:6|Trying to extract state machine for register r_loop_state.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":24:11:24:22|Input i_measure_en is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":27:17:27:27|Input i_rise_data is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":28:17:28:27|Input i_fall_data is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":29:17:29:27|Input i_dist_data is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":30:17:30:27|Input i_rssi_data is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":34:16:34:26|Input i_reso_mode is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":36:11:36:16|Input i_busy is unused.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\calib_packet.v":91:1:91:6|Trying to extract state machine for register r_calib_state.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\calib_packet.v":24:11:24:22|Input i_measure_en is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\calib_packet.v":27:17:27:29|Input i_code_angle2 is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\calib_packet.v":30:17:30:27|Input i_dist_data is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\calib_packet.v":31:17:31:27|Input i_rssi_data is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\calib_packet.v":35:15:35:25|Input i_reso_mode is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\calib_packet.v":37:11:37:16|Input i_busy is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_calculate.v":39:18:39:31|Input i_distance_min is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_calculate.v":40:18:40:31|Input i_distance_max is unused.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Trying to extract state machine for register r_rssi_state.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":42:18:42:32|Input i_coe_sram_data is unused.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\div_rill.v":26:0:26:5|Trying to extract state machine for register status.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Trying to extract state machine for register r_dist_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Trying to extract state machine for register r_index_state.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":30:17:30:28|Input i_rise_divid is unused.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Trying to extract state machine for register r_data_state.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":21:12:21:22|Input i_discal_en is unused.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\HV_control.v":81:1:81:6|Trying to extract state machine for register r_check_state.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\HV_control.v":19:10:19:21|Input i_calib_mode is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\HV_control.v":20:10:20:23|Input i_measure_mode is unused.
+@N: CL135 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\temp_adc_filter.v":42:1:42:6|Found sequential shift r_pulse_value3 with address depth of 3 words and data bit width of 16.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\adc_to_dist_2.v":36:1:36:6|Trying to extract state machine for register r_table_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\adc_to_dac.v":64:1:64:6|Trying to extract state machine for register r_dac_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\dac_table.v":42:1:42:6|Trying to extract state machine for register r_table_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\adc_to_temp.v":91:1:91:6|Trying to extract state machine for register r_temp_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\adc_control.v":60:1:60:6|Trying to extract state machine for register r_adc_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\AD_SPI.v":79:3:79:8|Trying to extract state machine for register state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":202:4:202:9|Trying to extract state machine for register r_curr_state.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":36:11:36:25|Input i_tdc_interrupt is unused.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Trying to extract state machine for register r_fill_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_spi_master.v":74:4:74:9|Trying to extract state machine for register r_curr_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_cfg.v":119:4:119:9|Trying to extract state machine for register r_curr_state.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_cfg.v":28:28:28:39|Input i_spi_rdbyte is unused.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\laser\laser_control.v":59:1:59:6|Trying to extract state machine for register r_laser_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\sync_control.v":126:4:126:9|Trying to extract state machine for register fs_state.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\sync_control.v":31:15:31:25|Input i_reso_mode is unused.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":192:4:192:9|Trying to extract state machine for register r_eg_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\sync_control.v":126:4:126:9|Trying to extract state machine for register fs_state.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\sync_control.v":31:15:31:25|Input i_reso_mode is unused.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":192:4:192:9|Trying to extract state machine for register r_eg_state.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\motor\motor_control.v":28:14:28:24|Input i_motor_rd1 is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\motor\motor_control.v":32:14:32:24|Input i_motor_rd2 is unused.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":260:1:260:6|Trying to extract state machine for register r_state.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":39:15:39:32|Input i_motor_pwm_setval is unused.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":140:1:140:6|Trying to extract state machine for register r_flash_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_flash_top.v":110:1:110:6|Trying to extract state machine for register r_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_flash_top.v":56:1:56:6|Trying to extract state machine for register r_cmd.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_flash_cmd.v":190:1:190:6|Trying to extract state machine for register r_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_master.v":107:1:107:6|Trying to extract state machine for register r_state.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\eth_ctrl.v":23:32:23:42|Input i_arp_txsop is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\eth_ctrl.v":24:32:24:42|Input i_arp_txeop is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\eth_ctrl.v":28:12:28:24|Input i_arp_tx_done is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\eth_ctrl.v":32:32:32:43|Input i_icmp_txsop is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\eth_ctrl.v":33:32:33:43|Input i_icmp_txeop is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\eth_ctrl.v":41:32:41:42|Input i_udp_txsop is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\eth_ctrl.v":42:32:42:42|Input i_udp_txeop is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_control.v":106:23:106:37|Input i_ntp_first_get is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_control.v":107:23:107:44|Input i_time_stamp_first_get is unused.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":344:1:344:6|Trying to extract state machine for register r_para_state.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":44:20:44:30|Input i_get_para3 is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":45:20:45:30|Input i_get_para4 is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":47:20:47:30|Input i_get_para6 is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":72:14:72:28|Input i_connect_state is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":73:20:73:31|Input i_code_angle is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":106:19:106:35|Input i_hvcp_ram_rdaddr is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":109:19:109:35|Input i_dicp_ram_rdaddr is unused.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\angle2index.v":101:1:101:6|Trying to extract state machine for register r_index_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\insp\division.v":40:1:40:6|Trying to extract state machine for register r_cal_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":356:1:356:6|Trying to extract state machine for register r_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":286:1:286:6|Trying to extract state machine for register r_rddr_state.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":48:20:48:30|Input i_set_para6 is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":49:20:49:30|Input i_set_para7 is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":50:20:50:30|Input i_set_para8 is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":83:20:83:32|Input i_loop_points is unused.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":202:4:202:9|Trying to extract state machine for register r_cur_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":136:4:136:9|Trying to extract state machine for register r_cur_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":154:4:154:9|Trying to extract state machine for register r_cur_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_rx.v":161:4:161:9|Trying to extract state machine for register r_cur_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_tx.v":133:4:133:9|Trying to extract state machine for register r_cur_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_rx.v":124:4:124:9|Trying to extract state machine for register r_cur_state.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_rx.v":66:32:66:48|Input i_rxcrc32_resdata is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\mac_top\mac_top.v":42:32:42:43|Input i_arp_tx_sop is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\mac_top\mac_top.v":43:32:43:43|Input i_arp_tx_eop is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\mac_top\mac_top.v":44:32:44:43|Input i_arp_tx_vld is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\mac_top\mac_top.v":45:32:45:43|Input i_arp_tx_dat is unused.
+@N: CL135 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\rmii_top\rmii_tx.v":100:1:100:6|Found sequential shift o_ethphy_txen with address depth of 3 words and data bit width of 1.
+@N: CL135 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\rmii_top\rmii_rx.v":93:4:93:9|Found sequential shift r_rmii_rxvld with address depth of 3 words and data bit width of 1.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\rmii_top\rmii_rx.v":22:15:22:28|Input i_ethphy_crsdv is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\eth\rmii_top\rmii_rx.v":23:15:23:27|Input i_ethphy_rxer is unused.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_ctrl.v":185:4:185:9|Trying to extract state machine for register r_curr_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_drive.v":102:4:102:9|Trying to extract state machine for register r_curr_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":305:4:305:9|Trying to extract state machine for register r_curr_state.
+@N: CL201 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr3_rw_ctrl.v":114:1:114:6|Trying to extract state machine for register r_curr_state.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr3_rw_ctrl.v":42:32:42:39|Input i_rt_err is unused.
+@N: CL159 :"D:\FreeWork\df1_demo\df1_lidar_top\src\rtl\ddr\ddr3_rw_ctrl.v":43:32:43:39|Input i_wl_err is unused.
+@N|Running in 64-bit mode
+

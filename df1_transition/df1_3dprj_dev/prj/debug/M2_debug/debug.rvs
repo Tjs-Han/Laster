@@ -1,0 +1,301 @@
+<Project ModBy="Analyzer" Name="D:/FreeWork/df1_demo/df1_lidar_top/prj/debug/debug.rvs" Date="2024-11-09">
+ <Core Name="df1_lidar_top_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="2048" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Sig Name="u_eth_top/u_udpcom_control/u0/r_parse_done"/>
+    <Bus Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_set_cmd_code:7"/>
+    </Bus>
+    <Bus Name="u_eth_top/u_udpcom_control/u1/r_config_mode" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_config_mode:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_config_mode:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_config_mode:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_config_mode:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_config_mode:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_config_mode:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_config_mode:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_config_mode:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_config_mode:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_config_mode:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_config_mode:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_config_mode:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_config_mode:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_config_mode:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_config_mode:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u1/r_config_mode:15"/>
+    </Bus>
+    <Bus Name="u_motor_control/i_cal_mode" Radix="0">
+     <Sig Name="u_motor_control/i_cal_mode:0"/>
+     <Sig Name="u_motor_control/i_cal_mode:1"/>
+    </Bus>
+    <Bus Name="u_motor_control/i_freq_motor2" Radix="0">
+     <Sig Name="u_motor_control/i_freq_motor2:0"/>
+     <Sig Name="u_motor_control/i_freq_motor2:1"/>
+     <Sig Name="u_motor_control/i_freq_motor2:2"/>
+     <Sig Name="u_motor_control/i_freq_motor2:3"/>
+     <Sig Name="u_motor_control/i_freq_motor2:4"/>
+     <Sig Name="u_motor_control/i_freq_motor2:5"/>
+     <Sig Name="u_motor_control/i_freq_motor2:6"/>
+     <Sig Name="u_motor_control/i_freq_motor2:7"/>
+     <Sig Name="u_motor_control/i_freq_motor2:8"/>
+     <Sig Name="u_motor_control/i_freq_motor2:9"/>
+     <Sig Name="u_motor_control/i_freq_motor2:10"/>
+     <Sig Name="u_motor_control/i_freq_motor2:11"/>
+     <Sig Name="u_motor_control/i_freq_motor2:12"/>
+     <Sig Name="u_motor_control/i_freq_motor2:13"/>
+     <Sig Name="u_motor_control/i_freq_motor2:14"/>
+     <Sig Name="u_motor_control/i_freq_motor2:15"/>
+    </Bus>
+    <Bus Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum" Radix="0">
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:0"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:1"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:2"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:3"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:4"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:5"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:6"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:7"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:8"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:9"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:10"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:11"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:12"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:13"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:14"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:15"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:16"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:17"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:18"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:19"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:20"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:21"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:22"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r0_clkcnt_hignnum:23"/>
+    </Bus>
+    <Bus Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache" Radix="0">
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:0"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:1"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:2"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:3"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:4"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:5"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:6"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:7"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:8"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:9"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:10"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:11"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:12"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:13"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:14"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:15"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:16"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:17"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:18"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:19"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:20"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:21"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:22"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:23"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:24"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:25"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:26"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:27"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:28"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:29"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:30"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:31"/>
+    </Bus>
+    <Bus Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum" Radix="0">
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:0"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:1"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:2"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:3"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:4"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:5"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:6"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:7"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:8"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:9"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:10"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:11"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:12"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:13"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:14"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:15"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:16"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:17"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:18"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:19"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:20"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:21"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:22"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:23"/>
+    </Bus>
+    <Bus Name="u_motor_control/u2_motor_drive/r_pwm_value" Radix="0">
+     <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:0"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:1"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:2"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:3"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:4"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:5"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:6"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:7"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:8"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:9"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:10"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:11"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:12"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:13"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:14"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:15"/>
+    </Bus>
+    <Bus Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval" Radix="0">
+     <Sig Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:0"/>
+     <Sig Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:1"/>
+     <Sig Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:2"/>
+     <Sig Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:3"/>
+     <Sig Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:4"/>
+     <Sig Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:5"/>
+     <Sig Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:6"/>
+     <Sig Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:7"/>
+     <Sig Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:8"/>
+     <Sig Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:9"/>
+     <Sig Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:10"/>
+     <Sig Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:11"/>
+     <Sig Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:12"/>
+     <Sig Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:13"/>
+     <Sig Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:14"/>
+     <Sig Name="u_motor_control/u2_motor_drive/i_motor_pwm_setval:15"/>
+    </Bus>
+    <Bus Name="u_motor_control/u2_motor_drive/r_state" Radix="0">
+     <Sig Name="u_motor_control/u2_motor_drive/r_state:0"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_state:1"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_state:2"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_state:3"/>
+    </Bus>
+    <Bus Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt" Radix="0">
+     <Sig Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt:0"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt:1"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt:2"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt:3"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt:4"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt:5"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt:6"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_speed_reach_cnt:7"/>
+    </Bus>
+    <Sig Name="u_motor_control/u2_motor_drive/r_speed_stable_flag"/>
+    <Bus Name="u_motor_control/u2_motor_drive/r_speed_overcnt" Radix="0">
+     <Sig Name="u_motor_control/u2_motor_drive/r_speed_overcnt:0"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_speed_overcnt:1"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_speed_overcnt:2"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_speed_overcnt:3"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_speed_overcnt:4"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_speed_overcnt:5"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_speed_overcnt:6"/>
+     <Sig Name="u_motor_control/u2_motor_drive/r_speed_overcnt:7"/>
+    </Bus>
+    <Sig Name="u_motor_control/u2_motor_drive/r_speed_oversig"/>
+    <Bus Name="u_rotate_control/i_calib_mode" Radix="0">
+     <Sig Name="u_rotate_control/i_calib_mode:0"/>
+     <Sig Name="u_rotate_control/i_calib_mode:1"/>
+    </Bus>
+    <Sig Name="u_rotate_control/i_motor_state2"/>
+    <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/o_zero_sign"/>
+    <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/o_opto_rise"/>
+    <Bus Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt" Radix="0">
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:0"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:1"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:2"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:3"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:4"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:5"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:6"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:7"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:8"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:9"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:10"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:11"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:12"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:13"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:14"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:15"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:16"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:17"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:18"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:19"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:20"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:21"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:22"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:23"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:24"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:25"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:26"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:27"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:28"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:29"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:30"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulsetime_actcnt:31"/>
+    </Bus>
+    <Bus Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt" Radix="0">
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:0"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:1"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:2"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:3"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:4"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:5"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:6"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:7"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:8"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:9"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:10"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:11"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:12"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:13"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:14"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:15"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:16"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:17"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:18"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:19"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:20"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:21"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:22"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:23"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:24"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:25"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:26"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:27"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:28"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:29"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:30"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u2_encoder_calculate/r_pulse_time_prior_cnt:31"/>
+    </Bus>
+   </Trace>
+   <Trigger>
+    <TU Operator="0" Name="TU1" ID="1" Value="0011" Radix="0"/>
+    <TU Operator="0" Name="TU2" ID="2" Value="1" Radix="0"/>
+    <TU Operator="0" Name="TU3" ID="3" Value="0" Radix="0"/>
+    <TU Operator="0" Name="TU4" ID="4" Value="01" Radix="3"/>
+    <TU Operator="0" Name="TU5" ID="5" Value="1" Radix="0"/>
+    <TE Enable="1" Expression="TU1" Name="TE1" ID="1"/>
+    <TE Enable="0" Expression="TU2" Name="TE2" ID="2"/>
+    <TE Enable="0" Expression="TU3" Name="TE3" ID="3"/>
+    <TE Enable="0" Expression="TU4" Name="TE4" ID="4"/>
+    <TE Enable="0" Expression="TU5" Name="TE5" ID="5"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+</Project>

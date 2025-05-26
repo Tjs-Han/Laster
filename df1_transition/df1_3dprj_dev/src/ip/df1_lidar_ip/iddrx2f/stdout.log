@@ -1,0 +1,95 @@
+Running in Lattice mode
+
+                               Synplify Pro (R) 
+
+                Version U-2023.03L-SP1 for win64 - Aug 10, 2023 
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    D:\TOOL\LatticeDiamond\diamond\3.13\synpbase\bin64\mbin\synbatch.exe
+Install:     D:\TOOL\LatticeDiamond\diamond\3.13\synpbase
+Hostname:    FREE-FPGA
+Date:        Thu Apr 24 21:00:41 2025
+Version:     U-2023.03L-SP1
+
+Arguments:   -product synplify_base -batch D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/iddrx2f/syn_results/iddrx2f.prj
+ProductType: synplify_pro
+
+
+
+
+log file: "D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\syn_results\iddrx2f.srr"
+Running: syn_results in foreground
+
+Running iddrx2f|syn_results
+
+Running Flow: compile (Compile) on iddrx2f|syn_results
+# Thu Apr 24 21:00:42 2025
+
+Running Flow: compile_flow (Compile Process) on iddrx2f|syn_results
+# Thu Apr 24 21:00:42 2025
+
+Running: compiler (Compile Input) on iddrx2f|syn_results
+# Thu Apr 24 21:00:42 2025
+Copied D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\syn_results\synwork\iddrx2f_comp.srs to D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\syn_results\iddrx2f.srs
+
+compiler completed
+# Thu Apr 24 21:00:46 2025
+
+Return Code: 0
+Run Time:00h:00m:03s
+
+Running: multi_srs_gen (Multi-srs Generator) on iddrx2f|syn_results
+# Thu Apr 24 21:00:46 2025
+
+multi_srs_gen completed
+# Thu Apr 24 21:00:47 2025
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\syn_results\synwork\iddrx2f_mult.srs to D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\syn_results\iddrx2f.srs
+Copied D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\syn_results\iddrx2f.srr to D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\syn_results\iddrx2f.srf
+Complete: Compile Process on iddrx2f|syn_results
+
+Running: premap (Premap) on iddrx2f|syn_results
+# Thu Apr 24 21:00:47 2025
+
+premap completed with warnings
+# Thu Apr 24 21:00:49 2025
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Compile on iddrx2f|syn_results
+
+Running Flow: map (Map) on iddrx2f|syn_results
+# Thu Apr 24 21:00:49 2025
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on iddrx2f|syn_results
+# Thu Apr 24 21:00:49 2025
+Copied D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\syn_results\synwork\iddrx2f_m.srm to D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\syn_results\iddrx2f.srm
+
+fpga_mapper completed with warnings
+# Thu Apr 24 21:00:54 2025
+
+Return Code: 1
+Run Time:00h:00m:05s
+Complete: Map on iddrx2f|syn_results
+Copied D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\syn_results\iddrx2f.srr to D:\FreeWork\df1_second_round\df1_3dprj_dev\src\ip\df1_lidar_ip\iddrx2f\syn_results\iddrx2f.srf
+Complete: Logic Synthesis on iddrx2f|syn_results
+exit status=0
+exit status=0

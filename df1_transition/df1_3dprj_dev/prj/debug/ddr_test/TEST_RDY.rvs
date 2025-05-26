@@ -1,0 +1,220 @@
+<Project ModBy="Analyzer" Name="D:/FreeWork/df1/prj/debug/ddr_test/TEST_RDY.rvs" Date="2024-11-19">
+ <Core Name="ddr3_demo_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="4096" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Sig Name="w_init_start"/>
+    <Sig Name="w_init_done"/>
+    <Sig Name="w_rt_err"/>
+    <Bus Name="u2_ddr3_rw_ctrl/r_curr_state" Radix="0">
+     <Sig Name="u2_ddr3_rw_ctrl/r_curr_state:0"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_curr_state:1"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_curr_state:2"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_curr_state:3"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_curr_state:4"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_curr_state:5"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_curr_state:6"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_curr_state:7"/>
+    </Bus>
+    <Sig Name="u2_ddr3_rw_ctrl/i_cmd_rdy"/>
+    <Sig Name="u2_ddr3_rw_ctrl/r_cmd_valid"/>
+    <Bus Name="u2_ddr3_rw_ctrl/r_cmd" Radix="0">
+     <Sig Name="u2_ddr3_rw_ctrl/r_cmd:0"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_cmd:1"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_cmd:2"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_cmd:3"/>
+    </Bus>
+    <Bus Name="u2_ddr3_rw_ctrl/r_addr" Radix="0">
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:0"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:1"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:2"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:3"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:4"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:5"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:6"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:7"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:8"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:9"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:10"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:11"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:12"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:13"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:14"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:15"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:16"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:17"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:18"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:19"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:20"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:21"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:22"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:23"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:24"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:25"/>
+     <Sig Name="u2_ddr3_rw_ctrl/r_addr:26"/>
+    </Bus>
+    <Sig Name="u2_ddr3_rw_ctrl/i_datain_rdy"/>
+    <Bus Name="u2_ddr3_rw_ctrl/o_ddr3_wdata" Radix="0">
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:0"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:1"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:2"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:3"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:4"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:5"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:6"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:7"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:8"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:9"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:10"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:11"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:12"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:13"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:14"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:15"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:16"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:17"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:18"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:19"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:20"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:21"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:22"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:23"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:24"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:25"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:26"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:27"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:28"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:29"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:30"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:31"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:32"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:33"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:34"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:35"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:36"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:37"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:38"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:39"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:40"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:41"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:42"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:43"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:44"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:45"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:46"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:47"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:48"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:49"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:50"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:51"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:52"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:53"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:54"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:55"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:56"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:57"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:58"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:59"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:60"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:61"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:62"/>
+     <Sig Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:63"/>
+    </Bus>
+    <Sig Name="u2_ddr3_rw_ctrl/i_rdata_valid"/>
+    <Bus Name="u2_ddr3_rw_ctrl/i_rdata" Radix="0">
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:0"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:1"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:2"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:3"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:4"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:5"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:6"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:7"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:8"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:9"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:10"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:11"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:12"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:13"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:14"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:15"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:16"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:17"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:18"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:19"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:20"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:21"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:22"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:23"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:24"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:25"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:26"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:27"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:28"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:29"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:30"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:31"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:32"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:33"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:34"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:35"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:36"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:37"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:38"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:39"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:40"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:41"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:42"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:43"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:44"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:45"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:46"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:47"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:48"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:49"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:50"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:51"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:52"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:53"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:54"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:55"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:56"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:57"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:58"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:59"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:60"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:61"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:62"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_rdata:63"/>
+    </Bus>
+    <Sig Name="u2_ddr3_rw_ctrl/i_wrfifo_en"/>
+    <Bus Name="u2_ddr3_rw_ctrl/i_wrfifo_data" Radix="0">
+     <Sig Name="u2_ddr3_rw_ctrl/i_wrfifo_data:0"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_wrfifo_data:1"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_wrfifo_data:2"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_wrfifo_data:3"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_wrfifo_data:4"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_wrfifo_data:5"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_wrfifo_data:6"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_wrfifo_data:7"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_wrfifo_data:8"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_wrfifo_data:9"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_wrfifo_data:10"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_wrfifo_data:11"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_wrfifo_data:12"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_wrfifo_data:13"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_wrfifo_data:14"/>
+     <Sig Name="u2_ddr3_rw_ctrl/i_wrfifo_data:15"/>
+    </Bus>
+   </Trace>
+   <Trigger>
+    <TU Operator="0" Name="TU1" ID="1" Value="1" Radix="0"/>
+    <TE Enable="1" Expression="TU1" Name="TE1" ID="1"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+</Project>

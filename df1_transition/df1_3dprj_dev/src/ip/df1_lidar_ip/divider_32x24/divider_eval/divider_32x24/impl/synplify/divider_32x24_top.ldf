@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="2.0" title="divider_32x24_top" device="LFE5U-45F-7BG256I" synthesis="synplify" default_implementation="divider_32x24_top">
+    <Implementation title="divider_32x24_top" dir="divider_32x24_top" description="divider_32x24_top" default_strategy="divider_32x24_top">
+        <Options>
+            <Option name="HDL type" value="Verilog"/>
+            <Option name="top" value="divider_32x24_top"/>
+        </Options>
+        <Source name="../../../../divider_32x24_bb.v" type="Verilog"/>
+        <Source name="../../src/rtl/top/ecp5u/divider_32x24_top.v" type="Verilog"/>
+        <Source name="divider_32x24_top.lpf" type="Logic Preference"/>
+    </Implementation>
+    <Strategy name="divider_32x24_top" file="divider_32x24_top.sty"/>
+</BaliProject>

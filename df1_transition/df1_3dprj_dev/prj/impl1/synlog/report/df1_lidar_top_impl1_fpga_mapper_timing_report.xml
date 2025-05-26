@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\FreeWork\df1_second_round\df1_3dprj_dev\prj\impl1\synlog\df1_lidar_top_impl1_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>ddr3_sdram_mem_top_ddr3_ipcore_uniq_1|sclk</data>
+<data>200.0 MHz</data>
+<data>235.4 MHz</data>
+<data>0.751</data>
+</row>
+<row>
+<data>df1_lidar_top|w_pll_100m</data>
+<data>200.0 MHz</data>
+<data>110.4 MHz</data>
+<data>-4.062</data>
+</row>
+<row>
+<data>eth_pll_uniq_1|CLKOS_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>226.0 MHz</data>
+<data>0.576</data>
+</row>
+<row>
+<data>i_clk_50m</data>
+<data>50.0 MHz</data>
+<data>157.2 MHz</data>
+<data>13.639</data>
+</row>
+<row>
+<data>i_ddrclk_100m</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>i_ethphy_refclk</data>
+<data>50.0 MHz</data>
+<data>241.1 MHz</data>
+<data>15.851</data>
+</row>
+<row>
+<data>i_tdc1_lvds_serclk</data>
+<data>300.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>i_tdc2_lvds_serclk</data>
+<data>300.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>iddrx2f_uniq_1|sclk_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>219.1 MHz</data>
+<data>0.436</data>
+</row>
+<row>
+<data>iddrx2f_uniq_2|sclk_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>240.5 MHz</data>
+<data>0.843</data>
+</row>
+<row>
+<data>pll_uniq_1|CLKOS2_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>267.3 MHz</data>
+<data>1.260</data>
+</row>
+<row>
+<data>reveal_coretop|jtck_inferred_clock[0]</data>
+<data>200.0 MHz</data>
+<data>179.8 MHz</data>
+<data>-0.562</data>
+</row>
+<row>
+<data>w_pll_50m</data>
+<data>50.0 MHz</data>
+<data>124.4 MHz</data>
+<data>11.963</data>
+</row>
+<row>
+<data>System</data>
+<data>200.0 MHz</data>
+<data>646.0 MHz</data>
+<data>3.452</data>
+</row>
+</report_table>

@@ -1,0 +1,70 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: D:\TOOL\LatticeDiamond\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FREE-FPGA
+
+Implementation : impl1
+
+# Written on Tue Dec 17 19:14:25 2024
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "D:\FreeWork\df1_demo\df1_lidar_top\prj\df1_lidar.sdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                   Requested     Requested     Clock        Clock                       Clock
+Level     Clock                                   Frequency     Period        Type         Group                       Load 
+----------------------------------------------------------------------------------------------------------------------------
+0 -       w_pll_100m                              100.0 MHz     10.000        declared     default_clkgroup            6973 
+                                                                                                                            
+0 -       w_pll_50m                               50.0 MHz      20.000        declared     default_clkgroup            1531 
+                                                                                                                            
+0 -       ddr3_sdram_mem_top_ddr3_ipcore|sclk     1.0 MHz       1000.000      inferred     Autoconstr_clkgroup_0_5     527  
+                                                                                                                            
+0 -       df1_lidar_top|i_gpx2_lvds_lclkout       1.0 MHz       1000.000      inferred     Autoconstr_clkgroup_0_2     123  
+                                                                                                                            
+0 -       eth_pll|CLKOS_inferred_clock            1.0 MHz       1000.000      inferred     Autoconstr_clkgroup_0_3     72   
+                                                                                                                            
+0 -       df1_lidar_top|i_ethphy_refclk           1.0 MHz       1000.000      inferred     Autoconstr_clkgroup_0_4     35   
+                                                                                                                            
+0 -       df1_lidar_top|i_clk_50m                 1.0 MHz       1000.000      inferred     Autoconstr_clkgroup_0_1     21   
+============================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                        Clock     Source                                                             Clock Pin                                                        Non-clock Pin     Non-clock Pin               
+Clock                                   Load      Pin                                                                Seq Example                                                      Seq Example       Comb Example                
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+w_pll_100m                              6973      u_pll.PLLInst_0.CLKOS(EHXPLLL)                                     r_dist_rstn.C                                                    -                 o_gpx2_lvds_lclkin.I[0](and)
+                                                                                                                                                                                                                                    
+w_pll_50m                               1531      u_pll.PLLInst_0.CLKOP(EHXPLLL)                                     u_HV_control.r_sample_cnt[25:0].C                                -                 -                           
+                                                                                                                                                                                                                                    
+ddr3_sdram_mem_top_ddr3_ipcore|sclk     527       u_ddr3.ddr3_ipcore_inst.U1_clocking.sclk(ddr_clks_ddr3_ipcore)     u2_ddr3_interface.u2_ddr_round_robin.r_ddr2para_data[63:0].C     -                 -                           
+                                                                                                                                                                                                                                    
+df1_lidar_top|i_gpx2_lvds_lclkout       123       i_gpx2_lvds_lclkout(port)                                          u_gpx2_control_wrapper.r1_lvds_frame[0].C                        -                 -                           
+                                                                                                                                                                                                                                    
+eth_pll|CLKOS_inferred_clock            72        u_eth_top.u_eth_pll.PLLInst_0.CLKOS(EHXPLLL)                       u_eth_top.u_rmii_top.u_rmii_tx.o_ethphy_txen.C                   -                 -                           
+                                                                                                                                                                                                                                    
+df1_lidar_top|i_ethphy_refclk           35        i_ethphy_refclk(port)                                              u_eth_top.u_rmii_top.u_rmii_rx.r_rmii_rxd[1:0].C                 -                 -                           
+                                                                                                                                                                                                                                    
+df1_lidar_top|i_clk_50m                 21        i_clk_50m(port)                                                    r_ddrrst_n.C                                                     -                 -                           
+====================================================================================================================================================================================================================================

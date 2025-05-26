@@ -1,0 +1,216 @@
+<Project ModBy="Inserter" Name="D:/FreeWork/df1_demo/df1_lidar_top/prj/debug/ddr_interface/dist/debug.rvl" Date="2024-12-19">
+    <Core Name="df1_lidar_top_LA0">
+        <Setting>
+            <Capture SamplesPerTrig="2048" NumTrigsCap="1"/>
+            <Event EventCnt="0" CntEnableRun="0"/>
+            <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_discal_flag"/>
+                <Sig Name="w_parainit_done"/>
+                <Sig Name="u_dist/i_rssi_switch"/>
+                <Sig Name="u_dist/u_dist_calculate/u1_data_pre/i_tdc_newsig"/>
+                <Sig Name="u_dist/u_dist_calculate/u1_data_pre/o_dist_precal_sig"/>
+                <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_dist_precal_sig"/>
+                <Bus Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data" Radix="0">
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:0"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:1"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:2"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:3"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:4"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:5"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:6"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:7"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:8"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:9"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:10"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:11"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:12"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:13"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:14"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:15"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:16"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:17"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:18"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:19"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:20"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:21"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:22"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:23"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:24"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:25"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:26"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:27"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:28"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:29"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:30"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/i_pulse_data:31"/>
+                </Bus>
+                <Bus Name="u_dist/u_dist_calculate/u2_index_cal/r_index_state" Radix="0">
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/r_index_state:0"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/r_index_state:1"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/r_index_state:2"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/r_index_state:3"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/r_index_state:4"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/r_index_state:5"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/r_index_state:6"/>
+                    <Sig Name="u_dist/u_dist_calculate/u2_index_cal/r_index_state:7"/>
+                </Bus>
+                <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_empty"/>
+                <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/o_fifo_rden"/>
+                <Bus Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata" Radix="0">
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:0"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:1"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:2"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:3"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:4"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:5"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:6"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:7"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:8"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:9"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:10"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:11"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:12"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:13"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:14"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:15"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:16"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:17"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:18"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:19"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:20"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:21"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:22"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:23"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:24"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:25"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:26"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:27"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:28"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:29"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:30"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:31"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:32"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:33"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:34"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:35"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:36"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:37"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:38"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:39"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:40"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:41"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:42"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:43"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:44"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:45"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:46"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:47"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:48"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:49"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:50"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:51"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:52"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:53"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:54"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:55"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:56"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:57"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:58"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:59"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:60"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:61"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:62"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/i_fifo_rddata:63"/>
+                </Bus>
+                <Bus Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data" Radix="0">
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:0"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:1"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:2"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:3"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:4"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:5"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:6"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:7"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:8"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:9"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:10"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:11"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:12"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:13"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:14"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:15"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:16"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:17"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:18"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:19"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:20"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:21"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:22"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:23"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:24"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:25"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:26"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:27"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:28"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:29"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:30"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_data:31"/>
+                </Bus>
+                <Bus Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_state" Radix="0">
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_state:0"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_state:1"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_state:2"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_state:3"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_state:4"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_state:5"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_state:6"/>
+                    <Sig Name="u_dist/u_dist_calculate/u3_dist_cal/r_dist_state:7"/>
+                </Bus>
+                <Sig Name="u_dist/u_dist_calculate/o_dist_newsig"/>
+                <Bus Name="u_dist/u_dist_calculate/o_dist_data" Radix="0">
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:0"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:1"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:2"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:3"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:4"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:5"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:6"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:7"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:8"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:9"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:10"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:11"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:12"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:13"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:14"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:15"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:16"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:17"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:18"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:19"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:20"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:21"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:22"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:23"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:24"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:25"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:26"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:27"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:28"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:29"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:30"/>
+                    <Sig Name="u_dist/u_dist_calculate/o_dist_data:31"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU Operator="0" Name="TU1" ID="1" Value="01" Radix="3"/>
+                <TU Operator="0" Name="TU2" ID="2" Value="0" Radix="0"/>
+                <TE Enable="1" Expression="TU1" Name="TE1" ID="1"/>
+                <TE Enable="0" Expression="TU2" Name="TE2" ID="2"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

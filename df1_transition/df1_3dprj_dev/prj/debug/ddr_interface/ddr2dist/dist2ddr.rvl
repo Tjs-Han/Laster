@@ -1,0 +1,188 @@
+<Project ModBy="Inserter" SigType="0" Name="D:/FreeWork/df1_demo/df1_lidar_top/prj/debug/ddr_interface/ddr2dist/dist2ddr.rvl" Date="2025-02-11">
+    <IP Version="1_6_042617"/>
+    <Design DesignEntry="Schematic/Verilog HDL" Synthesis="synplify" DeviceFamily="ECP5U" DesignName="df1_lidar_top"/>
+    <Core InsertDataset="0" Insert="1" Reveal_sig="613853983" Name="df1_lidar_top_LA0" ID="0">
+        <Setting>
+            <Clock SampleClk="w_sclk" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
+            <TraceBuffer Implementation="0" BitTimeStamp="0" hasTimeStamp="0" IncTrigSig="0" BufferDepth="4096"/>
+            <Capture Mode="0" MinSamplesPerTrig="16"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut Polarity="0" MinPulseWidth="0" TrigOutNetType="1" EnableTrigOut="0" TrigOutNet="reveal_debug_df1_lidar_top_LA0_net"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Type="SIG" Name="w_angle_sync"/>
+                <Sig Type="SIG" Name="w_gpx2_signal"/>
+                <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_dist2ddr_rden"/>
+                <Sig Type="SIG" Name="u2_ddr3_interface/i_cmd_rdy"/>
+                <Sig Type="SIG" Name="u2_ddr3_interface/o_cmd_valid"/>
+                <Sig Type="SIG" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/w_cmd_gone"/>
+                <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_rdata_valid"/>
+                <Bus Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata">
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:0"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:1"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:2"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:3"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:4"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:5"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:6"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:7"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:8"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:9"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:10"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:11"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:12"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:13"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:14"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:15"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:16"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:17"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:18"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:19"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:20"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:21"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:22"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:23"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:24"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:25"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:26"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:27"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:28"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:29"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:30"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:31"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:32"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:33"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:34"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:35"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:36"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:37"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:38"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:39"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:40"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:41"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:42"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:43"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:44"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:45"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:46"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:47"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:48"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:49"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:50"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:51"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:52"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:53"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:54"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:55"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:56"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:57"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:58"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:59"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:60"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:61"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:62"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr_rdata:63"/>
+                </Bus>
+                <Bus Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_cmd">
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_cmd:0"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_cmd:1"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_cmd:2"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_cmd:3"/>
+                </Bus>
+                <Bus Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_req_type">
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_req_type:0"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_req_type:1"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_req_type:2"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/o_req_type:3"/>
+                </Bus>
+                <Bus Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state">
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:0"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:1"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:2"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:3"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:4"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:5"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:6"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:7"/>
+                </Bus>
+                <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wren_dist"/>
+                <Bus Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data">
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:0"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:1"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:2"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:3"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:4"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:5"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:6"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:7"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:8"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:9"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:10"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:11"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:12"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:13"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:14"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:15"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:16"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:17"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:18"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:19"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:20"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:21"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:22"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:23"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:24"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:25"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:26"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:27"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:28"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:29"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:30"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:31"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:32"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:33"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:34"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:35"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:36"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:37"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:38"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:39"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:40"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:41"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:42"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:43"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:44"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:45"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:46"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:47"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:48"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:49"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:50"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:51"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:52"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:53"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:54"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:55"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:56"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:57"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:58"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:59"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:60"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:61"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:62"/>
+                    <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/r_ddr2dist_data:63"/>
+                </Bus>
+                <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/o_ddr2dist_fifo_empty"/>
+                <Sig Type="SIG" Name="u2_ddr3_interface/u2_ddr_round_robin/i_ddr2dist_fifo_rden"/>
+            </Trace>
+            <Trigger>
+                <TU Serialbits="0" Type="0" ID="1" Sig="(BUS)u_dist/u_dist_calculate/u3_dist_cal/r_dist_state[7:0],"/>
+                <TU Serialbits="0" Type="0" ID="2" Sig="(BUS)u_dist/u_dist_calculate/u2_index_cal/r_index_state[7:0],"/>
+                <TE MaxSequence="1" MaxEvnCnt="1" ID="1" Resource="1"/>
+                <TE MaxSequence="1" MaxEvnCnt="1" ID="2" Resource="1"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

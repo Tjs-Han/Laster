@@ -1,0 +1,94 @@
+<!DOCTYPE ispTLA>
+<ispTLA>
+ <CreationDate>???? 11?? 13 17:14:03 2024</CreationDate>
+ <XCFFileName/>
+ <CableSetting>
+  <IsTRSTConnected val="false"/>
+  <TRSTSetting val="0"/>
+  <IsBSCANConnected val="false"/>
+  <BSCANSetting val="0"/>
+  <CableType val="USB"/>
+  <PortAddress val="0"/>
+  <PortSetting val="0"/>
+  <TCKDelay val="1"/>
+ </CableSetting>
+ <DeviceCount>1</DeviceCount>
+ <Device>
+  <DeviceIndex>0</DeviceIndex>
+  <DeviceName>1. LFE5U-45F</DeviceName>
+  <DeviceID>0x41112043</DeviceID>
+  <HasIspTRACY>true</HasIspTRACY>
+  <HasJTAG2WB>false</HasJTAG2WB>
+  <SERDES/>
+  <IRBypassLen>8</IRBypassLen>
+  <RVLFileName>debug.rvl</RVLFileName>
+  <RVSFileName>debug.rvs</RVSFileName>
+  <LACoreCount>1</LACoreCount>
+  <WinUI CoreIndex="0">
+   <TraceSigTreeData>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_apdhv_base" NodeType="1" PortIndex="0">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_apdhv_base:0" NodeType="2" PortIndex="0"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_apdhv_base:1" NodeType="2" PortIndex="1"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_apdhv_base:2" NodeType="2" PortIndex="2"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_apdhv_base:3" NodeType="2" PortIndex="3"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_apdhv_base:4" NodeType="2" PortIndex="4"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_apdhv_base:5" NodeType="2" PortIndex="5"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_apdhv_base:6" NodeType="2" PortIndex="6"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_apdhv_base:7" NodeType="2" PortIndex="7"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_apdhv_base:8" NodeType="2" PortIndex="8"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_apdhv_base:9" NodeType="2" PortIndex="9"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_apdhv_base:10" NodeType="2" PortIndex="10"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_apdhv_base:11" NodeType="2" PortIndex="11"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_apdhv_base:12" NodeType="2" PortIndex="12"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_apdhv_base:13" NodeType="2" PortIndex="13"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_apdhv_base:14" NodeType="2" PortIndex="14"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_apdhv_base:15" NodeType="2" PortIndex="15"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_temp_base" NodeType="1" PortIndex="16">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_temp_base:0" NodeType="2" PortIndex="16"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_temp_base:1" NodeType="2" PortIndex="17"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_temp_base:2" NodeType="2" PortIndex="18"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_temp_base:3" NodeType="2" PortIndex="19"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_temp_base:4" NodeType="2" PortIndex="20"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_temp_base:5" NodeType="2" PortIndex="21"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_temp_base:6" NodeType="2" PortIndex="22"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_temp_base:7" NodeType="2" PortIndex="23"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_temp_base:8" NodeType="2" PortIndex="24"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_temp_base:9" NodeType="2" PortIndex="25"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_temp_base:10" NodeType="2" PortIndex="26"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_temp_base:11" NodeType="2" PortIndex="27"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_temp_base:12" NodeType="2" PortIndex="28"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_temp_base:13" NodeType="2" PortIndex="29"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_temp_base:14" NodeType="2" PortIndex="30"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_temp_temp_base:15" NodeType="2" PortIndex="31"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_hvcp_switch" NodeType="0" PortIndex="32"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/i_dicp_switch" NodeType="0" PortIndex="33"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value" NodeType="1" PortIndex="34">
+     <BusRadix Radix="2"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:0" NodeType="2" PortIndex="34"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:1" NodeType="2" PortIndex="35"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:2" NodeType="2" PortIndex="36"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:3" NodeType="2" PortIndex="37"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:4" NodeType="2" PortIndex="38"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:5" NodeType="2" PortIndex="39"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:6" NodeType="2" PortIndex="40"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:7" NodeType="2" PortIndex="41"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:8" NodeType="2" PortIndex="42"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/u_hvpwm_ctrl/r_pwm_value:9" NodeType="2" PortIndex="43"/>
+    <TraceSignal IsHidden="false" Name="u_HV_control/u3/i_dac_set_sig" NodeType="0" PortIndex="44"/>
+   </TraceSigTreeData>
+   <TriggerUI UserSelect="0" PreSelectType="0" PreSelect="1" UserSelectPos="0"/>
+   <CoreRun Run="true"/>
+   <CoreWndUIData>
+    <ClockFrequency Unit="ns" Frequency="-1.0"/>
+   </CoreWndUIData>
+  </WinUI>
+ </Device>
+</ispTLA>

@@ -1,0 +1,99 @@
+<Project ModBy="Inserter" SigType="0" Name="D:/FreeWork/df1_demo/df1_lidar_top/prj/debug/UDP/debug.rvl" Date="2024-12-03">
+    <IP Version="1_6_042617"/>
+    <Design DesignEntry="Schematic/Verilog HDL" Synthesis="synplify" DeviceFamily="ECP5U" DesignName="df1_lidar_top"/>
+    <Core InsertDataset="0" Insert="1" Reveal_sig="587668688" Name="df1_lidar_top_LA0" ID="0">
+        <Setting>
+            <Clock SampleClk="w_pll_100m" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
+            <TraceBuffer Implementation="0" BitTimeStamp="0" hasTimeStamp="0" IncTrigSig="0" BufferDepth="16384"/>
+            <Capture Mode="0" MinSamplesPerTrig="64"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut Polarity="0" MinPulseWidth="0" TrigOutNetType="1" EnableTrigOut="0" TrigOutNet="reveal_debug_df1_lidar_top_LA0_net"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_trig_tx_en"/>
+                <Bus Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state">
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state:0"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state:1"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state:2"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state:3"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state:4"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state:5"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state:6"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state:7"/>
+                </Bus>
+                <Bus Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr">
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:0"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:1"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:2"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:3"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:4"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:5"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:6"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:7"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:8"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:9"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_txram_rdaddr:10"/>
+                </Bus>
+                <Bus Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata">
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata:0"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata:1"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata:2"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata:3"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata:4"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata:5"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata:6"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/i_udp_txdata:7"/>
+                </Bus>
+                <Bus Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num">
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:0"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:1"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:2"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:3"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:4"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:5"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:6"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:7"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:8"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:9"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:10"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:11"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:12"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:13"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:14"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_total_num:15"/>
+                </Bus>
+                <Bus Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num">
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:0"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:1"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:2"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:3"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:4"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:5"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:6"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:7"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:8"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:9"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:10"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:11"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:12"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:13"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:14"/>
+                    <Sig Type="SIG" Name="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_udp_num:15"/>
+                </Bus>
+                <Sig Type="SIG" Name="u_eth_top/o_ethphy_txen"/>
+                <Bus Name="u_eth_top/o_ethphy_txd">
+                    <Sig Type="SIG" Name="u_eth_top/o_ethphy_txd:0"/>
+                    <Sig Type="SIG" Name="u_eth_top/o_ethphy_txd:1"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU Serialbits="0" Type="0" ID="1" Sig="(BUS)u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_next_state[7:0],"/>
+                <TU Serialbits="0" Type="0" ID="2" Sig="u_eth_top/u_ip_top/u_udp_top/u_udp_tx/r_trig_tx_en,"/>
+                <TE MaxSequence="1" MaxEvnCnt="1" ID="1" Resource="1"/>
+                <TE MaxSequence="2" MaxEvnCnt="1" ID="2" Resource="0"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

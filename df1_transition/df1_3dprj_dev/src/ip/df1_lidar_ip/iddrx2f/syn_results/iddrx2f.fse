@@ -1,0 +1,16 @@
+
+fsm_encoding {724702471} onehot
+
+fsm_state_encoding {724702471} UPDATE {000001}
+
+fsm_state_encoding {724702471} READY {000010}
+
+fsm_state_encoding {724702471} UDDCNTLN {000100}
+
+fsm_state_encoding {724702471} FREEZE {001000}
+
+fsm_state_encoding {724702471} STOP {010000}
+
+fsm_state_encoding {724702471} RESET {100000}
+
+fsm_registers {724702471} {cs_rx_sync[5]}  {cs_rx_sync[4]}  {cs_rx_sync[3]}  {cs_rx_sync[2]}  {cs_rx_sync[1]}  {cs_rx_sync[0]} 

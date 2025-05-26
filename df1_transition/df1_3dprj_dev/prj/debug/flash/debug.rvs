@@ -1,0 +1,110 @@
+<Project ModBy="Analyzer" Name="D:/FreeWork/df1/prj/debug/flash/debug.rvs" Date="2024-11-22">
+ <Core Name="df1_lidar_top_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="8192" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_write_flag"/>
+    <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_parameter_sig"/>
+    <Sig Name="u_flash_control/i_parameter_sig"/>
+    <Bus Name="u_flash_control/r_flash_state" Radix="0">
+     <Sig Name="u_flash_control/r_flash_state:0"/>
+     <Sig Name="u_flash_control/r_flash_state:1"/>
+     <Sig Name="u_flash_control/r_flash_state:2"/>
+     <Sig Name="u_flash_control/r_flash_state:3"/>
+     <Sig Name="u_flash_control/r_flash_state:4"/>
+     <Sig Name="u_flash_control/r_flash_state:5"/>
+     <Sig Name="u_flash_control/r_flash_state:6"/>
+     <Sig Name="u_flash_control/r_flash_state:7"/>
+     <Sig Name="u_flash_control/r_flash_state:8"/>
+     <Sig Name="u_flash_control/r_flash_state:9"/>
+     <Sig Name="u_flash_control/r_flash_state:10"/>
+     <Sig Name="u_flash_control/r_flash_state:11"/>
+     <Sig Name="u_flash_control/r_flash_state:12"/>
+     <Sig Name="u_flash_control/r_flash_state:13"/>
+     <Sig Name="u_flash_control/r_flash_state:14"/>
+     <Sig Name="u_flash_control/r_flash_state:15"/>
+     <Sig Name="u_flash_control/r_flash_state:16"/>
+     <Sig Name="u_flash_control/r_flash_state:17"/>
+     <Sig Name="u_flash_control/r_flash_state:18"/>
+     <Sig Name="u_flash_control/r_flash_state:19"/>
+     <Sig Name="u_flash_control/r_flash_state:20"/>
+     <Sig Name="u_flash_control/r_flash_state:21"/>
+     <Sig Name="u_flash_control/r_flash_state:22"/>
+     <Sig Name="u_flash_control/r_flash_state:23"/>
+    </Bus>
+    <Bus Name="u_flash_control/r_flash_cmd" Radix="0">
+     <Sig Name="u_flash_control/r_flash_cmd:0"/>
+     <Sig Name="u_flash_control/r_flash_cmd:1"/>
+     <Sig Name="u_flash_control/r_flash_cmd:2"/>
+     <Sig Name="u_flash_control/r_flash_cmd:3"/>
+     <Sig Name="u_flash_control/r_flash_cmd:4"/>
+     <Sig Name="u_flash_control/r_flash_cmd:5"/>
+     <Sig Name="u_flash_control/r_flash_cmd:6"/>
+     <Sig Name="u_flash_control/r_flash_cmd:7"/>
+    </Bus>
+    <Sig Name="u_flash_control/r_cmd_valid"/>
+    <Sig Name="u_flash_control/w_cmd_ack"/>
+    <Bus Name="u_flash_control/u_spi_flash_top/r_state" Radix="0">
+     <Sig Name="u_flash_control/u_spi_flash_top/r_state:0"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/r_state:1"/>
+    </Bus>
+    <Sig Name="u_flash_control/u_spi_flash_top/r_cmd_valid"/>
+    <Bus Name="u_flash_control/u_spi_flash_top/r_cmd" Radix="0">
+     <Sig Name="u_flash_control/u_spi_flash_top/r_cmd:0"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/r_cmd:1"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/r_cmd:2"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/r_cmd:3"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/r_cmd:4"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/r_cmd:5"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/r_cmd:6"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/r_cmd:7"/>
+    </Bus>
+    <Bus Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_state" Radix="0">
+     <Sig Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_state:0"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_state:1"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_state:2"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_state:3"/>
+    </Bus>
+    <Sig Name="u_flash_control/u_spi_flash_top/u_spi_cmd/o_cmd_ack"/>
+    <Bus Name="u_flash_control/u_spi_flash_top/o_data_out" Radix="0">
+     <Sig Name="u_flash_control/u_spi_flash_top/o_data_out:0"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/o_data_out:1"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/o_data_out:2"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/o_data_out:3"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/o_data_out:4"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/o_data_out:5"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/o_data_out:6"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/o_data_out:7"/>
+    </Bus>
+    <Sig Name="u_flash_control/u_spi_flash_top/o_spi_cs"/>
+    <Sig Name="u_flash_control/u_spi_flash_top/o_spi_dclk"/>
+    <Sig Name="u_flash_control/u_spi_flash_top/o_spi_mosi"/>
+    <Sig Name="u_flash_control/u_spi_flash_top/i_spi_miso"/>
+    <Bus Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt" Radix="0">
+     <Sig Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt:0"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt:1"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt:2"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt:3"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt:4"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt:5"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt:6"/>
+     <Sig Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt:7"/>
+    </Bus>
+   </Trace>
+   <Trigger>
+    <TU Operator="0" Name="TU1" ID="1" Value="1" Radix="0"/>
+    <TU Operator="0" Name="TU2" ID="2" Value="011" Radix="2"/>
+    <TU Operator="0" Name="TU3" ID="3" Value="000" Radix="2"/>
+    <TU Operator="0" Name="TU4" ID="4" Value="000200" Radix="3"/>
+    <TE Enable="1" Expression="TU1" Name="TE1" ID="1"/>
+    <TE Enable="0" Expression="TU2" Name="TE2" ID="2"/>
+    <TE Enable="0" Expression="TU3" Name="TE3" ID="3"/>
+    <TE Enable="0" Expression="TU4" Name="TE4" ID="4"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+</Project>

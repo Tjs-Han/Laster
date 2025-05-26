@@ -1,0 +1,26 @@
+SCUBA, Version Diamond (64-bit) 3.13.0.56.2
+Thu Oct 17 20:20:37 2024
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : D:\TOOL\LatticeDiamond\diamond\3.13\ispfpga\bin\nt64\scuba.exe -w -n eth_pll -lang verilog -synth synplify -bus_exp 7 -bb -arch sa5p00 -type pll -fin 50.00 -fclkop 50.00 -fclkop_tol 0.0 -fclkos 50.00 -fclkos_tol 0.0 -phases 90 -phase_cntl STATIC -fb_mode 1 -fdc D:/FreeWork/df1_demo/phy_develop/src/ip/df1_lidar_ip/eth_pll/eth_pll.fdc 
+    Circuit name     : eth_pll
+    Module type      : pll
+    Module Version   : 5.7
+    Ports            : 
+	Inputs       : CLKI
+	Outputs      : CLKOP, CLKOS
+    I/O buffer       : not inserted
+    EDIF output      : eth_pll.edn
+    Verilog output   : eth_pll.v
+    Verilog template : eth_pll_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : eth_pll.srp
+    Element Usage    :
+        EHXPLLL : 1
+    Estimated Resource Usage:

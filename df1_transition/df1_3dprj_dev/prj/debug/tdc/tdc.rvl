@@ -1,0 +1,263 @@
+<Project ModBy="Inserter" SigType="0" Name="D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/debug/tdc/tdc.rvl" Date="2025-05-07">
+    <IP Version="1_6_042617"/>
+    <Design DesignEntry="Schematic/Verilog HDL" Synthesis="synplify" DeviceFamily="ECP5U" DesignName="df1_lidar_top"/>
+    <Core InsertDataset="0" Insert="1" Reveal_sig="625925609" Name="df1_lidar_top_LA0" ID="0">
+        <Setting>
+            <Clock SampleClk="w_pll_100m" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
+            <TraceBuffer Implementation="0" BitTimeStamp="0" hasTimeStamp="0" IncTrigSig="0" BufferDepth="2048"/>
+            <Capture Mode="0" MinSamplesPerTrig="16"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut Polarity="0" MinPulseWidth="0" TrigOutNetType="1" EnableTrigOut="0" TrigOutNet="reveal_debug_df1_lidar_top_LA0_net"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Type="SIG" Name="w_laser_sync"/>
+                <Bus Name="o_laser_str">
+                    <Sig Type="SIG" Name="o_laser_str:0"/>
+                    <Sig Type="SIG" Name="o_laser_str:1"/>
+                    <Sig Type="SIG" Name="o_laser_str:2"/>
+                    <Sig Type="SIG" Name="o_laser_str:3"/>
+                    <Sig Type="SIG" Name="o_laser_str:4"/>
+                    <Sig Type="SIG" Name="o_laser_str:5"/>
+                    <Sig Type="SIG" Name="o_laser_str:6"/>
+                    <Sig Type="SIG" Name="o_laser_str:7"/>
+                </Bus>
+                <Sig Type="SIG" Name="u_mpt2042_top/u1_lvds_dec/w_comma_k"/>
+                <Bus Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout">
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout:0"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout:1"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout:2"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout:3"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout:4"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout:5"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout:6"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_lvds_dec/w_decode_dataout:7"/>
+                </Bus>
+                <Bus Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state">
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state:0"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state:1"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state:2"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state:3"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state:4"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state:5"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state:6"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_curr_state:7"/>
+                </Bus>
+                <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/i_lvdsfifo_empty"/>
+                <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_lvdsfifo_ren"/>
+                <Bus Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg">
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:0"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:1"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:2"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:3"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:4"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:5"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:6"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:7"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:8"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:9"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:10"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:11"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:12"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:13"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:14"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:15"/>
+                </Bus>
+                <Bus Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg">
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:0"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:1"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:2"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:3"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:4"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:5"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:6"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:7"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:8"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:9"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:10"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:11"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:12"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:13"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:14"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data_reg:15"/>
+                </Bus>
+                <Bus Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data">
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:0"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:1"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:2"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:3"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:4"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:5"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:6"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:7"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:8"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:9"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:10"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:11"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:12"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:13"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:14"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data:15"/>
+                </Bus>
+                <Bus Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data">
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:0"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:1"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:2"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:3"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:4"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:5"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:6"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:7"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:8"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:9"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:10"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:11"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:12"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:13"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:14"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_fall_data:15"/>
+                </Bus>
+                <Sig Type="SIG" Name="u_mpt2042_top/u1_mpt2042_dataprc/r_measure_fail"/>
+                <Sig Type="SIG" Name="u_mpt2042_top/u2_lvds_dec/w_comma_k"/>
+                <Bus Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout">
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout:0"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout:1"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout:2"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout:3"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout:4"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout:5"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout:6"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_lvds_dec/w_decode_dataout:7"/>
+                </Bus>
+                <Bus Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state">
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state:0"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state:1"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state:2"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state:3"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state:4"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state:5"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state:6"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_curr_state:7"/>
+                </Bus>
+                <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/i_lvdsfifo_empty"/>
+                <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_lvdsfifo_ren"/>
+                <Bus Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg">
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:0"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:1"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:2"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:3"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:4"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:5"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:6"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:7"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:8"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:9"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:10"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:11"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:12"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:13"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:14"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:15"/>
+                </Bus>
+                <Bus Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg">
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:0"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:1"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:2"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:3"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:4"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:5"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:6"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:7"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:8"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:9"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:10"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:11"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:12"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:13"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:14"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data_reg:15"/>
+                </Bus>
+                <Bus Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data">
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:0"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:1"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:2"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:3"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:4"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:5"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:6"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:7"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:8"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:9"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:10"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:11"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:12"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:13"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:14"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data:15"/>
+                </Bus>
+                <Bus Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data">
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:0"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:1"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:2"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:3"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:4"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:5"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:6"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:7"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:8"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:9"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:10"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:11"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:12"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:13"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:14"/>
+                    <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_fall_data:15"/>
+                </Bus>
+                <Sig Type="SIG" Name="u_mpt2042_top/u2_mpt2042_dataprc/r_measure_fail"/>
+                <Sig Type="SIG" Name="u_mpt2042_top/i_tdc_strdy"/>
+                <Sig Type="SIG" Name="w_tdc_sig"/>
+                <Bus Name="w_tdc_rdata">
+                    <Sig Type="SIG" Name="w_tdc_rdata:0"/>
+                    <Sig Type="SIG" Name="w_tdc_rdata:1"/>
+                    <Sig Type="SIG" Name="w_tdc_rdata:2"/>
+                    <Sig Type="SIG" Name="w_tdc_rdata:3"/>
+                    <Sig Type="SIG" Name="w_tdc_rdata:4"/>
+                    <Sig Type="SIG" Name="w_tdc_rdata:5"/>
+                    <Sig Type="SIG" Name="w_tdc_rdata:6"/>
+                    <Sig Type="SIG" Name="w_tdc_rdata:7"/>
+                    <Sig Type="SIG" Name="w_tdc_rdata:8"/>
+                    <Sig Type="SIG" Name="w_tdc_rdata:9"/>
+                    <Sig Type="SIG" Name="w_tdc_rdata:10"/>
+                    <Sig Type="SIG" Name="w_tdc_rdata:11"/>
+                    <Sig Type="SIG" Name="w_tdc_rdata:12"/>
+                    <Sig Type="SIG" Name="w_tdc_rdata:13"/>
+                    <Sig Type="SIG" Name="w_tdc_rdata:14"/>
+                    <Sig Type="SIG" Name="w_tdc_rdata:15"/>
+                </Bus>
+                <Bus Name="w_tdc_fdata">
+                    <Sig Type="SIG" Name="w_tdc_fdata:0"/>
+                    <Sig Type="SIG" Name="w_tdc_fdata:1"/>
+                    <Sig Type="SIG" Name="w_tdc_fdata:2"/>
+                    <Sig Type="SIG" Name="w_tdc_fdata:3"/>
+                    <Sig Type="SIG" Name="w_tdc_fdata:4"/>
+                    <Sig Type="SIG" Name="w_tdc_fdata:5"/>
+                    <Sig Type="SIG" Name="w_tdc_fdata:6"/>
+                    <Sig Type="SIG" Name="w_tdc_fdata:7"/>
+                    <Sig Type="SIG" Name="w_tdc_fdata:8"/>
+                    <Sig Type="SIG" Name="w_tdc_fdata:9"/>
+                    <Sig Type="SIG" Name="w_tdc_fdata:10"/>
+                    <Sig Type="SIG" Name="w_tdc_fdata:11"/>
+                    <Sig Type="SIG" Name="w_tdc_fdata:12"/>
+                    <Sig Type="SIG" Name="w_tdc_fdata:13"/>
+                    <Sig Type="SIG" Name="w_tdc_fdata:14"/>
+                    <Sig Type="SIG" Name="w_tdc_fdata:15"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU Serialbits="0" Type="0" ID="1" Sig="w_laser_sync,"/>
+                <TE MaxSequence="1" MaxEvnCnt="1" ID="1" Resource="1"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

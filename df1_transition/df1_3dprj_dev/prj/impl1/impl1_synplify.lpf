@@ -1,0 +1,47 @@
+#
+# Logical Preferences generated for Lattice by Synplify map202303lat, Build 132R.
+#
+
+# Period Constraints 
+FREQUENCY NET "w_pll_50m" 50.0 MHz;
+FREQUENCY NET "w_pll_100m" 100.0 MHz;
+#FREQUENCY PORT "i_clk_50m" 1.0 MHz;
+#FREQUENCY PORT "i_gpx2_lvds_lclkout" 1.0 MHz;
+#FREQUENCY NET "u_eth_top/u_eth_pll/w_ethphy_refclk_90" 1.0 MHz;
+#FREQUENCY PORT "i_ethphy_refclk" 1.0 MHz;
+#FREQUENCY NET "u_ddr3/ddr3_ipcore_inst/w_sclk" 1.0 MHz;
+
+
+# Output Constraints 
+
+# Input Constraints 
+
+# Point-to-point Delay Constraints 
+
+
+
+# Block Path Constraints 
+#BLOCK PATH FROM CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk" TO CLKNET "i_ethphy_refclk_c";
+#BLOCK PATH FROM CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk" TO CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90";
+#BLOCK PATH FROM CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk" TO CLKNET "i_gpx2_lvds_lclkout_c";
+#BLOCK PATH FROM CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk" TO CLKNET "i_clk_50m_c";
+#BLOCK PATH FROM CLKNET "i_ethphy_refclk_c" TO CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk";
+#BLOCK PATH FROM CLKNET "i_ethphy_refclk_c" TO CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90";
+#BLOCK PATH FROM CLKNET "i_ethphy_refclk_c" TO CLKNET "i_gpx2_lvds_lclkout_c";
+#BLOCK PATH FROM CLKNET "i_ethphy_refclk_c" TO CLKNET "i_clk_50m_c";
+#BLOCK PATH FROM CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90" TO CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk";
+#BLOCK PATH FROM CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90" TO CLKNET "i_ethphy_refclk_c";
+#BLOCK PATH FROM CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90" TO CLKNET "i_gpx2_lvds_lclkout_c";
+#BLOCK PATH FROM CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90" TO CLKNET "i_clk_50m_c";
+#BLOCK PATH FROM CLKNET "i_gpx2_lvds_lclkout_c" TO CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk";
+#BLOCK PATH FROM CLKNET "i_gpx2_lvds_lclkout_c" TO CLKNET "i_ethphy_refclk_c";
+#BLOCK PATH FROM CLKNET "i_gpx2_lvds_lclkout_c" TO CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90";
+#BLOCK PATH FROM CLKNET "i_gpx2_lvds_lclkout_c" TO CLKNET "i_clk_50m_c";
+#BLOCK PATH FROM CLKNET "i_clk_50m_c" TO CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk";
+#BLOCK PATH FROM CLKNET "i_clk_50m_c" TO CLKNET "i_ethphy_refclk_c";
+#BLOCK PATH FROM CLKNET "i_clk_50m_c" TO CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90";
+#BLOCK PATH FROM CLKNET "i_clk_50m_c" TO CLKNET "i_gpx2_lvds_lclkout_c";
+
+BLOCK ASYNCPATHS;
+
+# End of generated Logical Preferences.

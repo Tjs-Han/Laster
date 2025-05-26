@@ -1,0 +1,105 @@
+#
+# Logical Preferences generated for Lattice by Synplify map202303lat, Build 132R.
+#
+
+# Period Constraints 
+FREQUENCY PORT "i_clk_50m" 50.0 MHz;
+FREQUENCY PORT "i_ddrclk_100m" 100.0 MHz;
+FREQUENCY PORT "i_ethphy_refclk" 50.0 MHz;
+FREQUENCY PORT "i_tdc1_lvds_serclk" 300.0 MHz;
+FREQUENCY PORT "i_tdc2_lvds_serclk" 300.0 MHz;
+FREQUENCY NET "w_pll_50m" 50.0 MHz;
+#FREQUENCY NET "u_pll/w_pll_150m" 200.0 MHz;
+#FREQUENCY NET "w_pll_100m" 200.0 MHz;
+#FREQUENCY NET "df1_lidar_top_reveal_coretop_instance/jtck[0]" 200.0 MHz;
+#FREQUENCY NET "u2_iddr_tdc2/w_iddr_sclk2" 200.0 MHz;
+#FREQUENCY NET "u1_iddr_tdc1/w_iddr_sclk1" 200.0 MHz;
+#FREQUENCY NET "u_eth_top/u_eth_pll/w_ethphy_refclk_90" 200.0 MHz;
+#FREQUENCY NET "u_ddr3/ddr3_ipcore_inst/w_sclk" 200.0 MHz;
+
+
+# Output Constraints 
+
+# Input Constraints 
+
+# Point-to-point Delay Constraints 
+
+
+
+# Block Path Constraints 
+#BLOCK PATH FROM CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk" TO CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90";
+#BLOCK PATH FROM CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk" TO CLKNET "u1_iddr_tdc1/w_iddr_sclk1";
+#BLOCK PATH FROM CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk" TO CLKNET "u2_iddr_tdc2/w_iddr_sclk2";
+#BLOCK PATH FROM CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk" TO CLKNET "df1_lidar_top_reveal_coretop_instance/jtck[0]";
+#BLOCK PATH FROM CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk" TO CLKNET "w_pll_100m";
+#BLOCK PATH FROM CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk" TO CLKNET "u_pll/w_pll_150m";
+#BLOCK PATH FROM CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk" TO CLKNET "i_tdc2_lvds_serclk";
+#BLOCK PATH FROM CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk" TO CLKNET "i_tdc1_lvds_serclk";
+#BLOCK PATH FROM CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90" TO CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk";
+#BLOCK PATH FROM CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90" TO CLKNET "u1_iddr_tdc1/w_iddr_sclk1";
+#BLOCK PATH FROM CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90" TO CLKNET "u2_iddr_tdc2/w_iddr_sclk2";
+#BLOCK PATH FROM CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90" TO CLKNET "df1_lidar_top_reveal_coretop_instance/jtck[0]";
+#BLOCK PATH FROM CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90" TO CLKNET "w_pll_100m";
+#BLOCK PATH FROM CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90" TO CLKNET "u_pll/w_pll_150m";
+#BLOCK PATH FROM CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90" TO CLKNET "i_tdc2_lvds_serclk";
+#BLOCK PATH FROM CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90" TO CLKNET "i_tdc1_lvds_serclk";
+#BLOCK PATH FROM CLKNET "u1_iddr_tdc1/w_iddr_sclk1" TO CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk";
+#BLOCK PATH FROM CLKNET "u1_iddr_tdc1/w_iddr_sclk1" TO CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90";
+#BLOCK PATH FROM CLKNET "u1_iddr_tdc1/w_iddr_sclk1" TO CLKNET "u2_iddr_tdc2/w_iddr_sclk2";
+#BLOCK PATH FROM CLKNET "u1_iddr_tdc1/w_iddr_sclk1" TO CLKNET "df1_lidar_top_reveal_coretop_instance/jtck[0]";
+#BLOCK PATH FROM CLKNET "u1_iddr_tdc1/w_iddr_sclk1" TO CLKNET "w_pll_100m";
+#BLOCK PATH FROM CLKNET "u1_iddr_tdc1/w_iddr_sclk1" TO CLKNET "u_pll/w_pll_150m";
+#BLOCK PATH FROM CLKNET "u1_iddr_tdc1/w_iddr_sclk1" TO CLKNET "i_tdc2_lvds_serclk";
+#BLOCK PATH FROM CLKNET "u1_iddr_tdc1/w_iddr_sclk1" TO CLKNET "i_tdc1_lvds_serclk";
+#BLOCK PATH FROM CLKNET "u2_iddr_tdc2/w_iddr_sclk2" TO CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk";
+#BLOCK PATH FROM CLKNET "u2_iddr_tdc2/w_iddr_sclk2" TO CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90";
+#BLOCK PATH FROM CLKNET "u2_iddr_tdc2/w_iddr_sclk2" TO CLKNET "u1_iddr_tdc1/w_iddr_sclk1";
+#BLOCK PATH FROM CLKNET "u2_iddr_tdc2/w_iddr_sclk2" TO CLKNET "df1_lidar_top_reveal_coretop_instance/jtck[0]";
+#BLOCK PATH FROM CLKNET "u2_iddr_tdc2/w_iddr_sclk2" TO CLKNET "w_pll_100m";
+#BLOCK PATH FROM CLKNET "u2_iddr_tdc2/w_iddr_sclk2" TO CLKNET "u_pll/w_pll_150m";
+#BLOCK PATH FROM CLKNET "u2_iddr_tdc2/w_iddr_sclk2" TO CLKNET "i_tdc2_lvds_serclk";
+#BLOCK PATH FROM CLKNET "u2_iddr_tdc2/w_iddr_sclk2" TO CLKNET "i_tdc1_lvds_serclk";
+#BLOCK PATH FROM CLKNET "df1_lidar_top_reveal_coretop_instance/jtck[0]" TO CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk";
+#BLOCK PATH FROM CLKNET "df1_lidar_top_reveal_coretop_instance/jtck[0]" TO CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90";
+#BLOCK PATH FROM CLKNET "df1_lidar_top_reveal_coretop_instance/jtck[0]" TO CLKNET "u1_iddr_tdc1/w_iddr_sclk1";
+#BLOCK PATH FROM CLKNET "df1_lidar_top_reveal_coretop_instance/jtck[0]" TO CLKNET "u2_iddr_tdc2/w_iddr_sclk2";
+#BLOCK PATH FROM CLKNET "df1_lidar_top_reveal_coretop_instance/jtck[0]" TO CLKNET "w_pll_100m";
+#BLOCK PATH FROM CLKNET "df1_lidar_top_reveal_coretop_instance/jtck[0]" TO CLKNET "u_pll/w_pll_150m";
+#BLOCK PATH FROM CLKNET "df1_lidar_top_reveal_coretop_instance/jtck[0]" TO CLKNET "i_tdc2_lvds_serclk";
+#BLOCK PATH FROM CLKNET "df1_lidar_top_reveal_coretop_instance/jtck[0]" TO CLKNET "i_tdc1_lvds_serclk";
+#BLOCK PATH FROM CLKNET "w_pll_100m" TO CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk";
+#BLOCK PATH FROM CLKNET "w_pll_100m" TO CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90";
+#BLOCK PATH FROM CLKNET "w_pll_100m" TO CLKNET "u1_iddr_tdc1/w_iddr_sclk1";
+#BLOCK PATH FROM CLKNET "w_pll_100m" TO CLKNET "u2_iddr_tdc2/w_iddr_sclk2";
+#BLOCK PATH FROM CLKNET "w_pll_100m" TO CLKNET "df1_lidar_top_reveal_coretop_instance/jtck[0]";
+#BLOCK PATH FROM CLKNET "w_pll_100m" TO CLKNET "u_pll/w_pll_150m";
+#BLOCK PATH FROM CLKNET "w_pll_100m" TO CLKNET "i_tdc2_lvds_serclk";
+#BLOCK PATH FROM CLKNET "w_pll_100m" TO CLKNET "i_tdc1_lvds_serclk";
+#BLOCK PATH FROM CLKNET "u_pll/w_pll_150m" TO CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk";
+#BLOCK PATH FROM CLKNET "u_pll/w_pll_150m" TO CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90";
+#BLOCK PATH FROM CLKNET "u_pll/w_pll_150m" TO CLKNET "u1_iddr_tdc1/w_iddr_sclk1";
+#BLOCK PATH FROM CLKNET "u_pll/w_pll_150m" TO CLKNET "u2_iddr_tdc2/w_iddr_sclk2";
+#BLOCK PATH FROM CLKNET "u_pll/w_pll_150m" TO CLKNET "df1_lidar_top_reveal_coretop_instance/jtck[0]";
+#BLOCK PATH FROM CLKNET "u_pll/w_pll_150m" TO CLKNET "w_pll_100m";
+#BLOCK PATH FROM CLKNET "u_pll/w_pll_150m" TO CLKNET "i_tdc2_lvds_serclk";
+#BLOCK PATH FROM CLKNET "u_pll/w_pll_150m" TO CLKNET "i_tdc1_lvds_serclk";
+#BLOCK PATH FROM CLKNET "i_tdc2_lvds_serclk" TO CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk";
+#BLOCK PATH FROM CLKNET "i_tdc2_lvds_serclk" TO CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90";
+#BLOCK PATH FROM CLKNET "i_tdc2_lvds_serclk" TO CLKNET "u1_iddr_tdc1/w_iddr_sclk1";
+#BLOCK PATH FROM CLKNET "i_tdc2_lvds_serclk" TO CLKNET "u2_iddr_tdc2/w_iddr_sclk2";
+#BLOCK PATH FROM CLKNET "i_tdc2_lvds_serclk" TO CLKNET "df1_lidar_top_reveal_coretop_instance/jtck[0]";
+#BLOCK PATH FROM CLKNET "i_tdc2_lvds_serclk" TO CLKNET "w_pll_100m";
+#BLOCK PATH FROM CLKNET "i_tdc2_lvds_serclk" TO CLKNET "u_pll/w_pll_150m";
+BLOCK PATH FROM CLKNET "i_tdc2_lvds_serclk" TO CLKNET "i_tdc1_lvds_serclk";
+#BLOCK PATH FROM CLKNET "i_tdc1_lvds_serclk" TO CLKNET "u_ddr3/ddr3_ipcore_inst/w_sclk";
+#BLOCK PATH FROM CLKNET "i_tdc1_lvds_serclk" TO CLKNET "u_eth_top/u_eth_pll/w_ethphy_refclk_90";
+#BLOCK PATH FROM CLKNET "i_tdc1_lvds_serclk" TO CLKNET "u1_iddr_tdc1/w_iddr_sclk1";
+#BLOCK PATH FROM CLKNET "i_tdc1_lvds_serclk" TO CLKNET "u2_iddr_tdc2/w_iddr_sclk2";
+#BLOCK PATH FROM CLKNET "i_tdc1_lvds_serclk" TO CLKNET "df1_lidar_top_reveal_coretop_instance/jtck[0]";
+#BLOCK PATH FROM CLKNET "i_tdc1_lvds_serclk" TO CLKNET "w_pll_100m";
+#BLOCK PATH FROM CLKNET "i_tdc1_lvds_serclk" TO CLKNET "u_pll/w_pll_150m";
+BLOCK PATH FROM CLKNET "i_tdc1_lvds_serclk" TO CLKNET "i_tdc2_lvds_serclk";
+
+BLOCK ASYNCPATHS;
+
+# End of generated Logical Preferences.

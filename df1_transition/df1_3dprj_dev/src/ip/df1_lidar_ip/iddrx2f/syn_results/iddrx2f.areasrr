@@ -1,0 +1,42 @@
+----------------------------------------------------------------------
+Report for cell iddrx2f.verilog
+
+Register bits: 25 of 12096 (0%)
+PIC Latch:       0
+I/O cells:       2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            CLKDIVF        1       100.0
+                            DDRDLLA        1       100.0
+                             DELAYG        1       100.0
+                            DLLDELD        1       100.0
+                          ECLKSYNCB        1       100.0
+                            FD1P3DX        6       100.0
+                            FD1S3BX        3       100.0
+                            FD1S3DX       16       100.0
+                                GSR        1       100.0
+                                 IB        2       100.0
+                            IDDRX2F        1       100.0
+                                INV        1       100.0
+                           ORCALUT4       52       100.0
+                                PUR        1       100.0
+                                VHI        2       100.0
+                                VLO        2       100.0
+SUB MODULES 
+                  iddrx2frxdll_sync        1       100.0
+                            
+                         TOTAL            93           
+----------------------------------------------------------------------
+Report for cell iddrx2frxdll_sync.netlist
+     Instance path:  Inst_rxdll_sync
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        6       100.0
+                            FD1S3BX        3       100.0
+                            FD1S3DX       16       100.0
+                                INV        1       100.0
+                           ORCALUT4       52       100.0
+                                VHI        1        50.0
+                                VLO        1        50.0
+                            
+                         TOTAL            80           

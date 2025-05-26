@@ -1,0 +1,115 @@
+<Project ModBy="Inserter" SigType="0" Name="D:/FreeWork/df1/prj/debug/flash/debug.rvl" Date="2024-11-22">
+    <IP Version="1_6_042617"/>
+    <Design DesignEntry="Schematic/Verilog HDL" Synthesis="synplify" DeviceFamily="ECP5U" DesignName="df1_lidar_top"/>
+    <Core InsertDataset="0" Insert="1" Reveal_sig="585949799" Name="df1_lidar_top_LA0" ID="0">
+        <Setting>
+            <Clock SampleClk="w_pll_200m" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
+            <TraceBuffer Implementation="0" BitTimeStamp="0" hasTimeStamp="0" IncTrigSig="0" BufferDepth="8192"/>
+            <Capture Mode="0" MinSamplesPerTrig="32"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut Polarity="0" MinPulseWidth="0" TrigOutNetType="1" EnableTrigOut="0" TrigOutNet="reveal_debug_df1_lidar_top_LA0_net"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_write_flag"/>
+                <Sig Type="SIG" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_parameter_sig"/>
+                <Sig Type="SIG" Name="u_flash_control/i_parameter_sig"/>
+                <Bus Name="u_flash_control/r_flash_state">
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:0"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:1"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:2"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:3"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:4"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:5"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:6"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:7"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:8"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:9"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:10"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:11"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:12"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:13"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:14"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:15"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:16"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:17"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:18"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:19"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:20"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:21"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:22"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_state:23"/>
+                </Bus>
+                <Bus Name="u_flash_control/r_flash_cmd">
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_cmd:0"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_cmd:1"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_cmd:2"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_cmd:3"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_cmd:4"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_cmd:5"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_cmd:6"/>
+                    <Sig Type="SIG" Name="u_flash_control/r_flash_cmd:7"/>
+                </Bus>
+                <Sig Type="SIG" Name="u_flash_control/r_cmd_valid"/>
+                <Sig Type="SIG" Name="u_flash_control/w_cmd_ack"/>
+                <Bus Name="u_flash_control/u_spi_flash_top/r_state">
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/r_state:0"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/r_state:1"/>
+                </Bus>
+                <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/r_cmd_valid"/>
+                <Bus Name="u_flash_control/u_spi_flash_top/r_cmd">
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/r_cmd:0"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/r_cmd:1"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/r_cmd:2"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/r_cmd:3"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/r_cmd:4"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/r_cmd:5"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/r_cmd:6"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/r_cmd:7"/>
+                </Bus>
+                <Bus Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_state">
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_state:0"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_state:1"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_state:2"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_state:3"/>
+                </Bus>
+                <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/u_spi_cmd/o_cmd_ack"/>
+                <Bus Name="u_flash_control/u_spi_flash_top/o_data_out">
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/o_data_out:0"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/o_data_out:1"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/o_data_out:2"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/o_data_out:3"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/o_data_out:4"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/o_data_out:5"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/o_data_out:6"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/o_data_out:7"/>
+                </Bus>
+                <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/o_spi_cs"/>
+                <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/o_spi_dclk"/>
+                <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/o_spi_mosi"/>
+                <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/i_spi_miso"/>
+                <Bus Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt">
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt:0"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt:1"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt:2"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt:3"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt:4"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt:5"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt:6"/>
+                    <Sig Type="SIG" Name="u_flash_control/u_spi_flash_top/u_spi_cmd/r_delay_cnt:7"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU Serialbits="0" Type="0" ID="1" Sig="u_eth_top/u_udpcom_control/u_parameter_init/r_para_write_flag,"/>
+                <TU Serialbits="0" Type="0" ID="2" Sig="(BUS)u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state[7:0],"/>
+                <TU Serialbits="0" Type="0" ID="3" Sig="(BUS)u_flash_control/u_spi_flash_top/r_cmd[7:0],"/>
+                <TU Serialbits="0" Type="0" ID="4" Sig="(BUS)u_flash_control/r_flash_state[23:0],"/>
+                <TE MaxSequence="1" MaxEvnCnt="1" ID="1" Resource="1"/>
+                <TE MaxSequence="1" MaxEvnCnt="1" ID="2" Resource="1"/>
+                <TE MaxSequence="1" MaxEvnCnt="1" ID="3" Resource="1"/>
+                <TE MaxSequence="1" MaxEvnCnt="1" ID="4" Resource="1"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

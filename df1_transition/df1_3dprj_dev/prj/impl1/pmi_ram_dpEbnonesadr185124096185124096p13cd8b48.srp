@@ -1,0 +1,28 @@
+SCUBA, Version Diamond (64-bit) 3.13.0.56.2
+Thu Nov 28 20:09:51 2024
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : D:/TOOL/LatticeDiamond/diamond/3.13/ispfpga/bin/nt64/scuba -w -bus_exp 7 -bb -arch sa5p00 -type bram -wp 10 -rp 0011 -data_width 185 -num_rows 4096 -rdata_width 185 -read_reg1 outreg -gsr DISABLED -reset_rel async -memformat bin -cascade -1 -n pmi_ram_dpEbnonesadr185124096185124096p13cd8b48 -pmi 
+    Circuit name     : pmi_ram_dpEbnonesadr185124096185124096p13cd8b48
+    Module type      : RAM_DP
+    Module Version   : 6.5
+    Ports            : 
+	Inputs       : WrAddress[11:0], RdAddress[11:0], Data[184:0], WE, RdClock, RdClockEn, Reset, WrClock, WrClockEn
+	Outputs      : Q[184:0]
+    I/O buffer       : not inserted
+    EDIF output      : pmi_ram_dpEbnonesadr185124096185124096p13cd8b48.edn
+    Bus notation     : big endian
+    Report output    : pmi_ram_dpEbnonesadr185124096185124096p13cd8b48.srp
+    Element Usage    :
+        FD1P3DX : 2
+          MUX21 : 185
+         DP16KD : 42
+    Estimated Resource Usage:
+            LUT : 185
+            EBR : 42
+            Reg : 2

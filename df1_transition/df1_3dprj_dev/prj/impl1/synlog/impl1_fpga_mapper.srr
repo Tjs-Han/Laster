@@ -1,0 +1,1580 @@
+# Tue Dec 17 19:14:32 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: D:\TOOL\LatticeDiamond\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: FREE-FPGA
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version map202303lat, Build 132R, Built Aug 31 2023 04:16:35, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 139MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 153MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 153MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 154MB peak: 154MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 156MB peak: 158MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 247MB peak: 247MB)
+
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier2\multiplier2.v":71:9:71:37|Tristate driver multiplier2_alu_signedcin_1_0 (in view: work.multiplier2_0(verilog)) on net multiplier2_alu_signedcin_1_0 (in view: work.multiplier2_0(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier2\multiplier2.v":72:9:72:37|Tristate driver multiplier2_alu_in_cin_1_0_53 (in view: work.multiplier2_0(verilog)) on net multiplier2_alu_in_cin_1_0_53 (in view: work.multiplier2_0(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier2\multiplier2.v":73:9:73:37|Tristate driver multiplier2_alu_in_cin_1_0_52 (in view: work.multiplier2_0(verilog)) on net multiplier2_alu_in_cin_1_0_52 (in view: work.multiplier2_0(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier2\multiplier2.v":74:9:74:37|Tristate driver multiplier2_alu_in_cin_1_0_51 (in view: work.multiplier2_0(verilog)) on net multiplier2_alu_in_cin_1_0_51 (in view: work.multiplier2_0(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier2\multiplier2.v":75:9:75:37|Tristate driver multiplier2_alu_in_cin_1_0_50 (in view: work.multiplier2_0(verilog)) on net multiplier2_alu_in_cin_1_0_50 (in view: work.multiplier2_0(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier2\multiplier2.v":76:9:76:37|Tristate driver multiplier2_alu_in_cin_1_0_49 (in view: work.multiplier2_0(verilog)) on net multiplier2_alu_in_cin_1_0_49 (in view: work.multiplier2_0(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier2\multiplier2.v":77:9:77:37|Tristate driver multiplier2_alu_in_cin_1_0_48 (in view: work.multiplier2_0(verilog)) on net multiplier2_alu_in_cin_1_0_48 (in view: work.multiplier2_0(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier2\multiplier2.v":78:9:78:37|Tristate driver multiplier2_alu_in_cin_1_0_47 (in view: work.multiplier2_0(verilog)) on net multiplier2_alu_in_cin_1_0_47 (in view: work.multiplier2_0(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier2\multiplier2.v":79:9:79:37|Tristate driver multiplier2_alu_in_cin_1_0_46 (in view: work.multiplier2_0(verilog)) on net multiplier2_alu_in_cin_1_0_46 (in view: work.multiplier2_0(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\multiplier2\multiplier2.v":80:9:80:37|Tristate driver multiplier2_alu_in_cin_1_0_45 (in view: work.multiplier2_0(verilog)) on net multiplier2_alu_in_cin_1_0_45 (in view: work.multiplier2_0(verilog)) has its enable tied to GND.
+@W: MO160 :|Register bit G_38 (in view view:work.temp_adc_filter(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :|Register bit G_36 (in view view:work.temp_adc_filter(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :|Register bit G_34 (in view view:work.temp_adc_filter(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :|Register bit G_32 (in view view:work.temp_adc_filter(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :|Register bit G_10 (in view view:work.temp_adc_filter(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :|Register bit G_8 (in view view:work.temp_adc_filter(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":428:1:428:6|Removing sequential instance u_flash_control.r_flash2ddr_wren because it is equivalent to instance u_flash_control.r_flash_state[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":527:1:527:6|Removing sequential instance u_flash_control.r_ddr2flash_rden because it is equivalent to instance u_flash_control.r_flash_state[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\pluse_average.v":42:1:42:6|Removing sequential instance u_HV_control.u5.r_pulse_sig because it is equivalent to instance u_HV_control.r_temp_valid. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MT204 |Auto Constrain mode is disabled because the following clocks are already defined:
+
+            w_pll_50m
+            w_pll_100m
+
+@N: BZ173 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\adc_to_temp.v":179:46:179:69|ROM un39_r_divisor[11:0] (in view: work.adc_to_temp(verilog)) mapped in logic.
+@N: BZ173 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\adc_to_temp.v":179:46:179:69|ROM un39_r_divisor[11:0] (in view: work.adc_to_temp(verilog)) mapped in logic.
+@N: MO106 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\adc_to_temp.v":179:46:179:69|Found ROM un39_r_divisor[11:0] (in view: work.adc_to_temp(verilog)) with 22 words by 12 bits.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":202:4:202:9|Removing sequential instance u_gpx2_control_wrapper.r_curr_state[0] because it is equivalent to instance u_gpx2_control_wrapper.u_data_fill.r_fill_state[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":202:4:202:9|Removing user instance u_gpx2_control_wrapper.r_curr_state_ns_a2[0] because it is equivalent to instance u_gpx2_control_wrapper.u_data_fill.r_fill_state_ns_a3[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 274MB peak: 274MB)
+
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr3_init_ctrl.v":43:4:43:9|Found counter in view:work.df1_lidar_top(verilog) instance u1_ddr3_init_ctrl.r_init_cnt[15:0] 
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "0" on instance u_dist.u_dist_calculate.u2_index_cal.r_cal_dlycnt[0].
+@N: FX493 |Applying initial value "0" on instance u_dist.u_dist_calculate.u2_index_cal.r_cal_dlycnt[1].
+@N: FX493 |Applying initial value "0" on instance u_dist.u_dist_calculate.u2_index_cal.r_cal_dlycnt[2].
+@N: FX493 |Applying initial value "0" on instance u_dist.u_dist_calculate.u2_index_cal.r_cal_dlycnt[3].
+@N: FX493 |Applying initial value "0" on instance u_dist.u_dist_calculate.u1_data_pre.r_subcal_dlycnt[0].
+@N: FX493 |Applying initial value "0" on instance u_dist.u_dist_calculate.u1_data_pre.r_subcal_dlycnt[1].
+@N: FX493 |Applying initial value "0" on instance u_dist.u_dist_calculate.u1_data_pre.r_subcal_dlycnt[2].
+@N: FX493 |Applying initial value "0" on instance u_dist.u_dist_calculate.u1_data_pre.r_subcal_dlycnt[3].
+@W: MO129 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\index_cal.v":78:1:78:6|Sequential instance u_dist.u_dist_calculate.u2_index_cal.r_index_state[4] is reduced to a combinational gate by constant propagation.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance u_dist.u_dist_calculate.u1_data_pre.r_rise_data[0] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance u_dist.u_dist_calculate.u1_data_pre.r_rise_data[1] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance u_dist.u_dist_calculate.u1_data_pre.r_rise_data[2] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance u_dist.u_dist_calculate.u1_data_pre.r_rise_data[3] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance u_dist.u_dist_calculate.u1_data_pre.r_rise_data[4] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance u_dist.u_dist_calculate.u1_data_pre.r_rise_data[5] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance u_dist.u_dist_calculate.u1_data_pre.r_rise_data[6] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance u_dist.u_dist_calculate.u1_data_pre.r_rise_data[7] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance u_dist.u_dist_calculate.u1_data_pre.r_rise_data[8] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance u_dist.u_dist_calculate.u1_data_pre.r_rise_data[9] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance u_dist.u_dist_calculate.u1_data_pre.r_rise_data[10] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance u_dist.u_dist_calculate.u1_data_pre.r_rise_data[11] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance u_dist.u_dist_calculate.u1_data_pre.r_rise_data[12] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance u_dist.u_dist_calculate.u1_data_pre.r_rise_data[13] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\data_pre.v":64:1:64:6|Removing sequential instance u_dist.u_dist_calculate.u1_data_pre.r_rise_data[14] (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":254:4:254:9|Removing sequential instance r_wfifo_data2[65] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[63] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[62] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[61] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[60] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[59] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[58] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[57] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[56] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[55] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[54] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[53] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[52] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[51] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[50] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[49] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[48] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[47] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[46] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[45] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[44] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[43] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[42] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[41] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[40] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[39] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[38] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[37] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[36] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[35] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[34] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[33] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[32] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[31] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[30] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[29] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[28] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[27] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[26] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[25] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[24] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[23] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[22] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[21] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[20] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[19] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[18] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[17] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[16] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[15] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[14] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[13] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[12] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[11] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[10] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[9] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[8] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[7] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[6] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[5] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[4] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[3] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[2] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[1] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":254:4:254:9|Removing sequential instance r_wfifo_data2[64] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\ddr\ddr_round_robin.v":283:4:283:9|Removing sequential instance r_wfifo_data3[0] (in view: work.ddr_round_robin_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\mac_top\mac_tx.v":63:1:63:6|Removing sequential instance r_fifo_wdata[9] (in view: work.mac_tx(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\mac_top\mac_tx.v":63:1:63:6|Removing sequential instance r_fifo_wdata[8] (in view: work.mac_tx(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_rx.v":174:4:174:9|Found counter in view:work.arp_rx_3232235786_3232235777_0_1_2_4_8_2054_Z3(verilog) instance r_cnt[7:0] 
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_tx.v":179:4:179:9|Removing instance u_eth_top.u_arp_ctrl.u_arp_tx.r_arp_data[7][7] because it is equivalent to instance u_eth_top.u_arp_ctrl.u_arp_tx.r_arp_data[7][6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_tx.v":179:4:179:9|Removing instance u_eth_top.u_arp_ctrl.u_arp_tx.r_arp_data[7][6] because it is equivalent to instance u_eth_top.u_arp_ctrl.u_arp_tx.r_arp_data[7][5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_tx.v":179:4:179:9|Removing instance u_eth_top.u_arp_ctrl.u_arp_tx.r_arp_data[7][5] because it is equivalent to instance u_eth_top.u_arp_ctrl.u_arp_tx.r_arp_data[7][4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_tx.v":179:4:179:9|Removing instance u_eth_top.u_arp_ctrl.u_arp_tx.r_arp_data[7][4] because it is equivalent to instance u_eth_top.u_arp_ctrl.u_arp_tx.r_arp_data[7][3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_tx.v":179:4:179:9|Removing instance u_eth_top.u_arp_ctrl.u_arp_tx.r_arp_data[7][3] because it is equivalent to instance u_eth_top.u_arp_ctrl.u_arp_tx.r_arp_data[7][2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_tx.v":179:4:179:9|Found counter in view:work.arp_tx_Z4(verilog) instance r_data_cnt[4:0] 
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\arp\arp_tx.v":179:4:179:9|Removing sequential instance r_arp_data\[7\][2] (in view: work.arp_tx_Z4(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_rx.v":228:4:228:9|Found counter in view:work.icmp_rx_Z6(verilog) instance r_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_rx.v":228:4:228:9|Found counter in view:work.icmp_rx_Z6(verilog) instance r_icmp_rxcnt[15:0] 
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') r_skip_en38 (in view: work.icmp_rx_Z6(verilog))
+@N: MF179 :|Found 17 by 17 bit equality operator ('==') r0_icmp_rxdata7 (in view: work.icmp_rx_Z6(verilog))
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":126:4:126:9|Removing instance u_eth_top.u_ip_top.u_icmp_top.u_icmp_tx.r_txdata_num[0] because it is equivalent to instance u_eth_top.u_ip_top.u_icmp_top.u_icmp_tx.r_total_num[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":126:4:126:9|Removing instance u_eth_top.u_ip_top.u_icmp_top.u_icmp_tx.r_txdata_num[1] because it is equivalent to instance u_eth_top.u_ip_top.u_icmp_top.u_icmp_tx.r_total_num[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Found counter in view:work.icmp_tx_Z7(verilog) instance r_data_cnt[15:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Found counter in view:work.icmp_tx_Z7(verilog) instance r_real_add_cnt[4:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Found counter in view:work.icmp_tx_Z7(verilog) instance r_ip_head\[1\][31:16] 
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') r_tx_req14 (in view: work.icmp_tx_Z7(verilog))
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') un1_r_txdata_num_2 (in view: work.icmp_tx_Z7(verilog))
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Found counter in view:work.udp_rx_Z9(verilog) instance r_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Found counter in view:work.udp_rx_Z9(verilog) instance r_data_cnt[15:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_rx.v":202:4:202:9|Found counter in view:work.udp_rx_Z9(verilog) instance r_udp_recram_wraddr[10:0] 
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') r_skip_en34 (in view: work.udp_rx_Z9(verilog))
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":171:4:171:9|Removing instance u_eth_top.u_ip_top.u_udp_top.u_udp_tx.r_udp_num[0] because it is equivalent to instance u_eth_top.u_ip_top.u_udp_top.u_udp_tx.r_tx_data_num[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":171:4:171:9|Removing instance u_eth_top.u_ip_top.u_udp_top.u_udp_tx.r_tx_data_num[0] because it is equivalent to instance u_eth_top.u_ip_top.u_udp_top.u_udp_tx.r_total_num[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":171:4:171:9|Removing instance u_eth_top.u_ip_top.u_udp_top.u_udp_tx.r_udp_num[1] because it is equivalent to instance u_eth_top.u_ip_top.u_udp_top.u_udp_tx.r_tx_data_num[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":171:4:171:9|Removing instance u_eth_top.u_ip_top.u_udp_top.u_udp_tx.r_tx_data_num[1] because it is equivalent to instance u_eth_top.u_ip_top.u_udp_top.u_udp_tx.r_total_num[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":171:4:171:9|Removing instance u_eth_top.u_ip_top.u_udp_top.u_udp_tx.r_udp_num[2] because it is equivalent to instance u_eth_top.u_ip_top.u_udp_top.u_udp_tx.r_tx_data_num[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":260:4:260:9|Removing instance u_eth_top.u_ip_top.u_udp_top.u_udp_tx.r_ip_head[6][16] because it is equivalent to instance u_eth_top.u_ip_top.u_udp_top.u_udp_tx.r_ip_head[0][0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":260:4:260:9|Removing instance u_eth_top.u_ip_top.u_udp_top.u_udp_tx.r_ip_head[6][17] because it is equivalent to instance u_eth_top.u_ip_top.u_udp_top.u_udp_tx.r_ip_head[0][1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":260:4:260:9|Found counter in view:work.udp_tx_Z10(verilog) instance r_data_cnt[15:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":260:4:260:9|Found counter in view:work.udp_tx_Z10(verilog) instance r_udp_txram_rdaddr[10:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":260:4:260:9|Found counter in view:work.udp_tx_Z10(verilog) instance r_real_add_cnt[4:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":260:4:260:9|Found counter in view:work.udp_tx_Z10(verilog) instance r_ip_head\[1\][31:16] 
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') un1_r_tx_data_num_2 (in view: work.udp_tx_Z10(verilog))
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":719:1:719:6|Found counter in view:work.udpcom_datagram_parser_Z13(verilog) instance r_loop_rdaddr[9:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":643:1:643:6|Found counter in view:work.udpcom_datagram_parser_Z13(verilog) instance r_cacheram_wraddr[9:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":356:1:356:6|Found counter in view:work.udpcom_datagram_parser_Z13(verilog) instance r_waitddr_delay[31:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":731:1:731:6|Found counter in view:work.udpcom_datagram_parser_Z13(verilog) instance r_calib_rdaddr[9:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":709:1:709:6|Found counter in view:work.udpcom_datagram_parser_Z13(verilog) instance r_code_rdaddr2[8:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":699:1:699:6|Found counter in view:work.udpcom_datagram_parser_Z13(verilog) instance r_code_rdaddr1[8:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":356:1:356:6|Found counter in view:work.udpcom_datagram_parser_Z13(verilog) instance r_udp_rxram_rdaddr[10:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":356:1:356:6|Found counter in view:work.udpcom_datagram_parser_Z13(verilog) instance r_byte_cnt[10:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":761:1:761:6|Found counter in view:work.udpcom_datagram_parser_Z13(verilog) instance r_udp_txram_wraddr[10:0] 
+@N: FX493 |Applying initial value "0" on instance r_shift_num[0].
+@N: FX493 |Applying initial value "0" on instance r_shift_num[1].
+@N: FX493 |Applying initial value "0" on instance r_shift_num[2].
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') un1_r_byte_cnt_25 (in view: work.udpcom_datagram_parser_Z13(verilog))
+@N: MF179 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_datagram_parser.v":215:41:215:72|Found 8 by 8 bit equality operator ('==') un1_i_udp_rxram_data_1 (in view: work.udpcom_datagram_parser_Z13(verilog))
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":534:1:534:6|Found counter in view:work.udpcom_parameter_init_Z14(verilog) instance r_write_cnt[15:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":432:1:432:6|Found counter in view:work.udpcom_parameter_init_Z14(verilog) instance r_read_cnt[31:2] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":468:1:468:6|Found counter in view:work.udpcom_parameter_init_Z14(verilog) instance r_shift_num[7:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":546:1:546:6|Found counter in view:work.udpcom_parameter_init_Z14(verilog) instance r_cache_rdaddr[9:0] 
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":676:1:676:6|Register bit r_ddr_addr_base[8] (in view view:work.udpcom_parameter_init_Z14(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":676:1:676:6|Register bit r_ddr_addr_base[7] (in view view:work.udpcom_parameter_init_Z14(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":676:1:676:6|Register bit r_ddr_addr_base[6] (in view view:work.udpcom_parameter_init_Z14(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":676:1:676:6|Register bit r_ddr_addr_base[5] (in view view:work.udpcom_parameter_init_Z14(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":676:1:676:6|Register bit r_ddr_addr_base[4] (in view view:work.udpcom_parameter_init_Z14(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":676:1:676:6|Register bit r_ddr_addr_base[3] (in view view:work.udpcom_parameter_init_Z14(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":676:1:676:6|Register bit r_ddr_addr_base[2] (in view view:work.udpcom_parameter_init_Z14(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":676:1:676:6|Register bit r_ddr_addr_base[1] (in view view:work.udpcom_parameter_init_Z14(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":676:1:676:6|Register bit r_ddr_addr_base[0] (in view view:work.udpcom_parameter_init_Z14(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[9].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[10].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[11].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[12].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[13].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[14].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[15].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[16].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[17].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[18].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[19].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[20].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[21].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[22].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[23].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[24].
+@N: FX493 |Applying initial value "0" on instance r_ddr_addr_base[25].
+@N: MF179 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":322:42:322:72|Found 32 by 32 bit equality operator ('==') un1_i_get_para1_1 (in view: work.udpcom_parameter_init_Z14(verilog))
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":516:1:516:6|Register bit r_para2ddr_addr[1] (in view view:work.udpcom_parameter_init_Z14(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":516:1:516:6|Register bit r_para2ddr_addr[0] (in view view:work.udpcom_parameter_init_Z14(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":770:1:770:6|Removing instance u_eth_top.u_udpcom_control.u_parameter_init.r_pwmvalue_motor1[13] because it is equivalent to instance u_eth_top.u_udpcom_control.u_parameter_init.r_pwmvalue_motor1[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":770:1:770:6|Removing instance u_eth_top.u_udpcom_control.u_parameter_init.r_pwmvalue_motor1[12] because it is equivalent to instance u_eth_top.u_udpcom_control.u_parameter_init.r_pwmvalue_motor1[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":770:1:770:6|Removing instance u_eth_top.u_udpcom_control.u_parameter_init.r_pwmvalue_motor1[14] because it is equivalent to instance u_eth_top.u_udpcom_control.u_parameter_init.r_pwmvalue_motor1[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\data_communication\udpcom_parameter_init.v":770:1:770:6|Removing instance u_eth_top.u_udpcom_control.u_parameter_init.r_pwmvalue_motor1[15] because it is equivalent to instance u_eth_top.u_udpcom_control.u_parameter_init.r_pwmvalue_motor1[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\division.v":40:1:40:6|Found counter in view:work.division_0(verilog) instance r_cal_cnt[15:0] 
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":356:1:356:6|Removing instance u_flash_control.r_page_rdnum[15] because it is equivalent to instance u_flash_control.r_page_rdnum[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":356:1:356:6|Removing instance u_flash_control.r_page_rdnum[14] because it is equivalent to instance u_flash_control.r_page_rdnum[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":356:1:356:6|Removing instance u_flash_control.r_page_rdnum[13] because it is equivalent to instance u_flash_control.r_page_rdnum[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":356:1:356:6|Removing instance u_flash_control.r_page_rdnum[12] because it is equivalent to instance u_flash_control.r_page_rdnum[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":356:1:356:6|Removing instance u_flash_control.r_page_rdnum[9] because it is equivalent to instance u_flash_control.r_page_rdnum[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":356:1:356:6|Removing instance u_flash_control.r_page_rdnum[8] because it is equivalent to instance u_flash_control.r_page_rdnum[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":356:1:356:6|Removing instance u_flash_control.r_page_rdnum[6] because it is equivalent to instance u_flash_control.r_page_rdnum[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":356:1:356:6|Removing instance u_flash_control.r_page_rdnum[5] because it is equivalent to instance u_flash_control.r_page_rdnum[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":356:1:356:6|Removing instance u_flash_control.r_page_rdnum[4] because it is equivalent to instance u_flash_control.r_page_rdnum[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":356:1:356:6|Removing instance u_flash_control.r_page_rdnum[3] because it is equivalent to instance u_flash_control.r_page_rdnum[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":356:1:356:6|Removing instance u_flash_control.r_page_rdnum[2] because it is equivalent to instance u_flash_control.r_page_rdnum[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":356:1:356:6|Removing instance u_flash_control.r_page_rdnum[1] because it is equivalent to instance u_flash_control.r_page_rdnum[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":356:1:356:6|Removing instance u_flash_control.r_page_rdnum[10] because it is equivalent to instance u_flash_control.r_page_rdnum[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[23] because it is equivalent to instance u_flash_control.r_flash_rdaddr[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[22] because it is equivalent to instance u_flash_control.r_flash_rdaddr[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[20] because it is equivalent to instance u_flash_control.r_flash_rdaddr[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[19] because it is equivalent to instance u_flash_control.r_flash_rdaddr[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[18] because it is equivalent to instance u_flash_control.r_flash_rdaddr[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[16] because it is equivalent to instance u_flash_control.r_flash_rdaddr[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[15] because it is equivalent to instance u_flash_control.r_flash_rdaddr[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[14] because it is equivalent to instance u_flash_control.r_flash_rdaddr[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[13] because it is equivalent to instance u_flash_control.r_flash_rdaddr[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[12] because it is equivalent to instance u_flash_control.r_flash_rdaddr[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[11] because it is equivalent to instance u_flash_control.r_flash_rdaddr[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[9] because it is equivalent to instance u_flash_control.r_flash_rdaddr[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[8] because it is equivalent to instance u_flash_control.r_flash_rdaddr[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[7] because it is equivalent to instance u_flash_control.r_flash_rdaddr[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[6] because it is equivalent to instance u_flash_control.r_flash_rdaddr[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[5] because it is equivalent to instance u_flash_control.r_flash_rdaddr[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[4] because it is equivalent to instance u_flash_control.r_flash_rdaddr[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[3] because it is equivalent to instance u_flash_control.r_flash_rdaddr[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[2] because it is equivalent to instance u_flash_control.r_flash_rdaddr[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[1] because it is equivalent to instance u_flash_control.r_flash_rdaddr[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing instance u_flash_control.r_flash_rdaddr[10] because it is equivalent to instance u_flash_control.r_flash_rdaddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":438:1:438:6|Found counter in view:work.flash_control_Z15(verilog) instance r_flash2ddr_addr[26:2] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":517:1:517:6|Found counter in view:work.flash_control_Z15(verilog) instance r_ddren_cnt_flash[7:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":507:1:507:6|Found counter in view:work.flash_control_Z15(verilog) instance r_write_cnt[8:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":497:1:497:6|Found counter in view:work.flash_control_Z15(verilog) instance r_shift_cnt[3:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":418:1:418:6|Found counter in view:work.flash_control_Z15(verilog) instance r_read_cnt[3:0] 
+@N: FX493 |Applying initial value "0" on instance r_read_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_read_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_read_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_read_cnt[3].
+@N: FX493 |Applying initial value "0" on instance r_shift_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_shift_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_shift_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_shift_cnt[3].
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":356:1:356:6|Removing sequential instance r_page_rdnum[0] (in view: work.flash_control_Z15(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":310:1:310:6|Removing sequential instance r_flash_rdaddr[0] (in view: work.flash_control_Z15(verilog)) because it does not drive other instances.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":372:1:372:6|Removing instance u_flash_control.r_page_num[15] because it is equivalent to instance u_flash_control.r_page_num[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":372:1:372:6|Removing instance u_flash_control.r_page_num[14] because it is equivalent to instance u_flash_control.r_page_num[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":372:1:372:6|Removing instance u_flash_control.r_page_num[13] because it is equivalent to instance u_flash_control.r_page_num[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":372:1:372:6|Removing instance u_flash_control.r_page_num[12] because it is equivalent to instance u_flash_control.r_page_num[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":372:1:372:6|Removing instance u_flash_control.r_page_num[8] because it is equivalent to instance u_flash_control.r_page_num[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":372:1:372:6|Removing instance u_flash_control.r_page_num[6] because it is equivalent to instance u_flash_control.r_page_num[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":372:1:372:6|Removing instance u_flash_control.r_page_num[5] because it is equivalent to instance u_flash_control.r_page_num[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":372:1:372:6|Removing instance u_flash_control.r_page_num[4] because it is equivalent to instance u_flash_control.r_page_num[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":372:1:372:6|Removing instance u_flash_control.r_page_num[3] because it is equivalent to instance u_flash_control.r_page_num[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":372:1:372:6|Removing instance u_flash_control.r_page_num[2] because it is equivalent to instance u_flash_control.r_page_num[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":372:1:372:6|Removing instance u_flash_control.r_page_num[1] because it is equivalent to instance u_flash_control.r_page_num[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\flash_control.v":372:1:372:6|Removing instance u_flash_control.r_page_num[10] because it is equivalent to instance u_flash_control.r_page_num[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: FX493 |Applying initial value "0" on instance r_cmd_dlycnt[0].
+@N: FX493 |Applying initial value "0" on instance r_cmd_dlycnt[1].
+@N: FX493 |Applying initial value "0" on instance r_cmd_dlycnt[2].
+@N: FX493 |Applying initial value "0" on instance r_cmd_dlycnt[3].
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_flash_cmd.v":65:1:65:6|Removing sequential instance r_byte_size[7] (in view: work.spi_flash_cmd(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_flash_cmd.v":65:1:65:6|Removing sequential instance r_byte_size[6] (in view: work.spi_flash_cmd(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_flash_cmd.v":65:1:65:6|Removing sequential instance r_byte_size[5] (in view: work.spi_flash_cmd(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_flash_cmd.v":65:1:65:6|Removing sequential instance r_byte_size[4] (in view: work.spi_flash_cmd(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_flash_cmd.v":65:1:65:6|Removing sequential instance r_byte_size[3] (in view: work.spi_flash_cmd(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_flash_cmd.v":106:1:106:6|Found counter in view:work.spi_flash_cmd(verilog) instance r_delay_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_flash_cmd.v":154:1:154:6|Found counter in view:work.spi_flash_cmd(verilog) instance r_byte_cnt[8:0] 
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_flash_cmd.v":65:1:65:6|Removing sequential instance r_byte_size[2] (in view: work.spi_flash_cmd(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_master.v":57:1:57:6|Found counter in view:work.spi_master(verilog) instance r_bit_cnt[3:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\flash\spi flash\spi_master.v":35:1:35:6|Found counter in view:work.spi_master(verilog) instance r_clk_cnt[15:0] 
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[3].
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\signal_dejitter.v":42:1:42:6|Found counter in view:work.signal_dejitter_500s_1(verilog) instance r_opto_cnt[8:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\signal_dejitter.v":42:1:42:6|Found counter in view:work.signal_dejitter_500s_0(verilog) instance r_opto_cnt[8:0] 
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":123:1:123:6|Removing instance u_motor_control.u1_motor_drive.r_pwm_setval[15] because it is equivalent to instance u_motor_control.u1_motor_drive.r_pwm_setval[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":123:1:123:6|Removing instance u_motor_control.u1_motor_drive.r_pwm_setval[14] because it is equivalent to instance u_motor_control.u1_motor_drive.r_pwm_setval[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":123:1:123:6|Removing instance u_motor_control.u1_motor_drive.r_pwm_setval[13] because it is equivalent to instance u_motor_control.u1_motor_drive.r_pwm_setval[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":123:1:123:6|Removing instance u_motor_control.u1_motor_drive.r_pwm_setval[12] because it is equivalent to instance u_motor_control.u1_motor_drive.r_pwm_setval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":123:1:123:6|Removing instance u_motor_control.u1_motor_drive.r_pwm_setval[3] because it is equivalent to instance u_motor_control.u1_motor_drive.r_pwm_setval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[4] because it is equivalent to instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[9] because it is equivalent to instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[2] because it is equivalent to instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[8] because it is equivalent to instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[17] because it is equivalent to instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[12] because it is equivalent to instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[5] because it is equivalent to instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[3] because it is equivalent to instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[23] because it is equivalent to instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[22] because it is equivalent to instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[21]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[21] because it is equivalent to instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[19] because it is equivalent to instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[18] because it is equivalent to instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[11] because it is equivalent to instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[23] because it is equivalent to instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[22] because it is equivalent to instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[21]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[21] because it is equivalent to instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[19] because it is equivalent to instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[18] because it is equivalent to instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[15] because it is equivalent to instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[6] because it is equivalent to instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[1] because it is equivalent to instance u_motor_control.u1_motor_drive.r0_clkcnt_hignnum[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[15] because it is equivalent to instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[8] because it is equivalent to instance u_motor_control.u1_motor_drive.r1_clkcnt_hignnum[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":348:1:348:6|Removing sequential instance u_motor_control.u1_motor_drive.r_pwm_cnt[15] because it is equivalent to instance u_motor_control.u1_motor_drive.r_pwm_cnt[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":348:1:348:6|Removing sequential instance u_motor_control.u1_motor_drive.r_pwm_cnt[14] because it is equivalent to instance u_motor_control.u1_motor_drive.r_pwm_cnt[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Only the first 100 messages of id 'BN132' are reported. To see all messages use 'report_messages -log D:\FreeWork\df1_demo\df1_lidar_top\prj\impl1\synlog\impl1_fpga_mapper.srr -id BN132' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN132} -count unlimited' in the Tcl shell.
+@W: MO129 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":348:1:348:6|Sequential instance u_motor_control.u1_motor_drive.r_pwm_cnt[11] is reduced to a combinational gate by constant propagation.
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":387:1:387:6|Found counter in view:work.motor_drive_1(verilog) instance r_speed_reach_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":233:1:233:6|Found counter in view:work.motor_drive_1(verilog) instance r_delay_ms_cnt[15:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":210:1:210:6|Found counter in view:work.motor_drive_1(verilog) instance r_fg_frequency[27:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":427:1:427:6|Found counter in view:work.motor_drive_1(verilog) instance r_speed_overcnt[7:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":233:1:233:6|Found counter in view:work.motor_drive_1(verilog) instance r_delay_ns_cnt[15:0] 
+@N: MF179 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":253:10:253:38|Found 16 by 16 bit equality operator ('==') un1_i_freq_motor_1 (in view: work.motor_drive_1(verilog))
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing sequential instance r0_clkcnt_hignnum[0] (in view: work.motor_drive_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing sequential instance r1_clkcnt_hignnum[0] (in view: work.motor_drive_1(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":123:1:123:6|Removing sequential instance r_pwm_setval[11] (in view: work.motor_drive_1(verilog)) because it does not drive other instances.
+@W: MO129 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":348:1:348:6|Sequential instance u_motor_control.u2_motor_drive.r_pwm_cnt[11] is reduced to a combinational gate by constant propagation.
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":387:1:387:6|Found counter in view:work.motor_drive_0(verilog) instance r_speed_reach_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":233:1:233:6|Found counter in view:work.motor_drive_0(verilog) instance r_delay_ms_cnt[15:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":210:1:210:6|Found counter in view:work.motor_drive_0(verilog) instance r_fg_frequency[27:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":427:1:427:6|Found counter in view:work.motor_drive_0(verilog) instance r_speed_overcnt[7:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":233:1:233:6|Found counter in view:work.motor_drive_0(verilog) instance r_delay_ns_cnt[15:0] 
+@N: MF179 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":253:10:253:38|Found 16 by 16 bit equality operator ('==') un1_i_freq_motor_1 (in view: work.motor_drive_0(verilog))
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing sequential instance r0_clkcnt_hignnum[0] (in view: work.motor_drive_0(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":141:1:141:6|Removing sequential instance r1_clkcnt_hignnum[0] (in view: work.motor_drive_0(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\motor\motor_drive.v":123:1:123:6|Removing sequential instance r_pwm_setval[11] (in view: work.motor_drive_0(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":127:4:127:9|Found counter in view:work.rotate_control_1000000000s_10s_300000_100s_10s_100(verilog) instance u3_encoder_control.u2_encoder_calculate.r_pulsetime_actcnt[31:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":105:4:105:9|Found counter in view:work.rotate_control_1000000000s_10s_300000_100s_10s_100(verilog) instance u3_encoder_control.u2_encoder_calculate.r_time_sumcnt[31:0] 
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":114:4:114:9|Removing sequential instance u3_encoder_control.u2_encoder_calculate.r_pulse_time_avecnt[28] (in view: work.rotate_control_1000000000s_10s_300000_100s_10s_100(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\opto_switch_filter.v":45:1:45:6|Found counter in view:work.opto_switch_filter_1(verilog) instance r_opto_cnt[15:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\opto_switch_filter.v":45:1:45:6|Found counter in view:work.opto_switch_filter_0(verilog) instance r_opto_cnt[15:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\code_angle.v":58:4:58:9|Found counter in view:work.encoder_control_1000000000s_10s_300000_100s_100(verilog) instance u4_code_angle.r_code_angle[15:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\opto_switch.v":76:1:76:6|Found counter in view:work.opto_switch_Z16(verilog) instance r_code_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\opto_switch.v":60:1:60:6|Found counter in view:work.opto_switch_Z16(verilog) instance r_clk_cnt[13:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":164:4:164:9|Found counter in view:work.encoder_calculate_Z17(verilog) instance r_cyc_cnt_0[23:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":192:4:192:9|Found counter in view:work.encoder_calculate_Z17(verilog) instance r_compen_rdaddr[7:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":127:4:127:9|Found counter in view:work.encoder_calculate_Z17(verilog) instance r_pulsetime_actcnt[31:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":105:4:105:9|Found counter in view:work.encoder_calculate_Z17(verilog) instance r_time_sumcnt[31:0] 
+@N: FX493 |Applying initial value "0" on instance r_delay_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_delay_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_delay_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_delay_cnt[3].
+@N: BN362 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\encoder_calculate.v":114:4:114:9|Removing sequential instance r_pulse_time_avecnt[28] (in view: work.encoder_calculate_Z17(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\sync_control.v":126:4:126:9|Found counter in view:work.sync_control_Z18(verilog) instance r_pss_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\sync_control.v":126:4:126:9|Found counter in view:work.sync_control_Z18(verilog) instance r_angle_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\code_cnt.v":38:1:38:6|Found counter in view:work.code_cnt_0(verilog) instance r_code_cnt[31:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\code_cnt.v":54:1:54:6|Found counter in view:work.code_cnt_0(verilog) instance r_code_wraddr[6:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\opto_switch.v":76:1:76:6|Found counter in view:work.opto_switch_Z19(verilog) instance r_code_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\opto_switch.v":60:1:60:6|Found counter in view:work.opto_switch_Z19(verilog) instance r_clk_cnt[16:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\code_cnt.v":38:1:38:6|Found counter in view:work.code_cnt_1(verilog) instance r_code_cnt[31:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\rotate\encoder\code_cnt.v":54:1:54:6|Found counter in view:work.code_cnt_1(verilog) instance r_code_wraddr[6:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\laser\laser_control.v":120:1:120:6|Found counter in view:work.laser_control(verilog) instance r_window_cnt[7:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\laser\laser_control.v":90:1:90:6|Found counter in view:work.laser_control(verilog) instance r_rsti_cnt[4:0] 
+@N: FX493 |Applying initial value "0" on instance r_emit_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_emit_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_emit_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_emit_cnt[3].
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_control_wrapper.v":120:1:120:6|Found counter in view:work.gpx2_control_wrapper(verilog) instance r_tdcen_delaycnt[18:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Found counter in view:work.gpx2_control_wrapper(verilog) instance u_data_fill.r_fill_cnt[15:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\data_fill.v":65:1:65:6|Found counter in view:work.gpx2_control_wrapper(verilog) instance u_data_fill.r_fill_delay[15:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_cfg.v":205:4:205:9|Found counter in view:work.gpx2_cfg(verilog) instance r_gpx2_dlycnt[17:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_cfg.v":205:4:205:9|Found counter in view:work.gpx2_cfg(verilog) instance r_cnt_byte[4:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_spi_master.v":124:1:124:6|Found counter in view:work.gpx2_spi_master_Z22(verilog) instance r_bit_cnt[3:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\gpx2\gpx2_spi_master.v":124:1:124:6|Found counter in view:work.gpx2_spi_master_Z22(verilog) instance r_clk_cnt[7:0] 
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_bit_cnt[3].
+@N: FX493 |Applying initial value "0" on instance r_cs_dlycnt[0].
+@N: FX493 |Applying initial value "0" on instance r_cs_dlycnt[1].
+@N: FX493 |Applying initial value "0" on instance r_cs_dlycnt[2].
+
+Only the first 100 messages of id 'BN362' are reported. To see all messages use 'report_messages -log D:\FreeWork\df1_demo\df1_lidar_top\prj\impl1\synlog\impl1_fpga_mapper.srr -id BN362' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN362} -count unlimited' in the Tcl shell.
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\hv_control.v":108:1:108:6|Found counter in view:work.HV_control(verilog) instance r_adc_init_cnt[28:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\hv_control.v":122:1:122:6|Found counter in view:work.HV_control(verilog) instance r_sample_cnt[25:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\adc_control.v":118:1:118:6|Found counter in view:work.adc_control(verilog) instance r_adc_delay[15:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\ad_spi.v":42:3:42:8|Found counter in view:work.AD_SPI(verilog) instance clk_cnt[4:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\adc_to_temp.v":91:1:91:6|Found counter in view:work.adc_to_temp(verilog) instance r_temp_num[4:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\adc_to_temp.v":91:1:91:6|Found counter in view:work.adc_to_temp(verilog) instance r_dealy_cnt[3:0] 
+@N: FX493 |Applying initial value "0" on instance r_dealy_cnt[0].
+@N: FX493 |Applying initial value "0" on instance r_dealy_cnt[1].
+@N: FX493 |Applying initial value "0" on instance r_dealy_cnt[2].
+@N: FX493 |Applying initial value "0" on instance r_dealy_cnt[3].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[0].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[1].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[2].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[3].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[4].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[5].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[6].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[7].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[8].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[9].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[10].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[11].
+@N: FX493 |Applying initial value "0" on instance r_mult1_dataA[12].
+@N: FX493 |Applying initial value "0" on instance r_divisor[0].
+@N: FX493 |Applying initial value "0" on instance r_divisor[1].
+@N: FX493 |Applying initial value "0" on instance r_divisor[2].
+@N: FX493 |Applying initial value "0" on instance r_divisor[3].
+@N: FX493 |Applying initial value "0" on instance r_divisor[4].
+@N: FX493 |Applying initial value "0" on instance r_divisor[5].
+@N: FX493 |Applying initial value "0" on instance r_divisor[6].
+@N: FX493 |Applying initial value "0" on instance r_divisor[7].
+@N: FX493 |Applying initial value "0" on instance r_divisor[8].
+@N: FX493 |Applying initial value "0" on instance r_divisor[9].
+@N: FX493 |Applying initial value "0" on instance r_divisor[10].
+@N: FX493 |Applying initial value "0" on instance r_divisor[11].
+@N: FX493 |Applying initial value "0" on instance r_divisor[12].
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\division.v":40:1:40:6|Found counter in view:work.division_1(verilog) instance r_cal_cnt[15:0] 
+@N: FX493 |Applying initial value "0" on instance r_temp_diff[0].
+@N: FX493 |Applying initial value "0" on instance r_temp_diff[7].
+@N: FX493 |Applying initial value "0" on instance r_temp_diff[0].
+@N: FX493 |Applying initial value "0" on instance r_temp_diff[7].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[0].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[1].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[2].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[3].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[4].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[5].
+@N: FX493 |Applying initial value "0" on instance r_diff_val34[6].
+
+Only the first 100 messages of id 'FX493' are reported. To see all messages use 'report_messages -log D:\FreeWork\df1_demo\df1_lidar_top\prj\impl1\synlog\impl1_fpga_mapper.srr -id FX493' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {FX493} -count unlimited' in the Tcl shell.
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Found counter in view:work.dist_cal_Z23(verilog) instance r_delay_cnt[3:0] 
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Register bit r_rdddr_addr_base[10] (in view view:work.dist_cal_Z23(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Register bit r_rdddr_addr_base[8] (in view view:work.dist_cal_Z23(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Register bit r_rdddr_addr_base[7] (in view view:work.dist_cal_Z23(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Register bit r_rdddr_addr_base[6] (in view view:work.dist_cal_Z23(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Register bit r_rdddr_addr_base[5] (in view view:work.dist_cal_Z23(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Register bit r_rdddr_addr_base[4] (in view view:work.dist_cal_Z23(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Register bit r_rdddr_addr_base[3] (in view view:work.dist_cal_Z23(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Register bit r_rdddr_addr_base[2] (in view view:work.dist_cal_Z23(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\dist_cal.v":123:1:123:6|Register bit r_rdddr_addr_base[1] (in view view:work.dist_cal_Z23(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\rssi_cal.v":117:1:117:6|Found counter in view:work.rssi_cal_Z24(verilog) instance r_delay_cnt[15:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\calib_packet.v":196:1:196:6|Found counter in view:work.calib_packet_Z25(verilog) instance r_packet_num[15:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\calib_packet.v":186:1:186:6|Found counter in view:work.calib_packet_Z25(verilog) instance r_calib_wraddr[9:0] 
+@N: MF179 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\calib_packet.v":103:28:103:58|Found 16 by 16 bit equality operator ('==') un1_i_code_angle1_2 (in view: work.calib_packet_Z25(verilog))
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":205:1:205:6|Found counter in view:work.loop_packet_Z26(verilog) instance r_packet_num[15:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":195:1:195:6|Found counter in view:work.loop_packet_Z26(verilog) instance r_loop_wraddr[9:0] 
+@N: MF179 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\data_packet\loop_packet.v":102:8:102:37|Found 16 by 16 bit equality operator ('==') r_loop_state15 (in view: work.loop_packet_Z26(verilog))
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_ctrl.v":157:4:157:9|Found counter in view:work.phy_mdio_ctrl(verilog) instance r_delay_ns_cnt[16:0] 
+@N: MO231 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\phy_mdio\phy_mdio_ctrl.v":157:4:157:9|Found counter in view:work.phy_mdio_ctrl(verilog) instance r_delay_ms_cnt[12:0] 
+@N: MF794 |RAM r_pulse_value3_CR15[9:0] required 2 registers during mapping 
+
+Starting factoring (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:12s; Memory used current: 312MB peak: 312MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:16s; Memory used current: 361MB peak: 361MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+@W: BN114 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\dataram_1024x8\dataram_1024x8.v":104:11:104:30|Removing instance u_eth_top.u_udpcom_control.u_datagram_parser.u_loop_data2.dataram_1024x8_0_0_0 (in view: work.df1_lidar_top(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:20s; Memory used current: 344MB peak: 398MB)
+
+@N: FA113 :|Pipelining module NoName. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Pushed in register r_check_buffer[31:0].
+@N: MF169 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Pushed in register r_ip_head\\\[2\\\].
+@N: FA113 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":265:12:265:15|Pipelining module un1_r_check_buffer_icmp_1[31:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\icmp\icmp_tx.v":217:4:217:9|Pushed in register r_check_buffer_icmp[31:0].
+@N: FA113 :|Pipelining module NoName. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\eth\ip_top\udp\udp_tx.v":260:4:260:9|Pushed in register r_check_buffer[31:0].
+@N: FA113 :|Pipelining module NoName. For more information, search for "pipelining" in Online Help.
+@N: MF169 :|Pushed in register NoName.
+@N: FA113 :|Pipelining module NoName. For more information, search for "pipelining" in Online Help.
+@N: MF169 :|Pushed in register NoName.
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:26s; Memory used current: 356MB peak: 398MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:29s; Memory used current: 356MB peak: 398MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:29s; Memory used current: 356MB peak: 398MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:37s; CPU Time elapsed 0h:00m:34s; Memory used current: 357MB peak: 398MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:37s; Memory used current: 408MB peak: 423MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:38s		     1.94ns		8267 /      7544
+Net buffering Report for view:work.df1_lidar_top(verilog):
+Added 0 Buffers
+Added 13 Registers via replication
+Added 11 LUTs via replication
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:44s; CPU Time elapsed 0h:00m:40s; Memory used current: 408MB peak: 423MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FO126 :"d:\freework\df1_demo\df1_lidar_top\src\rtl\insp\temp_adc_filter.v":42:1:42:6|Generating RAM u_HV_control.u6.r_pulse_value3_CR15[9:0]
+Replicating u_eth_top.u_ip_top.u_udp_top.u_udp_tx.r_next_state_i[0], loads=122, segments=10
+Replicating u2_ddr3_interface.u2_ddr_round_robin.r_rfifo_en0, loads=101, segments=3
+Replicating u_eth_top.u_udpcom_control.u_parameter_init.r_set_cmd_code[6], loads=128, segments=13
+Replicating u_eth_top.u_udpcom_control.u_parameter_init.r_set_cmd_code[1], loads=110, segments=11
+Replicating u_flash_control.r_flash_state[0], loads=114, segments=9
+replication done = 5
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:53s; CPU Time elapsed 0h:00m:49s; Memory used current: 416MB peak: 423MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:53s; CPU Time elapsed 0h:00m:49s; Memory used current: 416MB peak: 423MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:53s; CPU Time elapsed 0h:00m:49s; Memory used current: 416MB peak: 423MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:54s; CPU Time elapsed 0h:00m:49s; Memory used current: 290MB peak: 423MB)
+
+Writing Analyst data base D:\FreeWork\df1_demo\df1_lidar_top\prj\impl1\synwork\impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:01m:02s; CPU Time elapsed 0h:00m:56s; Memory used current: 401MB peak: 423MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: D:\FreeWork\df1_demo\df1_lidar_top\prj\impl1\impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:01m:05s; CPU Time elapsed 0h:00m:59s; Memory used current: 417MB peak: 423MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:01m:05s; CPU Time elapsed 0h:00m:59s; Memory used current: 417MB peak: 423MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:01m:06s; CPU Time elapsed 0h:00m:59s; Memory used current: 384MB peak: 423MB)
+
+@W: MT246 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_lidar_ip\eth_pll\eth_pll.v":56:12:56:20|Blackbox EHXPLLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_ddr3_ip\ddr3_ipcore\ddr3_sdram_mem_top_wrapper_ddr3_ipcore.v":201:21:201:31|Blackbox ddr_clks_ddr3_ipcore is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"d:\freework\df1_demo\df1_lidar_top\src\ip\df1_ddr3_ip\ddr3_ipcore\ddr3_sdram_mem_top_wrapper_ddr3_ipcore.v":153:12:153:25|Blackbox ddr3_ipcore is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@N: MT615 |Found clock w_pll_50m with period 20.00ns 
+@N: MT615 |Found clock w_pll_100m with period 10.00ns 
+@W: MT420 |Found inferred clock df1_lidar_top|i_clk_50m with period 1000.00ns. Please declare a user-defined clock on port i_clk_50m.
+@W: MT420 |Found inferred clock df1_lidar_top|i_gpx2_lvds_lclkout with period 1000.00ns. Please declare a user-defined clock on port i_gpx2_lvds_lclkout.
+@W: MT420 |Found inferred clock eth_pll|CLKOS_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_eth_top.u_eth_pll.w_ethphy_refclk_90.
+@W: MT420 |Found inferred clock df1_lidar_top|i_ethphy_refclk with period 1000.00ns. Please declare a user-defined clock on port i_ethphy_refclk.
+@W: MT420 |Found inferred clock ddr3_sdram_mem_top_ddr3_ipcore|sclk with period 1000.00ns. Please declare a user-defined clock on net u_ddr3.ddr3_ipcore_inst.w_sclk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue Dec 17 19:15:39 2024
+#
+
+
+Top view:               df1_lidar_top
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    D:\FreeWork\df1_demo\df1_lidar_top\prj\df1_lidar.sdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.921
+
+                                        Requested     Estimated      Requested     Estimated                 Clock        Clock                  
+Starting Clock                          Frequency     Frequency      Period        Period        Slack       Type         Group                  
+-------------------------------------------------------------------------------------------------------------------------------------------------
+ddr3_sdram_mem_top_ddr3_ipcore|sclk     1.0 MHz       235.4 MHz      1000.000      4.248         995.751     inferred     Autoconstr_clkgroup_0_5
+df1_lidar_top|i_clk_50m                 1.0 MHz       201.3 MHz      1000.000      4.966         995.034     inferred     Autoconstr_clkgroup_0_1
+df1_lidar_top|i_ethphy_refclk           1.0 MHz       247.0 MHz      1000.000      4.048         995.952     inferred     Autoconstr_clkgroup_0_4
+df1_lidar_top|i_gpx2_lvds_lclkout       1.0 MHz       257.4 MHz      1000.000      3.885         996.115     inferred     Autoconstr_clkgroup_0_2
+eth_pll|CLKOS_inferred_clock            1.0 MHz       226.0 MHz      1000.000      4.425         995.576     inferred     Autoconstr_clkgroup_0_3
+w_pll_50m                               50.0 MHz      94.3 MHz       20.000        10.601        6.495       declared     default_clkgroup       
+w_pll_100m                              100.0 MHz     110.1 MHz      10.000        9.079         0.921       declared     default_clkgroup       
+System                                  1.0 MHz       2347.4 MHz     1000.000      0.426         999.574     system       system_clkgroup        
+=================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                    |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                             Ending                               |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                               System                               |  1000.000    999.574  |  No paths    -      |  No paths    -      |  No paths    -    
+System                               w_pll_50m                            |  20.000      19.946   |  No paths    -      |  No paths    -      |  No paths    -    
+System                               w_pll_100m                           |  10.000      1.872    |  No paths    -      |  No paths    -      |  No paths    -    
+System                               eth_pll|CLKOS_inferred_clock         |  1000.000    997.922  |  No paths    -      |  No paths    -      |  No paths    -    
+System                               df1_lidar_top|i_ethphy_refclk        |  1000.000    998.166  |  No paths    -      |  No paths    -      |  No paths    -    
+System                               ddr3_sdram_mem_top_ddr3_ipcore|sclk  |  1000.000    998.043  |  No paths    -      |  No paths    -      |  No paths    -    
+w_pll_50m                            System                               |  20.000      18.843   |  No paths    -      |  No paths    -      |  No paths    -    
+w_pll_50m                            w_pll_50m                            |  20.000      11.963   |  No paths    -      |  No paths    -      |  No paths    -    
+w_pll_50m                            w_pll_100m                           |  10.000      6.495    |  No paths    -      |  No paths    -      |  No paths    -    
+w_pll_100m                           System                               |  10.000      5.934    |  No paths    -      |  No paths    -      |  No paths    -    
+w_pll_100m                           w_pll_50m                            |  10.000      4.700    |  No paths    -      |  No paths    -      |  No paths    -    
+w_pll_100m                           w_pll_100m                           |  10.000      0.921    |  No paths    -      |  No paths    -      |  No paths    -    
+w_pll_100m                           eth_pll|CLKOS_inferred_clock         |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+w_pll_100m                           df1_lidar_top|i_ethphy_refclk        |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+w_pll_100m                           ddr3_sdram_mem_top_ddr3_ipcore|sclk  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+df1_lidar_top|i_clk_50m              System                               |  1000.000    998.535  |  No paths    -      |  No paths    -      |  No paths    -    
+df1_lidar_top|i_clk_50m              w_pll_100m                           |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+df1_lidar_top|i_clk_50m              df1_lidar_top|i_clk_50m              |  1000.000    995.034  |  No paths    -      |  No paths    -      |  No paths    -    
+df1_lidar_top|i_clk_50m              ddr3_sdram_mem_top_ddr3_ipcore|sclk  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+df1_lidar_top|i_gpx2_lvds_lclkout    w_pll_100m                           |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+df1_lidar_top|i_gpx2_lvds_lclkout    df1_lidar_top|i_gpx2_lvds_lclkout    |  1000.000    996.115  |  No paths    -      |  No paths    -      |  No paths    -    
+eth_pll|CLKOS_inferred_clock         System                               |  1000.000    998.613  |  No paths    -      |  No paths    -      |  No paths    -    
+eth_pll|CLKOS_inferred_clock         w_pll_100m                           |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+eth_pll|CLKOS_inferred_clock         eth_pll|CLKOS_inferred_clock         |  1000.000    995.576  |  No paths    -      |  No paths    -      |  No paths    -    
+df1_lidar_top|i_ethphy_refclk        System                               |  1000.000    998.721  |  No paths    -      |  No paths    -      |  No paths    -    
+df1_lidar_top|i_ethphy_refclk        w_pll_100m                           |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+df1_lidar_top|i_ethphy_refclk        df1_lidar_top|i_ethphy_refclk        |  1000.000    995.952  |  No paths    -      |  No paths    -      |  No paths    -    
+ddr3_sdram_mem_top_ddr3_ipcore|sclk  System                               |  1000.000    998.589  |  No paths    -      |  No paths    -      |  No paths    -    
+ddr3_sdram_mem_top_ddr3_ipcore|sclk  w_pll_100m                           |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+ddr3_sdram_mem_top_ddr3_ipcore|sclk  ddr3_sdram_mem_top_ddr3_ipcore|sclk  |  1000.000    995.752  |  No paths    -      |  No paths    -      |  No paths    -    
+==================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: ddr3_sdram_mem_top_ddr3_ipcore|sclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                               Starting                                                                     Arrival            
+Instance                                                       Reference                               Type        Pin     Net              Time        Slack  
+                                                               Clock                                                                                           
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.FF_2           ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1S3DX     Q       r_gcount_w28     1.009       995.751
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2flash.FF_2          ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1S3DX     Q       r_gcount_w28     1.009       995.751
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2para.FF_2           ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1S3DX     Q       r_gcount_w28     1.009       995.751
+u2_ddr3_interface.u2_ddr_round_robin.u_asfifo_256x96.FF_11     ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1S3DX     Q       w_gcount_r28     1.009       995.751
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.FF_3           ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1S3DX     Q       r_gcount_w27     0.955       995.806
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2flash.FF_3          ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1S3DX     Q       r_gcount_w27     0.955       995.806
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2para.FF_3           ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1S3DX     Q       r_gcount_w27     0.955       995.806
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.FF_4           ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1S3DX     Q       r_gcount_w26     0.955       995.806
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2flash.FF_4          ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1S3DX     Q       r_gcount_w26     0.955       995.806
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2para.FF_4           ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1S3DX     Q       r_gcount_w26     0.955       995.806
+===============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                              Starting                                                                      Required            
+Instance                                                      Reference                               Type        Pin     Net               Time         Slack  
+                                                              Clock                                                                                             
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2para.FF_0          ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1S3DX     D       full_d            999.946      995.751
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.FF_0          ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1S3DX     D       full_d            999.946      995.751
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2flash.FF_0         ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1S3DX     D       full_d            999.946      995.751
+u2_ddr3_interface.u2_ddr_round_robin.u_asfifo_256x96.FF_1     ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1S3BX     D       empty_d           999.946      995.751
+u2_ddr3_interface.u1_ddr3_rw_ctrl.r_addr[0]                   ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1P3DX     D       r_addr_RNO[0]     999.946      996.971
+u2_ddr3_interface.u1_ddr3_rw_ctrl.r_addr[1]                   ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1P3DX     D       N_796_i           999.946      996.971
+u2_ddr3_interface.u1_ddr3_rw_ctrl.r_addr[2]                   ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1P3DX     D       r_addr_RNO[2]     999.946      996.971
+u2_ddr3_interface.u1_ddr3_rw_ctrl.r_addr[3]                   ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1P3DX     D       N_824_i           999.946      996.971
+u2_ddr3_interface.u1_ddr3_rw_ctrl.r_addr[4]                   ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1P3DX     D       N_839             999.946      996.971
+u2_ddr3_interface.u1_ddr3_rw_ctrl.r_addr[5]                   ddr3_sdram_mem_top_ddr3_ipcore|sclk     FD1P3DX     D       N_852_i           999.946      996.971
+================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.946
+
+    - Propagation time:                      4.194
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 995.752
+
+    Number of logic level(s):                8
+    Starting point:                          u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.FF_2 / Q
+    Ending point:                            u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.FF_0 / D
+    The start point is clocked by            ddr3_sdram_mem_top_ddr3_ipcore|sclk [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CK
+    The end   point is clocked by            ddr3_sdram_mem_top_ddr3_ipcore|sclk [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CK
+
+Instance / Net                                                              Pin      Pin               Arrival     No. of    
+Name                                                           Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.FF_2           FD1S3DX      Q        Out     1.009     1.009 r     -         
+r_gcount_w28                                                   Net          -        -       -         -           5         
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.LUT4_12        ROM16X1A     AD0      In      0.000     1.009 r     -         
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.LUT4_12        ROM16X1A     DO0      Out     0.738     1.747 r     -         
+r_g2b_xor_cluster_0                                            Net          -        -       -         -           4         
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.LUT4_4         ROM16X1A     AD3      In      0.000     1.747 r     -         
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.LUT4_4         ROM16X1A     DO0      Out     0.606     2.353 r     -         
+rcount_w0                                                      Net          -        -       -         -           1         
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.full_cmp_0     CCU2C        B0       In      0.000     2.353 r     -         
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.full_cmp_0     CCU2C        COUT     Out     0.900     3.253 r     -         
+co0_3                                                          Net          -        -       -         -           1         
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.full_cmp_1     CCU2C        CIN      In      0.000     3.253 r     -         
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.full_cmp_1     CCU2C        COUT     Out     0.061     3.314 r     -         
+co1_3                                                          Net          -        -       -         -           1         
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.full_cmp_2     CCU2C        CIN      In      0.000     3.314 r     -         
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.full_cmp_2     CCU2C        COUT     Out     0.061     3.375 r     -         
+co2_3                                                          Net          -        -       -         -           1         
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.full_cmp_3     CCU2C        CIN      In      0.000     3.375 r     -         
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.full_cmp_3     CCU2C        COUT     Out     0.061     3.436 r     -         
+co3_3                                                          Net          -        -       -         -           1         
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.full_cmp_4     CCU2C        CIN      In      0.000     3.436 r     -         
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.full_cmp_4     CCU2C        COUT     Out     0.061     3.497 r     -         
+full_d_c                                                       Net          -        -       -         -           1         
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.a1             CCU2C        CIN      In      0.000     3.497 r     -         
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.a1             CCU2C        S0       Out     0.698     4.194 r     -         
+full_d                                                         Net          -        -       -         -           1         
+u2_ddr3_interface.u2_ddr_round_robin.u_ddr2dist.FF_0           FD1S3DX      D        In      0.000     4.194 r     -         
+=============================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: df1_lidar_top|i_clk_50m
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                                             Arrival            
+Instance             Reference                   Type        Pin     Net                  Time        Slack  
+                     Clock                                                                                   
+-------------------------------------------------------------------------------------------------------------
+r_rst_dlycnt[5]      df1_lidar_top|i_clk_50m     FD1S3IX     Q       r_rst_dlycnt[5]      0.955       995.034
+r_rst_dlycnt[6]      df1_lidar_top|i_clk_50m     FD1S3IX     Q       r_rst_dlycnt[6]      0.955       995.034
+r_rst_dlycnt[7]      df1_lidar_top|i_clk_50m     FD1S3IX     Q       r_rst_dlycnt[7]      0.955       995.034
+r_rst_dlycnt[8]      df1_lidar_top|i_clk_50m     FD1S3IX     Q       r_rst_dlycnt[8]      0.955       995.034
+r_rst_dlycnt[9]      df1_lidar_top|i_clk_50m     FD1S3IX     Q       r_rst_dlycnt[9]      0.955       995.034
+r_rst_dlycnt[10]     df1_lidar_top|i_clk_50m     FD1S3IX     Q       r_rst_dlycnt[10]     0.955       995.034
+r_rst_dlycnt[11]     df1_lidar_top|i_clk_50m     FD1S3IX     Q       r_rst_dlycnt[11]     0.955       995.034
+r_rst_dlycnt[12]     df1_lidar_top|i_clk_50m     FD1S3IX     Q       r_rst_dlycnt[12]     0.955       995.034
+r_rst_dlycnt[16]     df1_lidar_top|i_clk_50m     FD1S3IX     Q       r_rst_dlycnt[16]     1.015       995.580
+r_rst_dlycnt[17]     df1_lidar_top|i_clk_50m     FD1S3IX     Q       r_rst_dlycnt[17]     1.015       995.580
+=============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                     Starting                                                                           Required            
+Instance             Reference                   Type        Pin     Net                                Time         Slack  
+                     Clock                                                                                                  
+----------------------------------------------------------------------------------------------------------------------------
+r_rst_dlycnt[17]     df1_lidar_top|i_clk_50m     FD1S3IX     D       un1_r_rst_dlycnt_4_cry_17_0_S0     999.946      995.034
+r_rst_dlycnt[18]     df1_lidar_top|i_clk_50m     FD1S3IX     D       un1_r_rst_dlycnt_4_cry_17_0_S1     999.946      995.034
+r_rst_dlycnt[15]     df1_lidar_top|i_clk_50m     FD1S3IX     D       un1_r_rst_dlycnt_4_cry_15_0_S0     999.946      995.095
+r_rst_dlycnt[16]     df1_lidar_top|i_clk_50m     FD1S3IX     D       un1_r_rst_dlycnt_4_cry_15_0_S1     999.946      995.095
+r_rst_dlycnt[13]     df1_lidar_top|i_clk_50m     FD1S3IX     D       un1_r_rst_dlycnt_4_cry_13_0_S0     999.946      995.155
+r_rst_dlycnt[14]     df1_lidar_top|i_clk_50m     FD1S3IX     D       un1_r_rst_dlycnt_4_cry_13_0_S1     999.946      995.155
+r_rst_dlycnt[11]     df1_lidar_top|i_clk_50m     FD1S3IX     D       un1_r_rst_dlycnt_4_cry_11_0_S0     999.946      995.216
+r_rst_dlycnt[12]     df1_lidar_top|i_clk_50m     FD1S3IX     D       un1_r_rst_dlycnt_4_cry_11_0_S1     999.946      995.216
+r_rst_dlycnt[9]      df1_lidar_top|i_clk_50m     FD1S3IX     D       un1_r_rst_dlycnt_4_cry_9_0_S0      999.946      995.278
+r_rst_dlycnt[10]     df1_lidar_top|i_clk_50m     FD1S3IX     D       un1_r_rst_dlycnt_4_cry_9_0_S1      999.946      995.278
+============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.946
+
+    - Propagation time:                      4.912
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 995.034
+
+    Number of logic level(s):                13
+    Starting point:                          r_rst_dlycnt[5] / Q
+    Ending point:                            r_rst_dlycnt[18] / D
+    The start point is clocked by            df1_lidar_top|i_clk_50m [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CK
+    The end   point is clocked by            df1_lidar_top|i_clk_50m [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+r_rst_dlycnt[5]                    FD1S3IX      Q        Out     0.955     0.955 r     -         
+r_rst_dlycnt[5]                    Net          -        -       -         -           3         
+un1_r_rst_dlycntlto8               ORCALUT4     A        In      0.000     0.955 r     -         
+un1_r_rst_dlycntlto8               ORCALUT4     Z        Out     0.606     1.561 f     -         
+un1_r_rst_dlycntlt12               Net          -        -       -         -           1         
+un1_r_rst_dlycntlto14              ORCALUT4     C        In      0.000     1.561 f     -         
+un1_r_rst_dlycntlto14              ORCALUT4     Z        Out     0.606     2.167 f     -         
+un1_r_rst_dlycntlt18               Net          -        -       -         -           1         
+r_rst_dlycnt8                      ORCALUT4     D        In      0.000     2.167 f     -         
+r_rst_dlycnt8                      ORCALUT4     Z        Out     0.660     2.827 r     -         
+r_rst_dlycnt8                      Net          -        -       -         -           2         
+un1_r_rst_dlycnt_4_cry_0_0         CCU2C        B0       In      0.000     2.827 r     -         
+un1_r_rst_dlycnt_4_cry_0_0         CCU2C        COUT     Out     0.900     3.727 r     -         
+un1_r_rst_dlycnt_4_cry_0           Net          -        -       -         -           1         
+un1_r_rst_dlycnt_4_cry_1_0         CCU2C        CIN      In      0.000     3.727 r     -         
+un1_r_rst_dlycnt_4_cry_1_0         CCU2C        COUT     Out     0.061     3.788 r     -         
+un1_r_rst_dlycnt_4_cry_2           Net          -        -       -         -           1         
+un1_r_rst_dlycnt_4_cry_3_0         CCU2C        CIN      In      0.000     3.788 r     -         
+un1_r_rst_dlycnt_4_cry_3_0         CCU2C        COUT     Out     0.061     3.849 r     -         
+un1_r_rst_dlycnt_4_cry_4           Net          -        -       -         -           1         
+un1_r_rst_dlycnt_4_cry_5_0         CCU2C        CIN      In      0.000     3.849 r     -         
+un1_r_rst_dlycnt_4_cry_5_0         CCU2C        COUT     Out     0.061     3.910 r     -         
+un1_r_rst_dlycnt_4_cry_6           Net          -        -       -         -           1         
+un1_r_rst_dlycnt_4_cry_7_0         CCU2C        CIN      In      0.000     3.910 r     -         
+un1_r_rst_dlycnt_4_cry_7_0         CCU2C        COUT     Out     0.061     3.971 r     -         
+un1_r_rst_dlycnt_4_cry_8           Net          -        -       -         -           1         
+un1_r_rst_dlycnt_4_cry_9_0         CCU2C        CIN      In      0.000     3.971 r     -         
+un1_r_rst_dlycnt_4_cry_9_0         CCU2C        COUT     Out     0.061     4.032 r     -         
+un1_r_rst_dlycnt_4_cry_10          Net          -        -       -         -           1         
+un1_r_rst_dlycnt_4_cry_11_0        CCU2C        CIN      In      0.000     4.032 r     -         
+un1_r_rst_dlycnt_4_cry_11_0        CCU2C        COUT     Out     0.061     4.093 r     -         
+un1_r_rst_dlycnt_4_cry_12          Net          -        -       -         -           1         
+un1_r_rst_dlycnt_4_cry_13_0        CCU2C        CIN      In      0.000     4.093 r     -         
+un1_r_rst_dlycnt_4_cry_13_0        CCU2C        COUT     Out     0.061     4.154 r     -         
+un1_r_rst_dlycnt_4_cry_14          Net          -        -       -         -           1         
+un1_r_rst_dlycnt_4_cry_15_0        CCU2C        CIN      In      0.000     4.154 r     -         
+un1_r_rst_dlycnt_4_cry_15_0        CCU2C        COUT     Out     0.061     4.215 r     -         
+un1_r_rst_dlycnt_4_cry_16          Net          -        -       -         -           1         
+un1_r_rst_dlycnt_4_cry_17_0        CCU2C        CIN      In      0.000     4.215 r     -         
+un1_r_rst_dlycnt_4_cry_17_0        CCU2C        S1       Out     0.698     4.912 r     -         
+un1_r_rst_dlycnt_4_cry_17_0_S1     Net          -        -       -         -           1         
+r_rst_dlycnt[18]                   FD1S3IX      D        In      0.000     4.912 r     -         
+=================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: df1_lidar_top|i_ethphy_refclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                              Starting                                                               Arrival            
+Instance                                                      Reference                         Type        Pin     Net              Time        Slack  
+                                                              Clock                                                                                     
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_2      df1_lidar_top|i_ethphy_refclk     FD1S3DX     Q       r_gcount_w25     1.009       995.952
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_3      df1_lidar_top|i_ethphy_refclk     FD1S3DX     Q       r_gcount_w24     0.955       996.005
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_4      df1_lidar_top|i_ethphy_refclk     FD1S3DX     Q       r_gcount_w23     0.955       996.005
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_5      df1_lidar_top|i_ethphy_refclk     FD1S3DX     Q       r_gcount_w22     0.955       996.665
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_6      df1_lidar_top|i_ethphy_refclk     FD1S3DX     Q       r_gcount_w21     0.907       996.713
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_56     df1_lidar_top|i_ethphy_refclk     FD1P3DX     Q       wcount_5         1.015       996.727
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_7      df1_lidar_top|i_ethphy_refclk     FD1S3DX     Q       r_gcount_w20     0.853       996.768
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_44     df1_lidar_top|i_ethphy_refclk     FD1P3DX     Q       wptr_5           0.907       996.836
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_60     df1_lidar_top|i_ethphy_refclk     FD1P3DX     Q       wcount_1         1.009       997.217
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_61     df1_lidar_top|i_ethphy_refclk     FD1P3BX     Q       wcount_0         0.985       997.241
+========================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                      Starting                                                             Required            
+Instance                                                              Reference                         Type        Pin      Net           Time         Slack  
+                                                                      Clock                                                                                    
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_0              df1_lidar_top|i_ethphy_refclk     FD1S3DX     D        full_d        999.946      995.952
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_56             df1_lidar_top|i_ethphy_refclk     FD1P3DX     D        iwcount_5     999.946      997.279
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_57             df1_lidar_top|i_ethphy_refclk     FD1P3DX     D        iwcount_4     999.946      997.279
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_58             df1_lidar_top|i_ethphy_refclk     FD1P3DX     D        iwcount_3     999.946      997.340
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_59             df1_lidar_top|i_ethphy_refclk     FD1P3DX     D        iwcount_2     999.946      997.340
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.pdp_ram_0_0_0     df1_lidar_top|i_ethphy_refclk     DP16KD      ADA1     wptr_0        998.202      997.349
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.pdp_ram_0_0_0     df1_lidar_top|i_ethphy_refclk     DP16KD      ADA2     wptr_1        998.202      997.349
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.pdp_ram_0_0_0     df1_lidar_top|i_ethphy_refclk     DP16KD      ADA3     wptr_2        998.202      997.349
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.pdp_ram_0_0_0     df1_lidar_top|i_ethphy_refclk     DP16KD      ADA4     wptr_3        998.202      997.349
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.pdp_ram_0_0_0     df1_lidar_top|i_ethphy_refclk     DP16KD      ADA5     wptr_4        998.202      997.349
+===============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.946
+
+    - Propagation time:                      3.994
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 995.952
+
+    Number of logic level(s):                6
+    Starting point:                          u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_2 / Q
+    Ending point:                            u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_0 / D
+    The start point is clocked by            df1_lidar_top|i_ethphy_refclk [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CK
+    The end   point is clocked by            df1_lidar_top|i_ethphy_refclk [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CK
+
+Instance / Net                                                                  Pin      Pin               Arrival     No. of    
+Name                                                               Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_2           FD1S3DX      Q        Out     1.009     1.009 r     -         
+r_gcount_w25                                                       Net          -        -       -         -           5         
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.LUT4_6         ROM16X1A     AD1      In      0.000     1.009 r     -         
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.LUT4_6         ROM16X1A     DO0      Out     0.660     1.669 r     -         
+rcount_w3                                                          Net          -        -       -         -           2         
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.LUT4_4         ROM16X1A     AD0      In      0.000     1.669 r     -         
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.LUT4_4         ROM16X1A     DO0      Out     0.606     2.275 r     -         
+rcount_w0                                                          Net          -        -       -         -           1         
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.full_cmp_0     CCU2C        B0       In      0.000     2.275 r     -         
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.full_cmp_0     CCU2C        COUT     Out     0.900     3.175 r     -         
+co0_3                                                              Net          -        -       -         -           1         
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.full_cmp_1     CCU2C        CIN      In      0.000     3.175 r     -         
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.full_cmp_1     CCU2C        COUT     Out     0.061     3.236 r     -         
+co1_3                                                              Net          -        -       -         -           1         
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.full_cmp_2     CCU2C        CIN      In      0.000     3.236 r     -         
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.full_cmp_2     CCU2C        COUT     Out     0.061     3.297 r     -         
+full_d_c                                                           Net          -        -       -         -           1         
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.a1             CCU2C        CIN      In      0.000     3.297 r     -         
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.a1             CCU2C        S0       Out     0.698     3.994 r     -         
+full_d                                                             Net          -        -       -         -           1         
+u_eth_top.u_rmii_top.u_rmii_rx.u_dcfifo_rmiirx_36x2.FF_0           FD1S3DX      D        In      0.000     3.994 r     -         
+=================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: df1_lidar_top|i_gpx2_lvds_lclkout
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                            Starting                                                                       Arrival            
+Instance                                    Reference                             Type        Pin     Net                  Time        Slack  
+                                            Clock                                                                                             
+----------------------------------------------------------------------------------------------------------------------------------------------
+u_gpx2_control_wrapper.r_result_cnt2[0]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     Q       r_result_cnt2[0]     0.985       996.115
+u_gpx2_control_wrapper.r_result_cnt1[0]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     Q       r_result_cnt1[0]     0.985       996.120
+u_gpx2_control_wrapper.r_result_cnt2[1]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     Q       r_result_cnt2[1]     1.015       996.120
+u_gpx2_control_wrapper.r_result_cnt2[2]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     Q       r_result_cnt2[2]     1.015       996.120
+u_gpx2_control_wrapper.r_result_cnt3[0]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     Q       r_result_cnt3[0]     0.985       996.120
+u_gpx2_control_wrapper.r_result_cnt1[1]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     Q       r_result_cnt1[1]     1.009       996.126
+u_gpx2_control_wrapper.r_result_cnt1[2]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     Q       r_result_cnt1[2]     1.009       996.126
+u_gpx2_control_wrapper.r_result_cnt3[1]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     Q       r_result_cnt3[1]     1.009       996.126
+u_gpx2_control_wrapper.r_result_cnt3[2]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     Q       r_result_cnt3[2]     1.009       996.126
+u_gpx2_control_wrapper.r_result_cnt2[4]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     Q       r_result_cnt2[4]     0.955       996.144
+==============================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                            Starting                                                                         Required            
+Instance                                    Reference                             Type        Pin     Net                    Time         Slack  
+                                            Clock                                                                                                
+-------------------------------------------------------------------------------------------------------------------------------------------------
+u_gpx2_control_wrapper.r_result_cnt2[3]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     D       r_result_cnt2_s[3]     999.946      996.115
+u_gpx2_control_wrapper.r_result_cnt2[4]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     D       r_result_cnt2_s[4]     999.946      996.115
+u_gpx2_control_wrapper.r_result_cnt1[3]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     D       r_result_cnt1_s[3]     999.946      996.120
+u_gpx2_control_wrapper.r_result_cnt1[4]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     D       r_result_cnt1_s[4]     999.946      996.120
+u_gpx2_control_wrapper.r_result_cnt3[3]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     D       r_result_cnt3_s[3]     999.946      996.120
+u_gpx2_control_wrapper.r_result_cnt3[4]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     D       r_result_cnt3_s[4]     999.946      996.120
+u_gpx2_control_wrapper.r_result_cnt2[1]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     D       r_result_cnt2_s[1]     999.946      996.176
+u_gpx2_control_wrapper.r_result_cnt2[2]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     D       r_result_cnt2_s[2]     999.946      996.176
+u_gpx2_control_wrapper.r_result_cnt1[1]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     D       r_result_cnt1_s[1]     999.946      996.182
+u_gpx2_control_wrapper.r_result_cnt1[2]     df1_lidar_top|i_gpx2_lvds_lclkout     FD1S3AX     D       r_result_cnt1_s[2]     999.946      996.182
+=================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.946
+
+    - Propagation time:                      3.832
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 996.115
+
+    Number of logic level(s):                5
+    Starting point:                          u_gpx2_control_wrapper.r_result_cnt2[0] / Q
+    Ending point:                            u_gpx2_control_wrapper.r_result_cnt2[4] / D
+    The start point is clocked by            df1_lidar_top|i_gpx2_lvds_lclkout [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CK
+    The end   point is clocked by            df1_lidar_top|i_gpx2_lvds_lclkout [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CK
+
+Instance / Net                                                    Pin      Pin               Arrival     No. of    
+Name                                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+u_gpx2_control_wrapper.r_result_cnt2[0]              FD1S3AX      Q        Out     0.985     0.985 r     -         
+r_result_cnt2[0]                                     Net          -        -       -         -           4         
+u_gpx2_control_wrapper.r_result_stop211lto4_2        ORCALUT4     C        In      0.000     0.985 r     -         
+u_gpx2_control_wrapper.r_result_stop211lto4_2        ORCALUT4     Z        Out     0.798     1.783 r     -         
+r_result_stop211lto4_2                               Net          -        -       -         -           9         
+u_gpx2_control_wrapper.un1_r_result_cnt2_cry_0_0     CCU2C        B1       In      0.000     1.783 r     -         
+u_gpx2_control_wrapper.un1_r_result_cnt2_cry_0_0     CCU2C        COUT     Out     0.900     2.683 r     -         
+un1_r_result_cnt2_cry_0                              Net          -        -       -         -           1         
+u_gpx2_control_wrapper.un1_r_result_cnt2_cry_1_0     CCU2C        CIN      In      0.000     2.683 r     -         
+u_gpx2_control_wrapper.un1_r_result_cnt2_cry_1_0     CCU2C        COUT     Out     0.061     2.744 r     -         
+un1_r_result_cnt2_cry_2                              Net          -        -       -         -           1         
+u_gpx2_control_wrapper.un1_r_result_cnt2_cry_3_0     CCU2C        CIN      In      0.000     2.744 r     -         
+u_gpx2_control_wrapper.un1_r_result_cnt2_cry_3_0     CCU2C        S1       Out     0.698     3.442 r     -         
+un1_r_result_cnt2_cry_3_0_S1                         Net          -        -       -         -           1         
+u_gpx2_control_wrapper.r_result_cnt2_s[4]            ORCALUT4     B        In      0.000     3.442 r     -         
+u_gpx2_control_wrapper.r_result_cnt2_s[4]            ORCALUT4     Z        Out     0.390     3.832 r     -         
+r_result_cnt2_s[4]                                   Net          -        -       -         -           1         
+u_gpx2_control_wrapper.r_result_cnt2[4]              FD1S3AX      D        In      0.000     3.832 r     -         
+===================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: eth_pll|CLKOS_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                Starting                                                               Arrival            
+Instance                                                        Reference                        Type        Pin     Net               Time        Slack  
+                                                                Clock                                                                                     
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_15     eth_pll|CLKOS_inferred_clock     FD1S3DX     Q       w_gcount_r212     1.009       995.576
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_19     eth_pll|CLKOS_inferred_clock     FD1S3DX     Q       w_gcount_r28      0.985       995.624
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_16     eth_pll|CLKOS_inferred_clock     FD1S3DX     Q       w_gcount_r211     0.955       995.630
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_17     eth_pll|CLKOS_inferred_clock     FD1S3DX     Q       w_gcount_r210     0.955       995.630
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_18     eth_pll|CLKOS_inferred_clock     FD1S3DX     Q       w_gcount_r29      0.955       995.630
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_20     eth_pll|CLKOS_inferred_clock     FD1S3DX     Q       w_gcount_r27      0.955       995.654
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_21     eth_pll|CLKOS_inferred_clock     FD1S3DX     Q       w_gcount_r26      0.907       995.702
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_23     eth_pll|CLKOS_inferred_clock     FD1S3DX     Q       w_gcount_r24      0.985       995.731
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_22     eth_pll|CLKOS_inferred_clock     FD1S3DX     Q       w_gcount_r25      0.853       995.755
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_24     eth_pll|CLKOS_inferred_clock     FD1S3DX     Q       w_gcount_r23      0.955       995.761
+==========================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                Starting                                                            Required            
+Instance                                                        Reference                        Type        Pin     Net            Time         Slack  
+                                                                Clock                                                                                   
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_1      eth_pll|CLKOS_inferred_clock     FD1S3BX     D       empty_d        999.946      995.576
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_80     eth_pll|CLKOS_inferred_clock     FD1P3DX     D       ircount_12     999.946      997.034
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_81     eth_pll|CLKOS_inferred_clock     FD1P3DX     D       ircount_11     999.946      997.096
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_82     eth_pll|CLKOS_inferred_clock     FD1P3DX     D       ircount_10     999.946      997.096
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_83     eth_pll|CLKOS_inferred_clock     FD1P3DX     D       ircount_9      999.946      997.157
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_84     eth_pll|CLKOS_inferred_clock     FD1P3DX     D       ircount_8      999.946      997.157
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_85     eth_pll|CLKOS_inferred_clock     FD1P3DX     D       ircount_7      999.946      997.217
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_86     eth_pll|CLKOS_inferred_clock     FD1P3DX     D       ircount_6      999.946      997.217
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_87     eth_pll|CLKOS_inferred_clock     FD1P3DX     D       ircount_5      999.946      997.279
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_88     eth_pll|CLKOS_inferred_clock     FD1P3DX     D       ircount_4      999.946      997.279
+========================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.946
+
+    - Propagation time:                      4.370
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 995.576
+
+    Number of logic level(s):                10
+    Starting point:                          u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_15 / Q
+    Ending point:                            u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_1 / D
+    The start point is clocked by            eth_pll|CLKOS_inferred_clock [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CK
+    The end   point is clocked by            eth_pll|CLKOS_inferred_clock [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CK
+
+Instance / Net                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_15           FD1S3DX      Q        Out     1.009     1.009 r     -         
+w_gcount_r212                                                         Net          -        -       -         -           5         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.LUT4_33         ROM16X1A     AD0      In      0.000     1.009 r     -         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.LUT4_33         ROM16X1A     DO0      Out     0.792     1.801 r     -         
+w_g2b_xor_cluster_0                                                   Net          -        -       -         -           8         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.LUT4_19         ROM16X1A     AD3      In      0.000     1.801 r     -         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.LUT4_19         ROM16X1A     DO0      Out     0.606     2.407 r     -         
+wcount_r0                                                             Net          -        -       -         -           1         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.empty_cmp_0     CCU2C        B0       In      0.000     2.407 r     -         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.empty_cmp_0     CCU2C        COUT     Out     0.900     3.307 r     -         
+co0_2                                                                 Net          -        -       -         -           1         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.empty_cmp_1     CCU2C        CIN      In      0.000     3.307 r     -         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.empty_cmp_1     CCU2C        COUT     Out     0.061     3.368 r     -         
+co1_2                                                                 Net          -        -       -         -           1         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.empty_cmp_2     CCU2C        CIN      In      0.000     3.368 r     -         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.empty_cmp_2     CCU2C        COUT     Out     0.061     3.429 r     -         
+co2_2                                                                 Net          -        -       -         -           1         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.empty_cmp_3     CCU2C        CIN      In      0.000     3.429 r     -         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.empty_cmp_3     CCU2C        COUT     Out     0.061     3.490 r     -         
+co3_2                                                                 Net          -        -       -         -           1         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.empty_cmp_4     CCU2C        CIN      In      0.000     3.490 r     -         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.empty_cmp_4     CCU2C        COUT     Out     0.061     3.551 r     -         
+co4_2                                                                 Net          -        -       -         -           1         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.empty_cmp_5     CCU2C        CIN      In      0.000     3.551 r     -         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.empty_cmp_5     CCU2C        COUT     Out     0.061     3.612 r     -         
+co5_2                                                                 Net          -        -       -         -           1         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.empty_cmp_6     CCU2C        CIN      In      0.000     3.612 r     -         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.empty_cmp_6     CCU2C        COUT     Out     0.061     3.673 r     -         
+empty_d_c                                                             Net          -        -       -         -           1         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.a0              CCU2C        CIN      In      0.000     3.673 r     -         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.a0              CCU2C        S0       Out     0.698     4.370 r     -         
+empty_d                                                               Net          -        -       -         -           1         
+u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.FF_1            FD1S3BX      D        In      0.000     4.370 r     -         
+====================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: w_pll_50m
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                     Starting                                                  Arrival          
+Instance                             Reference     Type        Pin     Net                     Time        Slack
+                                     Clock                                                                      
+----------------------------------------------------------------------------------------------------------------
+u_HV_control.u3.r_apd_temp[10]       w_pll_50m     FD1P3DX     Q       w_device_temp_i[2]      1.009       6.495
+u_HV_control.u3.r_apd_temp[11]       w_pll_50m     FD1P3DX     Q       r_apd_temp[11]          0.985       6.519
+u_HV_control.u3.r_apd_temp[12]       w_pll_50m     FD1P3DX     Q       r_apd_temp[12]          0.985       6.573
+u_HV_control.r_adc_hv_value[2]       w_pll_50m     FD1P3DX     Q       w_apd_hv_value[2]       0.853       6.885
+u_HV_control.r_adc_hv_value[7]       w_pll_50m     FD1P3DX     Q       w_apd_hv_value[7]       0.853       6.885
+u_HV_control.u3.r_apd_temp[13]       w_pll_50m     FD1P3DX     Q       r_apd_temp[13]          0.955       7.209
+u_HV_control.u3.r_apd_temp[14]       w_pll_50m     FD1P3DX     Q       r_apd_temp[14]          0.907       7.257
+u_HV_control.r_adc_temp_value[0]     w_pll_50m     FD1P3DX     Q       w_apd_temp_value[0]     0.907       7.437
+u_HV_control.r_adc_temp_value[1]     w_pll_50m     FD1P3DX     Q       w_apd_temp_value[1]     0.907       7.437
+u_HV_control.r_adc_temp_value[2]     w_pll_50m     FD1P3DX     Q       w_apd_temp_value[2]     0.907       7.437
+================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                               Starting                                                Required          
+Instance                                                       Reference     Type        Pin     Net                   Time         Slack
+                                                               Clock                                                                     
+-----------------------------------------------------------------------------------------------------------------------------------------
+u_eth_top.u_udpcom_control.u_parameter_init.r_set_para0[6]     w_pll_50m     FD1P3DX     D       r_set_para0_45[6]     9.946        6.495
+u_eth_top.u_udpcom_control.u_parameter_init.r_set_para0[4]     w_pll_50m     FD1P3DX     D       r_set_para0_45[4]     9.946        6.549
+u_eth_top.u_udpcom_control.u_parameter_init.r_set_para0[2]     w_pll_50m     FD1P3DX     D       r_set_para0_45[2]     9.946        6.729
+u_eth_top.u_udpcom_control.u_parameter_init.r_set_para0[7]     w_pll_50m     FD1P3DX     D       r_set_para0_45[7]     9.946        6.885
+u_eth_top.u_udpcom_control.u_parameter_init.r_set_para0[5]     w_pll_50m     FD1P3DX     D       r_set_para0_45[5]     9.946        7.155
+u_eth_top.u_udpcom_control.u_parameter_init.r_set_para0[3]     w_pll_50m     FD1P3DX     D       r_set_para0_45[3]     9.946        7.335
+u_eth_top.u_udpcom_control.u_parameter_init.r_set_para1[0]     w_pll_50m     FD1P3DX     D       N_1867_i              9.946        7.437
+u_eth_top.u_udpcom_control.u_parameter_init.r_set_para1[1]     w_pll_50m     FD1P3DX     D       N_1844_i              9.946        7.437
+u_eth_top.u_udpcom_control.u_parameter_init.r_set_para1[2]     w_pll_50m     FD1P3DX     D       N_1816_i              9.946        7.437
+u_eth_top.u_udpcom_control.u_parameter_init.r_set_para1[3]     w_pll_50m     FD1P3DX     D       N_1793_i              9.946        7.437
+=========================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.946
+
+    - Propagation time:                      3.451
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 6.495
+
+    Number of logic level(s):                5
+    Starting point:                          u_HV_control.u3.r_apd_temp[10] / Q
+    Ending point:                            u_eth_top.u_udpcom_control.u_parameter_init.r_set_para0[6] / D
+    The start point is clocked by            w_pll_50m [rising] (rise=0.000 fall=10.000 period=20.000) on pin CK
+    The end   point is clocked by            w_pll_100m [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+
+Instance / Net                                                                        Pin      Pin               Arrival     No. of    
+Name                                                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+u_HV_control.u3.r_apd_temp[10]                                           FD1P3DX      Q        Out     1.009     1.009 r     -         
+w_device_temp_i[2]                                                       Net          -        -       -         -           5         
+u_HV_control.u3.o_device_temp_1_c2                                       ORCALUT4     B        In      0.000     1.009 r     -         
+u_HV_control.u3.o_device_temp_1_c2                                       ORCALUT4     Z        Out     0.660     1.669 r     -         
+o_device_temp_1_c2                                                       Net          -        -       -         -           2         
+u_HV_control.u3.o_device_temp_1_axbxc4                                   ORCALUT4     A        In      0.000     1.669 r     -         
+u_HV_control.u3.o_device_temp_1_axbxc4                                   ORCALUT4     Z        Out     0.180     1.849 r     -         
+w_device_temp[6]                                                         Net          -        -       -         -           1         
+u_eth_top.u_udpcom_control.u_parameter_init.r_set_para0_45_1_iv_2[6]     ORCALUT4     D        In      0.000     1.849 r     -         
+u_eth_top.u_udpcom_control.u_parameter_init.r_set_para0_45_1_iv_2[6]     ORCALUT4     Z        Out     0.606     2.455 r     -         
+r_set_para0_45_1_iv_2[6]                                                 Net          -        -       -         -           1         
+u_eth_top.u_udpcom_control.u_parameter_init.r_set_para0_45_1_iv_9[6]     ORCALUT4     C        In      0.000     2.455 r     -         
+u_eth_top.u_udpcom_control.u_parameter_init.r_set_para0_45_1_iv_9[6]     ORCALUT4     Z        Out     0.606     3.061 r     -         
+r_set_para0_45_1_iv_9[6]                                                 Net          -        -       -         -           1         
+u_eth_top.u_udpcom_control.u_parameter_init.r_set_para0_45_1_iv[6]       ORCALUT4     C        In      0.000     3.061 r     -         
+u_eth_top.u_udpcom_control.u_parameter_init.r_set_para0_45_1_iv[6]       ORCALUT4     Z        Out     0.390     3.451 r     -         
+r_set_para0_45[6]                                                        Net          -        -       -         -           1         
+u_eth_top.u_udpcom_control.u_parameter_init.r_set_para0[6]               FD1P3DX      D        In      0.000     3.451 r     -         
+=======================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: w_pll_100m
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                               Starting                                                Arrival          
+Instance                                                       Reference      Type        Pin     Net                  Time        Slack
+                                                               Clock                                                                    
+----------------------------------------------------------------------------------------------------------------------------------------
+u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_cnt[1]     w_pll_100m     FD1P3DX     Q       r_byte_cnt[1]        1.137       0.921
+u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_cnt[2]     w_pll_100m     FD1P3DX     Q       r_byte_cnt[2]        1.101       1.018
+u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_cnt[3]     w_pll_100m     FD1P3DX     Q       r_byte_cnt[3]        1.098       1.020
+u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_cnt[4]     w_pll_100m     FD1P3DX     Q       r_byte_cnt[4]        1.084       1.095
+u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_cnt[5]     w_pll_100m     FD1P3DX     Q       r_byte_cnt[5]        1.027       1.153
+u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_cnt[6]     w_pll_100m     FD1P3DX     Q       r_byte_cnt[6]        1.051       1.190
+u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_cnt[7]     w_pll_100m     FD1P3DX     Q       r_byte_cnt[7]        1.051       1.190
+u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_cnt[8]     w_pll_100m     FD1P3DX     Q       r_byte_cnt[8]        1.027       1.274
+u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_cnt[9]     w_pll_100m     FD1P3DX     Q       r_byte_cnt[9]        1.027       1.274
+u_dist.u_dist_calculate.u3_dist_cal.r_dist_data_l[0]           w_pll_100m     FD1P3DX     Q       r_dist_data_l[0]     1.015       1.294
+========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                       Starting                                                    Required          
+Instance                                                               Reference      Type        Pin     Net                      Time         Slack
+                                                                       Clock                                                                         
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+u_eth_top.u_udpcom_control.u_datagram_parser.r_udp_txram_wrdata[0]     w_pll_100m     FD1P3DX     SP      un1_r_state_15_i_0_0     9.806        0.921
+u_eth_top.u_udpcom_control.u_datagram_parser.r_udp_txram_wrdata[1]     w_pll_100m     FD1P3DX     SP      un1_r_state_15_i_0_0     9.806        0.921
+u_eth_top.u_udpcom_control.u_datagram_parser.r_udp_txram_wrdata[2]     w_pll_100m     FD1P3DX     SP      un1_r_state_15_i_0_0     9.806        0.921
+u_eth_top.u_udpcom_control.u_datagram_parser.r_udp_txram_wrdata[3]     w_pll_100m     FD1P3DX     SP      un1_r_state_15_i_0_0     9.806        0.921
+u_eth_top.u_udpcom_control.u_datagram_parser.r_udp_txram_wrdata[4]     w_pll_100m     FD1P3DX     SP      un1_r_state_15_i_0_0     9.806        0.921
+u_eth_top.u_udpcom_control.u_datagram_parser.r_udp_txram_wrdata[5]     w_pll_100m     FD1P3DX     SP      un1_r_state_15_i_0_0     9.806        0.921
+u_eth_top.u_udpcom_control.u_datagram_parser.r_udp_txram_wrdata[6]     w_pll_100m     FD1P3DX     SP      un1_r_state_15_i_0_0     9.806        0.921
+u_eth_top.u_udpcom_control.u_datagram_parser.r_udp_txram_wrdata[7]     w_pll_100m     FD1P3DX     SP      un1_r_state_15_i_0_0     9.806        0.921
+u_dist.u_dist_calculate.u3_dist_cal.r_mult1_dataB[31]                  w_pll_100m     FD1P3AX     D       r_mult1_dataB_18[31]     9.946        1.294
+u_dist.u_dist_calculate.u3_dist_cal.r_mult1_dataB[29]                  w_pll_100m     FD1P3AX     D       r_mult1_dataB_18[29]     9.946        1.355
+=====================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.194
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.806
+
+    - Propagation time:                      8.886
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.921
+
+    Number of logic level(s):                16
+    Starting point:                          u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_cnt[1] / Q
+    Ending point:                            u_eth_top.u_udpcom_control.u_datagram_parser.r_udp_txram_wrdata[0] / SP
+    The start point is clocked by            w_pll_100m [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+    The end   point is clocked by            w_pll_100m [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+
+Instance / Net                                                                                  Pin      Pin               Arrival     No. of    
+Name                                                                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+u_eth_top.u_udpcom_control.u_datagram_parser.r_byte_cnt[1]                         FD1P3DX      Q        Out     1.137     1.137 r     -         
+r_byte_cnt[1]                                                                      Net          -        -       -         -           48        
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_byte_cnt_1_cry_0_0              CCU2C        A1       In      0.000     1.137 r     -         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_byte_cnt_1_cry_0_0              CCU2C        COUT     Out     0.900     2.037 r     -         
+un1_r_byte_cnt_1_cry_0                                                             Net          -        -       -         -           1         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_byte_cnt_1_cry_1_0              CCU2C        CIN      In      0.000     2.037 r     -         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_byte_cnt_1_cry_1_0              CCU2C        S0       Out     0.698     2.734 r     -         
+un1_r_udpcom_byte_size_1_2                                                         Net          -        -       -         -           1         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udpcom_byte_size_1_cry_1_0      CCU2C        A1       In      0.000     2.734 r     -         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udpcom_byte_size_1_cry_1_0      CCU2C        COUT     Out     0.900     3.634 r     -         
+un1_r_udpcom_byte_size_1_cry_2                                                     Net          -        -       -         -           1         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udpcom_byte_size_1_cry_3_0      CCU2C        CIN      In      0.000     3.634 r     -         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udpcom_byte_size_1_cry_3_0      CCU2C        COUT     Out     0.061     3.695 r     -         
+un1_r_udpcom_byte_size_1_cry_4                                                     Net          -        -       -         -           1         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udpcom_byte_size_1_cry_5_0      CCU2C        CIN      In      0.000     3.695 r     -         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udpcom_byte_size_1_cry_5_0      CCU2C        COUT     Out     0.061     3.756 r     -         
+un1_r_udpcom_byte_size_1_cry_6                                                     Net          -        -       -         -           1         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udpcom_byte_size_1_cry_7_0      CCU2C        CIN      In      0.000     3.756 r     -         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udpcom_byte_size_1_cry_7_0      CCU2C        COUT     Out     0.061     3.817 r     -         
+un1_r_udpcom_byte_size_1_cry_8                                                     Net          -        -       -         -           1         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udpcom_byte_size_1_cry_9_0      CCU2C        CIN      In      0.000     3.817 r     -         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udpcom_byte_size_1_cry_9_0      CCU2C        COUT     Out     0.061     3.878 r     -         
+un1_r_udpcom_byte_size_1_cry_10                                                    Net          -        -       -         -           1         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udpcom_byte_size_1_cry_11_0     CCU2C        CIN      In      0.000     3.878 r     -         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udpcom_byte_size_1_cry_11_0     CCU2C        COUT     Out     0.061     3.939 r     -         
+un1_r_udpcom_byte_size_1_cry_12                                                    Net          -        -       -         -           1         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udpcom_byte_size_1_cry_13_0     CCU2C        CIN      In      0.000     3.939 r     -         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udpcom_byte_size_1_cry_13_0     CCU2C        COUT     Out     0.061     4.000 r     -         
+un1_r_udpcom_byte_size_1_cry_14                                                    Net          -        -       -         -           1         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udpcom_byte_size_1_cry_15_0     CCU2C        CIN      In      0.000     4.000 r     -         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udpcom_byte_size_1_cry_15_0     CCU2C        S1       Out     0.872     4.872 r     -         
+un1_r_udpcom_byte_size_1_cry_15_i                                                  Net          -        -       -         -           7         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udp_txram_wrdata448_1_19_1      ORCALUT4     B        In      0.000     4.872 r     -         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udp_txram_wrdata448_1_19_1      ORCALUT4     Z        Out     0.606     5.478 f     -         
+un1_r_udp_txram_wrdata448_1_19_1                                                   Net          -        -       -         -           1         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udp_txram_wrdata448_1_19        ORCALUT4     C        In      0.000     5.478 f     -         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udp_txram_wrdata448_1_19        ORCALUT4     Z        Out     0.606     6.084 f     -         
+un1_r_udp_txram_wrdata448_1_19                                                     Net          -        -       -         -           1         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udp_txram_wrdata448_1_27_0      ORCALUT4     C        In      0.000     6.084 f     -         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udp_txram_wrdata448_1_27_0      ORCALUT4     Z        Out     0.606     6.690 f     -         
+un1_r_udp_txram_wrdata448_1_27_0                                                   Net          -        -       -         -           1         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udp_txram_wrdata448_1_30_0      ORCALUT4     C        In      0.000     6.690 f     -         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_udp_txram_wrdata448_1_30_0      ORCALUT4     Z        Out     0.606     7.296 f     -         
+un1_r_udp_txram_wrdata448_1_30_0                                                   Net          -        -       -         -           1         
+u_eth_top.u_udpcom_control.u_datagram_parser.r_udp_txram_wrdata_2_sqmuxa_24        ORCALUT4     B        In      0.000     7.296 f     -         
+u_eth_top.u_udpcom_control.u_datagram_parser.r_udp_txram_wrdata_2_sqmuxa_24        ORCALUT4     Z        Out     0.798     8.094 f     -         
+r_udp_txram_wrdata_2_sqmuxa_24                                                     Net          -        -       -         -           9         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_state_15_i_0_0                  ORCALUT4     C        In      0.000     8.094 f     -         
+u_eth_top.u_udpcom_control.u_datagram_parser.un1_r_state_15_i_0_0                  ORCALUT4     Z        Out     0.792     8.886 r     -         
+un1_r_state_15_i_0_0                                                               Net          -        -       -         -           8         
+u_eth_top.u_udpcom_control.u_datagram_parser.r_udp_txram_wrdata[0]                 FD1P3DX      SP       In      0.000     8.886 r     -         
+=================================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                        Starting                                                  Arrival          
+Instance                                                                Reference     Type        Pin      Net                    Time        Slack
+                                                                        Clock                                                                      
+---------------------------------------------------------------------------------------------------------------------------------------------------
+u_pll.PLLInst_0                                                         System        EHXPLLL     LOCK     w_pll_locked           0.000       1.872
+u_dist.u_dist_calculate.u3_dist_cal.u2_multiplier_in32bit.dsp_alu_1     System        ALU54B      R16      w_mult2_result[8]      0.000       7.043
+u_dist.u_dist_calculate.u3_dist_cal.u1_multiplier_in32bit.dsp_alu_1     System        ALU54B      R16      w_mult1_result[8]      0.000       7.043
+u_dist.u_dist_calculate.u3_dist_cal.u1_multiplier_in32bit.dsp_alu_1     System        ALU54B      R16      w_mult1_result[8]      0.000       7.043
+u_dist.u_dist_calculate.u3_dist_cal.u2_multiplier_in32bit.dsp_alu_1     System        ALU54B      R16      w_mult2_result[8]      0.000       7.043
+u_dist.u_dist_calculate.u3_dist_cal.u1_multiplier_in32bit.dsp_alu_0     System        ALU54B      R0       w_mult1_result[10]     0.000       7.104
+u_dist.u_dist_calculate.u3_dist_cal.u2_multiplier_in32bit.dsp_alu_0     System        ALU54B      R0       w_mult2_result[10]     0.000       7.104
+u_dist.u_dist_calculate.u3_dist_cal.u2_multiplier_in32bit.dsp_alu_0     System        ALU54B      R0       w_mult2_result[10]     0.000       7.104
+u_dist.u_dist_calculate.u3_dist_cal.u1_multiplier_in32bit.dsp_alu_0     System        ALU54B      R0       w_mult1_result[10]     0.000       7.104
+u_dist.u_dist_calculate.u3_dist_cal.u1_multiplier_in32bit.dsp_alu_1     System        ALU54B      R17      w_mult1_result[9]      0.000       7.104
+===================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                          Starting                                                  Required          
+Instance                                                  Reference     Type        Pin     Net                     Time         Slack
+                                                          Clock                                                                       
+--------------------------------------------------------------------------------------------------------------------------------------
+u_phy_mdio_ctrl.r_link_done                               System        FD1S3AX     D       r_link_done_r           9.946        1.872
+u_phy_mdio_ctrl.u_phy_mdio_drive.r_phy_ready              System        FD1S3AY     D       r_phy_ready_RNO         9.946        1.872
+u_phy_mdio_ctrl.wait_poer_on_done                         System        FD1S3AX     D       wait_poer_on_done_r     9.946        1.872
+u_dist.u_dist_calculate.u3_dist_cal.r_dist_data_h[31]     System        FD1P3DX     D       N_2142_i                9.946        7.043
+u_dist.u_dist_calculate.u3_dist_cal.r_dist_data_l[31]     System        FD1P3DX     D       N_1441_i                9.946        7.043
+u_dist.u_dist_calculate.u3_dist_cal.r_dist_data_h[29]     System        FD1P3DX     D       N_2141_i                9.946        7.104
+u_dist.u_dist_calculate.u3_dist_cal.r_dist_data_h[30]     System        FD1P3DX     D       N_2145_i                9.946        7.104
+u_dist.u_dist_calculate.u3_dist_cal.r_dist_data_l[29]     System        FD1P3DX     D       N_1419_i                9.946        7.104
+u_dist.u_dist_calculate.u3_dist_cal.r_dist_data_l[30]     System        FD1P3DX     D       N_1430_i                9.946        7.104
+u_dist.u_dist_calculate.u3_dist_cal.r_dist_data_h[27]     System        FD1P3DX     D       N_2140_i                9.946        7.165
+======================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.946
+
+    - Propagation time:                      8.074
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 1.872
+
+    Number of logic level(s):                2
+    Starting point:                          u_pll.PLLInst_0 / LOCK
+    Ending point:                            u_phy_mdio_ctrl.r_link_done / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            w_pll_100m [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+u_pll.PLLInst_0                   EHXPLLL      LOCK     Out     0.000     0.000 r     -         
+w_pll_locked                      Net          -        -       -         -           22        
+r_rst_n_RNIM5RC                   ORCALUT4     B        In      0.000     0.000 r     -         
+r_rst_n_RNIM5RC                   ORCALUT4     Z        Out     7.684     7.684 f     -         
+w_rst_n_i                         Net          -        -       -         -           5710      
+u_phy_mdio_ctrl.r_link_done_r     ORCALUT4     A        In      0.000     7.684 f     -         
+u_phy_mdio_ctrl.r_link_done_r     ORCALUT4     Z        Out     0.390     8.074 r     -         
+r_link_done_r                     Net          -        -       -         -           1         
+u_phy_mdio_ctrl.r_link_done       FD1S3AX      D        In      0.000     8.074 r     -         
+================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:01m:06s; CPU Time elapsed 0h:01m:00s; Memory used current: 389MB peak: 423MB)
+
+
+Finished timing report (Real Time elapsed 0h:01m:06s; CPU Time elapsed 0h:01m:00s; Memory used current: 389MB peak: 423MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfe5u_45f-7
+
+Register bits: 8458 of 43848 (19%)
+PIC Latch:       0
+I/O cells:       45
+Block Rams : 35 of 108 (32%)
+
+DSP primitives:       23 of 108 (21%)
+
+Details:
+ALU54B:         7
+AND2:           33
+BB:             1
+CCU2C:          2522
+DP16KD:         12
+DPR16X4C:       3
+EHXPLLL:        2
+FD1P3AX:        434
+FD1P3BX:        335
+FD1P3DX:        4833
+FD1P3IX:        508
+FD1S3AX:        39
+FD1S3AY:        3
+FD1S3BX:        147
+FD1S3DX:        1765
+FD1S3IX:        366
+GSR:            1
+IB:             21
+IFS1P3BX:       1
+IFS1P3DX:       9
+IFS1P3IX:       3
+INV:            123
+L6MUX21:        64
+MULT18X18D:     16
+OB:             23
+OFS1P3BX:       4
+OFS1P3DX:       8
+OFS1P3IX:       3
+OR2:            6
+ORCALUT4:       8150
+PDPW16KD:       23
+PFUMX:          228
+PUR:            1
+ROM16X1A:       150
+VHI:            113
+VLO:            113
+XOR2:           105
+ddr3_ipcore:    1
+ddr_clks_ddr3_ipcore: 1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:01m:07s; CPU Time elapsed 0h:01m:00s; Memory used current: 154MB peak: 423MB)
+
+Process took 0h:01m:07s realtime, 0h:01m:00s cputime
+# Tue Dec 17 19:15:40 2024
+
+###########################################################]

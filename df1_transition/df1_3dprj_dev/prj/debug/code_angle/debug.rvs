@@ -1,0 +1,335 @@
+<Project ModBy="Analyzer" Name="D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/debug/code_angle/debug.rvs" Date="2025-05-20">
+ <Core Name="df1_lidar_top_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="2048" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Sig Name="u_rotate_control/r_sync_ready"/>
+    <Sig Name="u_rotate_control/o_angle_sync"/>
+    <Sig Name="u_rotate_control/o_tdc_strdy"/>
+    <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/i_opto_rise"/>
+    <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/i_zero_sign"/>
+    <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/i_angle_sync"/>
+    <Bus Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt" Radix="0">
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:0"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:1"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:2"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:3"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:4"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:5"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:6"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:7"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:8"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:9"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:10"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:11"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:12"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:13"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:14"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:15"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:16"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:17"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:18"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:19"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:20"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:21"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:22"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_cycle_clkcnt:23"/>
+    </Bus>
+    <Bus Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_angle_state" Radix="0">
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_angle_state:0"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_angle_state:1"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_angle_state:2"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_angle_state:3"/>
+    </Bus>
+    <Bus Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_dly_clkcnt" Radix="0">
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_dly_clkcnt:0"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_dly_clkcnt:1"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_dly_clkcnt:2"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_dly_clkcnt:3"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_dly_clkcnt:4"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_dly_clkcnt:5"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_dly_clkcnt:6"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_dly_clkcnt:7"/>
+    </Bus>
+    <Bus Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataA" Radix="0">
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataA:0"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataA:1"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataA:2"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataA:3"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataA:4"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataA:5"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataA:6"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataA:7"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataA:8"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataA:9"/>
+    </Bus>
+    <Bus Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB" Radix="0">
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:0"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:1"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:2"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:3"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:4"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:5"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:6"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:7"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:8"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:9"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:10"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:11"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:12"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:13"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:14"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:15"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:16"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:17"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:18"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:19"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:20"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:21"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:22"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_mult1_dataB:23"/>
+    </Bus>
+    <Bus Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result" Radix="0">
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:0"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:1"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:2"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:3"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:4"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:5"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:6"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:7"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:8"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:9"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:10"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:11"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:12"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:13"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:14"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:15"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:16"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:17"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:18"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:19"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:20"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:21"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:22"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:23"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:24"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:25"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:26"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:27"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:28"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:29"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:30"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:31"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:32"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_mult1_result:33"/>
+    </Bus>
+    <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_en"/>
+    <Bus Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num" Radix="0">
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:0"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:1"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:2"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:3"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:4"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:5"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:6"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:7"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:8"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:9"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:10"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:11"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:12"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:13"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:14"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:15"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:16"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:17"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:18"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:19"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:20"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:21"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:22"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:23"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:24"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:25"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:26"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:27"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:28"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:29"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:30"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:31"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:32"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_num:33"/>
+    </Bus>
+    <Bus Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_den" Radix="0">
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_den:0"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_den:1"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_den:2"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_den:3"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_den:4"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_den:5"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_den:6"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_den:7"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_den:8"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_den:9"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_den:10"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_den:11"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_den:12"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_den:13"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_den:14"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_divider_den:15"/>
+    </Bus>
+    <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_caldone"/>
+    <Bus Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo" Radix="0">
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:0"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:1"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:2"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:3"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:4"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:5"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:6"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:7"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:8"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:9"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:10"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:11"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:12"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:13"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:14"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:15"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:16"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:17"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:18"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:19"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:20"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:21"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:22"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:23"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:24"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:25"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:26"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:27"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:28"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:29"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:30"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:31"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:32"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/w_divider_quo:33"/>
+    </Bus>
+    <Bus Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_code_angle" Radix="0">
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_code_angle:0"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_code_angle:1"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_code_angle:2"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_code_angle:3"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_code_angle:4"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_code_angle:5"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_code_angle:6"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_code_angle:7"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_code_angle:8"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_code_angle:9"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_code_angle:10"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_code_angle:11"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_code_angle:12"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_code_angle:13"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_code_angle:14"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/r_code_angle:15"/>
+    </Bus>
+    <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/i_start"/>
+    <Bus Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_state" Radix="0">
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_state:0"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_state:1"/>
+    </Bus>
+    <Bus Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_quotient" Radix="0">
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_quotient:0"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_quotient:1"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_quotient:2"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_quotient:3"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_quotient:4"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_quotient:5"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_quotient:6"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_quotient:7"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_quotient:8"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_quotient:9"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_quotient:10"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_quotient:11"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_quotient:12"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_quotient:13"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_quotient:14"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_quotient:15"/>
+    </Bus>
+    <Bus Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift" Radix="0">
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:0"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:1"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:2"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:3"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:4"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:5"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:6"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:7"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:8"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:9"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:10"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:11"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:12"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:13"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:14"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:15"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:16"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:17"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:18"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:19"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:20"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:21"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:22"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:23"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:24"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:25"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:26"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:27"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:28"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:29"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:30"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:31"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:32"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:33"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:34"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:35"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:36"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:37"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:38"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:39"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:40"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:41"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:42"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:43"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:44"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:45"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:46"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_dividend_shift:47"/>
+    </Bus>
+    <Bus Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_count" Radix="0">
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_count:0"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_count:1"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_count:2"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_count:3"/>
+     <Sig Name="u_rotate_control/u3_encoder_control/u3_code_angle/u_divider_code/r_count:4"/>
+    </Bus>
+   </Trace>
+   <Trigger>
+    <TU Operator="0" Name="TU1" ID="1" Value="1" Radix="0"/>
+    <TU Operator="0" Name="TU2" ID="2" Value="1" Radix="0"/>
+    <TU Operator="0" Name="TU3" ID="3" Value="98" Radix="2"/>
+    <TU Operator="0" Name="TU4" ID="4" Value="0000" Radix="2"/>
+    <TE Enable="0" Expression="TU1" Name="TE1" ID="1"/>
+    <TE Enable="0" Expression="TU2" Name="TE2" ID="2"/>
+    <TE Enable="0" Expression="TU3" Name="TE3" ID="3"/>
+    <TE Enable="1" Expression="TU4" Name="TE4" ID="4"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+</Project>

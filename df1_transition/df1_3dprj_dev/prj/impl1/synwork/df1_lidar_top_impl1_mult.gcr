@@ -1,0 +1,123 @@
+i u_pll.CLKOS
+m 0 0
+u 3047 7423
+n ckid0_0 {t:u_mpt2042_top.u2_lvds_dec.u_lasfifo_decode.FF_77.CK} Synplify Pro Clock optimization on technology cells not supported in this product
+p {t:u_pll.PLLInst_0.CLKOS}{p:u_pll.CLKOS}{t:u_pll.CLKOS}{t:w_pll_100m.I[0]}{t:w_pll_100m.OUT[0]}{t:u_mpt2042_top.i_clk_100m}{p:u_mpt2042_top.i_clk_100m}{t:u_mpt2042_top.u2_lvds_dec.i_clk_100m}{p:u_mpt2042_top.u2_lvds_dec.i_clk_100m}{t:u_mpt2042_top.u2_lvds_dec.u_lasfifo_decode.RdClock}{p:u_mpt2042_top.u2_lvds_dec.u_lasfifo_decode.RdClock}{t:u_mpt2042_top.u2_lvds_dec.u_lasfifo_decode.FF_77.CK}
+e ckid0_0 {t:u_mpt2042_top.u2_lvds_dec.u_lasfifo_decode.FF_77.CK} FD1P3BX
+d ckid0_1 {t:u_pll.PLLInst_0.CLKOS} EHXPLLL Gated clock propagation blocked by synkeep buffer
+i df1_lidar_top_reveal_coretop_instance.jtck_i[0]
+m 0 0
+u 51 343
+p {t:df1_lidar_top_reveal_coretop_instance.jtagconn16_inst_0.jtck}{t:df1_lidar_top_reveal_coretop_instance.jtck_inferred_clock[0].I[0]}{t:df1_lidar_top_reveal_coretop_instance.jtck_inferred_clock[0].OUT[0]}{t:df1_lidar_top_reveal_coretop_instance.df1_lidar_top_la0_inst_0.jtck}{p:df1_lidar_top_reveal_coretop_instance.df1_lidar_top_la0_inst_0.jtck}{t:df1_lidar_top_reveal_coretop_instance.df1_lidar_top_la0_inst_0.tm_u.jtck}{p:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_2 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_2 {t:df1_lidar_top_reveal_coretop_instance.jtagconn16_inst_0.jtck} jtagconn16 Unsupported/too complex instance on clock path
+i w_pll_50m
+m 0 0
+u 446 1790
+p {t:w_pll_50m_keep.OUT[0]}{t:u_HV_control.i_clk_50m}{p:u_HV_control.i_clk_50m}{t:u_HV_control.r_check_state[1].C}
+e ckid0_3 {t:u_HV_control.r_check_state[1].C} dffr
+c ckid0_3 {t:u_pll.CLKOP} pll_uniq_1 Unsupported/too complex instance on clock path
+i u2_iddr_tdc2.sclk_i
+m 0 0
+u 140 166
+n ckid0_4 {t:u_mpt2042_top.u2_lvds_dec.u_lasfifo_decode.FF_101.CK} Synplify Pro Clock optimization on technology cells not supported in this product
+p {t:u2_iddr_tdc2.Inst6_CLKDIVF.CDIVX}{t:u2_iddr_tdc2.sclk_inferred_clock.I[0]}{t:u2_iddr_tdc2.sclk_inferred_clock.OUT[0]}{p:u2_iddr_tdc2.sclk}{t:u2_iddr_tdc2.sclk}{t:u_mpt2042_top.i_lvds_divclk2}{p:u_mpt2042_top.i_lvds_divclk2}{t:u_mpt2042_top.u2_lvds_dec.i_lvds_divclk}{p:u_mpt2042_top.u2_lvds_dec.i_lvds_divclk}{t:u_mpt2042_top.u2_lvds_dec.u_lasfifo_decode.WrClock}{p:u_mpt2042_top.u2_lvds_dec.u_lasfifo_decode.WrClock}{t:u_mpt2042_top.u2_lvds_dec.u_lasfifo_decode.FF_101.CK}
+e ckid0_4 {t:u_mpt2042_top.u2_lvds_dec.u_lasfifo_decode.FF_101.CK} FD1P3BX
+d ckid0_4 {t:u2_iddr_tdc2.Inst6_CLKDIVF.CDIVX} CLKDIVF Clock source is constant
+i u1_iddr_tdc1.sclk_i
+m 0 0
+u 140 166
+n ckid0_5 {t:u_mpt2042_top.u1_lvds_dec.u_lasfifo_decode.FF_101.CK} Synplify Pro Clock optimization on technology cells not supported in this product
+p {t:u1_iddr_tdc1.Inst6_CLKDIVF.CDIVX}{t:u1_iddr_tdc1.sclk_inferred_clock.I[0]}{t:u1_iddr_tdc1.sclk_inferred_clock.OUT[0]}{p:u1_iddr_tdc1.sclk}{t:u1_iddr_tdc1.sclk}{t:u_mpt2042_top.i_lvds_divclk1}{p:u_mpt2042_top.i_lvds_divclk1}{t:u_mpt2042_top.u1_lvds_dec.i_lvds_divclk}{p:u_mpt2042_top.u1_lvds_dec.i_lvds_divclk}{t:u_mpt2042_top.u1_lvds_dec.u_lasfifo_decode.WrClock}{p:u_mpt2042_top.u1_lvds_dec.u_lasfifo_decode.WrClock}{t:u_mpt2042_top.u1_lvds_dec.u_lasfifo_decode.FF_101.CK}
+e ckid0_5 {t:u_mpt2042_top.u1_lvds_dec.u_lasfifo_decode.FF_101.CK} FD1P3BX
+d ckid0_5 {t:u1_iddr_tdc1.Inst6_CLKDIVF.CDIVX} CLKDIVF Clock source is constant
+i u_pll.CLKOS2_i
+m 0 0
+u 48 74
+p {t:u_pll.PLLInst_0.CLKOS2}{t:u_pll.CLKOS2_inferred_clock.I[0]}{t:u_pll.CLKOS2_inferred_clock.OUT[0]}{p:u_pll.CLKOS2}{t:u_pll.CLKOS2}{t:r1_150mrst_sync.C}
+e ckid0_6 {t:r1_150mrst_sync.C} dffr
+c ckid0_6 {t:u_pll.PLLInst_0.CLKOS2} EHXPLLL Clock source is constant
+i u_eth_top.u_eth_pll.CLKOS_i
+m 0 0
+u 71 72
+n ckid0_7 {t:u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.pdp_ram_0_0_0.CLKB} Synplify Pro Clock optimization on technology cells not supported in this product
+p {t:u_eth_top.u_eth_pll.PLLInst_0.CLKOS}{t:u_eth_top.u_eth_pll.CLKOS_inferred_clock.I[0]}{t:u_eth_top.u_eth_pll.CLKOS_inferred_clock.OUT[0]}{p:u_eth_top.u_eth_pll.CLKOS}{t:u_eth_top.u_eth_pll.CLKOS}{t:u_eth_top.u_rmii_top.i_phy_refclk_90}{p:u_eth_top.u_rmii_top.i_phy_refclk_90}{t:u_eth_top.u_rmii_top.u_rmii_tx.i_phy_refclk_90}{p:u_eth_top.u_rmii_top.u_rmii_tx.i_phy_refclk_90}{t:u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.RdClock}{p:u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.RdClock}{t:u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.pdp_ram_0_0_0.CLKB}
+e ckid0_7 {t:u_eth_top.u_rmii_top.u_rmii_tx.u_dcfifo_rmiitx_4096x2.pdp_ram_0_0_0.CLKB} DP16KD
+d ckid0_7 {t:u_eth_top.u_eth_pll.PLLInst_0.CLKOS} EHXPLLL Clock source is constant
+i i_ethphy_refclk
+m 0 0
+u 34 35
+p {p:i_ethphy_refclk}{t:u_eth_top.i_ethphy_refclk}{p:u_eth_top.i_ethphy_refclk}{t:u_eth_top.u_rmii_top.i_ethphy_refclk}{p:u_eth_top.u_rmii_top.i_ethphy_refclk}{t:u_eth_top.u_rmii_top.u_rmii_rx.i_ethphy_refclk}{p:u_eth_top.u_rmii_top.u_rmii_rx.i_ethphy_refclk}{t:u_eth_top.u_rmii_top.u_rmii_rx.r_ethphy_rxdv.C}
+e ckid0_8 {t:u_eth_top.u_rmii_top.u_rmii_rx.r_ethphy_rxdv.C} sdffr
+c ckid0_8 {p:i_ethphy_refclk} port Synplify Pro Clock optimization on technology cells not supported in this product
+i u_ddr3.ddr3_ipcore_inst.un1_U1_clocking
+m 0 0
+u 178 414
+p {t:u_ddr3.ddr3_ipcore_inst.U1_clocking.sclk}{t:u_ddr3.ddr3_ipcore_inst.sclk.I[0]}{t:u_ddr3.ddr3_ipcore_inst.sclk.OUT[0]}{p:u_ddr3.ddr3_ipcore_inst.sclk_out}{t:u_ddr3.ddr3_ipcore_inst.sclk_out}{p:u_ddr3.ddr3_ipcore_sclk_out}{t:u_ddr3.ddr3_ipcore_sclk_out}{t:u1_ddr3_init_ctrl.i_clk}{p:u1_ddr3_init_ctrl.i_clk}{t:u1_ddr3_init_ctrl.r_rst_srvcd.C}
+e ckid0_9 {t:u1_ddr3_init_ctrl.r_rst_srvcd.C} dffre
+c ckid0_10 {t:u_ddr3.ddr3_ipcore_inst.U1_clocking.sclk} ddr_clks_ddr3_ipcore Synplify Pro Clock optimization on technology cells not supported in this product
+i i_clk_50m
+m 0 0
+u 3 26
+p {p:i_clk_50m}{t:r_rst_n.C}
+e ckid0_11 {t:r_rst_n.C} dffr
+c ckid0_11 {p:i_clk_50m} port Unsupported/too complex instance on clock path
+i i_ddrclk_100m
+m 0 0
+u 0 0
+i i_tdc1_lvds_serclk
+m 0 0
+u 0 0
+i i_tdc2_lvds_serclk
+m 0 0
+u 0 0
+i u_pll.CLKOP
+m 0 0
+u 0 0
+i u_pll.LOCK
+m 0 0
+u 0 0
+i u_ddr3.ddr3_ipcore_inst.clocking_good
+m 0 0
+u 0 0
+i u_ddr3.ddr3_ipcore_inst.un1_U1_clocking_1
+m 0 0
+u 0 0
+i u_ddr3.ddr3_ipcore_inst.ddr_rst
+m 0 0
+u 0 0
+i u_ddr3.ddr3_ipcore_inst.ddrdel
+m 0 0
+u 0 0
+i u_ddr3.ddr3_ipcore_inst.dqsbuf_pause
+m 0 0
+u 0 0
+i u_ddr3.ddr3_ipcore_inst.update_done
+m 0 0
+u 0 0
+i u_eth_top.u_eth_pll.CLKOP
+m 0 0
+u 0 0
+i u1_iddr_tdc1.buf_clkin
+m 0 0
+u 0 0
+i u2_iddr_tdc2.buf_clkin
+m 0 0
+u 0 0
+i df1_lidar_top_reveal_coretop_instance.jrstn[0]
+m 0 0
+u 0 0
+i df1_lidar_top_reveal_coretop_instance.jce2[0]
+m 0 0
+u 0 0
+i df1_lidar_top_reveal_coretop_instance.jtdi[0]
+m 0 0
+u 0 0
+i df1_lidar_top_reveal_coretop_instance.jshift[0]
+m 0 0
+u 0 0
+i df1_lidar_top_reveal_coretop_instance.ip_enable[0]
+m 0 0
+u 0 0
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

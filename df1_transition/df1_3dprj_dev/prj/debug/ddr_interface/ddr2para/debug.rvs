@@ -1,0 +1,327 @@
+<Project ModBy="Analyzer" Name="D:/FreeWork/df1_demo/df1_lidar_top/prj/debug/ddr_interface/ddr2para/debug.rvs" Date="2024-11-27">
+ <Core Name="df1_lidar_top_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="4096" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="1" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Bus Name="u_flash_control/r_flash_state" Radix="0">
+     <Sig Name="u_flash_control/r_flash_state:0"/>
+     <Sig Name="u_flash_control/r_flash_state:1"/>
+     <Sig Name="u_flash_control/r_flash_state:2"/>
+     <Sig Name="u_flash_control/r_flash_state:3"/>
+     <Sig Name="u_flash_control/r_flash_state:4"/>
+     <Sig Name="u_flash_control/r_flash_state:5"/>
+     <Sig Name="u_flash_control/r_flash_state:6"/>
+     <Sig Name="u_flash_control/r_flash_state:7"/>
+     <Sig Name="u_flash_control/r_flash_state:8"/>
+     <Sig Name="u_flash_control/r_flash_state:9"/>
+     <Sig Name="u_flash_control/r_flash_state:10"/>
+     <Sig Name="u_flash_control/r_flash_state:11"/>
+     <Sig Name="u_flash_control/r_flash_state:12"/>
+     <Sig Name="u_flash_control/r_flash_state:13"/>
+     <Sig Name="u_flash_control/r_flash_state:14"/>
+     <Sig Name="u_flash_control/r_flash_state:15"/>
+     <Sig Name="u_flash_control/r_flash_state:16"/>
+     <Sig Name="u_flash_control/r_flash_state:17"/>
+     <Sig Name="u_flash_control/r_flash_state:18"/>
+     <Sig Name="u_flash_control/r_flash_state:19"/>
+     <Sig Name="u_flash_control/r_flash_state:20"/>
+     <Sig Name="u_flash_control/r_flash_state:21"/>
+     <Sig Name="u_flash_control/r_flash_state:22"/>
+     <Sig Name="u_flash_control/r_flash_state:23"/>
+    </Bus>
+    <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_flash_poweron_initdone"/>
+    <Bus Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:15"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:16"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:17"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:18"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:19"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:20"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:21"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:22"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:23"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:24"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:25"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:26"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:27"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:28"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:29"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:30"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:31"/>
+    </Bus>
+    <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/o_ddr2para_rden"/>
+    <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/o_ddr2para_fifo_rden"/>
+    <Bus Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:15"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:16"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:17"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:18"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:19"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:20"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:21"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:22"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:23"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:24"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:25"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:26"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:27"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:28"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:29"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:30"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:31"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:32"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:33"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:34"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:35"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:36"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:37"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:38"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:39"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:40"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:41"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:42"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:43"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:44"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:45"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:46"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:47"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:48"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:49"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:50"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:51"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:52"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:53"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:54"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:55"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:56"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:57"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:58"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:59"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:60"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:61"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:62"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_data:63"/>
+    </Bus>
+    <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/i_ddr2para_fifo_empty"/>
+    <Bus Name="u_eth_top/u_udpcom_control/u_parameter_init/r_config_mode" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_config_mode:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_config_mode:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_config_mode:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_config_mode:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_config_mode:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_config_mode:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_config_mode:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_config_mode:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_config_mode:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_config_mode:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_config_mode:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_config_mode:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_config_mode:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_config_mode:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_config_mode:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_config_mode:15"/>
+    </Bus>
+    <Bus Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1:15"/>
+    </Bus>
+    <Bus Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2:15"/>
+    </Bus>
+    <Bus Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:15"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:16"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:17"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:18"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:19"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:20"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:21"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:22"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:23"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:24"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:25"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:26"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:27"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:28"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:29"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:30"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_start_angle:31"/>
+    </Bus>
+    <Bus Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:15"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:16"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:17"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:18"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:19"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:20"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:21"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:22"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:23"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:24"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:25"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:26"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:27"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:28"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:29"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:30"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/u0_angle2index/r_stop_angle:31"/>
+    </Bus>
+    <Bus Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_apdhv_base" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_apdhv_base:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_apdhv_base:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_apdhv_base:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_apdhv_base:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_apdhv_base:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_apdhv_base:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_apdhv_base:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_apdhv_base:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_apdhv_base:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_apdhv_base:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_apdhv_base:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_apdhv_base:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_apdhv_base:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_apdhv_base:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_apdhv_base:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_apdhv_base:15"/>
+    </Bus>
+    <Bus Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_temp_base" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_temp_base:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_temp_base:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_temp_base:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_temp_base:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_temp_base:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_temp_base:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_temp_base:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_temp_base:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_temp_base:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_temp_base:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_temp_base:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_temp_base:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_temp_base:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_temp_base:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_temp_base:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_temp_temp_base:15"/>
+    </Bus>
+    <Bus Name="u_eth_top/u_udpcom_control/u_parameter_init/r_hvcomp_switch" Radix="0">
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_hvcomp_switch:0"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_hvcomp_switch:1"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_hvcomp_switch:2"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_hvcomp_switch:3"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_hvcomp_switch:4"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_hvcomp_switch:5"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_hvcomp_switch:6"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_hvcomp_switch:7"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_hvcomp_switch:8"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_hvcomp_switch:9"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_hvcomp_switch:10"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_hvcomp_switch:11"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_hvcomp_switch:12"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_hvcomp_switch:13"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_hvcomp_switch:14"/>
+     <Sig Name="u_eth_top/u_udpcom_control/u_parameter_init/r_hvcomp_switch:15"/>
+    </Bus>
+   </Trace>
+   <Trigger>
+    <TU Operator="0" Name="TU1" ID="1" Value="00000002" Radix="3"/>
+    <TU Operator="0" Name="TU2" ID="2" Value="00" Radix="3"/>
+    <TU Operator="0" Name="TU3" ID="3" Value="1" Radix="0"/>
+    <TE Enable="0" Expression="TU1" Name="TE1" ID="1"/>
+    <TE Enable="0" Expression="TU2" Name="TE2" ID="2"/>
+    <TE Enable="1" Expression="TU3" Name="TE3" ID="3"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+</Project>

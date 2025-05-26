@@ -1,0 +1,522 @@
+<!DOCTYPE ispTLA>
+<ispTLA>
+ <CreationDate>???? 11?? 21 13:18:36 2024</CreationDate>
+ <XCFFileName/>
+ <CableSetting>
+  <IsTRSTConnected val="false"/>
+  <TRSTSetting val="0"/>
+  <IsBSCANConnected val="false"/>
+  <BSCANSetting val="0"/>
+  <CableType val="USB"/>
+  <PortAddress val="0"/>
+  <PortSetting val="0"/>
+  <TCKDelay val="1"/>
+ </CableSetting>
+ <DeviceCount>1</DeviceCount>
+ <Device>
+  <DeviceIndex>0</DeviceIndex>
+  <DeviceName>1. LFE5U-45F</DeviceName>
+  <DeviceID>0x41112043</DeviceID>
+  <HasIspTRACY>true</HasIspTRACY>
+  <HasJTAG2WB>false</HasJTAG2WB>
+  <SERDES/>
+  <IRBypassLen>8</IRBypassLen>
+  <RVLFileName>debug.rvl</RVLFileName>
+  <RVSFileName>debug.rvs</RVSFileName>
+  <LACoreCount>1</LACoreCount>
+  <WinUI CoreIndex="0">
+   <TraceSigTreeData>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_write_flag" NodeType="0" PortIndex="0"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state" NodeType="1" PortIndex="1">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:0" NodeType="2" PortIndex="1"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:1" NodeType="2" PortIndex="2"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:2" NodeType="2" PortIndex="3"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:3" NodeType="2" PortIndex="4"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:4" NodeType="2" PortIndex="5"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:5" NodeType="2" PortIndex="6"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:6" NodeType="2" PortIndex="7"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:7" NodeType="2" PortIndex="8"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:8" NodeType="2" PortIndex="9"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:9" NodeType="2" PortIndex="10"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:10" NodeType="2" PortIndex="11"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:11" NodeType="2" PortIndex="12"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:12" NodeType="2" PortIndex="13"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:13" NodeType="2" PortIndex="14"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:14" NodeType="2" PortIndex="15"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:15" NodeType="2" PortIndex="16"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:16" NodeType="2" PortIndex="17"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:17" NodeType="2" PortIndex="18"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:18" NodeType="2" PortIndex="19"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:19" NodeType="2" PortIndex="20"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:20" NodeType="2" PortIndex="21"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:21" NodeType="2" PortIndex="22"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:22" NodeType="2" PortIndex="23"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:23" NodeType="2" PortIndex="24"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:24" NodeType="2" PortIndex="25"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:25" NodeType="2" PortIndex="26"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:26" NodeType="2" PortIndex="27"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:27" NodeType="2" PortIndex="28"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:28" NodeType="2" PortIndex="29"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:29" NodeType="2" PortIndex="30"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:30" NodeType="2" PortIndex="31"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para_state:31" NodeType="2" PortIndex="32"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_wren" NodeType="0" PortIndex="33"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr" NodeType="1" PortIndex="34">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:0" NodeType="2" PortIndex="34"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:1" NodeType="2" PortIndex="35"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:2" NodeType="2" PortIndex="36"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:3" NodeType="2" PortIndex="37"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:4" NodeType="2" PortIndex="38"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:5" NodeType="2" PortIndex="39"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:6" NodeType="2" PortIndex="40"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:7" NodeType="2" PortIndex="41"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:8" NodeType="2" PortIndex="42"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:9" NodeType="2" PortIndex="43"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:10" NodeType="2" PortIndex="44"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:11" NodeType="2" PortIndex="45"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:12" NodeType="2" PortIndex="46"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:13" NodeType="2" PortIndex="47"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:14" NodeType="2" PortIndex="48"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:15" NodeType="2" PortIndex="49"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:16" NodeType="2" PortIndex="50"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:17" NodeType="2" PortIndex="51"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:18" NodeType="2" PortIndex="52"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:19" NodeType="2" PortIndex="53"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:20" NodeType="2" PortIndex="54"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:21" NodeType="2" PortIndex="55"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:22" NodeType="2" PortIndex="56"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:23" NodeType="2" PortIndex="57"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:24" NodeType="2" PortIndex="58"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:25" NodeType="2" PortIndex="59"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_addr:26" NodeType="2" PortIndex="60"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data" NodeType="1" PortIndex="61">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:0" NodeType="2" PortIndex="61"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:1" NodeType="2" PortIndex="62"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:2" NodeType="2" PortIndex="63"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:3" NodeType="2" PortIndex="64"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:4" NodeType="2" PortIndex="65"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:5" NodeType="2" PortIndex="66"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:6" NodeType="2" PortIndex="67"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:7" NodeType="2" PortIndex="68"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:8" NodeType="2" PortIndex="69"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:9" NodeType="2" PortIndex="70"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:10" NodeType="2" PortIndex="71"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:11" NodeType="2" PortIndex="72"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:12" NodeType="2" PortIndex="73"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:13" NodeType="2" PortIndex="74"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:14" NodeType="2" PortIndex="75"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:15" NodeType="2" PortIndex="76"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:16" NodeType="2" PortIndex="77"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:17" NodeType="2" PortIndex="78"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:18" NodeType="2" PortIndex="79"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:19" NodeType="2" PortIndex="80"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:20" NodeType="2" PortIndex="81"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:21" NodeType="2" PortIndex="82"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:22" NodeType="2" PortIndex="83"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:23" NodeType="2" PortIndex="84"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:24" NodeType="2" PortIndex="85"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:25" NodeType="2" PortIndex="86"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:26" NodeType="2" PortIndex="87"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:27" NodeType="2" PortIndex="88"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:28" NodeType="2" PortIndex="89"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:29" NodeType="2" PortIndex="90"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:30" NodeType="2" PortIndex="91"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:31" NodeType="2" PortIndex="92"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:32" NodeType="2" PortIndex="93"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:33" NodeType="2" PortIndex="94"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:34" NodeType="2" PortIndex="95"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:35" NodeType="2" PortIndex="96"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:36" NodeType="2" PortIndex="97"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:37" NodeType="2" PortIndex="98"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:38" NodeType="2" PortIndex="99"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:39" NodeType="2" PortIndex="100"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:40" NodeType="2" PortIndex="101"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:41" NodeType="2" PortIndex="102"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:42" NodeType="2" PortIndex="103"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:43" NodeType="2" PortIndex="104"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:44" NodeType="2" PortIndex="105"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:45" NodeType="2" PortIndex="106"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:46" NodeType="2" PortIndex="107"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:47" NodeType="2" PortIndex="108"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:48" NodeType="2" PortIndex="109"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:49" NodeType="2" PortIndex="110"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:50" NodeType="2" PortIndex="111"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:51" NodeType="2" PortIndex="112"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:52" NodeType="2" PortIndex="113"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:53" NodeType="2" PortIndex="114"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:54" NodeType="2" PortIndex="115"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:55" NodeType="2" PortIndex="116"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:56" NodeType="2" PortIndex="117"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:57" NodeType="2" PortIndex="118"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:58" NodeType="2" PortIndex="119"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:59" NodeType="2" PortIndex="120"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:60" NodeType="2" PortIndex="121"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:61" NodeType="2" PortIndex="122"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:62" NodeType="2" PortIndex="123"/>
+    <TraceSignal IsHidden="false" Name="u_eth_top/u_udpcom_control/u_parameter_init/r_para2ddr_data:63" NodeType="2" PortIndex="124"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_en1" NodeType="0" PortIndex="125"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1" NodeType="1" PortIndex="126">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:0" NodeType="2" PortIndex="126"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:1" NodeType="2" PortIndex="127"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:2" NodeType="2" PortIndex="128"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:3" NodeType="2" PortIndex="129"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:4" NodeType="2" PortIndex="130"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:5" NodeType="2" PortIndex="131"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:6" NodeType="2" PortIndex="132"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:7" NodeType="2" PortIndex="133"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:8" NodeType="2" PortIndex="134"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:9" NodeType="2" PortIndex="135"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:10" NodeType="2" PortIndex="136"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:11" NodeType="2" PortIndex="137"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:12" NodeType="2" PortIndex="138"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:13" NodeType="2" PortIndex="139"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:14" NodeType="2" PortIndex="140"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:15" NodeType="2" PortIndex="141"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:16" NodeType="2" PortIndex="142"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:17" NodeType="2" PortIndex="143"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:18" NodeType="2" PortIndex="144"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:19" NodeType="2" PortIndex="145"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:20" NodeType="2" PortIndex="146"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:21" NodeType="2" PortIndex="147"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:22" NodeType="2" PortIndex="148"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:23" NodeType="2" PortIndex="149"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:24" NodeType="2" PortIndex="150"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:25" NodeType="2" PortIndex="151"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:26" NodeType="2" PortIndex="152"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:27" NodeType="2" PortIndex="153"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:28" NodeType="2" PortIndex="154"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:29" NodeType="2" PortIndex="155"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:30" NodeType="2" PortIndex="156"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:31" NodeType="2" PortIndex="157"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:32" NodeType="2" PortIndex="158"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:33" NodeType="2" PortIndex="159"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:34" NodeType="2" PortIndex="160"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:35" NodeType="2" PortIndex="161"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:36" NodeType="2" PortIndex="162"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:37" NodeType="2" PortIndex="163"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:38" NodeType="2" PortIndex="164"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:39" NodeType="2" PortIndex="165"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:40" NodeType="2" PortIndex="166"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:41" NodeType="2" PortIndex="167"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:42" NodeType="2" PortIndex="168"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:43" NodeType="2" PortIndex="169"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:44" NodeType="2" PortIndex="170"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:45" NodeType="2" PortIndex="171"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:46" NodeType="2" PortIndex="172"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:47" NodeType="2" PortIndex="173"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:48" NodeType="2" PortIndex="174"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:49" NodeType="2" PortIndex="175"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:50" NodeType="2" PortIndex="176"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:51" NodeType="2" PortIndex="177"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:52" NodeType="2" PortIndex="178"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:53" NodeType="2" PortIndex="179"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:54" NodeType="2" PortIndex="180"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:55" NodeType="2" PortIndex="181"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:56" NodeType="2" PortIndex="182"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:57" NodeType="2" PortIndex="183"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:58" NodeType="2" PortIndex="184"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:59" NodeType="2" PortIndex="185"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:60" NodeType="2" PortIndex="186"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:61" NodeType="2" PortIndex="187"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:62" NodeType="2" PortIndex="188"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:63" NodeType="2" PortIndex="189"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:64" NodeType="2" PortIndex="190"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:65" NodeType="2" PortIndex="191"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:66" NodeType="2" PortIndex="192"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:67" NodeType="2" PortIndex="193"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:68" NodeType="2" PortIndex="194"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:69" NodeType="2" PortIndex="195"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:70" NodeType="2" PortIndex="196"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:71" NodeType="2" PortIndex="197"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:72" NodeType="2" PortIndex="198"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:73" NodeType="2" PortIndex="199"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:74" NodeType="2" PortIndex="200"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:75" NodeType="2" PortIndex="201"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:76" NodeType="2" PortIndex="202"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:77" NodeType="2" PortIndex="203"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:78" NodeType="2" PortIndex="204"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:79" NodeType="2" PortIndex="205"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:80" NodeType="2" PortIndex="206"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:81" NodeType="2" PortIndex="207"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:82" NodeType="2" PortIndex="208"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:83" NodeType="2" PortIndex="209"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:84" NodeType="2" PortIndex="210"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:85" NodeType="2" PortIndex="211"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:86" NodeType="2" PortIndex="212"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:87" NodeType="2" PortIndex="213"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:88" NodeType="2" PortIndex="214"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:89" NodeType="2" PortIndex="215"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:90" NodeType="2" PortIndex="216"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:91" NodeType="2" PortIndex="217"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:92" NodeType="2" PortIndex="218"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:93" NodeType="2" PortIndex="219"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:94" NodeType="2" PortIndex="220"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_wfifo_data1:95" NodeType="2" PortIndex="221"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wren" NodeType="0" PortIndex="222"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata" NodeType="1" PortIndex="223">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:0" NodeType="2" PortIndex="223"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:1" NodeType="2" PortIndex="224"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:2" NodeType="2" PortIndex="225"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:3" NodeType="2" PortIndex="226"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:4" NodeType="2" PortIndex="227"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:5" NodeType="2" PortIndex="228"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:6" NodeType="2" PortIndex="229"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:7" NodeType="2" PortIndex="230"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:8" NodeType="2" PortIndex="231"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:9" NodeType="2" PortIndex="232"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:10" NodeType="2" PortIndex="233"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:11" NodeType="2" PortIndex="234"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:12" NodeType="2" PortIndex="235"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:13" NodeType="2" PortIndex="236"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:14" NodeType="2" PortIndex="237"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:15" NodeType="2" PortIndex="238"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:16" NodeType="2" PortIndex="239"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:17" NodeType="2" PortIndex="240"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:18" NodeType="2" PortIndex="241"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:19" NodeType="2" PortIndex="242"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:20" NodeType="2" PortIndex="243"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:21" NodeType="2" PortIndex="244"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:22" NodeType="2" PortIndex="245"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:23" NodeType="2" PortIndex="246"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:24" NodeType="2" PortIndex="247"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:25" NodeType="2" PortIndex="248"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:26" NodeType="2" PortIndex="249"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:27" NodeType="2" PortIndex="250"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:28" NodeType="2" PortIndex="251"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:29" NodeType="2" PortIndex="252"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:30" NodeType="2" PortIndex="253"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:31" NodeType="2" PortIndex="254"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:32" NodeType="2" PortIndex="255"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:33" NodeType="2" PortIndex="256"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:34" NodeType="2" PortIndex="257"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:35" NodeType="2" PortIndex="258"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:36" NodeType="2" PortIndex="259"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:37" NodeType="2" PortIndex="260"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:38" NodeType="2" PortIndex="261"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:39" NodeType="2" PortIndex="262"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:40" NodeType="2" PortIndex="263"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:41" NodeType="2" PortIndex="264"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:42" NodeType="2" PortIndex="265"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:43" NodeType="2" PortIndex="266"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:44" NodeType="2" PortIndex="267"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:45" NodeType="2" PortIndex="268"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:46" NodeType="2" PortIndex="269"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:47" NodeType="2" PortIndex="270"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:48" NodeType="2" PortIndex="271"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:49" NodeType="2" PortIndex="272"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:50" NodeType="2" PortIndex="273"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:51" NodeType="2" PortIndex="274"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:52" NodeType="2" PortIndex="275"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:53" NodeType="2" PortIndex="276"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:54" NodeType="2" PortIndex="277"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:55" NodeType="2" PortIndex="278"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:56" NodeType="2" PortIndex="279"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:57" NodeType="2" PortIndex="280"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:58" NodeType="2" PortIndex="281"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:59" NodeType="2" PortIndex="282"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:60" NodeType="2" PortIndex="283"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:61" NodeType="2" PortIndex="284"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:62" NodeType="2" PortIndex="285"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:63" NodeType="2" PortIndex="286"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:64" NodeType="2" PortIndex="287"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:65" NodeType="2" PortIndex="288"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:66" NodeType="2" PortIndex="289"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:67" NodeType="2" PortIndex="290"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:68" NodeType="2" PortIndex="291"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:69" NodeType="2" PortIndex="292"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:70" NodeType="2" PortIndex="293"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:71" NodeType="2" PortIndex="294"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:72" NodeType="2" PortIndex="295"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:73" NodeType="2" PortIndex="296"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:74" NodeType="2" PortIndex="297"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:75" NodeType="2" PortIndex="298"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:76" NodeType="2" PortIndex="299"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:77" NodeType="2" PortIndex="300"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:78" NodeType="2" PortIndex="301"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:79" NodeType="2" PortIndex="302"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:80" NodeType="2" PortIndex="303"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:81" NodeType="2" PortIndex="304"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:82" NodeType="2" PortIndex="305"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:83" NodeType="2" PortIndex="306"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:84" NodeType="2" PortIndex="307"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:85" NodeType="2" PortIndex="308"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:86" NodeType="2" PortIndex="309"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:87" NodeType="2" PortIndex="310"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:88" NodeType="2" PortIndex="311"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:89" NodeType="2" PortIndex="312"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:90" NodeType="2" PortIndex="313"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:91" NodeType="2" PortIndex="314"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:92" NodeType="2" PortIndex="315"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:93" NodeType="2" PortIndex="316"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:94" NodeType="2" PortIndex="317"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u2_ddr_round_robin/r_arbfifo_wrdata:95" NodeType="2" PortIndex="318"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_empty" NodeType="0" PortIndex="319"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state" NodeType="1" PortIndex="320">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:0" NodeType="2" PortIndex="320"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:1" NodeType="2" PortIndex="321"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:2" NodeType="2" PortIndex="322"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:3" NodeType="2" PortIndex="323"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:4" NodeType="2" PortIndex="324"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:5" NodeType="2" PortIndex="325"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:6" NodeType="2" PortIndex="326"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_curr_state:7" NodeType="2" PortIndex="327"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_datain_rdy" NodeType="0" PortIndex="328"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_arbfifo_rden" NodeType="0" PortIndex="329"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata" NodeType="1" PortIndex="330">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:0" NodeType="2" PortIndex="330"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:1" NodeType="2" PortIndex="331"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:2" NodeType="2" PortIndex="332"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:3" NodeType="2" PortIndex="333"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:4" NodeType="2" PortIndex="334"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:5" NodeType="2" PortIndex="335"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:6" NodeType="2" PortIndex="336"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:7" NodeType="2" PortIndex="337"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:8" NodeType="2" PortIndex="338"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:9" NodeType="2" PortIndex="339"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:10" NodeType="2" PortIndex="340"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:11" NodeType="2" PortIndex="341"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:12" NodeType="2" PortIndex="342"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:13" NodeType="2" PortIndex="343"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:14" NodeType="2" PortIndex="344"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:15" NodeType="2" PortIndex="345"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:16" NodeType="2" PortIndex="346"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:17" NodeType="2" PortIndex="347"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:18" NodeType="2" PortIndex="348"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:19" NodeType="2" PortIndex="349"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:20" NodeType="2" PortIndex="350"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:21" NodeType="2" PortIndex="351"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:22" NodeType="2" PortIndex="352"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:23" NodeType="2" PortIndex="353"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:24" NodeType="2" PortIndex="354"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:25" NodeType="2" PortIndex="355"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:26" NodeType="2" PortIndex="356"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:27" NodeType="2" PortIndex="357"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:28" NodeType="2" PortIndex="358"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:29" NodeType="2" PortIndex="359"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:30" NodeType="2" PortIndex="360"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:31" NodeType="2" PortIndex="361"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:32" NodeType="2" PortIndex="362"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:33" NodeType="2" PortIndex="363"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:34" NodeType="2" PortIndex="364"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:35" NodeType="2" PortIndex="365"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:36" NodeType="2" PortIndex="366"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:37" NodeType="2" PortIndex="367"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:38" NodeType="2" PortIndex="368"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:39" NodeType="2" PortIndex="369"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:40" NodeType="2" PortIndex="370"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:41" NodeType="2" PortIndex="371"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:42" NodeType="2" PortIndex="372"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:43" NodeType="2" PortIndex="373"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:44" NodeType="2" PortIndex="374"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:45" NodeType="2" PortIndex="375"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:46" NodeType="2" PortIndex="376"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:47" NodeType="2" PortIndex="377"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:48" NodeType="2" PortIndex="378"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:49" NodeType="2" PortIndex="379"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:50" NodeType="2" PortIndex="380"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:51" NodeType="2" PortIndex="381"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:52" NodeType="2" PortIndex="382"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:53" NodeType="2" PortIndex="383"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:54" NodeType="2" PortIndex="384"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:55" NodeType="2" PortIndex="385"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:56" NodeType="2" PortIndex="386"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:57" NodeType="2" PortIndex="387"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:58" NodeType="2" PortIndex="388"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:59" NodeType="2" PortIndex="389"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:60" NodeType="2" PortIndex="390"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:61" NodeType="2" PortIndex="391"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:62" NodeType="2" PortIndex="392"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:63" NodeType="2" PortIndex="393"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:64" NodeType="2" PortIndex="394"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:65" NodeType="2" PortIndex="395"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:66" NodeType="2" PortIndex="396"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:67" NodeType="2" PortIndex="397"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:68" NodeType="2" PortIndex="398"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:69" NodeType="2" PortIndex="399"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:70" NodeType="2" PortIndex="400"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:71" NodeType="2" PortIndex="401"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:72" NodeType="2" PortIndex="402"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:73" NodeType="2" PortIndex="403"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:74" NodeType="2" PortIndex="404"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:75" NodeType="2" PortIndex="405"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:76" NodeType="2" PortIndex="406"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:77" NodeType="2" PortIndex="407"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:78" NodeType="2" PortIndex="408"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:79" NodeType="2" PortIndex="409"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:80" NodeType="2" PortIndex="410"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:81" NodeType="2" PortIndex="411"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:82" NodeType="2" PortIndex="412"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:83" NodeType="2" PortIndex="413"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:84" NodeType="2" PortIndex="414"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:85" NodeType="2" PortIndex="415"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:86" NodeType="2" PortIndex="416"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:87" NodeType="2" PortIndex="417"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:88" NodeType="2" PortIndex="418"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:89" NodeType="2" PortIndex="419"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:90" NodeType="2" PortIndex="420"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:91" NodeType="2" PortIndex="421"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:92" NodeType="2" PortIndex="422"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:93" NodeType="2" PortIndex="423"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:94" NodeType="2" PortIndex="424"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/i_arbfifo_rddata:95" NodeType="2" PortIndex="425"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr" NodeType="1" PortIndex="426">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:0" NodeType="2" PortIndex="426"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:1" NodeType="2" PortIndex="427"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:2" NodeType="2" PortIndex="428"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:3" NodeType="2" PortIndex="429"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:4" NodeType="2" PortIndex="430"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:5" NodeType="2" PortIndex="431"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:6" NodeType="2" PortIndex="432"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:7" NodeType="2" PortIndex="433"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:8" NodeType="2" PortIndex="434"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:9" NodeType="2" PortIndex="435"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:10" NodeType="2" PortIndex="436"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:11" NodeType="2" PortIndex="437"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:12" NodeType="2" PortIndex="438"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:13" NodeType="2" PortIndex="439"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:14" NodeType="2" PortIndex="440"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:15" NodeType="2" PortIndex="441"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:16" NodeType="2" PortIndex="442"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:17" NodeType="2" PortIndex="443"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:18" NodeType="2" PortIndex="444"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:19" NodeType="2" PortIndex="445"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:20" NodeType="2" PortIndex="446"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:21" NodeType="2" PortIndex="447"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:22" NodeType="2" PortIndex="448"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:23" NodeType="2" PortIndex="449"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:24" NodeType="2" PortIndex="450"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:25" NodeType="2" PortIndex="451"/>
+    <TraceSignal IsHidden="false" Name="u2_ddr3_interface/u1_ddr3_rw_ctrl/r_addr:26" NodeType="2" PortIndex="452"/>
+   </TraceSigTreeData>
+   <TriggerUI UserSelect="0" PreSelectType="1" PreSelect="1" UserSelectPos="0"/>
+   <CoreRun Run="true"/>
+   <CoreWndUIData>
+    <ClockFrequency Unit="ns" Frequency="-1.0"/>
+   </CoreWndUIData>
+  </WinUI>
+ </Device>
+</ispTLA>

@@ -1,0 +1,225 @@
+<Project ModBy="Inserter" SigType="0" Name="D:/FreeWork/df1/prj/debug/ddr_test/TEST_RDY.rvl" Date="2024-11-15">
+    <IP Version="1_6_042617"/>
+    <Design DesignEntry="Schematic/Verilog HDL" Synthesis="synplify" DeviceFamily="ECP5U" DesignName="df1_lidar_top"/>
+    <Core InsertDataset="0" Insert="1" Reveal_sig="585033392" Name="ddr3_demo_LA0" ID="0">
+        <Setting>
+            <Clock SampleClk="w_sclk" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
+            <TraceBuffer Implementation="0" BitTimeStamp="0" hasTimeStamp="0" IncTrigSig="0" BufferDepth="4096"/>
+            <Capture Mode="0" MinSamplesPerTrig="16"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut Polarity="0" MinPulseWidth="0" TrigOutNetType="1" EnableTrigOut="0" TrigOutNet="reveal_debug_ddr3_demo_LA0_net"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Type="SIG" Name="w_init_start"/>
+                <Sig Type="SIG" Name="w_init_done"/>
+                <Sig Type="SIG" Name="w_rt_err"/>
+                <Bus Name="u2_ddr3_rw_ctrl/r_curr_state">
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_curr_state:0"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_curr_state:1"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_curr_state:2"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_curr_state:3"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_curr_state:4"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_curr_state:5"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_curr_state:6"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_curr_state:7"/>
+                </Bus>
+                <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_cmd_rdy"/>
+                <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_cmd_valid"/>
+                <Bus Name="u2_ddr3_rw_ctrl/r_cmd">
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_cmd:0"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_cmd:1"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_cmd:2"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_cmd:3"/>
+                </Bus>
+                <Bus Name="u2_ddr3_rw_ctrl/r_addr">
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:0"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:1"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:2"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:3"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:4"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:5"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:6"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:7"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:8"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:9"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:10"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:11"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:12"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:13"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:14"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:15"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:16"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:17"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:18"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:19"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:20"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:21"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:22"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:23"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:24"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:25"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/r_addr:26"/>
+                </Bus>
+                <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_datain_rdy"/>
+                <Bus Name="u2_ddr3_rw_ctrl/o_ddr3_wdata">
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:0"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:1"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:2"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:3"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:4"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:5"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:6"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:7"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:8"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:9"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:10"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:11"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:12"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:13"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:14"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:15"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:16"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:17"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:18"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:19"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:20"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:21"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:22"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:23"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:24"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:25"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:26"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:27"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:28"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:29"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:30"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:31"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:32"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:33"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:34"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:35"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:36"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:37"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:38"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:39"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:40"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:41"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:42"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:43"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:44"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:45"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:46"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:47"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:48"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:49"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:50"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:51"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:52"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:53"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:54"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:55"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:56"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:57"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:58"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:59"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:60"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:61"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:62"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/o_ddr3_wdata:63"/>
+                </Bus>
+                <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata_valid"/>
+                <Bus Name="u2_ddr3_rw_ctrl/i_rdata">
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:0"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:1"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:2"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:3"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:4"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:5"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:6"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:7"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:8"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:9"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:10"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:11"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:12"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:13"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:14"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:15"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:16"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:17"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:18"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:19"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:20"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:21"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:22"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:23"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:24"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:25"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:26"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:27"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:28"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:29"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:30"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:31"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:32"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:33"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:34"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:35"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:36"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:37"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:38"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:39"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:40"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:41"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:42"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:43"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:44"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:45"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:46"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:47"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:48"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:49"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:50"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:51"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:52"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:53"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:54"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:55"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:56"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:57"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:58"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:59"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:60"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:61"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:62"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_rdata:63"/>
+                </Bus>
+                <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_wrfifo_en"/>
+                <Bus Name="u2_ddr3_rw_ctrl/i_wrfifo_data">
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_wrfifo_data:0"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_wrfifo_data:1"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_wrfifo_data:2"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_wrfifo_data:3"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_wrfifo_data:4"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_wrfifo_data:5"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_wrfifo_data:6"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_wrfifo_data:7"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_wrfifo_data:8"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_wrfifo_data:9"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_wrfifo_data:10"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_wrfifo_data:11"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_wrfifo_data:12"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_wrfifo_data:13"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_wrfifo_data:14"/>
+                    <Sig Type="SIG" Name="u2_ddr3_rw_ctrl/i_wrfifo_data:15"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU Serialbits="0" Type="0" ID="1" Sig="w_wrfifo_en,"/>
+                <TE MaxSequence="1" MaxEvnCnt="1" ID="1" Resource="1"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

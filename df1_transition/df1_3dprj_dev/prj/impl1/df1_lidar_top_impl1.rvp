@@ -1,0 +1,153 @@
+#-- Lattice Semiconductor Corporation Ltd.
+#-- Bali Reveal project file
+
+#device options
+[Device]
+part = LFE5U-45F-7BG256I
+family = ECP5U
+device = LFE5U-45F
+speed = 7
+package = CABGA256
+operation = Industrial
+
+#design options
+[Design]
+title = df1_lidar_top
+path = D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/impl1
+core_generate = D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/impl1
+search_path = D:/FreeWork/df1_second_round/df1_3dprj_dev/prj
+top = df1_lidar_top
+lpf = D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/df1_lidar_top.lpf
+synthesis = synplify
+
+#strategy options
+VHDL2008 = false
+
+#HDLs options
+[HDLs]
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/df1_lidar_top.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_ddr3_ip/ddr3_ipcore/ddr3_sdram_mem_top_wrapper_ddr3_ipcore.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_ddr3_ip/ddr3_ipcore/ddr3_ipcore_bb.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_ddr3_ip/ddr3_ipcore/ddr_clks_ddr3_ipcore_bb.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_ddr3_ip/df1_ddr3_ip.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/asfifo_256x64/asfifo_256x64.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/asfifo_256x96/asfifo_256x96.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/asfifo_decode/asfifo_decode.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/code_ram128x32/code_ram128x32.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/dataram_1024x8/dataram_1024x8.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/dataram_2048x8/dataram_2048x8.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/dcfifo_rmiirx_36x2/dcfifo_rmiirx_36x2.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/dcfifo_rmiitx_2048x2/dcfifo_rmiitx_2048x2.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/dcfifo_rmiitx_4096x2/dcfifo_rmiitx_4096x2.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/divider_24bit/divider_24bit_bb.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/divider_32x24/divider_32x24_bb.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/divider_34x16/divider_34x16_bb.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/eth_pll/eth_pll.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/fifo_mac_frame_2048x10/fifo_mac_frame_2048x10.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/iddrx2f/iddrx2f.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/mpt2042_rom/mpt2042_rom.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/multiplier/multiplier.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/multiplier_10x32/multiplier_10x32.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/multiplier_16x8/multiplier_16x8.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/multiplier_in32bit/multiplier_in32bit.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/pll/pll.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/sfifo128x88/sfifo128x88.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/sfifo_128x96/sfifo_128x96.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/sfifo_64x48/sfifo_64x48.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/sub_ip/sub_ip.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/synfifo_data_2048x8/synfifo_data_2048x8.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/df1_lidar_ip/df1_lidar_ip.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/phy_mdio/phy_mdio_ctrl.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/phy_mdio/phy_mdio_drive.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/eth_top.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/eth_ctrl.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/rmii_top/rmii_top.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/rmii_top/rmii_rx.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/rmii_top/rmii_tx.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/mac_top/mac_top.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/mac_top/mac_rx.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/mac_top/mac_tx.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/arp/arp_ctrl.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/arp/arp_rx.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/arp/arp_tx.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/arp/crc32_d8.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/ip_top/ip_top.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/ip_top/icmp/icmp_top.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/ip_top/icmp/icmp_rx.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/ip_top/icmp/icmp_tx.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/ip_top/udp/udp_top.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/ip_top/udp/udp_rx.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/ip_top/udp/udp_tx.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/motor/motor_control.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/motor/motor_drive.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/motor/signal_dejitter.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/rotate/rotate_control.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/rotate/opto_switch_filter.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/rotate/opto_signal_dejitter.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/rotate/motor_monit.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/rotate/encoder/encoder_control.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/rotate/encoder/sync_control.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/rotate/encoder/opto_switch.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/rotate/encoder/encoder_calculate.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/rotate/encoder/opto_emiperiod_cal.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/rotate/encoder/code_cnt.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/rotate/encoder/code_angle.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/laser/laser_control.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/insp/HV_control.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/insp/adc_control.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/insp/adc_to_dac.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/insp/adc_to_temp.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/insp/adc_to_dist_2.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/insp/pluse_average.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/insp/temp_adc_filter.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/insp/division.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/insp/DA_SPI_pwm.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/insp/dac_table.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/insp/AD_SPI.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/gpx2/gpx2_control_wrapper.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/gpx2/gpx2_cfg.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/gpx2/gpx2_spi_master.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/gpx2/data_fill.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/gpx2/gpx2_lvds_ctrl.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/gpx2/gpx2_lvds.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/data_communication/udpcom_datagram_parser.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/data_communication/datagram_cmd_defines.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/data_communication/parameter_ident_define.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/data_communication/udpcom_control.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/data_communication/udpcom_parameter_init.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/data_communication/udp_broadcast.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/eth/data_communication/angle2index.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/data_packet/dist_measure.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/data_packet/loop_packet.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/data_packet/calib_packet.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/ddr/ddr3_init_ctrl.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/ddr/ddr3_rw_ctrl.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/ddr/ddr3_interface.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/ddr/ddr_round_robin.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/flash/flash_control.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/flash/USRMCLK.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/flash/spi flash/spi_flash_cmd.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/flash/spi flash/spi_flash_top.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/flash/spi flash/spi_master.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/data_packet/dist_calculate.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/data_packet/data_pre.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/data_packet/index_cal.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/data_packet/dist_cal.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/data_packet/rssi_cal.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/data_packet/div_rill.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/mpt2042/crc8_d8.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/mpt2042/decode_8b10b.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/mpt2042/iddr_init.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/mpt2042/lvds_ddrdata_top.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/mpt2042/mpt2042_cfg.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/mpt2042/mpt2042_spi_master.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/mpt2042/mpt2042_dataprc.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/rtl/mpt2042/mpt2042_top.v = Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/src/ip/divider_32_16bit.v = Verilog
+[HDL_Defines]
+SBP_SYNTHESIS=
+[HDL_Param]
+[Generated]
+D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/impl1/reveal_workspace/tmpreveal/df1_lidar_top_la0_trig_gen.v=Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/impl1/reveal_workspace/tmpreveal/df1_lidar_top_la0_gen.v=Verilog
+D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/impl1/reveal_workspace/tmpreveal/df1_lidar_top_rvl.v=Verilog,work

@@ -1,0 +1,983 @@
+--
+-- Written by Synopsys
+-- Product Version "U-2023.03L-SP1"
+-- Program "Synplify Pro", Mapper "map202303lat, Build 132R"
+-- Thu Apr 24 21:00:53 2025
+--
+
+--
+-- Written by Synplify Pro version Build 132R
+-- Thu Apr 24 21:00:53 2025
+--
+
+--
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+library synplify;
+use synplify.components.all;
+library pmi;
+use pmi.pmi_components.all;
+library ecp5u;
+use ecp5u.components.all;
+
+entity iddrx2frxdll_sync is
+port(
+  cs_rx_sync_i_0 :  out std_logic;
+  ddr_reset_1z :  out std_logic;
+  update :  in std_logic;
+  freeze :  out std_logic;
+  N_68_i :  out std_logic;
+  ready :  out std_logic;
+  dll_lock :  in std_logic;
+  dll_reset_1z :  out std_logic;
+  sync_reset :  in std_logic;
+  sync_clk :  in std_logic);
+end iddrx2frxdll_sync;
+
+architecture beh of iddrx2frxdll_sync is
+  signal CS_RX_SYNC : std_logic_vector(5 downto 0);
+  signal DLL_LOCK_CNT : std_logic_vector(2 downto 0);
+  signal READY_CNT : std_logic_vector(2 downto 0);
+  signal READY_CNT_QN : std_logic_vector(2 downto 0);
+  signal DLL_LOCK_CNT_QN : std_logic_vector(2 downto 0);
+  signal CTRL_CNT : std_logic_vector(2 downto 0);
+  signal CTRL_CNT_QN : std_logic_vector(2 downto 0);
+  signal CS_RX_SYNC_QN : std_logic_vector(5 downto 0);
+  signal CS_RX_SYNC_NS : std_logic_vector(5 downto 2);
+  signal CS_RX_SYNC_NS_I_0_0 : std_logic_vector(0 to 0);
+  signal CS_RX_SYNC_NS_2 : std_logic_vector(3 to 3);
+  signal CTRL_CNT_4_I_0 : std_logic_vector(2 to 2);
+  signal CS_RX_SYNC_NS_0_A3_0_1 : std_logic_vector(3 to 3);
+  signal NS_RX_SYNC_0_SQMUXA_4 : std_logic ;
+  signal N_59 : std_logic ;
+  signal N_35_I : std_logic ;
+  signal N_43_I : std_logic ;
+  signal VCC : std_logic ;
+  signal N_41_I : std_logic ;
+  signal N_39_I : std_logic ;
+  signal NS_RX_SYNC_2_SQMUXA : std_logic ;
+  signal N_46 : std_logic ;
+  signal NOT_UDDCNTLN : std_logic ;
+  signal NOT_UDDCNTLN_QN : std_logic ;
+  signal NS_RX_SYNC_0_SQMUXA_3 : std_logic ;
+  signal N_51 : std_logic ;
+  signal NOT_STOP : std_logic ;
+  signal NOT_STOP_QN : std_logic ;
+  signal NS_RX_SYNC_1_SQMUXA_1 : std_logic ;
+  signal NOT_RESET_1_SQMUXA_I : std_logic ;
+  signal NOT_RESET : std_logic ;
+  signal NOT_RESET_QN : std_logic ;
+  signal N_106 : std_logic ;
+  signal UN1_NS_RX_SYNC_0_SQMUXA_0 : std_logic ;
+  signal NOT_FREEZE : std_logic ;
+  signal NOT_FREEZE_QN : std_logic ;
+  signal NS_RX_SYNC_1_SQMUXA : std_logic ;
+  signal N_48 : std_logic ;
+  signal GET_READY : std_logic ;
+  signal GET_READY_QN : std_logic ;
+  signal DLL_RESET_QN : std_logic ;
+  signal DLL_LOCK_Q1 : std_logic ;
+  signal DLL_LOCK_Q2 : std_logic ;
+  signal DLL_LOCK_Q2_QN : std_logic ;
+  signal DLL_LOCK_Q1_QN : std_logic ;
+  signal N_37_I : std_logic ;
+  signal N_33_I : std_logic ;
+  signal GND : std_logic ;
+  signal DDR_RESET_D : std_logic ;
+  signal DDR_RESET_D_QN : std_logic ;
+  signal N_23_I : std_logic ;
+  signal N_21_I : std_logic ;
+  signal N_25_I : std_logic ;
+  signal N_77_I : std_logic ;
+  signal N_79_I : std_logic ;
+  signal READY_3 : std_logic ;
+  signal NS_RX_SYNC_0_SQMUXA_1 : std_logic ;
+  signal N_17 : std_logic ;
+  signal ASSERT_STOP : std_logic ;
+  signal ASSERT_STOP_QN : std_logic ;
+  signal N_60 : std_logic ;
+  signal N_72 : std_logic ;
+  signal N_90 : std_logic ;
+  signal N_54 : std_logic ;
+  signal N_74 : std_logic ;
+  signal N_104 : std_logic ;
+  signal N_56 : std_logic ;
+  signal N_92 : std_logic ;
+  signal N_61 : std_logic ;
+  signal N_64 : std_logic ;
+  signal N_55 : std_logic ;
+  signal N_75 : std_logic ;
+  signal N_57 : std_logic ;
+  signal N_62 : std_logic ;
+  signal UN1_DLL_LOCK_CNT_2_AC0_3 : std_logic ;
+  signal N_88 : std_logic ;
+  signal N_6 : std_logic ;
+  signal N_5 : std_logic ;
+  signal N_4 : std_logic ;
+  signal N_3 : std_logic ;
+  signal N_2 : std_logic ;
+  signal N_1 : std_logic ;
+begin
+\CS_RX_SYNC_RNII34D[2]\: INV port map (
+    A => CS_RX_SYNC(2),
+    Z => cs_rx_sync_i_0);
+\DLL_LOCK_CNT_RNO[1]\: LUT4 
+generic map(
+  init => X"4144"
+)
+port map (
+  A => NS_RX_SYNC_0_SQMUXA_4,
+  B => DLL_LOCK_CNT(1),
+  C => N_59,
+  D => DLL_LOCK_CNT(0),
+  Z => N_35_I);
+\READY_CNT[0]_REG_Z132\: FD1S3DX port map (
+    D => N_43_I,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => READY_CNT(0));
+\READY_CNT[1]_REG_Z134\: FD1S3DX port map (
+    D => N_41_I,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => READY_CNT(1));
+\READY_CNT[2]_REG_Z136\: FD1S3DX port map (
+    D => N_39_I,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => READY_CNT(2));
+NOT_UDDCNTLN_REG_Z138: FD1P3DX port map (
+    D => NS_RX_SYNC_2_SQMUXA,
+    SP => N_46,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => NOT_UDDCNTLN);
+NOT_STOP_REG_Z140: FD1P3DX port map (
+    D => NS_RX_SYNC_0_SQMUXA_3,
+    SP => N_51,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => NOT_STOP);
+NOT_RESET_REG_Z142: FD1P3DX port map (
+    D => NS_RX_SYNC_1_SQMUXA_1,
+    SP => NOT_RESET_1_SQMUXA_I,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => NOT_RESET);
+NOT_FREEZE_REG_Z144: FD1P3DX port map (
+    D => N_106,
+    SP => UN1_NS_RX_SYNC_0_SQMUXA_0,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => NOT_FREEZE);
+GET_READY_REG_Z146: FD1P3DX port map (
+    D => NS_RX_SYNC_1_SQMUXA,
+    SP => N_48,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => GET_READY);
+DLL_RESET_REG_Z148: FD1S3BX port map (
+    D => NS_RX_SYNC_0_SQMUXA_4,
+    CK => sync_clk,
+    PD => sync_reset,
+    Q => dll_reset_1z);
+DLL_LOCK_Q2_REG_Z150: FD1S3DX port map (
+    D => DLL_LOCK_Q1,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => DLL_LOCK_Q2);
+DLL_LOCK_Q1_REG_Z152: FD1S3DX port map (
+    D => dll_lock,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => DLL_LOCK_Q1);
+\DLL_LOCK_CNT[0]_REG_Z154\: FD1S3DX port map (
+    D => N_37_I,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => DLL_LOCK_CNT(0));
+\DLL_LOCK_CNT[1]_REG_Z156\: FD1S3DX port map (
+    D => N_35_I,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => DLL_LOCK_CNT(1));
+\DLL_LOCK_CNT[2]_REG_Z158\: FD1S3DX port map (
+    D => N_33_I,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => DLL_LOCK_CNT(2));
+DDR_RESET_D_REG_Z160: FD1S3BX port map (
+    D => GND,
+    CK => sync_clk,
+    PD => sync_reset,
+    Q => DDR_RESET_D);
+\CTRL_CNT[0]_REG_Z162\: FD1S3DX port map (
+    D => N_23_I,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => CTRL_CNT(0));
+\CTRL_CNT[1]_REG_Z164\: FD1S3DX port map (
+    D => N_21_I,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => CTRL_CNT(1));
+\CTRL_CNT[2]_REG_Z166\: FD1S3DX port map (
+    D => N_25_I,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => CTRL_CNT(2));
+\CS_RX_SYNC[0]_REG_Z168\: FD1S3BX port map (
+    D => N_77_I,
+    CK => sync_clk,
+    PD => sync_reset,
+    Q => CS_RX_SYNC(0));
+\CS_RX_SYNC[1]_REG_Z170\: FD1S3DX port map (
+    D => N_79_I,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => READY_3);
+\CS_RX_SYNC[2]_REG_Z172\: FD1S3DX port map (
+    D => CS_RX_SYNC_NS(2),
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => CS_RX_SYNC(2));
+\CS_RX_SYNC[3]_REG_Z174\: FD1S3DX port map (
+    D => CS_RX_SYNC_NS(3),
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => CS_RX_SYNC(3));
+\CS_RX_SYNC[4]_REG_Z176\: FD1S3DX port map (
+    D => CS_RX_SYNC_NS(4),
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => CS_RX_SYNC(4));
+\CS_RX_SYNC[5]_REG_Z178\: FD1S3DX port map (
+    D => CS_RX_SYNC_NS(5),
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => CS_RX_SYNC(5));
+ASSERT_STOP_REG_Z180: FD1P3DX port map (
+    D => NS_RX_SYNC_0_SQMUXA_1,
+    SP => N_17,
+    CK => sync_clk,
+    CD => sync_reset,
+    Q => ASSERT_STOP);
+\DLL_LOCK_CNT_RNO[2]\: LUT4 
+generic map(
+  init => X"0C06"
+)
+port map (
+  A => DLL_LOCK_CNT(1),
+  B => DLL_LOCK_CNT(2),
+  C => NS_RX_SYNC_0_SQMUXA_4,
+  D => N_60,
+  Z => N_33_I);
+\CS_RX_SYNC_RNO[0]\: LUT4 
+generic map(
+  init => X"0501"
+)
+port map (
+  A => CS_RX_SYNC_NS_I_0_0(0),
+  B => N_72,
+  C => N_90,
+  D => READY_3,
+  Z => N_77_I);
+\DLL_LOCK_CNT_RNO[0]\: LUT4 
+generic map(
+  init => X"2121"
+)
+port map (
+  A => DLL_LOCK_CNT(0),
+  B => NS_RX_SYNC_0_SQMUXA_4,
+  C => N_59,
+  D => VCC,
+  Z => N_37_I);
+\CS_RX_SYNC_RNO[1]\: LUT4 
+generic map(
+  init => X"BB0B"
+)
+port map (
+  A => CS_RX_SYNC(0),
+  B => N_54,
+  C => N_74,
+  D => READY_3,
+  Z => N_79_I);
+\CS_RX_SYNC_NS_0[3]\: LUT4 
+generic map(
+  init => X"FEFA"
+)
+port map (
+  A => N_104,
+  B => CS_RX_SYNC(3),
+  C => CS_RX_SYNC_NS_2(3),
+  D => N_56,
+  Z => CS_RX_SYNC_NS(3));
+\CS_RX_SYNC_NS_0_0[4]\: LUT4 
+generic map(
+  init => X"FFEC"
+)
+port map (
+  A => CS_RX_SYNC(4),
+  B => NS_RX_SYNC_0_SQMUXA_3,
+  C => N_56,
+  D => N_92,
+  Z => CS_RX_SYNC_NS(4));
+\CS_RX_SYNC_NS_I_0_M2[0]\: LUT4 
+generic map(
+  init => X"BF8C"
+)
+port map (
+  A => ASSERT_STOP,
+  B => CS_RX_SYNC(3),
+  C => NOT_FREEZE,
+  D => N_61,
+  Z => N_72);
+\CTRL_CNT_RNO[0]\: LUT4 
+generic map(
+  init => X"0F09"
+)
+port map (
+  A => CTRL_CNT(0),
+  B => CTRL_CNT(2),
+  C => NS_RX_SYNC_0_SQMUXA_4,
+  D => N_64,
+  Z => N_23_I);
+\CTRL_CNT_RNO[1]\: LUT4 
+generic map(
+  init => X"3321"
+)
+port map (
+  A => CTRL_CNT(1),
+  B => NS_RX_SYNC_0_SQMUXA_4,
+  C => N_55,
+  D => N_64,
+  Z => N_21_I);
+\CTRL_CNT_RNO[2]\: LUT4 
+generic map(
+  init => X"0322"
+)
+port map (
+  A => CTRL_CNT(2),
+  B => CTRL_CNT_4_I_0(2),
+  C => N_54,
+  D => READY_3,
+  Z => N_25_I);
+\READY_CNT_RNO[0]\: LUT4 
+generic map(
+  init => X"1232"
+)
+port map (
+  A => GET_READY,
+  B => NS_RX_SYNC_0_SQMUXA_4,
+  C => READY_CNT(0),
+  D => N_75,
+  Z => N_43_I);
+\READY_CNT_RNO[1]\: LUT4 
+generic map(
+  init => X"4451"
+)
+port map (
+  A => NS_RX_SYNC_0_SQMUXA_4,
+  B => READY_CNT(1),
+  C => READY_CNT(2),
+  D => N_57,
+  Z => N_41_I);
+\READY_CNT_RNO[2]\: LUT4 
+generic map(
+  init => X"4545"
+)
+port map (
+  A => NS_RX_SYNC_0_SQMUXA_4,
+  B => READY_CNT(2),
+  C => N_62,
+  D => VCC,
+  Z => N_39_I);
+\DLL_LOCK_CNT_4_I_O2[1]\: LUT4 
+generic map(
+  init => X"DDDD"
+)
+port map (
+  A => DLL_LOCK_CNT(0),
+  B => N_59,
+  C => VCC,
+  D => VCC,
+  Z => N_60);
+\CS_RX_SYNC_NS_I_0_O2[1]\: LUT4 
+generic map(
+  init => X"FDFD"
+)
+port map (
+  A => READY_CNT(2),
+  B => N_61,
+  C => N_62,
+  D => VCC,
+  Z => N_74);
+\CS_RX_SYNC_NS_0[5]\: LUT4 
+generic map(
+  init => X"FAF2"
+)
+port map (
+  A => CS_RX_SYNC(5),
+  B => NOT_RESET,
+  C => NS_RX_SYNC_1_SQMUXA_1,
+  D => N_56,
+  Z => CS_RX_SYNC_NS(5));
+NS_RX_SYNC_1_SQMUXA_0_A2: LUT4 
+generic map(
+  init => X"0040"
+)
+port map (
+  A => ASSERT_STOP,
+  B => CS_RX_SYNC(3),
+  C => NOT_FREEZE,
+  D => N_56,
+  Z => NS_RX_SYNC_1_SQMUXA);
+\CS_RX_SYNC_NS_0_0_A2_0[4]\: LUT4 
+generic map(
+  init => X"0808"
+)
+port map (
+  A => ASSERT_STOP,
+  B => CS_RX_SYNC(3),
+  C => N_56,
+  D => VCC,
+  Z => N_92);
+\CS_RX_SYNC_NS_I_0_O2[0]\: LUT4 
+generic map(
+  init => X"5757"
+)
+port map (
+  A => CS_RX_SYNC(0),
+  B => NOT_UDDCNTLN,
+  C => N_64,
+  D => VCC,
+  Z => N_61);
+NS_RX_SYNC_1_SQMUXA_1_Z200: LUT4 
+generic map(
+  init => X"0202"
+)
+port map (
+  A => CS_RX_SYNC(4),
+  B => NOT_STOP,
+  C => N_56,
+  D => VCC,
+  Z => NS_RX_SYNC_1_SQMUXA_1);
+\CS_RX_SYNC_NS_0_A3_2[3]\: LUT4 
+generic map(
+  init => X"0808"
+)
+port map (
+  A => CS_RX_SYNC(4),
+  B => NOT_STOP,
+  C => N_56,
+  D => VCC,
+  Z => N_106);
+NS_RX_SYNC_0_SQMUXA_3_0_A2: LUT4 
+generic map(
+  init => X"0808"
+)
+port map (
+  A => CS_RX_SYNC(5),
+  B => NOT_RESET,
+  C => N_56,
+  D => VCC,
+  Z => NS_RX_SYNC_0_SQMUXA_3);
+\DLL_LOCK_CNT_4_I_O2[0]\: LUT4 
+generic map(
+  init => X"3BFF"
+)
+port map (
+  A => DLL_LOCK_CNT(2),
+  B => DLL_LOCK_Q2,
+  C => UN1_DLL_LOCK_CNT_2_AC0_3,
+  D => dll_lock,
+  Z => N_59);
+NS_RX_SYNC_2_SQMUXA_0_A2: LUT4 
+generic map(
+  init => X"0004"
+)
+port map (
+  A => ASSERT_STOP,
+  B => CS_RX_SYNC(3),
+  C => NOT_FREEZE,
+  D => N_56,
+  Z => NS_RX_SYNC_2_SQMUXA);
+\CS_RX_SYNC_NS_I_0_A2_2[0]\: LUT4 
+generic map(
+  init => X"0004"
+)
+port map (
+  A => CS_RX_SYNC(3),
+  B => READY_CNT(2),
+  C => N_62,
+  D => READY_3,
+  Z => N_90);
+\CS_RX_SYNC_NS_I_0_0[0]_Z206\: LUT4 
+generic map(
+  init => X"FF01"
+)
+port map (
+  A => CS_RX_SYNC(0),
+  B => CS_RX_SYNC(3),
+  C => N_54,
+  D => N_88,
+  Z => CS_RX_SYNC_NS_I_0_0(0));
+NS_RX_SYNC_0_SQMUXA_1_0_A2: LUT4 
+generic map(
+  init => X"0808"
+)
+port map (
+  A => CS_RX_SYNC(2),
+  B => NOT_UDDCNTLN,
+  C => N_56,
+  D => VCC,
+  Z => NS_RX_SYNC_0_SQMUXA_1);
+\CS_RX_SYNC_NS_0_A3_0[3]\: LUT4 
+generic map(
+  init => X"0080"
+)
+port map (
+  A => CS_RX_SYNC(0),
+  B => CS_RX_SYNC_NS_0_A3_0_1(3),
+  C => DLL_LOCK_CNT(0),
+  D => DLL_LOCK_CNT(1),
+  Z => N_104);
+\CTRL_CNT_RNO_0[2]\: LUT4 
+generic map(
+  init => X"FF07"
+)
+port map (
+  A => CTRL_CNT(0),
+  B => CTRL_CNT(1),
+  C => CTRL_CNT(2),
+  D => N_64,
+  Z => CTRL_CNT_4_I_0(2));
+\CS_RX_SYNC_RNI9C8Q[5]\: LUT4 
+generic map(
+  init => X"EEEE"
+)
+port map (
+  A => CS_RX_SYNC(4),
+  B => CS_RX_SYNC(5),
+  C => VCC,
+  D => VCC,
+  Z => N_68_i);
+\DLL_LOCK_CNT_RNIQH11[1]\: LUT4 
+generic map(
+  init => X"DFDF"
+)
+port map (
+  A => DLL_LOCK_CNT(0),
+  B => DLL_LOCK_CNT(1),
+  C => DLL_LOCK_CNT(2),
+  D => VCC,
+  Z => N_64);
+UN1_DLL_LOCK_CNT_2_AC0_3_Z212: LUT4 
+generic map(
+  init => X"1010"
+)
+port map (
+  A => DLL_LOCK_CNT(0),
+  B => DLL_LOCK_CNT(1),
+  C => DLL_LOCK_CNT(2),
+  D => VCC,
+  Z => UN1_DLL_LOCK_CNT_2_AC0_3);
+\UN5_A2_0_A2[4]\: LUT4 
+generic map(
+  init => X"1111"
+)
+port map (
+  A => CS_RX_SYNC(0),
+  B => READY_3,
+  C => VCC,
+  D => VCC,
+  Z => freeze);
+DLL_LOCK_Q2_RNIMVUG: LUT4 
+generic map(
+  init => X"DDDD"
+)
+port map (
+  A => DLL_LOCK_Q2,
+  B => update,
+  C => VCC,
+  D => VCC,
+  Z => N_54);
+\READY_CNT_4_I_O2[0]\: LUT4 
+generic map(
+  init => X"7777"
+)
+port map (
+  A => READY_CNT(1),
+  B => READY_CNT(2),
+  C => VCC,
+  D => VCC,
+  Z => N_75);
+\READY_CNT_4_I_O2[1]\: LUT4 
+generic map(
+  init => X"7777"
+)
+port map (
+  A => GET_READY,
+  B => READY_CNT(0),
+  C => VCC,
+  D => VCC,
+  Z => N_57);
+NS_RX_SYNC25_0_O2_0: LUT4 
+generic map(
+  init => X"DDDD"
+)
+port map (
+  A => CTRL_CNT(0),
+  B => CTRL_CNT(2),
+  C => VCC,
+  D => VCC,
+  Z => N_55);
+DDR_RESET: LUT4 
+generic map(
+  init => X"EEEE"
+)
+port map (
+  A => CS_RX_SYNC(5),
+  B => DDR_RESET_D,
+  C => VCC,
+  D => VCC,
+  Z => ddr_reset_1z);
+\CS_RX_SYNC_NS_0_A3_0_1[3]_Z219\: LUT4 
+generic map(
+  init => X"2222"
+)
+port map (
+  A => DLL_LOCK_CNT(2),
+  B => NOT_UDDCNTLN,
+  C => VCC,
+  D => VCC,
+  Z => CS_RX_SYNC_NS_0_A3_0_1(3));
+\CS_RX_SYNC_NS_I_0_A2_0[0]\: LUT4 
+generic map(
+  init => X"0202"
+)
+port map (
+  A => N_56,
+  B => READY_3,
+  C => CS_RX_SYNC(0),
+  D => VCC,
+  Z => N_88);
+DLL_LOCK_Q2_RNI723U: LUT4 
+generic map(
+  init => X"8A8A"
+)
+port map (
+  A => READY_3,
+  B => update,
+  C => DLL_LOCK_Q2,
+  D => VCC,
+  Z => NS_RX_SYNC_0_SQMUXA_4);
+\READY_CNT_4_I_O2[2]\: LUT4 
+generic map(
+  init => X"7F7F"
+)
+port map (
+  A => READY_CNT(1),
+  B => READY_CNT(0),
+  C => GET_READY,
+  D => VCC,
+  Z => N_62);
+NS_RX_SYNC25_0_O2: LUT4 
+generic map(
+  init => X"DFDF"
+)
+port map (
+  A => CTRL_CNT(1),
+  B => CTRL_CNT(2),
+  C => CTRL_CNT(0),
+  D => VCC,
+  Z => N_56);
+NOT_UDDCNTLN_1_SQMUXA_I_0: LUT4 
+generic map(
+  init => X"FBAA"
+)
+port map (
+  A => NS_RX_SYNC_2_SQMUXA,
+  B => DLL_LOCK_Q2,
+  C => update,
+  D => READY_3,
+  Z => N_46);
+GET_READY_1_SQMUXA_I_0: LUT4 
+generic map(
+  init => X"FBAA"
+)
+port map (
+  A => NS_RX_SYNC_1_SQMUXA,
+  B => DLL_LOCK_Q2,
+  C => update,
+  D => READY_3,
+  Z => N_48);
+NOT_STOP_1_SQMUXA_I_0: LUT4 
+generic map(
+  init => X"FBAA"
+)
+port map (
+  A => NS_RX_SYNC_0_SQMUXA_3,
+  B => DLL_LOCK_Q2,
+  C => update,
+  D => READY_3,
+  Z => N_51);
+NOT_RESET_1_SQMUXA_I_Z227: LUT4 
+generic map(
+  init => X"FBAA"
+)
+port map (
+  A => NS_RX_SYNC_1_SQMUXA_1,
+  B => DLL_LOCK_Q2,
+  C => update,
+  D => READY_3,
+  Z => NOT_RESET_1_SQMUXA_I);
+UN1_NS_RX_SYNC_0_SQMUXA_0_Z228: LUT4 
+generic map(
+  init => X"FBAA"
+)
+port map (
+  A => N_106,
+  B => DLL_LOCK_Q2,
+  C => update,
+  D => READY_3,
+  Z => UN1_NS_RX_SYNC_0_SQMUXA_0);
+ASSERT_STOP_2_SQMUXA_I_0: LUT4 
+generic map(
+  init => X"FBAA"
+)
+port map (
+  A => CS_RX_SYNC_NS_2(3),
+  B => DLL_LOCK_Q2,
+  C => update,
+  D => READY_3,
+  Z => N_17);
+\CS_RX_SYNC_NS_0_2[3]\: LUT4 
+generic map(
+  init => X"BAAA"
+)
+port map (
+  A => NS_RX_SYNC_0_SQMUXA_1,
+  B => N_56,
+  C => NOT_STOP,
+  D => CS_RX_SYNC(4),
+  Z => CS_RX_SYNC_NS_2(3));
+\CS_RX_SYNC_NS_0_0[2]\: LUT4 
+generic map(
+  init => X"EAEE"
+)
+port map (
+  A => NS_RX_SYNC_2_SQMUXA,
+  B => CS_RX_SYNC(2),
+  C => N_56,
+  D => NOT_UDDCNTLN,
+  Z => CS_RX_SYNC_NS(2));
+VCC_0: VHI port map (
+    Z => VCC);
+GND_0: VLO port map (
+    Z => GND);
+ready <= READY_3;
+end beh;
+
+--
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+library synplify;
+use synplify.components.all;
+library pmi;
+use pmi.pmi_components.all;
+library ecp5u;
+use ecp5u.components.all;
+
+entity iddrx2f is
+port(
+alignwd :  in std_logic;
+clkin :  in std_logic;
+dcntl : out std_logic_vector(7 downto 0);
+ready :  out std_logic;
+sclk :  out std_logic;
+sync_clk :  in std_logic;
+sync_reset :  in std_logic;
+update :  in std_logic;
+datain : in std_logic_vector(0 downto 0);
+q : out std_logic_vector(3 downto 0));
+end iddrx2f;
+
+architecture beh of iddrx2f is
+signal \INST_RXDLL_SYNC.CS_RX_SYNC_I\ : std_logic_vector(2 to 2);
+signal SCLK_4 : std_logic ;
+signal BUF_CLKIN : std_logic ;
+signal ECLKO : std_logic ;
+signal RESET : std_logic ;
+signal ECLKI : std_logic ;
+signal DLL_LOCK : std_logic ;
+signal DLL_RESET : std_logic ;
+signal FREEZE : std_logic ;
+signal DDRDEL : std_logic ;
+signal CLOCK_CFLAG : std_logic ;
+signal DATAINI_T0 : std_logic ;
+signal BUF_DATAINI0 : std_logic ;
+signal DDR_RESET : std_logic ;
+signal \INST_RXDLL_SYNC.N_68_I\ : std_logic ;
+signal GND : std_logic ;
+signal VCC : std_logic ;
+component DELAYG
+  port(
+    A :  in std_logic;
+    Z :  out std_logic  );
+end component;
+component IDDRX2F
+  port(
+    D :  in std_logic;
+    SCLK :  in std_logic;
+    ECLK :  in std_logic;
+    RST :  in std_logic;
+    ALIGNWD :  in std_logic;
+    Q3 :  out std_logic;
+    Q2 :  out std_logic;
+    Q1 :  out std_logic;
+    Q0 :  out std_logic  );
+end component;
+component DLLDELD
+  port(
+    A :  in std_logic;
+    DDRDEL :  in std_logic;
+    LOADN :  in std_logic;
+    MOVE :  in std_logic;
+    DIRECTION :  in std_logic;
+    Z :  out std_logic;
+    CFLAG :  out std_logic  );
+end component;
+component DDRDLLA
+  port(
+    CLK :  in std_logic;
+    RST :  in std_logic;
+    UDDCNTLN :  in std_logic;
+    FREEZE :  in std_logic;
+    DDRDEL :  out std_logic;
+    LOCK :  out std_logic;
+    DCNTL7 :  out std_logic;
+    DCNTL6 :  out std_logic;
+    DCNTL5 :  out std_logic;
+    DCNTL4 :  out std_logic;
+    DCNTL3 :  out std_logic;
+    DCNTL2 :  out std_logic;
+    DCNTL1 :  out std_logic;
+    DCNTL0 :  out std_logic  );
+end component;
+component ECLKSYNCB
+  port(
+    ECLKI :  in std_logic;
+    STOP :  in std_logic;
+    ECLKO :  out std_logic  );
+end component;
+component CLKDIVF
+  port(
+    CLKI :  in std_logic;
+    RST :  in std_logic;
+    ALIGNWD :  in std_logic;
+    CDIVX :  out std_logic  );
+end component;
+component iddrx2frxdll_sync
+  port(
+    cs_rx_sync_i_0 :  out std_logic;
+    ddr_reset_1z :  out std_logic;
+    update :  in std_logic;
+    freeze :  out std_logic;
+    N_68_i :  out std_logic;
+    ready :  out std_logic;
+    dll_lock :  in std_logic;
+    dll_reset_1z :  out std_logic;
+    sync_reset :  in std_logic;
+    sync_clk :  in std_logic  );
+end component;
+begin
+GND_0: VLO port map (
+  Z => GND);
+VCC_0: VHI port map (
+  Z => VCC);
+PUR_INST: PUR port map (
+  PUR => VCC);
+GSR_INST: GSR port map (
+  GSR => VCC);
+INST7_IB: IB port map (
+  I => clkin,
+  O => BUF_CLKIN);
+RESET <= DDR_RESET;
+INST1_IB0: IB port map (
+  I => datain(0),
+  O => BUF_DATAINI0);
+UDEL_DATAINI0: DELAYG 
+generic map( 
+  DEL_MODE => "USER_DEFINED", 
+  DEL_VALUE => 65
+) 
+port map (
+  A => BUF_DATAINI0,
+  Z => DATAINI_T0);
+INST2_IDDRX2F0: IDDRX2F port map (
+  D => DATAINI_T0,
+  SCLK => SCLK_4,
+  ECLK => ECLKO,
+  RST => RESET,
+  ALIGNWD => alignwd,
+  Q3 => q(3),
+  Q2 => q(2),
+  Q1 => q(1),
+  Q0 => q(0));
+INST3_DLLDELD: DLLDELD port map (
+  A => BUF_CLKIN,
+  DDRDEL => DDRDEL,
+  LOADN => \INST_RXDLL_SYNC.CS_RX_SYNC_I\(2),
+  MOVE => GND,
+  DIRECTION => GND,
+  Z => ECLKI,
+  CFLAG => CLOCK_CFLAG);
+INST4_DDRDLLA: DDRDLLA 
+generic map( 
+  FORCE_MAX_DELAY => "NO"
+) 
+port map (
+  CLK => ECLKO,
+  RST => DLL_RESET,
+  UDDCNTLN => \INST_RXDLL_SYNC.CS_RX_SYNC_I\(2),
+  FREEZE => FREEZE,
+  DDRDEL => DDRDEL,
+  LOCK => DLL_LOCK,
+  DCNTL7 => dcntl(7),
+  DCNTL6 => dcntl(6),
+  DCNTL5 => dcntl(5),
+  DCNTL4 => dcntl(4),
+  DCNTL3 => dcntl(3),
+  DCNTL2 => dcntl(2),
+  DCNTL1 => dcntl(1),
+  DCNTL0 => dcntl(0));
+INST5_ECLKSYNCB: ECLKSYNCB port map (
+  ECLKI => ECLKI,
+  STOP => \INST_RXDLL_SYNC.N_68_I\,
+  ECLKO => ECLKO);
+INST6_CLKDIVF: CLKDIVF 
+generic map( 
+  DIV => "2.0"
+) 
+port map (
+  CLKI => ECLKO,
+  RST => RESET,
+  ALIGNWD => alignwd,
+  CDIVX => SCLK_4);
+INST_RXDLL_SYNC: iddrx2frxdll_sync port map (
+  cs_rx_sync_i_0 => \INST_RXDLL_SYNC.CS_RX_SYNC_I\(2),
+  ddr_reset_1z => DDR_RESET,
+  update => update,
+  freeze => FREEZE,
+  N_68_i => \INST_RXDLL_SYNC.N_68_I\,
+  ready => ready,
+  dll_lock => DLL_LOCK,
+  dll_reset_1z => DLL_RESET,
+  sync_reset => sync_reset,
+  sync_clk => sync_clk);
+sclk <= SCLK_4;
+end beh;
+

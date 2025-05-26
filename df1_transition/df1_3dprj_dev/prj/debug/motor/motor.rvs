@@ -1,0 +1,271 @@
+<Project ModBy="Inserter" Name="D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/debug/motor/motor.rvl" Date="2025-05-14">
+    <Core Name="df1_lidar_top_LA0">
+        <Setting>
+            <Capture SamplesPerTrig="2048" NumTrigsCap="1"/>
+            <Event EventCnt="0" CntEnableRun="0"/>
+            <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Name="u_motor_control/u1_motor_drive/i_motor_sw"/>
+                <Sig Name="u_motor_control/u2_motor_drive/i_motor_sw"/>
+                <Bus Name="u_motor_control/u1_motor_drive/r_state" Radix="0">
+                    <Sig Name="u_motor_control/u1_motor_drive/r_state:0"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_state:1"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_state:2"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_state:3"/>
+                </Bus>
+                <Sig Name="u_motor_control/u1_motor_drive/r_speed_stable_flag"/>
+                <Sig Name="u_motor_control/u1_motor_drive/r_speed_govern_failed"/>
+                <Bus Name="u_motor_control/u1_motor_drive/r_pwm_value" Radix="0">
+                    <Sig Name="u_motor_control/u1_motor_drive/r_pwm_value:0"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_pwm_value:1"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_pwm_value:2"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_pwm_value:3"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_pwm_value:4"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_pwm_value:5"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_pwm_value:6"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_pwm_value:7"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_pwm_value:8"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_pwm_value:9"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_pwm_value:10"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_pwm_value:11"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_pwm_value:12"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_pwm_value:13"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_pwm_value:14"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_pwm_value:15"/>
+                </Bus>
+                <Bus Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum" Radix="0">
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:0"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:1"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:2"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:3"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:4"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:5"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:6"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:7"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:8"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:9"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:10"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:11"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:12"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:13"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:14"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:15"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:16"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:17"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:18"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:19"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:20"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:21"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:22"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r1_clkcnt_hignnum:23"/>
+                </Bus>
+                <Bus Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache" Radix="0">
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:0"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:1"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:2"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:3"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:4"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:5"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:6"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:7"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:8"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:9"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:10"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:11"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:12"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:13"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:14"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:15"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:16"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:17"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:18"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:19"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:20"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:21"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:22"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:23"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:24"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:25"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:26"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:27"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:28"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:29"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:30"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_fg_clkcnt_cache:31"/>
+                </Bus>
+                <Bus Name="u_motor_control/u1_motor_drive/r_set_clknum" Radix="0">
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:0"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:1"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:2"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:3"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:4"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:5"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:6"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:7"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:8"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:9"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:10"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:11"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:12"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:13"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:14"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:15"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:16"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:17"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:18"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:19"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:20"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:21"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:22"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_set_clknum:23"/>
+                </Bus>
+                <Bus Name="u_motor_control/u1_motor_drive/r_speed_overcnt" Radix="0">
+                    <Sig Name="u_motor_control/u1_motor_drive/r_speed_overcnt:0"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_speed_overcnt:1"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_speed_overcnt:2"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_speed_overcnt:3"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_speed_overcnt:4"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_speed_overcnt:5"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_speed_overcnt:6"/>
+                    <Sig Name="u_motor_control/u1_motor_drive/r_speed_overcnt:7"/>
+                </Bus>
+                <Bus Name="u_motor_control/u2_motor_drive/r_state" Radix="0">
+                    <Sig Name="u_motor_control/u2_motor_drive/r_state:0"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_state:1"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_state:2"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_state:3"/>
+                </Bus>
+                <Sig Name="u_motor_control/u2_motor_drive/r_speed_stable_flag"/>
+                <Sig Name="u_motor_control/u2_motor_drive/r_speed_govern_failed"/>
+                <Bus Name="u_motor_control/u2_motor_drive/r_pwm_value" Radix="0">
+                    <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:0"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:1"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:2"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:3"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:4"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:5"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:6"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:7"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:8"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:9"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:10"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:11"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:12"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:13"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:14"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_pwm_value:15"/>
+                </Bus>
+                <Bus Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum" Radix="0">
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:0"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:1"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:2"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:3"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:4"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:5"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:6"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:7"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:8"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:9"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:10"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:11"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:12"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:13"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:14"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:15"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:16"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:17"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:18"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:19"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:20"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:21"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:22"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r1_clkcnt_hignnum:23"/>
+                </Bus>
+                <Bus Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache" Radix="0">
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:0"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:1"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:2"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:3"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:4"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:5"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:6"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:7"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:8"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:9"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:10"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:11"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:12"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:13"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:14"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:15"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:16"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:17"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:18"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:19"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:20"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:21"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:22"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:23"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:24"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:25"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:26"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:27"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:28"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:29"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:30"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_fg_clkcnt_cache:31"/>
+                </Bus>
+                <Bus Name="u_motor_control/u2_motor_drive/r_set_clknum" Radix="0">
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:0"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:1"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:2"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:3"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:4"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:5"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:6"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:7"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:8"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:9"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:10"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:11"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:12"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:13"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:14"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:15"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:16"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:17"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:18"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:19"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:20"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:21"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:22"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_set_clknum:23"/>
+                </Bus>
+                <Bus Name="u_motor_control/u2_motor_drive/r_speed_overcnt" Radix="0">
+                    <Sig Name="u_motor_control/u2_motor_drive/r_speed_overcnt:0"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_speed_overcnt:1"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_speed_overcnt:2"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_speed_overcnt:3"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_speed_overcnt:4"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_speed_overcnt:5"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_speed_overcnt:6"/>
+                    <Sig Name="u_motor_control/u2_motor_drive/r_speed_overcnt:7"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU Operator="0" Name="TU1" ID="1" Value="001" Radix="3"/>
+                <TU Operator="0" Name="TU2" ID="2" Value="3" Radix="3"/>
+                <TU Operator="0" Name="TU3" ID="3" Value="3" Radix="3"/>
+                <TU Operator="0" Name="TU4" ID="4" Value="1" Radix="0"/>
+                <TU Operator="0" Name="TU5" ID="5" Value="1" Radix="0"/>
+                <TE Enable="0" Expression="TU1" Name="TE1" ID="1"/>
+                <TE Enable="0" Expression="TU2" Name="TE2" ID="2"/>
+                <TE Enable="1" Expression="TU3" Name="TE3" ID="3"/>
+                <TE Enable="0" Expression="TU4" Name="TE4" ID="4"/>
+                <TE Enable="0" Expression="TU5" Name="TE5" ID="5"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

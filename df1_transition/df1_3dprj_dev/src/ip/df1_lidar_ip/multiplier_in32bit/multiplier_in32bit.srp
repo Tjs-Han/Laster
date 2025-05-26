@@ -1,0 +1,29 @@
+SCUBA, Version Diamond (64-bit) 3.13.0.56.2
+Thu Dec 19 11:41:06 2024
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : D:\TOOL\LatticeDiamond\diamond\3.13\ispfpga\bin\nt64\scuba.exe -w -n multiplier_in32bit -lang verilog -synth synplify -bus_exp 7 -bb -arch sa5p00 -type dspmult -simple_portname -widtha 10 -widthb 32 -widthp 42 -PL_stages 1 -output_reg -clk0 -ce0 -rst0 -fdc D:/FreeWork/df1_demo/df1_lidar_top/src/ip/df1_lidar_ip/multiplier_in32bit/multiplier_in32bit.fdc 
+    Circuit name     : multiplier_in32bit
+    Module type      : dspmult_a
+    Module Version   : 4.9
+    Ports            : 
+	Inputs       : Clock, ClkEn, Aclr, DataA[9:0], DataB[31:0]
+	Outputs      : Result[41:0]
+    I/O buffer       : not inserted
+    EDIF output      : multiplier_in32bit.edn
+    Verilog output   : multiplier_in32bit.v
+    Verilog template : multiplier_in32bit_tmpl.v
+    Verilog testbench: tb_multiplier_in32bit_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : multiplier_in32bit.srp
+    Element Usage    :
+     MULT18X18D : 2
+         ALU54B : 1
+    Estimated Resource Usage:
+      DSP_SLICE : 1
