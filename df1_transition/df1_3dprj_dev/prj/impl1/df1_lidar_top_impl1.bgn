@@ -4,7 +4,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
-Wed May 21 20:10:44 2025
+Thu May 29 16:40:08 2025
 
 
 Command: bitgen -w -g CfgMode:Disable -g RamCfg:Reset -g DisableUES:FALSE -g ES:No -e -s D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/df1_lidar_top.sec -k D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/df1_lidar_top.bek -gui -msgset D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/promote.xml df1_lidar_top_impl1.ncd df1_lidar_top_impl1.prf 
@@ -85,6 +85,6 @@ Creating bit map...
 Bitstream Status: Final           Version 10.27.
  
 Saving bit stream in "df1_lidar_top_impl1.bit".
-Total CPU Time: 9 secs 
+Total CPU Time: 8 secs 
 Total REAL Time: 9 secs 
-Peak Memory Usage: 494 MB
+Peak Memory Usage: 501 MB

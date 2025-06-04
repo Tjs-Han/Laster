@@ -1,6 +1,6 @@
 NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
 NOTE All Rights Reserved *
-NOTE DATE CREATED: Wed May 21 20:10:53 2025 *
+NOTE DATE CREATED: Thu May 29 16:40:17 2025 *
 NOTE DESIGN NAME: df1_lidar_top *
 NOTE DEVICE NAME: LFE5U-45F-7CABGA256 *
 NOTE VREF_1_6 R1 *
@@ -68,7 +68,7 @@ NOTE PINS o_adc_cs2 : D10 : out *
 NOTE PINS o_adc_cs1 : E10 : out *
 NOTE PINS o_adc_sclk : C11 : out *
 NOTE PINS o_tempadc_sel[1] : C10 : out *
-NOTE PINS o_decode_done[1] : M8 : out *
+NOTE PINS o_decode_done[1] : J13 : out *
 NOTE PINS o_decode_done[0] : M9 : out *
 NOTE PINS o_tdc_spi_mosi[1] : A14 : out *
 NOTE PINS o_tdc_spi_mosi[0] : D9 : out *
@@ -82,10 +82,10 @@ NOTE PINS o_tdc_resetn[1] : D13 : out *
 NOTE PINS o_tdc_resetn[0] : B8 : out *
 NOTE PINS o_tdc_enable[1] : C13 : out *
 NOTE PINS o_tdc_enable[0] : D8 : out *
-NOTE PINS o_motor_pwm2 : N13 : out *
-NOTE PINS i_motor_fg2 : R13 : in *
-NOTE PINS o_motor_pwm1 : N14 : out *
-NOTE PINS i_motor_fg1 : T15 : in *
+NOTE PINS o_motor_pwm2 : N14 : out *
+NOTE PINS i_motor_fg2 : T15 : in *
+NOTE PINS o_motor_pwm1 : N13 : out *
+NOTE PINS i_motor_fg1 : R13 : in *
 NOTE PINS o_ethphy_txd[1] : A3 : out *
 NOTE PINS o_ethphy_txd[0] : A4 : out *
 NOTE PINS o_ethphy_txen : E4 : out *

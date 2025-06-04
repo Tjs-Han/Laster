@@ -11,6 +11,7 @@
 `define SET_MOTOR_SWITCH        16'h0108
 `define SET_HVCOMP_PARA			16'h0109
 `define SET_MOTOR_FREQ			16'h010A
+`define SET_LASER_SWITCH        16'h010B
 
 
 

@@ -6,7 +6,7 @@ Performance Grade:      7
 PACKAGE:          CABGA256
 Package Status:                     Final          Version 1.50
 
-Wed May 21 20:07:21 2025
+Thu May 29 16:37:37 2025
 
 Pinout by Port Name:
 +-----------------------------+----------+-----------------+-------+-----------+------------------------------------------------+
@@ -68,8 +68,8 @@ Pinout by Port Name:
 | i_ethphy_rxd[1]             | D5/0     | LVCMOS33_IN     | PT13B |           | PULL:DOWN CLAMP:ON HYSTERESIS:ON               |
 | i_ethphy_rxdv               | A6/0     | LVCMOS33_IN     | PT18B |           | PULL:DOWN CLAMP:ON HYSTERESIS:ON               |
 | i_flash_miso                | T7/8     | LVCMOS33_IN     | PB11A |           | PULL:DOWN HYSTERESIS:ON                        |
-| i_motor_fg1                 | T15/3    | LVCMOS33_IN     | PR59D |           | PULL:UP CLAMP:ON HYSTERESIS:ON                 |
-| i_motor_fg2                 | R13/3    | LVCMOS33_IN     | PR62C |           | PULL:UP CLAMP:ON HYSTERESIS:ON                 |
+| i_motor_fg1                 | R13/3    | LVCMOS33_IN     | PR62C |           | PULL:UP CLAMP:ON HYSTERESIS:ON                 |
+| i_motor_fg2                 | T15/3    | LVCMOS33_IN     | PR59D |           | PULL:UP CLAMP:ON HYSTERESIS:ON                 |
 | i_rst_n                     | R6/8     | LVCMOS33_IN     | PB4B  |           | PULL:DOWN HYSTERESIS:ON                        |
 | i_tdc1_lvds_serclk          | K16/2    | LVDS_IN         | PR32C |           | CLAMP:ON                                       |
 | i_tdc1_lvds_serdata         | H12/2    | LVDS_IN         | PR26A |           | CLAMP:ON                                       |
@@ -83,7 +83,7 @@ Pinout by Port Name:
 | o_adc_sclk                  | C11/1    | LVCMOS33_OUT    | PT58B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
 | o_da_pwm                    | R16/3    | LVCMOS33_OUT    | PR44B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
 | o_decode_done[0]            | M9/8     | LVCMOS25_OUT    | PB18A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
-| o_decode_done[1]            | M8/8     | LVCMOS25_OUT    | PB15B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
+| o_decode_done[1]            | J13/2    | LVCMOS25_OUT    | PR26C |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
 | o_ethphy_txd[0]             | A4/0     | LVCMOS33_OUT    | PT6B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
 | o_ethphy_txd[1]             | A3/0     | LVCMOS33_OUT    | PT6A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
 | o_ethphy_txen               | E4/0     | LVCMOS33_OUT    | PT9A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
@@ -98,8 +98,8 @@ Pinout by Port Name:
 | o_laser_str[5]              | L14/3    | LVCMOS33_OUT    | PR41C |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
 | o_laser_str[6]              | M14/3    | LVCMOS33_OUT    | PR41D |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
 | o_laser_str[7]              | P16/3    | LVCMOS33_OUT    | PR44A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
-| o_motor_pwm1                | N14/3    | LVCMOS33_OUT    | PR44D |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
-| o_motor_pwm2                | N13/3    | LVCMOS33_OUT    | PR59A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
+| o_motor_pwm1                | N13/3    | LVCMOS33_OUT    | PR59A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
+| o_motor_pwm2                | N14/3    | LVCMOS33_OUT    | PR44D |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
 | o_phy_mdc                   | E5/0     | LVCMOS33_OUT    | PT13A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
 | o_phy_reset_n               | C4/0     | LVCMOS33_OUT    | PT11A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
 | o_tdc_enable[0]             | D8/1     | LVCMOS33_OUT    | PT42B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                   |
@@ -123,7 +123,7 @@ Vccio by Bank:
 +------+-------+
 | 0    | 3.3V  |
 | 1    | 3.3V  |
-| 2    | 1.2V  |
+| 2    | 2.5V  |
 | 3    | 3.3V  |
 | 6    | 1.35V |
 | 7    | 1.35V |
@@ -257,7 +257,7 @@ Pinout by Pin Number:
 | J4/7     | em_ddr_addr[9]              | LOCATED    | SSTL135_I_OUT   | PL26C | LDQ29                    |           |
 | J5/7     | em_ddr_addr[8]              | LOCATED    | SSTL135_I_OUT   | PL26D | LDQ29                    |           |
 | J12/2    |     unused, PULL:DOWN       |            |                 | PR26D | RDQ29                    |           |
-| J13/2    |     unused, PULL:DOWN       |            |                 | PR26C | RDQ29                    |           |
+| J13/2    | o_decode_done[1]            |            | LVCMOS25_OUT    | PR26C | RDQ29                    |           |
 | J14/2    |     unused, PULL:DOWN       |            |                 | PR29C | GR_PCLK2_0/RDQ29         |           |
 | J15/2    | i_tdc2_lvds_serclk-         |            | LVDS_IN         | PR32B | PCLKC2_1/RDQ29           |           |
 | J16/2    | i_tdc2_lvds_serclk+         | LOCATED    | LVDS_IN         | PR32A | PCLKT2_1/RDQ29           |           |
@@ -288,7 +288,7 @@ Pinout by Pin Number:
 | M5/6     | em_ddr_dm[0]                | LOCATED    | SSTL135_I_OUT   | PL65C | LDQ65                    |           |
 | M6/6     | em_ddr_clk+                 | LOCATED    | SSTL135D_I_OUT  | PL68A | LDQ65                    |           |
 | M7/8     |     unused, PULL:DOWN       |            |                 | PB9B  | D2/IO2                   |           |
-| M8/8     | o_decode_done[1]            |            | LVCMOS25_OUT    | PB15B | DOUT/CSON                |           |
+| M8/8     |     unused, PULL:DOWN       |            |                 | PB15B | DOUT/CSON                |           |
 | M9/8     | o_decode_done[0]            |            | LVCMOS25_OUT    | PB18A | WRITEN                   |           |
 | M11/3    |     unused, PULL:DOWN       |            |                 | PR68A | RDQ65                    |           |
 | M12/3    |     unused, PULL:DOWN       |            |                 | PR65C | RDQ65                    |           |
@@ -305,8 +305,8 @@ Pinout by Pin Number:
 | N8/8     | o_flash_cs                  | LOCATED    | LVCMOS33_OUT    | PB15A | HOLDN/DI/BUSY/CSSPIN/CEN |           |
 | N11/3    |     unused, PULL:DOWN       |            |                 | PR68B | RDQ65                    |           |
 | N12/3    |     unused, PULL:DOWN       |            |                 | PR65D | RDQ65                    |           |
-| N13/3    | o_motor_pwm2                | LOCATED    | LVCMOS33_OUT    | PR59A | RDQ65                    |           |
-| N14/3    | o_motor_pwm1                | LOCATED    | LVCMOS33_OUT    | PR44D | RDQ41                    |           |
+| N13/3    | o_motor_pwm1                | LOCATED    | LVCMOS33_OUT    | PR59A | RDQ65                    |           |
+| N14/3    | o_motor_pwm2                | LOCATED    | LVCMOS33_OUT    | PR44D | RDQ41                    |           |
 | N16/3    |     unused, PULL:DOWN       |            |                 | PR41A | RDQS41                   |           |
 | P1/6     |     unused, PULL:DOWN       |            |                 | PL44A | LDQ41                    |           |
 | P2/6     | em_ddr_dqs[1]-              |            | SSTL135D_I_BIDI | PL41B | LDQSN41                  |           |
@@ -379,7 +379,7 @@ Pinout by Pin Number:
 | R7/8     |     unused, PULL:DOWN       |            |                 | PB6A  | D5/MISO2/IO5             |           |
 | R8/8     |     unused, PULL:DOWN       |            |                 | PB13A | SN/CSN                   |           |
 | R12/3    |     unused, PULL:DOWN       |            |                 | PR65A | RDQS65                   |           |
-| R13/3    | i_motor_fg2                 | LOCATED    | LVCMOS33_IN     | PR62C | RDQ65                    |           |
+| R13/3    | i_motor_fg1                 | LOCATED    | LVCMOS33_IN     | PR62C | RDQ65                    |           |
 | R14/3    |     unused, PULL:DOWN       |            |                 | PR62B | RDQ65                    |           |
 | R15/3    |     unused, PULL:DOWN       |            |                 | PR59C | RDQ65                    |           |
 | R16/3    | o_da_pwm                    | LOCATED    | LVCMOS33_OUT    | PR44B | VREF1_3/RDQ41            |           |
@@ -391,7 +391,7 @@ Pinout by Pin Number:
 | T8/8     | o_flash_mosi                | LOCATED    | LVCMOS33_OUT    | PB11B | D0/MOSI/IO0              |           |
 | T13/3    | i_code_sigin2               | LOCATED    | LVCMOS33_IN     | PR65B | RDQSN65                  |           |
 | T14/3    | i_code_sigin1               | LOCATED    | LVCMOS33_IN     | PR62D | RDQ65                    |           |
-| T15/3    | i_motor_fg1                 | LOCATED    | LVCMOS33_IN     | PR59D | RDQ65                    |           |
+| T15/3    | i_motor_fg2                 | LOCATED    | LVCMOS33_IN     | PR59D | RDQ65                    |           |
 | TCK/40   |                             |            |                 | TCK   |                          |           |
 | TDI/40   |                             |            |                 | TDI   |                          |           |
 | TDO/40   |                             |            |                 | TDO   |                          |           |
@@ -457,8 +457,8 @@ LOCATE  COMP  "i_ethphy_rxd[0]"  SITE  "C5";
 LOCATE  COMP  "i_ethphy_rxd[1]"  SITE  "D5";
 LOCATE  COMP  "i_ethphy_rxdv"  SITE  "A6";
 LOCATE  COMP  "i_flash_miso"  SITE  "T7";
-LOCATE  COMP  "i_motor_fg1"  SITE  "T15";
-LOCATE  COMP  "i_motor_fg2"  SITE  "R13";
+LOCATE  COMP  "i_motor_fg1"  SITE  "R13";
+LOCATE  COMP  "i_motor_fg2"  SITE  "T15";
 LOCATE  COMP  "i_rst_n"  SITE  "R6";
 LOCATE  COMP  "i_tdc1_lvds_serclk"  SITE  "K16";
 LOCATE  COMP  "i_tdc1_lvds_serdata"  SITE  "H12";
@@ -472,7 +472,7 @@ LOCATE  COMP  "o_adc_cs2"  SITE  "D10";
 LOCATE  COMP  "o_adc_sclk"  SITE  "C11";
 LOCATE  COMP  "o_da_pwm"  SITE  "R16";
 LOCATE  COMP  "o_decode_done[0]"  SITE  "M9";
-LOCATE  COMP  "o_decode_done[1]"  SITE  "M8";
+LOCATE  COMP  "o_decode_done[1]"  SITE  "J13";
 LOCATE  COMP  "o_ethphy_txd[0]"  SITE  "A4";
 LOCATE  COMP  "o_ethphy_txd[1]"  SITE  "A3";
 LOCATE  COMP  "o_ethphy_txen"  SITE  "E4";
@@ -487,8 +487,8 @@ LOCATE  COMP  "o_laser_str[4]"  SITE  "P15";
 LOCATE  COMP  "o_laser_str[5]"  SITE  "L14";
 LOCATE  COMP  "o_laser_str[6]"  SITE  "M14";
 LOCATE  COMP  "o_laser_str[7]"  SITE  "P16";
-LOCATE  COMP  "o_motor_pwm1"  SITE  "N14";
-LOCATE  COMP  "o_motor_pwm2"  SITE  "N13";
+LOCATE  COMP  "o_motor_pwm1"  SITE  "N13";
+LOCATE  COMP  "o_motor_pwm2"  SITE  "N14";
 LOCATE  COMP  "o_phy_mdc"  SITE  "E5";
 LOCATE  COMP  "o_phy_reset_n"  SITE  "C4";
 LOCATE  COMP  "o_tdc_enable[0]"  SITE  "D8";
@@ -527,5 +527,5 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
-Wed May 21 20:07:22 2025
+Thu May 29 16:37:38 2025
 

@@ -152,10 +152,14 @@ module mpt2042_dataprc(
                         r_next_state    = ST_DELAY;
                 end
                 ST_TDC_CHECK: begin
-                    if(i_tdc_chnlmask[3:2] == 2'b11)
-                        r_next_state    = ST_WAIT_DATA;
-                    else
+                    if(i_tdc_chnlmask[3:2] == 2'b11) begin
+                        if(r_delay_clkcnt >= FIXED_DELAY_CLKNUM)
+                            r_next_state    = ST_WAIT_DATA;
+                        else
+                            r_next_state    = ST_TDC_CHECK;
+                    end else begin
                         r_next_state    = ST_WAIT_EMPTY;
+                    end
                 end
                 ST_WAIT_DATA: begin
                     if(r_data_bytecnt >= 4'd2) begin
@@ -245,23 +249,28 @@ module mpt2042_dataprc(
                     r_tdcdata_valid <= 1'b0;
                     r_rise_data_reg <= 16'h0;
                     r_fall_data_reg <= 16'h0;
-                    if(i_lvdsfifo_empty)
-                        r_lvdsfifo_ren  <= 1'b0;
-                    else
+                    if(~i_lvdsfifo_empty)
                         r_lvdsfifo_ren  <= 1'b1;
                 end
                 ST_DELAY: begin //2
+                    if(r_delay_clkcnt >= FIXED_DELAY_CLKNUM) begin
+                        r_delay_clkcnt  <= 8'd0; 
+                        r_lvdsfifo_ren  <= 1'b0;
+                    end else begin
+                        r_delay_clkcnt  <= r_delay_clkcnt + 1'b1;
+                        r_lvdsfifo_ren  <= 1'b1;
+                    end
+                end
+                ST_TDC_CHECK: begin //3
+                    r_lvdsfifo_ren  <= 1'b0;
                     if(~i_lvdsfifo_empty) begin
                         r_delay_clkcnt  <= r_delay_clkcnt + 1'b1;
                     end else begin
                         r_delay_clkcnt  <= 8'd0;
                     end
                 end
-                ST_TDC_CHECK: begin //3
-                    r_lvdsfifo_ren  <= 1'b0;
-                    r_delay_clkcnt  <= 8'd0;
-                end
                 ST_WAIT_DATA: begin //4
+                    r_delay_clkcnt  <= 8'd0;
                     if(~i_lvdsfifo_empty) begin
                         r_lvdsfifo_ren  <= 1'b1;
                         r_data_bytecnt  <= r_data_bytecnt + 1'b1;

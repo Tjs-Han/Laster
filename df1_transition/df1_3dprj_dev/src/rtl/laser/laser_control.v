@@ -21,6 +21,8 @@ module laser_control
 
 	input				i_angle_sync,
 	input				i_cdctdc_ready,
+	input				i_laser_switch,
+	input  [7:0]		i_laser_setnum,
 	output [7:0]		o_laser_str,
 	output				o_laser_sync,
 	output [3:0]		o_tdc1_chnlmask,
@@ -30,7 +32,7 @@ module laser_control
 	//--------------------------------------------------------------------------------------------------
 	// reg define
 	//-------------------------------------------------------------------------------------------------- 
-	reg 				r_disable_tdc 		= 1'b1;
+	reg 				r_laser_switch 		= 1'b0;
 	reg 				r_rstidx_tdc 		= 1'b0;
 	reg  [7:0]			r_laser_state 		= 8'd0;
 	reg  [3:0]			r_emit_cnt 			= 4'd0;
@@ -97,12 +99,17 @@ module laser_control
 
 	//r_laser_str		
 	always@(posedge i_clk_100m or negedge i_rst_n) begin
-		if(i_rst_n == 0)
+		if(i_rst_n == 0) begin
 			r_laser_str <= 8'h00;
-		else if(r_laser_state == ST_LASER)
-			r_laser_str <= (8'h01 << r_laser_cnt);
-		else 
+		end else if(r_laser_state == ST_LASER) begin
+			if(i_laser_switch) begin
+				r_laser_str <= (8'h01 << i_laser_setnum);
+			end else begin
+				r_laser_str <= (8'h01 << r_laser_cnt);
+			end
+		end else begin
 			r_laser_str <= 8'h00;
+		end
 	end
 
 	//r_laser_sync

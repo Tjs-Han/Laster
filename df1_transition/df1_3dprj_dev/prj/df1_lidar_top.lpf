@@ -1,4 +1,6 @@
 rvl_alias "w_pll_100m" "w_pll_100m";
+RVL_ALIAS "w_pll_100m" "w_pll_100m"; 
+RVL_ALIAS "w_pll_100m" "w_pll_100m"; 
 RVL_ALIAS "w_pll_150m" "w_pll_150m"; 
 RVL_ALIAS "w_sclk" "w_sclk"; 
 RVL_ALIAS "w_sclk" "w_sclk"; 
@@ -176,10 +178,6 @@ IOBUF PORT "i_motor_fg1" IO_TYPE=LVCMOS33 PULLMODE=UP ;
 IOBUF PORT "i_motor_fg2" IO_TYPE=LVCMOS33 PULLMODE=UP ;
 IOBUF PORT "i_motor_rd1" IO_TYPE=LVCMOS33 ;
 IOBUF PORT "i_motor_rd2" IO_TYPE=LVCMOS33 ;
-LOCATE COMP "o_motor_pwm1" SITE "N14" ;
-LOCATE COMP "o_motor_pwm2" SITE "N13" ;
-LOCATE COMP "i_motor_fg1" SITE "T15" ;
-LOCATE COMP "i_motor_fg2" SITE "R13" ;
 LOCATE COMP "i_motor_rd1" SITE "R15" ;
 LOCATE COMP "i_motor_rd2" SITE "R14" ;
 #code
@@ -228,3 +226,7 @@ IOBUF PORT "o_tdc_spi_mosi[0]" IO_TYPE=LVCMOS33 ;
 IOBUF PORT "o_tdc_spi_mosi[1]" IO_TYPE=LVCMOS33 ;
 IOBUF PORT "o_tdc_spi_ssn[0]" IO_TYPE=LVCMOS33 ;
 IOBUF PORT "o_tdc_spi_ssn[1]" IO_TYPE=LVCMOS33 ;
+LOCATE COMP "o_motor_pwm1" SITE "N13" ;
+LOCATE COMP "o_motor_pwm2" SITE "N14" ;
+LOCATE COMP "i_motor_fg1" SITE "R13" ;
+LOCATE COMP "i_motor_fg2" SITE "T15" ;

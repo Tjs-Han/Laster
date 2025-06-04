@@ -4,7 +4,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
-Wed May 21 20:06:01 2025
+Thu May 29 16:36:25 2025
 
 D:/TOOL/LatticeDiamond/diamond/3.13/ispfpga\bin\nt64\par -f
 df1_lidar_top_impl1.p2t df1_lidar_top_impl1_map.ncd df1_lidar_top_impl1.dir
@@ -17,11 +17,11 @@ Preference file: df1_lidar_top_impl1.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            -4.764       54544        0.131        0            03:57        Completed
+5_1   *      0            -4.173       1528608      -0.435       12781        02:38        Completed
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 3 mins 58 secs 
+Total (real) run time for 1-seed: 2 mins 39 secs 
 
 par done!
 

@@ -1,4 +1,4 @@
-<Project ModBy="Analyzer" Name="D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/debug/tdc/tdc.rvs" Date="2025-05-07">
+<Project ModBy="Analyzer" Name="D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/debug/tdc/tdc.rvs" Date="2025-05-29">
  <Core Name="df1_lidar_top_LA0">
   <Setting>
    <Capture SamplesPerTrig="2048" NumTrigsCap="1"/>
@@ -41,6 +41,39 @@
     </Bus>
     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/i_lvdsfifo_empty"/>
     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_lvdsfifo_ren"/>
+    <Bus Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data" Radix="0">
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:0"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:1"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:2"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:3"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:4"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:5"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:6"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:7"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:8"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:9"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:10"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:11"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:12"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:13"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:14"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:15"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:16"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:17"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:18"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:19"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:20"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:21"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:22"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_chnl_data:23"/>
+    </Bus>
+    <Bus Name="u_mpt2042_top/u1_mpt2042_dataprc/i_tdc_chnlmask" Radix="0">
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/i_tdc_chnlmask:0"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/i_tdc_chnlmask:1"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/i_tdc_chnlmask:2"/>
+     <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/i_tdc_chnlmask:3"/>
+    </Bus>
+    <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_valid"/>
     <Bus Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg" Radix="0">
      <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:0"/>
      <Sig Name="u_mpt2042_top/u1_mpt2042_dataprc/r_rise_data_reg:1"/>
@@ -137,6 +170,39 @@
     </Bus>
     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/i_lvdsfifo_empty"/>
     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_lvdsfifo_ren"/>
+    <Bus Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data" Radix="0">
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:0"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:1"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:2"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:3"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:4"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:5"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:6"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:7"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:8"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:9"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:10"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:11"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:12"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:13"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:14"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:15"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:16"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:17"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:18"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:19"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:20"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:21"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:22"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_chnl_data:23"/>
+    </Bus>
+    <Bus Name="u_mpt2042_top/u2_mpt2042_dataprc/i_tdc_chnlmask" Radix="0">
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/i_tdc_chnlmask:0"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/i_tdc_chnlmask:1"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/i_tdc_chnlmask:2"/>
+     <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/i_tdc_chnlmask:3"/>
+    </Bus>
+    <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_valid"/>
     <Bus Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg" Radix="0">
      <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:0"/>
      <Sig Name="u_mpt2042_top/u2_mpt2042_dataprc/r_rise_data_reg:1"/>
@@ -251,7 +317,11 @@
    </Trace>
    <Trigger>
     <TU Operator="0" Name="TU1" ID="1" Value="1" Radix="0"/>
-    <TE Enable="1" Expression="TU1" Name="TE1" ID="1"/>
+    <TU Operator="3" Name="TU2" ID="2" Value="10000" Radix="2"/>
+    <TU Operator="3" Name="TU3" ID="3" Value="10000" Radix="2"/>
+    <TE Enable="0" Expression="TU1" Name="TE1" ID="1"/>
+    <TE Enable="1" Expression="TU2" Name="TE2" ID="2"/>
+    <TE Enable="1" Expression="TU3" Name="TE3" ID="3"/>
    </Trigger>
   </Dataset>
  </Core>

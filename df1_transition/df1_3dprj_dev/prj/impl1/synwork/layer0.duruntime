@@ -1,6 +1,9 @@
 Runtime Summary:
 ================
 
+	* Library: work, DesignUnit: udpcom_parameter_init_uniq_1_Z14
+		Optimization Phase          : 0h:00m:01s
+
 	The following design units have negligible CPU times:
 	=====================================================
 		* Library: work, DesignUnit: df1_lidar_top
@@ -13,17 +16,17 @@ Runtime Summary:
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: df1_lidar_top_la0_trig
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: rvl_tcnt_2s_3s_1_0s
+		* Library: work, DesignUnit: rvl_tcnt_3s_3s_1_0s
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: rvl_te_Z22
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: rvl_tu_12s_0s_0s_0s_1s
+		* Library: work, DesignUnit: rvl_tu_16s_0s_0s_0s_1s
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: rvl_tu_1s_0s_0s_0s_1s
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: rvl_decode_2s_2s
+		* Library: work, DesignUnit: rvl_decode_3s_3s
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: rvl_jtag_int_80s_13s_0s_0s_7s_80s_80s
+		* Library: work, DesignUnit: rvl_jtag_int_269s_33s_0s_0s_9s_269s_269s
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: HV_control_uniq_1
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
@@ -175,12 +178,12 @@ Runtime Summary:
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: eth_ctrl_uniq_1
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: udpcom_control_uniq_1_621093152_64s_27s_16s
+		* Library: work, DesignUnit: udpcom_control_uniq_1_621095190_64s_27s_16s
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: udp_broadcast_uniq_1
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: udpcom_parameter_init_uniq_1_Z14
-			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+			Hardware Generation Phase, Initial Cleanup Phase: Negligible CPU time
 		* Library: work, DesignUnit: sfifo_64x48_uniq_1
 			Hardware Generation Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: udpcom_datagram_parser_uniq_1_Z13

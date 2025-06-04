@@ -1,7 +1,7 @@
-<Project ModBy="Inserter" SigType="0" Name="D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/debug/motor/motor.rvl" Date="2025-05-14">
+<Project ModBy="Inserter" SigType="0" Name="D:/FreeWork/df1_second_round/df1_3dprj_dev/prj/debug/motor/motor.rvl" Date="2025-05-27">
     <IP Version="1_6_042617"/>
     <Design DesignEntry="Schematic/Verilog HDL" Synthesis="synplify" DeviceFamily="ECP5U" DesignName="df1_lidar_top"/>
-    <Core InsertDataset="0" Insert="1" Reveal_sig="626843211" Name="df1_lidar_top_LA0" ID="0">
+    <Core InsertDataset="0" Insert="1" Reveal_sig="628561728" Name="df1_lidar_top_LA0" ID="0">
         <Setting>
             <Clock SampleClk="w_pll_100m" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
             <TraceBuffer Implementation="0" BitTimeStamp="0" hasTimeStamp="0" IncTrigSig="0" BufferDepth="2048"/>
@@ -21,7 +21,6 @@
                     <Sig Type="SIG" Name="u_motor_control/u1_motor_drive/r_state:3"/>
                 </Bus>
                 <Sig Type="SIG" Name="u_motor_control/u1_motor_drive/r_speed_stable_flag"/>
-                <Sig Type="SIG" Name="u_motor_control/u1_motor_drive/r_speed_govern_failed"/>
                 <Bus Name="u_motor_control/u1_motor_drive/r_pwm_value">
                     <Sig Type="SIG" Name="u_motor_control/u1_motor_drive/r_pwm_value:0"/>
                     <Sig Type="SIG" Name="u_motor_control/u1_motor_drive/r_pwm_value:1"/>
@@ -143,7 +142,6 @@
                     <Sig Type="SIG" Name="u_motor_control/u2_motor_drive/r_state:3"/>
                 </Bus>
                 <Sig Type="SIG" Name="u_motor_control/u2_motor_drive/r_speed_stable_flag"/>
-                <Sig Type="SIG" Name="u_motor_control/u2_motor_drive/r_speed_govern_failed"/>
                 <Bus Name="u_motor_control/u2_motor_drive/r_pwm_value">
                     <Sig Type="SIG" Name="u_motor_control/u2_motor_drive/r_pwm_value:0"/>
                     <Sig Type="SIG" Name="u_motor_control/u2_motor_drive/r_pwm_value:1"/>

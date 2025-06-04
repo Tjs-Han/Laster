@@ -43,7 +43,7 @@
 //--------------------------------------------------------------------------------------------------
 module eth_top
 #(  
-    parameter FIRMWARE_VERSION		= 32'h25052120,
+    parameter FIRMWARE_VERSION		= 32'h25052916,
     parameter DDR_DW                = 64,
     parameter DDR_AW                = 27,
 	parameter USER_RDW              = 16
@@ -83,7 +83,8 @@ module eth_top
 	input  [9:0]				        i_dac_value,
 	input  [7:0]				        i_device_temp,
     //para output
-    output [7:0]						o_laser_sernum,
+    output								o_laser_switch,
+    output [7:0]						o_laser_setnum,
     output [15:0]				        o_start_index,
 	output [15:0]				        o_stop_index,
     output [31:0]						o_pulse_start,
@@ -387,7 +388,8 @@ module eth_top
 		.i_dac_value			    ( i_dac_value				),
 		.i_device_temp			    ( i_device_temp				),
         //output
-        .o_laser_sernum				( o_laser_sernum			),
+        .o_laser_switch             ( o_laser_switch            ),
+        .o_laser_setnum				( o_laser_setnum			),
         .o_lidar_mac                ( w_lidar_mac               ),
         .o_lidar_ip                 ( w_lidar_ip                ),
         .o_config_mode              ( o_config_mode             ),

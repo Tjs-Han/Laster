@@ -82,7 +82,8 @@ module udpcom_control
 	input  [9:0]						i_dac_value,
 	input  [7:0]						i_device_temp,
 	//output parameter
-	output [7:0]						o_laser_sernum,
+	output								o_laser_switch,
+	output [7:0]						o_laser_setnum,
 	output [47:0]						o_lidar_mac,
 	output [31:0]						o_lidar_ip,
 	output [15:0]						o_lidar_port,
@@ -315,7 +316,8 @@ module udpcom_control
 		.i_device_temp				( i_device_temp				),
 
 		.i_connect_state			( 1'b1 						),
-		.o_laser_sernum				( o_laser_sernum			),
+		.o_laser_switch				( o_laser_switch			),
+		.o_laser_setnum				( o_laser_setnum			),
 		.o_serial_number			( w_serial_number			),
 		.o_lidar_mac				( o_lidar_mac				),
 		.o_lidar_ip                 ( o_lidar_ip                ),

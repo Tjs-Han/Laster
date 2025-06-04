@@ -13,7 +13,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.13.0.56.2
-Wed May 21 20:05:57 2025
+Thu May 29 16:36:21 2025
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -61,51 +61,51 @@ Passed: The following path meets requirements by 14.603ns
 
  Constraint Details:
 
-      5.630ns physical path delay SLICE_2621 to SLICE_0 meets
+      5.630ns physical path delay SLICE_2644 to SLICE_0 meets
      20.000ns delay constraint less
      -0.233ns DIN_SET requirement (totaling 20.233ns) by 14.603ns
 
  Physical Path Details:
 
-      Data path SLICE_2621 to SLICE_0:
+      Data path SLICE_2644 to SLICE_0:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.457 SLICE_2621.CLK to  SLICE_2621.Q0 SLICE_2621 (from i_clk_50m_c)
-ROUTE         3   e 0.497  SLICE_2621.Q0 to SLICE_12799.A0 r_rst_dlycnt[7]
-CTOF_DEL    ---     0.206 SLICE_12799.A0 to SLICE_12799.F0 SLICE_12799
-ROUTE         1   e 0.497 SLICE_12799.F0 to SLICE_10402.C1 un1_r_rst_dlycntlt11
-CTOF_DEL    ---     0.206 SLICE_10402.C1 to SLICE_10402.F1 SLICE_10402
-ROUTE         1   e 0.182 SLICE_10402.F1 to SLICE_10402.D0 un1_r_rst_dlycntlt14
-CTOF_DEL    ---     0.206 SLICE_10402.D0 to SLICE_10402.F0 SLICE_10402
-ROUTE         1   e 0.497 SLICE_10402.F0 to SLICE_10401.C0 un1_r_rst_dlycntlt18
-CTOF_DEL    ---     0.206 SLICE_10401.C0 to SLICE_10401.F0 SLICE_10401
-ROUTE         1   e 0.497 SLICE_10401.F0 to  SLICE_3143.C0 un1_r_rst_dlycntlt22
-CTOF_DEL    ---     0.206  SLICE_3143.C0 to  SLICE_3143.F0 SLICE_3143
-ROUTE         2   e 0.497  SLICE_3143.F0 to  SLICE_2617.B0 r_rst_dlycnt8
-C0TOFCO_DE  ---     0.398  SLICE_2617.B0 to SLICE_2617.FCO SLICE_2617
-ROUTE         1   e 0.001 SLICE_2617.FCO to SLICE_2618.FCI un1_r_rst_dlycnt_4_cry_0
-FCITOFCO_D  ---     0.062 SLICE_2618.FCI to SLICE_2618.FCO SLICE_2618
-ROUTE         1   e 0.001 SLICE_2618.FCO to SLICE_2619.FCI un1_r_rst_dlycnt_4_cry_2
-FCITOFCO_D  ---     0.062 SLICE_2619.FCI to SLICE_2619.FCO SLICE_2619
-ROUTE         1   e 0.001 SLICE_2619.FCO to SLICE_2620.FCI un1_r_rst_dlycnt_4_cry_4
-FCITOFCO_D  ---     0.062 SLICE_2620.FCI to SLICE_2620.FCO SLICE_2620
-ROUTE         1   e 0.001 SLICE_2620.FCO to SLICE_2621.FCI un1_r_rst_dlycnt_4_cry_6
-FCITOFCO_D  ---     0.062 SLICE_2621.FCI to SLICE_2621.FCO SLICE_2621
-ROUTE         1   e 0.001 SLICE_2621.FCO to SLICE_2622.FCI un1_r_rst_dlycnt_4_cry_8
-FCITOFCO_D  ---     0.062 SLICE_2622.FCI to SLICE_2622.FCO SLICE_2622
-ROUTE         1   e 0.001 SLICE_2622.FCO to SLICE_2623.FCI un1_r_rst_dlycnt_4_cry_10
-FCITOFCO_D  ---     0.062 SLICE_2623.FCI to SLICE_2623.FCO SLICE_2623
-ROUTE         1   e 0.001 SLICE_2623.FCO to SLICE_2624.FCI un1_r_rst_dlycnt_4_cry_12
-FCITOFCO_D  ---     0.062 SLICE_2624.FCI to SLICE_2624.FCO SLICE_2624
-ROUTE         1   e 0.001 SLICE_2624.FCO to SLICE_2625.FCI un1_r_rst_dlycnt_4_cry_14
-FCITOFCO_D  ---     0.062 SLICE_2625.FCI to SLICE_2625.FCO SLICE_2625
-ROUTE         1   e 0.001 SLICE_2625.FCO to SLICE_2626.FCI un1_r_rst_dlycnt_4_cry_16
-FCITOFCO_D  ---     0.062 SLICE_2626.FCI to SLICE_2626.FCO SLICE_2626
-ROUTE         1   e 0.001 SLICE_2626.FCO to SLICE_2627.FCI un1_r_rst_dlycnt_4_cry_18
-FCITOFCO_D  ---     0.062 SLICE_2627.FCI to SLICE_2627.FCO SLICE_2627
-ROUTE         1   e 0.001 SLICE_2627.FCO to SLICE_2628.FCI un1_r_rst_dlycnt_4_cry_20
-FCITOFCO_D  ---     0.062 SLICE_2628.FCI to SLICE_2628.FCO SLICE_2628
-ROUTE         1   e 0.001 SLICE_2628.FCO to    SLICE_0.FCI un1_r_rst_dlycnt_4_cry_22
+REG_DEL     ---     0.457 SLICE_2644.CLK to  SLICE_2644.Q0 SLICE_2644 (from i_clk_50m_c)
+ROUTE         3   e 0.497  SLICE_2644.Q0 to SLICE_13515.A0 r_rst_dlycnt[7]
+CTOF_DEL    ---     0.206 SLICE_13515.A0 to SLICE_13515.F0 SLICE_13515
+ROUTE         1   e 0.497 SLICE_13515.F0 to SLICE_10897.C1 un1_r_rst_dlycntlt11
+CTOF_DEL    ---     0.206 SLICE_10897.C1 to SLICE_10897.F1 SLICE_10897
+ROUTE         1   e 0.182 SLICE_10897.F1 to SLICE_10897.D0 un1_r_rst_dlycntlt14
+CTOF_DEL    ---     0.206 SLICE_10897.D0 to SLICE_10897.F0 SLICE_10897
+ROUTE         1   e 0.497 SLICE_10897.F0 to SLICE_10896.C0 un1_r_rst_dlycntlt18
+CTOF_DEL    ---     0.206 SLICE_10896.C0 to SLICE_10896.F0 SLICE_10896
+ROUTE         1   e 0.497 SLICE_10896.F0 to  SLICE_3514.C0 un1_r_rst_dlycntlt22
+CTOF_DEL    ---     0.206  SLICE_3514.C0 to  SLICE_3514.F0 SLICE_3514
+ROUTE         2   e 0.497  SLICE_3514.F0 to  SLICE_2640.B0 r_rst_dlycnt8
+C0TOFCO_DE  ---     0.398  SLICE_2640.B0 to SLICE_2640.FCO SLICE_2640
+ROUTE         1   e 0.001 SLICE_2640.FCO to SLICE_2641.FCI un1_r_rst_dlycnt_4_cry_0
+FCITOFCO_D  ---     0.062 SLICE_2641.FCI to SLICE_2641.FCO SLICE_2641
+ROUTE         1   e 0.001 SLICE_2641.FCO to SLICE_2642.FCI un1_r_rst_dlycnt_4_cry_2
+FCITOFCO_D  ---     0.062 SLICE_2642.FCI to SLICE_2642.FCO SLICE_2642
+ROUTE         1   e 0.001 SLICE_2642.FCO to SLICE_2643.FCI un1_r_rst_dlycnt_4_cry_4
+FCITOFCO_D  ---     0.062 SLICE_2643.FCI to SLICE_2643.FCO SLICE_2643
+ROUTE         1   e 0.001 SLICE_2643.FCO to SLICE_2644.FCI un1_r_rst_dlycnt_4_cry_6
+FCITOFCO_D  ---     0.062 SLICE_2644.FCI to SLICE_2644.FCO SLICE_2644
+ROUTE         1   e 0.001 SLICE_2644.FCO to SLICE_2645.FCI un1_r_rst_dlycnt_4_cry_8
+FCITOFCO_D  ---     0.062 SLICE_2645.FCI to SLICE_2645.FCO SLICE_2645
+ROUTE         1   e 0.001 SLICE_2645.FCO to SLICE_2646.FCI un1_r_rst_dlycnt_4_cry_10
+FCITOFCO_D  ---     0.062 SLICE_2646.FCI to SLICE_2646.FCO SLICE_2646
+ROUTE         1   e 0.001 SLICE_2646.FCO to SLICE_2647.FCI un1_r_rst_dlycnt_4_cry_12
+FCITOFCO_D  ---     0.062 SLICE_2647.FCI to SLICE_2647.FCO SLICE_2647
+ROUTE         1   e 0.001 SLICE_2647.FCO to SLICE_2648.FCI un1_r_rst_dlycnt_4_cry_14
+FCITOFCO_D  ---     0.062 SLICE_2648.FCI to SLICE_2648.FCO SLICE_2648
+ROUTE         1   e 0.001 SLICE_2648.FCO to SLICE_2649.FCI un1_r_rst_dlycnt_4_cry_16
+FCITOFCO_D  ---     0.062 SLICE_2649.FCI to SLICE_2649.FCO SLICE_2649
+ROUTE         1   e 0.001 SLICE_2649.FCO to SLICE_2650.FCI un1_r_rst_dlycnt_4_cry_18
+FCITOFCO_D  ---     0.062 SLICE_2650.FCI to SLICE_2650.FCO SLICE_2650
+ROUTE         1   e 0.001 SLICE_2650.FCO to SLICE_2651.FCI un1_r_rst_dlycnt_4_cry_20
+FCITOFCO_D  ---     0.062 SLICE_2651.FCI to SLICE_2651.FCO SLICE_2651
+ROUTE         1   e 0.001 SLICE_2651.FCO to    SLICE_0.FCI un1_r_rst_dlycnt_4_cry_22
 FCITOF0_DE  ---     0.383    SLICE_0.FCI to     SLICE_0.F0 SLICE_0
 ROUTE         1   e 0.001     SLICE_0.F0 to    SLICE_0.DI0 un1_r_rst_dlycnt_4_s_23_0_S0 (to i_clk_50m_c)
                   --------
@@ -131,25 +131,25 @@ Passed: The following path meets requirements by 3.333ns
 
  Constraint Details:
 
-      3.451ns physical path delay u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3185 to u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3183 meets
+      3.451ns physical path delay u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3656 to u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3654 meets
       6.667ns delay constraint less
      -0.117ns CE_SET requirement (totaling 6.784ns) by 3.333ns
 
  Physical Path Details:
 
-      Data path u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3185 to u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3183:
+      Data path u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3656 to u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3654:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.457 *LICE_3185.CLK to *SLICE_3185.Q0 u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3185 (from w_pll_150m)
-ROUTE         3   e 0.497 *SLICE_3185.Q0 to *SLICE_9264.A1 u1_iddr_tdc1/Inst_rxdll_sync/ctrl_cnt[0]
-CTOF_DEL    ---     0.206 *SLICE_9264.A1 to *SLICE_9264.F1 u1_iddr_tdc1/Inst_rxdll_sync/SLICE_9264
-ROUTE        11   e 0.497 *SLICE_9264.F1 to *SLICE_8952.B1 u1_iddr_tdc1/Inst_rxdll_sync/N_37_mux
-CTOF_DEL    ---     0.206 *SLICE_8952.B1 to *SLICE_8952.F1 u1_iddr_tdc1/Inst_rxdll_sync/SLICE_8952
-ROUTE         3   e 0.497 *SLICE_8952.F1 to *LICE_10868.A0 u1_iddr_tdc1/Inst_rxdll_sync/ns_rx_sync_0_sqmuxa_5
-CTOF_DEL    ---     0.206 *LICE_10868.A0 to *LICE_10868.F0 u1_iddr_tdc1/Inst_rxdll_sync/SLICE_10868
-ROUTE         2   e 0.497 *LICE_10868.F0 to *SLICE_3183.A1 u1_iddr_tdc1/Inst_rxdll_sync/un1_ns_rx_sync_0_sqmuxa_0_o3
-CTOF_DEL    ---     0.206 *SLICE_3183.A1 to *SLICE_3183.F1 u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3183
-ROUTE         1   e 0.182 *SLICE_3183.F1 to *SLICE_3183.CE u1_iddr_tdc1/Inst_rxdll_sync/un1_assert_stop_2_sqmuxa_0 (to w_pll_150m)
+REG_DEL     ---     0.457 *LICE_3656.CLK to *SLICE_3656.Q0 u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3656 (from w_pll_150m)
+ROUTE         3   e 0.497 *SLICE_3656.Q0 to *SLICE_9648.A1 u1_iddr_tdc1/Inst_rxdll_sync/ctrl_cnt[0]
+CTOF_DEL    ---     0.206 *SLICE_9648.A1 to *SLICE_9648.F1 u1_iddr_tdc1/Inst_rxdll_sync/SLICE_9648
+ROUTE        11   e 0.497 *SLICE_9648.F1 to *SLICE_9303.B1 u1_iddr_tdc1/Inst_rxdll_sync/N_37_mux
+CTOF_DEL    ---     0.206 *SLICE_9303.B1 to *SLICE_9303.F1 u1_iddr_tdc1/Inst_rxdll_sync/SLICE_9303
+ROUTE         3   e 0.497 *SLICE_9303.F1 to *LICE_11359.A0 u1_iddr_tdc1/Inst_rxdll_sync/ns_rx_sync_0_sqmuxa_5
+CTOF_DEL    ---     0.206 *LICE_11359.A0 to *LICE_11359.F0 u1_iddr_tdc1/Inst_rxdll_sync/SLICE_11359
+ROUTE         2   e 0.497 *LICE_11359.F0 to *SLICE_3654.A1 u1_iddr_tdc1/Inst_rxdll_sync/un1_ns_rx_sync_0_sqmuxa_0_o3
+CTOF_DEL    ---     0.206 *SLICE_3654.A1 to *SLICE_3654.F1 u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3654
+ROUTE         1   e 0.182 *SLICE_3654.F1 to *SLICE_3654.CE u1_iddr_tdc1/Inst_rxdll_sync/un1_assert_stop_2_sqmuxa_0 (to w_pll_150m)
                   --------
                     3.451   (37.1% logic, 62.9% route), 5 logic levels.
 
@@ -162,44 +162,42 @@ Preference: FREQUENCY NET "w_pll_100m" 100.000000 MHz ;
 --------------------------------------------------------------------------------
 
 
-Passed: The following path meets requirements by 1.154ns
+Passed: The following path meets requirements by 1.993ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         PDPW16KD   Port           u_eth_top/u_udpcom_control/u_datagram_parser/code1_ram/code_ram128x32_0_0_0(ASIC)  (from w_pll_100m +)
+   Source:         DP16KD     Port           u_eth_top/u_udpcom_control/u_datagram_parser/u_loop_data2/dataram_1024x8_0_0_0(ASIC)  (from w_pll_100m +)
    Destination:    FF         Data in        u_eth_top/u_udpcom_control/u_datagram_parser/r_udp_txram_wrdata[4]  (to w_pll_100m +)
 
-   Delay:               9.079ns  (70.6% logic, 29.4% route), 7 logic levels.
+   Delay:               8.240ns  (75.8% logic, 24.2% route), 6 logic levels.
 
  Constraint Details:
 
-      9.079ns physical path delay u_eth_top/u_udpcom_control/u_datagram_parser/code1_ram/code_ram128x32_0_0_0 to u_eth_top/u_udpcom_control/u_datagram_parser/SLICE_6460 meets
+      8.240ns physical path delay u_eth_top/u_udpcom_control/u_datagram_parser/u_loop_data2/dataram_1024x8_0_0_0 to u_eth_top/u_udpcom_control/u_datagram_parser/SLICE_6935 meets
      10.000ns delay constraint less
-     -0.233ns DIN_SET requirement (totaling 10.233ns) by 1.154ns
+     -0.233ns DIN_SET requirement (totaling 10.233ns) by 1.993ns
 
  Physical Path Details:
 
-      Data path u_eth_top/u_udpcom_control/u_datagram_parser/code1_ram/code_ram128x32_0_0_0 to u_eth_top/u_udpcom_control/u_datagram_parser/SLICE_6460:
+      Data path u_eth_top/u_udpcom_control/u_datagram_parser/u_loop_data2/dataram_1024x8_0_0_0 to u_eth_top/u_udpcom_control/u_datagram_parser/SLICE_6935:
 
    Name    Fanout   Delay (ns)          Site               Resource
-C2Q_DEL     ---     5.029 *32_0_0_0.CLKR to *x32_0_0_0.DO4 u_eth_top/u_udpcom_control/u_datagram_parser/code1_ram/code_ram128x32_0_0_0 (from w_pll_100m)
-ROUTE         1   e 0.497 *x32_0_0_0.DO4 to *SLICE_9584.C1 u_eth_top/u_udpcom_control/u_datagram_parser/w_code_rddata1[4]
-CTOF_DEL    ---     0.206 *SLICE_9584.C1 to *SLICE_9584.F1 u_eth_top/u_udpcom_control/u_datagram_parser/SLICE_9584
-ROUTE         1   e 0.182 *SLICE_9584.F1 to *SLICE_9584.A0 u_eth_top/u_udpcom_control/u_datagram_parser/N_686
-CTOF_DEL    ---     0.206 *SLICE_9584.A0 to *SLICE_9584.F0 u_eth_top/u_udpcom_control/u_datagram_parser/SLICE_9584
-ROUTE         1   e 0.497 *SLICE_9584.F0 to *SLICE_8609.A1 u_eth_top/u_udpcom_control/u_datagram_parser/r_N_5
-CTOOFX_DEL  ---     0.352 *SLICE_8609.A1 to *ICE_8609.OFX0 u_eth_top/u_udpcom_control/u_datagram_parser/r_udp_txram_wrdata_113_77_RNO_0[4]/SLICE_8609
-ROUTE         1   e 0.497 *ICE_8609.OFX0 to *SLICE_9559.B0 u_eth_top/u_udpcom_control/u_datagram_parser/r_udp_txram_wrdata_113_77_RNO_0[4]
-CTOF_DEL    ---     0.206 *SLICE_9559.B0 to *SLICE_9559.F0 u_eth_top/u_udpcom_control/u_datagram_parser/SLICE_9559
-ROUTE         1   e 0.497 *SLICE_9559.F0 to *LICE_11774.A0 u_eth_top/u_udpcom_control/u_datagram_parser/r_udp_txram_wrdata_113_77_RNO[4]
-CTOF_DEL    ---     0.206 *LICE_11774.A0 to *LICE_11774.F0 u_eth_top/u_udpcom_control/u_datagram_parser/SLICE_11774
-ROUTE         1   e 0.497 *LICE_11774.F0 to *SLICE_6460.A0 u_eth_top/u_udpcom_control/u_datagram_parser/N_1240
-CTOF_DEL    ---     0.206 *SLICE_6460.A0 to *SLICE_6460.F0 u_eth_top/u_udpcom_control/u_datagram_parser/SLICE_6460
-ROUTE         1   e 0.001 *SLICE_6460.F0 to *LICE_6460.DI0 u_eth_top/u_udpcom_control/u_datagram_parser/r_udp_txram_wrdata_113[4] (to w_pll_100m)
+C2Q_DEL     ---     5.071 *x8_0_0_0.CLKB to *x8_0_0_0.DOB4 u_eth_top/u_udpcom_control/u_datagram_parser/u_loop_data2/dataram_1024x8_0_0_0 (from w_pll_100m)
+ROUTE         1   e 0.497 *x8_0_0_0.DOB4 to *LICE_12198.B0 u_eth_top/u_udpcom_control/u_datagram_parser/w_loop_rddata2[4]
+CTOF_DEL    ---     0.206 *LICE_12198.B0 to *LICE_12198.F0 u_eth_top/u_udpcom_control/u_datagram_parser/SLICE_12198
+ROUTE         1   e 0.497 *LICE_12198.F0 to *LICE_10034.B0 u_eth_top/u_udpcom_control/u_datagram_parser/N_2866
+CTOF_DEL    ---     0.206 *LICE_10034.B0 to *LICE_10034.F0 u_eth_top/u_udpcom_control/u_datagram_parser/SLICE_10034
+ROUTE         1   e 0.497 *LICE_10034.F0 to *SLICE_8954.A0 u_eth_top/u_udpcom_control/u_datagram_parser/N_928
+CTOOFX_DEL  ---     0.352 *SLICE_8954.A0 to *ICE_8954.OFX0 u_eth_top/u_udpcom_control/u_datagram_parser/r_udp_txram_wrdata_113_71[4]/SLICE_8954
+ROUTE         1   e 0.001 *ICE_8954.OFX0 to *LICE_8954.FXB u_eth_top/u_udpcom_control/u_datagram_parser/N_1194
+FXTOF_DEL   ---     0.209 *LICE_8954.FXB to *ICE_8954.OFX1 u_eth_top/u_udpcom_control/u_datagram_parser/r_udp_txram_wrdata_113_71[4]/SLICE_8954
+ROUTE         1   e 0.497 *ICE_8954.OFX1 to *SLICE_6935.A0 u_eth_top/u_udpcom_control/u_datagram_parser/N_1255
+CTOF_DEL    ---     0.206 *SLICE_6935.A0 to *SLICE_6935.F0 u_eth_top/u_udpcom_control/u_datagram_parser/SLICE_6935
+ROUTE         1   e 0.001 *SLICE_6935.F0 to *LICE_6935.DI0 u_eth_top/u_udpcom_control/u_datagram_parser/r_udp_txram_wrdata_113[4] (to w_pll_100m)
                   --------
-                    9.079   (70.6% logic, 29.4% route), 7 logic levels.
+                    8.240   (75.8% logic, 24.2% route), 6 logic levels.
 
-Report:  113.045MHz is the maximum frequency for this preference.
+Report:  124.891MHz is the maximum frequency for this preference.
 
 
 ================================================================================
@@ -229,21 +227,21 @@ Passed: The following path meets requirements by 16.712ns
 
  Constraint Details:
 
-      3.521ns physical path delay u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/SLICE_6283 to u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/SLICE_2226 meets
+      3.521ns physical path delay u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/SLICE_6759 to u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/SLICE_2226 meets
      20.000ns delay constraint less
      -0.233ns DIN_SET requirement (totaling 20.233ns) by 16.712ns
 
  Physical Path Details:
 
-      Data path u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/SLICE_6283 to u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/SLICE_2226:
+      Data path u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/SLICE_6759 to u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/SLICE_2226:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.457 *LICE_6283.CLK to *SLICE_6283.Q0 u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/SLICE_6283 (from u_eth_top.w_ethphy_refclk_90)
-ROUTE         1   e 0.497 *SLICE_6283.Q0 to *LICE_10797.D0 u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/w_gcount_r21
-CTOF_DEL    ---     0.206 *LICE_10797.D0 to *LICE_10797.F0 u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/SLICE_10797
-ROUTE         2   e 0.497 *LICE_10797.F0 to *SLICE_9940.A1 u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/w_g2b_xor_cluster_2
-CTOF_DEL    ---     0.206 *SLICE_9940.A1 to *SLICE_9940.F1 u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/SLICE_9940
-ROUTE         1   e 0.497 *SLICE_9940.F1 to *SLICE_2219.B1 u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/wcount_r1
+REG_DEL     ---     0.457 *LICE_6759.CLK to *SLICE_6759.Q0 u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/SLICE_6759 (from u_eth_top.w_ethphy_refclk_90)
+ROUTE         1   e 0.497 *SLICE_6759.Q0 to *LICE_11298.D0 u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/w_gcount_r21
+CTOF_DEL    ---     0.206 *LICE_11298.D0 to *LICE_11298.F0 u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/SLICE_11298
+ROUTE         2   e 0.497 *LICE_11298.F0 to *LICE_10387.A1 u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/w_g2b_xor_cluster_2
+CTOF_DEL    ---     0.206 *LICE_10387.A1 to *LICE_10387.F1 u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/SLICE_10387
+ROUTE         1   e 0.497 *LICE_10387.F1 to *SLICE_2219.B1 u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/wcount_r1
 C1TOFCO_DE  ---     0.398 *SLICE_2219.B1 to *LICE_2219.FCO u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/SLICE_2219
 ROUTE         1   e 0.001 *LICE_2219.FCO to *LICE_2220.FCI u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/co0_2
 FCITOFCO_D  ---     0.062 *LICE_2220.FCI to *LICE_2220.FCO u_eth_top/u_rmii_top/u_rmii_tx/u_dcfifo_rmiitx_4096x2/SLICE_2220
@@ -293,21 +291,21 @@ Passed: The following path meets requirements by 17.279ns
 
  Constraint Details:
 
-      2.954ns physical path delay u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/SLICE_6223 to u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/SLICE_2253 meets
+      2.954ns physical path delay u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/SLICE_6699 to u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/SLICE_2253 meets
      20.000ns delay constraint less
      -0.233ns DIN_SET requirement (totaling 20.233ns) by 17.279ns
 
  Physical Path Details:
 
-      Data path u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/SLICE_6223 to u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/SLICE_2253:
+      Data path u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/SLICE_6699 to u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/SLICE_2253:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.457 *LICE_6223.CLK to *SLICE_6223.Q0 u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/SLICE_6223 (from i_ethphy_refclk_c)
-ROUTE         3   e 0.497 *SLICE_6223.Q0 to *SLICE_9951.B0 u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/r_gcount_w24
-CTOF_DEL    ---     0.206 *SLICE_9951.B0 to *SLICE_9951.F0 u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/SLICE_9951
-ROUTE         2   e 0.182 *SLICE_9951.F0 to *SLICE_9951.A1 u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/rcount_w4
-CTOF_DEL    ---     0.206 *SLICE_9951.A1 to *SLICE_9951.F1 u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/SLICE_9951
-ROUTE         1   e 0.497 *SLICE_9951.F1 to *SLICE_2250.B1 u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/rcount_w1
+REG_DEL     ---     0.457 *LICE_6699.CLK to *SLICE_6699.Q0 u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/SLICE_6699 (from i_ethphy_refclk_c)
+ROUTE         3   e 0.497 *SLICE_6699.Q0 to *LICE_10398.B0 u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/r_gcount_w24
+CTOF_DEL    ---     0.206 *LICE_10398.B0 to *LICE_10398.F0 u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/SLICE_10398
+ROUTE         2   e 0.182 *LICE_10398.F0 to *LICE_10398.A1 u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/rcount_w4
+CTOF_DEL    ---     0.206 *LICE_10398.A1 to *LICE_10398.F1 u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/SLICE_10398
+ROUTE         1   e 0.497 *LICE_10398.F1 to *SLICE_2250.B1 u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/rcount_w1
 C1TOFCO_DE  ---     0.398 *SLICE_2250.B1 to *LICE_2250.FCO u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/SLICE_2250
 ROUTE         1   e 0.001 *LICE_2250.FCO to *LICE_2251.FCI u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/co0_3
 FCITOFCO_D  ---     0.062 *LICE_2251.FCI to *LICE_2251.FCO u_eth_top/u_rmii_top/u_rmii_rx/u_dcfifo_rmiirx_36x2/SLICE_2251
@@ -351,23 +349,23 @@ Passed: The following path meets requirements by 7.520ns
 
  Constraint Details:
 
-      2.713ns physical path delay u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_3915 to u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_3917 meets
+      2.713ns physical path delay u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_4386 to u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_4388 meets
      10.000ns delay constraint less
      -0.233ns DIN_SET requirement (totaling 10.233ns) by 7.520ns
 
  Physical Path Details:
 
-      Data path u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_3915 to u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_3917:
+      Data path u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_4386 to u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_4388:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.457 *LICE_3915.CLK to *SLICE_3915.Q0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_3915 (from u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos)
-ROUTE         7   e 0.497 *SLICE_3915.Q0 to *LICE_12657.A0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/cs_memsync[3]
-CTOF_DEL    ---     0.206 *LICE_12657.A0 to *LICE_12657.F0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_12657
-ROUTE         2   e 0.497 *LICE_12657.F0 to *SLICE_9080.B0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/N_30
-CTOF_DEL    ---     0.206 *SLICE_9080.B0 to *SLICE_9080.F0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_9080
-ROUTE         3   e 0.497 *SLICE_9080.F0 to *SLICE_3917.A1 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/N_4
-CTOOFX_DEL  ---     0.352 *SLICE_3917.A1 to *ICE_3917.OFX0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_3917
-ROUTE         1   e 0.001 *ICE_3917.OFX0 to *LICE_3917.DI0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/N_55_i (to u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos)
+REG_DEL     ---     0.457 *LICE_4386.CLK to *SLICE_4386.Q0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_4386 (from u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos)
+ROUTE         7   e 0.497 *SLICE_4386.Q0 to *LICE_13153.A0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/cs_memsync[3]
+CTOF_DEL    ---     0.206 *LICE_13153.A0 to *LICE_13153.F0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_13153
+ROUTE         2   e 0.497 *LICE_13153.F0 to *SLICE_9429.B0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/N_30
+CTOF_DEL    ---     0.206 *SLICE_9429.B0 to *SLICE_9429.F0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_9429
+ROUTE         3   e 0.497 *SLICE_9429.F0 to *SLICE_4388.A1 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/N_4
+CTOOFX_DEL  ---     0.352 *SLICE_4388.A1 to *ICE_4388.OFX0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_4388
+ROUTE         1   e 0.001 *ICE_4388.OFX0 to *LICE_4388.DI0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/N_55_i (to u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos)
                   --------
                     2.713   (45.0% logic, 55.0% route), 4 logic levels.
 
@@ -488,50 +486,48 @@ Preference: FREQUENCY NET "w_pll_50m" 50.000000 MHz ;
 --------------------------------------------------------------------------------
 
 
-Passed: The following path meets requirements by 4.507ns (weighted slack = 9.014ns)
+Passed: The following path meets requirements by 4.895ns (weighted slack = 9.790ns)
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor2[12]  (from w_pll_100m +)
-   Destination:    FF         Data in        u_motor_control/u2_motor_drive/u_divider1/r_count[4]  (to w_pll_50m +)
+   Source:         FF         Q              u_eth_top/u_udpcom_control/u_parameter_init/r_freq_motor1[8]  (from w_pll_100m +)
+   Destination:    FF         Data in        u_motor_control/u1_motor_drive/u_divider1/r_count[4]  (to w_pll_50m +)
 
-   Delay:               5.729ns  (44.7% logic, 55.3% route), 10 logic levels.
+   Delay:               5.341ns  (44.1% logic, 55.9% route), 9 logic levels.
 
  Constraint Details:
 
-      5.729ns physical path delay u_eth_top/u_udpcom_control/u_parameter_init/SLICE_8409 to u_motor_control/u2_motor_drive/u_divider1/SLICE_828 meets
+      5.341ns physical path delay u_eth_top/u_udpcom_control/u_parameter_init/SLICE_8751 to u_motor_control/u1_motor_drive/u_divider1/SLICE_968 meets
      10.000ns delay constraint less
-     -0.236ns DIN_SET requirement (totaling 10.236ns) by 4.507ns
+     -0.236ns DIN_SET requirement (totaling 10.236ns) by 4.895ns
 
  Physical Path Details:
 
-      Data path u_eth_top/u_udpcom_control/u_parameter_init/SLICE_8409 to u_motor_control/u2_motor_drive/u_divider1/SLICE_828:
+      Data path u_eth_top/u_udpcom_control/u_parameter_init/SLICE_8751 to u_motor_control/u1_motor_drive/u_divider1/SLICE_968:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.457 *LICE_8409.CLK to *SLICE_8409.Q0 u_eth_top/u_udpcom_control/u_parameter_init/SLICE_8409 (from w_pll_100m)
-ROUTE         7   e 0.497 *SLICE_8409.Q0 to *LICE_10963.C0 w_freq_motor2[12]
-CTOF_DEL    ---     0.206 *LICE_10963.C0 to *LICE_10963.F0 u_motor_control/u2_motor_drive/SLICE_10963
-ROUTE         1   e 0.497 *LICE_10963.F0 to *SLICE_9305.B1 u_motor_control/u2_motor_drive/r1_clkcnt_hignnum_3_0_f0_0_0_o2_5[6]
-CTOF_DEL    ---     0.206 *SLICE_9305.B1 to *SLICE_9305.F1 u_motor_control/u2_motor_drive/SLICE_9305
-ROUTE         7   e 0.497 *SLICE_9305.F1 to *SLICE_9306.B0 u_motor_control/u2_motor_drive/N_614
-CTOF_DEL    ---     0.206 *SLICE_9306.B0 to *SLICE_9306.F0 u_motor_control/u2_motor_drive/SLICE_9306
-ROUTE         2   e 0.182 *SLICE_9306.F0 to *SLICE_9306.A1 u_motor_control/u2_motor_drive/N_617
-CTOF_DEL    ---     0.206 *SLICE_9306.A1 to *SLICE_9306.F1 u_motor_control/u2_motor_drive/SLICE_9306
-ROUTE         6   e 0.497 *SLICE_9306.F1 to *SLICE_9300.A1 u_motor_control/u2_motor_drive/N_357
-CTOF_DEL    ---     0.206 *SLICE_9300.A1 to *SLICE_9300.F1 u_motor_control/u2_motor_drive/u_divider1/SLICE_9300
-ROUTE         4   e 0.497 *SLICE_9300.F1 to *LICE_10426.A0 u_motor_control/u2_motor_drive/u_divider1/N_365
-CTOF_DEL    ---     0.206 *LICE_10426.A0 to *LICE_10426.F0 u_motor_control/u2_motor_drive/u_divider1/SLICE_10426
-ROUTE         5   e 0.497 *LICE_10426.F0 to */SLICE_826.B1 u_motor_control/u2_motor_drive/u_divider1/r_state_1_sqmuxa_0_a2_i_0
-C1TOFCO_DE  ---     0.398 */SLICE_826.B1 to *SLICE_826.FCO u_motor_control/u2_motor_drive/u_divider1/SLICE_826
-ROUTE         1   e 0.001 *SLICE_826.FCO to *SLICE_827.FCI u_motor_control/u2_motor_drive/u_divider1/r_count_cry[0]
-FCITOFCO_D  ---     0.062 *SLICE_827.FCI to *SLICE_827.FCO u_motor_control/u2_motor_drive/u_divider1/SLICE_827
-ROUTE         1   e 0.001 *SLICE_827.FCO to *SLICE_828.FCI u_motor_control/u2_motor_drive/u_divider1/r_count_cry[2]
-FCITOF1_DE  ---     0.409 *SLICE_828.FCI to */SLICE_828.F1 u_motor_control/u2_motor_drive/u_divider1/SLICE_828
-ROUTE         1   e 0.001 */SLICE_828.F1 to *SLICE_828.DI1 u_motor_control/u2_motor_drive/u_divider1/r_count_s[4] (to w_pll_50m)
+REG_DEL     ---     0.457 *LICE_8751.CLK to *SLICE_8751.Q0 u_eth_top/u_udpcom_control/u_parameter_init/SLICE_8751 (from w_pll_100m)
+ROUTE         7   e 0.497 *SLICE_8751.Q0 to *LICE_11451.A1 w_freq_motor1[8]
+CTOF_DEL    ---     0.206 *LICE_11451.A1 to *LICE_11451.F1 u_motor_control/u1_motor_drive/SLICE_11451
+ROUTE         1   e 0.497 *LICE_11451.F1 to *SLICE_9726.A1 u_motor_control/u1_motor_drive/r1_clkcnt_hignnum_3_0_f0_0_0_o2_4[6]
+CTOF_DEL    ---     0.206 *SLICE_9726.A1 to *SLICE_9726.F1 u_motor_control/u1_motor_drive/SLICE_9726
+ROUTE        10   e 0.497 *SLICE_9726.F1 to *SLICE_9734.A1 u_motor_control/u1_motor_drive/N_614
+CTOF_DEL    ---     0.206 *SLICE_9734.A1 to *SLICE_9734.F1 u_motor_control/u1_motor_drive/SLICE_9734
+ROUTE         7   e 0.497 *SLICE_9734.F1 to *SLICE_9722.A1 u_motor_control/u1_motor_drive/N_357
+CTOF_DEL    ---     0.206 *SLICE_9722.A1 to *SLICE_9722.F1 u_motor_control/u1_motor_drive/u_divider1/SLICE_9722
+ROUTE         4   e 0.497 *SLICE_9722.F1 to *LICE_10921.A0 u_motor_control/u1_motor_drive/u_divider1/N_365
+CTOF_DEL    ---     0.206 *LICE_10921.A0 to *LICE_10921.F0 u_motor_control/u1_motor_drive/u_divider1/SLICE_10921
+ROUTE         5   e 0.497 *LICE_10921.F0 to */SLICE_966.B1 u_motor_control/u1_motor_drive/u_divider1/r_state_1_sqmuxa_0_a2_i
+C1TOFCO_DE  ---     0.398 */SLICE_966.B1 to *SLICE_966.FCO u_motor_control/u1_motor_drive/u_divider1/SLICE_966
+ROUTE         1   e 0.001 *SLICE_966.FCO to *SLICE_967.FCI u_motor_control/u1_motor_drive/u_divider1/r_count_cry[0]
+FCITOFCO_D  ---     0.062 *SLICE_967.FCI to *SLICE_967.FCO u_motor_control/u1_motor_drive/u_divider1/SLICE_967
+ROUTE         1   e 0.001 *SLICE_967.FCO to *SLICE_968.FCI u_motor_control/u1_motor_drive/u_divider1/r_count_cry[2]
+FCITOF1_DE  ---     0.409 *SLICE_968.FCI to */SLICE_968.F1 u_motor_control/u1_motor_drive/u_divider1/SLICE_968
+ROUTE         1   e 0.001 */SLICE_968.F1 to *SLICE_968.DI1 u_motor_control/u1_motor_drive/u_divider1/r_count_s[4] (to w_pll_50m)
                   --------
-                    5.729   (44.7% logic, 55.3% route), 10 logic levels.
+                    5.341   (44.1% logic, 55.9% route), 9 logic levels.
 
-Report:   91.025MHz is the maximum frequency for this preference.
+Report:   97.943MHz is the maximum frequency for this preference.
 
 
 ================================================================================
@@ -550,10 +546,10 @@ Blocked:
    Delay:               1.657ns  (40.0% logic, 60.0% route), 2 logic levels.
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.457 *LICE_3915.CLK to *SLICE_3915.Q0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_3915 (from u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos)
-ROUTE         7   e 0.497 *SLICE_3915.Q0 to *LICE_12659.A0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/cs_memsync[3]
-CTOF_DEL    ---     0.206 *LICE_12659.A0 to *LICE_12659.F0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_12659
-ROUTE        47   e 0.497 *LICE_12659.F0 to *1_CLKDIVF.RST u_ddr3/ddr3_ipcore_inst/ddr_rst (to u_ddr3/ddr3_ipcore_inst/eclk)
+REG_DEL     ---     0.457 *LICE_4386.CLK to *SLICE_4386.Q0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_4386 (from u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos)
+ROUTE         7   e 0.497 *SLICE_4386.Q0 to *LICE_13155.A0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/cs_memsync[3]
+CTOF_DEL    ---     0.206 *LICE_13155.A0 to *LICE_13155.F0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_13155
+ROUTE        47   e 0.497 *LICE_13155.F0 to *1_CLKDIVF.RST u_ddr3/ddr3_ipcore_inst/ddr_rst (to u_ddr3/ddr3_ipcore_inst/eclk)
                   --------
                     1.657   (40.0% logic, 60.0% route), 2 logic levels.
 
@@ -574,10 +570,10 @@ Blocked:
    Delay:               1.161ns  (57.1% logic, 42.9% route), 2 logic levels.
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.457 *LICE_3919.CLK to *SLICE_3919.Q0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_3919 (from u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos)
-ROUTE        12   e 0.497 *SLICE_3919.Q0 to *SLICE_4994.B0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/mem_sync_pause
-CTOF_DEL    ---     0.206 *SLICE_4994.B0 to *SLICE_4994.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_4994
-ROUTE         1   e 0.001 *SLICE_4994.F0 to *LICE_4994.DI0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/dqsbufd_pause_2 (to w_sclk)
+REG_DEL     ---     0.457 *LICE_4390.CLK to *SLICE_4390.Q0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_4390 (from u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos)
+ROUTE        12   e 0.497 *SLICE_4390.Q0 to *SLICE_5465.B0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/mem_sync_pause
+CTOF_DEL    ---     0.206 *SLICE_5465.B0 to *SLICE_5465.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_5465
+ROUTE         1   e 0.001 *SLICE_5465.F0 to *LICE_5465.DI0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/dqsbufd_pause_2 (to w_sclk)
                   --------
                     1.161   (57.1% logic, 42.9% route), 2 logic levels.
 
@@ -591,7 +587,7 @@ Report:    0.497ns delay on u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram
            4.500ns delay constraint by 4.003ns
 
            Delays             Connection(s)
-         e 0.497ns em_ddr_data[6]_MGIOL.RXDATA3 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_4873.M1
+         e 0.497ns em_ddr_data[6]_MGIOL.RXDATA3 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_5344.M1
 
 Report:    0.497ns is the maximum delay for this preference.
 
@@ -605,7 +601,7 @@ Report:    0.497ns delay on u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram
            4.400ns delay constraint by 3.903ns
 
            Delays             Connection(s)
-         e 0.497ns u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.DATAVALID to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_4844.M0
+         e 0.497ns u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.DATAVALID to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_5315.M0
 
 Report:    0.497ns is the maximum delay for this preference.
 
@@ -627,17 +623,17 @@ Passed: The following path meets requirements by 3.356ns
 
  Constraint Details:
 
-      0.954ns physical path delay u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_4957 to em_ddr_data[0]_MGIOL meets
+      0.954ns physical path delay u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_5428 to em_ddr_data[0]_MGIOL meets
       4.500ns delay constraint less
       0.190ns DO_SET requirement (totaling 4.310ns) by 3.356ns
 
  Physical Path Details:
 
-      Data path u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_4957 to em_ddr_data[0]_MGIOL:
+      Data path u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_5428 to em_ddr_data[0]_MGIOL:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.457 *LICE_4957.CLK to *SLICE_4957.Q0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_4957 (from w_sclk)
-ROUTE        16   e 0.497 *SLICE_4957.Q0 to *MGIOL.TSDATA1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/ddr3_wr_data_val_in[0] (to w_sclk)
+REG_DEL     ---     0.457 *LICE_5428.CLK to *SLICE_5428.Q0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_5428 (from w_sclk)
+ROUTE        16   e 0.497 *SLICE_5428.Q0 to *MGIOL.TSDATA1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/ddr3_wr_data_val_in[0] (to w_sclk)
                   --------
                     0.954   (47.9% logic, 52.1% route), 1 logic levels.
 
@@ -661,19 +657,19 @@ Passed: The following path meets requirements by 2.741ns
 
  Constraint Details:
 
-      1.657ns physical path delay u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_4856 to em_ddr_dqs[0]_MGIOL meets
+      1.657ns physical path delay u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_5327 to em_ddr_dqs[0]_MGIOL meets
       4.500ns delay constraint less
       0.102ns DO_SET requirement (totaling 4.398ns) by 2.741ns
 
  Physical Path Details:
 
-      Data path u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_4856 to em_ddr_dqs[0]_MGIOL:
+      Data path u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_5327 to em_ddr_dqs[0]_MGIOL:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.457 *LICE_4856.CLK to *SLICE_4856.Q0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_4856 (from w_sclk)
-ROUTE         2   e 0.497 *SLICE_4856.Q0 to *LICE_12601.C0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/ddr3_dqsout_in[0]
-CTOF_DEL    ---     0.206 *LICE_12601.C0 to *LICE_12601.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/SLICE_12601
-ROUTE         1   e 0.497 *LICE_12601.F0 to *MGIOL.TXDATA1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/ddr3_dqsout_db0a_int (to w_sclk)
+REG_DEL     ---     0.457 *LICE_5327.CLK to *SLICE_5327.Q0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_5327 (from w_sclk)
+ROUTE         2   e 0.497 *SLICE_5327.Q0 to *LICE_13097.C0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/ddr3_dqsout_in[0]
+CTOF_DEL    ---     0.206 *LICE_13097.C0 to *LICE_13097.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/SLICE_13097
+ROUTE         1   e 0.497 *LICE_13097.F0 to *MGIOL.TXDATA1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/ddr3_dqsout_db0a_int (to w_sclk)
                   --------
                     1.657   (40.0% logic, 60.0% route), 2 logic levels.
 
@@ -689,7 +685,7 @@ Report:    0.497ns delay on u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram
            4.500ns delay constraint by 4.003ns
 
            Delays             Connection(s)
-         e 0.497ns u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.BURSTDET to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/read_training_0/SLICE_5072.M0
+         e 0.497ns u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.BURSTDET to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/read_training_0/SLICE_5543.M0
 
 Report:    0.497ns is the maximum delay for this preference.
 
@@ -703,7 +699,7 @@ Report:    0.497ns delay on u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram
            4.500ns delay constraint by 4.003ns
 
            Delays             Connection(s)
-         e 0.497ns u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/read_training_0/genblk1.u1[0].store_rdclksel/SLICE_5119.Q0 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.READCLKSEL0
+         e 0.497ns u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/read_training_0/genblk1.u1[0].store_rdclksel/SLICE_5590.Q0 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.READCLKSEL0
 
 Report:    0.497ns is the maximum delay for this preference.
 
@@ -717,7 +713,7 @@ Report:    0.497ns delay on u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram
            4.500ns delay constraint by 4.003ns
 
            Delays             Connection(s)
-         e 0.497ns u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/read_training_0/genblk1.u1[0].store_rdclksel/SLICE_5110.Q0 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.READ0
+         e 0.497ns u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/read_training_0/genblk1.u1[0].store_rdclksel/SLICE_5581.Q0 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.READ0
 
 Report:    0.497ns is the maximum delay for this preference.
 
@@ -731,8 +727,8 @@ Report:    0.497ns delay on u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram
            4.500ns delay constraint by 4.003ns
 
            Delays             Connection(s)
-         e 0.497ns u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_4994.Q0 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.PAUSE
-         e 0.497ns u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_4994.Q0 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[1].bidi_dqs/inst_dqsbuf.PAUSE
+         e 0.497ns u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_5465.Q0 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.PAUSE
+         e 0.497ns u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_5465.Q0 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[1].bidi_dqs/inst_dqsbuf.PAUSE
 
 Report:    0.497ns is the maximum delay for this preference.
 
@@ -746,7 +742,7 @@ Report:    0.497ns delay on u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram
            4.500ns delay constraint by 4.003ns
 
            Delays             Connection(s)
-         e 0.497ns u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_5170.Q0 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.DYNDELAY0
+         e 0.497ns u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_5641.Q0 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.DYNDELAY0
 
 Report:    0.497ns is the maximum delay for this preference.
 
@@ -852,7 +848,7 @@ ROUTE         2   e 0.182 *LInst_0.CLKOP to *LInst_0.CLKFB u_ddr3/ddr3_ipcore_in
 
 ================================================================================
 Internal Preference: FREQUENCY NET "w_iddr_sclk2" 150.000000 MHz ;
-            1936 items scored, 0 timing errors detected.
+            1947 items scored, 0 timing errors detected.
 --------------------------------------------------------------------------------
 
 
@@ -860,34 +856,34 @@ Passed: The following path meets requirements by 2.927ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              u_mpt2042_top/u2_lvds_dec/r_lvds_datain_buf[4]  (from w_iddr_sclk2 +)
+   Source:         FF         Q              u_mpt2042_top/u2_lvds_dec/r_lvds_datain_buf[2]  (from w_iddr_sclk2 +)
    Destination:    FF         Data in        u_mpt2042_top/u2_lvds_dec/r_comma_syncerr  (to w_iddr_sclk2 +)
 
    Delay:               3.973ns  (37.4% logic, 62.6% route), 6 logic levels.
 
  Constraint Details:
 
-      3.973ns physical path delay u_mpt2042_top/u2_lvds_dec/SLICE_7595 to u_mpt2042_top/u2_lvds_dec/SLICE_7576 meets
+      3.973ns physical path delay u_mpt2042_top/u2_lvds_dec/SLICE_8024 to u_mpt2042_top/u2_lvds_dec/SLICE_8006 meets
       6.667ns delay constraint less
      -0.233ns DIN_SET requirement (totaling 6.900ns) by 2.927ns
 
  Physical Path Details:
 
-      Data path u_mpt2042_top/u2_lvds_dec/SLICE_7595 to u_mpt2042_top/u2_lvds_dec/SLICE_7576:
+      Data path u_mpt2042_top/u2_lvds_dec/SLICE_8024 to u_mpt2042_top/u2_lvds_dec/SLICE_8006:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.457 *LICE_7595.CLK to *SLICE_7595.Q0 u_mpt2042_top/u2_lvds_dec/SLICE_7595 (from w_iddr_sclk2)
-ROUTE         5   e 0.497 *SLICE_7595.Q0 to *LICE_10419.B1 u_mpt2042_top/u2_lvds_dec/r_lvds_datain_buf[4]
-CTOF_DEL    ---     0.206 *LICE_10419.B1 to *LICE_10419.F1 u_mpt2042_top/u2_lvds_dec/SLICE_10419
-ROUTE         1   e 0.497 *LICE_10419.F1 to *SLICE_9185.D0 u_mpt2042_top/u2_lvds_dec/un1_r_lvds_datain_buf_1_13
-CTOF_DEL    ---     0.206 *SLICE_9185.D0 to *SLICE_9185.F0 u_mpt2042_top/u2_lvds_dec/SLICE_9185
-ROUTE         1   e 0.497 *SLICE_9185.F0 to *SLICE_9181.D0 u_mpt2042_top/u2_lvds_dec/un1_r_lvds_datain_buf_1_16
-CTOF_DEL    ---     0.206 *SLICE_9181.D0 to *SLICE_9181.F0 u_mpt2042_top/u2_lvds_dec/SLICE_9181
-ROUTE         1   e 0.497 *SLICE_9181.F0 to *SLICE_7590.A1 u_mpt2042_top/u2_lvds_dec/un1_r_lvds_datain_buf_1
-CTOF_DEL    ---     0.206 *SLICE_7590.A1 to *SLICE_7590.F1 u_mpt2042_top/u2_lvds_dec/SLICE_7590
-ROUTE         2   e 0.497 *SLICE_7590.F1 to *SLICE_7576.B0 u_mpt2042_top/u2_lvds_dec/r_comma_syncerr10
-CTOF_DEL    ---     0.206 *SLICE_7576.B0 to *SLICE_7576.F0 u_mpt2042_top/u2_lvds_dec/SLICE_7576
-ROUTE         1   e 0.001 *SLICE_7576.F0 to *LICE_7576.DI0 u_mpt2042_top/u2_lvds_dec/r_comma_syncerr_1_sqmuxa (to w_iddr_sclk2)
+REG_DEL     ---     0.457 *LICE_8024.CLK to *SLICE_8024.Q0 u_mpt2042_top/u2_lvds_dec/SLICE_8024 (from w_iddr_sclk2)
+ROUTE         5   e 0.497 *SLICE_8024.Q0 to *LICE_11742.A0 u_mpt2042_top/u2_lvds_dec/r_lvds_datain_buf[2]
+CTOF_DEL    ---     0.206 *LICE_11742.A0 to *LICE_11742.F0 u_mpt2042_top/u2_lvds_dec/SLICE_11742
+ROUTE         1   e 0.497 *LICE_11742.F0 to *SLICE_9552.D0 u_mpt2042_top/u2_lvds_dec/un1_r_lvds_datain_buf_2_13
+CTOF_DEL    ---     0.206 *SLICE_9552.D0 to *SLICE_9552.F0 u_mpt2042_top/u2_lvds_dec/SLICE_9552
+ROUTE         1   e 0.497 *SLICE_9552.F0 to *SLICE_9548.D0 u_mpt2042_top/u2_lvds_dec/un1_r_lvds_datain_buf_2_16
+CTOF_DEL    ---     0.206 *SLICE_9548.D0 to *SLICE_9548.F0 u_mpt2042_top/u2_lvds_dec/SLICE_9548
+ROUTE         1   e 0.497 *SLICE_9548.F0 to *SLICE_8020.D1 u_mpt2042_top/u2_lvds_dec/un1_r_lvds_datain_buf_2
+CTOF_DEL    ---     0.206 *SLICE_8020.D1 to *SLICE_8020.F1 u_mpt2042_top/u2_lvds_dec/SLICE_8020
+ROUTE         2   e 0.497 *SLICE_8020.F1 to *SLICE_8006.B0 u_mpt2042_top/u2_lvds_dec/r_comma_syncerr10
+CTOF_DEL    ---     0.206 *SLICE_8006.B0 to *SLICE_8006.F0 u_mpt2042_top/u2_lvds_dec/SLICE_8006
+ROUTE         1   e 0.001 *SLICE_8006.F0 to *LICE_8006.DI0 u_mpt2042_top/u2_lvds_dec/r_comma_syncerr_1_sqmuxa (to w_iddr_sclk2)
                   --------
                     3.973   (37.4% logic, 62.6% route), 6 logic levels.
 
@@ -896,7 +892,7 @@ Report:  267.380MHz is the maximum frequency for this preference.
 
 ================================================================================
 Internal Preference: FREQUENCY NET "w_iddr_sclk1" 150.000000 MHz ;
-            2019 items scored, 0 timing errors detected.
+            1997 items scored, 0 timing errors detected.
 --------------------------------------------------------------------------------
 
 
@@ -911,27 +907,27 @@ Passed: The following path meets requirements by 2.927ns
 
  Constraint Details:
 
-      3.973ns physical path delay u_mpt2042_top/u1_lvds_dec/SLICE_7433 to u_mpt2042_top/u1_lvds_dec/SLICE_7415 meets
+      3.973ns physical path delay u_mpt2042_top/u1_lvds_dec/SLICE_7904 to u_mpt2042_top/u1_lvds_dec/SLICE_7886 meets
       6.667ns delay constraint less
      -0.233ns DIN_SET requirement (totaling 6.900ns) by 2.927ns
 
  Physical Path Details:
 
-      Data path u_mpt2042_top/u1_lvds_dec/SLICE_7433 to u_mpt2042_top/u1_lvds_dec/SLICE_7415:
+      Data path u_mpt2042_top/u1_lvds_dec/SLICE_7904 to u_mpt2042_top/u1_lvds_dec/SLICE_7886:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.457 *LICE_7433.CLK to *SLICE_7433.Q0 u_mpt2042_top/u1_lvds_dec/SLICE_7433 (from w_iddr_sclk1)
-ROUTE         5   e 0.497 *SLICE_7433.Q0 to *LICE_11253.A0 u_mpt2042_top/u1_lvds_dec/r_lvds_datain_buf[2]
-CTOF_DEL    ---     0.206 *LICE_11253.A0 to *LICE_11253.F0 u_mpt2042_top/u1_lvds_dec/SLICE_11253
-ROUTE         1   e 0.497 *LICE_11253.F0 to *SLICE_9219.D0 u_mpt2042_top/u1_lvds_dec/un1_r_lvds_datain_buf_1_13
-CTOF_DEL    ---     0.206 *SLICE_9219.D0 to *SLICE_9219.F0 u_mpt2042_top/u1_lvds_dec/SLICE_9219
-ROUTE         1   e 0.497 *SLICE_9219.F0 to *SLICE_9214.D0 u_mpt2042_top/u1_lvds_dec/un1_r_lvds_datain_buf_1_16
-CTOF_DEL    ---     0.206 *SLICE_9214.D0 to *SLICE_9214.F0 u_mpt2042_top/u1_lvds_dec/SLICE_9214
-ROUTE         1   e 0.497 *SLICE_9214.F0 to *SLICE_7429.A1 u_mpt2042_top/u1_lvds_dec/un1_r_lvds_datain_buf_1
-CTOF_DEL    ---     0.206 *SLICE_7429.A1 to *SLICE_7429.F1 u_mpt2042_top/u1_lvds_dec/SLICE_7429
-ROUTE         2   e 0.497 *SLICE_7429.F1 to *SLICE_7415.A0 u_mpt2042_top/u1_lvds_dec/r_comma_syncerr10
-CTOF_DEL    ---     0.206 *SLICE_7415.A0 to *SLICE_7415.F0 u_mpt2042_top/u1_lvds_dec/SLICE_7415
-ROUTE         1   e 0.001 *SLICE_7415.F0 to *LICE_7415.DI0 u_mpt2042_top/u1_lvds_dec/r_comma_syncerr_1_sqmuxa (to w_iddr_sclk1)
+REG_DEL     ---     0.457 *LICE_7904.CLK to *SLICE_7904.Q0 u_mpt2042_top/u1_lvds_dec/SLICE_7904 (from w_iddr_sclk1)
+ROUTE         5   e 0.497 *SLICE_7904.Q0 to *LICE_11781.A0 u_mpt2042_top/u1_lvds_dec/r_lvds_datain_buf[2]
+CTOF_DEL    ---     0.206 *LICE_11781.A0 to *LICE_11781.F0 u_mpt2042_top/u1_lvds_dec/SLICE_11781
+ROUTE         1   e 0.497 *LICE_11781.F0 to *SLICE_9603.D0 u_mpt2042_top/u1_lvds_dec/un1_r_lvds_datain_buf_2_13
+CTOF_DEL    ---     0.206 *SLICE_9603.D0 to *SLICE_9603.F0 u_mpt2042_top/u1_lvds_dec/SLICE_9603
+ROUTE         1   e 0.497 *SLICE_9603.F0 to *SLICE_9599.D0 u_mpt2042_top/u1_lvds_dec/un1_r_lvds_datain_buf_2_16
+CTOF_DEL    ---     0.206 *SLICE_9599.D0 to *SLICE_9599.F0 u_mpt2042_top/u1_lvds_dec/SLICE_9599
+ROUTE         1   e 0.497 *SLICE_9599.F0 to *SLICE_7900.D1 u_mpt2042_top/u1_lvds_dec/un1_r_lvds_datain_buf_2
+CTOF_DEL    ---     0.206 *SLICE_7900.D1 to *SLICE_7900.F1 u_mpt2042_top/u1_lvds_dec/SLICE_7900
+ROUTE         2   e 0.497 *SLICE_7900.F1 to *SLICE_7886.A0 u_mpt2042_top/u1_lvds_dec/r_comma_syncerr10
+CTOF_DEL    ---     0.206 *SLICE_7886.A0 to *SLICE_7886.F0 u_mpt2042_top/u1_lvds_dec/SLICE_7886
+ROUTE         1   e 0.001 *SLICE_7886.F0 to *LICE_7886.DI0 u_mpt2042_top/u1_lvds_dec/r_comma_syncerr_1_sqmuxa (to w_iddr_sclk1)
                   --------
                     3.973   (37.4% logic, 62.6% route), 6 logic levels.
 
@@ -955,41 +951,41 @@ Passed: The following path meets requirements by 11.969ns
 
  Constraint Details:
 
-      8.264ns physical path delay u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_4708 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_4744 meets
+      8.264ns physical path delay u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_5179 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_5215 meets
      20.000ns delay constraint less
      -0.233ns DIN_SET requirement (totaling 20.233ns) by 11.969ns
 
  Physical Path Details:
 
-      Data path u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_4708 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_4744:
+      Data path u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_5179 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_5215:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.457 *LICE_4708.CLK to *SLICE_4708.Q0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_4708 (from w_sclk)
-ROUTE         4   e 0.497 *SLICE_4708.Q0 to *LICE_10791.D1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0.queue2_info[35]
-CTOF_DEL    ---     0.206 *LICE_10791.D1 to *LICE_10791.F1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_10791
-ROUTE         1   e 0.497 *LICE_10791.F1 to *SLICE_9999.D1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/un2_same_cmd_NE_0
-CTOF_DEL    ---     0.206 *SLICE_9999.D1 to *SLICE_9999.F1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_9999
-ROUTE         1   e 0.182 *SLICE_9999.F1 to *SLICE_9999.C0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/un2_same_cmd_NE
-CTOF_DEL    ---     0.206 *SLICE_9999.C0 to *SLICE_9999.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_9999
-ROUTE         3   e 0.497 *SLICE_9999.F0 to *SLICE_9995.C1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/un1_cmd_valid_to_IP_buf
-CTOF_DEL    ---     0.206 *SLICE_9995.C1 to *SLICE_9995.F1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/SLICE_9995
-ROUTE         6   e 0.497 *SLICE_9995.F1 to *SLICE_4779.A0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/N_909
-CTOF_DEL    ---     0.206 *SLICE_4779.A0 to *SLICE_4779.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_4779
-ROUTE        48   e 0.497 *SLICE_4779.F0 to *LICE_12595.C0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/I_521.lat_e
-CTOF_DEL    ---     0.206 *LICE_12595.C0 to *LICE_12595.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/SLICE_12595
-ROUTE         2   e 0.497 *LICE_12595.F0 to *SLICE_9043.B0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/I_526.t1
-CTOF_DEL    ---     0.206 *SLICE_9043.B0 to *SLICE_9043.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/SLICE_9043
-ROUTE         2   e 0.497 *SLICE_9043.F0 to *SLICE_9041.D0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/un34_back2back_flag_2
-CTOF_DEL    ---     0.206 *SLICE_9041.D0 to *SLICE_9041.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/SLICE_9041
-ROUTE         1   e 0.497 *SLICE_9041.F0 to *LICE_10701.A0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/cut_in_line_release11_0_a2_13_1
-CTOF_DEL    ---     0.206 *LICE_10701.A0 to *LICE_10701.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_10701
-ROUTE         1   e 0.497 *LICE_10701.F0 to *SLICE_9997.B0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/cut_in_line_release11_0_a2_13_6
-CTOF_DEL    ---     0.206 *SLICE_9997.B0 to *SLICE_9997.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_9997
-ROUTE         1   e 0.497 *SLICE_9997.F0 to *SLICE_4744.C1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/cut_in_line_release11_0_a2_13_11
-CTOF_DEL    ---     0.206 *SLICE_4744.C1 to *SLICE_4744.F1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_4744
-ROUTE         1   e 0.182 *SLICE_4744.F1 to *SLICE_4744.C0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/cut_in_line_release11_tz
-CTOF_DEL    ---     0.206 *SLICE_4744.C0 to *SLICE_4744.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_4744
-ROUTE         1   e 0.001 *SLICE_4744.F0 to *LICE_4744.DI0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/cut_in_line_release11 (to w_sclk)
+REG_DEL     ---     0.457 *LICE_5179.CLK to *SLICE_5179.Q0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_5179 (from w_sclk)
+ROUTE         4   e 0.497 *SLICE_5179.Q0 to *LICE_11287.D1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0.queue2_info[35]
+CTOF_DEL    ---     0.206 *LICE_11287.D1 to *LICE_11287.F1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_11287
+ROUTE         1   e 0.497 *LICE_11287.F1 to *LICE_10444.D1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/un2_same_cmd_NE_0
+CTOF_DEL    ---     0.206 *LICE_10444.D1 to *LICE_10444.F1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_10444
+ROUTE         1   e 0.182 *LICE_10444.F1 to *LICE_10444.C0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/un2_same_cmd_NE
+CTOF_DEL    ---     0.206 *LICE_10444.C0 to *LICE_10444.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_10444
+ROUTE         3   e 0.497 *LICE_10444.F0 to *LICE_10440.C1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/un1_cmd_valid_to_IP_buf
+CTOF_DEL    ---     0.206 *LICE_10440.C1 to *LICE_10440.F1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/SLICE_10440
+ROUTE         6   e 0.497 *LICE_10440.F1 to *SLICE_5250.A0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/N_909
+CTOF_DEL    ---     0.206 *SLICE_5250.A0 to *SLICE_5250.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_5250
+ROUTE        48   e 0.497 *SLICE_5250.F0 to *LICE_13091.C0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/I_521.lat_e
+CTOF_DEL    ---     0.206 *LICE_13091.C0 to *LICE_13091.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/SLICE_13091
+ROUTE         2   e 0.497 *LICE_13091.F0 to *SLICE_9392.B0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/I_526.t1
+CTOF_DEL    ---     0.206 *SLICE_9392.B0 to *SLICE_9392.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/SLICE_9392
+ROUTE         2   e 0.497 *SLICE_9392.F0 to *SLICE_9390.D0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/un34_back2back_flag_2
+CTOF_DEL    ---     0.206 *SLICE_9390.D0 to *SLICE_9390.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/SLICE_9390
+ROUTE         1   e 0.497 *SLICE_9390.F0 to *LICE_11191.A0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/cut_in_line_release11_0_a2_13_1
+CTOF_DEL    ---     0.206 *LICE_11191.A0 to *LICE_11191.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_11191
+ROUTE         1   e 0.497 *LICE_11191.F0 to *LICE_10442.B0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/cut_in_line_release11_0_a2_13_6
+CTOF_DEL    ---     0.206 *LICE_10442.B0 to *LICE_10442.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_10442
+ROUTE         1   e 0.497 *LICE_10442.F0 to *SLICE_5215.C1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/cut_in_line_release11_0_a2_13_11
+CTOF_DEL    ---     0.206 *SLICE_5215.C1 to *SLICE_5215.F1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_5215
+ROUTE         1   e 0.182 *SLICE_5215.F1 to *SLICE_5215.C0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/cut_in_line_release11_tz
+CTOF_DEL    ---     0.206 *SLICE_5215.C0 to *SLICE_5215.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/SLICE_5215
+ROUTE         1   e 0.001 *SLICE_5215.F0 to *LICE_5215.DI0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/queue_ctrl_0/cut_in_line_release11 (to w_sclk)
                   --------
                     8.264   (35.4% logic, 64.6% route), 13 logic levels.
 
@@ -1008,7 +1004,7 @@ FREQUENCY NET "w_pll_150m" 150.000000   |             |             |
 MHz ;                                   |  150.000 MHz|  299.940 MHz|   5  
                                         |             |             |
 FREQUENCY NET "w_pll_100m" 100.000000   |             |             |
-MHz ;                                   |  100.000 MHz|  113.045 MHz|   7  
+MHz ;                                   |  100.000 MHz|  124.891 MHz|   6  
                                         |             |             |
 FREQUENCY NET                           |             |             |
 "u_eth_top.w_ethphy_refclk_90"          |             |             |
@@ -1049,7 +1045,7 @@ FREQUENCY PORT "i_tdc2_lvds_serclk"     |             |             |
 300.000000 MHz ;                        |  300.000 MHz|  400.000 MHz|   0  
                                         |             |             |
 FREQUENCY NET "w_pll_50m" 50.000000 MHz |             |             |
-;                                       |   50.000 MHz|   91.025 MHz|  10  
+;                                       |   50.000 MHz|   97.943 MHz|   9  
                                         |             |             |
 MAXDELAY NET                            |             |             |
 "*/U1_ddr3_sdram_phy/ddr3_read_data_out[|             |             |
@@ -1109,9 +1105,9 @@ Clock Domains Analysis
 Found 25 clocks:
 
 Clock Domain: w_sclk   Source: u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_CLKDIVF.CDIVX   Loads: 1677
-   Covered under: FREQUENCY NET "w_sclk" 50.000000 MHz ;
    Covered under: MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_wr_data_val_in[*]" 4.500000 ns ;
    Covered under: MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_dqsout_in[*]" 4.500000 ns ;
+   Covered under: FREQUENCY NET "w_sclk" 50.000000 MHz ;
 
    Data transfers from:
    Clock Domain: w_pll_100m   Source: u_pll/PLLInst_0.CLKOS
@@ -1149,7 +1145,7 @@ Clock Domain: w_pll_150m   Source: u_pll/PLLInst_0.CLKOS2   Loads: 58
    Clock Domain: i_clk_50m_c   Source: i_clk_50m.PAD
       Covered under: FREQUENCY NET "w_pll_150m" 150.000000 MHz ;   Transfers: 1
 
-Clock Domain: w_pll_100m   Source: u_pll/PLLInst_0.CLKOS   Loads: 3930
+Clock Domain: w_pll_100m   Source: u_pll/PLLInst_0.CLKOS   Loads: 4090
    Covered under: FREQUENCY NET "w_pll_100m" 100.000000 MHz ;
 
    Data transfers from:
@@ -1314,7 +1310,7 @@ Clock Domain: u1_iddr_tdc1/eclko   Source: u1_iddr_tdc1/Inst5_ECLKSYNCB.ECLKO   
 Clock Domain: u1_iddr_tdc1/eclki   Source: u1_iddr_tdc1/Inst3_DLLDELD.Z   Loads: 1
    No transfer within this clock domain is found
 
-Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK   Loads: 230
+Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK   Loads: 448
    No transfer within this clock domain is found
 
    Data transfers from:
@@ -1347,11 +1343,11 @@ Timing summary (Setup):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 2326355 paths, 122 nets, and 78053 connections (90.56% coverage)
+Constraints cover 2321782 paths, 122 nets, and 81836 connections (90.69% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.13.0.56.2
-Wed May 21 20:05:58 2025
+Thu May 29 16:36:23 2025
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1393,19 +1389,19 @@ Passed: The following path meets requirements by 0.177ns
 
  Constraint Details:
 
-      0.295ns physical path delay SLICE_2617 to SLICE_2617 meets
+      0.295ns physical path delay SLICE_2640 to SLICE_2640 meets
       0.118ns DIN_HLD and
       0.000ns delay constraint requirement (totaling 0.118ns) by 0.177ns
 
  Physical Path Details:
 
-      Data path SLICE_2617 to SLICE_2617:
+      Data path SLICE_2640 to SLICE_2640:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.161 SLICE_2617.CLK to  SLICE_2617.Q1 SLICE_2617 (from i_clk_50m_c)
-ROUTE         1   e 0.058  SLICE_2617.Q1 to  SLICE_2617.A1 r_rst_dlycnt[0]
-CTOF_DEL    ---     0.075  SLICE_2617.A1 to  SLICE_2617.F1 SLICE_2617
-ROUTE         1   e 0.001  SLICE_2617.F1 to SLICE_2617.DI1 un1_r_rst_dlycnt_4_cry_0_0_S1 (to i_clk_50m_c)
+REG_DEL     ---     0.161 SLICE_2640.CLK to  SLICE_2640.Q1 SLICE_2640 (from i_clk_50m_c)
+ROUTE         1   e 0.058  SLICE_2640.Q1 to  SLICE_2640.A1 r_rst_dlycnt[0]
+CTOF_DEL    ---     0.075  SLICE_2640.A1 to  SLICE_2640.F1 SLICE_2640
+ROUTE         1   e 0.001  SLICE_2640.F1 to SLICE_2640.DI1 un1_r_rst_dlycnt_4_cry_0_0_S1 (to i_clk_50m_c)
                   --------
                     0.295   (80.0% logic, 20.0% route), 2 logic levels.
 
@@ -1427,17 +1423,17 @@ Passed: The following path meets requirements by 0.103ns
 
  Constraint Details:
 
-      0.220ns physical path delay u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3190 to u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3190 meets
+      0.220ns physical path delay u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3661 to u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3661 meets
       0.117ns M_HLD and
       0.000ns delay constraint requirement (totaling 0.117ns) by 0.103ns
 
  Physical Path Details:
 
-      Data path u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3190 to u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3190:
+      Data path u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3661 to u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3661:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.162 *LICE_3190.CLK to *SLICE_3190.Q0 u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3190 (from w_pll_150m)
-ROUTE         1   e 0.058 *SLICE_3190.Q0 to *SLICE_3190.M1 u1_iddr_tdc1/Inst_rxdll_sync/dll_lock_q1 (to w_pll_150m)
+REG_DEL     ---     0.162 *LICE_3661.CLK to *SLICE_3661.Q0 u1_iddr_tdc1/Inst_rxdll_sync/SLICE_3661 (from w_pll_150m)
+ROUTE         1   e 0.058 *SLICE_3661.Q0 to *SLICE_3661.M1 u1_iddr_tdc1/Inst_rxdll_sync/dll_lock_q1 (to w_pll_150m)
                   --------
                     0.220   (73.6% logic, 26.4% route), 1 logic levels.
 
@@ -1459,17 +1455,17 @@ Error: The following path exceeds requirements by 1.059ns
 
  Constraint Details:
 
-      0.361ns physical path delay SLICE_3141 to u2_ddr3_interface/u2_ddr_round_robin/u0_udp2ddr/pdp_ram_0_0_2 exceeds
+      0.361ns physical path delay SLICE_3512 to u2_ddr3_interface/u2_ddr_round_robin/u0_udp2ddr/pdp_ram_0_0_2 exceeds
       1.420ns RST_HLD and
       0.000ns delay constraint requirement (totaling 1.420ns) by 1.059ns
 
  Physical Path Details:
 
-      Data path SLICE_3141 to u2_ddr3_interface/u2_ddr_round_robin/u0_udp2ddr/pdp_ram_0_0_2:
+      Data path SLICE_3512 to u2_ddr3_interface/u2_ddr_round_robin/u0_udp2ddr/pdp_ram_0_0_2:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.162 SLICE_3141.CLK to  SLICE_3141.Q0 SLICE_3141 (from i_clk_50m_c)
-ROUTE       999   e 0.199  SLICE_3141.Q0 to *ram_0_0_2.RST r_ddrrst_n (to w_pll_100m)
+REG_DEL     ---     0.162 SLICE_3512.CLK to  SLICE_3512.Q0 SLICE_3512 (from i_clk_50m_c)
+ROUTE       999   e 0.199  SLICE_3512.Q0 to *ram_0_0_2.RST r_ddrrst_n (to w_pll_100m)
                   --------
                     0.361   (44.9% logic, 55.1% route), 1 logic levels.
 
@@ -1571,17 +1567,17 @@ Passed: The following path meets requirements by 0.103ns
 
  Constraint Details:
 
-      0.220ns physical path delay u_ddr3/ddr3_ipcore_inst/U1_clocking/SLICE_3918 to u_ddr3/ddr3_ipcore_inst/U1_clocking/SLICE_3918 meets
+      0.220ns physical path delay u_ddr3/ddr3_ipcore_inst/U1_clocking/SLICE_4389 to u_ddr3/ddr3_ipcore_inst/U1_clocking/SLICE_4389 meets
       0.117ns M_HLD and
       0.000ns delay constraint requirement (totaling 0.117ns) by 0.103ns
 
  Physical Path Details:
 
-      Data path u_ddr3/ddr3_ipcore_inst/U1_clocking/SLICE_3918 to u_ddr3/ddr3_ipcore_inst/U1_clocking/SLICE_3918:
+      Data path u_ddr3/ddr3_ipcore_inst/U1_clocking/SLICE_4389 to u_ddr3/ddr3_ipcore_inst/U1_clocking/SLICE_4389:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.162 *LICE_3918.CLK to *SLICE_3918.Q0 u_ddr3/ddr3_ipcore_inst/U1_clocking/SLICE_3918 (from u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos)
-ROUTE         1   e 0.058 *SLICE_3918.Q0 to *SLICE_3918.M1 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/lock_d1 (to u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos)
+REG_DEL     ---     0.162 *LICE_4389.CLK to *SLICE_4389.Q0 u_ddr3/ddr3_ipcore_inst/U1_clocking/SLICE_4389 (from u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos)
+ROUTE         1   e 0.058 *SLICE_4389.Q0 to *SLICE_4389.M1 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/lock_d1 (to u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos)
                   --------
                     0.220   (73.6% logic, 26.4% route), 1 logic levels.
 
@@ -1639,17 +1635,17 @@ Passed: The following path meets requirements by 0.102ns
 
  Constraint Details:
 
-      0.219ns physical path delay u_motor_control/u1_motor_drive/SLICE_7082 to u_motor_control/u1_motor_drive/SLICE_7082 meets
+      0.219ns physical path delay u_motor_control/u1_motor_drive/SLICE_7554 to u_motor_control/u1_motor_drive/SLICE_7554 meets
       0.117ns M_HLD and
       0.000ns delay constraint requirement (totaling 0.117ns) by 0.102ns
 
  Physical Path Details:
 
-      Data path u_motor_control/u1_motor_drive/SLICE_7082 to u_motor_control/u1_motor_drive/SLICE_7082:
+      Data path u_motor_control/u1_motor_drive/SLICE_7554 to u_motor_control/u1_motor_drive/SLICE_7554:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.161 *LICE_7082.CLK to *SLICE_7082.Q1 u_motor_control/u1_motor_drive/SLICE_7082 (from w_pll_50m)
-ROUTE         4   e 0.058 *SLICE_7082.Q1 to *SLICE_7082.M0 u_motor_control/u1_motor_drive/r0_motor_fg (to w_pll_50m)
+REG_DEL     ---     0.161 *LICE_7554.CLK to *SLICE_7554.Q1 u_motor_control/u1_motor_drive/SLICE_7554 (from w_pll_50m)
+ROUTE         4   e 0.058 *SLICE_7554.Q1 to *SLICE_7554.M0 u_motor_control/u1_motor_drive/r0_motor_fg (to w_pll_50m)
                   --------
                     0.219   (73.5% logic, 26.5% route), 1 logic levels.
 
@@ -1670,10 +1666,10 @@ Blocked:
    Delay:               0.635ns  (37.3% logic, 62.7% route), 2 logic levels.
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.192 *LICE_3915.CLK to *SLICE_3915.Q0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_3915 (from u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos)
-ROUTE         7   e 0.199 *SLICE_3915.Q0 to *LICE_12659.A0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/cs_memsync[3]
-CTOF_DEL    ---     0.088 *LICE_12659.A0 to *LICE_12659.F0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_12659
-ROUTE        47   e 0.199 *LICE_12659.F0 to *1_CLKDIVF.RST u_ddr3/ddr3_ipcore_inst/ddr_rst (to u_ddr3/ddr3_ipcore_inst/eclk)
+REG_DEL     ---     0.192 *LICE_4386.CLK to *SLICE_4386.Q0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_4386 (from u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos)
+ROUTE         7   e 0.199 *SLICE_4386.Q0 to *LICE_13155.A0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/cs_memsync[3]
+CTOF_DEL    ---     0.088 *LICE_13155.A0 to *LICE_13155.F0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_13155
+ROUTE        47   e 0.199 *LICE_13155.F0 to *1_CLKDIVF.RST u_ddr3/ddr3_ipcore_inst/ddr_rst (to u_ddr3/ddr3_ipcore_inst/eclk)
                   --------
                     0.678   (41.3% logic, 58.7% route), 2 logic levels.
 
@@ -1694,10 +1690,10 @@ Blocked:
    Delay:               0.437ns  (54.2% logic, 45.8% route), 2 logic levels.
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.192 *LICE_3919.CLK to *SLICE_3919.Q0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_3919 (from u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos)
-ROUTE        12   e 0.199 *SLICE_3919.Q0 to *SLICE_4994.B0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/mem_sync_pause
-CTOF_DEL    ---     0.088 *SLICE_4994.B0 to *SLICE_4994.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_4994
-ROUTE         1   e 0.001 *SLICE_4994.F0 to *LICE_4994.DI0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/dqsbufd_pause_2 (to w_sclk)
+REG_DEL     ---     0.192 *LICE_4390.CLK to *SLICE_4390.Q0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/SLICE_4390 (from u_ddr3/ddr3_ipcore_inst/U1_clocking/clkos)
+ROUTE        12   e 0.199 *SLICE_4390.Q0 to *SLICE_5465.B0 u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_mem_sync/mem_sync_pause
+CTOF_DEL    ---     0.088 *SLICE_5465.B0 to *SLICE_5465.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_5465
+ROUTE         1   e 0.001 *SLICE_5465.F0 to *LICE_5465.DI0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/dqsbufd_pause_2 (to w_sclk)
                   --------
                     0.480   (58.3% logic, 41.7% route), 2 logic levels.
 
@@ -1719,17 +1715,17 @@ Passed: The following path meets requirements by 0.425ns
 
  Constraint Details:
 
-      0.360ns physical path delay u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_4957 to em_ddr_data[10]_MGIOL meets
+      0.360ns physical path delay u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_5428 to em_ddr_data[10]_MGIOL meets
      -0.065ns DO_HLD and
       0.000ns delay constraint requirement (totaling -0.065ns) by 0.425ns
 
  Physical Path Details:
 
-      Data path u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_4957 to em_ddr_data[10]_MGIOL:
+      Data path u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_5428 to em_ddr_data[10]_MGIOL:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.161 *LICE_4957.CLK to *SLICE_4957.Q1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_4957 (from w_sclk)
-ROUTE        16   e 0.199 *SLICE_4957.Q1 to *MGIOL.TSDATA1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/ddr3_wr_data_val_in[1] (to w_sclk)
+REG_DEL     ---     0.161 *LICE_5428.CLK to *SLICE_5428.Q1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_5428 (from w_sclk)
+ROUTE        16   e 0.199 *SLICE_5428.Q1 to *MGIOL.TSDATA1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/ddr3_wr_data_val_in[1] (to w_sclk)
                   --------
                     0.360   (44.7% logic, 55.3% route), 1 logic levels.
 
@@ -1753,19 +1749,19 @@ Passed: The following path meets requirements by 0.652ns
 
  Constraint Details:
 
-      0.634ns physical path delay u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_4856 to em_ddr_dqs[1]_MGIOL meets
+      0.634ns physical path delay u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_5327 to em_ddr_dqs[1]_MGIOL meets
      -0.018ns DO_HLD and
       0.000ns delay constraint requirement (totaling -0.018ns) by 0.652ns
 
  Physical Path Details:
 
-      Data path u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_4856 to em_ddr_dqs[1]_MGIOL:
+      Data path u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_5327 to em_ddr_dqs[1]_MGIOL:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.161 *LICE_4856.CLK to *SLICE_4856.Q1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_4856 (from w_sclk)
-ROUTE         2   e 0.199 *SLICE_4856.Q1 to *LICE_12597.C0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/ddr3_dqsout_in[1]
-CTOF_DEL    ---     0.075 *LICE_12597.C0 to *LICE_12597.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[1].bidi_dqs/SLICE_12597
-ROUTE         1   e 0.199 *LICE_12597.F0 to *MGIOL.TXDATA1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[1].bidi_dqs/ddr3_dqsout_db0a_int (to w_sclk)
+REG_DEL     ---     0.161 *LICE_5327.CLK to *SLICE_5327.Q1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_wr_path/SLICE_5327 (from w_sclk)
+ROUTE         2   e 0.199 *SLICE_5327.Q1 to *LICE_13093.C0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/ddr3_dqsout_in[1]
+CTOF_DEL    ---     0.075 *LICE_13093.C0 to *LICE_13093.F0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[1].bidi_dqs/SLICE_13093
+ROUTE         1   e 0.199 *LICE_13093.F0 to *MGIOL.TXDATA1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[1].bidi_dqs/ddr3_dqsout_db0a_int (to w_sclk)
                   --------
                     0.634   (37.2% logic, 62.8% route), 2 logic levels.
 
@@ -1774,7 +1770,7 @@ Report:    0.634ns is the minimum delay for this preference.
 
 ================================================================================
 Preference: FREQUENCY NET "w_iddr_sclk2" 150.000000 MHz ;
-            1936 items scored, 0 timing errors detected.
+            1947 items scored, 0 timing errors detected.
 --------------------------------------------------------------------------------
 
 
@@ -1782,33 +1778,33 @@ Passed: The following path meets requirements by 0.177ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              u_mpt2042_top/u2_lvds_dec/r_crc_datain[5]  (from w_iddr_sclk2 +)
-   Destination:    FF         Data in        u_mpt2042_top/u2_lvds_dec/r_crc_datain[5]  (to w_iddr_sclk2 +)
+   Source:         FF         Q              u_mpt2042_top/u2_lvds_dec/u_lasfifo_decode/FF_100  (from w_iddr_sclk2 +)
+   Destination:    FF         Data in        u_mpt2042_top/u2_lvds_dec/u_lasfifo_decode/FF_100  (to w_iddr_sclk2 +)
 
    Delay:               0.295ns  (80.0% logic, 20.0% route), 2 logic levels.
 
  Constraint Details:
 
-      0.295ns physical path delay u_mpt2042_top/u2_lvds_dec/SLICE_7580 to u_mpt2042_top/u2_lvds_dec/SLICE_7580 meets
+      0.295ns physical path delay u_mpt2042_top/u2_lvds_dec/u_lasfifo_decode/SLICE_340 to u_mpt2042_top/u2_lvds_dec/u_lasfifo_decode/SLICE_340 meets
       0.118ns DIN_HLD and
       0.000ns delay constraint requirement (totaling 0.118ns) by 0.177ns
 
  Physical Path Details:
 
-      Data path u_mpt2042_top/u2_lvds_dec/SLICE_7580 to u_mpt2042_top/u2_lvds_dec/SLICE_7580:
+      Data path u_mpt2042_top/u2_lvds_dec/u_lasfifo_decode/SLICE_340 to u_mpt2042_top/u2_lvds_dec/u_lasfifo_decode/SLICE_340:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.161 *LICE_7580.CLK to *SLICE_7580.Q1 u_mpt2042_top/u2_lvds_dec/SLICE_7580 (from w_iddr_sclk2)
-ROUTE         4   e 0.058 *SLICE_7580.Q1 to *SLICE_7580.C1 u_mpt2042_top/u2_lvds_dec/r_crc_datain[5]
-CTOF_DEL    ---     0.075 *SLICE_7580.C1 to *SLICE_7580.F1 u_mpt2042_top/u2_lvds_dec/SLICE_7580
-ROUTE         1   e 0.001 *SLICE_7580.F1 to *LICE_7580.DI1 u_mpt2042_top/u2_lvds_dec/r_crc_datain_r[5] (to w_iddr_sclk2)
+REG_DEL     ---     0.161 *SLICE_340.CLK to */SLICE_340.Q1 u_mpt2042_top/u2_lvds_dec/u_lasfifo_decode/SLICE_340 (from w_iddr_sclk2)
+ROUTE         5   e 0.058 */SLICE_340.Q1 to */SLICE_340.A1 u_mpt2042_top/u2_lvds_dec/u_lasfifo_decode/wcount_1
+CTOF_DEL    ---     0.075 */SLICE_340.A1 to */SLICE_340.F1 u_mpt2042_top/u2_lvds_dec/u_lasfifo_decode/SLICE_340
+ROUTE         1   e 0.001 */SLICE_340.F1 to *SLICE_340.DI1 u_mpt2042_top/u2_lvds_dec/u_lasfifo_decode/iwcount_1 (to w_iddr_sclk2)
                   --------
                     0.295   (80.0% logic, 20.0% route), 2 logic levels.
 
 
 ================================================================================
 Preference: FREQUENCY NET "w_iddr_sclk1" 150.000000 MHz ;
-            2019 items scored, 0 timing errors detected.
+            1997 items scored, 0 timing errors detected.
 --------------------------------------------------------------------------------
 
 
@@ -1816,26 +1812,26 @@ Passed: The following path meets requirements by 0.177ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              u_mpt2042_top/u1_lvds_dec/r_crc_datain[5]  (from w_iddr_sclk1 +)
-   Destination:    FF         Data in        u_mpt2042_top/u1_lvds_dec/r_crc_datain[5]  (to w_iddr_sclk1 +)
+   Source:         FF         Q              u_mpt2042_top/u1_lvds_dec/u_lasfifo_decode/FF_100  (from w_iddr_sclk1 +)
+   Destination:    FF         Data in        u_mpt2042_top/u1_lvds_dec/u_lasfifo_decode/FF_100  (to w_iddr_sclk1 +)
 
    Delay:               0.295ns  (80.0% logic, 20.0% route), 2 logic levels.
 
  Constraint Details:
 
-      0.295ns physical path delay u_mpt2042_top/u1_lvds_dec/SLICE_7419 to u_mpt2042_top/u1_lvds_dec/SLICE_7419 meets
+      0.295ns physical path delay u_mpt2042_top/u1_lvds_dec/u_lasfifo_decode/SLICE_379 to u_mpt2042_top/u1_lvds_dec/u_lasfifo_decode/SLICE_379 meets
       0.118ns DIN_HLD and
       0.000ns delay constraint requirement (totaling 0.118ns) by 0.177ns
 
  Physical Path Details:
 
-      Data path u_mpt2042_top/u1_lvds_dec/SLICE_7419 to u_mpt2042_top/u1_lvds_dec/SLICE_7419:
+      Data path u_mpt2042_top/u1_lvds_dec/u_lasfifo_decode/SLICE_379 to u_mpt2042_top/u1_lvds_dec/u_lasfifo_decode/SLICE_379:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.161 *LICE_7419.CLK to *SLICE_7419.Q1 u_mpt2042_top/u1_lvds_dec/SLICE_7419 (from w_iddr_sclk1)
-ROUTE         4   e 0.058 *SLICE_7419.Q1 to *SLICE_7419.C1 u_mpt2042_top/u1_lvds_dec/r_crc_datain[5]
-CTOF_DEL    ---     0.075 *SLICE_7419.C1 to *SLICE_7419.F1 u_mpt2042_top/u1_lvds_dec/SLICE_7419
-ROUTE         1   e 0.001 *SLICE_7419.F1 to *LICE_7419.DI1 u_mpt2042_top/u1_lvds_dec/N_229_i (to w_iddr_sclk1)
+REG_DEL     ---     0.161 *SLICE_379.CLK to */SLICE_379.Q1 u_mpt2042_top/u1_lvds_dec/u_lasfifo_decode/SLICE_379 (from w_iddr_sclk1)
+ROUTE         5   e 0.058 */SLICE_379.Q1 to */SLICE_379.A1 u_mpt2042_top/u1_lvds_dec/u_lasfifo_decode/wcount_1
+CTOF_DEL    ---     0.075 */SLICE_379.A1 to */SLICE_379.F1 u_mpt2042_top/u1_lvds_dec/u_lasfifo_decode/SLICE_379
+ROUTE         1   e 0.001 */SLICE_379.F1 to *SLICE_379.DI1 u_mpt2042_top/u1_lvds_dec/u_lasfifo_decode/iwcount_1 (to w_iddr_sclk1)
                   --------
                     0.295   (80.0% logic, 20.0% route), 2 logic levels.
 
@@ -1857,17 +1853,17 @@ Passed: The following path meets requirements by 0.102ns
 
  Constraint Details:
 
-      0.219ns physical path delay u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_4837 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_4837 meets
+      0.219ns physical path delay u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_5308 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_5308 meets
       0.117ns M_HLD and
       0.000ns delay constraint requirement (totaling 0.117ns) by 0.102ns
 
  Physical Path Details:
 
-      Data path u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_4837 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_4837:
+      Data path u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_5308 to u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_5308:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.161 *LICE_4837.CLK to *SLICE_4837.Q1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_4837 (from w_sclk)
-ROUTE         1   e 0.058 *SLICE_4837.Q1 to *SLICE_4837.M0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/cal_bc4_r2_Q (to w_sclk)
+REG_DEL     ---     0.161 *LICE_5308.CLK to *SLICE_5308.Q1 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/SLICE_5308 (from w_sclk)
+ROUTE         1   e 0.058 *SLICE_5308.Q1 to *SLICE_5308.M0 u_ddr3/ddr3_ipcore_inst/U1_ddr3_ipcore/U1_ddr3_sdram_phy/cal_bc4_r2_Q (to w_sclk)
                   --------
                     0.219   (73.5% logic, 26.5% route), 1 logic levels.
 
@@ -2062,8 +2058,8 @@ Found 25 clocks:
 
 Clock Domain: w_sclk   Source: u_ddr3/ddr3_ipcore_inst/U1_clocking/U1_CLKDIVF.CDIVX   Loads: 1677
    Covered under: MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_wr_data_val_in[*]" 4.500000 ns ;
-   Covered under: MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_dqsout_in[*]" 4.500000 ns ;
    Covered under: FREQUENCY NET "w_sclk" 50.000000 MHz ;
+   Covered under: MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_dqsout_in[*]" 4.500000 ns ;
 
    Data transfers from:
    Clock Domain: w_pll_100m   Source: u_pll/PLLInst_0.CLKOS
@@ -2101,7 +2097,7 @@ Clock Domain: w_pll_150m   Source: u_pll/PLLInst_0.CLKOS2   Loads: 58
    Clock Domain: i_clk_50m_c   Source: i_clk_50m.PAD
       Covered under: FREQUENCY NET "w_pll_150m" 150.000000 MHz ;   Transfers: 1
 
-Clock Domain: w_pll_100m   Source: u_pll/PLLInst_0.CLKOS   Loads: 3930
+Clock Domain: w_pll_100m   Source: u_pll/PLLInst_0.CLKOS   Loads: 4090
    Covered under: FREQUENCY NET "w_pll_100m" 100.000000 MHz ;
 
    Data transfers from:
@@ -2266,7 +2262,7 @@ Clock Domain: u1_iddr_tdc1/eclko   Source: u1_iddr_tdc1/Inst5_ECLKSYNCB.ECLKO   
 Clock Domain: u1_iddr_tdc1/eclki   Source: u1_iddr_tdc1/Inst3_DLLDELD.Z   Loads: 1
    No transfer within this clock domain is found
 
-Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK   Loads: 230
+Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK   Loads: 448
    No transfer within this clock domain is found
 
    Data transfers from:
@@ -2299,7 +2295,7 @@ Timing summary (Hold):
 Timing errors: 33  Score: 33359
 Cumulative negative slack: 33359
 
-Constraints cover 2326355 paths, 27 nets, and 82245 connections (95.42% coverage)
+Constraints cover 2321782 paths, 27 nets, and 86265 connections (95.60% coverage)
 
 
 

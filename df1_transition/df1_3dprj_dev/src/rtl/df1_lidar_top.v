@@ -130,6 +130,8 @@ module df1_lidar_top
     reg                         r_rst_n         = 1'b0;
 	reg							r_initload_done	= 1'b0;
 	wire						w_parainit_done;
+	wire						w_laser_switch;
+	wire [7:0]					w_laser_setnum;
 	wire [3:0]					w_laser_sernum;
 	wire						w_laser_sync;
 	wire [3:0]					w_tdc1_chnlmask;
@@ -528,8 +530,9 @@ module df1_lidar_top
 		.i_apd_temp_value				( w_apd_temp_value			),
 		.i_dac_value					( w_dac_value				),
 		.i_device_temp					( w_device_temp				),
-		//output		
-		// .o_laser_sernum					( w_laser_sernum			),
+		//output	
+		.o_laser_switch					( w_laser_switch			),	
+		.o_laser_setnum					( w_laser_setnum			),
         .o_config_mode          		( w_config_mode             ),
 		.o_motor_pwm_setval1			( w_motor_pwm_setval1		),
 		.o_motor_pwm_setval2			( w_motor_pwm_setval2		),
@@ -681,6 +684,8 @@ module df1_lidar_top
 		.i_rst_n      					( w_rst_n 					),
 		.i_angle_sync 					( w_angle_sync				),//synchronizing signal
 		.i_cdctdc_ready					( w_cdctdc_ready			),
+		.i_laser_switch					( w_laser_switch			),
+		.i_laser_setnum					( w_laser_setnum			),
 
 		.o_laser_str  					( o_laser_str				),//signal of laser lighting
 		.o_laser_sync					( w_laser_sync				),

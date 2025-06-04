@@ -572,7 +572,7 @@ module udpcom_datagram_parser
 			r_coe_sernum	<= 16'd0;
 		end else if (r_byte_rxcnt >= 16'd12 && r_rx_state == ST_RXRAM_PARSEDATA) begin
 			case(r_get_cmd_id)
-				`SET_LASER_SERNUM, `LOOP_DATA_SWITCH: begin
+				`SET_LASER_SERNUM, `SET_LASER_SWITCH, `LOOP_DATA_SWITCH: begin
 					if (r_byte_rxcnt == 16'd12)
 						r_get_para0	<= {24'h0, i_udp_rxram_data};
 				end

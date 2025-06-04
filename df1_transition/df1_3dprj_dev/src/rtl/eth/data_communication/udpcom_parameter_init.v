@@ -76,7 +76,8 @@ module udpcom_parameter_init
 	input  [9:0]						i_dac_value,
 	input  [7:0]						i_device_temp,
 	//output parameter	
-	output [7:0]						o_laser_sernum,
+	output								o_laser_switch,
+	output [7:0]						o_laser_setnum,
 	output [31:0]						o_serial_number,
 	output								o_userlink_state,
 	input								i_broadcast_en,
@@ -218,7 +219,8 @@ module udpcom_parameter_init
 	reg	 [31:0]				r_sub_mask				= 32'hFFFFFF00;
 	reg	 [31:0]				r_serial_number 		= 32'h25022716;
 
-	reg  [7:0]				r_laser_sernum			= 8'h0;
+	reg  [7:0]				r_laser_switch			= 8'h0;
+	reg  [7:0]				r_laser_setnum			= 8'h0;
 	reg  [7:0]				r_device_mode			= 8'b1100_0000;
 	reg  [15:0]				r_tdc_window			= 16'h4A50;
 	reg  [15:0]				r_rise_divid			= 16'd0;
@@ -779,15 +781,27 @@ module udpcom_parameter_init
 			r_discal_flag	<= i_get_para0[0];
 	end
 
-	//r_laser_sernum
+	//r_laser_switch
 	always@(posedge i_clk or negedge i_rst_n) begin
 		if(!i_rst_n)
-			r_laser_sernum	<= 8'h0;
+			r_laser_switch	<= 8'h0;
+		else if(r_set_cmd_id == `SET_LASER_SWITCH && r_parsedone_flag[1] && w_main_level) begin
+			if(i_rxcheck_code == 16'h0000 && i_get_para0 <= 8'd7)
+				r_laser_switch	<= i_get_para0[7:0];
+			else
+				r_laser_switch	<= r_laser_switch;		
+		end
+	end
+
+	//r_laser_setnum
+	always@(posedge i_clk or negedge i_rst_n) begin
+		if(!i_rst_n)
+			r_laser_setnum	<= 8'h0;
 		else if(r_set_cmd_id == `SET_LASER_SERNUM && r_parsedone_flag[1] && w_main_level) begin
 			if(i_rxcheck_code == 16'h0000 && i_get_para0 <= 8'd7)
-				r_laser_sernum	<= i_get_para0[7:0];
+				r_laser_setnum	<= i_get_para0[7:0];
 			else
-				r_laser_sernum	<= r_laser_sernum;		
+				r_laser_setnum	<= r_laser_setnum;		
 		end
 	end
 
@@ -1071,7 +1085,8 @@ module udpcom_parameter_init
 	// calib
 	assign o_calibrate_flag		= r_calibrate_flag;
 	// output parameter
-	assign o_laser_sernum		= r_laser_sernum;
+	assign o_laser_switch		= r_laser_switch[0];
+	assign o_laser_setnum		= r_laser_setnum;
 	assign o_serial_number		= r_serial_number;
 	assign o_userlink_state		= w_auth_level;
 	assign o_lidar_mac			= r_lidar_initmac;

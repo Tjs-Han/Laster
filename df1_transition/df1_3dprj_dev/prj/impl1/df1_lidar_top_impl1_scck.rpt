@@ -12,7 +12,7 @@ Hostname: FREE-FPGA
 
 Implementation : impl1
 
-# Written on Wed May 21 20:03:20 2025
+# Written on Thu May 29 16:33:40 2025
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      "D:\FreeWork\df1_second_round\df1_3dprj_dev\prj\df1_lidar_top.sdc"
@@ -44,11 +44,11 @@ Level     Clock                                          Frequency     Period   
                                                                                                                                  
 0 -       i_tdc2_lvds_serclk                             300.0 MHz     3.333         declared     group_15_54               0    
                                                                                                                                  
-0 -       df1_lidar_top|w_pll_100m                       200.0 MHz     5.000         inferred     Inferred_clkgroup_0_2     7423 
+0 -       df1_lidar_top|w_pll_100m                       200.0 MHz     5.000         inferred     Inferred_clkgroup_0_2     7690 
+                                                                                                                                 
+0 -       reveal_coretop|jtck_inferred_clock[0]          200.0 MHz     5.000         inferred     Inferred_clkgroup_0_3     746  
                                                                                                                                  
 0 -       ddr3_sdram_mem_top_ddr3_ipcore_uniq_1|sclk     200.0 MHz     5.000         inferred     Inferred_clkgroup_0_7     414  
-                                                                                                                                 
-0 -       reveal_coretop|jtck_inferred_clock[0]          200.0 MHz     5.000         inferred     Inferred_clkgroup_0_3     343  
                                                                                                                                  
 0 -       iddrx2f_uniq_1|sclk_inferred_clock             200.0 MHz     5.000         inferred     Inferred_clkgroup_0_5     166  
                                                                                                                                  
@@ -78,11 +78,11 @@ i_tdc1_lvds_serclk                             0         i_tdc1_lvds_serclk(port
                                                                                                                                                                                                                                                     
 i_tdc2_lvds_serclk                             0         i_tdc2_lvds_serclk(port)                                                     -                                                                -                 u2_iddr_tdc2.Inst7_IB.I(IB)
                                                                                                                                                                                                                                                     
-df1_lidar_top|w_pll_100m                       7423      u_pll.PLLInst_0.CLKOS(EHXPLLL)                                               r_initload_done.C                                                -                 -                          
+df1_lidar_top|w_pll_100m                       7690      u_pll.PLLInst_0.CLKOS(EHXPLLL)                                               r_initload_done.C                                                -                 -                          
+                                                                                                                                                                                                                                                    
+reveal_coretop|jtck_inferred_clock[0]          746       df1_lidar_top_reveal_coretop_instance.jtagconn16_inst_0.jtck(jtagconn16)     -                                                                -                 -                          
                                                                                                                                                                                                                                                     
 ddr3_sdram_mem_top_ddr3_ipcore_uniq_1|sclk     414       u_ddr3.ddr3_ipcore_inst.U1_clocking.sclk(ddr_clks_ddr3_ipcore)               u2_ddr3_interface.u2_ddr_round_robin.r_ddr2para_data[63:0].C     -                 -                          
-                                                                                                                                                                                                                                                    
-reveal_coretop|jtck_inferred_clock[0]          343       df1_lidar_top_reveal_coretop_instance.jtagconn16_inst_0.jtck(jtagconn16)     -                                                                -                 -                          
                                                                                                                                                                                                                                                     
 iddrx2f_uniq_1|sclk_inferred_clock             166       u1_iddr_tdc1.Inst6_CLKDIVF.CDIVX(CLKDIVF)                                    u_mpt2042_top.u1_lvds_dec.r_decode_reset.C                       -                 -                          
                                                                                                                                                                                                                                                     
