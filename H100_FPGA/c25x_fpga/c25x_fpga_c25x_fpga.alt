@@ -1,6 +1,6 @@
 NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
 NOTE All Rights Reserved *
-NOTE DATE CREATED: Fri May 23 11:44:55 2025 *
+NOTE DATE CREATED: Wed Jun 04 09:48:48 2025 *
 NOTE DESIGN NAME: c25x_fpga *
 NOTE DEVICE NAME: LFE5U-25F-6CABGA256 *
 NOTE PIN ASSIGNMENTS *
@@ -34,8 +34,8 @@ NOTE PINS o_spi_dclk : A7 : out *
 NOTE PINS o_spi_cs : A4 : out *
 NOTE PINS o_flash_mosi : T8 : out *
 NOTE PINS o_flash_cs : N8 : out *
-NOTE PINS o_flash_hold : F3 : out *
-NOTE PINS o_flash_wp : D9 : out *
+NOTE PINS o_flash_hold : B7 : out *
+NOTE PINS o_flash_wp : M11 : out *
 NOTE PINS o_sram_addr[0] : E15 : out *
 NOTE PINS o_sram_addr[1] : E16 : out *
 NOTE PINS o_sram_addr[2] : D16 : out *
@@ -55,6 +55,7 @@ NOTE PINS o_sram_addr[15] : M16 : out *
 NOTE PINS o_sram_addr[16] : M15 : out *
 NOTE PINS o_sram_addr[17] : J16 : out *
 NOTE PINS o_sram_we_n : N16 : out *
+NOTE PINS io_sram_data[15] : R13 : inout *
 NOTE PINS o_sram_oe_n : F15 : out *
 NOTE PINS o_sram_lb_n : F14 : out *
 NOTE PINS o_sram_ub_n : H13 : out *
@@ -77,6 +78,5 @@ NOTE PINS io_sram_data[4] : L16 : inout *
 NOTE PINS io_sram_data[5] : P16 : inout *
 NOTE PINS io_sram_data[6] : R15 : inout *
 NOTE PINS io_sram_data[7] : T13 : inout *
-NOTE PINS io_sram_data[15] : R13 : inout *
 NOTE CONFIGURATION MODE: JTAG *
 NOTE COMPRESSION: off *

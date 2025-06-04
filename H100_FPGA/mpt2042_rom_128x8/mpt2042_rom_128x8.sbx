@@ -39,7 +39,7 @@
             <lattice:device>LFE5U-25F-6BG256I</lattice:device>
             <lattice:synthesis>lse</lattice:synthesis>
             <lattice:date>2025-05-13.18:06:21</lattice:date>
-            <lattice:modified>2025-05-20.10:58:53</lattice:modified>
+            <lattice:modified>2025-06-03.17:12:51</lattice:modified>
             <lattice:diamond>3.12.0.240.2</lattice:diamond>
             <lattice:language>Verilog</lattice:language>
             <lattice:attributes>
@@ -109,7 +109,7 @@
                 </lattice:lpcentry>
                 <lattice:lpcentry>
                     <lattice:lpckey>Date</lattice:lpckey>
-                    <lattice:lpcvalue lattice:resolve="constant">05/20/2025</lattice:lpcvalue>
+                    <lattice:lpcvalue lattice:resolve="constant">06/03/2025</lattice:lpcvalue>
                 </lattice:lpcentry>
                 <lattice:lpcentry>
                     <lattice:lpckey>ModuleName</lattice:lpckey>
@@ -125,7 +125,7 @@
                 </lattice:lpcentry>
                 <lattice:lpcentry>
                     <lattice:lpckey>Time</lattice:lpckey>
-                    <lattice:lpcvalue lattice:resolve="constant">10:58:51</lattice:lpcvalue>
+                    <lattice:lpcvalue lattice:resolve="constant">17:12:49</lattice:lpcvalue>
                 </lattice:lpcentry>
                 <lattice:lpcentry>
                     <lattice:lpckey>VendorName</lattice:lpckey>
@@ -174,7 +174,7 @@
                 </lattice:lpcentry>
                 <lattice:lpcentry>
                     <lattice:lpckey>MemFile</lattice:lpckey>
-                    <lattice:lpcvalue lattice:resolve="constant">d:/project/h100_fpga/source/mpt2022_2042/mpt2042_rom_128x8_2.mem</lattice:lpcvalue>
+                    <lattice:lpcvalue lattice:resolve="constant">d:/project/h100_fpga/source/mpt2022_2042/mpt2042_rom_128x8_1.mem</lattice:lpcvalue>
                 </lattice:lpcentry>
                 <lattice:lpcentry>
                     <lattice:lpckey>MemFormat</lattice:lpckey>
@@ -232,7 +232,7 @@
                 <lattice:lpcsection lattice:name="Command"/>
                 <lattice:lpcentry>
                     <lattice:lpckey>cmd_line</lattice:lpckey>
-                    <lattice:lpcvalue lattice:resolve="constant">-w -n mpt2042_rom_128x8 -lang verilog -synth lse -bus_exp 7 -bb -arch sa5p00 -type romblk -device LFE5U-25F -addr_width 7 -data_width 8 -num_words 128 -cascade -1 -memfile "d:/project/h100_fpga/source/mpt2022_2042/mpt2042_rom_128x8_2.mem" -memformat hex</lattice:lpcvalue>
+                    <lattice:lpcvalue lattice:resolve="constant">-w -n mpt2042_rom_128x8 -lang verilog -synth lse -bus_exp 7 -bb -arch sa5p00 -type romblk -device LFE5U-25F -addr_width 7 -data_width 8 -num_words 128 -cascade -1 -memfile "d:/project/h100_fpga/source/mpt2022_2042/mpt2042_rom_128x8_1.mem" -memformat hex</lattice:lpcvalue>
                 </lattice:lpcentry>
             </lattice:lpc>
             <lattice:groups/>

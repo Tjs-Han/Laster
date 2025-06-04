@@ -1,5 +1,5 @@
 SCUBA, Version Diamond (64-bit) 3.12.0.240.2
-Tue May 20 10:58:53 2025
+Tue Jun 03 17:12:51 2025
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -7,7 +7,7 @@ Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
 
-    Issued command   : D:\lscc\diamond\3.12\ispfpga\bin\nt64\scuba.exe -w -n mpt2042_rom_128x8 -lang verilog -synth lse -bus_exp 7 -bb -arch sa5p00 -type romblk -device LFE5U-25F -addr_width 7 -data_width 8 -num_words 128 -cascade -1 -memfile d:/project/h100_fpga/source/mpt2022_2042/mpt2042_rom_128x8_2.mem -memformat hex -fdc D:/Project/H100_FPGA/mpt2042_rom_128x8/mpt2042_rom_128x8.fdc 
+    Issued command   : D:\lscc\diamond\3.12\ispfpga\bin\nt64\scuba.exe -w -n mpt2042_rom_128x8 -lang verilog -synth lse -bus_exp 7 -bb -arch sa5p00 -type romblk -device LFE5U-25F -addr_width 7 -data_width 8 -num_words 128 -cascade -1 -memfile d:/project/h100_fpga/source/mpt2022_2042/mpt2042_rom_128x8_1.mem -memformat hex -fdc D:/Project/H100_FPGA/mpt2042_rom_128x8/mpt2042_rom_128x8.fdc 
     Circuit name     : mpt2042_rom_128x8
     Module type      : EBR_ROM
     Module Version   : 5.4
@@ -15,7 +15,7 @@ Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
 	Inputs       : Address[6:0], OutClock, OutClockEn, Reset
 	Outputs      : Q[7:0]
     I/O buffer       : not inserted
-    Memory file      : d:/project/h100_fpga/source/mpt2022_2042/mpt2042_rom_128x8_2.mem
+    Memory file      : d:/project/h100_fpga/source/mpt2022_2042/mpt2042_rom_128x8_1.mem
     EDIF output      : mpt2042_rom_128x8.edn
     Verilog output   : mpt2042_rom_128x8.v
     Verilog template : mpt2042_rom_128x8_tmpl.v

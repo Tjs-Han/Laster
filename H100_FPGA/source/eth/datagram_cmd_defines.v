@@ -1,4 +1,4 @@
-`define FIRMWARE_VERSION		32'h25052302
+`define FIRMWARE_VERSION		32'h25060301
 `define RESET_DEV				8'd0
 `define LOGIN					8'd1
 `define LOGOUT					8'd2

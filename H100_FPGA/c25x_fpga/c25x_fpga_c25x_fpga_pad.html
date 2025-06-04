@@ -14,7 +14,7 @@ Performance Grade:      6
 PACKAGE:          CABGA256
 Package Status:                     Final          Version 1.33
 
-Fri May 23 11:42:54 2025
+Wed Jun 04 09:46:59 2025
 
 Pinout by Port Name:
 +------------------+----------+---------------+-------+-----------+-------------------------------------------------------+
@@ -54,9 +54,9 @@ Pinout by Port Name:
 | o_dac_sda        | E14/2    | LVCMOS33_OUT  | PR5C  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
 | o_disable_tdc    | C4/0     | LVCMOS33_OUT  | PT11A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
 | o_flash_cs       | N8/8     | LVCMOS33_OUT  | PB15A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
-| o_flash_hold     | F3/7     | LVCMOS33_OUT  | PL5D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_flash_hold     | B7/0     | LVCMOS33_OUT  | PT27B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
 | o_flash_mosi     | T8/8     | LVCMOS33_OUT  | PB11B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
-| o_flash_wp       | D9/1     | LVCMOS33_OUT  | PT40A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
+| o_flash_wp       | M11/3    | LVCMOS33_OUT  | PR47A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
 | o_hv_en          | C16/2    | LVCMOS33_OUT  | PR5A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
 | o_laser_str      | D14/2    | LVCMOS33_OUT  | PR2D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
 | o_led_state      | D13/1    | LVCMOS33_OUT  | PT62A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW                          |
@@ -141,7 +141,7 @@ Vccio by Bank:
 | B4/0     | o_w5500_rst           | LOCATED    | LVCMOS33_OUT  | PT11B |                          |           |
 | B5/0     |     unused, PULL:DOWN |            |               | PT15B |                          |           |
 | B6/0     |     unused, PULL:DOWN |            |               | PT22B |                          |           |
-| B7/0     |     unused, PULL:DOWN |            |               | PT27B |                          |           |
+| B7/0     | o_flash_hold          |            | LVCMOS33_OUT  | PT27B |                          |           |
 | B8/1     |     unused, PULL:DOWN |            |               | PT35B |                          |           |
 | B9/1     | o_tdc_spi_ssn         | LOCATED    | LVTTL33_OUT   | PT38A | GR_PCLK1_0               |           |
 | B10/1    |     unused, PULL:DOWN |            |               | PT44A |                          |           |
@@ -175,7 +175,7 @@ Vccio by Bank:
 | D6/0     |     unused, PULL:DOWN |            |               | PT20B |                          |           |
 | D7/0     |     unused, PULL:DOWN |            |               | PT24B | GR_PCLK0_0               |           |
 | D8/1     |     unused, PULL:DOWN |            |               | PT33B |                          |           |
-| D9/1     | o_flash_wp            |            | LVCMOS33_OUT  | PT40A |                          |           |
+| D9/1     |     unused, PULL:DOWN |            |               | PT40A |                          |           |
 | D10/1    | ASIC_RESETN_OUT       | LOCATED    | LVTTL33_OUT   | PT47A |                          |           |
 | D11/1    |     unused, PULL:DOWN |            |               | PT51A |                          |           |
 | D12/1    |     unused, PULL:DOWN |            |               | PT58A |                          |           |
@@ -200,7 +200,7 @@ Vccio by Bank:
 | E16/2    | o_sram_addr[1]        | LOCATED    | LVCMOS33_OUT  | PR11D | RDQ8                     |           |
 | F1/7     |     unused, PULL:DOWN |            |               | PL14A | LDQ20                    |           |
 | F2/7     |     unused, PULL:DOWN |            |               | PL11C | LDQ8                     |           |
-| F3/7     | o_flash_hold          |            | LVCMOS33_OUT  | PL5D  | LDQ8                     |           |
+| F3/7     |     unused, PULL:DOWN |            |               | PL5D  | LDQ8                     |           |
 | F4/7     |     unused, PULL:DOWN |            |               | PL8C  | LDQ8                     |           |
 | F5/7     |     unused, PULL:DOWN |            |               | PL8D  | LDQ8                     |           |
 | F12/2    |     unused, PULL:DOWN |            |               | PR8D  | RDQ8                     |           |
@@ -265,7 +265,7 @@ Vccio by Bank:
 | M7/8     |     unused, PULL:DOWN |            |               | PB9B  | D2/IO2                   |           |
 | M8/8     |     unused, PULL:DOWN |            |               | PB15B | DOUT/CSON                |           |
 | M9/8     |     unused, PULL:DOWN |            |               | PB18A | WRITEN                   |           |
-| M11/3    |     unused, PULL:DOWN |            |               | PR47A | RDQ44                    |           |
+| M11/3    | o_flash_wp            |            | LVCMOS33_OUT  | PR47A | RDQ44                    |           |
 | M12/3    |     unused, PULL:DOWN |            |               | PR44C | RDQ44                    |           |
 | M13/3    | io_sram_data[12]      | LOCATED    | LVCMOS33_BIDI | PR35C | RDQ32                    |           |
 | M14/3    | o_sram_addr[14]       | LOCATED    | LVCMOS33_OUT  | PR32D | RDQ32                    |           |
@@ -364,9 +364,9 @@ LOCATE  COMP  "o_dac_scl"  SITE  "E13";
 LOCATE  COMP  "o_dac_sda"  SITE  "E14";
 LOCATE  COMP  "o_disable_tdc"  SITE  "C4";
 LOCATE  COMP  "o_flash_cs"  SITE  "N8";
-LOCATE  COMP  "o_flash_hold"  SITE  "F3";
+LOCATE  COMP  "o_flash_hold"  SITE  "B7";
 LOCATE  COMP  "o_flash_mosi"  SITE  "T8";
-LOCATE  COMP  "o_flash_wp"  SITE  "D9";
+LOCATE  COMP  "o_flash_wp"  SITE  "M11";
 LOCATE  COMP  "o_hv_en"  SITE  "C16";
 LOCATE  COMP  "o_laser_str"  SITE  "D14";
 LOCATE  COMP  "o_led_state"  SITE  "D13";
@@ -418,7 +418,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Fri May 23 11:42:54 2025
+Wed Jun 04 09:47:00 2025
 
 
 

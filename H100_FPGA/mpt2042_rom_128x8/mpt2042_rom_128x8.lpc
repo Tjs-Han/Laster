@@ -16,8 +16,8 @@ CoreRevision=5.4
 ModuleName=mpt2042_rom_128x8
 SourceFormat=verilog
 ParameterFileVersion=1.0
-Date=05/20/2025
-Time=10:58:51
+Date=06/03/2025
+Time=17:12:49
 
 [Parameters]
 Verilog=1
@@ -37,7 +37,7 @@ Optimization=Speed
 Reset=Sync
 Reset1=Sync
 Init=0
-MemFile=d:/project/h100_fpga/source/mpt2022_2042/mpt2042_rom_128x8_2.mem
+MemFile=d:/project/h100_fpga/source/mpt2022_2042/mpt2042_rom_128x8_1.mem
 MemFormat=hex
 EnECC=0
 Pipeline=0
@@ -45,7 +45,7 @@ Write=Normal
 init_data=0
 
 [FilesGenerated]
-d:/project/h100_fpga/source/mpt2022_2042/mpt2042_rom_128x8_2.mem=mem
+d:/project/h100_fpga/source/mpt2022_2042/mpt2042_rom_128x8_1.mem=mem
 
 [Command]
-cmd_line= -w -n mpt2042_rom_128x8 -lang verilog -synth lse -bus_exp 7 -bb -arch sa5p00 -type romblk -device LFE5U-25F -addr_width 7 -data_width 8 -num_words 128 -cascade -1 -memfile "d:/project/h100_fpga/source/mpt2022_2042/mpt2042_rom_128x8_2.mem" -memformat hex
+cmd_line= -w -n mpt2042_rom_128x8 -lang verilog -synth lse -bus_exp 7 -bb -arch sa5p00 -type romblk -device LFE5U-25F -addr_width 7 -data_width 8 -num_words 128 -cascade -1 -memfile "d:/project/h100_fpga/source/mpt2022_2042/mpt2042_rom_128x8_1.mem" -memformat hex

@@ -2,523 +2,938 @@ Logfile for Reveal Analyzer
 Version: Diamond 3.12.0.240.2
 Platform: Windows8 64bit
 Filename: D:/Project/H100_FPGA/c25x_fpga/reveal_debug.log
-First created: 周五 5月 23 10:27:07 2025
-[10:27:22] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
-[10:27:22] Connecting cableserver to run Reveal debugger....
-[10:27:29] @Connect
-[10:27:29] @SetSharableApplications,2,Reveal,Mico
-[10:27:29] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
-[10:27:29] ERROR: failed to set cable port (cable:USB port:EzUSB-0 error:-1). <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (2) and (5)</a>.
-[10:27:29] @Disconnect
-[10:27:31] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
-[10:27:31] Connecting cableserver to run Reveal debugger....
-[10:27:31] @Connect
-[10:27:31] @SetSharableApplications,2,Reveal,Mico
-[10:27:31] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
-[10:27:31] ERROR: failed to set cable port (cable:USB port:EzUSB-0 error:-1). <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (2) and (5)</a>.
-[10:27:31] @Disconnect
-[10:27:33] @ReleaseCablePort
-[10:27:33] @Disconnect
-[10:27:33] All messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_debug.log
-[10:27:37] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
-[10:27:37] Connecting cableserver to run Reveal debugger....
-[10:27:44] @Connect
-[10:27:44] @SetSharableApplications,2,Reveal,Mico
-[10:27:44] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
-[10:27:44] ERROR: failed to set cable port (cable:USB port:EzUSB-0 error:-1). <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (2) and (5)</a>.
-[10:27:44] @Disconnect
-[10:27:46] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
-[10:27:46] Connecting cableserver to run Reveal debugger....
-[10:27:46] @Connect
-[10:27:46] @SetSharableApplications,2,Reveal,Mico
-[10:27:46] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
-[10:27:46] ERROR: failed to set cable port (cable:USB port:EzUSB-0 error:-1). <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (2) and (5)</a>.
-[10:27:46] @Disconnect
-[10:27:48] @ReleaseCablePort
-[10:27:48] @Disconnect
-[10:27:48] All messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_debug.log
-[10:28:04] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
-[10:28:04] Connecting cableserver to run Reveal debugger....
-[10:28:11] @Connect
-[10:28:11] @SetSharableApplications,2,Reveal,Mico
-[10:28:11] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
-[10:28:11] @LockCable
-[10:28:11] @GetServerStatus
-[10:28:11] @Read
-[10:28:11] @SetTargetDevice,0
-[10:28:11] Connecting core0....
-[10:28:11] @ShiftIR,8,0,ER1
-[10:28:11] @ShiftDR,21,0,data (select core0)
-[10:28:11] @ShiftIR,8,0,ER2
-[10:28:11] Configuring core0....
-[10:28:11] @JumpState,RUN_TEST_IDLE
-[10:28:11] @JumpState,RUN_TEST_IDLE
-[10:28:11] @JumpState,RUN_TEST_IDLE
-[10:28:11] @ShiftIR,8,0,NOP
-[10:28:11] @JumpState,RUN_TEST_IDLE
-[10:28:11] @ShiftIR,8,0,ER2
-[10:28:11] @Set Odd Parity readback
-[10:28:11] @Set Odd Parity
-[10:28:11] @Set LA Start/Stop readback
-[10:28:11] @Set LA Start/Stop 
-[10:28:11] #Reveal IP Version = 1_6_042617
-[10:28:11] @Get Pattern
-[10:28:11] #pattern readout = a5a5
-[10:28:11] pattern readout passed!
-[10:28:11] @Get Tracy Signature
-[10:28:11] @Get Tracy Signature
-[10:28:11] #signature from core0 = 628007760
-[10:28:11] signature from core0 passed!
-[10:28:11] @Set Opcode Value
-[10:28:11] @Set Comp Value
-[10:28:11] @Set Mask Value
-[10:28:11] @Set Opcode Value
-[10:28:11] @Set Comp Value
-[10:28:11] @Set Mask Value
-[10:28:11] @Set Opcode Value
-[10:28:11] @Set Comp Value
-[10:28:11] @Set Mask Value
-[10:28:11] @Set Then Num
-[10:28:11] @Set NEXT THEN
-[10:28:11] @Set Cnt Cntg
-[10:28:11] @Set Event Count
-[10:28:11] @Set Event Count
-[10:28:11] @Set Event Count
-[10:28:11] @Set Event Count
-[10:28:11] @Set Event Count
-[10:28:11] @Set Event Count
-[10:28:11] @Set Event Count
-[10:28:11] @Set Event Count
-[10:28:11] @Set Event Count
-[10:28:11] @Set Event Count
-[10:28:11] @Set Event Count
-[10:28:11] @Set Event Count
-[10:28:11] @Set Event Count
-[10:28:11] @Set Event Count
-[10:28:11] @Set Event Count
-[10:28:11] @Set Event Count
-[10:28:11] @Get BurstWrite CRC
-[10:28:11] @Set Truth Tbl Addr Cnter Init
-[10:28:11] @Set Truth Table Prog
-[10:28:11] Configuring in burst mode....
-[10:28:11] @Get BurstWrite CRC
-[10:28:11] @Enable TE Trig
-[10:28:11] @Enable Trig Output OR All readback
-[10:28:11] @Enable Trig Output OR All
-[10:28:11] @Enable Multiple Trig
-[10:28:11] @Set Pre-Trig Sample
-[10:28:11] @Set Post-Trig Sample
-[10:28:11] finished configuration of core0
-[10:28:11] Starting all active cores....
-[10:28:11] @ShiftIR,8,0,ER1
-[10:28:11] @ShiftDR,21,0,data (select active cores)
-[10:28:11] @ShiftIR,8,0,ER2
-[10:28:11] @Set LA Start cores
-[10:28:11] @UnlockCable
-[10:28:11] Running all active cores....
-[10:28:11] @LockCable
-[10:28:11] Polling trigger memory of core0....
-[10:28:11] @ShiftIR,8,0,ER1
-[10:28:11] @ShiftDR,21,0,data (select core0)
-[10:28:11] @ShiftIR,8,0,ER2
-[10:28:11] @Get Force Trigger bit
-[10:28:11] #TM_CTL_0=5
-[10:28:11] @Get Trig Detected Cnt
-[10:28:11] #numDetectedTriggers = 1
-[10:28:11] @Get Mem Block Full Cnt
-[10:28:11] #memFullCnt = 1
-[10:28:11] Downloading trigger memory of core0....
-[10:28:11] @Is LA Armed
-[10:28:11] @Set LA Start/Stop readback
-[10:28:11] @Set LA Start/Stop 
-[10:28:11] @Set LA Start/Stop readback
-[10:28:11] @Set LA Start/Stop 
-[10:28:11] @Get Trig Detected Cnt
-[10:28:11] #numDetectedTriggers = 1
-[10:28:11] @Get Mem Block Full Cnt
-[10:28:11] #memFullCnt = 1
-[10:28:11] @Get Last Addr Written
-[10:28:11] #lastAddrWritten = 318
-[10:28:11] @Get Multiple Trig Enbl
-[10:28:11] #traceWidth=74, userSelectedTriggers=1, numTrigEnable=1
-[10:28:11] @Get BurstRead CRC
-[10:28:11] @Set Trace Mem Cnter Init
-[10:28:11] Uploading in burst mode....
-[10:28:11] @ShiftDR,75776,1,data (burst read)
-[10:28:11] @GetTDO,data,75776
-[10:28:11] @Get BurstRead CRC
-[10:28:11] @Get BurstRead CRC
-[10:28:11] @Get Pre-Trig Sample Num
-[10:28:11] @Get Post-Trig Sample Num
-[10:28:11] @Get Pre-Trig Samples Captured
-[10:28:11] @Get Trig Ptr
-[10:28:11] #trigPtr = 192
-[10:28:11] #dataSize=10, numRead=1024, trace_out=1024
-[10:28:11] #trig0={blockPosition:0,triggerPosition:892}
-[10:28:11] finished download trigger memory of core0
-[10:28:11] @UnlockCable
-[10:28:11] @ReleaseCablePort
-[10:28:11] @Disconnect
-[10:28:11] All messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_debug.log
-[10:40:02] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
-[10:40:02] Connecting cableserver to run Reveal debugger....
-[10:40:09] @Connect
-[10:40:09] @SetSharableApplications,2,Reveal,Mico
-[10:40:19] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
-[10:40:19] ERROR: failed to set cable port (cable:USB port:EzUSB-0 error:-5). <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (2) and (5)</a>.
-[10:40:19] @Disconnect
-[10:40:21] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
-[10:40:21] Connecting cableserver to run Reveal debugger....
-[10:40:21] @Connect
-[10:40:21] @SetSharableApplications,2,Reveal,Mico
-[10:40:21] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
-[10:40:21] ERROR: failed to set cable port (cable:USB port:EzUSB-0 error:-1). <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (2) and (5)</a>.
-[10:40:21] @Disconnect
-[10:40:23] @ReleaseCablePort
-[10:40:23] @Disconnect
-[10:40:23] All messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_debug.log
-[10:40:39] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
-[10:40:39] Connecting cableserver to run Reveal debugger....
-[10:40:46] @Connect
-[10:40:46] @SetSharableApplications,2,Reveal,Mico
-[10:40:46] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
-[10:40:46] ERROR: failed to set cable port (cable:USB port:EzUSB-0 error:-5). <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (2) and (5)</a>.
-[10:40:46] @Disconnect
-[10:40:48] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
-[10:40:48] Connecting cableserver to run Reveal debugger....
-[10:40:48] @Connect
-[10:40:48] @SetSharableApplications,2,Reveal,Mico
-[10:40:48] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
-[10:40:48] ERROR: failed to set cable port (cable:USB port:EzUSB-0 error:-1). <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (2) and (5)</a>.
-[10:40:48] @Disconnect
-[10:40:50] @ReleaseCablePort
-[10:40:50] @Disconnect
-[10:40:50] All messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_debug.log
-[10:41:13] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
-[10:41:13] Connecting cableserver to run Reveal debugger....
-[10:41:20] @Connect
-[10:41:20] @SetSharableApplications,2,Reveal,Mico
-[10:41:20] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
-[10:41:20] ERROR: failed to set cable port (cable:USB port:EzUSB-0 error:-1). <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (2) and (5)</a>.
-[10:41:20] @Disconnect
-[10:41:22] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
-[10:41:22] Connecting cableserver to run Reveal debugger....
-[10:41:22] @Connect
-[10:41:22] @SetSharableApplications,2,Reveal,Mico
-[10:41:22] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
-[10:41:22] ERROR: failed to set cable port (cable:USB port:EzUSB-0 error:-1). <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (2) and (5)</a>.
-[10:41:22] @Disconnect
-[10:41:25] @ReleaseCablePort
-[10:41:25] @Disconnect
-[10:41:25] All messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_debug.log
-[10:41:53] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
-[10:41:53] Connecting cableserver to run Reveal debugger....
-[10:42:00] @Connect
-[10:42:00] @SetSharableApplications,2,Reveal,Mico
-[10:42:00] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
-[10:42:00] ERROR: failed to set cable port (cable:USB port:EzUSB-0 error:-1). <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (2) and (5)</a>.
-[10:42:00] @Disconnect
-[10:42:02] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
-[10:42:02] Connecting cableserver to run Reveal debugger....
-[10:42:02] @Connect
-[10:42:02] @SetSharableApplications,2,Reveal,Mico
-[10:42:02] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
-[10:42:02] ERROR: failed to set cable port (cable:USB port:EzUSB-0 error:-1). <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (2) and (5)</a>.
-[10:42:02] @Disconnect
-[10:42:04] @ReleaseCablePort
-[10:42:04] @Disconnect
-[10:42:04] All messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_debug.log
-[10:42:23] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
-[10:42:23] Connecting cableserver to run Reveal debugger....
-[10:42:30] @Connect
-[10:42:30] @SetSharableApplications,2,Reveal,Mico
-[10:42:30] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
-[10:42:30] @LockCable
-[10:42:30] @GetServerStatus
-[10:42:30] @Read
-[10:42:30] @SetTargetDevice,0
-[10:42:30] Connecting core0....
-[10:42:30] @ShiftIR,8,0,ER1
-[10:42:30] @ShiftDR,21,0,data (select core0)
-[10:42:30] @ShiftIR,8,0,ER2
-[10:42:30] Configuring core0....
-[10:42:30] @JumpState,RUN_TEST_IDLE
-[10:42:30] @JumpState,RUN_TEST_IDLE
-[10:42:30] @JumpState,RUN_TEST_IDLE
-[10:42:30] @ShiftIR,8,0,NOP
-[10:42:30] @JumpState,RUN_TEST_IDLE
-[10:42:30] @ShiftIR,8,0,ER2
-[10:42:30] @Set Odd Parity readback
-[10:42:30] @Set Odd Parity
-[10:42:30] @Set LA Start/Stop readback
-[10:42:30] @Set LA Start/Stop 
-[10:42:30] #Reveal IP Version = 1_6_042617
-[10:42:30] @Get Pattern
-[10:42:30] #pattern readout = a5a5
-[10:42:30] pattern readout passed!
-[10:42:30] @Get Tracy Signature
-[10:42:30] @Get Tracy Signature
-[10:42:30] #signature from core0 = 628007760
-[10:42:30] signature from core0 passed!
-[10:42:30] @Set Opcode Value
-[10:42:30] @Set Comp Value
-[10:42:30] @Set Mask Value
-[10:42:30] @Set Opcode Value
-[10:42:30] @Set Comp Value
-[10:42:30] @Set Mask Value
-[10:42:30] @Set Opcode Value
-[10:42:30] @Set Comp Value
-[10:42:30] @Set Mask Value
-[10:42:30] @Set Then Num
-[10:42:30] @Set NEXT THEN
-[10:42:30] @Set Cnt Cntg
-[10:42:30] @Set Event Count
-[10:42:30] @Set Event Count
-[10:42:30] @Set Event Count
-[10:42:30] @Set Event Count
-[10:42:30] @Set Event Count
-[10:42:30] @Set Event Count
-[10:42:30] @Set Event Count
-[10:42:30] @Set Event Count
-[10:42:30] @Set Event Count
-[10:42:30] @Set Event Count
-[10:42:30] @Set Event Count
-[10:42:30] @Set Event Count
-[10:42:30] @Set Event Count
-[10:42:30] @Set Event Count
-[10:42:30] @Set Event Count
-[10:42:30] @Set Event Count
-[10:42:30] @Get BurstWrite CRC
-[10:42:30] @Set Truth Tbl Addr Cnter Init
-[10:42:30] @Set Truth Table Prog
-[10:42:30] Configuring in burst mode....
-[10:42:30] @Get BurstWrite CRC
-[10:42:30] @Enable TE Trig
-[10:42:30] @Enable Trig Output OR All readback
-[10:42:30] @Enable Trig Output OR All
-[10:42:30] @Enable Multiple Trig
-[10:42:30] @Set Pre-Trig Sample
-[10:42:30] @Set Post-Trig Sample
-[10:42:30] finished configuration of core0
-[10:42:30] Starting all active cores....
-[10:42:30] @ShiftIR,8,0,ER1
-[10:42:30] @ShiftDR,21,0,data (select active cores)
-[10:42:30] @ShiftIR,8,0,ER2
-[10:42:30] @Set LA Start cores
-[10:42:30] @UnlockCable
-[10:42:30] Running all active cores....
-[10:42:30] @LockCable
-[10:42:30] Polling trigger memory of core0....
-[10:42:30] @ShiftIR,8,0,ER1
-[10:42:30] @ShiftDR,21,0,data (select core0)
-[10:42:30] @ShiftIR,8,0,ER2
-[10:42:30] @Get Force Trigger bit
-[10:42:30] #TM_CTL_0=3
-[10:42:30] @Get Trig Detected Cnt
-[10:42:30] #numDetectedTriggers = 0
-[10:42:30] @Get Mem Block Full Cnt
-[10:42:30] #memFullCnt = 0
-[10:42:30] detected 0 triggers of core0
-[10:42:30] captured 0 memory blocks of core0
-[10:42:30] @UnlockCable
-[10:42:31] Running all active cores....
-[10:42:31] @LockCable
-[10:42:31] Polling trigger memory of core0....
-[10:42:31] @ShiftIR,8,0,ER1
-[10:42:31] @ShiftDR,21,0,data (select core0)
-[10:42:31] @ShiftIR,8,0,ER2
-[10:42:31] @Get Force Trigger bit
-[10:42:31] #TM_CTL_0=5
-[10:42:31] @Get Trig Detected Cnt
-[10:42:31] #numDetectedTriggers = 1
-[10:42:31] @Get Mem Block Full Cnt
-[10:42:31] #memFullCnt = 1
-[10:42:31] Downloading trigger memory of core0....
-[10:42:31] @Is LA Armed
-[10:42:31] @Set LA Start/Stop readback
-[10:42:31] @Set LA Start/Stop 
-[10:42:31] @Set LA Start/Stop readback
-[10:42:31] @Set LA Start/Stop 
-[10:42:31] @Get Trig Detected Cnt
-[10:42:31] #numDetectedTriggers = 1
-[10:42:31] @Get Mem Block Full Cnt
-[10:42:31] #memFullCnt = 1
-[10:42:31] @Get Last Addr Written
-[10:42:31] #lastAddrWritten = 727
-[10:42:31] @Get Multiple Trig Enbl
-[10:42:31] #traceWidth=74, userSelectedTriggers=1, numTrigEnable=1
-[10:42:31] @Get BurstRead CRC
-[10:42:31] @Set Trace Mem Cnter Init
-[10:42:31] Uploading in burst mode....
-[10:42:31] @ShiftDR,75776,1,data (burst read)
-[10:42:31] @GetTDO,data,75776
-[10:42:31] @Get BurstRead CRC
-[10:42:31] @Get BurstRead CRC
-[10:42:31] @Get Pre-Trig Sample Num
-[10:42:31] @Get Post-Trig Sample Num
-[10:42:31] @Get Pre-Trig Samples Captured
-[10:42:31] @Get Trig Ptr
-[10:42:31] #trigPtr = 601
-[10:42:31] #dataSize=10, numRead=1024, trace_out=1024
-[10:42:31] #trig0={blockPosition:0,triggerPosition:892}
-[10:42:31] finished download trigger memory of core0
-[10:42:31] @UnlockCable
-[10:42:31] @ReleaseCablePort
-[10:42:31] @Disconnect
-[10:42:31] All messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_debug.log
-[10:50:26] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
-[10:50:26] Connecting cableserver to run Reveal debugger....
-[10:50:33] @Connect
-[10:50:33] @SetSharableApplications,2,Reveal,Mico
-[10:50:43] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
-[10:50:43] ERROR: failed to set cable port (cable:USB port:EzUSB-0 error:-5). <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (2) and (5)</a>.
-[10:50:43] @Disconnect
-[10:50:45] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
-[10:50:45] Connecting cableserver to run Reveal debugger....
-[10:50:45] @Connect
-[10:50:45] @SetSharableApplications,2,Reveal,Mico
-[10:50:45] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
-[10:50:45] ERROR: failed to set cable port (cable:USB port:EzUSB-0 error:-1). <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (2) and (5)</a>.
-[10:50:45] @Disconnect
-[10:50:47] @ReleaseCablePort
-[10:50:47] @Disconnect
-[10:50:47] All messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_debug.log
-[10:50:52] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
-[10:50:52] Connecting cableserver to run Reveal debugger....
-[10:50:59] @Connect
-[10:50:59] @SetSharableApplications,2,Reveal,Mico
-[10:51:00] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
-[10:51:00] @LockCable
-[10:51:00] @GetServerStatus
-[10:51:00] @Read
-[10:51:00] @SetTargetDevice,0
-[10:51:00] Connecting core0....
-[10:51:00] @ShiftIR,8,0,ER1
-[10:51:00] @ShiftDR,21,0,data (select core0)
-[10:51:00] @ShiftIR,8,0,ER2
-[10:51:00] Configuring core0....
-[10:51:00] @JumpState,RUN_TEST_IDLE
-[10:51:00] @JumpState,RUN_TEST_IDLE
-[10:51:00] @JumpState,RUN_TEST_IDLE
-[10:51:00] @ShiftIR,8,0,NOP
-[10:51:00] @JumpState,RUN_TEST_IDLE
-[10:51:00] @ShiftIR,8,0,ER2
-[10:51:00] @Set Odd Parity readback
-[10:51:00] @Set Odd Parity
-[10:51:00] @Set LA Start/Stop readback
-[10:51:00] @Set LA Start/Stop 
-[10:51:00] #Reveal IP Version = 1_6_042617
-[10:51:00] @Get Pattern
-[10:51:00] #pattern readout = a5a5
-[10:51:00] pattern readout passed!
-[10:51:00] @Get Tracy Signature
-[10:51:00] @Get Tracy Signature
-[10:51:00] #signature from core0 = 628007760
-[10:51:00] signature from core0 passed!
-[10:51:00] @Set Opcode Value
-[10:51:00] @Set Comp Value
-[10:51:00] @Set Mask Value
-[10:51:00] @Set Opcode Value
-[10:51:00] @Set Comp Value
-[10:51:00] @Set Mask Value
-[10:51:00] @Set Opcode Value
-[10:51:00] @Set Comp Value
-[10:51:00] @Set Mask Value
-[10:51:00] @Set Then Num
-[10:51:00] @Set NEXT THEN
-[10:51:00] @Set Cnt Cntg
-[10:51:00] @Set Event Count
-[10:51:00] @Set Event Count
-[10:51:00] @Set Event Count
-[10:51:00] @Set Event Count
-[10:51:00] @Set Event Count
-[10:51:00] @Set Event Count
-[10:51:00] @Set Event Count
-[10:51:00] @Set Event Count
-[10:51:00] @Set Event Count
-[10:51:00] @Set Event Count
-[10:51:00] @Set Event Count
-[10:51:00] @Set Event Count
-[10:51:00] @Set Event Count
-[10:51:00] @Set Event Count
-[10:51:00] @Set Event Count
-[10:51:00] @Set Event Count
-[10:51:00] @Get BurstWrite CRC
-[10:51:00] @Set Truth Tbl Addr Cnter Init
-[10:51:00] @Set Truth Table Prog
-[10:51:00] Configuring in burst mode....
-[10:51:00] @Get BurstWrite CRC
-[10:51:00] @Enable TE Trig
-[10:51:00] @Enable Trig Output OR All readback
-[10:51:00] @Enable Trig Output OR All
-[10:51:00] @Enable Multiple Trig
-[10:51:00] @Set Pre-Trig Sample
-[10:51:00] @Set Post-Trig Sample
-[10:51:00] finished configuration of core0
-[10:51:00] Starting all active cores....
-[10:51:00] @ShiftIR,8,0,ER1
-[10:51:00] @ShiftDR,21,0,data (select active cores)
-[10:51:00] @ShiftIR,8,0,ER2
-[10:51:00] @Set LA Start cores
-[10:51:00] @UnlockCable
-[10:51:00] Running all active cores....
-[10:51:00] @LockCable
-[10:51:00] Polling trigger memory of core0....
-[10:51:00] @ShiftIR,8,0,ER1
-[10:51:00] @ShiftDR,21,0,data (select core0)
-[10:51:00] @ShiftIR,8,0,ER2
-[10:51:00] @Get Force Trigger bit
-[10:51:00] #TM_CTL_0=3
-[10:51:00] @Get Trig Detected Cnt
-[10:51:00] #numDetectedTriggers = 0
-[10:51:00] @Get Mem Block Full Cnt
-[10:51:00] #memFullCnt = 0
-[10:51:00] detected 0 triggers of core0
-[10:51:00] captured 0 memory blocks of core0
-[10:51:00] @UnlockCable
-[10:51:01] Running all active cores....
-[10:51:01] @LockCable
-[10:51:01] Polling trigger memory of core0....
-[10:51:01] @ShiftIR,8,0,ER1
-[10:51:01] @ShiftDR,21,0,data (select core0)
-[10:51:01] @ShiftIR,8,0,ER2
-[10:51:01] @Get Force Trigger bit
-[10:51:01] #TM_CTL_0=5
-[10:51:01] @Get Trig Detected Cnt
-[10:51:01] #numDetectedTriggers = 1
-[10:51:01] @Get Mem Block Full Cnt
-[10:51:01] #memFullCnt = 1
-[10:51:01] Downloading trigger memory of core0....
-[10:51:01] @Is LA Armed
-[10:51:01] @Set LA Start/Stop readback
-[10:51:01] @Set LA Start/Stop 
-[10:51:01] @Set LA Start/Stop readback
-[10:51:01] @Set LA Start/Stop 
-[10:51:01] @Get Trig Detected Cnt
-[10:51:01] #numDetectedTriggers = 1
-[10:51:01] @Get Mem Block Full Cnt
-[10:51:01] #memFullCnt = 1
-[10:51:01] @Get Last Addr Written
-[10:51:01] #lastAddrWritten = 552
-[10:51:01] @Get Multiple Trig Enbl
-[10:51:01] #traceWidth=74, userSelectedTriggers=1, numTrigEnable=1
-[10:51:01] @Get BurstRead CRC
-[10:51:01] @Set Trace Mem Cnter Init
-[10:51:01] Uploading in burst mode....
-[10:51:01] @ShiftDR,75776,1,data (burst read)
-[10:51:01] @GetTDO,data,75776
-[10:51:01] @Get BurstRead CRC
-[10:51:01] @Get BurstRead CRC
-[10:51:01] @Get Pre-Trig Sample Num
-[10:51:01] @Get Post-Trig Sample Num
-[10:51:01] @Get Pre-Trig Samples Captured
-[10:51:01] @Get Trig Ptr
-[10:51:01] #trigPtr = 426
-[10:51:01] #dataSize=10, numRead=1024, trace_out=1024
-[10:51:01] #trig0={blockPosition:0,triggerPosition:892}
-[10:51:01] finished download trigger memory of core0
-[10:51:01] @UnlockCable
-[10:51:01] @ReleaseCablePort
-[10:51:01] @Disconnect
-[10:51:01] All messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_debug.log
-Last closed: 周五 5月 23 11:21:02 2025
+First created: 周三 6月 4 09:55:04 2025
+[09:55:44] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
+[09:55:44] Connecting cableserver to run Reveal debugger....
+[09:55:52] @Connect
+[09:55:52] @SetSharableApplications,2,Reveal,Mico
+[09:55:52] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
+[09:55:52] @LockCable
+[09:55:52] @GetServerStatus
+[09:55:52] @Read
+[09:55:52] @SetTargetDevice,0
+[09:55:52] Connecting core0....
+[09:55:52] @ShiftIR,8,0,ER1
+[09:55:52] @ShiftDR,21,0,data (select core0)
+[09:55:52] @ShiftIR,8,0,ER2
+[09:55:52] Configuring core0....
+[09:55:52] @JumpState,RUN_TEST_IDLE
+[09:55:52] @JumpState,RUN_TEST_IDLE
+[09:55:52] @JumpState,RUN_TEST_IDLE
+[09:55:52] @ShiftIR,8,0,NOP
+[09:55:52] @JumpState,RUN_TEST_IDLE
+[09:55:52] @ShiftIR,8,0,ER2
+[09:55:52] @Set Odd Parity readback
+[09:55:52] @Set Odd Parity
+[09:55:52] @Set LA Start/Stop readback
+[09:55:52] @Set LA Start/Stop 
+[09:55:52] #Reveal IP Version = 1_6_042617
+[09:55:52] @Get Pattern
+[09:55:52] #pattern readout = a5a5
+[09:55:52] pattern readout passed!
+[09:55:52] @Get Tracy Signature
+[09:55:52] @Get Tracy Signature
+[09:55:52] #signature from core0 = 629604037
+[09:55:52] signature from core0 passed!
+[09:55:52] @Set Opcode Value
+[09:55:52] @Set Comp Value
+[09:55:52] @Set Mask Value
+[09:55:52] @Set Opcode Value
+[09:55:52] @Set Comp Value
+[09:55:52] @Set Mask Value
+[09:55:52] @Set Opcode Value
+[09:55:52] @Set Comp Value
+[09:55:52] @Set Mask Value
+[09:55:52] @Set Opcode Value
+[09:55:52] @Set Comp Value
+[09:55:52] @Set Mask Value
+[09:55:52] @Set Then Num
+[09:55:52] @Set NEXT THEN
+[09:55:52] @Set Cnt Cntg
+[09:55:52] @Set Event Count
+[09:55:52] @Set Event Count
+[09:55:52] @Set Event Count
+[09:55:52] @Set Event Count
+[09:55:52] @Set Event Count
+[09:55:52] @Set Event Count
+[09:55:52] @Set Event Count
+[09:55:52] @Set Event Count
+[09:55:52] @Set Event Count
+[09:55:52] @Set Event Count
+[09:55:52] @Set Event Count
+[09:55:52] @Set Event Count
+[09:55:52] @Set Event Count
+[09:55:52] @Set Event Count
+[09:55:52] @Set Event Count
+[09:55:52] @Set Event Count
+[09:55:52] @Get BurstWrite CRC
+[09:55:52] @Set Truth Tbl Addr Cnter Init
+[09:55:52] @Set Truth Table Prog
+[09:55:52] Configuring in burst mode....
+[09:55:52] @Get BurstWrite CRC
+[09:55:52] @Enable TE Trig
+[09:55:52] @Enable Trig Output OR All readback
+[09:55:52] @Enable Trig Output OR All
+[09:55:52] @Set Pre-Trig Sample
+[09:55:52] @Set Post-Trig Sample
+[09:55:52] finished configuration of core0
+[09:55:52] Starting all active cores....
+[09:55:52] @ShiftIR,8,0,ER1
+[09:55:52] @ShiftDR,21,0,data (select active cores)
+[09:55:52] @ShiftIR,8,0,ER2
+[09:55:52] @Set LA Start cores
+[09:55:52] @UnlockCable
+[09:55:52] Running all active cores....
+[09:55:52] @LockCable
+[09:55:52] Polling trigger memory of core0....
+[09:55:52] @ShiftIR,8,0,ER1
+[09:55:52] @ShiftDR,21,0,data (select core0)
+[09:55:52] @ShiftIR,8,0,ER2
+[09:55:52] @Get Force Trigger bit
+[09:55:52] #TM_CTL_0=5
+[09:55:52] @Get Trig Detected Cnt
+[09:55:52] #numDetectedTriggers = 1
+[09:55:52] @Get Mem Block Full Cnt
+[09:55:52] #memFullCnt = 1
+[09:55:52] Downloading trigger memory of core0....
+[09:55:52] @Is LA Armed
+[09:55:52] @Set LA Start/Stop readback
+[09:55:52] @Set LA Start/Stop 
+[09:55:52] @Set LA Start/Stop readback
+[09:55:52] @Set LA Start/Stop 
+[09:55:52] @Get Trig Detected Cnt
+[09:55:52] #numDetectedTriggers = 1
+[09:55:52] @Get Mem Block Full Cnt
+[09:55:52] #memFullCnt = 1
+[09:55:52] @Get Last Addr Written
+[09:55:52] #lastAddrWritten = 960
+[09:55:52] @Get Multiple Trig Enbl
+[09:55:52] #traceWidth=116, userSelectedTriggers=1, numTrigEnable=1
+[09:55:52] @Get BurstRead CRC
+[09:55:52] @Set Trace Mem Cnter Init
+[09:55:52] Uploading in burst mode....
+[09:55:52] @ShiftDR,118784,1,data (burst read)
+[09:55:52] @GetTDO,data,118784
+[09:55:52] @Get BurstRead CRC
+[09:55:52] @Get BurstRead CRC
+[09:55:52] @Get Pre-Trig Sample Num
+[09:55:52] @Get Post-Trig Sample Num
+[09:55:52] @Get Pre-Trig Samples Captured
+[09:55:52] @Get Trig Ptr
+[09:55:52] #trigPtr = 6
+[09:55:52] #dataSize=15, numRead=1024, trace_out=961
+[09:55:52] #trig0={blockPosition:0,triggerPosition:1}
+[09:55:52] finished download trigger memory of core0
+[09:55:52] @UnlockCable
+[09:55:52] @ReleaseCablePort
+[09:55:52] @Disconnect
+[09:55:52] All messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_debug.log
+[09:56:15] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
+[09:56:15] Connecting cableserver to run Reveal debugger....
+[09:56:15] @Connect
+[09:56:15] @SetSharableApplications,2,Reveal,Mico
+[09:56:25] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
+[09:56:25] ERROR: failed to set cable port (cable:USB port:EzUSB-0 error:-5). <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (2) and (5)</a>.
+[09:56:25] @Disconnect
+[09:56:27] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
+[09:56:27] Connecting cableserver to run Reveal debugger....
+[09:56:27] @Connect
+[09:56:27] @SetSharableApplications,2,Reveal,Mico
+[09:56:27] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
+[09:56:27] ERROR: failed to set cable port (cable:USB port:EzUSB-0 error:-1). <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (2) and (5)</a>.
+[09:56:27] @Disconnect
+[09:56:29] @ReleaseCablePort
+[09:56:29] @Disconnect
+[09:56:29] All messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_debug.log
+[09:56:51] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
+[09:56:51] Connecting cableserver to run Reveal debugger....
+[09:56:58] @Connect
+[09:56:58] @SetSharableApplications,2,Reveal,Mico
+[09:56:58] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
+[09:56:58] @LockCable
+[09:56:58] @GetServerStatus
+[09:56:58] @Read
+[09:56:58] @SetTargetDevice,0
+[09:56:58] Connecting core0....
+[09:56:58] @ShiftIR,8,0,ER1
+[09:56:58] @ShiftDR,21,0,data (select core0)
+[09:56:58] @ShiftIR,8,0,ER2
+[09:56:58] Configuring core0....
+[09:56:58] @JumpState,RUN_TEST_IDLE
+[09:56:58] @JumpState,RUN_TEST_IDLE
+[09:56:58] @JumpState,RUN_TEST_IDLE
+[09:56:58] @ShiftIR,8,0,NOP
+[09:56:58] @JumpState,RUN_TEST_IDLE
+[09:56:58] @ShiftIR,8,0,ER2
+[09:56:58] @Set Odd Parity readback
+[09:56:58] @Set Odd Parity
+[09:56:58] @Set LA Start/Stop readback
+[09:56:58] @Set LA Start/Stop 
+[09:56:58] #Reveal IP Version = 1_6_042617
+[09:56:58] @Get Pattern
+[09:56:58] #pattern readout = a5a5
+[09:56:58] pattern readout passed!
+[09:56:58] @Get Tracy Signature
+[09:56:58] @Get Tracy Signature
+[09:56:58] #signature from core0 = 629604037
+[09:56:58] signature from core0 passed!
+[09:56:58] @Set Opcode Value
+[09:56:58] @Set Comp Value
+[09:56:58] @Set Mask Value
+[09:56:58] @Set Opcode Value
+[09:56:58] @Set Comp Value
+[09:56:58] @Set Mask Value
+[09:56:58] @Set Opcode Value
+[09:56:58] @Set Comp Value
+[09:56:58] @Set Mask Value
+[09:56:58] @Set Opcode Value
+[09:56:58] @Set Comp Value
+[09:56:58] @Set Mask Value
+[09:56:58] @Set Then Num
+[09:56:58] @Set NEXT THEN
+[09:56:58] @Set Cnt Cntg
+[09:56:58] @Set Event Count
+[09:56:58] @Set Event Count
+[09:56:58] @Set Event Count
+[09:56:58] @Set Event Count
+[09:56:58] @Set Event Count
+[09:56:58] @Set Event Count
+[09:56:58] @Set Event Count
+[09:56:58] @Set Event Count
+[09:56:58] @Set Event Count
+[09:56:58] @Set Event Count
+[09:56:58] @Set Event Count
+[09:56:58] @Set Event Count
+[09:56:58] @Set Event Count
+[09:56:58] @Set Event Count
+[09:56:58] @Set Event Count
+[09:56:58] @Set Event Count
+[09:56:58] @Get BurstWrite CRC
+[09:56:58] @Set Truth Tbl Addr Cnter Init
+[09:56:58] @Set Truth Table Prog
+[09:56:58] Configuring in burst mode....
+[09:56:58] @Get BurstWrite CRC
+[09:56:58] @Enable TE Trig
+[09:56:58] @Enable Trig Output OR All readback
+[09:56:58] @Enable Trig Output OR All
+[09:56:58] @Set Pre-Trig Sample
+[09:56:58] @Set Post-Trig Sample
+[09:56:58] finished configuration of core0
+[09:56:58] Starting all active cores....
+[09:56:58] @ShiftIR,8,0,ER1
+[09:56:58] @ShiftDR,21,0,data (select active cores)
+[09:56:58] @ShiftIR,8,0,ER2
+[09:56:58] @Set LA Start cores
+[09:56:58] @UnlockCable
+[09:56:58] Running all active cores....
+[09:56:58] @LockCable
+[09:56:58] Polling trigger memory of core0....
+[09:56:58] @ShiftIR,8,0,ER1
+[09:56:58] @ShiftDR,21,0,data (select core0)
+[09:56:58] @ShiftIR,8,0,ER2
+[09:56:58] @Get Force Trigger bit
+[09:56:58] #TM_CTL_0=5
+[09:56:58] @Get Trig Detected Cnt
+[09:56:58] #numDetectedTriggers = 1
+[09:56:58] @Get Mem Block Full Cnt
+[09:56:58] #memFullCnt = 1
+[09:56:58] Downloading trigger memory of core0....
+[09:56:58] @Is LA Armed
+[09:56:58] @Set LA Start/Stop readback
+[09:56:58] @Set LA Start/Stop 
+[09:56:58] @Set LA Start/Stop readback
+[09:56:58] @Set LA Start/Stop 
+[09:56:58] @Get Trig Detected Cnt
+[09:56:58] #numDetectedTriggers = 1
+[09:56:58] @Get Mem Block Full Cnt
+[09:56:58] #memFullCnt = 1
+[09:56:58] @Get Last Addr Written
+[09:56:58] #lastAddrWritten = 401
+[09:56:58] @Get Multiple Trig Enbl
+[09:56:58] #traceWidth=116, userSelectedTriggers=1, numTrigEnable=1
+[09:56:58] @Get BurstRead CRC
+[09:56:58] @Set Trace Mem Cnter Init
+[09:56:58] Uploading in burst mode....
+[09:56:58] @ShiftDR,118784,1,data (burst read)
+[09:56:58] @GetTDO,data,118784
+[09:56:58] @Get BurstRead CRC
+[09:56:58] @Get BurstRead CRC
+[09:56:58] @Get Pre-Trig Sample Num
+[09:56:58] @Get Post-Trig Sample Num
+[09:56:58] @Get Pre-Trig Samples Captured
+[09:56:59] @Get Trig Ptr
+[09:56:59] #trigPtr = 6
+[09:56:59] #dataSize=15, numRead=1024, trace_out=402
+[09:56:59] #trig0={blockPosition:0,triggerPosition:1}
+[09:56:59] finished download trigger memory of core0
+[09:56:59] @UnlockCable
+[09:56:59] @ReleaseCablePort
+[09:56:59] @Disconnect
+[09:56:59] All messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_debug.log
+[09:58:07] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
+[09:58:07] Connecting cableserver to run Reveal debugger....
+[09:58:07] @Connect
+[09:58:07] @SetSharableApplications,2,Reveal,Mico
+[09:58:07] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
+[09:58:07] @LockCable
+[09:58:07] @GetServerStatus
+[09:58:07] @Read
+[09:58:07] @SetTargetDevice,0
+[09:58:07] Connecting core0....
+[09:58:07] @ShiftIR,8,0,ER1
+[09:58:07] @ShiftDR,21,0,data (select core0)
+[09:58:07] @ShiftIR,8,0,ER2
+[09:58:07] Configuring core0....
+[09:58:07] @JumpState,RUN_TEST_IDLE
+[09:58:07] @JumpState,RUN_TEST_IDLE
+[09:58:07] @JumpState,RUN_TEST_IDLE
+[09:58:07] @ShiftIR,8,0,NOP
+[09:58:07] @JumpState,RUN_TEST_IDLE
+[09:58:07] @ShiftIR,8,0,ER2
+[09:58:07] @Set Odd Parity readback
+[09:58:07] @Set Odd Parity
+[09:58:07] @Set LA Start/Stop readback
+[09:58:07] @Set LA Start/Stop 
+[09:58:07] #Reveal IP Version = 1_6_042617
+[09:58:07] @Get Pattern
+[09:58:07] #pattern readout = a5a5
+[09:58:07] pattern readout passed!
+[09:58:07] @Get Tracy Signature
+[09:58:07] @Get Tracy Signature
+[09:58:07] #signature from core0 = 629604037
+[09:58:07] signature from core0 passed!
+[09:58:07] @Set Opcode Value
+[09:58:07] @Set Comp Value
+[09:58:07] @Set Mask Value
+[09:58:07] @Set Opcode Value
+[09:58:07] @Set Comp Value
+[09:58:07] @Set Mask Value
+[09:58:07] @Set Opcode Value
+[09:58:07] @Set Comp Value
+[09:58:07] @Set Mask Value
+[09:58:07] @Set Opcode Value
+[09:58:07] @Set Comp Value
+[09:58:07] @Set Mask Value
+[09:58:07] @Set Then Num
+[09:58:07] @Set NEXT THEN
+[09:58:07] @Set Cnt Cntg
+[09:58:07] @Set Event Count
+[09:58:07] @Set Event Count
+[09:58:07] @Set Event Count
+[09:58:07] @Set Event Count
+[09:58:07] @Set Event Count
+[09:58:07] @Set Event Count
+[09:58:07] @Set Event Count
+[09:58:07] @Set Event Count
+[09:58:07] @Set Event Count
+[09:58:07] @Set Event Count
+[09:58:07] @Set Event Count
+[09:58:07] @Set Event Count
+[09:58:07] @Set Event Count
+[09:58:07] @Set Event Count
+[09:58:07] @Set Event Count
+[09:58:07] @Set Event Count
+[09:58:07] @Get BurstWrite CRC
+[09:58:07] @Set Truth Tbl Addr Cnter Init
+[09:58:07] @Set Truth Table Prog
+[09:58:07] Configuring in burst mode....
+[09:58:07] @Get BurstWrite CRC
+[09:58:07] @Enable TE Trig
+[09:58:07] @Enable Trig Output OR All readback
+[09:58:07] @Enable Trig Output OR All
+[09:58:07] @Set Pre-Trig Sample
+[09:58:07] @Set Post-Trig Sample
+[09:58:07] finished configuration of core0
+[09:58:07] Starting all active cores....
+[09:58:07] @ShiftIR,8,0,ER1
+[09:58:07] @ShiftDR,21,0,data (select active cores)
+[09:58:07] @ShiftIR,8,0,ER2
+[09:58:07] @Set LA Start cores
+[09:58:07] @UnlockCable
+[09:58:07] Running all active cores....
+[09:58:07] @LockCable
+[09:58:07] Polling trigger memory of core0....
+[09:58:07] @ShiftIR,8,0,ER1
+[09:58:07] @ShiftDR,21,0,data (select core0)
+[09:58:07] @ShiftIR,8,0,ER2
+[09:58:07] @Get Force Trigger bit
+[09:58:07] #TM_CTL_0=3
+[09:58:07] @Get Trig Detected Cnt
+[09:58:07] #numDetectedTriggers = 0
+[09:58:07] @Get Mem Block Full Cnt
+[09:58:07] #memFullCnt = 0
+[09:58:07] detected 0 triggers of core0
+[09:58:07] captured 0 memory blocks of core0
+[09:58:07] @UnlockCable
+[09:58:08] Running all active cores....
+[09:58:08] @LockCable
+[09:58:08] Polling trigger memory of core0....
+[09:58:08] @ShiftIR,8,0,ER1
+[09:58:08] @ShiftDR,21,0,data (select core0)
+[09:58:08] @ShiftIR,8,0,ER2
+[09:58:08] @Get Force Trigger bit
+[09:58:08] #TM_CTL_0=3
+[09:58:08] @Get Trig Detected Cnt
+[09:58:08] #numDetectedTriggers = 0
+[09:58:08] @Get Mem Block Full Cnt
+[09:58:08] #memFullCnt = 0
+[09:58:08] detected 0 triggers of core0
+[09:58:08] captured 0 memory blocks of core0
+[09:58:08] @UnlockCable
+[09:58:09] Running all active cores....
+[09:58:09] @LockCable
+[09:58:09] Polling trigger memory of core0....
+[09:58:09] @ShiftIR,8,0,ER1
+[09:58:09] @ShiftDR,21,0,data (select core0)
+[09:58:09] @ShiftIR,8,0,ER2
+[09:58:09] @Get Force Trigger bit
+[09:58:09] #TM_CTL_0=3
+[09:58:09] @Get Trig Detected Cnt
+[09:58:09] #numDetectedTriggers = 0
+[09:58:09] @Get Mem Block Full Cnt
+[09:58:09] #memFullCnt = 0
+[09:58:09] detected 0 triggers of core0
+[09:58:09] captured 0 memory blocks of core0
+[09:58:09] @UnlockCable
+[09:58:10] Running all active cores....
+[09:58:10] @LockCable
+[09:58:10] Polling trigger memory of core0....
+[09:58:10] @ShiftIR,8,0,ER1
+[09:58:10] @ShiftDR,21,0,data (select core0)
+[09:58:10] @ShiftIR,8,0,ER2
+[09:58:10] @Get Force Trigger bit
+[09:58:10] #TM_CTL_0=3
+[09:58:10] @Get Trig Detected Cnt
+[09:58:10] #numDetectedTriggers = 0
+[09:58:10] @Get Mem Block Full Cnt
+[09:58:10] #memFullCnt = 0
+[09:58:10] detected 0 triggers of core0
+[09:58:10] captured 0 memory blocks of core0
+[09:58:10] @UnlockCable
+[09:58:11] Running all active cores....
+[09:58:11] @LockCable
+[09:58:11] Polling trigger memory of core0....
+[09:58:11] @ShiftIR,8,0,ER1
+[09:58:11] @ShiftDR,21,0,data (select core0)
+[09:58:11] @ShiftIR,8,0,ER2
+[09:58:11] @Get Force Trigger bit
+[09:58:11] #TM_CTL_0=3
+[09:58:11] @Get Trig Detected Cnt
+[09:58:11] #numDetectedTriggers = 0
+[09:58:11] @Get Mem Block Full Cnt
+[09:58:11] #memFullCnt = 0
+[09:58:11] detected 0 triggers of core0
+[09:58:11] captured 0 memory blocks of core0
+[09:58:11] @UnlockCable
+[09:58:12] Running all active cores....
+[09:58:12] @LockCable
+[09:58:12] Polling trigger memory of core0....
+[09:58:12] @ShiftIR,8,0,ER1
+[09:58:12] @ShiftDR,21,0,data (select core0)
+[09:58:12] @ShiftIR,8,0,ER2
+[09:58:12] @Get Force Trigger bit
+[09:58:12] #TM_CTL_0=3
+[09:58:12] @Get Trig Detected Cnt
+[09:58:12] #numDetectedTriggers = 0
+[09:58:12] @Get Mem Block Full Cnt
+[09:58:12] #memFullCnt = 0
+[09:58:12] detected 0 triggers of core0
+[09:58:12] captured 0 memory blocks of core0
+[09:58:12] @UnlockCable
+[09:58:13] Running all active cores....
+[09:58:13] @LockCable
+[09:58:13] Polling trigger memory of core0....
+[09:58:13] @ShiftIR,8,0,ER1
+[09:58:13] @ShiftDR,21,0,data (select core0)
+[09:58:13] @ShiftIR,8,0,ER2
+[09:58:13] @Get Force Trigger bit
+[09:58:13] #TM_CTL_0=3
+[09:58:13] @Get Trig Detected Cnt
+[09:58:13] #numDetectedTriggers = 0
+[09:58:13] @Get Mem Block Full Cnt
+[09:58:13] #memFullCnt = 0
+[09:58:13] detected 0 triggers of core0
+[09:58:13] captured 0 memory blocks of core0
+[09:58:13] @UnlockCable
+[09:58:14] Running all active cores....
+[09:58:14] @LockCable
+[09:58:14] Polling trigger memory of core0....
+[09:58:14] @ShiftIR,8,0,ER1
+[09:58:14] @ShiftDR,21,0,data (select core0)
+[09:58:14] @ShiftIR,8,0,ER2
+[09:58:14] @Get Force Trigger bit
+[09:58:14] #TM_CTL_0=3
+[09:58:14] @Get Trig Detected Cnt
+[09:58:14] #numDetectedTriggers = 0
+[09:58:14] @Get Mem Block Full Cnt
+[09:58:14] #memFullCnt = 0
+[09:58:14] detected 0 triggers of core0
+[09:58:14] captured 0 memory blocks of core0
+[09:58:14] @UnlockCable
+[09:58:15] Running all active cores....
+[09:58:15] @LockCable
+[09:58:15] Polling trigger memory of core0....
+[09:58:15] @ShiftIR,8,0,ER1
+[09:58:15] @ShiftDR,21,0,data (select core0)
+[09:58:15] @ShiftIR,8,0,ER2
+[09:58:15] @Get Force Trigger bit
+[09:58:15] #TM_CTL_0=65535
+[09:58:15] ERROR: core0 stopped or lost power. <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (5)</a>.
+[09:58:15] @UnlockCable
+[09:58:15] @ReleaseCablePort
+[09:58:15] @Disconnect
+[09:58:15] All messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_debug.log
+[09:58:40] runProject on device [1. LFE5U-25F] using D:/Project/H100_FPGA/untitled12.rva [debug0513.rvl]
+[09:58:40] Connecting cableserver to run Reveal debugger....
+[09:58:40] @Connect
+[09:58:40] @SetSharableApplications,2,Reveal,Mico
+[09:58:40] @SetCablePort,USB,EzUSB-0,8,0,0,1,1,0,0,0,1
+[09:58:40] @LockCable
+[09:58:40] @GetServerStatus
+[09:58:40] @Read
+[09:58:40] @SetTargetDevice,0
+[09:58:40] Connecting core0....
+[09:58:40] @ShiftIR,8,0,ER1
+[09:58:40] @ShiftDR,21,0,data (select core0)
+[09:58:40] @ShiftIR,8,0,ER2
+[09:58:40] Configuring core0....
+[09:58:40] @JumpState,RUN_TEST_IDLE
+[09:58:40] @JumpState,RUN_TEST_IDLE
+[09:58:40] @JumpState,RUN_TEST_IDLE
+[09:58:40] @ShiftIR,8,0,NOP
+[09:58:40] @JumpState,RUN_TEST_IDLE
+[09:58:40] @ShiftIR,8,0,ER2
+[09:58:40] @Set Odd Parity readback
+[09:58:40] @Set Odd Parity
+[09:58:40] @Set LA Start/Stop readback
+[09:58:40] @Set LA Start/Stop 
+[09:58:40] #Reveal IP Version = 1_6_042617
+[09:58:40] @Get Pattern
+[09:58:40] #pattern readout = a5a5
+[09:58:40] pattern readout passed!
+[09:58:40] @Get Tracy Signature
+[09:58:40] @Get Tracy Signature
+[09:58:40] #signature from core0 = 629604037
+[09:58:40] signature from core0 passed!
+[09:58:40] @Set Opcode Value
+[09:58:40] @Set Comp Value
+[09:58:40] @Set Mask Value
+[09:58:40] @Set Opcode Value
+[09:58:40] @Set Comp Value
+[09:58:40] @Set Mask Value
+[09:58:40] @Set Opcode Value
+[09:58:40] @Set Comp Value
+[09:58:40] @Set Mask Value
+[09:58:40] @Set Opcode Value
+[09:58:40] @Set Comp Value
+[09:58:40] @Set Mask Value
+[09:58:40] @Set Then Num
+[09:58:40] @Set NEXT THEN
+[09:58:40] @Set Cnt Cntg
+[09:58:40] @Set Event Count
+[09:58:40] @Set Event Count
+[09:58:40] @Set Event Count
+[09:58:40] @Set Event Count
+[09:58:40] @Set Event Count
+[09:58:40] @Set Event Count
+[09:58:40] @Set Event Count
+[09:58:40] @Set Event Count
+[09:58:40] @Set Event Count
+[09:58:40] @Set Event Count
+[09:58:40] @Set Event Count
+[09:58:40] @Set Event Count
+[09:58:40] @Set Event Count
+[09:58:40] @Set Event Count
+[09:58:40] @Set Event Count
+[09:58:40] @Set Event Count
+[09:58:40] @Get BurstWrite CRC
+[09:58:40] @Set Truth Tbl Addr Cnter Init
+[09:58:40] @Set Truth Table Prog
+[09:58:40] Configuring in burst mode....
+[09:58:40] @Get BurstWrite CRC
+[09:58:40] @Enable TE Trig
+[09:58:40] @Enable Trig Output OR All readback
+[09:58:40] @Enable Trig Output OR All
+[09:58:40] @Set Pre-Trig Sample
+[09:58:40] @Set Post-Trig Sample
+[09:58:40] finished configuration of core0
+[09:58:40] Starting all active cores....
+[09:58:40] @ShiftIR,8,0,ER1
+[09:58:40] @ShiftDR,21,0,data (select active cores)
+[09:58:40] @ShiftIR,8,0,ER2
+[09:58:40] @Set LA Start cores
+[09:58:40] @UnlockCable
+[09:58:40] Running all active cores....
+[09:58:40] @LockCable
+[09:58:40] Polling trigger memory of core0....
+[09:58:40] @ShiftIR,8,0,ER1
+[09:58:40] @ShiftDR,21,0,data (select core0)
+[09:58:40] @ShiftIR,8,0,ER2
+[09:58:40] @Get Force Trigger bit
+[09:58:40] #TM_CTL_0=3
+[09:58:40] @Get Trig Detected Cnt
+[09:58:40] #numDetectedTriggers = 0
+[09:58:40] @Get Mem Block Full Cnt
+[09:58:40] #memFullCnt = 0
+[09:58:40] detected 0 triggers of core0
+[09:58:40] captured 0 memory blocks of core0
+[09:58:40] @UnlockCable
+[09:58:41] Running all active cores....
+[09:58:41] @LockCable
+[09:58:41] Polling trigger memory of core0....
+[09:58:41] @ShiftIR,8,0,ER1
+[09:58:41] @ShiftDR,21,0,data (select core0)
+[09:58:41] @ShiftIR,8,0,ER2
+[09:58:41] @Get Force Trigger bit
+[09:58:41] #TM_CTL_0=3
+[09:58:41] @Get Trig Detected Cnt
+[09:58:41] #numDetectedTriggers = 0
+[09:58:41] @Get Mem Block Full Cnt
+[09:58:41] #memFullCnt = 0
+[09:58:41] detected 0 triggers of core0
+[09:58:41] captured 0 memory blocks of core0
+[09:58:41] @UnlockCable
+[09:58:42] Running all active cores....
+[09:58:42] @LockCable
+[09:58:42] Polling trigger memory of core0....
+[09:58:42] @ShiftIR,8,0,ER1
+[09:58:42] @ShiftDR,21,0,data (select core0)
+[09:58:42] @ShiftIR,8,0,ER2
+[09:58:42] @Get Force Trigger bit
+[09:58:42] #TM_CTL_0=3
+[09:58:42] @Get Trig Detected Cnt
+[09:58:42] #numDetectedTriggers = 0
+[09:58:42] @Get Mem Block Full Cnt
+[09:58:42] #memFullCnt = 0
+[09:58:42] detected 0 triggers of core0
+[09:58:42] captured 0 memory blocks of core0
+[09:58:42] @UnlockCable
+[09:58:43] Running all active cores....
+[09:58:43] @LockCable
+[09:58:43] Polling trigger memory of core0....
+[09:58:43] @ShiftIR,8,0,ER1
+[09:58:43] @ShiftDR,21,0,data (select core0)
+[09:58:43] @ShiftIR,8,0,ER2
+[09:58:43] @Get Force Trigger bit
+[09:58:43] #TM_CTL_0=3
+[09:58:43] @Get Trig Detected Cnt
+[09:58:43] #numDetectedTriggers = 0
+[09:58:43] @Get Mem Block Full Cnt
+[09:58:43] #memFullCnt = 0
+[09:58:43] detected 0 triggers of core0
+[09:58:43] captured 0 memory blocks of core0
+[09:58:43] @UnlockCable
+[09:58:44] Running all active cores....
+[09:58:44] @LockCable
+[09:58:44] Polling trigger memory of core0....
+[09:58:44] @ShiftIR,8,0,ER1
+[09:58:44] @ShiftDR,21,0,data (select core0)
+[09:58:44] @ShiftIR,8,0,ER2
+[09:58:44] @Get Force Trigger bit
+[09:58:44] #TM_CTL_0=3
+[09:58:44] @Get Trig Detected Cnt
+[09:58:44] #numDetectedTriggers = 0
+[09:58:44] @Get Mem Block Full Cnt
+[09:58:44] #memFullCnt = 0
+[09:58:44] detected 0 triggers of core0
+[09:58:44] captured 0 memory blocks of core0
+[09:58:44] @UnlockCable
+[09:58:45] Running all active cores....
+[09:58:45] @LockCable
+[09:58:45] Polling trigger memory of core0....
+[09:58:45] @ShiftIR,8,0,ER1
+[09:58:45] @ShiftDR,21,0,data (select core0)
+[09:58:45] @ShiftIR,8,0,ER2
+[09:58:45] @Get Force Trigger bit
+[09:58:45] #TM_CTL_0=3
+[09:58:45] @Get Trig Detected Cnt
+[09:58:45] #numDetectedTriggers = 0
+[09:58:45] @Get Mem Block Full Cnt
+[09:58:45] #memFullCnt = 0
+[09:58:45] detected 0 triggers of core0
+[09:58:45] captured 0 memory blocks of core0
+[09:58:45] @UnlockCable
+[09:58:46] Running all active cores....
+[09:58:46] @LockCable
+[09:58:46] Polling trigger memory of core0....
+[09:58:46] @ShiftIR,8,0,ER1
+[09:58:46] @ShiftDR,21,0,data (select core0)
+[09:58:46] @ShiftIR,8,0,ER2
+[09:58:46] @Get Force Trigger bit
+[09:58:46] #TM_CTL_0=3
+[09:58:46] @Get Trig Detected Cnt
+[09:58:46] #numDetectedTriggers = 0
+[09:58:46] @Get Mem Block Full Cnt
+[09:58:46] #memFullCnt = 0
+[09:58:46] detected 0 triggers of core0
+[09:58:46] captured 0 memory blocks of core0
+[09:58:46] @UnlockCable
+[09:58:47] Running all active cores....
+[09:58:47] @LockCable
+[09:58:47] Polling trigger memory of core0....
+[09:58:47] @ShiftIR,8,0,ER1
+[09:58:47] @ShiftDR,21,0,data (select core0)
+[09:58:47] @ShiftIR,8,0,ER2
+[09:58:47] @Get Force Trigger bit
+[09:58:47] #TM_CTL_0=3
+[09:58:47] @Get Trig Detected Cnt
+[09:58:47] #numDetectedTriggers = 0
+[09:58:47] @Get Mem Block Full Cnt
+[09:58:47] #memFullCnt = 0
+[09:58:47] detected 0 triggers of core0
+[09:58:47] captured 0 memory blocks of core0
+[09:58:47] @UnlockCable
+[09:58:48] Running all active cores....
+[09:58:48] @LockCable
+[09:58:48] Polling trigger memory of core0....
+[09:58:48] @ShiftIR,8,0,ER1
+[09:58:48] @ShiftDR,21,0,data (select core0)
+[09:58:48] @ShiftIR,8,0,ER2
+[09:58:48] @Get Force Trigger bit
+[09:58:48] #TM_CTL_0=3
+[09:58:48] @Get Trig Detected Cnt
+[09:58:48] #numDetectedTriggers = 0
+[09:58:48] @Get Mem Block Full Cnt
+[09:58:48] #memFullCnt = 0
+[09:58:48] detected 0 triggers of core0
+[09:58:48] captured 0 memory blocks of core0
+[09:58:48] @UnlockCable
+[09:58:49] Running all active cores....
+[09:58:49] @LockCable
+[09:58:49] Polling trigger memory of core0....
+[09:58:49] @ShiftIR,8,0,ER1
+[09:58:49] @ShiftDR,21,0,data (select core0)
+[09:58:49] @ShiftIR,8,0,ER2
+[09:58:49] @Get Force Trigger bit
+[09:58:49] #TM_CTL_0=3
+[09:58:49] @Get Trig Detected Cnt
+[09:58:49] #numDetectedTriggers = 0
+[09:58:49] @Get Mem Block Full Cnt
+[09:58:49] #memFullCnt = 0
+[09:58:49] detected 0 triggers of core0
+[09:58:49] captured 0 memory blocks of core0
+[09:58:49] @UnlockCable
+[09:58:50] Running all active cores....
+[09:58:50] @LockCable
+[09:58:50] Polling trigger memory of core0....
+[09:58:50] @ShiftIR,8,0,ER1
+[09:58:50] @ShiftDR,21,0,data (select core0)
+[09:58:50] @ShiftIR,8,0,ER2
+[09:58:50] @Get Force Trigger bit
+[09:58:50] #TM_CTL_0=3
+[09:58:50] @Get Trig Detected Cnt
+[09:58:50] #numDetectedTriggers = 0
+[09:58:50] @Get Mem Block Full Cnt
+[09:58:50] #memFullCnt = 0
+[09:58:50] detected 0 triggers of core0
+[09:58:50] captured 0 memory blocks of core0
+[09:58:50] @UnlockCable
+[09:58:51] Running all active cores....
+[09:58:51] @LockCable
+[09:58:51] Polling trigger memory of core0....
+[09:58:51] @ShiftIR,8,0,ER1
+[09:58:51] @ShiftDR,21,0,data (select core0)
+[09:58:51] @ShiftIR,8,0,ER2
+[09:58:51] @Get Force Trigger bit
+[09:58:51] #TM_CTL_0=3
+[09:58:51] @Get Trig Detected Cnt
+[09:58:51] #numDetectedTriggers = 0
+[09:58:51] @Get Mem Block Full Cnt
+[09:58:51] #memFullCnt = 0
+[09:58:51] detected 0 triggers of core0
+[09:58:51] captured 0 memory blocks of core0
+[09:58:51] @UnlockCable
+[09:58:52] Running all active cores....
+[09:58:52] @LockCable
+[09:58:52] Polling trigger memory of core0....
+[09:58:52] @ShiftIR,8,0,ER1
+[09:58:52] @ShiftDR,21,0,data (select core0)
+[09:58:52] @ShiftIR,8,0,ER2
+[09:58:52] @Get Force Trigger bit
+[09:58:52] #TM_CTL_0=3
+[09:58:52] @Get Trig Detected Cnt
+[09:58:52] #numDetectedTriggers = 0
+[09:58:52] @Get Mem Block Full Cnt
+[09:58:52] #memFullCnt = 0
+[09:58:52] detected 0 triggers of core0
+[09:58:52] captured 0 memory blocks of core0
+[09:58:52] @UnlockCable
+[09:58:53] Running all active cores....
+[09:58:53] @LockCable
+[09:58:53] Polling trigger memory of core0....
+[09:58:53] @ShiftIR,8,0,ER1
+[09:58:53] @ShiftDR,21,0,data (select core0)
+[09:58:53] @ShiftIR,8,0,ER2
+[09:58:53] @Get Force Trigger bit
+[09:58:53] #TM_CTL_0=3
+[09:58:53] @Get Trig Detected Cnt
+[09:58:53] #numDetectedTriggers = 0
+[09:58:53] @Get Mem Block Full Cnt
+[09:58:53] #memFullCnt = 0
+[09:58:53] detected 0 triggers of core0
+[09:58:53] captured 0 memory blocks of core0
+[09:58:53] @UnlockCable
+[09:58:55] Running all active cores....
+[09:58:55] @LockCable
+[09:58:55] Polling trigger memory of core0....
+[09:58:55] @ShiftIR,8,0,ER1
+[09:58:55] @ShiftDR,21,0,data (select core0)
+[09:58:55] @ShiftIR,8,0,ER2
+[09:58:55] @Get Force Trigger bit
+[09:58:55] #TM_CTL_0=3
+[09:58:55] @Get Trig Detected Cnt
+[09:58:55] #numDetectedTriggers = 0
+[09:58:55] @Get Mem Block Full Cnt
+[09:58:55] #memFullCnt = 0
+[09:58:55] detected 0 triggers of core0
+[09:58:55] captured 0 memory blocks of core0
+[09:58:55] @UnlockCable
+[09:58:56] Running all active cores....
+[09:58:56] @LockCable
+[09:58:56] Polling trigger memory of core0....
+[09:58:56] @ShiftIR,8,0,ER1
+[09:58:56] @ShiftDR,21,0,data (select core0)
+[09:58:56] @ShiftIR,8,0,ER2
+[09:58:56] @Get Force Trigger bit
+[09:58:56] #TM_CTL_0=3
+[09:58:56] @Get Trig Detected Cnt
+[09:58:56] #numDetectedTriggers = 0
+[09:58:56] @Get Mem Block Full Cnt
+[09:58:56] #memFullCnt = 0
+[09:58:56] detected 0 triggers of core0
+[09:58:56] captured 0 memory blocks of core0
+[09:58:56] @UnlockCable
+[09:58:57] Running all active cores....
+[09:58:57] @LockCable
+[09:58:57] Polling trigger memory of core0....
+[09:58:57] @ShiftIR,8,0,ER1
+[09:58:57] @ShiftDR,21,0,data (select core0)
+[09:58:57] @ShiftIR,8,0,ER2
+[09:58:57] @Get Force Trigger bit
+[09:58:57] #TM_CTL_0=3
+[09:58:57] @Get Trig Detected Cnt
+[09:58:57] #numDetectedTriggers = 0
+[09:58:57] @Get Mem Block Full Cnt
+[09:58:57] #memFullCnt = 0
+[09:58:57] detected 0 triggers of core0
+[09:58:57] captured 0 memory blocks of core0
+[09:58:57] @UnlockCable
+[09:58:58] Running all active cores....
+[09:58:58] @LockCable
+[09:58:58] Polling trigger memory of core0....
+[09:58:58] @ShiftIR,8,0,ER1
+[09:58:58] @ShiftDR,21,0,data (select core0)
+[09:58:58] @ShiftIR,8,0,ER2
+[09:58:58] @Get Force Trigger bit
+[09:58:58] #TM_CTL_0=3
+[09:58:58] @Get Trig Detected Cnt
+[09:58:58] #numDetectedTriggers = 0
+[09:58:58] @Get Mem Block Full Cnt
+[09:58:58] #memFullCnt = 0
+[09:58:58] detected 0 triggers of core0
+[09:58:58] captured 0 memory blocks of core0
+[09:58:58] @UnlockCable
+[09:58:59] Running all active cores....
+[09:58:59] @LockCable
+[09:58:59] Polling trigger memory of core0....
+[09:58:59] @ShiftIR,8,0,ER1
+[09:58:59] @ShiftDR,21,0,data (select core0)
+[09:58:59] @ShiftIR,8,0,ER2
+[09:58:59] @Get Force Trigger bit
+[09:58:59] #TM_CTL_0=3
+[09:58:59] @Get Trig Detected Cnt
+[09:58:59] #numDetectedTriggers = 0
+[09:58:59] @Get Mem Block Full Cnt
+[09:58:59] #memFullCnt = 0
+[09:58:59] detected 0 triggers of core0
+[09:58:59] captured 0 memory blocks of core0
+[09:58:59] @UnlockCable
+[09:59:00] Running all active cores....
+[09:59:00] @LockCable
+[09:59:00] Polling trigger memory of core0....
+[09:59:00] @ShiftIR,8,0,ER1
+[09:59:00] @ShiftDR,21,0,data (select core0)
+[09:59:00] @ShiftIR,8,0,ER2
+[09:59:00] @Get Force Trigger bit
+[09:59:00] #TM_CTL_0=3
+[09:59:00] @Get Trig Detected Cnt
+[09:59:00] #numDetectedTriggers = 0
+[09:59:00] @Get Mem Block Full Cnt
+[09:59:00] #memFullCnt = 0
+[09:59:00] detected 0 triggers of core0
+[09:59:00] captured 0 memory blocks of core0
+[09:59:00] @UnlockCable
+[09:59:01] Running all active cores....
+[09:59:01] @LockCable
+[09:59:01] Polling trigger memory of core0....
+[09:59:01] @ShiftIR,8,0,ER1
+[09:59:01] @ShiftDR,21,0,data (select core0)
+[09:59:01] @ShiftIR,8,0,ER2
+[09:59:01] @Get Force Trigger bit
+[09:59:01] #TM_CTL_0=3
+[09:59:01] @Get Trig Detected Cnt
+[09:59:01] #numDetectedTriggers = 0
+[09:59:01] @Get Mem Block Full Cnt
+[09:59:01] #memFullCnt = 0
+[09:59:01] detected 0 triggers of core0
+[09:59:01] captured 0 memory blocks of core0
+[09:59:01] @UnlockCable
+[09:59:02] Running all active cores....
+[09:59:02] @LockCable
+[09:59:02] Polling trigger memory of core0....
+[09:59:02] @ShiftIR,8,0,ER1
+[09:59:02] @ShiftDR,21,0,data (select core0)
+[09:59:02] @ShiftIR,8,0,ER2
+[09:59:02] @Get Force Trigger bit
+[09:59:02] #TM_CTL_0=3
+[09:59:02] @Get Trig Detected Cnt
+[09:59:02] #numDetectedTriggers = 0
+[09:59:02] @Get Mem Block Full Cnt
+[09:59:02] #memFullCnt = 0
+[09:59:02] detected 0 triggers of core0
+[09:59:02] captured 0 memory blocks of core0
+[09:59:02] @UnlockCable
+[09:59:03] Running all active cores....
+[09:59:03] @LockCable
+[09:59:03] Polling trigger memory of core0....
+[09:59:03] @ShiftIR,8,0,ER1
+[09:59:03] @ShiftDR,21,0,data (select core0)
+[09:59:03] @ShiftIR,8,0,ER2
+[09:59:03] @Get Force Trigger bit
+[09:59:03] #TM_CTL_0=3
+[09:59:03] @Get Trig Detected Cnt
+[09:59:03] #numDetectedTriggers = 0
+[09:59:03] @Get Mem Block Full Cnt
+[09:59:03] #memFullCnt = 0
+[09:59:03] detected 0 triggers of core0
+[09:59:03] captured 0 memory blocks of core0
+[09:59:03] @UnlockCable
+[09:59:04] Running all active cores....
+[09:59:04] @LockCable
+[09:59:04] Polling trigger memory of core0....
+[09:59:04] @ShiftIR,8,0,ER1
+[09:59:04] @ShiftDR,21,0,data (select core0)
+[09:59:04] @ShiftIR,8,0,ER2
+[09:59:04] @Get Force Trigger bit
+[09:59:04] #TM_CTL_0=3
+[09:59:04] @Get Trig Detected Cnt
+[09:59:04] #numDetectedTriggers = 0
+[09:59:04] @Get Mem Block Full Cnt
+[09:59:04] #memFullCnt = 0
+[09:59:04] detected 0 triggers of core0
+[09:59:04] captured 0 memory blocks of core0
+[09:59:04] @UnlockCable
+[09:59:05] Running all active cores....
+[09:59:05] @LockCable
+[09:59:05] Polling trigger memory of core0....
+[09:59:05] @ShiftIR,8,0,ER1
+[09:59:05] @ShiftDR,21,0,data (select core0)
+[09:59:05] @ShiftIR,8,0,ER2
+[09:59:05] @Get Force Trigger bit
+[09:59:05] #TM_CTL_0=65535
+[09:59:05] ERROR: core0 stopped or lost power. <a href='file:///D:/lscc/diamond/3.12/docs/manuals/troubleshoot.pdf#FailurePoints'>See Reveal Troubleshooting Guide for more details on Failure Points (5)</a>.
+[09:59:05] @UnlockCable
+[09:59:05] @ReleaseCablePort
+[09:59:05] @Disconnect
+[09:59:05] All messages logged in file D:/Project/H100_FPGA/c25x_fpga/reveal_debug.log
+Last closed: 周三 6月 4 10:48:38 2025

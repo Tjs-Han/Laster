@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Fri May 23 11:39:24 2025
+Wed Jun 04 09:43:40 2025
 
 
 Command Line:  synthesis -f c25x_fpga_c25x_fpga_lattice.synproj -gui -msgset D:/Project/H100_FPGA/promote.xml 
@@ -108,90 +108,31 @@ WARNING - synthesis: Ignoring Constraint: create_clock -period 20.000000 -wavefo
 Top-level module name = c25x_fpga.
 WARNING - synthesis: No object with type NET found matching "w_pll_50m_2".
 WARNING - synthesis: Ignoring Constraint: create_clock -period 20.000000 -waveform { 0.000000 10.000000 } -name w_pll_50m_2 [ get_nets { w_pll_50m_2 } ].
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(35174): input port SER_CLK_P is not connected on this instance. VDB-1013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(36874): input port Reset is not connected on this instance. VDB-1013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41811): net w_recv_num[15] does not have a driver. VDB-1002
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45381): input port CIN is not connected on this instance. VDB-1013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45500): input port CIN is not connected on this instance. VDB-1013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45636): input port CIN is not connected on this instance. VDB-1013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45772): input port CIN is not connected on this instance. VDB-1013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45891): input port CIN is not connected on this instance. VDB-1013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(37222): net \U5/u2/u1/Reset does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(35378): input port SER_CLK_P is not connected on this instance. VDB-1013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(37140): input port Reset is not connected on this instance. VDB-1013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(42077): net w_recv_num[15] does not have a driver. VDB-1002
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45647): input port CIN is not connected on this instance. VDB-1013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45766): input port CIN is not connected on this instance. VDB-1013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(45902): input port CIN is not connected on this instance. VDB-1013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(46038): input port CIN is not connected on this instance. VDB-1013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(46157): input port CIN is not connected on this instance. VDB-1013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(37488): net \U5/u2/u1/Reset does not have a driver. VDB-1002
 ######## Missing driver on net \U8/w_recv_num[15]. Patching with GND.
 ######## Missing driver on net \U8/w_recv_num[14]. Patching with GND.
 ######## Missing driver on net \U8/w_recv_num[13]. Patching with GND.
 ######## Missing driver on net \U8/w_recv_num[12]. Patching with GND.
 ######## Missing driver on net \U5/u2/u1/Reset. Patching with GND.
-######## Missing driver on net n1354. Patching with GND.
-######## Missing driver on net n1353. Patching with GND.
-######## Missing driver on net n1352. Patching with GND.
-######## Missing driver on net n1351. Patching with GND.
-######## Missing driver on net n1350. Patching with GND.
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23283): Register \U2/U2/r_pwm_value_i0 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(27109): Register \U3/u3/U1/tempADValue[0]_i1 is stuck at One. VDB-5014
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(27109): Register \U3/u3/U1/tempADValue[0]_i2 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41083): Register \U7/r_byte_size_i1 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23283): Register \U2/U2/r_pwm_value_i1 is stuck at One. VDB-5014
+######## Missing driver on net n1492. Patching with GND.
+######## Missing driver on net n1491. Patching with GND.
+######## Missing driver on net n1490. Patching with GND.
+######## Missing driver on net n1489. Patching with GND.
+######## Missing driver on net n1488. Patching with GND.
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23427): Register \U2/U2/r_pwm_value_i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(27253): Register \U3/u3/U1/tempADValue[0]_i1 is stuck at One. VDB-5014
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(27253): Register \U3/u3/U1/tempADValue[0]_i2 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41349): Register \U7/r_byte_size_i1 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23427): Register \U2/U2/r_pwm_value_i1 is stuck at One. VDB-5014
 Removed duplicate sequential element \U5/U4/reso_mode(4 bit), because it is equivalent to \U2/U4/reso_mode
-
-INFO - synthesis: Extracted state machine for register '\U3/u2/state' with one-hot encoding
-original encoding -> new encoding (one-hot encoding)
-
- 00 -> 0001
-
- 01 -> 0010
-
- 10 -> 0100
-
- 11 -> 1000
-
-INFO - synthesis: Extracted state machine for register '\U3/u1/u1/state' with one-hot encoding
-original encoding -> new encoding (one-hot encoding)
-
- 000 -> 00001
-
- 001 -> 00010
-
- 010 -> 00100
-
- 011 -> 01000
-
- 100 -> 10000
-
-INFO - synthesis: Extracted state machine for register '\c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/state_cntr' with one-hot encoding
-original encoding -> new encoding (one-hot encoding)
-
- 0000 -> 0000000000000001
-
- 0001 -> 0000000000000010
-
- 0010 -> 0000000000000100
-
- 0011 -> 0000000000001000
-
- 0100 -> 0000000000010000
-
- 0101 -> 0000000000100000
-
- 0110 -> 0000000001000000
-
- 0111 -> 0000000010000000
-
- 1000 -> 0000000100000000
-
- 1001 -> 0000001000000000
-
- 1010 -> 0000010000000000
-
- 1011 -> 0000100000000000
-
- 1100 -> 0001000000000000
-
- 1101 -> 0010000000000000
-
- 1110 -> 0100000000000000
-
- 1111 -> 1000000000000000
 
 INFO - synthesis: Extracted state machine for register '\U3/u1/u1/clk_cnt' with one-hot encoding
 original encoding -> new encoding (one-hot encoding)
@@ -260,6 +201,30 @@ original encoding -> new encoding (one-hot encoding)
 
  11111 -> 10000000000000000000000000000000
 
+INFO - synthesis: Extracted state machine for register '\U3/u2/state' with one-hot encoding
+original encoding -> new encoding (one-hot encoding)
+
+ 00 -> 0001
+
+ 01 -> 0010
+
+ 10 -> 0100
+
+ 11 -> 1000
+
+INFO - synthesis: Extracted state machine for register '\U3/u1/u1/state' with one-hot encoding
+original encoding -> new encoding (one-hot encoding)
+
+ 000 -> 00001
+
+ 001 -> 00010
+
+ 010 -> 00100
+
+ 011 -> 01000
+
+ 100 -> 10000
+
 INFO - synthesis: Extracted state machine for register '\U5/u2/tdc_result_cnt' with one-hot encoding
 original encoding -> new encoding (one-hot encoding)
 
@@ -270,6 +235,41 @@ original encoding -> new encoding (one-hot encoding)
  10 -> 0100
 
  11 -> 1000
+
+INFO - synthesis: Extracted state machine for register '\c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/state_cntr' with one-hot encoding
+original encoding -> new encoding (one-hot encoding)
+
+ 0000 -> 0000000000000001
+
+ 0001 -> 0000000000000010
+
+ 0010 -> 0000000000000100
+
+ 0011 -> 0000000000001000
+
+ 0100 -> 0000000000010000
+
+ 0101 -> 0000000000100000
+
+ 0110 -> 0000000001000000
+
+ 0111 -> 0000000010000000
+
+ 1000 -> 0000000100000000
+
+ 1001 -> 0000001000000000
+
+ 1010 -> 0000010000000000
+
+ 1011 -> 0000100000000000
+
+ 1100 -> 0001000000000000
+
+ 1101 -> 0010000000000000
+
+ 1110 -> 0100000000000000
+
+ 1111 -> 1000000000000000
 
 INFO - synthesis: Extracted state machine for register '\U5/u2/current_state' with one-hot encoding
 original encoding -> new encoding (one-hot encoding)
@@ -373,17 +373,10 @@ WARNING - synthesis: Bit 17 of Register \U8/u5/r_sram_addr_base is stuck at Zero
 WARNING - synthesis: Bit 9 of Register \U8/u2/r_state is stuck at Zero
 WARNING - synthesis: Bit 10 of Register \U3/u3/U1/r_adc_value is stuck at Zero
 WARNING - synthesis: Bit 11 of Register \U3/u3/U1/r_adc_value is stuck at Zero
-WARNING - synthesis: Bit 1 of Register \U7/U2/u1/r_byte_size is stuck at Zero
-WARNING - synthesis: Bit 2 of Register \U7/U2/u1/r_byte_size is stuck at Zero
-WARNING - synthesis: Bit 3 of Register \U7/U2/u1/r_byte_size is stuck at Zero
-WARNING - synthesis: Bit 4 of Register \U7/U2/u1/r_byte_size is stuck at Zero
 WARNING - synthesis: Bit 6 of Register \U8/u1/u1/r_cmd is stuck at Zero
 WARNING - synthesis: Bit 7 of Register \U8/u1/u1/r_cmd is stuck at Zero
 WARNING - synthesis: Bit 3 of Register \U5/U3/U1/r_data_state is stuck at Zero
 WARNING - synthesis: Bit 0 of Register \U8/u3/u1/r_state is stuck at Zero
-WARNING - synthesis: Bit 0 of Register \c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/pt_cap_mem_addr is stuck at Zero
-WARNING - synthesis: Bit 1 of Register \c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/pt_cap_mem_addr is stuck at Zero
-WARNING - synthesis: Bit 2 of Register \c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/pt_cap_mem_addr is stuck at Zero
 WARNING - synthesis: Bit 3 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
 WARNING - synthesis: Bit 4 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
 WARNING - synthesis: Bit 5 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
@@ -399,6 +392,10 @@ WARNING - synthesis: Bit 14 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
 WARNING - synthesis: Bit 15 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
 WARNING - synthesis: Bit 16 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
 WARNING - synthesis: Bit 17 of Register \U7/r_sram_rdaddr_flash is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \U7/U2/u1/r_byte_size is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \U7/U2/u1/r_byte_size is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \U7/U2/u1/r_byte_size is stuck at Zero
+WARNING - synthesis: Bit 4 of Register \U7/U2/u1/r_byte_size is stuck at Zero
 WARNING - synthesis: Bit 0 of Register \U3/u5/r_pulse_valueE is stuck at Zero
 WARNING - synthesis: Bit 1 of Register \U3/u5/r_pulse_valueE is stuck at Zero
 WARNING - synthesis: Bit 2 of Register \U3/u5/r_pulse_valueE is stuck at Zero
@@ -528,60 +525,60 @@ Number of FIR filters recognized: 2
 ######### End FIR Info ########
 
 
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(50624): Register _add_1_26715_i7 clock is stuck at Zero. VDB-5035
-WARNING - synthesis: Bit 0 of Register _add_1_26715_e3 is stuck at Zero
-WARNING - synthesis: Bit 1 of Register _add_1_26715_e3 is stuck at Zero
-WARNING - synthesis: Bit 2 of Register _add_1_26715_e3 is stuck at Zero
-WARNING - synthesis: Bit 3 of Register _add_1_26715_e3 is stuck at Zero
-WARNING - synthesis: Bit 4 of Register _add_1_26715_e3 is stuck at Zero
-WARNING - synthesis: Bit 5 of Register _add_1_26715_e3 is stuck at Zero
-WARNING - synthesis: Bit 0 of Register add_26708_e3 is stuck at Zero
-WARNING - synthesis: Bit 1 of Register add_26708_e3 is stuck at Zero
-WARNING - synthesis: Bit 2 of Register add_26708_e3 is stuck at Zero
-WARNING - synthesis: Bit 3 of Register add_26708_e3 is stuck at Zero
-WARNING - synthesis: Bit 4 of Register add_26708_e3 is stuck at Zero
-WARNING - synthesis: Bit 5 of Register add_26708_e3 is stuck at Zero
-WARNING - synthesis: Bit 0 of Register add_26708_e2 is stuck at Zero
-WARNING - synthesis: Bit 1 of Register add_26708_e2 is stuck at Zero
-WARNING - synthesis: Bit 2 of Register add_26708_e2 is stuck at Zero
-WARNING - synthesis: Bit 3 of Register add_26708_e2 is stuck at Zero
-WARNING - synthesis: Bit 4 of Register add_26708_e2 is stuck at Zero
-WARNING - synthesis: Bit 5 of Register add_26708_e2 is stuck at Zero
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(49296): Register \U8/u3/u3/r_root_middle2_i7 clock is stuck at Zero. VDB-5035
-######## Missing driver on net n23169. Patching with GND.
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(50890): Register _add_1_26376_i7 clock is stuck at Zero. VDB-5035
+WARNING - synthesis: Bit 0 of Register _add_1_26376_e3 is stuck at Zero
+WARNING - synthesis: Bit 1 of Register _add_1_26376_e3 is stuck at Zero
+WARNING - synthesis: Bit 2 of Register _add_1_26376_e3 is stuck at Zero
+WARNING - synthesis: Bit 3 of Register _add_1_26376_e3 is stuck at Zero
+WARNING - synthesis: Bit 4 of Register _add_1_26376_e3 is stuck at Zero
+WARNING - synthesis: Bit 5 of Register _add_1_26376_e3 is stuck at Zero
+WARNING - synthesis: Bit 0 of Register add_26369_e3 is stuck at Zero
+WARNING - synthesis: Bit 1 of Register add_26369_e3 is stuck at Zero
+WARNING - synthesis: Bit 2 of Register add_26369_e3 is stuck at Zero
+WARNING - synthesis: Bit 3 of Register add_26369_e3 is stuck at Zero
+WARNING - synthesis: Bit 4 of Register add_26369_e3 is stuck at Zero
+WARNING - synthesis: Bit 5 of Register add_26369_e3 is stuck at Zero
+WARNING - synthesis: Bit 0 of Register add_26369_e2 is stuck at Zero
+WARNING - synthesis: Bit 1 of Register add_26369_e2 is stuck at Zero
+WARNING - synthesis: Bit 2 of Register add_26369_e2 is stuck at Zero
+WARNING - synthesis: Bit 3 of Register add_26369_e2 is stuck at Zero
+WARNING - synthesis: Bit 4 of Register add_26369_e2 is stuck at Zero
+WARNING - synthesis: Bit 5 of Register add_26369_e2 is stuck at Zero
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(49562): Register \U8/u3/u3/r_root_middle2_i7 clock is stuck at Zero. VDB-5035
+######## Missing driver on net n23220. Patching with GND.
 WARNING - synthesis: Bit 0 of Register \U8/u3/u3/r_ntp_state_ is stuck at Zero
 WARNING - synthesis: Bit 0 of Register \U8/u3/u2/r_state_ is stuck at Zero
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(35348): Register \U5/U1/r_angle_reso_i5 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38709): Register \U5/U4/r_angle_max_i0 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38709): Register \U5/U4/r_angle_max_i10 is stuck at One. VDB-5014
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(51344): Register \U8/u5/r_config_mode_i9 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23846): Register \U2/U4/reso_mode_i3 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(34348): Register \U5/U4/U3/r_divisor_i0_i9 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(40752): Register \U7/r_flash_rdaddr_i0 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(40811): Register \U7/r_page_rdnum_i0 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23224): Register \U2/U2/r_cnt_state_high_i0 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23466): Register \U2/U3/r_cnt_lower_i0 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41212): Register \U7/U2/r_cmd__i5 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(40834): Register \U7/r_page_num_i0 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(40752): Register \U7/r_flash_rdaddr_i19 is stuck at One. VDB-5014
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23224): Register \U2/U2/r_cnt_state_high_i5 is stuck at One. VDB-5014
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23466): Register \U2/U3/r_cnt_max_i18 is stuck at One. VDB-5014
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23875): Register \U2/U4/r_angle_cal_value_i12 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(43448): Register \U8/u1/r_sock_num_i1 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(26071): Register \U3/r_check_state__i0 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(51264): Register \U8/u5/r_set_para6_i0_i15 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38451): Register \U5/U3/U4/r_dist_value_i0_i0 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38582): Register \U5/U3/U4/U3/temp_b_i0_i0 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(44082): Register \U8/u1/u1/u1/r_data_in_i0 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38175): Register \U5/U3/U3/r_dist_state__i0 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(51546): Register \U8/u5/U1/r_index_state__i0 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23852): Register \U2/U4/freq_mode_i3 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(37758): Register \U5/U3/U2/r_rise_index_i0_i15 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(26820): Register \U3/u3/r_dac_state_i7 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(27247): Register \U3/u3/U1/r_temp_state__i9 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41376): Register \U7/U2/u1/r_byte_size__i4 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(43803): Register \U8/u1/u1/r_cmd__i5 is stuck at Zero. VDB-5013
-WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23885): Register _add_1_26724_e2_i0_i15 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(35584): Register \U5/U1/r_angle_reso_i5 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38975): Register \U5/U4/r_angle_max_i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38975): Register \U5/U4/r_angle_max_i10 is stuck at One. VDB-5014
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(51610): Register \U8/u5/r_config_mode_i9 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23990): Register \U2/U4/reso_mode_i3 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(34492): Register \U5/U4/U3/r_divisor_i0_i9 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41018): Register \U7/r_flash_rdaddr_i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41077): Register \U7/r_page_rdnum_i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23368): Register \U2/U2/r_cnt_state_high_i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23610): Register \U2/U3/r_cnt_lower_i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41100): Register \U7/r_page_num_i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41018): Register \U7/r_flash_rdaddr_i19 is stuck at One. VDB-5014
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23368): Register \U2/U2/r_cnt_state_high_i5 is stuck at One. VDB-5014
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23610): Register \U2/U3/r_cnt_max_i18 is stuck at One. VDB-5014
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(24019): Register \U2/U4/r_angle_cal_value_i12 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(43714): Register \U8/u1/r_sock_num_i1 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(51530): Register \U8/u5/r_set_para6_i0_i15 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(26215): Register \U3/r_check_state__i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38717): Register \U5/U3/U4/r_dist_value_i0_i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38848): Register \U5/U3/U4/U3/temp_b_i0_i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(44348): Register \U8/u1/u1/u1/r_data_in_i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38441): Register \U5/U3/U3/r_dist_state__i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(51812): Register \U8/u5/U1/r_index_state__i0 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(23996): Register \U2/U4/freq_mode_i3 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41478): Register \U7/U2/r_cmd__i5 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(38024): Register \U5/U3/U2/r_rise_index_i0_i15 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(26964): Register \U3/u3/r_dac_state_i7 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(27391): Register \U3/u3/U1/r_temp_state__i9 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(41642): Register \U7/U2/u1/r_byte_size__i4 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(44069): Register \U8/u1/u1/r_cmd__i5 is stuck at Zero. VDB-5013
+WARNING - synthesis: d:/project/h100_fpga/c25x_fpga/reveal_workspace/tmpreveal/c25x_fpga_rvl.v(24029): Register _add_1_26385_e2_i0_i15 is stuck at Zero. VDB-5013
 Duplicate register/latch removal. \U2/U2/r_cnt_state_low_i0 is a one-to-one match with \U2/U2/r_cnt_state_high_i4.
 Duplicate register/latch removal. \U2/U2/r_cnt_state_high_i10 is a one-to-one match with \U2/U2/r_cnt_state_high_i14.
 Duplicate register/latch removal. \U2/U2/r_cnt_state_high_i12 is a one-to-one match with \U2/U2/r_cnt_state_low_i0.
@@ -702,64 +699,37 @@ WARNING - synthesis: Initial value found on instance \U8/u5/r_device_name_i14 wi
 WARNING - synthesis: Initial value found on instance \U8/u5/r_angle_offset_i11 will be ignored.
 WARNING - synthesis: Initial value found on instance \U8/u5/r_angle_offset_i10 will be ignored.
 WARNING - synthesis: Initial value found on instance \U8/u5/r_angle_offset_i9 will be ignored.
-WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i4_57827_57828_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i0_57803_57804_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i5_57823_57824_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i6_57819_57820_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i9_57807_57808_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i0_57799_57800_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i7_57815_57816_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i1_57899_57900_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i2_57895_57896_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i3_57891_57892_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i4_57887_57888_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i5_57883_57884_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i6_57879_57880_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i7_57875_57876_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i8_57871_57872_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i9_57867_57868_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i10_57863_57864_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i11_57859_57860_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i12_57855_57856_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i13_57851_57852_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i14_57847_57848_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i8_57811_57812_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i15_57843_57844_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i1_57839_57840_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i2_57835_57836_set will be ignored.
-WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i3_57831_57832_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i6_57173_57174_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i0_57153_57154_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i7_57169_57170_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i8_57165_57166_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i9_57161_57162_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i0_57157_57158_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i1_57253_57254_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i2_57249_57250_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i3_57245_57246_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i4_57241_57242_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i5_57237_57238_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i6_57233_57234_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i7_57229_57230_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i8_57225_57226_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i9_57221_57222_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i10_57217_57218_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i11_57213_57214_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i12_57209_57210_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i13_57205_57206_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i14_57201_57202_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U2/U3/r_pwm_value_0_i15_57197_57198_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i1_57193_57194_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i2_57189_57190_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i3_57185_57186_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i4_57181_57182_set will be ignored.
+WARNING - synthesis: Initial value found on instance \U3/u3/r_dac_value_i0_i5_57177_57178_set will be ignored.
 WARNING - synthesis: mRegister \U2/U2/r_pwm_value_i4 is stuck at One
 WARNING - synthesis: mRegister \U2/U2/r_pwm_value_i9 is stuck at Zero
 WARNING - synthesis: mRegister \U2/U3/r_cnt_high_i8 is stuck at One
 WARNING - synthesis: mRegister \U2/U3/r_cnt_state_low_i18 is stuck at Zero
-Duplicate register/latch removal. \U3/u3/U1/r_divisor_i0_i15 is a one-to-one match with \U3/u3/U1/r_divisor_i0_i14.
-Duplicate register/latch removal. \U3/u3/U1/r_divisor_i0_i13 is a one-to-one match with \U3/u3/U1/r_divisor_i0_i15.
-Duplicate register/latch removal. \U3/u3/U1/r_divisor_i0_i12 is a one-to-one match with \U3/u3/U1/r_divisor_i0_i13.
-Duplicate register/latch removal. \U3/u3/U1/r_mult1_dataA_i0_i15 is a one-to-one match with \U3/u3/U1/r_mult1_dataA_i0_i14.
-Duplicate register/latch removal. \U3/u3/U1/r_mult1_dataA_i0_i13 is a one-to-one match with \U3/u3/U1/r_mult1_dataA_i0_i15.
-Duplicate register/latch removal. \U3/u3/U1/r_mult1_dataA_i0_i12 is a one-to-one match with \U3/u3/U1/r_mult1_dataA_i0_i13.
-Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i1 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i6.
-Duplicate register/latch removal. \U5/U3/U4/r_mult1_en_190 is a one-to-one match with \U5/U3/U4/r_mult2_en_192.
-Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i2 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i7.
-Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i3 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i8.
-Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i4 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i9.
-Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i5 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i10.
-Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i6 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i11.
-Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i7 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i12.
-Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i8 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i13.
-Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i9 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i14.
-Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i10 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i15.
-Duplicate register/latch removal. \U7/r_page_rdnum_i10 is a one-to-one match with \U7/r_page_rdnum_i9.
-Duplicate register/latch removal. \U7/U2/r_cmd__i7 is a one-to-one match with \U7/U2/r_cmd__i6.
-Duplicate register/latch removal. \U7/U2/r_cmd__i4 is a one-to-one match with \U7/U2/r_cmd__i3.
-Duplicate register/latch removal. \U7/r_page_rdnum_i10 is a one-to-one match with \U7/r_flash_rdaddr_i18.
-Duplicate register/latch removal. \U3/u3/U1/U2/r_divisor_i0_i12 is a one-to-one match with \U3/u3/U1/U2/r_divisor_i0_i15.
-Duplicate register/latch removal. \U3/u3/U1/U2/r_divisor_i0_i13 is a one-to-one match with \U3/u3/U1/U2/r_divisor_i0_i14.
-Duplicate register/latch removal. \U3/u3/U1/U2/r_divisor_i0_i12 is a one-to-one match with \U3/u3/U1/U2/r_divisor_i0_i13.
-Duplicate register/latch removal. _add_1_26724_e2_i0_i12 is a one-to-one match with _add_1_26724_e2_i0_i14.
-WARNING - synthesis: mRegister _add_1_26724_e2_i0_i12 is stuck at Zero
 WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i14 is stuck at Zero
-WARNING - synthesis: mRegister _add_1_26724_e2_i0_i13 is stuck at Zero
 WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i15 is stuck at Zero
 WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i16 is stuck at Zero
 WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i17 is stuck at Zero
@@ -778,8 +748,37 @@ WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i29 is stuck at Zero
 WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i30 is stuck at Zero
 WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i31 is stuck at Zero
 WARNING - synthesis: mRegister \U3/u1/u1/clk_cnt_FSM_i32 is stuck at Zero
-WARNING - synthesis: Mapping latch i57802 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57806 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+Duplicate register/latch removal. \U3/u3/U1/r_divisor_i0_i15 is a one-to-one match with \U3/u3/U1/r_divisor_i0_i14.
+Duplicate register/latch removal. \U3/u3/U1/r_divisor_i0_i13 is a one-to-one match with \U3/u3/U1/r_divisor_i0_i15.
+Duplicate register/latch removal. \U3/u3/U1/r_divisor_i0_i12 is a one-to-one match with \U3/u3/U1/r_divisor_i0_i13.
+Duplicate register/latch removal. \U3/u3/U1/r_mult1_dataA_i0_i15 is a one-to-one match with \U3/u3/U1/r_mult1_dataA_i0_i14.
+Duplicate register/latch removal. \U3/u3/U1/r_mult1_dataA_i0_i13 is a one-to-one match with \U3/u3/U1/r_mult1_dataA_i0_i15.
+Duplicate register/latch removal. \U3/u3/U1/r_mult1_dataA_i0_i12 is a one-to-one match with \U3/u3/U1/r_mult1_dataA_i0_i13.
+Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i1 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i6.
+Duplicate register/latch removal. \U5/U3/U4/r_mult1_en_190 is a one-to-one match with \U5/U3/U4/r_mult2_en_192.
+Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i2 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i7.
+Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i3 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i8.
+Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i4 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i9.
+Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i5 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i10.
+Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i6 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i11.
+Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i7 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i12.
+Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i8 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i13.
+Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i9 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i14.
+Duplicate register/latch removal. \U5/U3/U4/r_dist_index__i10 is a one-to-one match with \U5/U3/U4/r_dist_value_i0_i15.
+Duplicate register/latch removal. \c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/rd_dout_tm_i0_i10 is a one-to-one match with \c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/rd_dout_tm_i0_i13.
+Duplicate register/latch removal. \c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/rd_dout_tm_i0_i11 is a one-to-one match with \c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/rd_dout_tm_i0_i12.
+Duplicate register/latch removal. \c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/rd_dout_tm_i0_i14 is a one-to-one match with \c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/tm_u/rd_dout_tm_i0_i11.
+Duplicate register/latch removal. \U7/U2/r_cmd__i3 is a one-to-one match with \U7/U2/r_cmd__i4.
+Duplicate register/latch removal. \U7/U2/r_cmd__i6 is a one-to-one match with \U7/U2/r_cmd__i7.
+Duplicate register/latch removal. \U3/u3/U1/U2/r_divisor_i0_i12 is a one-to-one match with \U3/u3/U1/U2/r_divisor_i0_i15.
+Duplicate register/latch removal. \U3/u3/U1/U2/r_divisor_i0_i13 is a one-to-one match with \U3/u3/U1/U2/r_divisor_i0_i14.
+Duplicate register/latch removal. \U3/u3/U1/U2/r_divisor_i0_i12 is a one-to-one match with \U3/u3/U1/U2/r_divisor_i0_i13.
+Duplicate register/latch removal. \U7/r_page_rdnum_i10 is a one-to-one match with \U7/r_page_rdnum_i9.
+Duplicate register/latch removal. _add_1_26385_e2_i0_i12 is a one-to-one match with _add_1_26385_e2_i0_i14.
+WARNING - synthesis: mRegister _add_1_26385_e2_i0_i12 is stuck at Zero
+WARNING - synthesis: mRegister _add_1_26385_e2_i0_i13 is stuck at Zero
+WARNING - synthesis: Mapping latch i57156 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57160 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
 WARNING - synthesis: Mapping latch \U5/U8/o_rise_data_15__I_0_i1 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
 WARNING - synthesis: Mapping latch \U5/U8/o_fall_data_15__I_0_i1 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
 WARNING - synthesis: Mapping latch \U5/U8/o_rise_data_15__I_0_i2 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
@@ -812,30 +811,30 @@ WARNING - synthesis: Mapping latch \U5/U8/o_fall_data_15__I_0_i13 to logic since
 WARNING - synthesis: Mapping latch \U5/U8/o_fall_data_15__I_0_i14 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
 WARNING - synthesis: Mapping latch \U5/U8/o_fall_data_15__I_0_i15 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
 WARNING - synthesis: Mapping latch \U5/U8/o_fall_data_15__I_0_i16 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57810 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57814 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57818 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57822 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57826 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57830 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57834 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57838 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57842 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57846 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57850 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57854 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57858 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57862 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57866 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57870 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57874 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57878 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57882 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57886 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57890 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57894 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57898 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
-WARNING - synthesis: Mapping latch i57798 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57164 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57168 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57172 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57176 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57180 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57184 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57188 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57192 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57196 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57200 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57204 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57208 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57212 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57216 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57220 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57224 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57228 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57232 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57236 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57240 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57244 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57248 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57252 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
+WARNING - synthesis: Mapping latch i57152 to logic since no latches found in device. Possible simulation mismatch. Please check if or case statements
 Writing LPF file c25x_fpga_c25x_fpga.lpf.
 c25x_fpga_prim.v file will not be written because encrypted design file is being used
 
@@ -846,10 +845,8 @@ Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
 Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
 Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/data/neoprims.ngl'...
 Loading NGL library 'D:/lscc/diamond/3.12/ispfpga/data/neomacro.ngl'...
-Loading NGO design 'lngotmp/pmi_ram_dpebnonesadr1638163811890790.ngo'...
-Loading NGO design 'lngotmp/pmi_distributed_dpramebnoner105328f0007d.ngo'...
-Loading NGO design 'lngotmp/pmi_distributed_dpramebnoner164168f01b22.ngo'...
-Loading NGO design 'lngotmp/pmi_ram_dpebnonesadr74101024741010241218b3af.ngo'...
+Loading NGO design 'lngotmp/pmi_ram_dpebnonesadr164161641611acf346.ngo'...
+Loading NGO design 'lngotmp/pmi_ram_dpebnonesadr116101024116101024123c8424.ngo'...
 WARNING - synthesis: Port 'CLKOS' has no signal connected to it. Property 'FREQUENCY_PIN_CLKOS' is ignored for instance 'PLLInst_0'.
 Logic has been added to the IP to support JTAG capability.
 Loading NGO design 'D:/lscc/diamond/3.12/ispfpga/sa5p00/data/sa5phub.ngl'...
@@ -864,40 +861,38 @@ All blocks are expanded and NGD expansion is successful.
 Writing NGD file c25x_fpga_c25x_fpga.ngd.
 
 ################### Begin Area Report (c25x_fpga)######################
-Number of register bits => 7831 of 24879 (31 % )
+Number of register bits => 7955 of 24879 (31 % )
 AND2 => 3
 BB => 16
-CCU2C => 2622
+CCU2C => 2609
 DP16KD => 11
 EHXPLLL => 1
 FD1P3AX => 228
-FD1P3BX => 275
-FD1P3DX => 5455
+FD1P3BX => 278
+FD1P3DX => 5515
 FD1P3IX => 182
 FD1P3JX => 3
-FD1S3AX => 2
+FD1S3AX => 3
 FD1S3BX => 134
-FD1S3DX => 1414
-FD1S3IX => 131
+FD1S3DX => 1475
+FD1S3IX => 130
 FD1S3JX => 7
 GSR => 1
 IB => 7
 INV => 6
-L6MUX21 => 63
-LUT4 => 14105
+L6MUX21 => 44
+LUT4 => 14207
 MULT18X18D => 7
 MULT9X9D => 4
 OB => 51
 PDPW16KD => 4
-PFUMX => 974
+PFUMX => 993
 ROM16X1A => 2
 ROM256X1A => 1
 USRMCLK => 1
 XOR2 => 1
-pmi_distributed_dpramEbnoner105328f0007d => 1
-pmi_distributed_dpramEbnoner164168f01b22 => 1
-pmi_ram_dpEbnonesadr1638163811890790 => 1
-pmi_ram_dpEbnonesadr74101024741010241218b3af => 1
+pmi_ram_dpEbnonesadr116101024116101024123c8424 => 1
+pmi_ram_dpEbnonesadr164161641611acf346 => 1
 ################### End Area Report ##################
 
 ################### Begin BlackBox Report ######################
@@ -907,36 +902,36 @@ jtagconn16 => 1
 ################### Begin Clock Report ######################
 Clock Nets
 Number of Clocks: 5
-  Net : U1/w_pll_50m, loads : 7534
+  Net : U1/w_pll_50m, loads : 7571
   Net : U1/w_pll_100m, loads : 25
-  Net : U1/clk_N_9599, loads : 4
+  Net : U1/clk_N_9581, loads : 4
   Net : i_clk_50m_c, loads : 1
   Net : c25x_fpga_reveal_coretop_instance/jtck[0], loads : 1
 Clock Enable Nets
-Number of Clock Enables: 565
+Number of Clock Enables: 548
 Top 10 highest fanout Clock Enables:
-  Net : U8/u3/u1/o_ntp_server_get_63__N_12440, loads : 64
-  Net : U8/u3/u1/w_pll_50m_enable_4691, loads : 64
-  Net : U8/u3/u1/o_ntp_server_send_63__N_12444, loads : 64
-  Net : U5/U7/w_pll_50m_enable_2392, loads : 64
+  Net : U8/u3/u1/o_ntp_server_send_63__N_12426, loads : 64
+  Net : U8/u3/u1/w_pll_50m_enable_4676, loads : 64
   Net : U5/U3/U1/w_pll_50m_enable_3779, loads : 64
-  Net : U5/U3/U3/w_pll_50m_enable_3011, loads : 50
-  Net : c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17035_enable_165, loads : 50
-  Net : U8/u4/w_pll_50m_enable_1728, loads : 50
-  Net : U8/u5/w_pll_50m_enable_386, loads : 50
-  Net : U5/U6/w_pll_50m_enable_2512, loads : 50
+  Net : U8/u3/u1/o_ntp_server_get_63__N_12422, loads : 64
+  Net : U8/u5/w_pll_50m_enable_2605, loads : 50
+  Net : U5/U3/U3/w_pll_50m_enable_3023, loads : 50
+  Net : U8/u4/w_pll_50m_enable_1726, loads : 50
+  Net : c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17017_enable_222, loads : 50
+  Net : U8/u5/U2/w_pll_50m_enable_3574, loads : 50
+  Net : c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/jtag_int_u/jtck_N_17017_enable_174, loads : 50
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : U8/u1/n223102, loads : 3857
-  Net : U8/u3/u1/rst_n_N_9290, loads : 2376
-  Net : U8/n222503, loads : 437
-  Net : c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/tcnt_0/reset_rvl_n, loads : 396
-  Net : U8/u5/w_sram_addr_eth[0], loads : 392
-  Net : c25x_fpga_reveal_coretop_instance/jtck_N_17035, loads : 317
-  Net : c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/jrstn_N_17033, loads : 310
-  Net : U8/u1/r_state[0], loads : 270
-  Net : U8/u5/w_sram_addr_eth[1], loads : 269
-  Net : U8/u1/r_state[1], loads : 243
+  Net : U8/u1/n225953, loads : 3859
+  Net : U8/u3/u1/rst_n_N_9272, loads : 2377
+  Net : c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/tcnt_0/reset_rvl_n, loads : 430
+  Net : c25x_fpga_reveal_coretop_instance/jtck_N_17017, loads : 400
+  Net : c25x_fpga_reveal_coretop_instance/c25x_fpga_la0_inst_0/trig_u/te_0/jrstn_N_17015, loads : 395
+  Net : U8/u5/w_sram_addr_eth[0], loads : 388
+  Net : U8/u5/w_sram_addr_eth[1], loads : 270
+  Net : U8/u1/r_state[2], loads : 251
+  Net : U8/u1/r_state[0], loads : 250
+  Net : U8/u1/u1/r_state_5__N_9780[3], loads : 248
 ################### End Clock Report ##################
 
 Timing Report Summary
@@ -946,20 +941,20 @@ Constraint                              |   Constraint|       Actual|Levels
 --------------------------------------------------------------------------------
                                         |             |             |
 create_clock -period 10.000000 -name    |             |             |
-clk503 [get_nets clk_N_9599]            |            -|            -|     0  
+clk502 [get_nets clk_N_9581]            |            -|            -|     0  
                                         |             |             |
 create_clock -period 10.000000 -name    |             |             |
 clk501 [get_nets                        |             |             |
 \c25x_fpga_reveal_coretop_instance/jtck[|             |             |
-0]]                                     |  100.000 MHz|   84.104 MHz|     9 *
+0]]                                     |  100.000 MHz|   73.638 MHz|    13 *
                                         |             |             |
 create_clock -period 10.000000          |             |             |
 -waveform { 0.000000 5.000000 } -name   |             |             |
-w_pll_100m [ get_nets { w_pll_100m } ]  |  100.000 MHz|  131.631 MHz|     6  
+w_pll_100m [ get_nets { w_pll_100m } ]  |  100.000 MHz|  139.431 MHz|     5  
                                         |             |             |
 create_clock -period 20.000000          |             |             |
 -waveform { 0.000000 10.000000 } -name  |             |             |
-w_pll_50m [ get_nets { w_pll_50m_N } ]  |   50.000 MHz|   38.956 MHz|    25 *
+w_pll_50m [ get_nets { w_pll_50m_N } ]  |   50.000 MHz|   39.268 MHz|    27 *
                                         |             |             |
 create_clock -period 20.000000          |             |             |
 -waveform { 0.000000 10.000000 } -name  |             |             |
@@ -971,8 +966,8 @@ i_clk_50m [ get_ports { i_clk_50m } ]   |            -|            -|     0
 2 constraints not met.
 
 
-Peak Memory Usage: 458.309  MB
+Peak Memory Usage: 458.500  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 97.016  secs
+Elapsed CPU time for LSE flow : 90.094  secs
 --------------------------------------------------------------

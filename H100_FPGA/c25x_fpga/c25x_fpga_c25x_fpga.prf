@@ -1,5 +1,5 @@
 SCHEMATIC START ;
-# map:  version Diamond (64-bit) 3.12.0.240.2 -- WARNING: Map write only section -- Fri May 23 11:41:22 2025
+# map:  version Diamond (64-bit) 3.12.0.240.2 -- WARNING: Map write only section -- Wed Jun 04 09:45:31 2025
 
 SYSCONFIG SLAVE_SPI_PORT=DISABLE MASTER_SPI_PORT=DISABLE SLAVE_PARALLEL_PORT=DISABLE BACKGROUND_RECONFIG=OFF DONE_EX=OFF DONE_OD=ON DONE_PULL=ON MCCLK_FREQ=2.4 TRANSFR=OFF CONFIG_IOVOLTAGE=3.3 CONFIG_SECURE=OFF WAKE_UP=21 COMPRESS_CONFIG=OFF CONFIG_MODE=JTAG INBUF=OFF ;
 LOCATE COMP "io_sram_data[8]" SITE "J12" ;
@@ -51,6 +51,7 @@ LOCATE COMP "o_sram_addr[15]" SITE "M16" ;
 LOCATE COMP "o_sram_addr[16]" SITE "M15" ;
 LOCATE COMP "o_sram_addr[17]" SITE "J16" ;
 LOCATE COMP "o_sram_we_n" SITE "N16" ;
+LOCATE COMP "io_sram_data[15]" SITE "R13" ;
 LOCATE COMP "o_sram_oe_n" SITE "F15" ;
 LOCATE COMP "o_sram_lb_n" SITE "F14" ;
 LOCATE COMP "o_sram_ub_n" SITE "H13" ;
@@ -73,7 +74,6 @@ LOCATE COMP "io_sram_data[4]" SITE "L16" ;
 LOCATE COMP "io_sram_data[5]" SITE "P16" ;
 LOCATE COMP "io_sram_data[6]" SITE "R15" ;
 LOCATE COMP "io_sram_data[7]" SITE "T13" ;
-LOCATE COMP "io_sram_data[15]" SITE "R13" ;
 FREQUENCY NET "w_pll_50m" 50.000000 MHz ;
 FREQUENCY NET "i_clk_50m_c" 50.000000 MHz ;
 FREQUENCY NET "w_pll_100m" 100.000000 MHz ;
